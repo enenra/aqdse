@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <VoxelMaterials>
+    
+    <!-- This is to trick the spawn engine into not spawning iron. Replaces its VoxelMaterial with stone. -->
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>Iron_01</SubtypeId>
+      </Id>
+      <VoxelMaterial Enabled="false" />
+    </VoxelMaterial>
+
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>Iron_02</SubtypeId>
+      </Id>
+      <VoxelMaterial Enabled="false" />
+    </VoxelMaterial>
+
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>Nickel_01</SubtypeId>
+      </Id>
+      <VoxelMaterial Enabled="false" />
+    </VoxelMaterial>
+
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>Cobalt_01</SubtypeId>
+      </Id>
+      <VoxelMaterial Enabled="false" />
+    </VoxelMaterial>
+
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>Magnesium_01</SubtypeId>
+      </Id>
+      <VoxelMaterial Enabled="false" />
+    </VoxelMaterial>
+
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>Silicon_01</SubtypeId>
+      </Id>
+      <VoxelMaterial Enabled="false" />
+    </VoxelMaterial>
+
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>Silver_01</SubtypeId>
+      </Id>
+      <VoxelMaterial Enabled="false" />
+    </VoxelMaterial>
+
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>Gold_01</SubtypeId>
+      </Id>
+      <VoxelMaterial Enabled="false" />
+    </VoxelMaterial>
+
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>Platinum_01</SubtypeId>
+      </Id>
+      <VoxelMaterial Enabled="false" />
+    </VoxelMaterial>
+
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>Uraninite_01</SubtypeId>
+      </Id>
+      <VoxelMaterial Enabled="false" />
+    </VoxelMaterial>
+
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>Ice_01</SubtypeId>
+      </Id>
+      <VoxelMaterial Enabled="false" />
+    </VoxelMaterial>
+
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>Ice_02</SubtypeId>
+      </Id>
+      <VoxelMaterial Enabled="false" />
+    </VoxelMaterial>
+
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>Ice_03</SubtypeId>
+      </Id>
+      <VoxelMaterial Enabled="false" />
+    </VoxelMaterial>
+    
+  </VoxelMaterials>
+</Definitions>

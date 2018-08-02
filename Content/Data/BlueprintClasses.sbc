@@ -1,0 +1,924 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlueprintClasses>
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_ARCFurnace</SubtypeId>
+      </Id>
+      <DisplayName>ARC Furnace Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Refinery</SubtypeId>
+      </Id>
+      <DisplayName>Refinery Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Dedicated_Iron</SubtypeId>
+      </Id>
+      <DisplayName>Iron Refinery Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Dedicated_Copper</SubtypeId>
+      </Id>
+      <DisplayName>Copper Refinery Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Dedicated_Nickel</SubtypeId>
+      </Id>
+      <DisplayName>Nickel Refinery Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Dedicated_Cobalt</SubtypeId>
+      </Id>
+      <DisplayName>Cobalt Refinery Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Dedicated_Silicon</SubtypeId>
+      </Id>
+      <DisplayName>Silicon Refinery Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Dedicated_Magnesium</SubtypeId>
+      </Id>
+      <DisplayName>Magnesium Refinery Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Dedicated_Carbon</SubtypeId>
+      </Id>
+      <DisplayName>Carbon Refinery Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Dedicated_Silver</SubtypeId>
+      </Id>
+      <DisplayName>Silver Refinery Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Dedicated_Gold</SubtypeId>
+      </Id>
+      <DisplayName>Gold Refinery Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Dedicated_Uranium</SubtypeId>
+      </Id>
+      <DisplayName>Uranium Refinery Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Dedicated_Boron</SubtypeId>
+      </Id>
+      <DisplayName>Boron Refinery Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Dedicated_Titanium</SubtypeId>
+      </Id>
+      <DisplayName>Titanium Refinery Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Dedicated_Aluminium</SubtypeId>
+      </Id>
+      <DisplayName>Aluminium Refinery Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Dedicated_Platinum</SubtypeId>
+      </Id>
+      <DisplayName>Platinum Refinery Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Dedicated_Thorium</SubtypeId>
+      </Id>
+      <DisplayName>Thorium Refinery Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Dedicated_Beryllium</SubtypeId>
+      </Id>
+      <DisplayName>Beryllium Refinery Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Dedicated_Helium-3</SubtypeId>
+      </Id>
+      <DisplayName>Helium-3 Refinery Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Hematite_Crusher</SubtypeId>
+      </Id>
+      <DisplayName>Hematite Crusher Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Malachite_Crusher</SubtypeId>
+      </Id>
+      <DisplayName>Malachite Crusher Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Cattierite_Crusher</SubtypeId>
+      </Id>
+      <DisplayName>Cattierite Crusher Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Quartz_Crusher</SubtypeId>
+      </Id>
+      <DisplayName>Quartz Crusher Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Magnesite_Crusher</SubtypeId>
+      </Id>
+      <DisplayName>Magnesite Crusher Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Cobaltite_Crusher</SubtypeId>
+      </Id>
+      <DisplayName>Cobaltite Crusher Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Garnierite_Crusher</SubtypeId>
+      </Id>
+      <DisplayName>Garnierite Crusher Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Tetrahedrite_Crusher</SubtypeId>
+      </Id>
+      <DisplayName>Tetrahedrite Crusher Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Graphite_Crusher</SubtypeId>
+      </Id>
+      <DisplayName>Graphite Crusher Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_NativeSilver_Crusher</SubtypeId>
+      </Id>
+      <DisplayName>Native Silver Crusher Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_NativeGold_Crusher</SubtypeId>
+      </Id>
+      <DisplayName>Native Gold Crusher Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Carnotite_Crusher</SubtypeId>
+      </Id>
+      <DisplayName>Carnotite Crusher Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Borax_Crusher</SubtypeId>
+      </Id>
+      <DisplayName>Borax Crusher Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Electrum_Crusher</SubtypeId>
+      </Id>
+      <DisplayName>Electrum Crusher Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Ilmenite_Crusher</SubtypeId>
+      </Id>
+      <DisplayName>Ilmenite Crusher Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Bauxite_Crusher</SubtypeId>
+      </Id>
+      <DisplayName>Bauxite Crusher Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Sperrylite_Crusher</SubtypeId>
+      </Id>
+      <DisplayName>Sperrylite Crusher Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_NaturalThorium_Crusher</SubtypeId>
+      </Id>
+      <DisplayName>Natural Thorium Crusher Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Bertrandite_Crusher</SubtypeId>
+      </Id>
+      <DisplayName>Bertrandite Crusher Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Regolith_Crusher</SubtypeId>
+      </Id>
+      <DisplayName>Regolith Crusher Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Hematite_Purifier</SubtypeId>
+      </Id>
+      <DisplayName>Hematite Purifier Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Malachite_Purifier</SubtypeId>
+      </Id>
+      <DisplayName>Malachite Purifier Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Cattierite_Purifier</SubtypeId>
+      </Id>
+      <DisplayName>Cattierite Purifier Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Quartz_Purifier</SubtypeId>
+      </Id>
+      <DisplayName>Quartz Purifier Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Magnesite_Purifier</SubtypeId>
+      </Id>
+      <DisplayName>Magnesite Purifier Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Cobaltite_Purifier</SubtypeId>
+      </Id>
+      <DisplayName>Cobaltite Purifier Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Garnierite_Purifier</SubtypeId>
+      </Id>
+      <DisplayName>Garnierite Purifier Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Tetrahedrite_Purifier</SubtypeId>
+      </Id>
+      <DisplayName>Tetrahedrite Purifier Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Graphite_Purifier</SubtypeId>
+      </Id>
+      <DisplayName>Graphite Purifier Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_NativeSilver_Purifier</SubtypeId>
+      </Id>
+      <DisplayName>Native Silver Purifier Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_NativeGold_Purifier</SubtypeId>
+      </Id>
+      <DisplayName>Native Gold Purifier Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Carnotite_Purifier</SubtypeId>
+      </Id>
+      <DisplayName>Carnotite Purifier Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Borax_Purifier</SubtypeId>
+      </Id>
+      <DisplayName>Borax Purifier Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Electrum_Purifier</SubtypeId>
+      </Id>
+      <DisplayName>Electrum Purifier Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Ilmenite_Purifier</SubtypeId>
+      </Id>
+      <DisplayName>Ilmenite Purifier Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Bauxite_Purifier</SubtypeId>
+      </Id>
+      <DisplayName>Bauxite Purifier Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Sperrylite_Purifier</SubtypeId>
+      </Id>
+      <DisplayName>Sperrylite Purifier Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_NaturalThorium_Purifier</SubtypeId>
+      </Id>
+      <DisplayName>Natural Thorium Purifier Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Bertrandite_Purifier</SubtypeId>
+      </Id>
+      <DisplayName>Bertrandite Purifier Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_Ore_Regolith_Purifier</SubtypeId>
+      </Id>
+      <DisplayName>Regolith Purifier Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</OutputConstraintIcon>
+    </Class>
+  </BlueprintClasses>
+
+  <BlueprintClassEntries>
+    <Entry Class="AQD_Ore_ARCFurnace" BlueprintSubtypeId="ARCFurnace_HematiteOreToIronIngot"/>
+    <Entry Class="AQD_Ore_ARCFurnace" BlueprintSubtypeId="ARCFurnace_DenseHematiteOreToIronIngot"/>
+    <Entry Class="AQD_Ore_ARCFurnace" BlueprintSubtypeId="ARCFurnace_MalachiteOreToIronIngot"/>
+    <Entry Class="AQD_Ore_ARCFurnace" BlueprintSubtypeId="ARCFurnace_DenseMalachiteOreToIronIngot"/>
+    <Entry Class="AQD_Ore_ARCFurnace" BlueprintSubtypeId="ARCFurnace_TetrahedriteOreToIronIngot"/>
+    <Entry Class="AQD_Ore_ARCFurnace" BlueprintSubtypeId="ARCFurnace_DenseTetrahedriteOreToIronIngot"/>
+    <Entry Class="AQD_Ore_ARCFurnace" BlueprintSubtypeId="ARCFurnace_GarnieriteOreToIronIngot"/>
+    <Entry Class="AQD_Ore_ARCFurnace" BlueprintSubtypeId="ARCFurnace_DenseGarnieriteOreToIronIngot"/>
+    <Entry Class="AQD_Ore_Refinery" BlueprintSubtypeId="Refinery_QuartzOreToSiliconIngot"/>
+    <Entry Class="AQD_Ore_Refinery" BlueprintSubtypeId="Refinery_DenseQuartzOreToSiliconIngot"/>
+    <Entry Class="AQD_Ore_Refinery" BlueprintSubtypeId="Refinery_CobaltiteOreToCobaltIngot"/>
+    <Entry Class="AQD_Ore_Refinery" BlueprintSubtypeId="Refinery_DenseCobaltiteOreToCobaltIngot"/>
+    <Entry Class="AQD_Ore_Refinery" BlueprintSubtypeId="Refinery_MagnesiteOreToMagnesiumIngot"/>
+    <Entry Class="AQD_Ore_Refinery" BlueprintSubtypeId="Refinery_DenseMagnesiteOreToMagnesiumIngot"/>
+    <Entry Class="AQD_Ore_Refinery" BlueprintSubtypeId="Refinery_CattieriteOreToCobaltIngot"/>
+    <Entry Class="AQD_Ore_Refinery" BlueprintSubtypeId="Refinery_DenseCattieriteOreToCobaltIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Iron" BlueprintSubtypeId="Dedicated_HematiteOreToIronIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Iron" BlueprintSubtypeId="Dedicated_DenseHematiteOreToIronIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Iron" BlueprintSubtypeId="Dedicated_CrushedHematiteOreToIronIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Iron" BlueprintSubtypeId="Dedicated_CobaltiteOreToIronIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Iron" BlueprintSubtypeId="Dedicated_DenseCobaltiteOreToIronIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Iron" BlueprintSubtypeId="Dedicated_CrushedCobaltiteOreToIronIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Iron" BlueprintSubtypeId="Dedicated_TetrahedriteOreToIronIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Iron" BlueprintSubtypeId="Dedicated_DenseTetrahedriteOreToIronIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Iron" BlueprintSubtypeId="Dedicated_CrushedTetrahedriteOreToIronIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Iron" BlueprintSubtypeId="Dedicated_IlmeniteOreToIronIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Iron" BlueprintSubtypeId="Dedicated_DenseIlmeniteOreToIronIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Iron" BlueprintSubtypeId="Dedicated_CrushedIlmeniteOreToIronIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Copper" BlueprintSubtypeId="Dedicated_MalachiteOreToCopperIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Copper" BlueprintSubtypeId="Dedicated_DenseMalachiteOreToCopperIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Copper" BlueprintSubtypeId="Dedicated_CrushedMalachiteOreToCopperIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Copper" BlueprintSubtypeId="Dedicated_TetrahedriteOreToCopperIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Copper" BlueprintSubtypeId="Dedicated_DenseTetrahedriteOreToCopperIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Copper" BlueprintSubtypeId="Dedicated_CrushedTetrahedriteOreToCopperIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Copper" BlueprintSubtypeId="Dedicated_ElectrumOreToCopperIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Copper" BlueprintSubtypeId="Dedicated_DenseElectrumOreToCopperIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Copper" BlueprintSubtypeId="Dedicated_CrushedElectrumOreToCopperIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Nickel" BlueprintSubtypeId="Dedicated_MagnesiteOreToNickelIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Nickel" BlueprintSubtypeId="Dedicated_DenseMagnesiteOreToNickelIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Nickel" BlueprintSubtypeId="Dedicated_CrushedMagnesiteOreToNickelIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Nickel" BlueprintSubtypeId="Dedicated_CobaltiteOreToNickelIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Nickel" BlueprintSubtypeId="Dedicated_DenseCobaltiteOreToNickelIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Nickel" BlueprintSubtypeId="Dedicated_CrushedCobaltiteOreToNickelIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Nickel" BlueprintSubtypeId="Dedicated_GarnieriteOreToNickelIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Nickel" BlueprintSubtypeId="Dedicated_DenseGarnieriteOreToNickelIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Nickel" BlueprintSubtypeId="Dedicated_CrushedGarnieriteOreToNickelIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Cobalt" BlueprintSubtypeId="Dedicated_CattieriteOreToCobaltIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Cobalt" BlueprintSubtypeId="Dedicated_DenseCattieriteOreToCobaltIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Cobalt" BlueprintSubtypeId="Dedicated_CrushedCattieriteOreToCobaltIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Cobalt" BlueprintSubtypeId="Dedicated_MagnesiteOreToCobaltIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Cobalt" BlueprintSubtypeId="Dedicated_DenseMagnesiteOreToCobaltIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Cobalt" BlueprintSubtypeId="Dedicated_CrushedMagnesiteOreToCobaltIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Cobalt" BlueprintSubtypeId="Dedicated_CobaltiteOreToCobaltIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Cobalt" BlueprintSubtypeId="Dedicated_DenseCobaltiteOreToCobaltIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Cobalt" BlueprintSubtypeId="Dedicated_CrushedCobaltiteOreToCobaltIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Silicon" BlueprintSubtypeId="Dedicated_QuartzOreToSiliconIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Silicon" BlueprintSubtypeId="Dedicated_DenseQuartzOreToSiliconIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Silicon" BlueprintSubtypeId="Dedicated_CrushedQuartzOreToSiliconIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Magnesium" BlueprintSubtypeId="Dedicated_MagnesiteOreToMagnesiumIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Magnesium" BlueprintSubtypeId="Dedicated_DenseMagnesiteOreToMagnesiumIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Magnesium" BlueprintSubtypeId="Dedicated_CrushedMagnesiteOreToMagnesiumIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Magnesium" BlueprintSubtypeId="Dedicated_GarnieriteOreToMagnesiumIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Magnesium" BlueprintSubtypeId="Dedicated_DenseGarnieriteOreToMagnesiumIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Magnesium" BlueprintSubtypeId="Dedicated_CrushedGarnieriteOreToMagnesiumIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Magnesium" BlueprintSubtypeId="Dedicated_IlmeniteOreToMagnesiumIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Magnesium" BlueprintSubtypeId="Dedicated_DenseIlmeniteOreToMagnesiumIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Magnesium" BlueprintSubtypeId="Dedicated_CrushedIlmeniteOreToMagnesiumIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Carbon" BlueprintSubtypeId="Dedicated_GraphiteOreToCarbonIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Carbon" BlueprintSubtypeId="Dedicated_DenseGraphiteOreToCarbonIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Carbon" BlueprintSubtypeId="Dedicated_CrushedGraphiteOreToCarbonIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Silver" BlueprintSubtypeId="Dedicated_NativeSilverOreToSilverIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Silver" BlueprintSubtypeId="Dedicated_DenseNativeSilverOreToSilverIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Silver" BlueprintSubtypeId="Dedicated_CrushedNativeSilverOreToSilverIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Silver" BlueprintSubtypeId="Dedicated_ElectrumOreToSilverIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Silver" BlueprintSubtypeId="Dedicated_DenseElectrumOreToSilverIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Silver" BlueprintSubtypeId="Dedicated_CrushedElectrumOreToSilverIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Gold" BlueprintSubtypeId="Dedicated_NativeGoldOreToGoldIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Gold" BlueprintSubtypeId="Dedicated_DenseNativeGoldOreToGoldIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Gold" BlueprintSubtypeId="Dedicated_CrushedNativeGoldOreToGoldIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Gold" BlueprintSubtypeId="Dedicated_ElectrumOreToGoldIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Gold" BlueprintSubtypeId="Dedicated_DenseElectrumOreToGoldIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Gold" BlueprintSubtypeId="Dedicated_CrushedElectrumOreToGoldIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Uranium" BlueprintSubtypeId="Dedicated_CarnotiteOreToUraniumIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Uranium" BlueprintSubtypeId="Dedicated_DenseCarnotiteOreToUraniumIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Uranium" BlueprintSubtypeId="Dedicated_CrushedCarnotiteOreToUraniumIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Boron" BlueprintSubtypeId="Dedicated_BoraxOreToBoronIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Boron" BlueprintSubtypeId="Dedicated_DenseBoraxOreToBoronIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Boron" BlueprintSubtypeId="Dedicated_CrushedBoraxOreToBoronIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Titanium" BlueprintSubtypeId="Dedicated_IlmeniteOreToTitaniumIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Titanium" BlueprintSubtypeId="Dedicated_DenseIlmeniteOreToTitaniumIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Titanium" BlueprintSubtypeId="Dedicated_CrushedIlmeniteOreToTitaniumIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Titanium" BlueprintSubtypeId="Dedicated_BauxiteOreToTitaniumIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Titanium" BlueprintSubtypeId="Dedicated_DenseBauxiteOreToTitaniumIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Titanium" BlueprintSubtypeId="Dedicated_CrushedBauxiteOreToTitaniumIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Aluminium" BlueprintSubtypeId="Dedicated_BauxiteOreToAluminiumIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Aluminium" BlueprintSubtypeId="Dedicated_DenseBauxiteOreToAluminiumIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Aluminium" BlueprintSubtypeId="Dedicated_CrushedBauxiteOreToAluminiumIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Platinum" BlueprintSubtypeId="Dedicated_SperryliteOreToPlatinumIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Platinum" BlueprintSubtypeId="Dedicated_DenseSperryliteOreToPlatinumIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Platinum" BlueprintSubtypeId="Dedicated_CrushedSperryliteOreToPlatinumIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Thorium" BlueprintSubtypeId="Dedicated_NaturalThoriumOreToThoriumIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Thorium" BlueprintSubtypeId="Dedicated_DenseNaturalThoriumOreToThoriumIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Thorium" BlueprintSubtypeId="Dedicated_CrushedNaturalThoriumOreToThoriumIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Beryllium" BlueprintSubtypeId="Dedicated_BertranditeOreToBerylliumIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Beryllium" BlueprintSubtypeId="Dedicated_DenseBertranditeOreToBerylliumIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Beryllium" BlueprintSubtypeId="Dedicated_CrushedBertranditeOreToBerylliumIngot"/>
+    <Entry Class="AQD_Ore_Dedicated_Helium-3" BlueprintSubtypeId="Dedicated_RegolithOreToHelium-3Ingot"/>
+    <Entry Class="AQD_Ore_Dedicated_Helium-3" BlueprintSubtypeId="Dedicated_DenseRegolithOreToHelium-3Ingot"/>
+    <Entry Class="AQD_Ore_Dedicated_Helium-3" BlueprintSubtypeId="Dedicated_CrushedRegolithOreToHelium-3Ingot"/>
+    <Entry Class="AQD_Ore_Hematite_Crusher" BlueprintSubtypeId="Crusher_HematiteOreToCrushedHematiteOre"/>
+    <Entry Class="AQD_Ore_Hematite_Crusher" BlueprintSubtypeId="Crusher_DenseHematiteOreToCrushedHematiteOre"/>
+    <Entry Class="AQD_Ore_Hematite_Crusher" BlueprintSubtypeId="Crusher_PurifiedHematiteOreToCrushedHematiteOre"/>
+    <Entry Class="AQD_Ore_Malachite_Crusher" BlueprintSubtypeId="Crusher_MalachiteOreToCrushedMalachiteOre"/>
+    <Entry Class="AQD_Ore_Malachite_Crusher" BlueprintSubtypeId="Crusher_DenseMalachiteOreToCrushedMalachiteOre"/>
+    <Entry Class="AQD_Ore_Malachite_Crusher" BlueprintSubtypeId="Crusher_PurifiedMalachiteOreToCrushedMalachiteOre"/>
+    <Entry Class="AQD_Ore_Cattierite_Crusher" BlueprintSubtypeId="Crusher_CattieriteOreToCrushedCattieriteOre"/>
+    <Entry Class="AQD_Ore_Cattierite_Crusher" BlueprintSubtypeId="Crusher_DenseCattieriteOreToCrushedCattieriteOre"/>
+    <Entry Class="AQD_Ore_Cattierite_Crusher" BlueprintSubtypeId="Crusher_PurifiedCattieriteOreToCrushedCattieriteOre"/>
+    <Entry Class="AQD_Ore_Quartz_Crusher" BlueprintSubtypeId="Crusher_QuartzOreToCrushedQuartzOre"/>
+    <Entry Class="AQD_Ore_Quartz_Crusher" BlueprintSubtypeId="Crusher_DenseQuartzOreToCrushedQuartzOre"/>
+    <Entry Class="AQD_Ore_Quartz_Crusher" BlueprintSubtypeId="Crusher_PurifiedQuartzOreToCrushedQuartzOre"/>
+    <Entry Class="AQD_Ore_Magnesite_Crusher" BlueprintSubtypeId="Crusher_MagnesiteOreToCrushedMagnesiteOre"/>
+    <Entry Class="AQD_Ore_Magnesite_Crusher" BlueprintSubtypeId="Crusher_DenseMagnesiteOreToCrushedMagnesiteOre"/>
+    <Entry Class="AQD_Ore_Magnesite_Crusher" BlueprintSubtypeId="Crusher_PurifiedMagnesiteOreToCrushedMagnesiteOre"/>
+    <Entry Class="AQD_Ore_Cobaltite_Crusher" BlueprintSubtypeId="Crusher_CobaltiteOreToCrushedCobaltiteOre"/>
+    <Entry Class="AQD_Ore_Cobaltite_Crusher" BlueprintSubtypeId="Crusher_DenseCobaltiteOreToCrushedCobaltiteOre"/>
+    <Entry Class="AQD_Ore_Cobaltite_Crusher" BlueprintSubtypeId="Crusher_PurifiedCobaltiteOreToCrushedCobaltiteOre"/>
+    <Entry Class="AQD_Ore_Garnierite_Crusher" BlueprintSubtypeId="Crusher_GarnieriteOreToCrushedGarnieriteOre"/>
+    <Entry Class="AQD_Ore_Garnierite_Crusher" BlueprintSubtypeId="Crusher_DenseGarnieriteOreToCrushedGarnieriteOre"/>
+    <Entry Class="AQD_Ore_Garnierite_Crusher" BlueprintSubtypeId="Crusher_PurifiedGarnieriteOreToCrushedGarnieriteOre"/>
+    <Entry Class="AQD_Ore_Tetrahedrite_Crusher" BlueprintSubtypeId="Crusher_TetrahedriteOreToCrushedTetrahedriteOre"/>
+    <Entry Class="AQD_Ore_Tetrahedrite_Crusher" BlueprintSubtypeId="Crusher_DenseTetrahedriteOreToCrushedTetrahedriteOre"/>
+    <Entry Class="AQD_Ore_Tetrahedrite_Crusher" BlueprintSubtypeId="Crusher_PurifiedTetrahedriteOreToCrushedTetrahedriteOre"/>
+    <Entry Class="AQD_Ore_Graphite_Crusher" BlueprintSubtypeId="Crusher_GraphiteOreToCrushedGraphiteOre"/>
+    <Entry Class="AQD_Ore_Graphite_Crusher" BlueprintSubtypeId="Crusher_DenseGraphiteOreToCrushedGraphiteOre"/>
+    <Entry Class="AQD_Ore_Graphite_Crusher" BlueprintSubtypeId="Crusher_PurifiedGraphiteOreToCrushedGraphiteOre"/>
+    <Entry Class="AQD_Ore_NativeSilver_Crusher" BlueprintSubtypeId="Crusher_NativeSilverOreToCrushedNativeSilverOre"/>
+    <Entry Class="AQD_Ore_NativeSilver_Crusher" BlueprintSubtypeId="Crusher_DenseNativeSilverOreToCrushedNativeSilverOre"/>
+    <Entry Class="AQD_Ore_NativeSilver_Crusher" BlueprintSubtypeId="Crusher_PurifiedNativeSilverOreToCrushedNativeSilverOre"/>
+    <Entry Class="AQD_Ore_NativeGold_Crusher" BlueprintSubtypeId="Crusher_NativeGoldOreToCrushedNativeGoldOre"/>
+    <Entry Class="AQD_Ore_NativeGold_Crusher" BlueprintSubtypeId="Crusher_DenseNativeGoldOreToCrushedNativeGoldOre"/>
+    <Entry Class="AQD_Ore_NativeGold_Crusher" BlueprintSubtypeId="Crusher_PurifiedNativeGoldOreToCrushedNativeGoldOre"/>
+    <Entry Class="AQD_Ore_Carnotite_Crusher" BlueprintSubtypeId="Crusher_CarnotiteOreToCrushedCarnotiteOre"/>
+    <Entry Class="AQD_Ore_Carnotite_Crusher" BlueprintSubtypeId="Crusher_DenseCarnotiteOreToCrushedCarnotiteOre"/>
+    <Entry Class="AQD_Ore_Carnotite_Crusher" BlueprintSubtypeId="Crusher_PurifiedCarnotiteOreToCrushedCarnotiteOre"/>
+    <Entry Class="AQD_Ore_Borax_Crusher" BlueprintSubtypeId="Crusher_BoraxOreToCrushedBoraxOre"/>
+    <Entry Class="AQD_Ore_Borax_Crusher" BlueprintSubtypeId="Crusher_DenseBoraxOreToCrushedBoraxOre"/>
+    <Entry Class="AQD_Ore_Borax_Crusher" BlueprintSubtypeId="Crusher_PurifiedBoraxOreToCrushedBoraxOre"/>
+    <Entry Class="AQD_Ore_Electrum_Crusher" BlueprintSubtypeId="Crusher_ElectrumOreToCrushedElectrumOre"/>
+    <Entry Class="AQD_Ore_Electrum_Crusher" BlueprintSubtypeId="Crusher_DenseElectrumOreToCrushedElectrumOre"/>
+    <Entry Class="AQD_Ore_Electrum_Crusher" BlueprintSubtypeId="Crusher_PurifiedElectrumOreToCrushedElectrumOre"/>
+    <Entry Class="AQD_Ore_Ilmenite_Crusher" BlueprintSubtypeId="Crusher_IlmeniteOreToCrushedIlmeniteOre"/>
+    <Entry Class="AQD_Ore_Ilmenite_Crusher" BlueprintSubtypeId="Crusher_DenseIlmeniteOreToCrushedIlmeniteOre"/>
+    <Entry Class="AQD_Ore_Ilmenite_Crusher" BlueprintSubtypeId="Crusher_PurifiedIlmeniteOreToCrushedIlmeniteOre"/>
+    <Entry Class="AQD_Ore_Bauxite_Crusher" BlueprintSubtypeId="Crusher_BauxiteOreToCrushedBauxiteOre"/>
+    <Entry Class="AQD_Ore_Bauxite_Crusher" BlueprintSubtypeId="Crusher_DenseBauxiteOreToCrushedBauxiteOre"/>
+    <Entry Class="AQD_Ore_Bauxite_Crusher" BlueprintSubtypeId="Crusher_PurifiedBauxiteOreToCrushedBauxiteOre"/>
+    <Entry Class="AQD_Ore_Sperrylite_Crusher" BlueprintSubtypeId="Crusher_SperryliteOreToCrushedSperryliteOre"/>
+    <Entry Class="AQD_Ore_Sperrylite_Crusher" BlueprintSubtypeId="Crusher_DenseSperryliteOreToCrushedSperryliteOre"/>
+    <Entry Class="AQD_Ore_Sperrylite_Crusher" BlueprintSubtypeId="Crusher_PurifiedSperryliteOreToCrushedSperryliteOre"/>
+    <Entry Class="AQD_Ore_NaturalThorium_Crusher" BlueprintSubtypeId="Crusher_NaturalThoriumOreToCrushedNaturalThoriumOre"/>
+    <Entry Class="AQD_Ore_NaturalThorium_Crusher" BlueprintSubtypeId="Crusher_DenseNaturalThoriumOreToCrushedNaturalThoriumOre"/>
+    <Entry Class="AQD_Ore_NaturalThorium_Crusher" BlueprintSubtypeId="Crusher_PurifiedNaturalThoriumOreToCrushedNaturalThoriumOre"/>
+    <Entry Class="AQD_Ore_Bertrandite_Crusher" BlueprintSubtypeId="Crusher_BertranditeOreToCrushedBertranditeOre"/>
+    <Entry Class="AQD_Ore_Bertrandite_Crusher" BlueprintSubtypeId="Crusher_DenseBertranditeOreToCrushedBertranditeOre"/>
+    <Entry Class="AQD_Ore_Bertrandite_Crusher" BlueprintSubtypeId="Crusher_PurifiedBertranditeOreToCrushedBertranditeOre"/>
+    <Entry Class="AQD_Ore_Regolith_Crusher" BlueprintSubtypeId="Crusher_RegolithOreToCrushedRegolithOre"/>
+    <Entry Class="AQD_Ore_Regolith_Crusher" BlueprintSubtypeId="Crusher_DenseRegolithOreToCrushedRegolithOre"/>
+    <Entry Class="AQD_Ore_Regolith_Crusher" BlueprintSubtypeId="Crusher_PurifiedRegolithOreToCrushedRegolithOre"/>
+    <Entry Class="AQD_Ore_Hematite_Purifier" BlueprintSubtypeId="Purifier_HematiteOreToPurifiedHematiteOre"/>
+    <Entry Class="AQD_Ore_Hematite_Purifier" BlueprintSubtypeId="Purifier_DenseHematiteOreToPurifiedHematiteOre"/>
+    <Entry Class="AQD_Ore_Malachite_Purifier" BlueprintSubtypeId="Purifier_MalachiteOreToPurifiedMalachiteOre"/>
+    <Entry Class="AQD_Ore_Malachite_Purifier" BlueprintSubtypeId="Purifier_DenseMalachiteOreToPurifiedMalachiteOre"/>
+    <Entry Class="AQD_Ore_Cattierite_Purifier" BlueprintSubtypeId="Purifier_CattieriteOreToPurifiedCattieriteOre"/>
+    <Entry Class="AQD_Ore_Cattierite_Purifier" BlueprintSubtypeId="Purifier_DenseCattieriteOreToPurifiedCattieriteOre"/>
+    <Entry Class="AQD_Ore_Quartz_Purifier" BlueprintSubtypeId="Purifier_QuartzOreToPurifiedQuartzOre"/>
+    <Entry Class="AQD_Ore_Quartz_Purifier" BlueprintSubtypeId="Purifier_DenseQuartzOreToPurifiedQuartzOre"/>
+    <Entry Class="AQD_Ore_Magnesite_Purifier" BlueprintSubtypeId="Purifier_MagnesiteOreToPurifiedMagnesiteOre"/>
+    <Entry Class="AQD_Ore_Magnesite_Purifier" BlueprintSubtypeId="Purifier_DenseMagnesiteOreToPurifiedMagnesiteOre"/>
+    <Entry Class="AQD_Ore_Cobaltite_Purifier" BlueprintSubtypeId="Purifier_CobaltiteOreToPurifiedCobaltiteOre"/>
+    <Entry Class="AQD_Ore_Cobaltite_Purifier" BlueprintSubtypeId="Purifier_DenseCobaltiteOreToPurifiedCobaltiteOre"/>
+    <Entry Class="AQD_Ore_Garnierite_Purifier" BlueprintSubtypeId="Purifier_GarnieriteOreToPurifiedGarnieriteOre"/>
+    <Entry Class="AQD_Ore_Garnierite_Purifier" BlueprintSubtypeId="Purifier_DenseGarnieriteOreToPurifiedGarnieriteOre"/>
+    <Entry Class="AQD_Ore_Tetrahedrite_Purifier" BlueprintSubtypeId="Purifier_TetrahedriteOreToPurifiedTetrahedriteOre"/>
+    <Entry Class="AQD_Ore_Tetrahedrite_Purifier" BlueprintSubtypeId="Purifier_DenseTetrahedriteOreToPurifiedTetrahedriteOre"/>
+    <Entry Class="AQD_Ore_Graphite_Purifier" BlueprintSubtypeId="Purifier_GraphiteOreToPurifiedGraphiteOre"/>
+    <Entry Class="AQD_Ore_Graphite_Purifier" BlueprintSubtypeId="Purifier_DenseGraphiteOreToPurifiedGraphiteOre"/>
+    <Entry Class="AQD_Ore_NativeSilver_Purifier" BlueprintSubtypeId="Purifier_NativeSilverOreToPurifiedNativeSilverOre"/>
+    <Entry Class="AQD_Ore_NativeSilver_Purifier" BlueprintSubtypeId="Purifier_DenseNativeSilverOreToPurifiedNativeSilverOre"/>
+    <Entry Class="AQD_Ore_NativeGold_Purifier" BlueprintSubtypeId="Purifier_NativeGoldOreToPurifiedNativeGoldOre"/>
+    <Entry Class="AQD_Ore_NativeGold_Purifier" BlueprintSubtypeId="Purifier_DenseNativeGoldOreToPurifiedNativeGoldOre"/>
+    <Entry Class="AQD_Ore_Carnotite_Purifier" BlueprintSubtypeId="Purifier_CarnotiteOreToPurifiedCarnotiteOre"/>
+    <Entry Class="AQD_Ore_Carnotite_Purifier" BlueprintSubtypeId="Purifier_DenseCarnotiteOreToPurifiedCarnotiteOre"/>
+    <Entry Class="AQD_Ore_Borax_Purifier" BlueprintSubtypeId="Purifier_BoraxOreToPurifiedBoraxOre"/>
+    <Entry Class="AQD_Ore_Borax_Purifier" BlueprintSubtypeId="Purifier_DenseBoraxOreToPurifiedBoraxOre"/>
+    <Entry Class="AQD_Ore_Electrum_Purifier" BlueprintSubtypeId="Purifier_ElectrumOreToPurifiedElectrumOre"/>
+    <Entry Class="AQD_Ore_Electrum_Purifier" BlueprintSubtypeId="Purifier_DenseElectrumOreToPurifiedElectrumOre"/>
+    <Entry Class="AQD_Ore_Ilmenite_Purifier" BlueprintSubtypeId="Purifier_IlmeniteOreToPurifiedIlmeniteOre"/>
+    <Entry Class="AQD_Ore_Ilmenite_Purifier" BlueprintSubtypeId="Purifier_DenseIlmeniteOreToPurifiedIlmeniteOre"/>
+    <Entry Class="AQD_Ore_Bauxite_Purifier" BlueprintSubtypeId="Purifier_BauxiteOreToPurifiedBauxiteOre"/>
+    <Entry Class="AQD_Ore_Bauxite_Purifier" BlueprintSubtypeId="Purifier_DenseBauxiteOreToPurifiedBauxiteOre"/>
+    <Entry Class="AQD_Ore_Sperrylite_Purifier" BlueprintSubtypeId="Purifier_SperryliteOreToPurifiedSperryliteOre"/>
+    <Entry Class="AQD_Ore_Sperrylite_Purifier" BlueprintSubtypeId="Purifier_DenseSperryliteOreToPurifiedSperryliteOre"/>
+    <Entry Class="AQD_Ore_NaturalThorium_Purifier" BlueprintSubtypeId="Purifier_NaturalThoriumOreToPurifiedNaturalThoriumOre"/>
+    <Entry Class="AQD_Ore_NaturalThorium_Purifier" BlueprintSubtypeId="Purifier_DenseNaturalThoriumOreToPurifiedNaturalThoriumOre"/>
+    <Entry Class="AQD_Ore_Bertrandite_Purifier" BlueprintSubtypeId="Purifier_BertranditeOreToPurifiedBertranditeOre"/>
+    <Entry Class="AQD_Ore_Bertrandite_Purifier" BlueprintSubtypeId="Purifier_DenseBertranditeOreToPurifiedBertranditeOre"/>
+    <Entry Class="AQD_Ore_Regolith_Purifier" BlueprintSubtypeId="Purifier_RegolithOreToPurifiedRegolithOre"/>
+    <Entry Class="AQD_Ore_Regolith_Purifier" BlueprintSubtypeId="Purifier_DenseRegolithOreToPurifiedRegolithOre"/>
+  </BlueprintClassEntries>
+</Definitions>
