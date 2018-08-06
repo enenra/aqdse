@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!-- Created from AQD Spreadsheet on: 06-08-2018 22:38 -->
+<!-- Created from AQD Spreadsheet on: 06-08-2018 22:53 -->
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <VoxelMaterials>
     <VoxelMaterial>
@@ -19,10 +19,10 @@
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>21</SpecularPower>
       <SpecularShininess>0.632</SpecularShininess>
-      <VoxelHandPreview>Textures\Voxels\RockyIce_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\RockyIce_ForAxisXZ_cm.dds</ColorMetalXZnY>
-      <NormalGlossXZnY>Textures\Voxels\Stone_02_ForAxisXZ_ng.dds</NormalGlossXZnY>
-      <ExtXZnY>Textures\Voxels\Stone_02_ForAxisXZ_add.dds</ExtXZnY>
+      <VoxelHandPreview>Textures\Voxels\Ice_03_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Ice_03_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Ice_03_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Ice_03_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
     <VoxelMaterial>
       <Id>
@@ -38,10 +38,10 @@
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
-      <VoxelHandPreview>Textures\Voxels\Hematite_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\Hematite_ForAxisXZ_cm.dds</ColorMetalXZnY>
-      <NormalGlossXZnY>Textures\Voxels\Uraninite_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
-      <ExtXZnY>Textures\Voxels\Uraninite_01_ForAxisXZ_add.dds</ExtXZnY>
+      <VoxelHandPreview>Textures\Voxels\Iron_02_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Iron_02_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Iron_02_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Iron_02_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
     <VoxelMaterial>
       <Id>
@@ -57,10 +57,10 @@
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
-      <VoxelHandPreview>Textures\Voxels\Hematite_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\Hematite_ForAxisXZ_cm.dds</ColorMetalXZnY>
-      <NormalGlossXZnY>Textures\Voxels\Uraninite_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
-      <ExtXZnY>Textures\Voxels\Uraninite_01_ForAxisXZ_add.dds</ExtXZnY>
+      <VoxelHandPreview>Textures\Voxels\Iron_02_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Iron_02_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Iron_02_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Iron_02_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
     <VoxelMaterial>
       <Id>
@@ -76,8 +76,8 @@
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
-      <VoxelHandPreview>Textures\Voxels\Malachite_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\Malachite_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <VoxelHandPreview>Textures\Voxels\Nickel_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Nickel_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
       <NormalGlossXZnY>Textures\Voxels\Nickel_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\Nickel_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
@@ -95,8 +95,8 @@
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
-      <VoxelHandPreview>Textures\Voxels\Malachite_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\Malachite_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <VoxelHandPreview>Textures\Voxels\Nickel_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Nickel_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
       <NormalGlossXZnY>Textures\Voxels\Nickel_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\Nickel_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
@@ -114,8 +114,8 @@
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
-      <VoxelHandPreview>Textures\Voxels\Cattierite_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\Cattierite_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <VoxelHandPreview>Textures\Voxels\Magnesium_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Magnesium_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
       <NormalGlossXZnY>Textures\Voxels\Magnesium_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\Magnesium_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
@@ -133,8 +133,8 @@
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
-      <VoxelHandPreview>Textures\Voxels\Cattierite_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\Cattierite_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <VoxelHandPreview>Textures\Voxels\Magnesium_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Magnesium_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
       <NormalGlossXZnY>Textures\Voxels\Magnesium_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\Magnesium_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
@@ -152,8 +152,8 @@
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
-      <VoxelHandPreview>Textures\Voxels\Quartz_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\Quartz_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <VoxelHandPreview>Textures\Voxels\Ice_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Ice_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
       <NormalGlossXZnY>Textures\Voxels\Ice_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\Ice_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
@@ -171,8 +171,8 @@
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
-      <VoxelHandPreview>Textures\Voxels\Quartz_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\Quartz_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <VoxelHandPreview>Textures\Voxels\Ice_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Ice_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
       <NormalGlossXZnY>Textures\Voxels\Ice_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\Ice_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
@@ -190,8 +190,8 @@
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
-      <VoxelHandPreview>Textures\Voxels\Magnesite_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\Magnesite_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <VoxelHandPreview>Textures\Voxels\Magnesium_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Magnesium_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
       <NormalGlossXZnY>Textures\Voxels\Magnesium_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\Magnesium_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
@@ -209,8 +209,8 @@
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
-      <VoxelHandPreview>Textures\Voxels\Magnesite_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\Magnesite_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <VoxelHandPreview>Textures\Voxels\Magnesium_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Magnesium_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
       <NormalGlossXZnY>Textures\Voxels\Magnesium_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\Magnesium_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
@@ -228,8 +228,8 @@
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
-      <VoxelHandPreview>Textures\Voxels\Cobaltite_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\Cobaltite_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <VoxelHandPreview>Textures\Voxels\EarthStone_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\EarthStone_ForAxisXZ_cm.dds</ColorMetalXZnY>
       <NormalGlossXZnY>Textures\Voxels\EarthStone_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\EarthStone_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
@@ -247,8 +247,8 @@
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
-      <VoxelHandPreview>Textures\Voxels\Cobaltite_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\Cobaltite_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <VoxelHandPreview>Textures\Voxels\EarthStone_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\EarthStone_ForAxisXZ_cm.dds</ColorMetalXZnY>
       <NormalGlossXZnY>Textures\Voxels\EarthStone_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\EarthStone_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
@@ -266,10 +266,10 @@
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
-      <VoxelHandPreview>Textures\Voxels\Garnierite_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\Garnierite_ForAxisXZ_cm.dds</ColorMetalXZnY>
-      <NormalGlossXZnY>Textures\Voxels\Cobalt_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
-      <ExtXZnY>Textures\Voxels\Cobalt_01_ForAxisXZ_add.dds</ExtXZnY>
+      <VoxelHandPreview>Textures\Voxels\Nickel_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Nickel_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Nickel_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Nickel_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
     <VoxelMaterial>
       <Id>
@@ -285,10 +285,10 @@
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
-      <VoxelHandPreview>Textures\Voxels\Garnierite_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\Garnierite_ForAxisXZ_cm.dds</ColorMetalXZnY>
-      <NormalGlossXZnY>Textures\Voxels\Cobalt_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
-      <ExtXZnY>Textures\Voxels\Cobalt_01_ForAxisXZ_add.dds</ExtXZnY>
+      <VoxelHandPreview>Textures\Voxels\Nickel_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Nickel_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Nickel_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Nickel_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
     <VoxelMaterial>
       <Id>
@@ -304,8 +304,8 @@
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
-      <VoxelHandPreview>Textures\Voxels\Tetrahedrite_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\Tetrahedrite_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <VoxelHandPreview>Textures\Voxels\AlienSoil_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\AlienSoil_ForAxisXZ_cm.dds</ColorMetalXZnY>
       <NormalGlossXZnY>Textures\Voxels\AlienSoil_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\AlienSoil_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
@@ -323,8 +323,8 @@
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
-      <VoxelHandPreview>Textures\Voxels\Tetrahedrite_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\Tetrahedrite_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <VoxelHandPreview>Textures\Voxels\AlienSoil_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\AlienSoil_ForAxisXZ_cm.dds</ColorMetalXZnY>
       <NormalGlossXZnY>Textures\Voxels\AlienSoil_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\AlienSoil_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
@@ -342,8 +342,8 @@
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
-      <VoxelHandPreview>Textures\Voxels\Graphite_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\Graphite_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <VoxelHandPreview>Textures\Voxels\Silicon_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Silicon_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
       <NormalGlossXZnY>Textures\Voxels\Silicon_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\Silicon_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
@@ -361,8 +361,8 @@
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
-      <VoxelHandPreview>Textures\Voxels\Graphite_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\Graphite_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <VoxelHandPreview>Textures\Voxels\Silicon_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Silicon_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
       <NormalGlossXZnY>Textures\Voxels\Silicon_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\Silicon_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
@@ -380,8 +380,8 @@
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
-      <VoxelHandPreview>Textures\Voxels\NativeSilver_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\NativeSilver_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <VoxelHandPreview>Textures\Voxels\Silver_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Silver_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
       <NormalGlossXZnY>Textures\Voxels\Silver_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\Silver_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
@@ -399,8 +399,8 @@
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
-      <VoxelHandPreview>Textures\Voxels\NativeSilver_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\NativeSilver_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <VoxelHandPreview>Textures\Voxels\Silver_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Silver_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
       <NormalGlossXZnY>Textures\Voxels\Silver_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\Silver_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
@@ -418,8 +418,8 @@
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
-      <VoxelHandPreview>Textures\Voxels\NativeGold_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\NativeGold_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <VoxelHandPreview>Textures\Voxels\Gold_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Gold_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
       <NormalGlossXZnY>Textures\Voxels\Gold_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\Gold_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
@@ -437,8 +437,8 @@
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
-      <VoxelHandPreview>Textures\Voxels\NativeGold_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\NativeGold_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <VoxelHandPreview>Textures\Voxels\Gold_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Gold_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
       <NormalGlossXZnY>Textures\Voxels\Gold_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\Gold_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
@@ -456,10 +456,10 @@
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
-      <VoxelHandPreview>Textures\Voxels\Carnotite_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\Carnotite_ForAxisXZ_cm.dds</ColorMetalXZnY>
-      <NormalGlossXZnY>Textures\Voxels\Silver_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
-      <ExtXZnY>Textures\Voxels\Silver_01_ForAxisXZ_add.dds</ExtXZnY>
+      <VoxelHandPreview>Textures\Voxels\MarsRocks_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\MarsRocks_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\MarsRocks_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\MarsRocks_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
     <VoxelMaterial>
       <Id>
@@ -475,10 +475,10 @@
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
-      <VoxelHandPreview>Textures\Voxels\Carnotite_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\Carnotite_ForAxisXZ_cm.dds</ColorMetalXZnY>
-      <NormalGlossXZnY>Textures\Voxels\Silver_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
-      <ExtXZnY>Textures\Voxels\Silver_01_ForAxisXZ_add.dds</ExtXZnY>
+      <VoxelHandPreview>Textures\Voxels\MarsRocks_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\MarsRocks_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\MarsRocks_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\MarsRocks_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
     <VoxelMaterial>
       <Id>
@@ -494,8 +494,8 @@
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
-      <VoxelHandPreview>Textures\Voxels\Borax_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\Borax_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <VoxelHandPreview>Textures\Voxels\Snow_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Snow_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
       <NormalGlossXZnY>Textures\Voxels\Snow_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\Snow_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
@@ -513,8 +513,8 @@
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
-      <VoxelHandPreview>Textures\Voxels\Borax_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\Borax_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <VoxelHandPreview>Textures\Voxels\Snow_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Snow_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
       <NormalGlossXZnY>Textures\Voxels\Snow_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\Snow_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
@@ -532,10 +532,10 @@
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
-      <VoxelHandPreview>Textures\Voxels\Electrum_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\Electrum_ForAxisXZ_cm.dds</ColorMetalXZnY>
-      <NormalGlossXZnY>Textures\Voxels\Platinum_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
-      <ExtXZnY>Textures\Voxels\Platinum_01_ForAxisXZ_add.dds</ExtXZnY>
+      <VoxelHandPreview>Textures\Voxels\Sand_02_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Sand_02_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Sand_02_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Sand_02_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
     <VoxelMaterial>
       <Id>
@@ -551,10 +551,10 @@
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
-      <VoxelHandPreview>Textures\Voxels\Electrum_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\Electrum_ForAxisXZ_cm.dds</ColorMetalXZnY>
-      <NormalGlossXZnY>Textures\Voxels\Platinum_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
-      <ExtXZnY>Textures\Voxels\Platinum_01_ForAxisXZ_add.dds</ExtXZnY>
+      <VoxelHandPreview>Textures\Voxels\Sand_02_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Sand_02_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Sand_02_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Sand_02_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
     <VoxelMaterial>
       <Id>
@@ -570,8 +570,8 @@
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
-      <VoxelHandPreview>Textures\Voxels\Ilmenite_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\Ilmenite_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <VoxelHandPreview>Textures\Voxels\Uraninite_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Uraninite_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
       <NormalGlossXZnY>Textures\Voxels\Uraninite_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\Uraninite_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
@@ -589,8 +589,8 @@
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
-      <VoxelHandPreview>Textures\Voxels\Ilmenite_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\Ilmenite_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <VoxelHandPreview>Textures\Voxels\Uraninite_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Uraninite_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
       <NormalGlossXZnY>Textures\Voxels\Uraninite_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\Uraninite_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
@@ -608,8 +608,8 @@
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
-      <VoxelHandPreview>Textures\Voxels\Bauxite_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\Bauxite_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <VoxelHandPreview>Textures\Voxels\AlienRockyTerrain_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\AlienRockyTerrain_ForAxisXZ_cm.dds</ColorMetalXZnY>
       <NormalGlossXZnY>Textures\Voxels\AlienRockyTerrain_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\AlienRockyTerrain_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
@@ -627,8 +627,8 @@
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
-      <VoxelHandPreview>Textures\Voxels\Bauxite_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\Bauxite_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <VoxelHandPreview>Textures\Voxels\AlienRockyTerrain_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\AlienRockyTerrain_ForAxisXZ_cm.dds</ColorMetalXZnY>
       <NormalGlossXZnY>Textures\Voxels\AlienRockyTerrain_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\AlienRockyTerrain_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
@@ -646,8 +646,8 @@
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
-      <VoxelHandPreview>Textures\Voxels\Sperrylite_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\Sperrylite_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <VoxelHandPreview>Textures\Voxels\Platinum_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Platinum_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
       <NormalGlossXZnY>Textures\Voxels\Platinum_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\Platinum_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
@@ -665,8 +665,8 @@
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
-      <VoxelHandPreview>Textures\Voxels\Sperrylite_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\Sperrylite_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <VoxelHandPreview>Textures\Voxels\Platinum_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Platinum_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
       <NormalGlossXZnY>Textures\Voxels\Platinum_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\Platinum_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
@@ -684,10 +684,10 @@
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
-      <VoxelHandPreview>Textures\Voxels\NaturalThorium_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\NaturalThorium_ForAxisXZ_cm.dds</ColorMetalXZnY>
-      <NormalGlossXZnY>Textures\Voxels\Iron_02_ForAxisXZ_ng.dds</NormalGlossXZnY>
-      <ExtXZnY>Textures\Voxels\Iron_02_ForAxisXZ_add.dds</ExtXZnY>
+      <VoxelHandPreview>Textures\Voxels\AlienRockyMountain_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\AlienRockyMountain_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\AlienRockyMountain_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\AlienRockyMountain_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
     <VoxelMaterial>
       <Id>
@@ -703,10 +703,10 @@
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
-      <VoxelHandPreview>Textures\Voxels\NaturalThorium_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\NaturalThorium_ForAxisXZ_cm.dds</ColorMetalXZnY>
-      <NormalGlossXZnY>Textures\Voxels\Iron_02_ForAxisXZ_ng.dds</NormalGlossXZnY>
-      <ExtXZnY>Textures\Voxels\Iron_02_ForAxisXZ_add.dds</ExtXZnY>
+      <VoxelHandPreview>Textures\Voxels\AlienRockyMountain_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\AlienRockyMountain_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\AlienRockyMountain_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\AlienRockyMountain_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
     <VoxelMaterial>
       <Id>
@@ -722,10 +722,10 @@
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
-      <VoxelHandPreview>Textures\Voxels\Bertrandite_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\Bertrandite_ForAxisXZ_cm.dds</ColorMetalXZnY>
-      <NormalGlossXZnY>Textures\Voxels\Magnesium_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
-      <ExtXZnY>Textures\Voxels\Magnesium_01_ForAxisXZ_add.dds</ExtXZnY>
+      <VoxelHandPreview>Textures\Voxels\AlienIce_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\AlienIce_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\AlienIce_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\AlienIce_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
     <VoxelMaterial>
       <Id>
@@ -741,10 +741,10 @@
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
-      <VoxelHandPreview>Textures\Voxels\Bertrandite_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\Bertrandite_ForAxisXZ_cm.dds</ColorMetalXZnY>
-      <NormalGlossXZnY>Textures\Voxels\Magnesium_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
-      <ExtXZnY>Textures\Voxels\Magnesium_01_ForAxisXZ_add.dds</ExtXZnY>
+      <VoxelHandPreview>Textures\Voxels\AlienIce_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\AlienIce_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\AlienIce_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\AlienIce_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
     <VoxelMaterial>
       <Id>
@@ -760,8 +760,8 @@
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
-      <VoxelHandPreview>Textures\Voxels\Regolith_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\Regolith_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <VoxelHandPreview>Textures\Voxels\MoonSoil_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\MoonSoil_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
       <NormalGlossXZnY>Textures\Voxels\MoonSoil_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\MoonSoil_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
@@ -779,8 +779,8 @@
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
-      <VoxelHandPreview>Textures\Voxels\Regolith_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\Regolith_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <VoxelHandPreview>Textures\Voxels\MoonSoil_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\MoonSoil_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
       <NormalGlossXZnY>Textures\Voxels\MoonSoil_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\MoonSoil_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
