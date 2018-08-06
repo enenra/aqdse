@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
+    
     <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
       <Id>
         <TypeId>Refinery</TypeId>
@@ -13,6 +14,7 @@
       <Size x="2" y="2" z="2" />
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\AQD_LG_Smelter.mwm</Model>
+      <!-- Needs to be adjusted -->
       <Components>
         <Component Subtype="SteelPlate" Count="110" />
         <Component Subtype="Construction" Count="5" />
@@ -39,6 +41,7 @@
         <Y>2</Y>
         <Z>2</Z>
       </InventorySize>
+      <!-- Needs to be adjusted -->
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
       <OperationalPowerConsumption>0.33</OperationalPowerConsumption>
       <BlueprintClasses>
@@ -56,5 +59,6 @@
       <OreAmountPerPullRequest>2000</OreAmountPerPullRequest>
       <PCU>75</PCU>
     </Definition>
+    
   </CubeBlocks>
 </Definitions>
