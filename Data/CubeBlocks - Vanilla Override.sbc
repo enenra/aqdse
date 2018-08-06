@@ -130,6 +130,53 @@
         <TypeId>UpgradeModule</TypeId>
         <SubtypeId>LargeEffectivenessModule</SubtypeId>
       </Id>
+      <DisplayName>DisplayName_Block_EffectivenessModule</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\UpgradeEffectiveness.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\UpgradeEffectiveness.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="80" />
+        <Component Subtype="Construction" Count="50" />
+        <Component Subtype="SmallTube" Count="15" />
+        <Component Subtype="MetalGrid" Count="10" />
+        <Component Subtype="Motor" Count="5" />
+        <Component Subtype="SteelPlate" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Right" StartX="0.15" StartY="0.15" EndX="1.85" EndY="0.85" Default="true" />
+        <MountPoint Side="Left" StartX="0.15" StartY="0.15" EndX="1.85" EndY="0.85" />
+        <MountPoint Side="Top" StartX="0.15" StartY="0.15" EndX="0.85" EndY="1.85" />
+        <MountPoint Side="Bottom" StartX="0.15" StartY="0.15" EndX="0.85" EndY="1.85" />
+        <MountPoint Side="Front" StartX="0.15" StartY="0.15" EndX="0.85" EndY="0.85" />
+        <MountPoint Side="Back" StartX="0.15" StartY="0.15" EndX="0.85" EndY="0.85" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\UpgradeEffectivenessConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\UpgradeEffectivenessConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\UpgradeEffectivenessConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>EffectivenessModule</BlockPairName>
+      <MirroringX>Z</MirroringX>
+      <MirroringZ>X</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <Upgrades>
+        <MyUpgradeModuleInfo>
+          <UpgradeType>Effectiveness</UpgradeType>
+          <Modifier>1.0905077</Modifier>
+          <ModifierType>Multiplicative</ModifierType>
+        </MyUpgradeModuleInfo>
+      </Upgrades>
+      <PrimarySound>BlockModuleEffectiveness</PrimarySound>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>1</PCU>
     </Definition>
     
   </CubeBlocks>
