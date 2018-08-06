@@ -7,7 +7,7 @@
         <SubtypeId>AQD_Smelter_Iron</SubtypeId>
       </Id>
       <DisplayName>Iron Smelter</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Smelter.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_Smelter.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="2" y="2" z="2" />
