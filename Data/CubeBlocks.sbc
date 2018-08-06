@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+    <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+      <Id>
+        <TypeId>Refinery</TypeId>
+        <SubtypeId>AQD_Smelter_Iron</SubtypeId>
+      </Id>
+      <DisplayName>Iron Smelter</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Smelter.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="2" y="2" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\AQD_LG_Smelter.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="110" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="LargeTube" Count="2" />
+        <Component Subtype="Motor" Count="4" />
+        <Component Subtype="Computer" Count="5" />
+        <Component Subtype="SteelPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <Center x="1" y="0" z="0" />
+      <MirroringZ>Y</MirroringZ>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\AQD_LG_Smelter_BS1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AQD_LG_Smelter_BS2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AQD_LG_Smelter_BS3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AQD_Smelter_Iron</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>50</BuildTimeSeconds>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventoryMaxVolume>4</InventoryMaxVolume>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>0.33</OperationalPowerConsumption>
+      <BlueprintClasses>
+        <Class>AQD_Ore_Dedicated_Iron</Class>
+      </BlueprintClasses>
+      <RefineSpeed>1.0</RefineSpeed>
+      <MaterialEfficiency>1.0</MaterialEfficiency>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <PrimarySound>BlockRafinery</PrimarySound>
+      <ActionSound>BlockRafineryProcess</ActionSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <OreAmountPerPullRequest>2000</OreAmountPerPullRequest>
+      <PCU>75</PCU>
+    </Definition>
+  </CubeBlocks>
+</Definitions>
