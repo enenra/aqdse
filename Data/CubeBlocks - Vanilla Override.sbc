@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <!-- Setting RefineSpeed and MaterialEfficiency to 1.0 as this stuff is handled by Blueprints. -->
+    <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+      <Id>
+        <TypeId>Refinery</TypeId>
+        <SubtypeId>LargeRefinery</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_Refinery</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\refinery.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="2" y="4" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\Refinery.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1100" />
+        <Component Subtype="Construction" Count="40" />
+        <Component Subtype="LargeTube" Count="20" />
+        <Component Subtype="Motor" Count="16" />
+        <Component Subtype="Computer" Count="20" />
+        <Component Subtype="SteelPlate" Count="100" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <Center x="1" y="0" z="1" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="2" EndY="4" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="2" EndY="2" Default="true" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="2" EndY="2" />
+        <MountPoint Side="Left" StartX="1" StartY="0" EndX="2" EndY="4" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="4" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.16" File="Models\Cubes\Large\RefineryConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\RefineryConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\RefineryConstruction_3.mwm" />
+        <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\RefineryConstruction_4.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\RefineryConstruction_5.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Refinery</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>70</BuildTimeSeconds>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventoryMaxVolume>7.5</InventoryMaxVolume>
+      <InventorySize>
+        <X>2.5</X>
+        <Y>2.5</Y>
+        <Z>2.5</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>0.56</OperationalPowerConsumption>
+      <BlueprintClasses>
+        <Class>Ingots</Class>
+      </BlueprintClasses>
+      <RefineSpeed>1.0</RefineSpeed>
+      <MaterialEfficiency>1.0</MaterialEfficiency>
+      <OreAmountPerPullRequest>2000</OreAmountPerPullRequest>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <Center x="1" y="0" z="0" />
+      <MirroringZ>Y</MirroringZ>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <PrimarySound>BlockRafinery</PrimarySound>
+      <ActionSound>BlockRafineryProcess</ActionSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>90</PCU>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
+      <Id>
+        <TypeId>Refinery</TypeId>
+        <SubtypeId>Blast Furnace</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_Arc_Furnace</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="2" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\BlastFurnace.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="110" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="LargeTube" Count="2" />
+        <Component Subtype="Motor" Count="4" />
+        <Component Subtype="Computer" Count="5" />
+        <Component Subtype="SteelPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BlastFurnaceConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BlastFurnaceConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BlastFurnaceConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>Blast Furnace</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventoryMaxVolume>4</InventoryMaxVolume>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>0.33</OperationalPowerConsumption>
+      <BlueprintClasses>
+        <Class>CommonMetals</Class>
+      </BlueprintClasses>
+      <RefineSpeed>1.0</RefineSpeed>
+      <MaterialEfficiency>1.0</MaterialEfficiency>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <PrimarySound>BlockRafinery</PrimarySound>
+      <ActionSound>BlockRafineryProcess</ActionSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <OreAmountPerPullRequest>2000</OreAmountPerPullRequest>
+      <PCU>75</PCU>
+    </Definition>
+    
+    <!-- Yield Module is disabled in AQD. -->
+    <Definition Enabled="false" xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
+      <Id>
+        <TypeId>UpgradeModule</TypeId>
+        <SubtypeId>LargeEffectivenessModule</SubtypeId>
+      </Id>
+    </Definition>
+    
+  </CubeBlocks>
+</Definitions>
