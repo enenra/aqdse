@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<!-- Created from AQD Spreadsheet on: 06-08-2018 22:53 -->
+<!-- Created from AQD Spreadsheet on: 07-08-2018 01:13 -->
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <VoxelMaterials>
-    <VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
         <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>RockyIceMat</SubtypeId>
@@ -24,7 +24,7 @@
       <NormalGlossXZnY>Textures\Voxels\Ice_03_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\Ice_03_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
-    <VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
         <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>HematiteMat</SubtypeId>
@@ -43,7 +43,7 @@
       <NormalGlossXZnY>Textures\Voxels\Iron_02_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\Iron_02_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
-    <VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
         <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>DenseHematiteMat</SubtypeId>
@@ -62,7 +62,7 @@
       <NormalGlossXZnY>Textures\Voxels\Iron_02_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\Iron_02_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
-    <VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
         <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>MalachiteMat</SubtypeId>
@@ -81,7 +81,7 @@
       <NormalGlossXZnY>Textures\Voxels\Nickel_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\Nickel_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
-    <VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
         <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>DenseMalachiteMat</SubtypeId>
@@ -100,7 +100,7 @@
       <NormalGlossXZnY>Textures\Voxels\Nickel_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\Nickel_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
-    <VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
         <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>CattieriteMat</SubtypeId>
@@ -119,7 +119,7 @@
       <NormalGlossXZnY>Textures\Voxels\Magnesium_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\Magnesium_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
-    <VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
         <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>DenseCattieriteMat</SubtypeId>
@@ -138,7 +138,7 @@
       <NormalGlossXZnY>Textures\Voxels\Magnesium_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\Magnesium_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
-    <VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
         <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>QuartzMat</SubtypeId>
@@ -157,7 +157,7 @@
       <NormalGlossXZnY>Textures\Voxels\Ice_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\Ice_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
-    <VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
         <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>DenseQuartzMat</SubtypeId>
@@ -176,7 +176,7 @@
       <NormalGlossXZnY>Textures\Voxels\Ice_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\Ice_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
-    <VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
         <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>MagnesiteMat</SubtypeId>
@@ -195,7 +195,7 @@
       <NormalGlossXZnY>Textures\Voxels\Magnesium_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\Magnesium_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
-    <VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
         <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>DenseMagnesiteMat</SubtypeId>
@@ -214,7 +214,7 @@
       <NormalGlossXZnY>Textures\Voxels\Magnesium_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\Magnesium_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
-    <VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
         <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>CobaltiteMat</SubtypeId>
@@ -233,7 +233,7 @@
       <NormalGlossXZnY>Textures\Voxels\EarthStone_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\EarthStone_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
-    <VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
         <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>DenseCobaltiteMat</SubtypeId>
@@ -252,7 +252,7 @@
       <NormalGlossXZnY>Textures\Voxels\EarthStone_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\EarthStone_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
-    <VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
         <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>GarnieriteMat</SubtypeId>
@@ -271,7 +271,7 @@
       <NormalGlossXZnY>Textures\Voxels\Nickel_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\Nickel_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
-    <VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
         <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>DenseGarnieriteMat</SubtypeId>
@@ -290,7 +290,7 @@
       <NormalGlossXZnY>Textures\Voxels\Nickel_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\Nickel_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
-    <VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
         <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>TetrahedriteMat</SubtypeId>
@@ -309,7 +309,7 @@
       <NormalGlossXZnY>Textures\Voxels\AlienSoil_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\AlienSoil_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
-    <VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
         <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>DenseTetrahedriteMat</SubtypeId>
@@ -328,7 +328,7 @@
       <NormalGlossXZnY>Textures\Voxels\AlienSoil_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\AlienSoil_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
-    <VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
         <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>GraphiteMat</SubtypeId>
@@ -347,7 +347,7 @@
       <NormalGlossXZnY>Textures\Voxels\Silicon_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\Silicon_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
-    <VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
         <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>DenseGraphiteMat</SubtypeId>
@@ -366,7 +366,7 @@
       <NormalGlossXZnY>Textures\Voxels\Silicon_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\Silicon_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
-    <VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
         <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>NativeSilverMat</SubtypeId>
@@ -385,7 +385,7 @@
       <NormalGlossXZnY>Textures\Voxels\Silver_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\Silver_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
-    <VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
         <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>DenseNativeSilverMat</SubtypeId>
@@ -404,7 +404,7 @@
       <NormalGlossXZnY>Textures\Voxels\Silver_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\Silver_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
-    <VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
         <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>NativeGoldMat</SubtypeId>
@@ -423,7 +423,7 @@
       <NormalGlossXZnY>Textures\Voxels\Gold_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\Gold_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
-    <VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
         <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>DenseNativeGoldMat</SubtypeId>
@@ -442,7 +442,7 @@
       <NormalGlossXZnY>Textures\Voxels\Gold_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\Gold_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
-    <VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
         <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>CarnotiteMat</SubtypeId>
@@ -461,7 +461,7 @@
       <NormalGlossXZnY>Textures\Voxels\MarsRocks_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\MarsRocks_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
-    <VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
         <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>DenseCarnotiteMat</SubtypeId>
@@ -480,7 +480,7 @@
       <NormalGlossXZnY>Textures\Voxels\MarsRocks_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\MarsRocks_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
-    <VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
         <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>BoraxMat</SubtypeId>
@@ -499,7 +499,7 @@
       <NormalGlossXZnY>Textures\Voxels\Snow_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\Snow_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
-    <VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
         <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>DenseBoraxMat</SubtypeId>
@@ -518,7 +518,7 @@
       <NormalGlossXZnY>Textures\Voxels\Snow_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\Snow_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
-    <VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
         <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>ElectrumMat</SubtypeId>
@@ -537,7 +537,7 @@
       <NormalGlossXZnY>Textures\Voxels\Sand_02_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\Sand_02_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
-    <VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
         <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>DenseElectrumMat</SubtypeId>
@@ -556,7 +556,7 @@
       <NormalGlossXZnY>Textures\Voxels\Sand_02_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\Sand_02_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
-    <VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
         <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>IlmeniteMat</SubtypeId>
@@ -575,7 +575,7 @@
       <NormalGlossXZnY>Textures\Voxels\Uraninite_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\Uraninite_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
-    <VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
         <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>DenseIlmeniteMat</SubtypeId>
@@ -594,7 +594,7 @@
       <NormalGlossXZnY>Textures\Voxels\Uraninite_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\Uraninite_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
-    <VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
         <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>BauxiteMat</SubtypeId>
@@ -613,7 +613,7 @@
       <NormalGlossXZnY>Textures\Voxels\AlienRockyTerrain_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\AlienRockyTerrain_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
-    <VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
         <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>DenseBauxiteMat</SubtypeId>
@@ -632,7 +632,7 @@
       <NormalGlossXZnY>Textures\Voxels\AlienRockyTerrain_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\AlienRockyTerrain_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
-    <VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
         <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>SperryliteMat</SubtypeId>
@@ -651,7 +651,7 @@
       <NormalGlossXZnY>Textures\Voxels\Platinum_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\Platinum_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
-    <VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
         <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>DenseSperryliteMat</SubtypeId>
@@ -670,7 +670,7 @@
       <NormalGlossXZnY>Textures\Voxels\Platinum_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\Platinum_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
-    <VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
         <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>NaturalThoriumMat</SubtypeId>
@@ -689,7 +689,7 @@
       <NormalGlossXZnY>Textures\Voxels\AlienRockyMountain_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\AlienRockyMountain_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
-    <VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
         <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>DenseNaturalThoriumMat</SubtypeId>
@@ -708,7 +708,7 @@
       <NormalGlossXZnY>Textures\Voxels\AlienRockyMountain_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\AlienRockyMountain_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
-    <VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
         <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>BertranditeMat</SubtypeId>
@@ -727,7 +727,7 @@
       <NormalGlossXZnY>Textures\Voxels\AlienIce_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\AlienIce_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
-    <VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
         <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>DenseBertranditeMat</SubtypeId>
@@ -746,7 +746,7 @@
       <NormalGlossXZnY>Textures\Voxels\AlienIce_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\AlienIce_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
-    <VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
         <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>RegolithMat</SubtypeId>
@@ -765,7 +765,7 @@
       <NormalGlossXZnY>Textures\Voxels\MoonSoil_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\MoonSoil_01_ForAxisXZ_add.dds</ExtXZnY>
     </VoxelMaterial>
-    <VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
         <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>DenseRegolithMat</SubtypeId>
