@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!-- Created from AQD Spreadsheet on: 07-08-2018 23:37 -->
+<!-- Created from AQD Spreadsheet on: 08-08-2018 00:57 -->
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <PhysicalItems>
     <PhysicalItem>
@@ -90,7 +90,7 @@
       <Volume>0.343</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Fe \n test</IconSymbol>
+      <IconSymbol>Fe</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -727,7 +727,7 @@
         <TypeId>Ore</TypeId>
         <SubtypeId>NativeSilver</SubtypeId>
       </Id>
-      <DisplayName>NativeSilver</DisplayName>
+      <DisplayName>Native Silver</DisplayName>
       <Icon>Textures\GUI\Icons\ore_nativesilver.dds</Icon>
       <Size>
         <X>0.07</X>
@@ -799,7 +799,7 @@
         <TypeId>Ore</TypeId>
         <SubtypeId>NativeGold</SubtypeId>
       </Id>
-      <DisplayName>NativeGold</DisplayName>
+      <DisplayName>Native Gold</DisplayName>
       <Icon>Textures\GUI\Icons\ore_nativegold.dds</Icon>
       <Size>
         <X>0.07</X>
