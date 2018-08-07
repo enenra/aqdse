@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!-- Created from AQD Spreadsheet on: 07-08-2018 01:13 -->
+<!-- Created from AQD Spreadsheet on: 07-08-2018 09:50 -->
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <VoxelMaterials>
     <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
@@ -10,9 +10,9 @@
       <MaterialTypeName>Ice</MaterialTypeName>
       <MinedOre>RockyIce</MinedOre>
       <MinedOreRatio>4.5</MinedOreRatio>
-      <IsRare>TRUE</IsRare>
-      <SpawnInAsteroids>TRUE</SpawnInAsteroids>
-      <SpawnsFromMeteorites>TRUE</SpawnsFromMeteorites>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
       <Friction>0.15</Friction>
       <Restitution>0.9</Restitution>
       <LandingEffect>Landing_Jet_Ground_Snow</LandingEffect>
@@ -32,9 +32,9 @@
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>Iron</MinedOre>
       <MinedOreRatio>5</MinedOreRatio>
-      <IsRare>TRUE</IsRare>
-      <SpawnInAsteroids>TRUE</SpawnInAsteroids>
-      <SpawnsFromMeteorites>TRUE</SpawnsFromMeteorites>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
@@ -51,9 +51,9 @@
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>DenseHematite</MinedOre>
       <MinedOreRatio>5</MinedOreRatio>
-      <IsRare>TRUE</IsRare>
-      <SpawnInAsteroids>TRUE</SpawnInAsteroids>
-      <SpawnsFromMeteorites>TRUE</SpawnsFromMeteorites>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
@@ -70,9 +70,9 @@
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>Malachite</MinedOre>
       <MinedOreRatio>5</MinedOreRatio>
-      <IsRare>TRUE</IsRare>
-      <SpawnInAsteroids>TRUE</SpawnInAsteroids>
-      <SpawnsFromMeteorites>TRUE</SpawnsFromMeteorites>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
@@ -89,9 +89,9 @@
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>DenseMalachite</MinedOre>
       <MinedOreRatio>5</MinedOreRatio>
-      <IsRare>TRUE</IsRare>
-      <SpawnInAsteroids>TRUE</SpawnInAsteroids>
-      <SpawnsFromMeteorites>TRUE</SpawnsFromMeteorites>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
@@ -108,9 +108,9 @@
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>Cattierite</MinedOre>
       <MinedOreRatio>5</MinedOreRatio>
-      <IsRare>TRUE</IsRare>
-      <SpawnInAsteroids>TRUE</SpawnInAsteroids>
-      <SpawnsFromMeteorites>TRUE</SpawnsFromMeteorites>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
@@ -127,9 +127,9 @@
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>DenseCattierite</MinedOre>
       <MinedOreRatio>5</MinedOreRatio>
-      <IsRare>TRUE</IsRare>
-      <SpawnInAsteroids>TRUE</SpawnInAsteroids>
-      <SpawnsFromMeteorites>TRUE</SpawnsFromMeteorites>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
@@ -146,9 +146,9 @@
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>Quartz</MinedOre>
       <MinedOreRatio>5</MinedOreRatio>
-      <IsRare>TRUE</IsRare>
-      <SpawnInAsteroids>TRUE</SpawnInAsteroids>
-      <SpawnsFromMeteorites>TRUE</SpawnsFromMeteorites>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
@@ -165,9 +165,9 @@
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>DenseQuartz</MinedOre>
       <MinedOreRatio>5</MinedOreRatio>
-      <IsRare>TRUE</IsRare>
-      <SpawnInAsteroids>TRUE</SpawnInAsteroids>
-      <SpawnsFromMeteorites>TRUE</SpawnsFromMeteorites>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
@@ -184,9 +184,9 @@
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>Magnesite</MinedOre>
       <MinedOreRatio>5</MinedOreRatio>
-      <IsRare>TRUE</IsRare>
-      <SpawnInAsteroids>TRUE</SpawnInAsteroids>
-      <SpawnsFromMeteorites>TRUE</SpawnsFromMeteorites>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
@@ -203,9 +203,9 @@
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>DenseMagnesite</MinedOre>
       <MinedOreRatio>5</MinedOreRatio>
-      <IsRare>TRUE</IsRare>
-      <SpawnInAsteroids>TRUE</SpawnInAsteroids>
-      <SpawnsFromMeteorites>TRUE</SpawnsFromMeteorites>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
@@ -222,9 +222,9 @@
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>Cobaltite</MinedOre>
       <MinedOreRatio>5</MinedOreRatio>
-      <IsRare>TRUE</IsRare>
-      <SpawnInAsteroids>TRUE</SpawnInAsteroids>
-      <SpawnsFromMeteorites>TRUE</SpawnsFromMeteorites>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
@@ -241,9 +241,9 @@
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>DenseCobaltite</MinedOre>
       <MinedOreRatio>5</MinedOreRatio>
-      <IsRare>TRUE</IsRare>
-      <SpawnInAsteroids>TRUE</SpawnInAsteroids>
-      <SpawnsFromMeteorites>TRUE</SpawnsFromMeteorites>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
@@ -260,9 +260,9 @@
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>Garnierite</MinedOre>
       <MinedOreRatio>5</MinedOreRatio>
-      <IsRare>TRUE</IsRare>
-      <SpawnInAsteroids>TRUE</SpawnInAsteroids>
-      <SpawnsFromMeteorites>TRUE</SpawnsFromMeteorites>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
@@ -279,9 +279,9 @@
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>DenseGarnierite</MinedOre>
       <MinedOreRatio>5</MinedOreRatio>
-      <IsRare>TRUE</IsRare>
-      <SpawnInAsteroids>TRUE</SpawnInAsteroids>
-      <SpawnsFromMeteorites>TRUE</SpawnsFromMeteorites>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
@@ -298,9 +298,9 @@
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>Tetrahedrite</MinedOre>
       <MinedOreRatio>5</MinedOreRatio>
-      <IsRare>TRUE</IsRare>
-      <SpawnInAsteroids>TRUE</SpawnInAsteroids>
-      <SpawnsFromMeteorites>TRUE</SpawnsFromMeteorites>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
@@ -317,9 +317,9 @@
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>DenseTetrahedrite</MinedOre>
       <MinedOreRatio>5</MinedOreRatio>
-      <IsRare>TRUE</IsRare>
-      <SpawnInAsteroids>TRUE</SpawnInAsteroids>
-      <SpawnsFromMeteorites>TRUE</SpawnsFromMeteorites>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
@@ -336,9 +336,9 @@
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>Graphite</MinedOre>
       <MinedOreRatio>5</MinedOreRatio>
-      <IsRare>TRUE</IsRare>
-      <SpawnInAsteroids>TRUE</SpawnInAsteroids>
-      <SpawnsFromMeteorites>FALSE</SpawnsFromMeteorites>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
@@ -355,9 +355,9 @@
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>DenseGraphite</MinedOre>
       <MinedOreRatio>5</MinedOreRatio>
-      <IsRare>TRUE</IsRare>
-      <SpawnInAsteroids>TRUE</SpawnInAsteroids>
-      <SpawnsFromMeteorites>FALSE</SpawnsFromMeteorites>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
@@ -374,9 +374,9 @@
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>NativeSilver</MinedOre>
       <MinedOreRatio>1.5</MinedOreRatio>
-      <IsRare>TRUE</IsRare>
-      <SpawnInAsteroids>TRUE</SpawnInAsteroids>
-      <SpawnsFromMeteorites>FALSE</SpawnsFromMeteorites>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
@@ -393,9 +393,9 @@
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>DenseNativeSilver</MinedOre>
       <MinedOreRatio>1.5</MinedOreRatio>
-      <IsRare>TRUE</IsRare>
-      <SpawnInAsteroids>TRUE</SpawnInAsteroids>
-      <SpawnsFromMeteorites>FALSE</SpawnsFromMeteorites>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
@@ -412,9 +412,9 @@
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>NativeGold</MinedOre>
       <MinedOreRatio>3.5</MinedOreRatio>
-      <IsRare>TRUE</IsRare>
-      <SpawnInAsteroids>TRUE</SpawnInAsteroids>
-      <SpawnsFromMeteorites>FALSE</SpawnsFromMeteorites>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
@@ -431,9 +431,9 @@
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>DenseNativeGold</MinedOre>
       <MinedOreRatio>3.5</MinedOreRatio>
-      <IsRare>TRUE</IsRare>
-      <SpawnInAsteroids>TRUE</SpawnInAsteroids>
-      <SpawnsFromMeteorites>FALSE</SpawnsFromMeteorites>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
@@ -450,9 +450,9 @@
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>Carnotite</MinedOre>
       <MinedOreRatio>1.5</MinedOreRatio>
-      <IsRare>TRUE</IsRare>
-      <SpawnInAsteroids>TRUE</SpawnInAsteroids>
-      <SpawnsFromMeteorites>FALSE</SpawnsFromMeteorites>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
@@ -469,9 +469,9 @@
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>DenseCarnotite</MinedOre>
       <MinedOreRatio>1.5</MinedOreRatio>
-      <IsRare>TRUE</IsRare>
-      <SpawnInAsteroids>TRUE</SpawnInAsteroids>
-      <SpawnsFromMeteorites>FALSE</SpawnsFromMeteorites>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
@@ -488,9 +488,9 @@
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>Borax</MinedOre>
       <MinedOreRatio>5</MinedOreRatio>
-      <IsRare>TRUE</IsRare>
-      <SpawnInAsteroids>TRUE</SpawnInAsteroids>
-      <SpawnsFromMeteorites>FALSE</SpawnsFromMeteorites>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
@@ -507,9 +507,9 @@
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>DenseBorax</MinedOre>
       <MinedOreRatio>5</MinedOreRatio>
-      <IsRare>TRUE</IsRare>
-      <SpawnInAsteroids>TRUE</SpawnInAsteroids>
-      <SpawnsFromMeteorites>FALSE</SpawnsFromMeteorites>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
@@ -526,9 +526,9 @@
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>Electrum</MinedOre>
       <MinedOreRatio>1.5</MinedOreRatio>
-      <IsRare>TRUE</IsRare>
-      <SpawnInAsteroids>TRUE</SpawnInAsteroids>
-      <SpawnsFromMeteorites>FALSE</SpawnsFromMeteorites>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
@@ -545,9 +545,9 @@
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>DenseElectrum</MinedOre>
       <MinedOreRatio>1.5</MinedOreRatio>
-      <IsRare>TRUE</IsRare>
-      <SpawnInAsteroids>TRUE</SpawnInAsteroids>
-      <SpawnsFromMeteorites>FALSE</SpawnsFromMeteorites>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
@@ -564,9 +564,9 @@
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>Ilmenite</MinedOre>
       <MinedOreRatio>5</MinedOreRatio>
-      <IsRare>TRUE</IsRare>
-      <SpawnInAsteroids>TRUE</SpawnInAsteroids>
-      <SpawnsFromMeteorites>FALSE</SpawnsFromMeteorites>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
@@ -583,9 +583,9 @@
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>DenseIlmenite</MinedOre>
       <MinedOreRatio>5</MinedOreRatio>
-      <IsRare>TRUE</IsRare>
-      <SpawnInAsteroids>TRUE</SpawnInAsteroids>
-      <SpawnsFromMeteorites>FALSE</SpawnsFromMeteorites>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
@@ -602,9 +602,9 @@
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>Bauxite</MinedOre>
       <MinedOreRatio>5</MinedOreRatio>
-      <IsRare>TRUE</IsRare>
-      <SpawnInAsteroids>TRUE</SpawnInAsteroids>
-      <SpawnsFromMeteorites>FALSE</SpawnsFromMeteorites>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
@@ -621,9 +621,9 @@
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>DenseBauxite</MinedOre>
       <MinedOreRatio>5</MinedOreRatio>
-      <IsRare>TRUE</IsRare>
-      <SpawnInAsteroids>TRUE</SpawnInAsteroids>
-      <SpawnsFromMeteorites>FALSE</SpawnsFromMeteorites>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
@@ -640,9 +640,9 @@
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>Sperrylite</MinedOre>
       <MinedOreRatio>5</MinedOreRatio>
-      <IsRare>TRUE</IsRare>
-      <SpawnInAsteroids>TRUE</SpawnInAsteroids>
-      <SpawnsFromMeteorites>FALSE</SpawnsFromMeteorites>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
@@ -659,9 +659,9 @@
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>DenseSperrylite</MinedOre>
       <MinedOreRatio>5</MinedOreRatio>
-      <IsRare>TRUE</IsRare>
-      <SpawnInAsteroids>TRUE</SpawnInAsteroids>
-      <SpawnsFromMeteorites>FALSE</SpawnsFromMeteorites>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
@@ -678,9 +678,9 @@
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>NaturalThorium</MinedOre>
       <MinedOreRatio>1.5</MinedOreRatio>
-      <IsRare>TRUE</IsRare>
-      <SpawnInAsteroids>TRUE</SpawnInAsteroids>
-      <SpawnsFromMeteorites>FALSE</SpawnsFromMeteorites>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
@@ -697,9 +697,9 @@
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>DenseNaturalThorium</MinedOre>
       <MinedOreRatio>1.5</MinedOreRatio>
-      <IsRare>TRUE</IsRare>
-      <SpawnInAsteroids>TRUE</SpawnInAsteroids>
-      <SpawnsFromMeteorites>FALSE</SpawnsFromMeteorites>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
@@ -716,9 +716,9 @@
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>Bertrandite</MinedOre>
       <MinedOreRatio>1.5</MinedOreRatio>
-      <IsRare>TRUE</IsRare>
-      <SpawnInAsteroids>TRUE</SpawnInAsteroids>
-      <SpawnsFromMeteorites>FALSE</SpawnsFromMeteorites>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
@@ -735,9 +735,9 @@
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>DenseBertrandite</MinedOre>
       <MinedOreRatio>1.5</MinedOreRatio>
-      <IsRare>TRUE</IsRare>
-      <SpawnInAsteroids>TRUE</SpawnInAsteroids>
-      <SpawnsFromMeteorites>FALSE</SpawnsFromMeteorites>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
@@ -754,9 +754,9 @@
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>Regolith</MinedOre>
       <MinedOreRatio>1.5</MinedOreRatio>
-      <IsRare>TRUE</IsRare>
-      <SpawnInAsteroids>TRUE</SpawnInAsteroids>
-      <SpawnsFromMeteorites>FALSE</SpawnsFromMeteorites>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
@@ -773,9 +773,9 @@
       <MaterialTypeName>Rock</MaterialTypeName>
       <MinedOre>DenseRegolith</MinedOre>
       <MinedOreRatio>1.5</MinedOreRatio>
-      <IsRare>TRUE</IsRare>
-      <SpawnInAsteroids>TRUE</SpawnInAsteroids>
-      <SpawnsFromMeteorites>FALSE</SpawnsFromMeteorites>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
