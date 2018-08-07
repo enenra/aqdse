@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!-- Created from AQD Spreadsheet on: 07-08-2018 09:50 -->
+<!-- Created from AQD Spreadsheet on: 07-08-2018 10:31 -->
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <VoxelMaterials>
     <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
@@ -20,9 +20,9 @@
       <SpecularPower>21</SpecularPower>
       <SpecularShininess>0.632</SpecularShininess>
       <VoxelHandPreview>Textures\Voxels\Ice_03_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\Ice_03_ForAxisXZ_cm.dds</ColorMetalXZnY>
-      <NormalGlossXZnY>Textures\Voxels\Ice_03_ForAxisXZ_ng.dds</NormalGlossXZnY>
-      <ExtXZnY>Textures\Voxels\Ice_03_ForAxisXZ_add.dds</ExtXZnY>
+      <ColorMetalXZnY>Textures\Voxels\Ice_03_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Ice_03_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Ice_03_add.dds</ExtXZnY>
     </VoxelMaterial>
     <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
@@ -229,9 +229,9 @@
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
       <VoxelHandPreview>Textures\Voxels\EarthStone_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\EarthStone_ForAxisXZ_cm.dds</ColorMetalXZnY>
-      <NormalGlossXZnY>Textures\Voxels\EarthStone_ForAxisXZ_ng.dds</NormalGlossXZnY>
-      <ExtXZnY>Textures\Voxels\EarthStone_ForAxisXZ_add.dds</ExtXZnY>
+      <ColorMetalXZnY>Textures\Voxels\EarthStone_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\EarthStone_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\EarthStone_add.dds</ExtXZnY>
     </VoxelMaterial>
     <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
@@ -248,9 +248,9 @@
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
       <VoxelHandPreview>Textures\Voxels\EarthStone_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\EarthStone_ForAxisXZ_cm.dds</ColorMetalXZnY>
-      <NormalGlossXZnY>Textures\Voxels\EarthStone_ForAxisXZ_ng.dds</NormalGlossXZnY>
-      <ExtXZnY>Textures\Voxels\EarthStone_ForAxisXZ_add.dds</ExtXZnY>
+      <ColorMetalXZnY>Textures\Voxels\EarthStone_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\EarthStone_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\EarthStone_add.dds</ExtXZnY>
     </VoxelMaterial>
     <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
@@ -305,9 +305,9 @@
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
       <VoxelHandPreview>Textures\Voxels\AlienSoil_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\AlienSoil_ForAxisXZ_cm.dds</ColorMetalXZnY>
-      <NormalGlossXZnY>Textures\Voxels\AlienSoil_ForAxisXZ_ng.dds</NormalGlossXZnY>
-      <ExtXZnY>Textures\Voxels\AlienSoil_ForAxisXZ_add.dds</ExtXZnY>
+      <ColorMetalXZnY>Textures\Voxels\AlienSoil_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\AlienSoil_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\AlienSoil_add.dds</ExtXZnY>
     </VoxelMaterial>
     <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
@@ -324,9 +324,9 @@
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
       <VoxelHandPreview>Textures\Voxels\AlienSoil_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\AlienSoil_ForAxisXZ_cm.dds</ColorMetalXZnY>
-      <NormalGlossXZnY>Textures\Voxels\AlienSoil_ForAxisXZ_ng.dds</NormalGlossXZnY>
-      <ExtXZnY>Textures\Voxels\AlienSoil_ForAxisXZ_add.dds</ExtXZnY>
+      <ColorMetalXZnY>Textures\Voxels\AlienSoil_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\AlienSoil_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\AlienSoil_add.dds</ExtXZnY>
     </VoxelMaterial>
     <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
@@ -609,9 +609,9 @@
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
       <VoxelHandPreview>Textures\Voxels\AlienRockyTerrain_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\AlienRockyTerrain_ForAxisXZ_cm.dds</ColorMetalXZnY>
-      <NormalGlossXZnY>Textures\Voxels\AlienRockyTerrain_ForAxisXZ_ng.dds</NormalGlossXZnY>
-      <ExtXZnY>Textures\Voxels\AlienRockyTerrain_ForAxisXZ_add.dds</ExtXZnY>
+      <ColorMetalXZnY>Textures\Voxels\AlienRockyTerrain_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\AlienRockyTerrain_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\AlienRockyTerrain_add.dds</ExtXZnY>
     </VoxelMaterial>
     <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
@@ -628,9 +628,9 @@
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
       <VoxelHandPreview>Textures\Voxels\AlienRockyTerrain_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\AlienRockyTerrain_ForAxisXZ_cm.dds</ColorMetalXZnY>
-      <NormalGlossXZnY>Textures\Voxels\AlienRockyTerrain_ForAxisXZ_ng.dds</NormalGlossXZnY>
-      <ExtXZnY>Textures\Voxels\AlienRockyTerrain_ForAxisXZ_add.dds</ExtXZnY>
+      <ColorMetalXZnY>Textures\Voxels\AlienRockyTerrain_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\AlienRockyTerrain_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\AlienRockyTerrain_add.dds</ExtXZnY>
     </VoxelMaterial>
     <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
@@ -685,9 +685,9 @@
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
       <VoxelHandPreview>Textures\Voxels\AlienRockyMountain_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\AlienRockyMountain_ForAxisXZ_cm.dds</ColorMetalXZnY>
-      <NormalGlossXZnY>Textures\Voxels\AlienRockyMountain_ForAxisXZ_ng.dds</NormalGlossXZnY>
-      <ExtXZnY>Textures\Voxels\AlienRockyMountain_ForAxisXZ_add.dds</ExtXZnY>
+      <ColorMetalXZnY>Textures\Voxels\AlienRockyMountain_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\AlienRockyMountain_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\AlienRockyMountain_add.dds</ExtXZnY>
     </VoxelMaterial>
     <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
@@ -704,9 +704,9 @@
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
       <VoxelHandPreview>Textures\Voxels\AlienRockyMountain_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\AlienRockyMountain_ForAxisXZ_cm.dds</ColorMetalXZnY>
-      <NormalGlossXZnY>Textures\Voxels\AlienRockyMountain_ForAxisXZ_ng.dds</NormalGlossXZnY>
-      <ExtXZnY>Textures\Voxels\AlienRockyMountain_ForAxisXZ_add.dds</ExtXZnY>
+      <ColorMetalXZnY>Textures\Voxels\AlienRockyMountain_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\AlienRockyMountain_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\AlienRockyMountain_add.dds</ExtXZnY>
     </VoxelMaterial>
     <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
@@ -723,9 +723,9 @@
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
       <VoxelHandPreview>Textures\Voxels\AlienIce_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\AlienIce_ForAxisXZ_cm.dds</ColorMetalXZnY>
-      <NormalGlossXZnY>Textures\Voxels\AlienIce_ForAxisXZ_ng.dds</NormalGlossXZnY>
-      <ExtXZnY>Textures\Voxels\AlienIce_ForAxisXZ_add.dds</ExtXZnY>
+      <ColorMetalXZnY>Textures\Voxels\AlienIce_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\AlienIce_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\AlienIce_add.dds</ExtXZnY>
     </VoxelMaterial>
     <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
@@ -742,9 +742,9 @@
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
       <VoxelHandPreview>Textures\Voxels\AlienIce_Thumbnail.dds</VoxelHandPreview>
-      <ColorMetalXZnY>Textures\Voxels\AlienIce_ForAxisXZ_cm.dds</ColorMetalXZnY>
-      <NormalGlossXZnY>Textures\Voxels\AlienIce_ForAxisXZ_ng.dds</NormalGlossXZnY>
-      <ExtXZnY>Textures\Voxels\AlienIce_ForAxisXZ_add.dds</ExtXZnY>
+      <ColorMetalXZnY>Textures\Voxels\AlienIce_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\AlienIce_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\AlienIce_add.dds</ExtXZnY>
     </VoxelMaterial>
     <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
