@@ -1,7 +1,25 @@
 <?xml version="1.0"?>
-<!-- Created from AQD Spreadsheet on: 06-08-2018 21:39 -->
+<!-- Created from AQD Spreadsheet on: 07-08-2018 10:14 -->
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <PhysicalItems>
+    <PhysicalItem>
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Ice</SubtypeId>
+      </Id>
+      <DisplayName>Ice</DisplayName>
+      <Icon>Textures\GUI\Icons\ore_ice.dds</Icon>
+      <Size>
+        <X>0.07</X>
+        <Y>0.07</Y>
+        <Z>0.07</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>0.343</Volume>
+      <Model>Models\Components\Sphere.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <IconSymbol>Ice</IconSymbol>
+    </PhysicalItem>
     <PhysicalItem>
       <Id>
         <TypeId>Ore</TypeId>
@@ -43,7 +61,7 @@
         <TypeId>Ore</TypeId>
         <SubtypeId>DistilledIce</SubtypeId>
       </Id>
-      <DisplayName>DistilledIce</DisplayName>
+      <DisplayName>Distilled Ice</DisplayName>
       <Icon>Textures\GUI\Icons\ore_ice.dds</Icon>
       <Size>
         <X>0.07</X>
@@ -1487,8 +1505,8 @@
       <Icon>Textures\GUI\Icons\ore_regolith.dds</Icon>
       <Size>
         <X>0.07</X>
-        <Y>0.07</Y>
-        <Z>0.07</Z>
+        <Y>0.05</Y>
+        <Z>0.05</Z>
       </Size>
       <Mass>1</Mass>
       <Volume>0.343</Volume>
@@ -1505,8 +1523,8 @@
       <Icon>Textures\GUI\Icons\ingot_copper.dds</Icon>
       <Size>
         <X>0.05</X>
-        <Y>0.05</Y>
-        <Z>0.05</Z>
+        <Y>0.075</Y>
+        <Z>0.075</Z>
       </Size>
       <Mass>1</Mass>
       <Volume>0.125</Volume>
@@ -1523,8 +1541,8 @@
       <Icon>Textures\GUI\Icons\ingot_carbon.dds</Icon>
       <Size>
         <X>0.075</X>
-        <Y>0.075</Y>
-        <Z>0.075</Z>
+        <Y>0.037</Y>
+        <Z>0.037</Z>
       </Size>
       <Mass>1</Mass>
       <Volume>0.422</Volume>
@@ -1541,8 +1559,8 @@
       <Icon>Textures\GUI\Icons\ingot_boron.dds</Icon>
       <Size>
         <X>0.037</X>
-        <Y>0.037</Y>
-        <Z>0.037</Z>
+        <Y>0.036</Y>
+        <Z>0.036</Z>
       </Size>
       <Mass>1</Mass>
       <Volume>0.051</Volume>
@@ -1559,8 +1577,8 @@
       <Icon>Textures\GUI\Icons\ingot_titanium.dds</Icon>
       <Size>
         <X>0.036</X>
-        <Y>0.036</Y>
-        <Z>0.036</Z>
+        <Y>0.046</Y>
+        <Z>0.046</Z>
       </Size>
       <Mass>1</Mass>
       <Volume>0.047</Volume>
@@ -1577,8 +1595,8 @@
       <Icon>Textures\GUI\Icons\ingot_aluminium.dds</Icon>
       <Size>
         <X>0.046</X>
-        <Y>0.046</Y>
-        <Z>0.046</Z>
+        <Y>0.037</Y>
+        <Z>0.037</Z>
       </Size>
       <Mass>1</Mass>
       <Volume>0.097</Volume>
@@ -1631,8 +1649,8 @@
       <Icon>Textures\GUI\Icons\ingot_helium-3.dds</Icon>
       <Size>
         <X>0.037</X>
-        <Y>0.037</Y>
-        <Z>0.037</Z>
+        <Y></Y>
+        <Z></Z>
       </Size>
       <Mass>1</Mass>
       <Volume>0.051</Volume>
