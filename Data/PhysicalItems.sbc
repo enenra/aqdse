@@ -90,7 +90,7 @@
       <Volume>0.343</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Fe</IconSymbol>
+      <IconSymbol>Fe \n test</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
