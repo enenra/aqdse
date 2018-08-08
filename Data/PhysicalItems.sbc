@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!-- Created from AQD Spreadsheet on: 08-08-2018 10:55 -->
+<!-- Created from AQD Spreadsheet on: 08-08-2018 11:00 -->
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <PhysicalItems>
     <PhysicalItem>
@@ -378,7 +378,7 @@
       <Volume>0.343</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Mg|Ni|Co</IconSymbol>
+      <IconSymbol>MgNiCo</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -396,7 +396,7 @@
       <Volume>0.343</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Mg|Ni|Co</IconSymbol>
+      <IconSymbol>MgNiCo</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -414,7 +414,7 @@
       <Volume>0.343</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Mg|Ni|Co</IconSymbol>
+      <IconSymbol>MgNiCo</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -432,7 +432,7 @@
       <Volume>0.343</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Mg|Ni|Co</IconSymbol>
+      <IconSymbol>MgNiCo</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -450,7 +450,7 @@
       <Volume>0.343</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Co|Fe|Ni</IconSymbol>
+      <IconSymbol>CoFeNi</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -468,7 +468,7 @@
       <Volume>0.343</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Co|Fe|Ni</IconSymbol>
+      <IconSymbol>CoFeNi</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -486,7 +486,7 @@
       <Volume>0.343</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Co|Fe|Ni</IconSymbol>
+      <IconSymbol>CoFeNi</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -504,7 +504,7 @@
       <Volume>0.343</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Co|Fe|Ni</IconSymbol>
+      <IconSymbol>CoFeNi</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -522,7 +522,7 @@
       <Volume>0.343</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Ni|Mg</IconSymbol>
+      <IconSymbol>NiMg</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -540,7 +540,7 @@
       <Volume>0.343</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Ni|Mg</IconSymbol>
+      <IconSymbol>NiMg</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -558,7 +558,7 @@
       <Volume>0.343</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Ni|Mg</IconSymbol>
+      <IconSymbol>NiMg</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -576,7 +576,7 @@
       <Volume>0.343</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Ni|Mg</IconSymbol>
+      <IconSymbol>NiMg</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -594,7 +594,7 @@
       <Volume>0.343</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Cu|Fe</IconSymbol>
+      <IconSymbol>CuFe</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -612,7 +612,7 @@
       <Volume>0.343</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Cu|Fe</IconSymbol>
+      <IconSymbol>CuFe</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -630,7 +630,7 @@
       <Volume>0.343</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Cu|Fe</IconSymbol>
+      <IconSymbol>CuFe</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -648,7 +648,7 @@
       <Volume>0.343</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Cu|Fe</IconSymbol>
+      <IconSymbol>CuFe</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1026,7 +1026,7 @@
       <Volume>0.343</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Ag|Au|Cu</IconSymbol>
+      <IconSymbol>AgAuCu</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1044,7 +1044,7 @@
       <Volume>0.343</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Ag|Au|Cu</IconSymbol>
+      <IconSymbol>AgAuCu</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1062,7 +1062,7 @@
       <Volume>0.343</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Ag|Au|Cu</IconSymbol>
+      <IconSymbol>AgAuCu</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1080,7 +1080,7 @@
       <Volume>0.343</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Ag|Au|Cu</IconSymbol>
+      <IconSymbol>AgAuCu</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1098,7 +1098,7 @@
       <Volume>0.343</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Ti|Fe</IconSymbol>
+      <IconSymbol>TiFe</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1116,7 +1116,7 @@
       <Volume>0.343</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Ti|Fe</IconSymbol>
+      <IconSymbol>TiFe</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1134,7 +1134,7 @@
       <Volume>0.343</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Ti|Fe</IconSymbol>
+      <IconSymbol>TiFe</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1152,7 +1152,7 @@
       <Volume>0.343</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Ti|Fe</IconSymbol>
+      <IconSymbol>TiFe</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1170,7 +1170,7 @@
       <Volume>0.343</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Al|Ti</IconSymbol>
+      <IconSymbol>AlTi</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1188,7 +1188,7 @@
       <Volume>0.343</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Al|Ti</IconSymbol>
+      <IconSymbol>AlTi</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1206,7 +1206,7 @@
       <Volume>0.343</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Al|Ti</IconSymbol>
+      <IconSymbol>AlTi</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1224,7 +1224,7 @@
       <Volume>0.343</Volume>
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
-      <IconSymbol>Al|Ti</IconSymbol>
+      <IconSymbol>AlTi</IconSymbol>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
