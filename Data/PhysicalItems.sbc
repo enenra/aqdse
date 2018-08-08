@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!-- Created from AQD Spreadsheet on: 08-08-2018 11:06 -->
+<!-- Created from AQD Spreadsheet on: 08-08-2018 23:39 -->
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <PhysicalItems>
     <PhysicalItem>
@@ -98,7 +98,7 @@
         <SubtypeId>DenseHematite</SubtypeId>
       </Id>
       <DisplayName>Dense Hematite</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_hematite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_hematite_den.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -116,7 +116,7 @@
         <SubtypeId>CrushedHematite</SubtypeId>
       </Id>
       <DisplayName>Crushed Hematite</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_hematite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_hematite_cru.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -134,7 +134,7 @@
         <SubtypeId>PurifiedHematite</SubtypeId>
       </Id>
       <DisplayName>Purified Hematite</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_hematite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_hematite_pur.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -170,7 +170,7 @@
         <SubtypeId>DenseMalachite</SubtypeId>
       </Id>
       <DisplayName>Dense Malachite</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_malachite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_malachite_den.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -188,7 +188,7 @@
         <SubtypeId>CrushedMalachite</SubtypeId>
       </Id>
       <DisplayName>Crushed Malachite</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_malachite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_malachite_cru.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -206,7 +206,7 @@
         <SubtypeId>PurifiedMalachite</SubtypeId>
       </Id>
       <DisplayName>Purified Malachite</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_malachite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_malachite_pur.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -242,7 +242,7 @@
         <SubtypeId>DenseCattierite</SubtypeId>
       </Id>
       <DisplayName>Dense Cattierite</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_cattierite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_cattierite_den.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -260,7 +260,7 @@
         <SubtypeId>CrushedCattierite</SubtypeId>
       </Id>
       <DisplayName>Crushed Cattierite</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_cattierite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_cattierite_cru.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -278,7 +278,7 @@
         <SubtypeId>PurifiedCattierite</SubtypeId>
       </Id>
       <DisplayName>Purified Cattierite</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_cattierite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_cattierite_pur.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -314,7 +314,7 @@
         <SubtypeId>DenseQuartz</SubtypeId>
       </Id>
       <DisplayName>Dense Quartz</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_quartz.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_quartz_den.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -332,7 +332,7 @@
         <SubtypeId>CrushedQuartz</SubtypeId>
       </Id>
       <DisplayName>Crushed Quartz</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_quartz.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_quartz_cru.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -350,7 +350,7 @@
         <SubtypeId>PurifiedQuartz</SubtypeId>
       </Id>
       <DisplayName>Purified Quartz</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_quartz.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_quartz_pur.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -386,7 +386,7 @@
         <SubtypeId>DenseMagnesite</SubtypeId>
       </Id>
       <DisplayName>Dense Magnesite</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_magnesite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_magnesite_den.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -404,7 +404,7 @@
         <SubtypeId>CrushedMagnesite</SubtypeId>
       </Id>
       <DisplayName>Crushed Magnesite</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_magnesite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_magnesite_cru.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -422,7 +422,7 @@
         <SubtypeId>PurifiedMagnesite</SubtypeId>
       </Id>
       <DisplayName>Purified Magnesite</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_magnesite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_magnesite_pur.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -458,7 +458,7 @@
         <SubtypeId>DenseCobaltite</SubtypeId>
       </Id>
       <DisplayName>Dense Cobaltite</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_cobaltite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_cobaltite_den.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -476,7 +476,7 @@
         <SubtypeId>CrushedCobaltite</SubtypeId>
       </Id>
       <DisplayName>Crushed Cobaltite</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_cobaltite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_cobaltite_cru.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -494,7 +494,7 @@
         <SubtypeId>PurifiedCobaltite</SubtypeId>
       </Id>
       <DisplayName>Purified Cobaltite</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_cobaltite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_cobaltite_pur.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -530,7 +530,7 @@
         <SubtypeId>DenseGarnierite</SubtypeId>
       </Id>
       <DisplayName>Dense Garnierite</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_garnierite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_garnierite_den.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -548,7 +548,7 @@
         <SubtypeId>CrushedGarnierite</SubtypeId>
       </Id>
       <DisplayName>Crushed Garnierite</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_garnierite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_garnierite_cru.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -566,7 +566,7 @@
         <SubtypeId>PurifiedGarnierite</SubtypeId>
       </Id>
       <DisplayName>Purified Garnierite</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_garnierite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_garnierite_pur.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -602,7 +602,7 @@
         <SubtypeId>DenseTetrahedrite</SubtypeId>
       </Id>
       <DisplayName>Dense Tetrahedrite</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_tetrahedrite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_tetrahedrite_den.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -620,7 +620,7 @@
         <SubtypeId>CrushedTetrahedrite</SubtypeId>
       </Id>
       <DisplayName>Crushed Tetrahedrite</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_tetrahedrite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_tetrahedrite_cru.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -638,7 +638,7 @@
         <SubtypeId>PurifiedTetrahedrite</SubtypeId>
       </Id>
       <DisplayName>Purified Tetrahedrite</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_tetrahedrite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_tetrahedrite_pur.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -674,7 +674,7 @@
         <SubtypeId>DenseGraphite</SubtypeId>
       </Id>
       <DisplayName>Dense Graphite</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_graphite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_graphite_den.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -692,7 +692,7 @@
         <SubtypeId>CrushedGraphite</SubtypeId>
       </Id>
       <DisplayName>Crushed Graphite</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_graphite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_graphite_cru.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -710,7 +710,7 @@
         <SubtypeId>PurifiedGraphite</SubtypeId>
       </Id>
       <DisplayName>Purified Graphite</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_graphite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_graphite_pur.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -746,7 +746,7 @@
         <SubtypeId>DenseNativeSilver</SubtypeId>
       </Id>
       <DisplayName>Dense Native Silver</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_nativesilver.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_nativesilver_den.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -764,7 +764,7 @@
         <SubtypeId>CrushedNativeSilver</SubtypeId>
       </Id>
       <DisplayName>Crushed Native Silver</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_nativesilver.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_nativesilver_cru.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -782,7 +782,7 @@
         <SubtypeId>PurifiedNativeSilver</SubtypeId>
       </Id>
       <DisplayName>Purified Native Silver</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_nativesilver.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_nativesilver_pur.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -818,7 +818,7 @@
         <SubtypeId>DenseNativeGold</SubtypeId>
       </Id>
       <DisplayName>Dense Native Gold</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_nativegold.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_nativegold_den.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -836,7 +836,7 @@
         <SubtypeId>CrushedNativeGold</SubtypeId>
       </Id>
       <DisplayName>Crushed Native Gold</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_nativegold.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_nativegold_cru.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -854,7 +854,7 @@
         <SubtypeId>PurifiedNativeGold</SubtypeId>
       </Id>
       <DisplayName>Purified Native Gold</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_nativegold.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_nativegold_pur.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -890,7 +890,7 @@
         <SubtypeId>DenseCarnotite</SubtypeId>
       </Id>
       <DisplayName>Dense Carnotite</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_carnotite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_carnotite_den.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -908,7 +908,7 @@
         <SubtypeId>CrushedCarnotite</SubtypeId>
       </Id>
       <DisplayName>Crushed Carnotite</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_carnotite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_carnotite_cru.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -926,7 +926,7 @@
         <SubtypeId>PurifiedCarnotite</SubtypeId>
       </Id>
       <DisplayName>Purified Carnotite</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_carnotite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_carnotite_pur.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -962,7 +962,7 @@
         <SubtypeId>DenseBorax</SubtypeId>
       </Id>
       <DisplayName>Dense Borax</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_borax.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_borax_den.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -980,7 +980,7 @@
         <SubtypeId>CrushedBorax</SubtypeId>
       </Id>
       <DisplayName>Crushed Borax</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_borax.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_borax_cru.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -998,7 +998,7 @@
         <SubtypeId>PurifiedBorax</SubtypeId>
       </Id>
       <DisplayName>Purified Borax</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_borax.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_borax_pur.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -1034,7 +1034,7 @@
         <SubtypeId>DenseElectrum</SubtypeId>
       </Id>
       <DisplayName>Dense Electrum</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_electrum.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_electrum_den.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -1052,7 +1052,7 @@
         <SubtypeId>CrushedElectrum</SubtypeId>
       </Id>
       <DisplayName>Crushed Electrum</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_electrum.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_electrum_cru.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -1070,7 +1070,7 @@
         <SubtypeId>PurifiedElectrum</SubtypeId>
       </Id>
       <DisplayName>Purified Electrum</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_electrum.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_electrum_pur.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -1106,7 +1106,7 @@
         <SubtypeId>DenseIlmenite</SubtypeId>
       </Id>
       <DisplayName>Dense Ilmenite</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_ilmenite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_ilmenite_den.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -1124,7 +1124,7 @@
         <SubtypeId>CrushedIlmenite</SubtypeId>
       </Id>
       <DisplayName>Crushed Ilmenite</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_ilmenite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_ilmenite_cru.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -1142,7 +1142,7 @@
         <SubtypeId>PurifiedIlmenite</SubtypeId>
       </Id>
       <DisplayName>Purified Ilmenite</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_ilmenite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_ilmenite_pur.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -1178,7 +1178,7 @@
         <SubtypeId>DenseBauxite</SubtypeId>
       </Id>
       <DisplayName>Dense Bauxite</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_bauxite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_bauxite_den.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -1196,7 +1196,7 @@
         <SubtypeId>CrushedBauxite</SubtypeId>
       </Id>
       <DisplayName>Crushed Bauxite</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_bauxite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_bauxite_cru.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -1214,7 +1214,7 @@
         <SubtypeId>PurifiedBauxite</SubtypeId>
       </Id>
       <DisplayName>Purified Bauxite</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_bauxite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_bauxite_pur.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -1250,7 +1250,7 @@
         <SubtypeId>DenseSperrylite</SubtypeId>
       </Id>
       <DisplayName>Dense Sperrylite</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_sperrylite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_sperrylite_den.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -1268,7 +1268,7 @@
         <SubtypeId>CrushedSperrylite</SubtypeId>
       </Id>
       <DisplayName>Crushed Sperrylite</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_sperrylite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_sperrylite_cru.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -1286,7 +1286,7 @@
         <SubtypeId>PurifiedSperrylite</SubtypeId>
       </Id>
       <DisplayName>Purified Sperrylite</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_sperrylite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_sperrylite_pur.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -1322,7 +1322,7 @@
         <SubtypeId>DenseNaturalThorium</SubtypeId>
       </Id>
       <DisplayName>Dense Natural Thorium</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_naturalthorium.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_naturalthorium_den.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -1340,7 +1340,7 @@
         <SubtypeId>CrushedNaturalThorium</SubtypeId>
       </Id>
       <DisplayName>Crushed Natural Thorium</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_naturalthorium.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_naturalthorium_cru.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -1358,7 +1358,7 @@
         <SubtypeId>PurifiedNaturalThorium</SubtypeId>
       </Id>
       <DisplayName>Purified Natural Thorium</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_naturalthorium.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_naturalthorium_pur.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -1394,7 +1394,7 @@
         <SubtypeId>DenseBertrandite</SubtypeId>
       </Id>
       <DisplayName>Dense Bertrandite</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_bertrandite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_bertrandite_den.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -1412,7 +1412,7 @@
         <SubtypeId>CrushedBertrandite</SubtypeId>
       </Id>
       <DisplayName>Crushed Bertrandite</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_bertrandite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_bertrandite_cru.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -1430,7 +1430,7 @@
         <SubtypeId>PurifiedBertrandite</SubtypeId>
       </Id>
       <DisplayName>Purified Bertrandite</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_bertrandite.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_bertrandite_pur.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -1466,7 +1466,7 @@
         <SubtypeId>DenseRegolith</SubtypeId>
       </Id>
       <DisplayName>Dense Regolith</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_regolith.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_regolith_den.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -1484,7 +1484,7 @@
         <SubtypeId>CrushedRegolith</SubtypeId>
       </Id>
       <DisplayName>Crushed Regolith</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_regolith.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_regolith_cru.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
@@ -1502,7 +1502,7 @@
         <SubtypeId>PurifiedRegolith</SubtypeId>
       </Id>
       <DisplayName>Purified Regolith</DisplayName>
-      <Icon>Textures\GUI\Icons\ore_regolith.dds</Icon>
+      <Icon>Textures\GUI\Icons\ore_regolith_pur.dds</Icon>
       <Size>
         <X>0.07</X>
         <Y>0.07</Y>
