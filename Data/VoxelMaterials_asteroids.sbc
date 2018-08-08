@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!-- Created from AQD Spreadsheet on: 07-08-2018 10:31 -->
+<!-- Created from AQD Spreadsheet on: 08-08-2018 22:32 -->
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <VoxelMaterials>
     <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
@@ -23,6 +23,50 @@
       <ColorMetalXZnY>Textures\Voxels\Ice_03_cm.dds</ColorMetalXZnY>
       <NormalGlossXZnY>Textures\Voxels\Ice_03_ng.dds</NormalGlossXZnY>
       <ExtXZnY>Textures\Voxels\Ice_03_add.dds</ExtXZnY>
+    </VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>DirtyIceMat</SubtypeId>
+      </Id>
+      <MaterialTypeName>Ice</MaterialTypeName>
+      <MinedOre>DirtyIce</MinedOre>
+      <MinedOreRatio>4.5</MinedOreRatio>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>false</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+      <Friction>0.15</Friction>
+      <Restitution>0.9</Restitution>
+      <LandingEffect>Landing_Jet_Ground_Snow</LandingEffect>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+      <SpecularPower>21</SpecularPower>
+      <SpecularShininess>0.632</SpecularShininess>
+      <VoxelHandPreview>Textures\Voxels\IceEuropa_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\IceEuropa_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\IceEuropa_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\IceEuropa_add.dds</ExtXZnY>
+    </VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>DistilledIceMat</SubtypeId>
+      </Id>
+      <MaterialTypeName>Ice</MaterialTypeName>
+      <MinedOre>DistilledIce</MinedOre>
+      <MinedOreRatio>4.5</MinedOreRatio>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>false</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+      <Friction>0.15</Friction>
+      <Restitution>0.9</Restitution>
+      <LandingEffect>Landing_Jet_Ground_Snow</LandingEffect>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+      <SpecularPower>21</SpecularPower>
+      <SpecularShininess>0.632</SpecularShininess>
+      <VoxelHandPreview>Textures\Voxels\EarthIce_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\EarthIce_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\EarthIce_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\EarthIce_add.dds</ExtXZnY>
     </VoxelMaterial>
     <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
@@ -54,6 +98,44 @@
       <IsRare>true</IsRare>
       <SpawnInAsteroids>true</SpawnInAsteroids>
       <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+      <SpecularPower>8</SpecularPower>
+      <SpecularShininess>0.23</SpecularShininess>
+      <VoxelHandPreview>Textures\Voxels\Iron_02_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Iron_02_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Iron_02_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Iron_02_ForAxisXZ_add.dds</ExtXZnY>
+    </VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>CrushedHematiteMat</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>CrushedHematite</MinedOre>
+      <MinedOreRatio>5</MinedOreRatio>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>false</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+      <SpecularPower>8</SpecularPower>
+      <SpecularShininess>0.23</SpecularShininess>
+      <VoxelHandPreview>Textures\Voxels\Iron_02_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Iron_02_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Iron_02_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Iron_02_ForAxisXZ_add.dds</ExtXZnY>
+    </VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>PurifiedHematiteMat</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>PurifiedHematite</MinedOre>
+      <MinedOreRatio>5</MinedOreRatio>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>false</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
@@ -103,6 +185,44 @@
     <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
         <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>CrushedMalachiteMat</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>CrushedMalachite</MinedOre>
+      <MinedOreRatio>5</MinedOreRatio>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>false</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+      <SpecularPower>8</SpecularPower>
+      <SpecularShininess>0.23</SpecularShininess>
+      <VoxelHandPreview>Textures\Voxels\Nickel_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Nickel_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Nickel_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Nickel_01_ForAxisXZ_add.dds</ExtXZnY>
+    </VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>PurifiedMalachiteMat</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>PurifiedMalachite</MinedOre>
+      <MinedOreRatio>5</MinedOreRatio>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>false</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+      <SpecularPower>8</SpecularPower>
+      <SpecularShininess>0.23</SpecularShininess>
+      <VoxelHandPreview>Textures\Voxels\Nickel_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Nickel_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Nickel_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Nickel_01_ForAxisXZ_add.dds</ExtXZnY>
+    </VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>CattieriteMat</SubtypeId>
       </Id>
       <MaterialTypeName>Rock</MaterialTypeName>
@@ -130,6 +250,44 @@
       <IsRare>true</IsRare>
       <SpawnInAsteroids>true</SpawnInAsteroids>
       <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+      <SpecularPower>8</SpecularPower>
+      <SpecularShininess>0.23</SpecularShininess>
+      <VoxelHandPreview>Textures\Voxels\Magnesium_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Magnesium_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Magnesium_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Magnesium_01_ForAxisXZ_add.dds</ExtXZnY>
+    </VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>CrushedCattieriteMat</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>CrushedCattierite</MinedOre>
+      <MinedOreRatio>5</MinedOreRatio>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>false</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+      <SpecularPower>8</SpecularPower>
+      <SpecularShininess>0.23</SpecularShininess>
+      <VoxelHandPreview>Textures\Voxels\Magnesium_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Magnesium_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Magnesium_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Magnesium_01_ForAxisXZ_add.dds</ExtXZnY>
+    </VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>PurifiedCattieriteMat</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>PurifiedCattierite</MinedOre>
+      <MinedOreRatio>5</MinedOreRatio>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>false</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
@@ -179,6 +337,44 @@
     <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
         <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>CrushedQuartzMat</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>CrushedQuartz</MinedOre>
+      <MinedOreRatio>5</MinedOreRatio>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>false</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+      <SpecularPower>8</SpecularPower>
+      <SpecularShininess>0.23</SpecularShininess>
+      <VoxelHandPreview>Textures\Voxels\Ice_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Ice_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Ice_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Ice_01_ForAxisXZ_add.dds</ExtXZnY>
+    </VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>PurifiedQuartzMat</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>PurifiedQuartz</MinedOre>
+      <MinedOreRatio>5</MinedOreRatio>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>false</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+      <SpecularPower>8</SpecularPower>
+      <SpecularShininess>0.23</SpecularShininess>
+      <VoxelHandPreview>Textures\Voxels\Ice_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Ice_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Ice_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Ice_01_ForAxisXZ_add.dds</ExtXZnY>
+    </VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>MagnesiteMat</SubtypeId>
       </Id>
       <MaterialTypeName>Rock</MaterialTypeName>
@@ -206,6 +402,44 @@
       <IsRare>true</IsRare>
       <SpawnInAsteroids>true</SpawnInAsteroids>
       <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+      <SpecularPower>8</SpecularPower>
+      <SpecularShininess>0.23</SpecularShininess>
+      <VoxelHandPreview>Textures\Voxels\Magnesium_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Magnesium_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Magnesium_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Magnesium_01_ForAxisXZ_add.dds</ExtXZnY>
+    </VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>CrushedMagnesiteMat</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>CrushedMagnesite</MinedOre>
+      <MinedOreRatio>5</MinedOreRatio>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>false</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+      <SpecularPower>8</SpecularPower>
+      <SpecularShininess>0.23</SpecularShininess>
+      <VoxelHandPreview>Textures\Voxels\Magnesium_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Magnesium_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Magnesium_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Magnesium_01_ForAxisXZ_add.dds</ExtXZnY>
+    </VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>PurifiedMagnesiteMat</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>PurifiedMagnesite</MinedOre>
+      <MinedOreRatio>5</MinedOreRatio>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>false</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
@@ -255,6 +489,44 @@
     <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
         <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>CrushedCobaltiteMat</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>CrushedCobaltite</MinedOre>
+      <MinedOreRatio>5</MinedOreRatio>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>false</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+      <SpecularPower>8</SpecularPower>
+      <SpecularShininess>0.23</SpecularShininess>
+      <VoxelHandPreview>Textures\Voxels\EarthStone_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\EarthStone_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\EarthStone_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\EarthStone_add.dds</ExtXZnY>
+    </VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>PurifiedCobaltiteMat</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>PurifiedCobaltite</MinedOre>
+      <MinedOreRatio>5</MinedOreRatio>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>false</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+      <SpecularPower>8</SpecularPower>
+      <SpecularShininess>0.23</SpecularShininess>
+      <VoxelHandPreview>Textures\Voxels\EarthStone_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\EarthStone_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\EarthStone_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\EarthStone_add.dds</ExtXZnY>
+    </VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>GarnieriteMat</SubtypeId>
       </Id>
       <MaterialTypeName>Rock</MaterialTypeName>
@@ -282,6 +554,44 @@
       <IsRare>true</IsRare>
       <SpawnInAsteroids>true</SpawnInAsteroids>
       <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+      <SpecularPower>8</SpecularPower>
+      <SpecularShininess>0.23</SpecularShininess>
+      <VoxelHandPreview>Textures\Voxels\Nickel_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Nickel_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Nickel_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Nickel_01_ForAxisXZ_add.dds</ExtXZnY>
+    </VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>CrushedGarnieriteMat</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>CrushedGarnierite</MinedOre>
+      <MinedOreRatio>5</MinedOreRatio>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>false</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+      <SpecularPower>8</SpecularPower>
+      <SpecularShininess>0.23</SpecularShininess>
+      <VoxelHandPreview>Textures\Voxels\Nickel_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Nickel_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Nickel_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Nickel_01_ForAxisXZ_add.dds</ExtXZnY>
+    </VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>PurifiedGarnieriteMat</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>PurifiedGarnierite</MinedOre>
+      <MinedOreRatio>5</MinedOreRatio>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>false</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
       <SpecularShininess>0.23</SpecularShininess>
@@ -331,6 +641,44 @@
     <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
       <Id>
         <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>CrushedTetrahedriteMat</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>CrushedTetrahedrite</MinedOre>
+      <MinedOreRatio>5</MinedOreRatio>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>false</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+      <SpecularPower>8</SpecularPower>
+      <SpecularShininess>0.23</SpecularShininess>
+      <VoxelHandPreview>Textures\Voxels\AlienSoil_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\AlienSoil_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\AlienSoil_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\AlienSoil_add.dds</ExtXZnY>
+    </VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>PurifiedTetrahedriteMat</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>PurifiedTetrahedrite</MinedOre>
+      <MinedOreRatio>5</MinedOreRatio>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>false</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+      <SpecularPower>8</SpecularPower>
+      <SpecularShininess>0.23</SpecularShininess>
+      <VoxelHandPreview>Textures\Voxels\AlienSoil_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\AlienSoil_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\AlienSoil_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\AlienSoil_add.dds</ExtXZnY>
+    </VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
         <SubtypeId>GraphiteMat</SubtypeId>
       </Id>
       <MaterialTypeName>Rock</MaterialTypeName>
@@ -357,6 +705,44 @@
       <MinedOreRatio>5</MinedOreRatio>
       <IsRare>true</IsRare>
       <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+      <SpecularPower>8</SpecularPower>
+      <SpecularShininess>0.23</SpecularShininess>
+      <VoxelHandPreview>Textures\Voxels\Silicon_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Silicon_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Silicon_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Silicon_01_ForAxisXZ_add.dds</ExtXZnY>
+    </VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>CrushedGraphiteMat</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>CrushedGraphite</MinedOre>
+      <MinedOreRatio>5</MinedOreRatio>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>false</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+      <SpecularPower>8</SpecularPower>
+      <SpecularShininess>0.23</SpecularShininess>
+      <VoxelHandPreview>Textures\Voxels\Silicon_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Silicon_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Silicon_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Silicon_01_ForAxisXZ_add.dds</ExtXZnY>
+    </VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>PurifiedGraphiteMat</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>PurifiedGraphite</MinedOre>
+      <MinedOreRatio>5</MinedOreRatio>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>false</SpawnInAsteroids>
       <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
@@ -395,6 +781,44 @@
       <MinedOreRatio>1.5</MinedOreRatio>
       <IsRare>true</IsRare>
       <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+      <SpecularPower>8</SpecularPower>
+      <SpecularShininess>0.23</SpecularShininess>
+      <VoxelHandPreview>Textures\Voxels\Silver_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Silver_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Silver_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Silver_01_ForAxisXZ_add.dds</ExtXZnY>
+    </VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>CrushedNativeSilverMat</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>CrushedNativeSilver</MinedOre>
+      <MinedOreRatio>1.5</MinedOreRatio>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>false</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+      <SpecularPower>8</SpecularPower>
+      <SpecularShininess>0.23</SpecularShininess>
+      <VoxelHandPreview>Textures\Voxels\Silver_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Silver_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Silver_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Silver_01_ForAxisXZ_add.dds</ExtXZnY>
+    </VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>PurifiedNativeSilverMat</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>PurifiedNativeSilver</MinedOre>
+      <MinedOreRatio>1.5</MinedOreRatio>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>false</SpawnInAsteroids>
       <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
@@ -433,6 +857,44 @@
       <MinedOreRatio>3.5</MinedOreRatio>
       <IsRare>true</IsRare>
       <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+      <SpecularPower>8</SpecularPower>
+      <SpecularShininess>0.23</SpecularShininess>
+      <VoxelHandPreview>Textures\Voxels\Gold_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Gold_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Gold_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Gold_01_ForAxisXZ_add.dds</ExtXZnY>
+    </VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>CrushedNativeGoldMat</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>CrushedNativeGold</MinedOre>
+      <MinedOreRatio>3.5</MinedOreRatio>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>false</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+      <SpecularPower>8</SpecularPower>
+      <SpecularShininess>0.23</SpecularShininess>
+      <VoxelHandPreview>Textures\Voxels\Gold_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Gold_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Gold_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Gold_01_ForAxisXZ_add.dds</ExtXZnY>
+    </VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>PurifiedNativeGoldMat</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>PurifiedNativeGold</MinedOre>
+      <MinedOreRatio>3.5</MinedOreRatio>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>false</SpawnInAsteroids>
       <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
@@ -471,6 +933,44 @@
       <MinedOreRatio>1.5</MinedOreRatio>
       <IsRare>true</IsRare>
       <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+      <SpecularPower>8</SpecularPower>
+      <SpecularShininess>0.23</SpecularShininess>
+      <VoxelHandPreview>Textures\Voxels\MarsRocks_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\MarsRocks_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\MarsRocks_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\MarsRocks_01_ForAxisXZ_add.dds</ExtXZnY>
+    </VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>CrushedCarnotiteMat</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>CrushedCarnotite</MinedOre>
+      <MinedOreRatio>1.5</MinedOreRatio>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>false</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+      <SpecularPower>8</SpecularPower>
+      <SpecularShininess>0.23</SpecularShininess>
+      <VoxelHandPreview>Textures\Voxels\MarsRocks_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\MarsRocks_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\MarsRocks_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\MarsRocks_01_ForAxisXZ_add.dds</ExtXZnY>
+    </VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>PurifiedCarnotiteMat</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>PurifiedCarnotite</MinedOre>
+      <MinedOreRatio>1.5</MinedOreRatio>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>false</SpawnInAsteroids>
       <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
@@ -509,6 +1009,44 @@
       <MinedOreRatio>5</MinedOreRatio>
       <IsRare>true</IsRare>
       <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+      <SpecularPower>8</SpecularPower>
+      <SpecularShininess>0.23</SpecularShininess>
+      <VoxelHandPreview>Textures\Voxels\Snow_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Snow_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Snow_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Snow_01_ForAxisXZ_add.dds</ExtXZnY>
+    </VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>CrushedBoraxMat</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>CrushedBorax</MinedOre>
+      <MinedOreRatio>5</MinedOreRatio>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>false</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+      <SpecularPower>8</SpecularPower>
+      <SpecularShininess>0.23</SpecularShininess>
+      <VoxelHandPreview>Textures\Voxels\Snow_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Snow_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Snow_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Snow_01_ForAxisXZ_add.dds</ExtXZnY>
+    </VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>PurifiedBoraxMat</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>PurifiedBorax</MinedOre>
+      <MinedOreRatio>5</MinedOreRatio>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>false</SpawnInAsteroids>
       <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
@@ -547,6 +1085,44 @@
       <MinedOreRatio>1.5</MinedOreRatio>
       <IsRare>true</IsRare>
       <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+      <SpecularPower>8</SpecularPower>
+      <SpecularShininess>0.23</SpecularShininess>
+      <VoxelHandPreview>Textures\Voxels\Sand_02_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Sand_02_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Sand_02_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Sand_02_ForAxisXZ_add.dds</ExtXZnY>
+    </VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>CrushedElectrumMat</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>CrushedElectrum</MinedOre>
+      <MinedOreRatio>1.5</MinedOreRatio>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>false</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+      <SpecularPower>8</SpecularPower>
+      <SpecularShininess>0.23</SpecularShininess>
+      <VoxelHandPreview>Textures\Voxels\Sand_02_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Sand_02_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Sand_02_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Sand_02_ForAxisXZ_add.dds</ExtXZnY>
+    </VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>PurifiedElectrumMat</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>PurifiedElectrum</MinedOre>
+      <MinedOreRatio>1.5</MinedOreRatio>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>false</SpawnInAsteroids>
       <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
@@ -585,6 +1161,44 @@
       <MinedOreRatio>5</MinedOreRatio>
       <IsRare>true</IsRare>
       <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+      <SpecularPower>8</SpecularPower>
+      <SpecularShininess>0.23</SpecularShininess>
+      <VoxelHandPreview>Textures\Voxels\Uraninite_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Uraninite_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Uraninite_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Uraninite_01_ForAxisXZ_add.dds</ExtXZnY>
+    </VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>CrushedIlmeniteMat</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>CrushedIlmenite</MinedOre>
+      <MinedOreRatio>5</MinedOreRatio>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>false</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+      <SpecularPower>8</SpecularPower>
+      <SpecularShininess>0.23</SpecularShininess>
+      <VoxelHandPreview>Textures\Voxels\Uraninite_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Uraninite_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Uraninite_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Uraninite_01_ForAxisXZ_add.dds</ExtXZnY>
+    </VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>PurifiedIlmeniteMat</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>PurifiedIlmenite</MinedOre>
+      <MinedOreRatio>5</MinedOreRatio>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>false</SpawnInAsteroids>
       <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
@@ -623,6 +1237,44 @@
       <MinedOreRatio>5</MinedOreRatio>
       <IsRare>true</IsRare>
       <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+      <SpecularPower>8</SpecularPower>
+      <SpecularShininess>0.23</SpecularShininess>
+      <VoxelHandPreview>Textures\Voxels\AlienRockyTerrain_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\AlienRockyTerrain_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\AlienRockyTerrain_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\AlienRockyTerrain_add.dds</ExtXZnY>
+    </VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>CrushedBauxiteMat</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>CrushedBauxite</MinedOre>
+      <MinedOreRatio>5</MinedOreRatio>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>false</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+      <SpecularPower>8</SpecularPower>
+      <SpecularShininess>0.23</SpecularShininess>
+      <VoxelHandPreview>Textures\Voxels\AlienRockyTerrain_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\AlienRockyTerrain_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\AlienRockyTerrain_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\AlienRockyTerrain_add.dds</ExtXZnY>
+    </VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>PurifiedBauxiteMat</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>PurifiedBauxite</MinedOre>
+      <MinedOreRatio>5</MinedOreRatio>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>false</SpawnInAsteroids>
       <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
@@ -661,6 +1313,44 @@
       <MinedOreRatio>5</MinedOreRatio>
       <IsRare>true</IsRare>
       <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+      <SpecularPower>8</SpecularPower>
+      <SpecularShininess>0.23</SpecularShininess>
+      <VoxelHandPreview>Textures\Voxels\Platinum_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Platinum_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Platinum_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Platinum_01_ForAxisXZ_add.dds</ExtXZnY>
+    </VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>CrushedSperryliteMat</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>CrushedSperrylite</MinedOre>
+      <MinedOreRatio>5</MinedOreRatio>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>false</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+      <SpecularPower>8</SpecularPower>
+      <SpecularShininess>0.23</SpecularShininess>
+      <VoxelHandPreview>Textures\Voxels\Platinum_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\Platinum_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\Platinum_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\Platinum_01_ForAxisXZ_add.dds</ExtXZnY>
+    </VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>PurifiedSperryliteMat</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>PurifiedSperrylite</MinedOre>
+      <MinedOreRatio>5</MinedOreRatio>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>false</SpawnInAsteroids>
       <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
@@ -699,6 +1389,44 @@
       <MinedOreRatio>1.5</MinedOreRatio>
       <IsRare>true</IsRare>
       <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+      <SpecularPower>8</SpecularPower>
+      <SpecularShininess>0.23</SpecularShininess>
+      <VoxelHandPreview>Textures\Voxels\AlienRockyMountain_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\AlienRockyMountain_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\AlienRockyMountain_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\AlienRockyMountain_add.dds</ExtXZnY>
+    </VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>CrushedNaturalThoriumMat</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>CrushedNaturalThorium</MinedOre>
+      <MinedOreRatio>1.5</MinedOreRatio>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>false</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+      <SpecularPower>8</SpecularPower>
+      <SpecularShininess>0.23</SpecularShininess>
+      <VoxelHandPreview>Textures\Voxels\AlienRockyMountain_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\AlienRockyMountain_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\AlienRockyMountain_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\AlienRockyMountain_add.dds</ExtXZnY>
+    </VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>PurifiedNaturalThoriumMat</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>PurifiedNaturalThorium</MinedOre>
+      <MinedOreRatio>1.5</MinedOreRatio>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>false</SpawnInAsteroids>
       <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
@@ -737,6 +1465,44 @@
       <MinedOreRatio>1.5</MinedOreRatio>
       <IsRare>true</IsRare>
       <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+      <SpecularPower>8</SpecularPower>
+      <SpecularShininess>0.23</SpecularShininess>
+      <VoxelHandPreview>Textures\Voxels\AlienIce_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\AlienIce_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\AlienIce_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\AlienIce_add.dds</ExtXZnY>
+    </VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>CrushedBertranditeMat</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>CrushedBertrandite</MinedOre>
+      <MinedOreRatio>1.5</MinedOreRatio>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>false</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+      <SpecularPower>8</SpecularPower>
+      <SpecularShininess>0.23</SpecularShininess>
+      <VoxelHandPreview>Textures\Voxels\AlienIce_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\AlienIce_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\AlienIce_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\AlienIce_add.dds</ExtXZnY>
+    </VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>PurifiedBertranditeMat</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>PurifiedBertrandite</MinedOre>
+      <MinedOreRatio>1.5</MinedOreRatio>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>false</SpawnInAsteroids>
       <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
@@ -775,6 +1541,44 @@
       <MinedOreRatio>1.5</MinedOreRatio>
       <IsRare>true</IsRare>
       <SpawnInAsteroids>true</SpawnInAsteroids>
+      <SpawnsFromMeteorites>true</SpawnsFromMeteorites>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+      <SpecularPower>8</SpecularPower>
+      <SpecularShininess>0.23</SpecularShininess>
+      <VoxelHandPreview>Textures\Voxels\MoonSoil_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\MoonSoil_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\MoonSoil_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\MoonSoil_01_ForAxisXZ_add.dds</ExtXZnY>
+    </VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>CrushedRegolithMat</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>CrushedRegolith</MinedOre>
+      <MinedOreRatio>1.5</MinedOreRatio>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>false</SpawnInAsteroids>
+      <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
+      <ParticleEffect>Collision_Meteor</ParticleEffect>
+      <SpecularPower>8</SpecularPower>
+      <SpecularShininess>0.23</SpecularShininess>
+      <VoxelHandPreview>Textures\Voxels\MoonSoil_01_Thumbnail.dds</VoxelHandPreview>
+      <ColorMetalXZnY>Textures\Voxels\MoonSoil_01_ForAxisXZ_cm.dds</ColorMetalXZnY>
+      <NormalGlossXZnY>Textures\Voxels\MoonSoil_01_ForAxisXZ_ng.dds</NormalGlossXZnY>
+      <ExtXZnY>Textures\Voxels\MoonSoil_01_ForAxisXZ_add.dds</ExtXZnY>
+    </VoxelMaterial>
+    <VoxelMaterial xsi:type="MyObjectBuilder_Dx11VoxelMaterialDefinition">
+      <Id>
+        <TypeId>VoxelMaterialDefinition</TypeId>
+        <SubtypeId>PurifiedRegolithMat</SubtypeId>
+      </Id>
+      <MaterialTypeName>Rock</MaterialTypeName>
+      <MinedOre>PurifiedRegolith</MinedOre>
+      <MinedOreRatio>1.5</MinedOreRatio>
+      <IsRare>true</IsRare>
+      <SpawnInAsteroids>false</SpawnInAsteroids>
       <SpawnsFromMeteorites>false</SpawnsFromMeteorites>
       <ParticleEffect>Collision_Meteor</ParticleEffect>
       <SpecularPower>8</SpecularPower>
