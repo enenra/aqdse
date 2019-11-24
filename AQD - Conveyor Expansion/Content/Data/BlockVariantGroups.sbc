@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlockVariantGroups>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ContainerGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\container_medium.dds</Icon>
+      <DisplayName>DisplayName_BlockGroup_ContainerGroup</DisplayName>
+      <Description>Description_BlockGroup_ContainerGroup</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockSmallContainer" />
+        <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeContainer" />
+        <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockSmallContainer" />
+        <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockMediumContainer" />
+        <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockLargeContainer" />
+        <Block Type="MyObjectBuilder_CargoContainer" Subtype="AQD_LG_ConveyorAccess" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ConveyorThickGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\ConveyorTube.dds</Icon>
+      <DisplayName>DisplayName_ConveyorTube</DisplayName>
+      <Description>Description_ConveyorTube</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTube" />
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeCurved" />
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="AQD_LG_ConveyorT" />
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="AQD_LG_ConveyorX" />
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="LargeBlockConveyor" />
+        <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="LargeBlockConveyorSorter" />
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeMedium" />
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorFrameMedium" />
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeCurvedMedium" />
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="SmallShipConveyorHub" />
+        <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="MediumBlockConveyorSorter" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ConveyorArmoredGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_ConveyorStraightArmored.dds</Icon>
+      <DisplayName>DisplayName_AQD_LG_ConveyorStraightArmored</DisplayName>
+      <Description>Description_ConveyorTube</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="AQD_LG_ConveyorStraightArmored" />
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="AQD_LG_ConveyorCornerArmored" />
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="AQD_LG_ConveyorTArmored" />
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="AQD_LG_ConveyorXArmored" />
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="LargeBlockConveyor" />
+        <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="LargeBlockConveyorSorter" />
+      </Blocks>
+    </BlockVariantGroup>
+
+  </BlockVariantGroups>
+</Definitions>

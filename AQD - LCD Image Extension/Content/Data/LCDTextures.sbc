@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LCDTextures>
+
+    <LCDTextureDefinition>
+      <Id>
+        <TypeId>LCDTextureDefinition</TypeId>
+        <SubtypeId>Arrow</SubtypeId>
+      </Id>
+      <LocalizationId>Arrow</LocalizationId>
+      <TexturePath>Textures\Models\Arrow.dds</TexturePath>
+      <SpritePath>Textures\Sprites\Arrow.dds</SpritePath>
+    </LCDTextureDefinition>
+
+    <LCDTextureDefinition>
+      <Id>
+        <TypeId>LCDTextureDefinition</TypeId>
+        <SubtypeId>Cross</SubtypeId>
+      </Id>
+      <LocalizationId>Cross</LocalizationId>
+      <TexturePath>Textures\Models\Cross.dds</TexturePath>
+      <SpritePath>Textures\Sprites\Cross.dds</SpritePath>
+    </LCDTextureDefinition>
+
+    <LCDTextureDefinition>
+      <Id>
+        <TypeId>LCDTextureDefinition</TypeId>
+        <SubtypeId>Danger</SubtypeId>
+      </Id>
+      <LocalizationId>Danger</LocalizationId>
+      <TexturePath>Textures\Models\DangerZone.dds</TexturePath>
+      <SpritePath>Textures\Sprites\DangerZone.dds</SpritePath>
+    </LCDTextureDefinition>
+
+    <LCDTextureDefinition>
+      <Id>
+        <TypeId>LCDTextureDefinition</TypeId>
+        <SubtypeId>No Entry</SubtypeId>
+      </Id>
+      <LocalizationId>No Entry</LocalizationId>
+      <TexturePath>Textures\Models\NoEntry.dds</TexturePath>
+      <SpritePath>Textures\Sprites\NoEntry.dds</SpritePath>
+    </LCDTextureDefinition>
+
+    <LCDTextureDefinition>
+      <Id>
+        <TypeId>LCDTextureDefinition</TypeId>
+        <SubtypeId>Construction</SubtypeId>
+      </Id>
+      <LocalizationId>Construction</LocalizationId>
+      <TexturePath>Textures\Models\UnderConstruction.dds</TexturePath>
+      <SpritePath>Textures\Sprites\UnderConstruction.dds</SpritePath>
+    </LCDTextureDefinition>
+
+    <LCDTextureDefinition>
+      <Id>
+        <TypeId>LCDTextureDefinition</TypeId>
+        <SubtypeId>AQD_LCD_Welder</SubtypeId>
+      </Id>
+      <LocalizationId>Welder</LocalizationId>
+     <TexturePath>Textures\Models\AQD_LCD_Welder.dds</TexturePath>
+     <TexturePath>Textures\Sprites\AQD_LCD_Welder.dds</TexturePath>
+    </LCDTextureDefinition>
+
+    <LCDTextureDefinition>
+      <Id>
+        <TypeId>LCDTextureDefinition</TypeId>
+        <SubtypeId>AQD_LCD_Grinder</SubtypeId>
+      </Id>
+      <LocalizationId>Grinder</LocalizationId>
+     <TexturePath>Textures\Models\AQD_LCD_Grinder.dds</TexturePath>
+     <TexturePath>Textures\Sprites\AQD_LCD_Grinder.dds</TexturePath>
+    </LCDTextureDefinition>
+
+    <LCDTextureDefinition>
+      <Id>
+        <TypeId>LCDTextureDefinition</TypeId>
+        <SubtypeId>AQD_LCD_Drill</SubtypeId>
+      </Id>
+      <LocalizationId>Drill</LocalizationId>
+     <TexturePath>Textures\Models\AQD_LCD_Drill.dds</TexturePath>
+     <TexturePath>Textures\Sprites\AQD_LCD_Drill.dds</TexturePath>
+    </LCDTextureDefinition>
+
+    <LCDTextureDefinition>
+      <Id>
+        <TypeId>LCDTextureDefinition</TypeId>
+        <SubtypeId>AQD_LCD_Flammable</SubtypeId>
+      </Id>
+      <LocalizationId>Flammable</LocalizationId>
+     <TexturePath>Textures\Models\AQD_LCD_Flammable.dds</TexturePath>
+     <TexturePath>Textures\Sprites\AQD_LCD_Flammable.dds</TexturePath>
+    </LCDTextureDefinition>
+
+    <LCDTextureDefinition>
+      <Id>
+        <TypeId>LCDTextureDefinition</TypeId>
+        <SubtypeId>AQD_LCD_Depressurized</SubtypeId>
+      </Id>
+      <LocalizationId>Depressurized</LocalizationId>
+     <TexturePath>Textures\Models\AQD_LCD_Depressurized.dds</TexturePath>
+     <TexturePath>Textures\Sprites\AQD_LCD_Depressurized.dds</TexturePath>
+    </LCDTextureDefinition>
+
+    <LCDTextureDefinition>
+      <Id>
+        <TypeId>LCDTextureDefinition</TypeId>
+        <SubtypeId>AQD_LCD_Pressurized</SubtypeId>
+      </Id>
+      <LocalizationId>Pressurized</LocalizationId>
+     <TexturePath>Textures\Models\AQD_LCD_Pressurized.dds</TexturePath>
+     <TexturePath>Textures\Sprites\AQD_LCD_Pressurized.dds</TexturePath>
+    </LCDTextureDefinition>
+
+    <LCDTextureDefinition>
+      <Id>
+        <TypeId>LCDTextureDefinition</TypeId>
+        <SubtypeId>AQD_LCD_Medical</SubtypeId>
+      </Id>
+      <LocalizationId>Medical</LocalizationId>
+     <TexturePath>Textures\Models\AQD_LCD_Medical.dds</TexturePath>
+     <TexturePath>Textures\Sprites\AQD_LCD_Medical.dds</TexturePath>
+    </LCDTextureDefinition>
+
+    <LCDTextureDefinition>
+      <Id>
+        <TypeId>LCDTextureDefinition</TypeId>
+        <SubtypeId>AQD_LCD_Electricity</SubtypeId>
+      </Id>
+      <LocalizationId>Electricity</LocalizationId>
+     <TexturePath>Textures\Models\AQD_LCD_Electricity.dds</TexturePath>
+     <TexturePath>Textures\Sprites\AQD_LCD_Electricity.dds</TexturePath>
+    </LCDTextureDefinition>
+
+  </LCDTextures>
+</Definitions>

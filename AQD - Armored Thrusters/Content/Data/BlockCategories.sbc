@@ -1,0 +1,23 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>Thrusters</DisplayName>
+      <Name>Thrusters</Name>
+      <ItemIds>
+        <string>Thrust/AQD_LG_IonThrusterL_Armored</string>
+        <string>Thrust/AQD_LG_IonThrusterS_Armored</string>
+
+        <string>Thrust/AQD_LG_HydroThrusterL_Armored</string>
+        <string>Thrust/AQD_LG_HydroThrusterS_Armored</string>
+
+        <string>Thrust/AQD_LG_AtmoThrusterL_Armored</string>
+        <string>Thrust/AQD_LG_AtmoThrusterS_Armored</string>
+      </ItemIds>
+    </Category>
+  </CategoryClasses>
+</Definitions>

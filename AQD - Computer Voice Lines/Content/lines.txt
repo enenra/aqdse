@@ -1,0 +1,94 @@
+AQD_SB_Arc_001	Command confirmed.
+AQD_SB_Arc_002	Command rejected.
+AQD_SB_Arc_003	Lockdown ... enganged.
+AQD_SB_Arc_004	Lockdown ... disengaged.
+AQD_SB_Arc_005	Enemies sighted.
+AQD_SB_Arc_006	No enemies in range.
+AQD_SB_Arc_007	Target ... acquired.
+AQD_SB_Arc_008	Target ... lost.
+AQD_SB_Arc_009	Turrets ... engaging.
+AQD_SB_Arc_010	Turrets ... activated.
+AQD_SB_Arc_011	Turrets ... disabled.
+AQD_SB_Arc_012	Initializing start-up sequence.
+AQD_SB_Arc_013	Initializing power-down sequence.
+AQD_SB_Arc_014	System starting up.
+AQD_SB_Arc_015	System powering down.
+AQD_SB_Arc_016	Power ... on.
+AQD_SB_Arc_017	Power ... off.
+AQD_SB_Arc_018	Collision alert.
+AQD_SB_Arc_019	Collision imminent.
+AQD_SB_Arc_020	Alert.
+AQD_SB_Arc_021	Proceed to your designated docking space.
+AQD_SB_Arc_022	Intruder alert.
+AQD_SB_Arc_023	Landing gears ... locked.
+AQD_SB_Arc_024	Landing gears ... unlocked.
+AQD_SB_Arc_025	Hull breach.
+AQD_SB_Arc_026	Shields ... critical
+AQD_SB_Arc_027	Shields ... down.
+AQD_SB_Arc_028	Shields reinitializing.
+AQD_SB_Arc_029	Shields charging.
+AQD_SB_Arc_030	Sustaining heavy damage.
+AQD_SB_Arc_031	Ammo ... low.
+AQD_SB_Arc_032	Warning
+AQD_SB_Arc_033	Offering emotional support.
+AQD_SB_Arc_034	Activated.
+AQD_SB_Arc_035	Deactivated.
+AQD_SB_Arc_036	Entering planetary gravity.
+AQD_SB_Arc_037	Exiting planetary gravity.
+AQD_SB_Arc_038	Jumpdrive charging.
+AQD_SB_Arc_039	Jump complete.
+AQD_SB_Arc_040	New contact detected.
+AQD_SB_Arc_041	Power ... low.
+AQD_SB_Arc_042	Hydrogen ... low.
+AQD_SB_Arc_043	Oxygen ... low.
+AQD_SB_Arc_044	Ore detected.
+AQD_SB_Arc_045	Connection established.
+AQD_SB_Arc_046	Connection lost.
+AQD_SB_Arc_047	Opening.
+AQD_SB_Arc_048	Closing.
+AQD_SB_Arc_049	Pressurizing.
+AQD_SB_Arc_050	Depressurizing.
+AQD_SB_Arc_051	Primary
+AQD_SB_Arc_052	Secondary
+AQD_SB_Arc_053	Tertiary
+AQD_SB_Arc_054	On.
+AQD_SB_Arc_055	Off.
+AQD_SB_Arc_056	Thrusters ... engaged.
+AQD_SB_Arc_057	Thrusters ... disabled.
+AQD_SB_Arc_058	Lights ... on.
+AQD_SB_Arc_059	Lights ... off.
+AQD_SB_Arc_060	Connector ... locked.
+AQD_SB_Arc_061	Connector ... unlocked.
+AQD_SB_Arc_062	Welcome aboard.
+AQD_SB_Arc_063	Welcome.
+AQD_SB_Arc_064	Missiles ... armed.
+AQD_SB_Arc_065	Missile ... armed.
+AQD_SB_Arc_066	Hangar doors opening.
+AQD_SB_Arc_067	Hangar doors closing.
+AQD_SB_Arc_068	Reloading.
+AQD_SB_Arc_069	All systems nominal.
+AQD_SB_Arc_070	Reactors ... online.
+AQD_SB_Arc_071	Reactors ... offline.
+AQD_SB_Arc_072	Extending.
+AQD_SB_Arc_073	Retracting.
+AQD_SB_Arc_074	Sensors ... online.
+AQD_SB_Arc_075	Sensors ... offline.
+AQD_SB_Arc_076	Weapons ... online.
+AQD_SB_Arc_077	Weapons ... offline.
+AQD_SB_Arc_078	Standby mode ... engaged.
+AQD_SB_Arc_079	Standby mode ... disengaged.
+AQD_SB_Arc_080	Completed.
+AQD_SB_Arc_081	Aborted.
+AQD_SB_Arc_082	Hangar
+AQD_SB_Arc_083	Airlock
+AQD_SB_Arc_084	Engine room
+AQD_SB_Arc_085	Cargo bay
+AQD_SB_Arc_086	Cryo bay
+AQD_SB_Arc_087	Crew quarters
+AQD_SB_Arc_088	Bridge
+AQD_SB_Arc_089	Forward
+AQD_SB_Arc_090	Aft
+AQD_SB_Arc_091	Port
+AQD_SB_Arc_092	Starbord
+AQD_SB_Arc_093	Upper
+AQD_SB_Arc_094	Lower

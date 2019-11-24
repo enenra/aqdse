@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<!-- Created by enenra's SE Editor version 0.5 on: 2019-07-17 09:02 -->
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SoundCategories>
+    <SoundCategory>
+      <Id>
+        <TypeId>SoundCategoryDefinition</TypeId>
+        <SubtypeId>AQD_SoundBlockSounds</SubtypeId>
+      </Id>
+      <Sounds>
+        <SoundDesc Id="AQD_SB_Arc_001" SoundName="VL: Command confirmed." />
+        <SoundDesc Id="AQD_SB_Arc_002" SoundName="VL: Command rejected." />
+        <SoundDesc Id="AQD_SB_Arc_003" SoundName="VL: Lockdown ... enganged." />
+        <SoundDesc Id="AQD_SB_Arc_004" SoundName="VL: Lockdown ... disengaged." />
+        <SoundDesc Id="AQD_SB_Arc_005" SoundName="VL: Enemies sighted." />
+        <SoundDesc Id="AQD_SB_Arc_006" SoundName="VL: No enemies in range." />
+        <SoundDesc Id="AQD_SB_Arc_007" SoundName="VL: Target ... acquired." />
+        <SoundDesc Id="AQD_SB_Arc_008" SoundName="VL: Target ... lost." />
+        <SoundDesc Id="AQD_SB_Arc_009" SoundName="VL: Turrets ... engaging." />
+        <SoundDesc Id="AQD_SB_Arc_010" SoundName="VL: Turrets ... activated." />
+        <SoundDesc Id="AQD_SB_Arc_011" SoundName="VL: Turrets ... disabled." />
+        <SoundDesc Id="AQD_SB_Arc_012" SoundName="VL: Initializing start-up sequence." />
+        <SoundDesc Id="AQD_SB_Arc_013" SoundName="VL: Initializing power-down sequence." />
+        <SoundDesc Id="AQD_SB_Arc_014" SoundName="VL: System starting up." />
+        <SoundDesc Id="AQD_SB_Arc_015" SoundName="VL: System powering down." />
+        <SoundDesc Id="AQD_SB_Arc_016" SoundName="VL: Power ... on." />
+        <SoundDesc Id="AQD_SB_Arc_017" SoundName="VL: Power ... off." />
+        <SoundDesc Id="AQD_SB_Arc_018" SoundName="VL: Collision alert." />
+        <SoundDesc Id="AQD_SB_Arc_019" SoundName="VL: Collision imminent." />
+        <SoundDesc Id="AQD_SB_Arc_020" SoundName="VL: Alert." />
+        <SoundDesc Id="AQD_SB_Arc_021" SoundName="VL: Proceed to your designated docking space." />
+        <SoundDesc Id="AQD_SB_Arc_022" SoundName="VL: Intruder alert." />
+        <SoundDesc Id="AQD_SB_Arc_023" SoundName="VL: Landing gears ... locked." />
+        <SoundDesc Id="AQD_SB_Arc_024" SoundName="VL: Landing gears ... unlocked." />
+        <SoundDesc Id="AQD_SB_Arc_025" SoundName="VL: Hull breach." />
+        <SoundDesc Id="AQD_SB_Arc_026" SoundName="VL: Shields ... critical" />
+        <SoundDesc Id="AQD_SB_Arc_027" SoundName="VL: Shields ... down." />
+        <SoundDesc Id="AQD_SB_Arc_028" SoundName="VL: Shields reinitializing." />
+        <SoundDesc Id="AQD_SB_Arc_029" SoundName="VL: Shields charging." />
+        <SoundDesc Id="AQD_SB_Arc_030" SoundName="VL: Sustaining heavy damage." />
+        <SoundDesc Id="AQD_SB_Arc_031" SoundName="VL: Ammo ... low." />
+        <SoundDesc Id="AQD_SB_Arc_032" SoundName="VL: Warning" />
+        <SoundDesc Id="AQD_SB_Arc_033" SoundName="VL: Offering emotional support." />
+        <SoundDesc Id="AQD_SB_Arc_034" SoundName="VL: Activated." />
+        <SoundDesc Id="AQD_SB_Arc_035" SoundName="VL: Deactivated." />
+        <SoundDesc Id="AQD_SB_Arc_036" SoundName="VL: Entering planetary gravity." />
+        <SoundDesc Id="AQD_SB_Arc_037" SoundName="VL: Exiting planetary gravity." />
+        <SoundDesc Id="AQD_SB_Arc_038" SoundName="VL: Jumpdrive charging." />
+        <SoundDesc Id="AQD_SB_Arc_039" SoundName="VL: Jump complete." />
+        <SoundDesc Id="AQD_SB_Arc_040" SoundName="VL: New contact detected." />
+        <SoundDesc Id="AQD_SB_Arc_041" SoundName="VL: Power ... low." />
+        <SoundDesc Id="AQD_SB_Arc_042" SoundName="VL: Hydrogen ... low." />
+        <SoundDesc Id="AQD_SB_Arc_043" SoundName="VL: Oxygen ... low." />
+        <SoundDesc Id="AQD_SB_Arc_044" SoundName="VL: Ore detected." />
+        <SoundDesc Id="AQD_SB_Arc_045" SoundName="VL: Connection established." />
+        <SoundDesc Id="AQD_SB_Arc_046" SoundName="VL: Connection lost." />
+        <SoundDesc Id="AQD_SB_Arc_047" SoundName="VL: Opening." />
+        <SoundDesc Id="AQD_SB_Arc_048" SoundName="VL: Closing." />
+        <SoundDesc Id="AQD_SB_Arc_049" SoundName="VL: Pressurizing." />
+        <SoundDesc Id="AQD_SB_Arc_050" SoundName="VL: Depressurizing." />
+        <SoundDesc Id="AQD_SB_Arc_051" SoundName="VL: Primary" />
+        <SoundDesc Id="AQD_SB_Arc_052" SoundName="VL: Secondary" />
+        <SoundDesc Id="AQD_SB_Arc_053" SoundName="VL: Tertiary" />
+        <SoundDesc Id="AQD_SB_Arc_054" SoundName="VL: On." />
+        <SoundDesc Id="AQD_SB_Arc_055" SoundName="VL: Off." />
+        <SoundDesc Id="AQD_SB_Arc_056" SoundName="VL: Thrusters ... engaged." />
+        <SoundDesc Id="AQD_SB_Arc_057" SoundName="VL: Thrusters ... disabled." />
+        <SoundDesc Id="AQD_SB_Arc_058" SoundName="VL: Lights ... on." />
+        <SoundDesc Id="AQD_SB_Arc_059" SoundName="VL: Lights ... off." />
+        <SoundDesc Id="AQD_SB_Arc_060" SoundName="VL: Connector ... locked." />
+        <SoundDesc Id="AQD_SB_Arc_061" SoundName="VL: Connector ... unlocked." />
+        <SoundDesc Id="AQD_SB_Arc_062" SoundName="VL: Welcome aboard." />
+        <SoundDesc Id="AQD_SB_Arc_063" SoundName="VL: Welcome." />
+        <SoundDesc Id="AQD_SB_Arc_064" SoundName="VL: Missiles ... armed." />
+        <SoundDesc Id="AQD_SB_Arc_065" SoundName="VL: Missile ... armed." />
+        <SoundDesc Id="AQD_SB_Arc_066" SoundName="VL: Hangar doors opening." />
+        <SoundDesc Id="AQD_SB_Arc_067" SoundName="VL: Hangar doors closing." />
+        <SoundDesc Id="AQD_SB_Arc_068" SoundName="VL: Reloading." />
+        <SoundDesc Id="AQD_SB_Arc_069" SoundName="VL: All systems nominal." />
+        <SoundDesc Id="AQD_SB_Arc_070" SoundName="VL: Reactors ... online." />
+        <SoundDesc Id="AQD_SB_Arc_071" SoundName="VL: Reactors ... offline." />
+        <SoundDesc Id="AQD_SB_Arc_072" SoundName="VL: Extending." />
+        <SoundDesc Id="AQD_SB_Arc_073" SoundName="VL: Retracting." />
+        <SoundDesc Id="AQD_SB_Arc_074" SoundName="VL: Sensors ... online." />
+        <SoundDesc Id="AQD_SB_Arc_075" SoundName="VL: Sensors ... offline." />
+        <SoundDesc Id="AQD_SB_Arc_076" SoundName="VL: Weapons ... online." />
+        <SoundDesc Id="AQD_SB_Arc_077" SoundName="VL: Weapons ... offline." />
+        <SoundDesc Id="AQD_SB_Arc_078" SoundName="VL: Standby mode ... engaged." />
+        <SoundDesc Id="AQD_SB_Arc_079" SoundName="VL: Standby mode ... disengaged." />
+        <SoundDesc Id="AQD_SB_Arc_080" SoundName="VL: Completed." />
+        <SoundDesc Id="AQD_SB_Arc_081" SoundName="VL: Aborted." />
+        <SoundDesc Id="AQD_SB_Arc_082" SoundName="VL: Hangar" />
+        <SoundDesc Id="AQD_SB_Arc_083" SoundName="VL: Airlock" />
+        <SoundDesc Id="AQD_SB_Arc_084" SoundName="VL: Engine room" />
+        <SoundDesc Id="AQD_SB_Arc_085" SoundName="VL: Cargo bay" />
+        <SoundDesc Id="AQD_SB_Arc_086" SoundName="VL: Cryo bay" />
+        <SoundDesc Id="AQD_SB_Arc_087" SoundName="VL: Crew quarters" />
+        <SoundDesc Id="AQD_SB_Arc_088" SoundName="VL: Bridge" />
+        <SoundDesc Id="AQD_SB_Arc_089" SoundName="VL: Forward" />
+        <SoundDesc Id="AQD_SB_Arc_090" SoundName="VL: Aft" />
+        <SoundDesc Id="AQD_SB_Arc_091" SoundName="VL: Port" />
+        <SoundDesc Id="AQD_SB_Arc_092" SoundName="VL: Starbord" />
+        <SoundDesc Id="AQD_SB_Arc_093" SoundName="VL: Upper" />
+        <SoundDesc Id="AQD_SB_Arc_094" SoundName="VL: Lower" />
+      </Sounds>
+    </SoundCategory>
+  </SoundCategories>
+</Definitions>

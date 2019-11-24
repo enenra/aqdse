@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PhysicalItems>
+
+    <!-- Disable Vanilla Ore Items -->
+
+    <PhysicalItem Enabled="false" >
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Iron</SubtypeId>
+      </Id>
+    </PhysicalItem>
+
+    <PhysicalItem Enabled="false" >
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Nickel</SubtypeId>
+      </Id>
+    </PhysicalItem>
+
+    <PhysicalItem Enabled="false" >
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Cobalt</SubtypeId>
+      </Id>
+    </PhysicalItem>
+
+    <PhysicalItem Enabled="false" >
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Magnesium</SubtypeId>
+      </Id>
+    </PhysicalItem>
+
+    <PhysicalItem Enabled="false" >
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Silicon</SubtypeId>
+      </Id>
+    </PhysicalItem>
+
+    <PhysicalItem Enabled="false" >
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Silver</SubtypeId>
+      </Id>
+    </PhysicalItem>
+
+    <PhysicalItem Enabled="false" >
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Gold</SubtypeId>
+      </Id>
+    </PhysicalItem>
+
+    <PhysicalItem Enabled="false" >
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Platinum</SubtypeId>
+      </Id>
+    </PhysicalItem>
+
+    <PhysicalItem Enabled="false" >
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>Uranium</SubtypeId>
+      </Id>
+    </PhysicalItem>
+  </PhysicalItems>
+</Definitions>

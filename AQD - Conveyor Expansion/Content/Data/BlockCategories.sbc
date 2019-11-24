@@ -1,0 +1,42 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_LargeBlocks</DisplayName>
+      <Name>LargeBlocks</Name>
+      <ItemIds>
+        <string>Conveyor/AQD_LG_ConveyorT</string>
+        <string>Conveyor/AQD_LG_ConveyorX</string>
+        <string>ConveyorConnector/AQD_LG_ConveyorStraightArmored</string>
+        <string>ConveyorConnector/AQD_LG_ConveyorCornerArmored</string>
+        <string>Conveyor/AQD_LG_ConveyorTArmored</string>
+        <string>Conveyor/AQD_LG_ConveyorXArmored</string>
+        <string>CargoContainer/AQD_LG_ConveyorAccess</string>
+      </ItemIds>
+    </Category>
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_ConveyorBlocks</DisplayName>
+      <Name>Conveyors</Name>
+      <ItemIds>
+        <string>Conveyor/AQD_LG_ConveyorT</string>
+        <string>Conveyor/AQD_LG_ConveyorX</string>
+        <string>ConveyorConnector/AQD_LG_ConveyorStraightArmored</string>
+        <string>ConveyorConnector/AQD_LG_ConveyorCornerArmored</string>
+        <string>Conveyor/AQD_LG_ConveyorTArmored</string>
+        <string>Conveyor/AQD_LG_ConveyorXArmored</string>
+        <string>CargoContainer/AQD_LG_ConveyorAccess</string>
+      </ItemIds>
+    </Category>
+
+  </CategoryClasses>
+</Definitions>
