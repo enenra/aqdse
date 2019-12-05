@@ -7,7 +7,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_BasicRefinery</SubtypeId>
       </Id>
-      <DisplayName>ARC Furnace Blueprints</DisplayName>
+      <DisplayName>Basic Refinery Blueprints</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>

@@ -1,168 +1,231 @@
 <?xml version="1.0"?>
-<!-- Created by enenra's BlueprintClassEntries Editor on: 2019-08-05 13:29 -->
-<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- Created by enenra's BlueprintClassEntries Editor on: 2019-12-06 00:34 -->
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <BlueprintClassEntries>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_HematiteOre_To_IronIngot" Class="AQD_BPC_DED_Iron"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_CobaltiteOre_To_IronIngot" Class="AQD_BPC_DED_Iron"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_TetrahedriteOre_To_IronIngot" Class="AQD_BPC_DED_Iron"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_IlmeniteOre_To_IronIngot" Class="AQD_BPC_DED_Iron"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_HematiteDenseOre_To_IronIngot" Class="AQD_BPC_DED_Iron"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_CobaltiteDenseOre_To_IronIngot" Class="AQD_BPC_DED_Iron"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_TetrahedriteDenseOre_To_IronIngot" Class="AQD_BPC_DED_Iron"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_IlmeniteDenseOre_To_IronIngot" Class="AQD_BPC_DED_Iron"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_MalachiteOre_To_CopperIngot" Class="AQD_BPC_DED_Copper"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_TetrahedriteOre_To_CopperIngot" Class="AQD_BPC_DED_Copper"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_ElectrumOre_To_CopperIngot" Class="AQD_BPC_DED_Copper"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_MalachiteDenseOre_To_CopperIngot" Class="AQD_BPC_DED_Copper"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_TetrahedriteDenseOre_To_CopperIngot" Class="AQD_BPC_DED_Copper"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_ElectrumDenseOre_To_CopperIngot" Class="AQD_BPC_DED_Copper"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_MagnesiteOre_To_NickelIngot" Class="AQD_BPC_DED_Nickel"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_CobaltiteOre_To_NickelIngot" Class="AQD_BPC_DED_Nickel"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_GarnieriteOre_To_NickelIngot" Class="AQD_BPC_DED_Nickel"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_MagnesiteDenseOre_To_NickelIngot" Class="AQD_BPC_DED_Nickel"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_CobaltiteDenseOre_To_NickelIngot" Class="AQD_BPC_DED_Nickel"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_GarnieriteDenseOre_To_NickelIngot" Class="AQD_BPC_DED_Nickel"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_CattieriteOre_To_CobaltIngot" Class="AQD_BPC_DED_Cobalt"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_MagnesiteOre_To_CobaltIngot" Class="AQD_BPC_DED_Cobalt"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_CobaltiteOre_To_CobaltIngot" Class="AQD_BPC_DED_Cobalt"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_CattieriteDenseOre_To_CobaltIngot" Class="AQD_BPC_DED_Cobalt"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_MagnesiteDenseOre_To_CobaltIngot" Class="AQD_BPC_DED_Cobalt"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_CobaltiteDenseOre_To_CobaltIngot" Class="AQD_BPC_DED_Cobalt"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_QuartzOre_To_SiliconIngot" Class="AQD_BPC_DED_Silicon"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_QuartzDenseOre_To_SiliconIngot" Class="AQD_BPC_DED_Silicon"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_MagnesiteOre_To_MagnesiumIngot" Class="AQD_BPC_DED_Magnesium"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_GarnieriteOre_To_MagnesiumIngot" Class="AQD_BPC_DED_Magnesium"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_IlmeniteOre_To_MagnesiumIngot" Class="AQD_BPC_DED_Magnesium"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_MagnesiteDenseOre_To_MagnesiumIngot" Class="AQD_BPC_DED_Magnesium"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_GarnieriteDenseOre_To_MagnesiumIngot" Class="AQD_BPC_DED_Magnesium"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_IlmeniteDenseOre_To_MagnesiumIngot" Class="AQD_BPC_DED_Magnesium"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_GraphiteOre_To_CarbonIngot" Class="AQD_BPC_DED_Carbon"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_GraphiteDenseOre_To_CarbonIngot" Class="AQD_BPC_DED_Carbon"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_NativeSilverOre_To_SilverIngot" Class="AQD_BPC_DED_Silver"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_ElectrumOre_To_SilverIngot" Class="AQD_BPC_DED_Silver"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_NativeSilverDenseOre_To_SilverIngot" Class="AQD_BPC_DED_Silver"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_ElectrumDenseOre_To_SilverIngot" Class="AQD_BPC_DED_Silver"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_NativeGoldOre_To_GoldIngot" Class="AQD_BPC_DED_Gold"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_ElectrumOre_To_GoldIngot" Class="AQD_BPC_DED_Gold"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_NativeGoldDenseOre_To_GoldIngot" Class="AQD_BPC_DED_Gold"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_ElectrumDenseOre_To_GoldIngot" Class="AQD_BPC_DED_Gold"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_CarnotiteOre_To_UraniumIngot" Class="AQD_BPC_DED_Uranium"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_CarnotiteDenseOre_To_UraniumIngot" Class="AQD_BPC_DED_Uranium"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_BoraxOre_To_BoronIngot" Class="AQD_BPC_DED_Boron"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_BoraxDenseOre_To_BoronIngot" Class="AQD_BPC_DED_Boron"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_IlmeniteOre_To_TitaniumIngot" Class="AQD_BPC_DED_Titanium"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_BauxiteOre_To_TitaniumIngot" Class="AQD_BPC_DED_Titanium"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_IlmeniteDenseOre_To_TitaniumIngot" Class="AQD_BPC_DED_Titanium"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_BauxiteDenseOre_To_TitaniumIngot" Class="AQD_BPC_DED_Titanium"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_BauxiteOre_To_AluminiumIngot" Class="AQD_BPC_DED_Aluminium"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_BauxiteDenseOre_To_AluminiumIngot" Class="AQD_BPC_DED_Aluminium"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_SperryliteOre_To_PlatinumIngot" Class="AQD_BPC_DED_Platinum"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_SperryliteDenseOre_To_PlatinumIngot" Class="AQD_BPC_DED_Platinum"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_NaturalThoriumOre_To_ThoriumIngot" Class="AQD_BPC_DED_Thorium"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_NaturalThoriumDenseOre_To_ThoriumIngot" Class="AQD_BPC_DED_Thorium"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_BertranditeOre_To_BerylliumIngot" Class="AQD_BPC_DED_Beryllium"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_BertranditeDenseOre_To_BerylliumIngot" Class="AQD_BPC_DED_Beryllium"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_RegolithOre_To_Helium-3Ingot" Class="AQD_BPC_DED_Helium-3"/>
-    <Entry BlueprintSubtypeId="AQD_BP_DED_RegolithDenseOre_To_Helium-3Ingot" Class="AQD_BPC_DED_Helium-3"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_HematiteOre_To_HematiteCrushedOre" Class="AQD_BPC_CRU_Hematite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_HematiteDenseOre_To_HematiteCrushedOre" Class="AQD_BPC_CRU_Hematite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_HematitePurifiedOre_To_HematiteCrushedOre" Class="AQD_BPC_CRU_Hematite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_MalachiteOre_To_MalachiteCrushedOre" Class="AQD_BPC_CRU_Malachite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_MalachiteDenseOre_To_MalachiteCrushedOre" Class="AQD_BPC_CRU_Malachite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_MalachitePurifiedOre_To_MalachiteCrushedOre" Class="AQD_BPC_CRU_Malachite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_CattieriteOre_To_CattieriteCrushedOre" Class="AQD_BPC_CRU_Cattierite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_CattieriteDenseOre_To_CattieriteCrushedOre" Class="AQD_BPC_CRU_Cattierite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_CattieritePurifiedOre_To_CattieriteCrushedOre" Class="AQD_BPC_CRU_Cattierite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_QuartzOre_To_QuartzCrushedOre" Class="AQD_BPC_CRU_Quartz"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_QuartzDenseOre_To_QuartzCrushedOre" Class="AQD_BPC_CRU_Quartz"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_QuartzPurifiedOre_To_QuartzCrushedOre" Class="AQD_BPC_CRU_Quartz"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_MagnesiteOre_To_MagnesiteCrushedOre" Class="AQD_BPC_CRU_Magnesite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_MagnesiteDenseOre_To_MagnesiteCrushedOre" Class="AQD_BPC_CRU_Magnesite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_MagnesitePurifiedOre_To_MagnesiteCrushedOre" Class="AQD_BPC_CRU_Magnesite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_CobaltiteOre_To_CobaltiteCrushedOre" Class="AQD_BPC_CRU_Cobaltite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_CobaltiteDenseOre_To_CobaltiteCrushedOre" Class="AQD_BPC_CRU_Cobaltite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_CobaltitePurifiedOre_To_CobaltiteCrushedOre" Class="AQD_BPC_CRU_Cobaltite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_GarnieriteOre_To_GarnieriteCrushedOre" Class="AQD_BPC_CRU_Garnierite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_GarnieriteDenseOre_To_GarnieriteCrushedOre" Class="AQD_BPC_CRU_Garnierite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_GarnieritePurifiedOre_To_GarnieriteCrushedOre" Class="AQD_BPC_CRU_Garnierite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_TetrahedriteOre_To_TetrahedriteCrushedOre" Class="AQD_BPC_CRU_Tetrahedrite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_TetrahedriteDenseOre_To_TetrahedriteCrushedOre" Class="AQD_BPC_CRU_Tetrahedrite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_TetrahedritePurifiedOre_To_TetrahedriteCrushedOre" Class="AQD_BPC_CRU_Tetrahedrite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_GraphiteOre_To_GraphiteCrushedOre" Class="AQD_BPC_CRU_Graphite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_GraphiteDenseOre_To_GraphiteCrushedOre" Class="AQD_BPC_CRU_Graphite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_GraphitePurifiedOre_To_GraphiteCrushedOre" Class="AQD_BPC_CRU_Graphite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_NativeSilverOre_To_NativeSilverCrushedOre" Class="AQD_BPC_CRU_NativeSilver"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_NativeSilverDenseOre_To_NativeSilverCrushedOre" Class="AQD_BPC_CRU_NativeSilver"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_NativeSilverPurifiedOre_To_NativeSilverCrushedOre" Class="AQD_BPC_CRU_NativeSilver"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_NativeGoldOre_To_NativeGoldCrushedOre" Class="AQD_BPC_CRU_NativeGold"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_NativeGoldDenseOre_To_NativeGoldCrushedOre" Class="AQD_BPC_CRU_NativeGold"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_NativeGoldPurifiedOre_To_NativeGoldCrushedOre" Class="AQD_BPC_CRU_NativeGold"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_CarnotiteOre_To_CarnotiteCrushedOre" Class="AQD_BPC_CRU_Carnotite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_CarnotiteDenseOre_To_CarnotiteCrushedOre" Class="AQD_BPC_CRU_Carnotite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_CarnotitePurifiedOre_To_CarnotiteCrushedOre" Class="AQD_BPC_CRU_Carnotite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_BoraxOre_To_BoraxCrushedOre" Class="AQD_BPC_CRU_Borax"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_BoraxDenseOre_To_BoraxCrushedOre" Class="AQD_BPC_CRU_Borax"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_BoraxPurifiedOre_To_BoraxCrushedOre" Class="AQD_BPC_CRU_Borax"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_ElectrumOre_To_ElectrumCrushedOre" Class="AQD_BPC_CRU_Electrum"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_ElectrumDenseOre_To_ElectrumCrushedOre" Class="AQD_BPC_CRU_Electrum"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_ElectrumPurifiedOre_To_ElectrumCrushedOre" Class="AQD_BPC_CRU_Electrum"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_IlmeniteOre_To_IlmeniteCrushedOre" Class="AQD_BPC_CRU_Ilmenite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_IlmeniteDenseOre_To_IlmeniteCrushedOre" Class="AQD_BPC_CRU_Ilmenite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_IlmenitePurifiedOre_To_IlmeniteCrushedOre" Class="AQD_BPC_CRU_Ilmenite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_BauxiteOre_To_BauxiteCrushedOre" Class="AQD_BPC_CRU_Bauxite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_BauxiteDenseOre_To_BauxiteCrushedOre" Class="AQD_BPC_CRU_Bauxite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_BauxitePurifiedOre_To_BauxiteCrushedOre" Class="AQD_BPC_CRU_Bauxite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_SperryliteOre_To_SperryliteCrushedOre" Class="AQD_BPC_CRU_Sperrylite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_SperryliteDenseOre_To_SperryliteCrushedOre" Class="AQD_BPC_CRU_Sperrylite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_SperrylitePurifiedOre_To_SperryliteCrushedOre" Class="AQD_BPC_CRU_Sperrylite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_NaturalThoriumOre_To_NaturalThoriumCrushedOre" Class="AQD_BPC_CRU_NaturalThorium"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_NaturalThoriumDenseOre_To_NaturalThoriumCrushedOre" Class="AQD_BPC_CRU_NaturalThorium"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_NaturalThoriumPurifiedOre_To_NaturalThoriumCrushedOre" Class="AQD_BPC_CRU_NaturalThorium"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_BertranditeOre_To_BertranditeCrushedOre" Class="AQD_BPC_CRU_Bertrandite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_BertranditeDenseOre_To_BertranditeCrushedOre" Class="AQD_BPC_CRU_Bertrandite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_BertranditePurifiedOre_To_BertranditeCrushedOre" Class="AQD_BPC_CRU_Bertrandite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_RegolithOre_To_RegolithCrushedOre" Class="AQD_BPC_CRU_Regolith"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_RegolithDenseOre_To_RegolithCrushedOre" Class="AQD_BPC_CRU_Regolith"/>
-    <Entry BlueprintSubtypeId="AQD_BP_CRU_RegolithPurifiedOre_To_RegolithCrushedOre" Class="AQD_BPC_CRU_Regolith"/>
-    <Entry BlueprintSubtypeId="AQD_BP_PUR_HematiteOre_To_HematitePurifiedOre" Class="AQD_BPC_PUR_Hematite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_PUR_HematiteDenseOre_To_HematitePurifiedOre" Class="AQD_BPC_PUR_Hematite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_PUR_MalachiteOre_To_MalachitePurifiedOre" Class="AQD_BPC_PUR_Malachite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_PUR_MalachiteDenseOre_To_MalachitePurifiedOre" Class="AQD_BPC_PUR_Malachite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_PUR_CattieriteOre_To_CattieritePurifiedOre" Class="AQD_BPC_PUR_Cattierite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_PUR_CattieriteDenseOre_To_CattieritePurifiedOre" Class="AQD_BPC_PUR_Cattierite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_PUR_QuartzOre_To_QuartzPurifiedOre" Class="AQD_BPC_PUR_Quartz"/>
-    <Entry BlueprintSubtypeId="AQD_BP_PUR_QuartzDenseOre_To_QuartzPurifiedOre" Class="AQD_BPC_PUR_Quartz"/>
-    <Entry BlueprintSubtypeId="AQD_BP_PUR_MagnesiteOre_To_MagnesitePurifiedOre" Class="AQD_BPC_PUR_Magnesite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_PUR_MagnesiteDenseOre_To_MagnesitePurifiedOre" Class="AQD_BPC_PUR_Magnesite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_PUR_CobaltiteOre_To_CobaltitePurifiedOre" Class="AQD_BPC_PUR_Cobaltite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_PUR_CobaltiteDenseOre_To_CobaltitePurifiedOre" Class="AQD_BPC_PUR_Cobaltite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_PUR_GarnieriteOre_To_GarnieritePurifiedOre" Class="AQD_BPC_PUR_Garnierite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_PUR_GarnieriteDenseOre_To_GarnieritePurifiedOre" Class="AQD_BPC_PUR_Garnierite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_PUR_TetrahedriteOre_To_TetrahedritePurifiedOre" Class="AQD_BPC_PUR_Tetrahedrite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_PUR_TetrahedriteDenseOre_To_TetrahedritePurifiedOre" Class="AQD_BPC_PUR_Tetrahedrite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_PUR_GraphiteOre_To_GraphitePurifiedOre" Class="AQD_BPC_PUR_Graphite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_PUR_GraphiteDenseOre_To_GraphitePurifiedOre" Class="AQD_BPC_PUR_Graphite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_PUR_NativeSilverOre_To_NativeSilverPurifiedOre" Class="AQD_BPC_PUR_NativeSilver"/>
-    <Entry BlueprintSubtypeId="AQD_BP_PUR_NativeSilverDenseOre_To_NativeSilverPurifiedOre" Class="AQD_BPC_PUR_NativeSilver"/>
-    <Entry BlueprintSubtypeId="AQD_BP_PUR_NativeGoldOre_To_NativeGoldPurifiedOre" Class="AQD_BPC_PUR_NativeGold"/>
-    <Entry BlueprintSubtypeId="AQD_BP_PUR_NativeGoldDenseOre_To_NativeGoldPurifiedOre" Class="AQD_BPC_PUR_NativeGold"/>
-    <Entry BlueprintSubtypeId="AQD_BP_PUR_CarnotiteOre_To_CarnotitePurifiedOre" Class="AQD_BPC_PUR_Carnotite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_PUR_CarnotiteDenseOre_To_CarnotitePurifiedOre" Class="AQD_BPC_PUR_Carnotite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_PUR_BoraxOre_To_BoraxPurifiedOre" Class="AQD_BPC_PUR_Borax"/>
-    <Entry BlueprintSubtypeId="AQD_BP_PUR_BoraxDenseOre_To_BoraxPurifiedOre" Class="AQD_BPC_PUR_Borax"/>
-    <Entry BlueprintSubtypeId="AQD_BP_PUR_ElectrumOre_To_ElectrumPurifiedOre" Class="AQD_BPC_PUR_Electrum"/>
-    <Entry BlueprintSubtypeId="AQD_BP_PUR_ElectrumDenseOre_To_ElectrumPurifiedOre" Class="AQD_BPC_PUR_Electrum"/>
-    <Entry BlueprintSubtypeId="AQD_BP_PUR_IlmeniteOre_To_IlmenitePurifiedOre" Class="AQD_BPC_PUR_Ilmenite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_PUR_IlmeniteDenseOre_To_IlmenitePurifiedOre" Class="AQD_BPC_PUR_Ilmenite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_PUR_BauxiteOre_To_BauxitePurifiedOre" Class="AQD_BPC_PUR_Bauxite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_PUR_BauxiteDenseOre_To_BauxitePurifiedOre" Class="AQD_BPC_PUR_Bauxite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_PUR_SperryliteOre_To_SperrylitePurifiedOre" Class="AQD_BPC_PUR_Sperrylite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_PUR_SperryliteDenseOre_To_SperrylitePurifiedOre" Class="AQD_BPC_PUR_Sperrylite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_PUR_NaturalThoriumOre_To_NaturalThoriumPurifiedOre" Class="AQD_BPC_PUR_NaturalThorium"/>
-    <Entry BlueprintSubtypeId="AQD_BP_PUR_NaturalThoriumDenseOre_To_NaturalThoriumPurifiedOre" Class="AQD_BPC_PUR_NaturalThorium"/>
-    <Entry BlueprintSubtypeId="AQD_BP_PUR_BertranditeOre_To_BertranditePurifiedOre" Class="AQD_BPC_PUR_Bertrandite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_PUR_BertranditeDenseOre_To_BertranditePurifiedOre" Class="AQD_BPC_PUR_Bertrandite"/>
-    <Entry BlueprintSubtypeId="AQD_BP_PUR_RegolithOre_To_RegolithPurifiedOre" Class="AQD_BPC_PUR_Regolith"/>
-    <Entry BlueprintSubtypeId="AQD_BP_PUR_RegolithDenseOre_To_RegolithPurifiedOre" Class="AQD_BPC_PUR_Regolith"/>
+
+    <Entry Class="AQD_BPC_DED_Iron" BlueprintSubtypeId="AQD_BP_DED_HematiteOre_To_IronIngot" />
+    <Entry Class="AQD_BPC_DED_Iron" BlueprintSubtypeId="AQD_BP_DED_CobaltiteOre_To_IronIngot" />
+    <Entry Class="AQD_BPC_DED_Iron" BlueprintSubtypeId="AQD_BP_DED_TetrahedriteOre_To_IronIngot" />
+    <Entry Class="AQD_BPC_DED_Iron" BlueprintSubtypeId="AQD_BP_DED_IlmeniteOre_To_IronIngot" />
+    <Entry Class="AQD_BPC_DED_Iron" BlueprintSubtypeId="AQD_BP_DED_HematiteDenseOre_To_IronIngot" />
+    <Entry Class="AQD_BPC_DED_Iron" BlueprintSubtypeId="AQD_BP_DED_CobaltiteDenseOre_To_IronIngot" />
+    <Entry Class="AQD_BPC_DED_Iron" BlueprintSubtypeId="AQD_BP_DED_TetrahedriteDenseOre_To_IronIngot" />
+    <Entry Class="AQD_BPC_DED_Iron" BlueprintSubtypeId="AQD_BP_DED_IlmeniteDenseOre_To_IronIngot" />
+    <Entry Class="AQD_BPC_DED_Iron" BlueprintSubtypeId="AQD_BP_DED_HematiteCrushedOre_To_IronIngot" />
+    <Entry Class="AQD_BPC_DED_Iron" BlueprintSubtypeId="AQD_BP_DED_CobaltiteCrushedOre_To_IronIngot" />
+    <Entry Class="AQD_BPC_DED_Iron" BlueprintSubtypeId="AQD_BP_DED_TetrahedriteCrushedOre_To_IronIngot" />
+    <Entry Class="AQD_BPC_DED_Iron" BlueprintSubtypeId="AQD_BP_DED_IlmeniteCrushedOre_To_IronIngot" />
+    <Entry Class="AQD_BPC_DED_Copper" BlueprintSubtypeId="AQD_BP_DED_MalachiteOre_To_CopperIngot" />
+    <Entry Class="AQD_BPC_DED_Copper" BlueprintSubtypeId="AQD_BP_DED_TetrahedriteOre_To_CopperIngot" />
+    <Entry Class="AQD_BPC_DED_Copper" BlueprintSubtypeId="AQD_BP_DED_ElectrumOre_To_CopperIngot" />
+    <Entry Class="AQD_BPC_DED_Copper" BlueprintSubtypeId="AQD_BP_DED_MalachiteDenseOre_To_CopperIngot" />
+    <Entry Class="AQD_BPC_DED_Copper" BlueprintSubtypeId="AQD_BP_DED_TetrahedriteDenseOre_To_CopperIngot" />
+    <Entry Class="AQD_BPC_DED_Copper" BlueprintSubtypeId="AQD_BP_DED_ElectrumDenseOre_To_CopperIngot" />
+    <Entry Class="AQD_BPC_DED_Copper" BlueprintSubtypeId="AQD_BP_DED_MalachiteCrushedOre_To_CopperIngot" />
+    <Entry Class="AQD_BPC_DED_Copper" BlueprintSubtypeId="AQD_BP_DED_TetrahedriteCrushedOre_To_CopperIngot" />
+    <Entry Class="AQD_BPC_DED_Copper" BlueprintSubtypeId="AQD_BP_DED_ElectrumCrushedOre_To_CopperIngot" />
+    <Entry Class="AQD_BPC_DED_Nickel" BlueprintSubtypeId="AQD_BP_DED_MagnesiteOre_To_NickelIngot" />
+    <Entry Class="AQD_BPC_DED_Nickel" BlueprintSubtypeId="AQD_BP_DED_CobaltiteOre_To_NickelIngot" />
+    <Entry Class="AQD_BPC_DED_Nickel" BlueprintSubtypeId="AQD_BP_DED_GarnieriteOre_To_NickelIngot" />
+    <Entry Class="AQD_BPC_DED_Nickel" BlueprintSubtypeId="AQD_BP_DED_MagnesiteDenseOre_To_NickelIngot" />
+    <Entry Class="AQD_BPC_DED_Nickel" BlueprintSubtypeId="AQD_BP_DED_CobaltiteDenseOre_To_NickelIngot" />
+    <Entry Class="AQD_BPC_DED_Nickel" BlueprintSubtypeId="AQD_BP_DED_GarnieriteDenseOre_To_NickelIngot" />
+    <Entry Class="AQD_BPC_DED_Nickel" BlueprintSubtypeId="AQD_BP_DED_MagnesiteCrushedOre_To_NickelIngot" />
+    <Entry Class="AQD_BPC_DED_Nickel" BlueprintSubtypeId="AQD_BP_DED_CobaltiteCrushedOre_To_NickelIngot" />
+    <Entry Class="AQD_BPC_DED_Nickel" BlueprintSubtypeId="AQD_BP_DED_GarnieriteCrushedOre_To_NickelIngot" />
+    <Entry Class="AQD_BPC_DED_Cobalt" BlueprintSubtypeId="AQD_BP_DED_CattieriteOre_To_CobaltIngot" />
+    <Entry Class="AQD_BPC_DED_Cobalt" BlueprintSubtypeId="AQD_BP_DED_MagnesiteOre_To_CobaltIngot" />
+    <Entry Class="AQD_BPC_DED_Cobalt" BlueprintSubtypeId="AQD_BP_DED_CobaltiteOre_To_CobaltIngot" />
+    <Entry Class="AQD_BPC_DED_Cobalt" BlueprintSubtypeId="AQD_BP_DED_CattieriteDenseOre_To_CobaltIngot" />
+    <Entry Class="AQD_BPC_DED_Cobalt" BlueprintSubtypeId="AQD_BP_DED_MagnesiteDenseOre_To_CobaltIngot" />
+    <Entry Class="AQD_BPC_DED_Cobalt" BlueprintSubtypeId="AQD_BP_DED_CobaltiteDenseOre_To_CobaltIngot" />
+    <Entry Class="AQD_BPC_DED_Cobalt" BlueprintSubtypeId="AQD_BP_DED_CattieriteCrushedOre_To_CobaltIngot" />
+    <Entry Class="AQD_BPC_DED_Cobalt" BlueprintSubtypeId="AQD_BP_DED_MagnesiteCrushedOre_To_CobaltIngot" />
+    <Entry Class="AQD_BPC_DED_Cobalt" BlueprintSubtypeId="AQD_BP_DED_CobaltiteCrushedOre_To_CobaltIngot" />
+    <Entry Class="AQD_BPC_DED_Silicon" BlueprintSubtypeId="AQD_BP_DED_QuartzOre_To_SiliconIngot" />
+    <Entry Class="AQD_BPC_DED_Silicon" BlueprintSubtypeId="AQD_BP_DED_QuartzDenseOre_To_SiliconIngot" />
+    <Entry Class="AQD_BPC_DED_Silicon" BlueprintSubtypeId="AQD_BP_DED_QuartzCrushedOre_To_SiliconIngot" />
+    <Entry Class="AQD_BPC_DED_Magnesium" BlueprintSubtypeId="AQD_BP_DED_MagnesiteOre_To_MagnesiumIngot" />
+    <Entry Class="AQD_BPC_DED_Magnesium" BlueprintSubtypeId="AQD_BP_DED_GarnieriteOre_To_MagnesiumIngot" />
+    <Entry Class="AQD_BPC_DED_Magnesium" BlueprintSubtypeId="AQD_BP_DED_IlmeniteOre_To_MagnesiumIngot" />
+    <Entry Class="AQD_BPC_DED_Magnesium" BlueprintSubtypeId="AQD_BP_DED_MagnesiteDenseOre_To_MagnesiumIngot" />
+    <Entry Class="AQD_BPC_DED_Magnesium" BlueprintSubtypeId="AQD_BP_DED_GarnieriteDenseOre_To_MagnesiumIngot" />
+    <Entry Class="AQD_BPC_DED_Magnesium" BlueprintSubtypeId="AQD_BP_DED_IlmeniteDenseOre_To_MagnesiumIngot" />
+    <Entry Class="AQD_BPC_DED_Magnesium" BlueprintSubtypeId="AQD_BP_DED_MagnesiteCrushedOre_To_MagnesiumIngot" />
+    <Entry Class="AQD_BPC_DED_Magnesium" BlueprintSubtypeId="AQD_BP_DED_GarnieriteCrushedOre_To_MagnesiumIngot" />
+    <Entry Class="AQD_BPC_DED_Magnesium" BlueprintSubtypeId="AQD_BP_DED_IlmeniteCrushedOre_To_MagnesiumIngot" />
+    <Entry Class="AQD_BPC_DED_Carbon" BlueprintSubtypeId="AQD_BP_DED_GraphiteOre_To_CarbonIngot" />
+    <Entry Class="AQD_BPC_DED_Carbon" BlueprintSubtypeId="AQD_BP_DED_GraphiteDenseOre_To_CarbonIngot" />
+    <Entry Class="AQD_BPC_DED_Carbon" BlueprintSubtypeId="AQD_BP_DED_GraphiteCrushedOre_To_CarbonIngot" />
+    <Entry Class="AQD_BPC_DED_Silver" BlueprintSubtypeId="AQD_BP_DED_NativeSilverOre_To_SilverIngot" />
+    <Entry Class="AQD_BPC_DED_Silver" BlueprintSubtypeId="AQD_BP_DED_ElectrumOre_To_SilverIngot" />
+    <Entry Class="AQD_BPC_DED_Silver" BlueprintSubtypeId="AQD_BP_DED_NativeSilverDenseOre_To_SilverIngot" />
+    <Entry Class="AQD_BPC_DED_Silver" BlueprintSubtypeId="AQD_BP_DED_ElectrumDenseOre_To_SilverIngot" />
+    <Entry Class="AQD_BPC_DED_Silver" BlueprintSubtypeId="AQD_BP_DED_NativeSilverCrushedOre_To_SilverIngot" />
+    <Entry Class="AQD_BPC_DED_Silver" BlueprintSubtypeId="AQD_BP_DED_ElectrumCrushedOre_To_SilverIngot" />
+    <Entry Class="AQD_BPC_DED_Gold" BlueprintSubtypeId="AQD_BP_DED_NativeGoldOre_To_GoldIngot" />
+    <Entry Class="AQD_BPC_DED_Gold" BlueprintSubtypeId="AQD_BP_DED_ElectrumOre_To_GoldIngot" />
+    <Entry Class="AQD_BPC_DED_Gold" BlueprintSubtypeId="AQD_BP_DED_NativeGoldDenseOre_To_GoldIngot" />
+    <Entry Class="AQD_BPC_DED_Gold" BlueprintSubtypeId="AQD_BP_DED_ElectrumDenseOre_To_GoldIngot" />
+    <Entry Class="AQD_BPC_DED_Gold" BlueprintSubtypeId="AQD_BP_DED_NativeGoldCrushedOre_To_GoldIngot" />
+    <Entry Class="AQD_BPC_DED_Gold" BlueprintSubtypeId="AQD_BP_DED_ElectrumCrushedOre_To_GoldIngot" />
+    <Entry Class="AQD_BPC_DED_Uranium" BlueprintSubtypeId="AQD_BP_DED_CarnotiteOre_To_UraniumIngot" />
+    <Entry Class="AQD_BPC_DED_Uranium" BlueprintSubtypeId="AQD_BP_DED_CarnotiteDenseOre_To_UraniumIngot" />
+    <Entry Class="AQD_BPC_DED_Uranium" BlueprintSubtypeId="AQD_BP_DED_CarnotiteCrushedOre_To_UraniumIngot" />
+    <Entry Class="AQD_BPC_DED_Boron" BlueprintSubtypeId="AQD_BP_DED_BoraxOre_To_BoronIngot" />
+    <Entry Class="AQD_BPC_DED_Boron" BlueprintSubtypeId="AQD_BP_DED_BoraxDenseOre_To_BoronIngot" />
+    <Entry Class="AQD_BPC_DED_Boron" BlueprintSubtypeId="AQD_BP_DED_BoraxCrushedOre_To_BoronIngot" />
+    <Entry Class="AQD_BPC_DED_Titanium" BlueprintSubtypeId="AQD_BP_DED_IlmeniteOre_To_TitaniumIngot" />
+    <Entry Class="AQD_BPC_DED_Titanium" BlueprintSubtypeId="AQD_BP_DED_BauxiteOre_To_TitaniumIngot" />
+    <Entry Class="AQD_BPC_DED_Titanium" BlueprintSubtypeId="AQD_BP_DED_IlmeniteDenseOre_To_TitaniumIngot" />
+    <Entry Class="AQD_BPC_DED_Titanium" BlueprintSubtypeId="AQD_BP_DED_BauxiteDenseOre_To_TitaniumIngot" />
+    <Entry Class="AQD_BPC_DED_Titanium" BlueprintSubtypeId="AQD_BP_DED_IlmeniteCrushedOre_To_TitaniumIngot" />
+    <Entry Class="AQD_BPC_DED_Titanium" BlueprintSubtypeId="AQD_BP_DED_BauxiteCrushedOre_To_TitaniumIngot" />
+    <Entry Class="AQD_BPC_DED_Aluminium" BlueprintSubtypeId="AQD_BP_DED_BauxiteOre_To_AluminiumIngot" />
+    <Entry Class="AQD_BPC_DED_Aluminium" BlueprintSubtypeId="AQD_BP_DED_BauxiteDenseOre_To_AluminiumIngot" />
+    <Entry Class="AQD_BPC_DED_Aluminium" BlueprintSubtypeId="AQD_BP_DED_BauxiteCrushedOre_To_AluminiumIngot" />
+    <Entry Class="AQD_BPC_DED_Platinum" BlueprintSubtypeId="AQD_BP_DED_SperryliteOre_To_PlatinumIngot" />
+    <Entry Class="AQD_BPC_DED_Platinum" BlueprintSubtypeId="AQD_BP_DED_SperryliteDenseOre_To_PlatinumIngot" />
+    <Entry Class="AQD_BPC_DED_Platinum" BlueprintSubtypeId="AQD_BP_DED_SperryliteCrushedOre_To_PlatinumIngot" />
+    <Entry Class="AQD_BPC_DED_Thorium" BlueprintSubtypeId="AQD_BP_DED_NaturalThoriumOre_To_ThoriumIngot" />
+    <Entry Class="AQD_BPC_DED_Thorium" BlueprintSubtypeId="AQD_BP_DED_NaturalThoriumDenseOre_To_ThoriumIngot" />
+    <Entry Class="AQD_BPC_DED_Thorium" BlueprintSubtypeId="AQD_BP_DED_NaturalThoriumCrushedOre_To_ThoriumIngot" />
+    <Entry Class="AQD_BPC_DED_Beryllium" BlueprintSubtypeId="AQD_BP_DED_BertranditeOre_To_BerylliumIngot" />
+    <Entry Class="AQD_BPC_DED_Beryllium" BlueprintSubtypeId="AQD_BP_DED_BertranditeDenseOre_To_BerylliumIngot" />
+    <Entry Class="AQD_BPC_DED_Beryllium" BlueprintSubtypeId="AQD_BP_DED_BertranditeCrushedOre_To_BerylliumIngot" />
+    <Entry Class="AQD_BPC_DED_Helium-3" BlueprintSubtypeId="AQD_BP_DED_RegolithOre_To_Helium-3Ingot" />
+    <Entry Class="AQD_BPC_DED_Helium-3" BlueprintSubtypeId="AQD_BP_DED_RegolithDenseOre_To_Helium-3Ingot" />
+    <Entry Class="AQD_BPC_DED_Helium-3" BlueprintSubtypeId="AQD_BP_DED_RegolithCrushedOre_To_Helium-3Ingot" />
+    <Entry Class="AQD_BPC_CRU_Hematite" BlueprintSubtypeId="AQD_BP_DED_HematiteCrushedOre_To_IronIngot" />
+    <Entry Class="AQD_BPC_CRU_Hematite" BlueprintSubtypeId="AQD_BP_CRU_HematiteOre_To_HematiteCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_Hematite" BlueprintSubtypeId="AQD_BP_CRU_HematiteDenseOre_To_HematiteCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_Hematite" BlueprintSubtypeId="AQD_BP_CRU_HematitePurifiedOre_To_HematiteCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_Malachite" BlueprintSubtypeId="AQD_BP_DED_MalachiteCrushedOre_To_CopperIngot" />
+    <Entry Class="AQD_BPC_CRU_Malachite" BlueprintSubtypeId="AQD_BP_CRU_MalachiteOre_To_MalachiteCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_Malachite" BlueprintSubtypeId="AQD_BP_CRU_MalachiteDenseOre_To_MalachiteCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_Malachite" BlueprintSubtypeId="AQD_BP_CRU_MalachitePurifiedOre_To_MalachiteCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_Cattierite" BlueprintSubtypeId="AQD_BP_DED_CattieriteCrushedOre_To_CobaltIngot" />
+    <Entry Class="AQD_BPC_CRU_Cattierite" BlueprintSubtypeId="AQD_BP_CRU_CattieriteOre_To_CattieriteCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_Cattierite" BlueprintSubtypeId="AQD_BP_CRU_CattieriteDenseOre_To_CattieriteCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_Cattierite" BlueprintSubtypeId="AQD_BP_CRU_CattieritePurifiedOre_To_CattieriteCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_Quartz" BlueprintSubtypeId="AQD_BP_DED_QuartzCrushedOre_To_SiliconIngot" />
+    <Entry Class="AQD_BPC_CRU_Quartz" BlueprintSubtypeId="AQD_BP_CRU_QuartzOre_To_QuartzCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_Quartz" BlueprintSubtypeId="AQD_BP_CRU_QuartzDenseOre_To_QuartzCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_Quartz" BlueprintSubtypeId="AQD_BP_CRU_QuartzPurifiedOre_To_QuartzCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_Magnesite" BlueprintSubtypeId="AQD_BP_DED_MagnesiteCrushedOre_To_MagnesiumIngot" />
+    <Entry Class="AQD_BPC_CRU_Magnesite" BlueprintSubtypeId="AQD_BP_DED_MagnesiteCrushedOre_To_NickelIngot" />
+    <Entry Class="AQD_BPC_CRU_Magnesite" BlueprintSubtypeId="AQD_BP_DED_MagnesiteCrushedOre_To_CobaltIngot" />
+    <Entry Class="AQD_BPC_CRU_Magnesite" BlueprintSubtypeId="AQD_BP_CRU_MagnesiteOre_To_MagnesiteCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_Magnesite" BlueprintSubtypeId="AQD_BP_CRU_MagnesiteDenseOre_To_MagnesiteCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_Magnesite" BlueprintSubtypeId="AQD_BP_CRU_MagnesitePurifiedOre_To_MagnesiteCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_Cobaltite" BlueprintSubtypeId="AQD_BP_DED_CobaltiteCrushedOre_To_CobaltIngot" />
+    <Entry Class="AQD_BPC_CRU_Cobaltite" BlueprintSubtypeId="AQD_BP_DED_CobaltiteCrushedOre_To_IronIngot" />
+    <Entry Class="AQD_BPC_CRU_Cobaltite" BlueprintSubtypeId="AQD_BP_DED_CobaltiteCrushedOre_To_NickelIngot" />
+    <Entry Class="AQD_BPC_CRU_Cobaltite" BlueprintSubtypeId="AQD_BP_CRU_CobaltiteOre_To_CobaltiteCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_Cobaltite" BlueprintSubtypeId="AQD_BP_CRU_CobaltiteDenseOre_To_CobaltiteCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_Cobaltite" BlueprintSubtypeId="AQD_BP_CRU_CobaltitePurifiedOre_To_CobaltiteCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_Garnierite" BlueprintSubtypeId="AQD_BP_DED_GarnieriteCrushedOre_To_NickelIngot" />
+    <Entry Class="AQD_BPC_CRU_Garnierite" BlueprintSubtypeId="AQD_BP_DED_GarnieriteCrushedOre_To_MagnesiumIngot" />
+    <Entry Class="AQD_BPC_CRU_Garnierite" BlueprintSubtypeId="AQD_BP_CRU_GarnieriteOre_To_GarnieriteCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_Garnierite" BlueprintSubtypeId="AQD_BP_CRU_GarnieriteDenseOre_To_GarnieriteCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_Garnierite" BlueprintSubtypeId="AQD_BP_CRU_GarnieritePurifiedOre_To_GarnieriteCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_Tetrahedrite" BlueprintSubtypeId="AQD_BP_DED_TetrahedriteCrushedOre_To_CopperIngot" />
+    <Entry Class="AQD_BPC_CRU_Tetrahedrite" BlueprintSubtypeId="AQD_BP_DED_TetrahedriteCrushedOre_To_IronIngot" />
+    <Entry Class="AQD_BPC_CRU_Tetrahedrite" BlueprintSubtypeId="AQD_BP_CRU_TetrahedriteOre_To_TetrahedriteCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_Tetrahedrite" BlueprintSubtypeId="AQD_BP_CRU_TetrahedriteDenseOre_To_TetrahedriteCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_Tetrahedrite" BlueprintSubtypeId="AQD_BP_CRU_TetrahedritePurifiedOre_To_TetrahedriteCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_Graphite" BlueprintSubtypeId="AQD_BP_DED_GraphiteCrushedOre_To_CarbonIngot" />
+    <Entry Class="AQD_BPC_CRU_Graphite" BlueprintSubtypeId="AQD_BP_CRU_GraphiteOre_To_GraphiteCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_Graphite" BlueprintSubtypeId="AQD_BP_CRU_GraphiteDenseOre_To_GraphiteCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_Graphite" BlueprintSubtypeId="AQD_BP_CRU_GraphitePurifiedOre_To_GraphiteCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_NativeSilver" BlueprintSubtypeId="AQD_BP_DED_NativeSilverCrushedOre_To_SilverIngot" />
+    <Entry Class="AQD_BPC_CRU_NativeSilver" BlueprintSubtypeId="AQD_BP_CRU_NativeSilverOre_To_NativeSilverCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_NativeSilver" BlueprintSubtypeId="AQD_BP_CRU_NativeSilverDenseOre_To_NativeSilverCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_NativeSilver" BlueprintSubtypeId="AQD_BP_CRU_NativeSilverPurifiedOre_To_NativeSilverCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_NativeGold" BlueprintSubtypeId="AQD_BP_DED_NativeGoldCrushedOre_To_GoldIngot" />
+    <Entry Class="AQD_BPC_CRU_NativeGold" BlueprintSubtypeId="AQD_BP_CRU_NativeGoldOre_To_NativeGoldCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_NativeGold" BlueprintSubtypeId="AQD_BP_CRU_NativeGoldDenseOre_To_NativeGoldCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_NativeGold" BlueprintSubtypeId="AQD_BP_CRU_NativeGoldPurifiedOre_To_NativeGoldCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_Carnotite" BlueprintSubtypeId="AQD_BP_DED_CarnotiteCrushedOre_To_UraniumIngot" />
+    <Entry Class="AQD_BPC_CRU_Carnotite" BlueprintSubtypeId="AQD_BP_CRU_CarnotiteOre_To_CarnotiteCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_Carnotite" BlueprintSubtypeId="AQD_BP_CRU_CarnotiteDenseOre_To_CarnotiteCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_Carnotite" BlueprintSubtypeId="AQD_BP_CRU_CarnotitePurifiedOre_To_CarnotiteCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_Borax" BlueprintSubtypeId="AQD_BP_DED_BoraxCrushedOre_To_BoronIngot" />
+    <Entry Class="AQD_BPC_CRU_Borax" BlueprintSubtypeId="AQD_BP_CRU_BoraxOre_To_BoraxCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_Borax" BlueprintSubtypeId="AQD_BP_CRU_BoraxDenseOre_To_BoraxCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_Borax" BlueprintSubtypeId="AQD_BP_CRU_BoraxPurifiedOre_To_BoraxCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_Electrum" BlueprintSubtypeId="AQD_BP_DED_ElectrumCrushedOre_To_SilverIngot" />
+    <Entry Class="AQD_BPC_CRU_Electrum" BlueprintSubtypeId="AQD_BP_DED_ElectrumCrushedOre_To_GoldIngot" />
+    <Entry Class="AQD_BPC_CRU_Electrum" BlueprintSubtypeId="AQD_BP_DED_ElectrumCrushedOre_To_CopperIngot" />
+    <Entry Class="AQD_BPC_CRU_Electrum" BlueprintSubtypeId="AQD_BP_CRU_ElectrumOre_To_ElectrumCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_Electrum" BlueprintSubtypeId="AQD_BP_CRU_ElectrumDenseOre_To_ElectrumCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_Electrum" BlueprintSubtypeId="AQD_BP_CRU_ElectrumPurifiedOre_To_ElectrumCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_Ilmenite" BlueprintSubtypeId="AQD_BP_DED_IlmeniteCrushedOre_To_TitaniumIngot" />
+    <Entry Class="AQD_BPC_CRU_Ilmenite" BlueprintSubtypeId="AQD_BP_DED_IlmeniteCrushedOre_To_MagnesiumIngot" />
+    <Entry Class="AQD_BPC_CRU_Ilmenite" BlueprintSubtypeId="AQD_BP_DED_IlmeniteCrushedOre_To_IronIngot" />
+    <Entry Class="AQD_BPC_CRU_Ilmenite" BlueprintSubtypeId="AQD_BP_CRU_IlmeniteOre_To_IlmeniteCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_Ilmenite" BlueprintSubtypeId="AQD_BP_CRU_IlmeniteDenseOre_To_IlmeniteCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_Ilmenite" BlueprintSubtypeId="AQD_BP_CRU_IlmenitePurifiedOre_To_IlmeniteCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_Bauxite" BlueprintSubtypeId="AQD_BP_DED_BauxiteCrushedOre_To_AluminiumIngot" />
+    <Entry Class="AQD_BPC_CRU_Bauxite" BlueprintSubtypeId="AQD_BP_DED_BauxiteCrushedOre_To_TitaniumIngot" />
+    <Entry Class="AQD_BPC_CRU_Bauxite" BlueprintSubtypeId="AQD_BP_CRU_BauxiteOre_To_BauxiteCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_Bauxite" BlueprintSubtypeId="AQD_BP_CRU_BauxiteDenseOre_To_BauxiteCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_Bauxite" BlueprintSubtypeId="AQD_BP_CRU_BauxitePurifiedOre_To_BauxiteCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_Sperrylite" BlueprintSubtypeId="AQD_BP_DED_SperryliteCrushedOre_To_PlatinumIngot" />
+    <Entry Class="AQD_BPC_CRU_Sperrylite" BlueprintSubtypeId="AQD_BP_CRU_SperryliteOre_To_SperryliteCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_Sperrylite" BlueprintSubtypeId="AQD_BP_CRU_SperryliteDenseOre_To_SperryliteCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_Sperrylite" BlueprintSubtypeId="AQD_BP_CRU_SperrylitePurifiedOre_To_SperryliteCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_NaturalThorium" BlueprintSubtypeId="AQD_BP_DED_NaturalThoriumCrushedOre_To_ThoriumIngot" />
+    <Entry Class="AQD_BPC_CRU_NaturalThorium" BlueprintSubtypeId="AQD_BP_CRU_NaturalThoriumOre_To_NaturalThoriumCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_NaturalThorium" BlueprintSubtypeId="AQD_BP_CRU_NaturalThoriumDenseOre_To_NaturalThoriumCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_NaturalThorium" BlueprintSubtypeId="AQD_BP_CRU_NaturalThoriumPurifiedOre_To_NaturalThoriumCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_Bertrandite" BlueprintSubtypeId="AQD_BP_DED_BertranditeCrushedOre_To_BerylliumIngot" />
+    <Entry Class="AQD_BPC_CRU_Bertrandite" BlueprintSubtypeId="AQD_BP_CRU_BertranditeOre_To_BertranditeCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_Bertrandite" BlueprintSubtypeId="AQD_BP_CRU_BertranditeDenseOre_To_BertranditeCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_Bertrandite" BlueprintSubtypeId="AQD_BP_CRU_BertranditePurifiedOre_To_BertranditeCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_Regolith" BlueprintSubtypeId="AQD_BP_DED_RegolithCrushedOre_To_Helium-3Ingot" />
+    <Entry Class="AQD_BPC_CRU_Regolith" BlueprintSubtypeId="AQD_BP_CRU_RegolithOre_To_RegolithCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_Regolith" BlueprintSubtypeId="AQD_BP_CRU_RegolithDenseOre_To_RegolithCrushedOre" />
+    <Entry Class="AQD_BPC_CRU_Regolith" BlueprintSubtypeId="AQD_BP_CRU_RegolithPurifiedOre_To_RegolithCrushedOre" />
+    <Entry Class="AQD_BPC_PUR_Hematite" BlueprintSubtypeId="AQD_BP_PUR_HematiteOre_To_HematitePurifiedOre" />
+    <Entry Class="AQD_BPC_PUR_Hematite" BlueprintSubtypeId="AQD_BP_PUR_HematiteDenseOre_To_HematitePurifiedOre" />
+    <Entry Class="AQD_BPC_PUR_Malachite" BlueprintSubtypeId="AQD_BP_PUR_MalachiteOre_To_MalachitePurifiedOre" />
+    <Entry Class="AQD_BPC_PUR_Malachite" BlueprintSubtypeId="AQD_BP_PUR_MalachiteDenseOre_To_MalachitePurifiedOre" />
+    <Entry Class="AQD_BPC_PUR_Cattierite" BlueprintSubtypeId="AQD_BP_PUR_CattieriteOre_To_CattieritePurifiedOre" />
+    <Entry Class="AQD_BPC_PUR_Cattierite" BlueprintSubtypeId="AQD_BP_PUR_CattieriteDenseOre_To_CattieritePurifiedOre" />
+    <Entry Class="AQD_BPC_PUR_Quartz" BlueprintSubtypeId="AQD_BP_PUR_QuartzOre_To_QuartzPurifiedOre" />
+    <Entry Class="AQD_BPC_PUR_Quartz" BlueprintSubtypeId="AQD_BP_PUR_QuartzDenseOre_To_QuartzPurifiedOre" />
+    <Entry Class="AQD_BPC_PUR_Magnesite" BlueprintSubtypeId="AQD_BP_PUR_MagnesiteOre_To_MagnesitePurifiedOre" />
+    <Entry Class="AQD_BPC_PUR_Magnesite" BlueprintSubtypeId="AQD_BP_PUR_MagnesiteDenseOre_To_MagnesitePurifiedOre" />
+    <Entry Class="AQD_BPC_PUR_Cobaltite" BlueprintSubtypeId="AQD_BP_PUR_CobaltiteOre_To_CobaltitePurifiedOre" />
+    <Entry Class="AQD_BPC_PUR_Cobaltite" BlueprintSubtypeId="AQD_BP_PUR_CobaltiteDenseOre_To_CobaltitePurifiedOre" />
+    <Entry Class="AQD_BPC_PUR_Garnierite" BlueprintSubtypeId="AQD_BP_PUR_GarnieriteOre_To_GarnieritePurifiedOre" />
+    <Entry Class="AQD_BPC_PUR_Garnierite" BlueprintSubtypeId="AQD_BP_PUR_GarnieriteDenseOre_To_GarnieritePurifiedOre" />
+    <Entry Class="AQD_BPC_PUR_Tetrahedrite" BlueprintSubtypeId="AQD_BP_PUR_TetrahedriteOre_To_TetrahedritePurifiedOre" />
+    <Entry Class="AQD_BPC_PUR_Tetrahedrite" BlueprintSubtypeId="AQD_BP_PUR_TetrahedriteDenseOre_To_TetrahedritePurifiedOre" />
+    <Entry Class="AQD_BPC_PUR_Graphite" BlueprintSubtypeId="AQD_BP_PUR_GraphiteOre_To_GraphitePurifiedOre" />
+    <Entry Class="AQD_BPC_PUR_Graphite" BlueprintSubtypeId="AQD_BP_PUR_GraphiteDenseOre_To_GraphitePurifiedOre" />
+    <Entry Class="AQD_BPC_PUR_NativeSilver" BlueprintSubtypeId="AQD_BP_PUR_NativeSilverOre_To_NativeSilverPurifiedOre" />
+    <Entry Class="AQD_BPC_PUR_NativeSilver" BlueprintSubtypeId="AQD_BP_PUR_NativeSilverDenseOre_To_NativeSilverPurifiedOre" />
+    <Entry Class="AQD_BPC_PUR_NativeGold" BlueprintSubtypeId="AQD_BP_PUR_NativeGoldOre_To_NativeGoldPurifiedOre" />
+    <Entry Class="AQD_BPC_PUR_NativeGold" BlueprintSubtypeId="AQD_BP_PUR_NativeGoldDenseOre_To_NativeGoldPurifiedOre" />
+    <Entry Class="AQD_BPC_PUR_Carnotite" BlueprintSubtypeId="AQD_BP_PUR_CarnotiteOre_To_CarnotitePurifiedOre" />
+    <Entry Class="AQD_BPC_PUR_Carnotite" BlueprintSubtypeId="AQD_BP_PUR_CarnotiteDenseOre_To_CarnotitePurifiedOre" />
+    <Entry Class="AQD_BPC_PUR_Borax" BlueprintSubtypeId="AQD_BP_PUR_BoraxOre_To_BoraxPurifiedOre" />
+    <Entry Class="AQD_BPC_PUR_Borax" BlueprintSubtypeId="AQD_BP_PUR_BoraxDenseOre_To_BoraxPurifiedOre" />
+    <Entry Class="AQD_BPC_PUR_Electrum" BlueprintSubtypeId="AQD_BP_PUR_ElectrumOre_To_ElectrumPurifiedOre" />
+    <Entry Class="AQD_BPC_PUR_Electrum" BlueprintSubtypeId="AQD_BP_PUR_ElectrumDenseOre_To_ElectrumPurifiedOre" />
+    <Entry Class="AQD_BPC_PUR_Ilmenite" BlueprintSubtypeId="AQD_BP_PUR_IlmeniteOre_To_IlmenitePurifiedOre" />
+    <Entry Class="AQD_BPC_PUR_Ilmenite" BlueprintSubtypeId="AQD_BP_PUR_IlmeniteDenseOre_To_IlmenitePurifiedOre" />
+    <Entry Class="AQD_BPC_PUR_Bauxite" BlueprintSubtypeId="AQD_BP_PUR_BauxiteOre_To_BauxitePurifiedOre" />
+    <Entry Class="AQD_BPC_PUR_Bauxite" BlueprintSubtypeId="AQD_BP_PUR_BauxiteDenseOre_To_BauxitePurifiedOre" />
+    <Entry Class="AQD_BPC_PUR_Sperrylite" BlueprintSubtypeId="AQD_BP_PUR_SperryliteOre_To_SperrylitePurifiedOre" />
+    <Entry Class="AQD_BPC_PUR_Sperrylite" BlueprintSubtypeId="AQD_BP_PUR_SperryliteDenseOre_To_SperrylitePurifiedOre" />
+    <Entry Class="AQD_BPC_PUR_NaturalThorium" BlueprintSubtypeId="AQD_BP_PUR_NaturalThoriumOre_To_NaturalThoriumPurifiedOre" />
+    <Entry Class="AQD_BPC_PUR_NaturalThorium" BlueprintSubtypeId="AQD_BP_PUR_NaturalThoriumDenseOre_To_NaturalThoriumPurifiedOre" />
+    <Entry Class="AQD_BPC_PUR_Bertrandite" BlueprintSubtypeId="AQD_BP_PUR_BertranditeOre_To_BertranditePurifiedOre" />
+    <Entry Class="AQD_BPC_PUR_Bertrandite" BlueprintSubtypeId="AQD_BP_PUR_BertranditeDenseOre_To_BertranditePurifiedOre" />
+    <Entry Class="AQD_BPC_PUR_Regolith" BlueprintSubtypeId="AQD_BP_PUR_RegolithOre_To_RegolithPurifiedOre" />
+    <Entry Class="AQD_BPC_PUR_Regolith" BlueprintSubtypeId="AQD_BP_PUR_RegolithDenseOre_To_RegolithPurifiedOre" />
   </BlueprintClassEntries>
 </Definitions>

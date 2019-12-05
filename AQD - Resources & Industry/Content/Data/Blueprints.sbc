@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<!-- Created by enenra's Blueprints Editor on: 2019-08-02 14:52 -->
-<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- Created by enenra's Blueprints Editor on: 2019-12-06 00:08 -->
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Blueprints>
     <Blueprint>
       <Id>
@@ -11,11 +11,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_RockyIce" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_RockyIce" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.25" SubtypeId="AQD_Ore_DirtyIce" TypeId="Ore"/>
-        <Item Amount="0.75" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_DirtyIce" Amount="0.25" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.75" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -27,11 +27,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_DirtyIce" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_DirtyIce" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.75" SubtypeId="Ice" TypeId="Ore"/>
-        <Item Amount="0.25" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="Ice" Amount="0.75" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.25" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -43,10 +43,10 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="4" SubtypeId="Ice" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="Ice" Amount="4" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.25" SubtypeId="AQD_Ore_DistilledIce" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_DistilledIce" Amount="0.25" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -58,11 +58,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.05</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Hematite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Hematite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.75" SubtypeId="Iron" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="0.75" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -74,11 +74,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Malachite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Malachite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.6" SubtypeId="AQD_Ingot_Copper" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Copper" Amount="0.6" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -90,11 +90,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Cattierite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Cattierite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.3" SubtypeId="Cobalt" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Cobalt" Amount="0.3" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -106,11 +106,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.6</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Quartz" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Quartz" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.7" SubtypeId="Silicon" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="0.7" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -122,11 +122,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Magnesite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Magnesite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.007" SubtypeId="Magnesium" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="0.007" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -138,11 +138,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Magnesite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Magnesite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.4" SubtypeId="Nickel" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Nickel" Amount="0.4" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -154,11 +154,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Magnesite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Magnesite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.3" SubtypeId="Cobalt" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Cobalt" Amount="0.3" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -170,11 +170,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Cobaltite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Cobaltite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.3" SubtypeId="Cobalt" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Cobalt" Amount="0.3" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -186,11 +186,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.05</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Cobaltite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Cobaltite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.75" SubtypeId="Iron" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="0.75" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -202,11 +202,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Cobaltite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Cobaltite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.4" SubtypeId="Nickel" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Nickel" Amount="0.4" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -218,11 +218,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Garnierite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Garnierite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.4" SubtypeId="Nickel" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Nickel" Amount="0.4" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -234,11 +234,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Garnierite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Garnierite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.007" SubtypeId="Magnesium" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="0.007" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -250,11 +250,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Tetrahedrite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Tetrahedrite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.6" SubtypeId="AQD_Ingot_Copper" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Copper" Amount="0.6" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -266,11 +266,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.05</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Tetrahedrite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Tetrahedrite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.75" SubtypeId="Iron" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="0.75" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -282,11 +282,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Graphite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Graphite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.5" SubtypeId="AQD_Ingot_Carbon" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Carbon" Amount="0.5" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -298,11 +298,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_NativeSilver" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_NativeSilver" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.1" SubtypeId="Silver" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Silver" Amount="0.1" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -314,11 +314,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.4</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_NativeGold" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_NativeGold" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.01" SubtypeId="Gold" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Gold" Amount="0.01" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -330,11 +330,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Carnotite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Carnotite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.007" SubtypeId="Uranium" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Uranium" Amount="0.007" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -346,11 +346,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Borax" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Borax" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.4" SubtypeId="AQD_Ingot_Boron" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Boron" Amount="0.4" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -362,11 +362,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Electrum" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Electrum" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.1" SubtypeId="Silver" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Silver" Amount="0.1" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -378,11 +378,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.4</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Electrum" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Electrum" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.01" SubtypeId="Gold" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Gold" Amount="0.01" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -394,11 +394,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Electrum" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Electrum" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.6" SubtypeId="AQD_Ingot_Copper" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Copper" Amount="0.6" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -410,11 +410,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Ilmenite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Ilmenite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.5" SubtypeId="AQD_Ingot_Titanium" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Titanium" Amount="0.5" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -426,11 +426,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Ilmenite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Ilmenite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.007" SubtypeId="Magnesium" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="0.007" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -442,11 +442,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.05</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Ilmenite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Ilmenite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.75" SubtypeId="Iron" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="0.75" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -458,11 +458,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Bauxite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Bauxite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.5" SubtypeId="AQD_Ingot_Aluminium" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Aluminium" Amount="0.5" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -474,11 +474,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Bauxite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Bauxite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.5" SubtypeId="AQD_Ingot_Titanium" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Titanium" Amount="0.5" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -490,11 +490,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Sperrylite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Sperrylite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.005" SubtypeId="Platinum" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Platinum" Amount="0.005" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -506,11 +506,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_NaturalThorium" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_NaturalThorium" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.005" SubtypeId="AQD_Ingot_Thorium" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Thorium" Amount="0.005" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -522,11 +522,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Bertrandite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Bertrandite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.005" SubtypeId="AQD_Ingot_Beryllium" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Beryllium" Amount="0.005" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -538,11 +538,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Regolith" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Regolith" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.005" SubtypeId="AQD_Ingot_Helium-3" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Helium-3" Amount="0.005" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -554,11 +554,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.05</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_HematiteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_HematiteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="1.125" SubtypeId="Iron" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="1.125" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -570,11 +570,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_MalachiteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_MalachiteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.9" SubtypeId="AQD_Ingot_Copper" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Copper" Amount="0.9" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -586,11 +586,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_CattieriteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_CattieriteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.45" SubtypeId="Cobalt" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Cobalt" Amount="0.45" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -602,11 +602,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.6</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_QuartzDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_QuartzDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="1.05" SubtypeId="Silicon" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="1.05" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -618,11 +618,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_MagnesiteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_MagnesiteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.0105" SubtypeId="Magnesium" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="0.0105" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -634,11 +634,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_MagnesiteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_MagnesiteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.3" SubtypeId="Nickel" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Nickel" Amount="0.3" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -650,11 +650,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_MagnesiteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_MagnesiteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.1125" SubtypeId="Cobalt" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Cobalt" Amount="0.1125" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -666,11 +666,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_CobaltiteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_CobaltiteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.45" SubtypeId="Cobalt" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Cobalt" Amount="0.45" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -682,11 +682,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.05</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_CobaltiteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_CobaltiteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.5625" SubtypeId="Iron" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="0.5625" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -698,11 +698,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_CobaltiteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_CobaltiteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.15" SubtypeId="Nickel" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Nickel" Amount="0.15" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -714,11 +714,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_GarnieriteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_GarnieriteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.6" SubtypeId="Nickel" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Nickel" Amount="0.6" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -730,11 +730,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_GarnieriteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_GarnieriteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.00525" SubtypeId="Magnesium" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="0.00525" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -746,11 +746,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_TetrahedriteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_TetrahedriteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.9" SubtypeId="AQD_Ingot_Copper" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Copper" Amount="0.9" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -762,11 +762,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.05</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_TetrahedriteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_TetrahedriteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.5625" SubtypeId="Iron" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="0.5625" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -778,11 +778,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_GraphiteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_GraphiteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.75" SubtypeId="AQD_Ingot_Carbon" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Carbon" Amount="0.75" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -794,11 +794,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_NativeSilverDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_NativeSilverDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.15" SubtypeId="Silver" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Silver" Amount="0.15" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -810,11 +810,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.4</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_NativeGoldDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_NativeGoldDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.015" SubtypeId="Gold" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Gold" Amount="0.015" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -826,11 +826,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_CarnotiteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_CarnotiteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.0105" SubtypeId="Uranium" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Uranium" Amount="0.0105" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -842,11 +842,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_BoraxDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_BoraxDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.6" SubtypeId="AQD_Ingot_Boron" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Boron" Amount="0.6" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -858,11 +858,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_ElectrumDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_ElectrumDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.15" SubtypeId="Silver" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Silver" Amount="0.15" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -874,11 +874,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.4</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_ElectrumDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_ElectrumDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.0075" SubtypeId="Gold" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Gold" Amount="0.0075" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -890,11 +890,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_ElectrumDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_ElectrumDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.225" SubtypeId="AQD_Ingot_Copper" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Copper" Amount="0.225" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -906,11 +906,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_IlmeniteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_IlmeniteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.75" SubtypeId="AQD_Ingot_Titanium" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Titanium" Amount="0.75" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -922,11 +922,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_IlmeniteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_IlmeniteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.00525" SubtypeId="Magnesium" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="0.00525" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -938,11 +938,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.05</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_IlmeniteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_IlmeniteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.28125" SubtypeId="Iron" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="0.28125" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -954,11 +954,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_BauxiteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_BauxiteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.75" SubtypeId="AQD_Ingot_Aluminium" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Aluminium" Amount="0.75" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -970,11 +970,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_BauxiteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_BauxiteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.375" SubtypeId="AQD_Ingot_Titanium" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Titanium" Amount="0.375" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -986,11 +986,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_SperryliteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_SperryliteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.0075" SubtypeId="Platinum" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Platinum" Amount="0.0075" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1002,11 +1002,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_NaturalThoriumDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_NaturalThoriumDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.0075" SubtypeId="AQD_Ingot_Thorium" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Thorium" Amount="0.0075" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1018,11 +1018,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_BertranditeDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_BertranditeDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.0075" SubtypeId="AQD_Ingot_Beryllium" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Beryllium" Amount="0.0075" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1034,11 +1034,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_RegolithDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_RegolithDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.0075" SubtypeId="AQD_Ingot_Helium-3" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Helium-3" Amount="0.0075" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1050,11 +1050,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.05</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Hematite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Hematite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="1.125" SubtypeId="Iron" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="1.125" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1066,11 +1066,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Malachite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Malachite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.9" SubtypeId="AQD_Ingot_Copper" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Copper" Amount="0.9" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1082,11 +1082,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Cattierite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Cattierite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.45" SubtypeId="Cobalt" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Cobalt" Amount="0.45" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1098,11 +1098,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.6</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Quartz" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Quartz" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="1.05" SubtypeId="Silicon" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="1.05" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1114,11 +1114,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Magnesite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Magnesite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.0105" SubtypeId="Magnesium" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="0.0105" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1130,11 +1130,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Magnesite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Magnesite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.3" SubtypeId="Nickel" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Nickel" Amount="0.3" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1146,11 +1146,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Magnesite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Magnesite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.1125" SubtypeId="Cobalt" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Cobalt" Amount="0.1125" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1162,11 +1162,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Cobaltite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Cobaltite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.45" SubtypeId="Cobalt" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Cobalt" Amount="0.45" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1178,11 +1178,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.05</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Cobaltite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Cobaltite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.5625" SubtypeId="Iron" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="0.5625" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1194,11 +1194,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Cobaltite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Cobaltite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.15" SubtypeId="Nickel" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Nickel" Amount="0.15" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1210,11 +1210,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Garnierite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Garnierite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.6" SubtypeId="Nickel" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Nickel" Amount="0.6" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1226,11 +1226,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Garnierite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Garnierite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.00525" SubtypeId="Magnesium" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="0.00525" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1242,11 +1242,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Tetrahedrite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Tetrahedrite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.9" SubtypeId="AQD_Ingot_Copper" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Copper" Amount="0.9" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1258,11 +1258,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.05</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Tetrahedrite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Tetrahedrite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.5625" SubtypeId="Iron" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="0.5625" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1274,11 +1274,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Graphite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Graphite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.75" SubtypeId="AQD_Ingot_Carbon" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Carbon" Amount="0.75" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1290,11 +1290,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_NativeSilver" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_NativeSilver" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.15" SubtypeId="Silver" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Silver" Amount="0.15" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1306,11 +1306,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.4</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_NativeGold" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_NativeGold" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.015" SubtypeId="Gold" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Gold" Amount="0.015" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1322,11 +1322,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Carnotite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Carnotite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.0105" SubtypeId="Uranium" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Uranium" Amount="0.0105" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1338,11 +1338,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Borax" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Borax" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.6" SubtypeId="AQD_Ingot_Boron" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Boron" Amount="0.6" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1354,11 +1354,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Electrum" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Electrum" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.15" SubtypeId="Silver" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Silver" Amount="0.15" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1370,11 +1370,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.4</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Electrum" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Electrum" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.0075" SubtypeId="Gold" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Gold" Amount="0.0075" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1386,11 +1386,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Electrum" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Electrum" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.225" SubtypeId="AQD_Ingot_Copper" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Copper" Amount="0.225" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1402,11 +1402,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Ilmenite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Ilmenite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.75" SubtypeId="AQD_Ingot_Titanium" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Titanium" Amount="0.75" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1418,11 +1418,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Ilmenite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Ilmenite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.00525" SubtypeId="Magnesium" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="0.00525" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1434,11 +1434,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.05</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Ilmenite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Ilmenite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.28125" SubtypeId="Iron" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="0.28125" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1450,11 +1450,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Bauxite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Bauxite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.75" SubtypeId="AQD_Ingot_Aluminium" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Aluminium" Amount="0.75" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1466,11 +1466,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Bauxite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Bauxite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.375" SubtypeId="AQD_Ingot_Titanium" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Titanium" Amount="0.375" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1482,11 +1482,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Sperrylite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Sperrylite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.0075" SubtypeId="Platinum" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Platinum" Amount="0.0075" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1498,11 +1498,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_NaturalThorium" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_NaturalThorium" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.0075" SubtypeId="AQD_Ingot_Thorium" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Thorium" Amount="0.0075" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1514,11 +1514,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Bertrandite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Bertrandite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.0075" SubtypeId="AQD_Ingot_Beryllium" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Beryllium" Amount="0.0075" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1530,11 +1530,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Regolith" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Regolith" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.0075" SubtypeId="AQD_Ingot_Helium-3" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Helium-3" Amount="0.0075" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1546,11 +1546,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.05</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_HematiteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_HematiteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="1.6875" SubtypeId="Iron" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="1.6875" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1562,11 +1562,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_MalachiteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_MalachiteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="1.35" SubtypeId="AQD_Ingot_Copper" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Copper" Amount="1.35" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1578,11 +1578,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_CattieriteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_CattieriteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.675" SubtypeId="Cobalt" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Cobalt" Amount="0.675" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1594,11 +1594,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.6</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_QuartzDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_QuartzDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="1.575" SubtypeId="Silicon" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="1.575" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1610,11 +1610,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_MagnesiteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_MagnesiteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.01575" SubtypeId="Magnesium" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="0.01575" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1626,11 +1626,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_MagnesiteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_MagnesiteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.45" SubtypeId="Nickel" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Nickel" Amount="0.45" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1642,11 +1642,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_MagnesiteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_MagnesiteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.16875" SubtypeId="Cobalt" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Cobalt" Amount="0.16875" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1658,11 +1658,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_CobaltiteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_CobaltiteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.675" SubtypeId="Cobalt" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Cobalt" Amount="0.675" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1674,11 +1674,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.05</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_CobaltiteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_CobaltiteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.84375" SubtypeId="Iron" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="0.84375" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1690,11 +1690,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_CobaltiteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_CobaltiteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.225" SubtypeId="Nickel" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Nickel" Amount="0.225" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1706,11 +1706,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_GarnieriteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_GarnieriteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.9" SubtypeId="Nickel" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Nickel" Amount="0.9" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1722,11 +1722,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_GarnieriteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_GarnieriteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.007875" SubtypeId="Magnesium" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="0.007875" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1738,11 +1738,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_TetrahedriteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_TetrahedriteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="1.35" SubtypeId="AQD_Ingot_Copper" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Copper" Amount="1.35" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1754,11 +1754,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.05</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_TetrahedriteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_TetrahedriteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.84375" SubtypeId="Iron" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="0.84375" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1770,11 +1770,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_GraphiteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_GraphiteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="1.125" SubtypeId="AQD_Ingot_Carbon" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Carbon" Amount="1.125" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1786,11 +1786,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_NativeSilverDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_NativeSilverDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.225" SubtypeId="Silver" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Silver" Amount="0.225" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1802,11 +1802,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.4</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_NativeGoldDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_NativeGoldDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.0225" SubtypeId="Gold" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Gold" Amount="0.0225" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1818,11 +1818,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_CarnotiteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_CarnotiteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.01575" SubtypeId="Uranium" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Uranium" Amount="0.01575" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1834,11 +1834,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_BoraxDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_BoraxDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.9" SubtypeId="AQD_Ingot_Boron" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Boron" Amount="0.9" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1850,11 +1850,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_ElectrumDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_ElectrumDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.225" SubtypeId="Silver" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Silver" Amount="0.225" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1866,11 +1866,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.4</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_ElectrumDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_ElectrumDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.01125" SubtypeId="Gold" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Gold" Amount="0.01125" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1882,11 +1882,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_ElectrumDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_ElectrumDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.3375" SubtypeId="AQD_Ingot_Copper" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Copper" Amount="0.3375" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1898,11 +1898,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_IlmeniteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_IlmeniteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="1.125" SubtypeId="AQD_Ingot_Titanium" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Titanium" Amount="1.125" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1914,11 +1914,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_IlmeniteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_IlmeniteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.007875" SubtypeId="Magnesium" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="0.007875" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1930,11 +1930,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.05</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_IlmeniteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_IlmeniteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.421875" SubtypeId="Iron" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="0.421875" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1946,11 +1946,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_BauxiteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_BauxiteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="1.125" SubtypeId="AQD_Ingot_Aluminium" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Aluminium" Amount="1.125" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1962,11 +1962,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_BauxiteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_BauxiteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.5625" SubtypeId="AQD_Ingot_Titanium" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Titanium" Amount="0.5625" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1978,11 +1978,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_SperryliteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_SperryliteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.01125" SubtypeId="Platinum" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Platinum" Amount="0.01125" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -1994,11 +1994,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_NaturalThoriumDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_NaturalThoriumDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.01125" SubtypeId="AQD_Ingot_Thorium" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Thorium" Amount="0.01125" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -2010,11 +2010,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_BertranditeDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_BertranditeDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.01125" SubtypeId="AQD_Ingot_Beryllium" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Beryllium" Amount="0.01125" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -2026,331 +2026,507 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_RegolithDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_RegolithDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.01125" SubtypeId="AQD_Ingot_Helium-3" TypeId="Ingot"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Helium-3" Amount="0.01125" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>AQD_BP_DED_HematiteCrushedOre_To_HematiteOre</SubtypeId>
+        <SubtypeId>AQD_BP_DED_HematiteCrushedOre_To_IronIngot</SubtypeId>
       </Id>
       <DisplayName>Smelt Hematite</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
-      <BaseProductionTimeInSeconds>0.05</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>0.15</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_HematiteCrushed" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_HematiteCrushed" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="1.125" SubtypeId="AQD_Ore_Hematite" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="2.25" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>AQD_BP_DED_MalachiteCrushedOre_To_MalachiteOre</SubtypeId>
+        <SubtypeId>AQD_BP_DED_MalachiteCrushedOre_To_CopperIngot</SubtypeId>
       </Id>
       <DisplayName>Smelt Malachite</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
-      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>0.3</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_MalachiteCrushed" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_MalachiteCrushed" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.9" SubtypeId="AQD_Ore_Malachite" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Copper" Amount="1.8" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>AQD_BP_DED_CattieriteCrushedOre_To_CattieriteOre</SubtypeId>
+        <SubtypeId>AQD_BP_DED_CattieriteCrushedOre_To_CobaltIngot</SubtypeId>
       </Id>
       <DisplayName>Smelt Cattierite</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
-      <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_CattieriteCrushed" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_CattieriteCrushed" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.45" SubtypeId="AQD_Ore_Cattierite" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Cobalt" Amount="0.9" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>AQD_BP_DED_QuartzCrushedOre_To_QuartzOre</SubtypeId>
+        <SubtypeId>AQD_BP_DED_QuartzCrushedOre_To_SiliconIngot</SubtypeId>
       </Id>
       <DisplayName>Smelt Quartz</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
-      <BaseProductionTimeInSeconds>0.6</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>1.8</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_QuartzCrushed" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_QuartzCrushed" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="1.05" SubtypeId="AQD_Ore_Quartz" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Silicon" Amount="2.1" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>AQD_BP_DED_MagnesiteCrushedOre_To_MagnesiteOre</SubtypeId>
+        <SubtypeId>AQD_BP_DED_MagnesiteCrushedOre_To_MagnesiumIngot</SubtypeId>
       </Id>
       <DisplayName>Smelt Magnesite</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
-      <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_MagnesiteCrushed" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_MagnesiteCrushed" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.0105" SubtypeId="AQD_Ore_Magnesite" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="0.021" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>AQD_BP_DED_CobaltiteCrushedOre_To_CobaltiteOre</SubtypeId>
+        <SubtypeId>AQD_BP_DED_MagnesiteCrushedOre_To_NickelIngot</SubtypeId>
+      </Id>
+      <DisplayName>Smelt Magnesite</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_MagnesiteCrushed" Amount="1" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Nickel" Amount="0.6" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AQD_BP_DED_MagnesiteCrushedOre_To_CobaltIngot</SubtypeId>
+      </Id>
+      <DisplayName>Smelt Magnesite</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_MagnesiteCrushed" Amount="1" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Cobalt" Amount="0.225" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AQD_BP_DED_CobaltiteCrushedOre_To_CobaltIngot</SubtypeId>
       </Id>
       <DisplayName>Smelt Cobaltite</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
-      <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_CobaltiteCrushed" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_CobaltiteCrushed" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.45" SubtypeId="AQD_Ore_Cobaltite" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Cobalt" Amount="0.9" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>AQD_BP_DED_GarnieriteCrushedOre_To_GarnieriteOre</SubtypeId>
+        <SubtypeId>AQD_BP_DED_CobaltiteCrushedOre_To_IronIngot</SubtypeId>
+      </Id>
+      <DisplayName>Smelt Cobaltite</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <BaseProductionTimeInSeconds>0.15</BaseProductionTimeInSeconds>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_CobaltiteCrushed" Amount="1" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="1.125" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AQD_BP_DED_CobaltiteCrushedOre_To_NickelIngot</SubtypeId>
+      </Id>
+      <DisplayName>Smelt Cobaltite</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_CobaltiteCrushed" Amount="1" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Nickel" Amount="0.3" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AQD_BP_DED_GarnieriteCrushedOre_To_NickelIngot</SubtypeId>
       </Id>
       <DisplayName>Smelt Garnierite</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
-      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_GarnieriteCrushed" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_GarnieriteCrushed" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.6" SubtypeId="AQD_Ore_Garnierite" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Nickel" Amount="1.2" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>AQD_BP_DED_TetrahedriteCrushedOre_To_TetrahedriteOre</SubtypeId>
+        <SubtypeId>AQD_BP_DED_GarnieriteCrushedOre_To_MagnesiumIngot</SubtypeId>
+      </Id>
+      <DisplayName>Smelt Garnierite</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_GarnieriteCrushed" Amount="1" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="0.0105" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AQD_BP_DED_TetrahedriteCrushedOre_To_CopperIngot</SubtypeId>
       </Id>
       <DisplayName>Smelt Tetrahedrite</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
-      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>0.3</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_TetrahedriteCrushed" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_TetrahedriteCrushed" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.9" SubtypeId="AQD_Ore_Tetrahedrite" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Copper" Amount="1.8" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>AQD_BP_DED_GraphiteCrushedOre_To_GraphiteOre</SubtypeId>
+        <SubtypeId>AQD_BP_DED_TetrahedriteCrushedOre_To_IronIngot</SubtypeId>
+      </Id>
+      <DisplayName>Smelt Tetrahedrite</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <BaseProductionTimeInSeconds>0.15</BaseProductionTimeInSeconds>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_TetrahedriteCrushed" Amount="1" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="1.125" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AQD_BP_DED_GraphiteCrushedOre_To_CarbonIngot</SubtypeId>
       </Id>
       <DisplayName>Smelt Graphite</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
-      <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_GraphiteCrushed" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_GraphiteCrushed" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.75" SubtypeId="AQD_Ore_Graphite" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Carbon" Amount="1.5" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>AQD_BP_DED_NativeSilverCrushedOre_To_NativeSilverOre</SubtypeId>
+        <SubtypeId>AQD_BP_DED_NativeSilverCrushedOre_To_SilverIngot</SubtypeId>
       </Id>
       <DisplayName>Smelt Native Silver</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
-      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_NativeSilverCrushed" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_NativeSilverCrushed" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.15" SubtypeId="AQD_Ore_NativeSilver" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Silver" Amount="0.3" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>AQD_BP_DED_NativeGoldCrushedOre_To_NativeGoldOre</SubtypeId>
+        <SubtypeId>AQD_BP_DED_NativeGoldCrushedOre_To_GoldIngot</SubtypeId>
       </Id>
       <DisplayName>Smelt Native Gold</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
-      <BaseProductionTimeInSeconds>0.4</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>1.2</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_NativeGoldCrushed" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_NativeGoldCrushed" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.015" SubtypeId="AQD_Ore_NativeGold" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Gold" Amount="0.03" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>AQD_BP_DED_CarnotiteCrushedOre_To_CarnotiteOre</SubtypeId>
+        <SubtypeId>AQD_BP_DED_CarnotiteCrushedOre_To_UraniumIngot</SubtypeId>
       </Id>
       <DisplayName>Smelt Carnotite</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
-      <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_CarnotiteCrushed" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_CarnotiteCrushed" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.0105" SubtypeId="AQD_Ore_Carnotite" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Uranium" Amount="0.021" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>AQD_BP_DED_BoraxCrushedOre_To_BoraxOre</SubtypeId>
+        <SubtypeId>AQD_BP_DED_BoraxCrushedOre_To_BoronIngot</SubtypeId>
       </Id>
       <DisplayName>Smelt Borax</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
-      <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_BoraxCrushed" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_BoraxCrushed" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.6" SubtypeId="AQD_Ore_Borax" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Boron" Amount="1.2" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>AQD_BP_DED_ElectrumCrushedOre_To_ElectrumOre</SubtypeId>
+        <SubtypeId>AQD_BP_DED_ElectrumCrushedOre_To_SilverIngot</SubtypeId>
       </Id>
       <DisplayName>Smelt Electrum</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
-      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_ElectrumCrushed" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_ElectrumCrushed" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.15" SubtypeId="AQD_Ore_Electrum" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Silver" Amount="0.3" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>AQD_BP_DED_IlmeniteCrushedOre_To_IlmeniteOre</SubtypeId>
+        <SubtypeId>AQD_BP_DED_ElectrumCrushedOre_To_GoldIngot</SubtypeId>
+      </Id>
+      <DisplayName>Smelt Electrum</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <BaseProductionTimeInSeconds>1.2</BaseProductionTimeInSeconds>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_ElectrumCrushed" Amount="1" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Gold" Amount="0.015" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AQD_BP_DED_ElectrumCrushedOre_To_CopperIngot</SubtypeId>
+      </Id>
+      <DisplayName>Smelt Electrum</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <BaseProductionTimeInSeconds>0.3</BaseProductionTimeInSeconds>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_ElectrumCrushed" Amount="1" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Copper" Amount="0.45" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AQD_BP_DED_IlmeniteCrushedOre_To_TitaniumIngot</SubtypeId>
+      </Id>
+      <DisplayName>Smelt Ilmenite</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <BaseProductionTimeInSeconds>4.5</BaseProductionTimeInSeconds>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_IlmeniteCrushed" Amount="1" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Titanium" Amount="1.5" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AQD_BP_DED_IlmeniteCrushedOre_To_MagnesiumIngot</SubtypeId>
       </Id>
       <DisplayName>Smelt Ilmenite</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_IlmeniteCrushed" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_IlmeniteCrushed" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.75" SubtypeId="AQD_Ore_Ilmenite" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Magnesium" Amount="0.0105" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>AQD_BP_DED_BauxiteCrushedOre_To_BauxiteOre</SubtypeId>
+        <SubtypeId>AQD_BP_DED_IlmeniteCrushedOre_To_IronIngot</SubtypeId>
+      </Id>
+      <DisplayName>Smelt Ilmenite</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <BaseProductionTimeInSeconds>0.15</BaseProductionTimeInSeconds>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_IlmeniteCrushed" Amount="1" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="Iron" Amount="0.5625" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AQD_BP_DED_BauxiteCrushedOre_To_AluminiumIngot</SubtypeId>
       </Id>
       <DisplayName>Smelt Bauxite</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
-      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_BauxiteCrushed" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_BauxiteCrushed" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.75" SubtypeId="AQD_Ore_Bauxite" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Aluminium" Amount="1.5" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>AQD_BP_DED_SperryliteCrushedOre_To_SperryliteOre</SubtypeId>
+        <SubtypeId>AQD_BP_DED_BauxiteCrushedOre_To_TitaniumIngot</SubtypeId>
+      </Id>
+      <DisplayName>Smelt Bauxite</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
+      <BaseProductionTimeInSeconds>4.5</BaseProductionTimeInSeconds>
+      <Prerequisites>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_BauxiteCrushed" Amount="1" />
+      </Prerequisites>
+      <Results>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Titanium" Amount="0.75" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
+      </Results>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AQD_BP_DED_SperryliteCrushedOre_To_PlatinumIngot</SubtypeId>
       </Id>
       <DisplayName>Smelt Sperrylite</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
-      <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_SperryliteCrushed" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_SperryliteCrushed" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.0075" SubtypeId="AQD_Ore_Sperrylite" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="Platinum" Amount="0.015" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>AQD_BP_DED_NaturalThoriumCrushedOre_To_NaturalThoriumOre</SubtypeId>
+        <SubtypeId>AQD_BP_DED_NaturalThoriumCrushedOre_To_ThoriumIngot</SubtypeId>
       </Id>
       <DisplayName>Smelt Natural Thorium</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
-      <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>18</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_NaturalThoriumCrushed" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_NaturalThoriumCrushed" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.0075" SubtypeId="AQD_Ore_NaturalThorium" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Thorium" Amount="0.015" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>AQD_BP_DED_BertranditeCrushedOre_To_BertranditeOre</SubtypeId>
+        <SubtypeId>AQD_BP_DED_BertranditeCrushedOre_To_BerylliumIngot</SubtypeId>
       </Id>
       <DisplayName>Smelt Bertrandite</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
-      <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>18</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_BertranditeCrushed" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_BertranditeCrushed" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.0075" SubtypeId="AQD_Ore_Bertrandite" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Beryllium" Amount="0.015" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>AQD_BP_DED_RegolithCrushedOre_To_RegolithOre</SubtypeId>
+        <SubtypeId>AQD_BP_DED_RegolithCrushedOre_To_Helium-3Ingot</SubtypeId>
       </Id>
       <DisplayName>Smelt Regolith</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
-      <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>18</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_RegolithCrushed" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_RegolithCrushed" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.0075" SubtypeId="AQD_Ore_Regolith" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ingot" SubtypeId="AQD_Ingot_Helium-3" Amount="0.015" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -2362,11 +2538,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.15</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Hematite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Hematite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="1.5" SubtypeId="AQD_Ore_HematiteCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_HematiteCrushed" Amount="1.5" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -2378,11 +2554,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.3</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Malachite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Malachite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="1.2" SubtypeId="AQD_Ore_MalachiteCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_MalachiteCrushed" Amount="1.2" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -2394,11 +2570,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Cattierite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Cattierite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.6" SubtypeId="AQD_Ore_CattieriteCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_CattieriteCrushed" Amount="0.6" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -2410,11 +2586,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1.8</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Quartz" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Quartz" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="1.4" SubtypeId="AQD_Ore_QuartzCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_QuartzCrushed" Amount="1.4" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -2426,11 +2602,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Magnesite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Magnesite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.014" SubtypeId="AQD_Ore_MagnesiteCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_MagnesiteCrushed" Amount="0.014" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -2442,11 +2618,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Cobaltite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Cobaltite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.6" SubtypeId="AQD_Ore_CobaltiteCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_CobaltiteCrushed" Amount="0.6" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -2458,11 +2634,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Garnierite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Garnierite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.8" SubtypeId="AQD_Ore_GarnieriteCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_GarnieriteCrushed" Amount="0.8" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -2474,11 +2650,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.3</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Tetrahedrite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Tetrahedrite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="1.2" SubtypeId="AQD_Ore_TetrahedriteCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_TetrahedriteCrushed" Amount="1.2" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -2490,11 +2666,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Graphite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Graphite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="1" SubtypeId="AQD_Ore_GraphiteCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_GraphiteCrushed" Amount="1" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -2506,11 +2682,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_NativeSilver" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_NativeSilver" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.2" SubtypeId="AQD_Ore_NativeSilverCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_NativeSilverCrushed" Amount="0.2" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -2522,11 +2698,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1.2</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_NativeGold" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_NativeGold" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.02" SubtypeId="AQD_Ore_NativeGoldCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_NativeGoldCrushed" Amount="0.02" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -2538,11 +2714,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Carnotite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Carnotite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.014" SubtypeId="AQD_Ore_CarnotiteCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_CarnotiteCrushed" Amount="0.014" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -2554,11 +2730,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Borax" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Borax" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.8" SubtypeId="AQD_Ore_BoraxCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_BoraxCrushed" Amount="0.8" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -2570,11 +2746,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Electrum" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Electrum" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.2" SubtypeId="AQD_Ore_ElectrumCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_ElectrumCrushed" Amount="0.2" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -2586,11 +2762,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>4.5</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Ilmenite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Ilmenite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="1" SubtypeId="AQD_Ore_IlmeniteCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_IlmeniteCrushed" Amount="1" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -2602,11 +2778,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Bauxite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Bauxite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="1" SubtypeId="AQD_Ore_BauxiteCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_BauxiteCrushed" Amount="1" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -2618,11 +2794,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Sperrylite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Sperrylite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.01" SubtypeId="AQD_Ore_SperryliteCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_SperryliteCrushed" Amount="0.01" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -2634,11 +2810,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>18</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_NaturalThorium" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_NaturalThorium" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.01" SubtypeId="AQD_Ore_NaturalThoriumCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_NaturalThoriumCrushed" Amount="0.01" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -2650,11 +2826,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>18</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Bertrandite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Bertrandite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.01" SubtypeId="AQD_Ore_BertranditeCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_BertranditeCrushed" Amount="0.01" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -2666,11 +2842,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>18</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Regolith" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Regolith" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.01" SubtypeId="AQD_Ore_RegolithCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_RegolithCrushed" Amount="0.01" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -2682,11 +2858,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.15</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_HematiteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_HematiteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="2.25" SubtypeId="AQD_Ore_HematiteCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_HematiteCrushed" Amount="2.25" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -2698,11 +2874,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.3</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_MalachiteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_MalachiteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="1.8" SubtypeId="AQD_Ore_MalachiteCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_MalachiteCrushed" Amount="1.8" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -2714,11 +2890,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_CattieriteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_CattieriteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.9" SubtypeId="AQD_Ore_CattieriteCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_CattieriteCrushed" Amount="0.9" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -2730,11 +2906,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1.8</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_QuartzDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_QuartzDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="2.1" SubtypeId="AQD_Ore_QuartzCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_QuartzCrushed" Amount="2.1" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -2746,11 +2922,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_MagnesiteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_MagnesiteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.021" SubtypeId="AQD_Ore_MagnesiteCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_MagnesiteCrushed" Amount="0.021" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -2762,11 +2938,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_CobaltiteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_CobaltiteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.9" SubtypeId="AQD_Ore_CobaltiteCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_CobaltiteCrushed" Amount="0.9" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -2778,11 +2954,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_GarnieriteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_GarnieriteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="1.2" SubtypeId="AQD_Ore_GarnieriteCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_GarnieriteCrushed" Amount="1.2" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -2794,11 +2970,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.3</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_TetrahedriteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_TetrahedriteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="1.8" SubtypeId="AQD_Ore_TetrahedriteCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_TetrahedriteCrushed" Amount="1.8" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -2810,11 +2986,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_GraphiteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_GraphiteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="1.5" SubtypeId="AQD_Ore_GraphiteCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_GraphiteCrushed" Amount="1.5" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -2826,11 +3002,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_NativeSilverDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_NativeSilverDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.3" SubtypeId="AQD_Ore_NativeSilverCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_NativeSilverCrushed" Amount="0.3" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -2842,11 +3018,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1.2</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_NativeGoldDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_NativeGoldDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.03" SubtypeId="AQD_Ore_NativeGoldCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_NativeGoldCrushed" Amount="0.03" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -2858,11 +3034,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_CarnotiteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_CarnotiteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.021" SubtypeId="AQD_Ore_CarnotiteCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_CarnotiteCrushed" Amount="0.021" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -2874,11 +3050,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_BoraxDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_BoraxDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="1.2" SubtypeId="AQD_Ore_BoraxCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_BoraxCrushed" Amount="1.2" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -2890,11 +3066,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_ElectrumDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_ElectrumDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.3" SubtypeId="AQD_Ore_ElectrumCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_ElectrumCrushed" Amount="0.3" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -2906,11 +3082,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>4.5</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_IlmeniteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_IlmeniteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="1.5" SubtypeId="AQD_Ore_IlmeniteCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_IlmeniteCrushed" Amount="1.5" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -2922,11 +3098,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_BauxiteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_BauxiteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="1.5" SubtypeId="AQD_Ore_BauxiteCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_BauxiteCrushed" Amount="1.5" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -2938,11 +3114,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_SperryliteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_SperryliteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.015" SubtypeId="AQD_Ore_SperryliteCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_SperryliteCrushed" Amount="0.015" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -2954,11 +3130,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>18</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_NaturalThoriumDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_NaturalThoriumDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.015" SubtypeId="AQD_Ore_NaturalThoriumCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_NaturalThoriumCrushed" Amount="0.015" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -2970,11 +3146,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>18</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_BertranditeDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_BertranditeDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.015" SubtypeId="AQD_Ore_BertranditeCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_BertranditeCrushed" Amount="0.015" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -2986,11 +3162,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>18</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_RegolithDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_RegolithDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.015" SubtypeId="AQD_Ore_RegolithCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_RegolithCrushed" Amount="0.015" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3002,11 +3178,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.15</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_HematitePurified" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_HematitePurified" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="1.5" SubtypeId="AQD_Ore_HematiteCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_HematiteCrushed" Amount="1.5" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3018,11 +3194,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.3</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_MalachitePurified" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_MalachitePurified" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="1.2" SubtypeId="AQD_Ore_MalachiteCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_MalachiteCrushed" Amount="1.2" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3034,11 +3210,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_CattieritePurified" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_CattieritePurified" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.6" SubtypeId="AQD_Ore_CattieriteCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_CattieriteCrushed" Amount="0.6" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3050,11 +3226,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1.8</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_QuartzPurified" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_QuartzPurified" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="1.4" SubtypeId="AQD_Ore_QuartzCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_QuartzCrushed" Amount="1.4" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3066,11 +3242,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_MagnesitePurified" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_MagnesitePurified" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.014" SubtypeId="AQD_Ore_MagnesiteCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_MagnesiteCrushed" Amount="0.014" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3082,11 +3258,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_CobaltitePurified" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_CobaltitePurified" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.6" SubtypeId="AQD_Ore_CobaltiteCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_CobaltiteCrushed" Amount="0.6" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3098,11 +3274,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_GarnieritePurified" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_GarnieritePurified" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.8" SubtypeId="AQD_Ore_GarnieriteCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_GarnieriteCrushed" Amount="0.8" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3114,11 +3290,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.3</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_TetrahedritePurified" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_TetrahedritePurified" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="1.2" SubtypeId="AQD_Ore_TetrahedriteCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_TetrahedriteCrushed" Amount="1.2" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3130,11 +3306,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_GraphitePurified" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_GraphitePurified" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="1" SubtypeId="AQD_Ore_GraphiteCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_GraphiteCrushed" Amount="1" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3146,11 +3322,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_NativeSilverPurified" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_NativeSilverPurified" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.2" SubtypeId="AQD_Ore_NativeSilverCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_NativeSilverCrushed" Amount="0.2" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3162,11 +3338,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1.2</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_NativeGoldPurified" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_NativeGoldPurified" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.02" SubtypeId="AQD_Ore_NativeGoldCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_NativeGoldCrushed" Amount="0.02" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3178,11 +3354,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_CarnotitePurified" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_CarnotitePurified" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.014" SubtypeId="AQD_Ore_CarnotiteCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_CarnotiteCrushed" Amount="0.014" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3194,11 +3370,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_BoraxPurified" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_BoraxPurified" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.8" SubtypeId="AQD_Ore_BoraxCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_BoraxCrushed" Amount="0.8" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3210,11 +3386,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_ElectrumPurified" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_ElectrumPurified" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.2" SubtypeId="AQD_Ore_ElectrumCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_ElectrumCrushed" Amount="0.2" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3226,11 +3402,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>4.5</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_IlmenitePurified" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_IlmenitePurified" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="1" SubtypeId="AQD_Ore_IlmeniteCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_IlmeniteCrushed" Amount="1" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3242,11 +3418,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_BauxitePurified" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_BauxitePurified" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="1" SubtypeId="AQD_Ore_BauxiteCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_BauxiteCrushed" Amount="1" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3258,11 +3434,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_SperrylitePurified" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_SperrylitePurified" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.01" SubtypeId="AQD_Ore_SperryliteCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_SperryliteCrushed" Amount="0.01" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3274,11 +3450,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>18</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_NaturalThoriumPurified" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_NaturalThoriumPurified" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.01" SubtypeId="AQD_Ore_NaturalThoriumCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_NaturalThoriumCrushed" Amount="0.01" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3290,11 +3466,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>18</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_BertranditePurified" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_BertranditePurified" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.01" SubtypeId="AQD_Ore_BertranditeCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_BertranditeCrushed" Amount="0.01" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3306,11 +3482,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>18</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_RegolithPurified" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_RegolithPurified" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.01" SubtypeId="AQD_Ore_RegolithCrushed" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_RegolithCrushed" Amount="0.01" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3322,11 +3498,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.3</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Hematite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Hematite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="1.5" SubtypeId="AQD_Ore_HematitePurified" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_HematitePurified" Amount="1.5" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3338,11 +3514,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.6</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Malachite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Malachite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="1.2" SubtypeId="AQD_Ore_MalachitePurified" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_MalachitePurified" Amount="1.2" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3354,11 +3530,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>24</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Cattierite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Cattierite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.6" SubtypeId="AQD_Ore_CattieritePurified" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_CattieritePurified" Amount="0.6" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3370,11 +3546,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>3.6</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Quartz" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Quartz" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="1.4" SubtypeId="AQD_Ore_QuartzPurified" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_QuartzPurified" Amount="1.4" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3386,11 +3562,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Magnesite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Magnesite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.014" SubtypeId="AQD_Ore_MagnesitePurified" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_MagnesitePurified" Amount="0.014" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3402,11 +3578,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>24</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Cobaltite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Cobaltite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.6" SubtypeId="AQD_Ore_CobaltitePurified" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_CobaltitePurified" Amount="0.6" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3418,11 +3594,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Garnierite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Garnierite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.8" SubtypeId="AQD_Ore_GarnieritePurified" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_GarnieritePurified" Amount="0.8" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3434,11 +3610,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.6</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Tetrahedrite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Tetrahedrite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="1.2" SubtypeId="AQD_Ore_TetrahedritePurified" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_TetrahedritePurified" Amount="1.2" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3450,11 +3626,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Graphite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Graphite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="1" SubtypeId="AQD_Ore_GraphitePurified" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_GraphitePurified" Amount="1" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3466,11 +3642,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_NativeSilver" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_NativeSilver" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.2" SubtypeId="AQD_Ore_NativeSilverPurified" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_NativeSilverPurified" Amount="0.2" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3482,11 +3658,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>2.4</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_NativeGold" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_NativeGold" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.02" SubtypeId="AQD_Ore_NativeGoldPurified" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_NativeGoldPurified" Amount="0.02" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3498,11 +3674,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>24</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Carnotite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Carnotite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.014" SubtypeId="AQD_Ore_CarnotitePurified" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_CarnotitePurified" Amount="0.014" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3514,11 +3690,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Borax" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Borax" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.8" SubtypeId="AQD_Ore_BoraxPurified" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_BoraxPurified" Amount="0.8" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3530,11 +3706,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Electrum" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Electrum" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.2" SubtypeId="AQD_Ore_ElectrumPurified" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_ElectrumPurified" Amount="0.2" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3546,11 +3722,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>9</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Ilmenite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Ilmenite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="1" SubtypeId="AQD_Ore_IlmenitePurified" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_IlmenitePurified" Amount="1" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3562,11 +3738,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Bauxite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Bauxite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="1" SubtypeId="AQD_Ore_BauxitePurified" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_BauxitePurified" Amount="1" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3578,11 +3754,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>24</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Sperrylite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Sperrylite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.01" SubtypeId="AQD_Ore_SperrylitePurified" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_SperrylitePurified" Amount="0.01" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3594,11 +3770,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>36</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_NaturalThorium" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_NaturalThorium" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.01" SubtypeId="AQD_Ore_NaturalThoriumPurified" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_NaturalThoriumPurified" Amount="0.01" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3610,11 +3786,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>36</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Bertrandite" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Bertrandite" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.01" SubtypeId="AQD_Ore_BertranditePurified" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_BertranditePurified" Amount="0.01" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3626,11 +3802,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>36</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_Regolith" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_Regolith" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.01" SubtypeId="AQD_Ore_RegolithPurified" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_RegolithPurified" Amount="0.01" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3642,11 +3818,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.3</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_HematiteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_HematiteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="2.25" SubtypeId="AQD_Ore_HematitePurified" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_HematitePurified" Amount="2.25" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3658,11 +3834,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.6</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_MalachiteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_MalachiteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="1.8" SubtypeId="AQD_Ore_MalachitePurified" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_MalachitePurified" Amount="1.8" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3674,11 +3850,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>24</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_CattieriteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_CattieriteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.9" SubtypeId="AQD_Ore_CattieritePurified" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_CattieritePurified" Amount="0.9" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3690,11 +3866,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>3.6</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_QuartzDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_QuartzDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="2.1" SubtypeId="AQD_Ore_QuartzPurified" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_QuartzPurified" Amount="2.1" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3706,11 +3882,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_MagnesiteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_MagnesiteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.021" SubtypeId="AQD_Ore_MagnesitePurified" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_MagnesitePurified" Amount="0.021" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3722,11 +3898,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>24</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_CobaltiteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_CobaltiteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.9" SubtypeId="AQD_Ore_CobaltitePurified" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_CobaltitePurified" Amount="0.9" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3738,11 +3914,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_GarnieriteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_GarnieriteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="1.2" SubtypeId="AQD_Ore_GarnieritePurified" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_GarnieritePurified" Amount="1.2" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3754,11 +3930,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.6</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_TetrahedriteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_TetrahedriteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="1.8" SubtypeId="AQD_Ore_TetrahedritePurified" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_TetrahedritePurified" Amount="1.8" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3770,11 +3946,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_GraphiteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_GraphiteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="1.5" SubtypeId="AQD_Ore_GraphitePurified" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_GraphitePurified" Amount="1.5" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3786,11 +3962,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_NativeSilverDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_NativeSilverDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.3" SubtypeId="AQD_Ore_NativeSilverPurified" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_NativeSilverPurified" Amount="0.3" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3802,11 +3978,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>2.4</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_NativeGoldDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_NativeGoldDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.03" SubtypeId="AQD_Ore_NativeGoldPurified" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_NativeGoldPurified" Amount="0.03" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3818,11 +3994,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>24</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_CarnotiteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_CarnotiteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.021" SubtypeId="AQD_Ore_CarnotitePurified" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_CarnotitePurified" Amount="0.021" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3834,11 +4010,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_BoraxDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_BoraxDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="1.2" SubtypeId="AQD_Ore_BoraxPurified" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_BoraxPurified" Amount="1.2" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3850,11 +4026,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_ElectrumDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_ElectrumDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.3" SubtypeId="AQD_Ore_ElectrumPurified" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_ElectrumPurified" Amount="0.3" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3866,11 +4042,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>9</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_IlmeniteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_IlmeniteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="1.5" SubtypeId="AQD_Ore_IlmenitePurified" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_IlmenitePurified" Amount="1.5" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3882,11 +4058,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_BauxiteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_BauxiteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="1.5" SubtypeId="AQD_Ore_BauxitePurified" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_BauxitePurified" Amount="1.5" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3898,11 +4074,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>24</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_SperryliteDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_SperryliteDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.015" SubtypeId="AQD_Ore_SperrylitePurified" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_SperrylitePurified" Amount="0.015" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3914,11 +4090,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>36</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_NaturalThoriumDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_NaturalThoriumDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.015" SubtypeId="AQD_Ore_NaturalThoriumPurified" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_NaturalThoriumPurified" Amount="0.015" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3930,11 +4106,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>36</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_BertranditeDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_BertranditeDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.015" SubtypeId="AQD_Ore_BertranditePurified" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_BertranditePurified" Amount="0.015" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
     <Blueprint>
@@ -3946,11 +4122,11 @@
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>36</BaseProductionTimeInSeconds>
       <Prerequisites>
-        <Item Amount="1" SubtypeId="AQD_Ore_RegolithDense" TypeId="Ore"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_RegolithDense" Amount="1" />
       </Prerequisites>
       <Results>
-        <Item Amount="0.015" SubtypeId="AQD_Ore_RegolithPurified" TypeId="Ore"/>
-        <Item Amount="0.01" SubtypeId="Stone" TypeId="Ingot"/>
+        <Item TypeId="Ore" SubtypeId="AQD_Ore_RegolithPurified" Amount="0.015" />
+        <Item TypeId="Ingot" SubtypeId="Stone" Amount="0.01" />
       </Results>
     </Blueprint>
   </Blueprints>
