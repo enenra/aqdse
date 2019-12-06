@@ -1,0 +1,62 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_LargeBlocks</DisplayName>
+      <Name>LargeBlocks</Name>
+      <ItemIds>
+        <string>Refinery/AQD_LG_Smelter_Iron</string>
+        <string>Refinery/AQD_LG_Smelter_Copper</string>
+        <string>Refinery/AQD_LG_Smelter_Nickel</string>
+        <string>Refinery/AQD_LG_Smelter_Cobalt</string>
+        <string>Refinery/AQD_LG_Smelter_Silicon</string>
+        <string>Refinery/AQD_LG_Smelter_Magnesium</string>
+        <string>Refinery/AQD_LG_Smelter_Carbon</string>
+        <string>Refinery/AQD_LG_Smelter_Silver</string>
+        <string>Refinery/AQD_LG_Smelter_Gold</string>
+        <string>Refinery/AQD_LG_Smelter_Uranium</string>
+        <string>Refinery/AQD_LG_Smelter_Boron</string>
+        <string>Refinery/AQD_LG_Smelter_Titanium</string>
+        <string>Refinery/AQD_LG_Smelter_Aluminium</string>
+        <string>Refinery/AQD_LG_Smelter_Platinum</string>
+        <string>Refinery/AQD_LG_Smelter_Thorium</string>
+        <string>Refinery/AQD_LG_Smelter_Beryllium</string>
+        <string>Refinery/AQD_LG_Smelter_Helium-3</string>
+      </ItemIds>
+    </Category>
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_Production</DisplayName>
+      <Name>Production</Name>
+      <ItemIds>
+        <string>Refinery/AQD_LG_Smelter_Iron</string>
+        <string>Refinery/AQD_LG_Smelter_Copper</string>
+        <string>Refinery/AQD_LG_Smelter_Nickel</string>
+        <string>Refinery/AQD_LG_Smelter_Cobalt</string>
+        <string>Refinery/AQD_LG_Smelter_Silicon</string>
+        <string>Refinery/AQD_LG_Smelter_Magnesium</string>
+        <string>Refinery/AQD_LG_Smelter_Carbon</string>
+        <string>Refinery/AQD_LG_Smelter_Silver</string>
+        <string>Refinery/AQD_LG_Smelter_Gold</string>
+        <string>Refinery/AQD_LG_Smelter_Uranium</string>
+        <string>Refinery/AQD_LG_Smelter_Boron</string>
+        <string>Refinery/AQD_LG_Smelter_Titanium</string>
+        <string>Refinery/AQD_LG_Smelter_Aluminium</string>
+        <string>Refinery/AQD_LG_Smelter_Platinum</string>
+        <string>Refinery/AQD_LG_Smelter_Thorium</string>
+        <string>Refinery/AQD_LG_Smelter_Beryllium</string>
+        <string>Refinery/AQD_LG_Smelter_Helium-3</string>
+      </ItemIds>
+    </Category>
+
+  </CategoryClasses>
+</Definitions>

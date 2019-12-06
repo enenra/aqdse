@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlockVariantGroups>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="SmelterGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_Smelter_Iron.dds</Icon>
+      <DisplayName>DisplayName_AQD_LG_Smelter_Iron</DisplayName>
+      <Description>Description_AQD_LG_Smelter_Iron</Description>
+      <Blocks>
+        <Block Type="Refinery" Subtype="AQD_LG_Smelter_Iron" />
+        <Block Type="Refinery" Subtype="AQD_LG_Smelter_Copper" />
+        <Block Type="Refinery" Subtype="AQD_LG_Smelter_Nickel" />
+        <Block Type="Refinery" Subtype="AQD_LG_Smelter_Cobalt" />
+        <Block Type="Refinery" Subtype="AQD_LG_Smelter_Silicon" />
+        <Block Type="Refinery" Subtype="AQD_LG_Smelter_Magnesium" />
+        <Block Type="Refinery" Subtype="AQD_LG_Smelter_Carbon" />
+        <Block Type="Refinery" Subtype="AQD_LG_Smelter_Silver" />
+        <Block Type="Refinery" Subtype="AQD_LG_Smelter_Gold" />
+        <Block Type="Refinery" Subtype="AQD_LG_Smelter_Uranium" />
+        <Block Type="Refinery" Subtype="AQD_LG_Smelter_Boron" />
+        <Block Type="Refinery" Subtype="AQD_LG_Smelter_Titanium" />
+        <Block Type="Refinery" Subtype="AQD_LG_Smelter_Aluminium" />
+        <Block Type="Refinery" Subtype="AQD_LG_Smelter_Platinum" />
+        <Block Type="Refinery" Subtype="AQD_LG_Smelter_Thorium" />
+        <Block Type="Refinery" Subtype="AQD_LG_Smelter_Beryllium" />
+        <Block Type="Refinery" Subtype="AQD_LG_Smelter_Helium-3" />
+      </Blocks>
+    </BlockVariantGroup>
+
+  </BlockVariantGroups>
+</Definitions>

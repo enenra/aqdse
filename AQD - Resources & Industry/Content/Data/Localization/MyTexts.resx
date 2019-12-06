@@ -246,6 +246,12 @@
   <data name="AQD_Ore_TetrahedriteDense" xml:space="preserve">
     <value>Dense Tetrahedrite</value>
   </data>
+  <data name="Description_AQD_LG_Crusher_Hemtatite" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Description_AQD_LG_Smelter" xml:space="preserve">
+    <value />
+  </data>
   <data name="Description_AQD_LG_Smelter_Aluminium" xml:space="preserve">
     <value />
   </data>
@@ -1274,6 +1280,12 @@
   </data>
   <data name="DisplayName_AQD_Ingot_Titanium" xml:space="preserve">
     <value>Titanium Ingot</value>
+  </data>
+  <data name="DisplayName_AQD_LG_Crusher_Hemtatite" xml:space="preserve">
+    <value>Hematite Crusher</value>
+  </data>
+  <data name="DisplayName_AQD_LG_Smelter" xml:space="preserve">
+    <value>Smelter</value>
   </data>
   <data name="DisplayName_AQD_LG_Smelter_Aluminium" xml:space="preserve">
     <value>Aluminium Smelter</value>

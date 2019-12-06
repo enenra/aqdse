@@ -5,11 +5,11 @@
     <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
       <Id>
         <TypeId>Refinery</TypeId>
-        <SubtypeId>AQD_LG_Crusher_Hemtatite</SubtypeId>
+        <SubtypeId>AQD_LG_Crusher_Hematite</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_LG_Crusher_Hemtatite</DisplayName>
+      <DisplayName>DisplayName_AQD_LG_Crusher_Hematite</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
-      <Description>Description_AQD_LG_Crusher_Hemtatite</Description>
+      <Description>Description_AQD_LG_Crusher_Hematite</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -39,7 +39,7 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BasicRefineryConstruction_2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BasicRefineryConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>AQD_Crusher_Hemtatite</BlockPairName>
+      <BlockPairName>AQD_Crusher_Hematite</BlockPairName>
       <BuildTimeSeconds>50</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <InventoryMaxVolume>4</InventoryMaxVolume>
