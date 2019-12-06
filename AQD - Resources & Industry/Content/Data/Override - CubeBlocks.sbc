@@ -2,7 +2,7 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
 
-    <!-- Changing RefineSpeed and MaterialEfficiency -->
+    <!-- Changing RefineSpeed and MaterialEfficiency -->    
     <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
       <Id>
         <TypeId>Refinery</TypeId>
@@ -79,6 +79,7 @@
       <Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
       <Description>Description_RefineryBasic</Description>
       <CubeSize>Large</CubeSize>
+        <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
@@ -134,6 +135,7 @@
     </Definition>
 
     <!-- Yield Module is disabled in AQD. -->
+    <!-- Keen fucked removing blocks. I'm hoping they'll fix that though, so I'm going to keep this here until they do or I run out of patience.
     <Definition Enabled="false" xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
       <Id>
         <TypeId>UpgradeModule</TypeId>
@@ -189,6 +191,7 @@
       <PCU>1</PCU>
       <IsAirTight>false</IsAirTight>      
     </Definition>
+  -->
     
   </CubeBlocks>
 </Definitions>

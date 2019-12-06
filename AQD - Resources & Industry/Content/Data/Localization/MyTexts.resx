@@ -246,7 +246,55 @@
   <data name="AQD_Ore_TetrahedriteDense" xml:space="preserve">
     <value>Dense Tetrahedrite</value>
   </data>
+  <data name="Description_AQD_LG_Smelter_Aluminium" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Description_AQD_LG_Smelter_Beryllium" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Description_AQD_LG_Smelter_Boron" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Description_AQD_LG_Smelter_Carbon" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Description_AQD_LG_Smelter_Cobalt" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Description_AQD_LG_Smelter_Copper" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Description_AQD_LG_Smelter_Gold" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Description_AQD_LG_Smelter_Helium-3" xml:space="preserve">
+    <value />
+  </data>
   <data name="Description_AQD_LG_Smelter_Iron" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Description_AQD_LG_Smelter_Magnesium" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Description_AQD_LG_Smelter_Nickel" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Description_AQD_LG_Smelter_Platinum" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Description_AQD_LG_Smelter_Silicon" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Description_AQD_LG_Smelter_Silver" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Description_AQD_LG_Smelter_Thorium" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Description_AQD_LG_Smelter_Titanium" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Description_AQD_LG_Smelter_Uranium" xml:space="preserve">
     <value />
   </data>
   <data name="DisplayName_AQD_BPC_BasicRefinery" xml:space="preserve">
@@ -1227,8 +1275,56 @@
   <data name="DisplayName_AQD_Ingot_Titanium" xml:space="preserve">
     <value>Titanium Ingot</value>
   </data>
+  <data name="DisplayName_AQD_LG_Smelter_Aluminium" xml:space="preserve">
+    <value>Aluminium Smelter</value>
+  </data>
+  <data name="DisplayName_AQD_LG_Smelter_Beryllium" xml:space="preserve">
+    <value>Beryllium Smelter</value>
+  </data>
+  <data name="DisplayName_AQD_LG_Smelter_Boron" xml:space="preserve">
+    <value>Boron Refinery</value>
+  </data>
+  <data name="DisplayName_AQD_LG_Smelter_Carbon" xml:space="preserve">
+    <value>Carbon Refinery</value>
+  </data>
+  <data name="DisplayName_AQD_LG_Smelter_Cobalt" xml:space="preserve">
+    <value>Cobalt Smelter</value>
+  </data>
+  <data name="DisplayName_AQD_LG_Smelter_Copper" xml:space="preserve">
+    <value>Copper Smelter</value>
+  </data>
+  <data name="DisplayName_AQD_LG_Smelter_Gold" xml:space="preserve">
+    <value>Gold Smelter</value>
+  </data>
+  <data name="DisplayName_AQD_LG_Smelter_Helium-3" xml:space="preserve">
+    <value>Helium-3 Refinery</value>
+  </data>
   <data name="DisplayName_AQD_LG_Smelter_Iron" xml:space="preserve">
     <value>Iron Smelter</value>
+  </data>
+  <data name="DisplayName_AQD_LG_Smelter_Magnesium" xml:space="preserve">
+    <value>Magnesium Refinery</value>
+  </data>
+  <data name="DisplayName_AQD_LG_Smelter_Nickel" xml:space="preserve">
+    <value>Nickel Smelter</value>
+  </data>
+  <data name="DisplayName_AQD_LG_Smelter_Platinum" xml:space="preserve">
+    <value>Platinum Smelter</value>
+  </data>
+  <data name="DisplayName_AQD_LG_Smelter_Silicon" xml:space="preserve">
+    <value>Silicon Refinery</value>
+  </data>
+  <data name="DisplayName_AQD_LG_Smelter_Silver" xml:space="preserve">
+    <value>Silver Smelter</value>
+  </data>
+  <data name="DisplayName_AQD_LG_Smelter_Thorium" xml:space="preserve">
+    <value>Thorium Refinery</value>
+  </data>
+  <data name="DisplayName_AQD_LG_Smelter_Titanium" xml:space="preserve">
+    <value>Titanium Smelter</value>
+  </data>
+  <data name="DisplayName_AQD_LG_Smelter_Uranium" xml:space="preserve">
+    <value>Uranium Refinery</value>
   </data>
   <data name="DisplayName_AQD_Ore_Bauxite" xml:space="preserve">
     <value>Bauxite</value>
