@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!-- Created by enenra's Blueprints Editor on: 2019-12-06 00:08 -->
+<!-- Created by enenra's Blueprints Editor on: 2019-12-06 12:49 -->
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Blueprints>
     <Blueprint>
@@ -7,7 +7,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_IceRockyOre_To_IceDirtyOre</SubtypeId>
       </Id>
-      <DisplayName>Evaporate Rocky Ice</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_IceRockyOre_To_IceDirtyOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -23,7 +23,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_IceDirtyOre_To_IceOre</SubtypeId>
       </Id>
-      <DisplayName>Deconatminate Dirty Ice</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_IceDirtyOre_To_IceOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -39,7 +39,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_IceOre_ToIceDistilledOre</SubtypeId>
       </Id>
-      <DisplayName>Distill Ice</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_IceOre_ToIceDistilledOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -54,7 +54,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_HematiteOre_To_IronIngot</SubtypeId>
       </Id>
-      <DisplayName>Refine Hematite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_HematiteOre_To_IronIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.05</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -70,7 +70,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_MalachiteOre_To_CopperIngot</SubtypeId>
       </Id>
-      <DisplayName>Refine Malachite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_MalachiteOre_To_CopperIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -86,7 +86,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CattieriteOre_To_CobaltIngot</SubtypeId>
       </Id>
-      <DisplayName>Refine Cattierite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CattieriteOre_To_CobaltIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -102,7 +102,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_QuartzOre_To_SiliconIngot</SubtypeId>
       </Id>
-      <DisplayName>Refine Quartz</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_QuartzOre_To_SiliconIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.6</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -118,7 +118,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_MagnesiteOre_To_MagnesiumIngot</SubtypeId>
       </Id>
-      <DisplayName>Refine Magnesite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_MagnesiteOre_To_MagnesiumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -134,7 +134,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_MagnesiteOre_To_NickelIngot</SubtypeId>
       </Id>
-      <DisplayName>Refine Magnesite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_MagnesiteOre_To_NickelIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -150,7 +150,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_MagnesiteOre_To_CobaltIngot</SubtypeId>
       </Id>
-      <DisplayName>Refine Magnesite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_MagnesiteOre_To_CobaltIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -166,7 +166,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CobaltiteOre_To_CobaltIngot</SubtypeId>
       </Id>
-      <DisplayName>Refine Cobaltite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CobaltiteOre_To_CobaltIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -182,7 +182,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CobaltiteOre_To_IronIngot</SubtypeId>
       </Id>
-      <DisplayName>Refine Cobaltite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CobaltiteOre_To_IronIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.05</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -198,7 +198,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CobaltiteOre_To_NickelIngot</SubtypeId>
       </Id>
-      <DisplayName>Refine Cobaltite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CobaltiteOre_To_NickelIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -214,7 +214,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_GarnieriteOre_To_NickelIngot</SubtypeId>
       </Id>
-      <DisplayName>Refine Garnierite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_GarnieriteOre_To_NickelIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -230,7 +230,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_GarnieriteOre_To_MagnesiumIngot</SubtypeId>
       </Id>
-      <DisplayName>Refine Garnierite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_GarnieriteOre_To_MagnesiumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -246,7 +246,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_TetrahedriteOre_To_CopperIngot</SubtypeId>
       </Id>
-      <DisplayName>Refine Tetrahedrite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_TetrahedriteOre_To_CopperIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -262,7 +262,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_TetrahedriteOre_To_IronIngot</SubtypeId>
       </Id>
-      <DisplayName>Refine Tetrahedrite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_TetrahedriteOre_To_IronIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.05</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -278,7 +278,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_GraphiteOre_To_CarbonIngot</SubtypeId>
       </Id>
-      <DisplayName>Refine Graphite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_GraphiteOre_To_CarbonIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -294,7 +294,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_NativeSilverOre_To_SilverIngot</SubtypeId>
       </Id>
-      <DisplayName>Refine Native Silver</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_NativeSilverOre_To_SilverIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -310,7 +310,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_NativeGoldOre_To_GoldIngot</SubtypeId>
       </Id>
-      <DisplayName>Refine Native Gold</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_NativeGoldOre_To_GoldIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.4</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -326,7 +326,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CarnotiteOre_To_UraniumIngot</SubtypeId>
       </Id>
-      <DisplayName>Refine Carnotite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CarnotiteOre_To_UraniumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -342,7 +342,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_BoraxOre_To_BoronIngot</SubtypeId>
       </Id>
-      <DisplayName>Refine Borax</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_BoraxOre_To_BoronIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -358,7 +358,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_ElectrumOre_To_SilverIngot</SubtypeId>
       </Id>
-      <DisplayName>Refine Electrum</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_ElectrumOre_To_SilverIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -374,7 +374,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_ElectrumOre_To_GoldIngot</SubtypeId>
       </Id>
-      <DisplayName>Refine Electrum</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_ElectrumOre_To_GoldIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.4</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -390,7 +390,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_ElectrumOre_To_CopperIngot</SubtypeId>
       </Id>
-      <DisplayName>Refine Electrum</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_ElectrumOre_To_CopperIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -406,7 +406,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_IlmeniteOre_To_TitaniumIngot</SubtypeId>
       </Id>
-      <DisplayName>Refine Ilmenite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_IlmeniteOre_To_TitaniumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -422,7 +422,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_IlmeniteOre_To_MagnesiumIngot</SubtypeId>
       </Id>
-      <DisplayName>Refine Ilmenite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_IlmeniteOre_To_MagnesiumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -438,7 +438,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_IlmeniteOre_To_IronIngot</SubtypeId>
       </Id>
-      <DisplayName>Refine Ilmenite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_IlmeniteOre_To_IronIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.05</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -454,7 +454,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_BauxiteOre_To_AluminiumIngot</SubtypeId>
       </Id>
-      <DisplayName>Refine Bauxite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_BauxiteOre_To_AluminiumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -470,7 +470,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_BauxiteOre_To_TitaniumIngot</SubtypeId>
       </Id>
-      <DisplayName>Refine Bauxite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_BauxiteOre_To_TitaniumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -486,7 +486,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_SperryliteOre_To_PlatinumIngot</SubtypeId>
       </Id>
-      <DisplayName>Refine Sperrylite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_SperryliteOre_To_PlatinumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -502,7 +502,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_NaturalThoriumOre_To_ThoriumIngot</SubtypeId>
       </Id>
-      <DisplayName>Refine Natural Thorium</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_NaturalThoriumOre_To_ThoriumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -518,7 +518,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_BertranditeOre_To_BerylliumIngot</SubtypeId>
       </Id>
-      <DisplayName>Refine Bertrandite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_BertranditeOre_To_BerylliumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -534,7 +534,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_RegolithOre_To_Helium-3Ingot</SubtypeId>
       </Id>
-      <DisplayName>Refine Regolith</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_RegolithOre_To_Helium-3Ingot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -550,7 +550,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_HematiteDenseOre_To_IronIngot</SubtypeId>
       </Id>
-      <DisplayName>Refine Dense Hematite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_HematiteDenseOre_To_IronIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.05</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -566,7 +566,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_MalachiteDenseOre_To_CopperIngot</SubtypeId>
       </Id>
-      <DisplayName>Refine Dense Malachite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_MalachiteDenseOre_To_CopperIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -582,7 +582,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CattieriteDenseOre_To_CobaltIngot</SubtypeId>
       </Id>
-      <DisplayName>Refine Dense Cattierite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CattieriteDenseOre_To_CobaltIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -598,7 +598,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_QuartzDenseOre_To_SiliconIngot</SubtypeId>
       </Id>
-      <DisplayName>Refine Dense Quartz</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_QuartzDenseOre_To_SiliconIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.6</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -614,7 +614,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_MagnesiteDenseOre_To_MagnesiumIngot</SubtypeId>
       </Id>
-      <DisplayName>Refine Dense Magnesite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_MagnesiteDenseOre_To_MagnesiumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -630,7 +630,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_MagnesiteDenseOre_To_NickelIngot</SubtypeId>
       </Id>
-      <DisplayName>Refine Dense Magnesite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_MagnesiteDenseOre_To_NickelIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -646,7 +646,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_MagnesiteDenseOre_To_CobaltIngot</SubtypeId>
       </Id>
-      <DisplayName>Refine Dense Magnesite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_MagnesiteDenseOre_To_CobaltIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -662,7 +662,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CobaltiteDenseOre_To_CobaltIngot</SubtypeId>
       </Id>
-      <DisplayName>Refine Dense Cobaltite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CobaltiteDenseOre_To_CobaltIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -678,7 +678,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CobaltiteDenseOre_To_IronIngot</SubtypeId>
       </Id>
-      <DisplayName>Refine Dense Cobaltite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CobaltiteDenseOre_To_IronIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.05</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -694,7 +694,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CobaltiteDenseOre_To_NickelIngot</SubtypeId>
       </Id>
-      <DisplayName>Refine Dense Cobaltite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CobaltiteDenseOre_To_NickelIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -710,7 +710,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_GarnieriteDenseOre_To_NickelIngot</SubtypeId>
       </Id>
-      <DisplayName>Refine Dense Garnierite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_GarnieriteDenseOre_To_NickelIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -726,7 +726,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_GarnieriteDenseOre_To_MagnesiumIngot</SubtypeId>
       </Id>
-      <DisplayName>Refine Dense Garnierite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_GarnieriteDenseOre_To_MagnesiumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -742,7 +742,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_TetrahedriteDenseOre_To_CopperIngot</SubtypeId>
       </Id>
-      <DisplayName>Refine Dense Tetrahedrite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_TetrahedriteDenseOre_To_CopperIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -758,7 +758,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_TetrahedriteDenseOre_To_IronIngot</SubtypeId>
       </Id>
-      <DisplayName>Refine Dense Tetrahedrite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_TetrahedriteDenseOre_To_IronIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.05</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -774,7 +774,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_GraphiteDenseOre_To_CarbonIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Dense Graphite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_GraphiteDenseOre_To_CarbonIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -790,7 +790,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_NativeSilverDenseOre_To_SilverIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Dense Native Silver</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_NativeSilverDenseOre_To_SilverIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -806,7 +806,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_NativeGoldDenseOre_To_GoldIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Dense Native Gold</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_NativeGoldDenseOre_To_GoldIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.4</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -822,7 +822,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CarnotiteDenseOre_To_UraniumIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Dense Carnotite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CarnotiteDenseOre_To_UraniumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -838,7 +838,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_BoraxDenseOre_To_BoronIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Dense Borax</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_BoraxDenseOre_To_BoronIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -854,7 +854,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_ElectrumDenseOre_To_SilverIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Dense Electrum</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_ElectrumDenseOre_To_SilverIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -870,7 +870,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_ElectrumDenseOre_To_GoldIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Dense Electrum</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_ElectrumDenseOre_To_GoldIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.4</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -886,7 +886,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_ElectrumDenseOre_To_CopperIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Dense Electrum</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_ElectrumDenseOre_To_CopperIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -902,7 +902,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_IlmeniteDenseOre_To_TitaniumIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Dense Ilmenite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_IlmeniteDenseOre_To_TitaniumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -918,7 +918,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_IlmeniteDenseOre_To_MagnesiumIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Dense Ilmenite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_IlmeniteDenseOre_To_MagnesiumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -934,7 +934,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_IlmeniteDenseOre_To_IronIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Dense Ilmenite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_IlmeniteDenseOre_To_IronIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.05</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -950,7 +950,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_BauxiteDenseOre_To_AluminiumIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Dense Bauxite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_BauxiteDenseOre_To_AluminiumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -966,7 +966,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_BauxiteDenseOre_To_TitaniumIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Dense Bauxite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_BauxiteDenseOre_To_TitaniumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -982,7 +982,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_SperryliteDenseOre_To_PlatinumIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Dense Sperrylite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_SperryliteDenseOre_To_PlatinumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -998,7 +998,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_NaturalThoriumDenseOre_To_ThoriumIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Dense Natural Thorium</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_NaturalThoriumDenseOre_To_ThoriumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1014,7 +1014,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_BertranditeDenseOre_To_BerylliumIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Dense Bertrandite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_BertranditeDenseOre_To_BerylliumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1030,7 +1030,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_RegolithDenseOre_To_Helium-3Ingot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Dense Regolith</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_RegolithDenseOre_To_Helium-3Ingot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1046,7 +1046,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_HematiteOre_To_IronIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Hematite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_HematiteOre_To_IronIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.05</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1062,7 +1062,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_MalachiteOre_To_CopperIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Malachite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_MalachiteOre_To_CopperIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1078,7 +1078,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_CattieriteOre_To_CobaltIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Cattierite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_CattieriteOre_To_CobaltIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1094,7 +1094,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_QuartzOre_To_SiliconIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Quartz</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_QuartzOre_To_SiliconIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.6</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1110,7 +1110,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_MagnesiteOre_To_MagnesiumIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Magnesite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_MagnesiteOre_To_MagnesiumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1126,7 +1126,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_MagnesiteOre_To_NickelIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Magnesite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_MagnesiteOre_To_NickelIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1142,7 +1142,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_MagnesiteOre_To_CobaltIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Magnesite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_MagnesiteOre_To_CobaltIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1158,7 +1158,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_CobaltiteOre_To_CobaltIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Cobaltite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_CobaltiteOre_To_CobaltIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1174,7 +1174,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_CobaltiteOre_To_IronIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Cobaltite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_CobaltiteOre_To_IronIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.05</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1190,7 +1190,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_CobaltiteOre_To_NickelIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Cobaltite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_CobaltiteOre_To_NickelIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1206,7 +1206,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_GarnieriteOre_To_NickelIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Garnierite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_GarnieriteOre_To_NickelIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1222,7 +1222,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_GarnieriteOre_To_MagnesiumIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Garnierite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_GarnieriteOre_To_MagnesiumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1238,7 +1238,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_TetrahedriteOre_To_CopperIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Tetrahedrite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_TetrahedriteOre_To_CopperIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1254,7 +1254,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_TetrahedriteOre_To_IronIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Tetrahedrite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_TetrahedriteOre_To_IronIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.05</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1270,7 +1270,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_GraphiteOre_To_CarbonIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Graphite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_GraphiteOre_To_CarbonIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1286,7 +1286,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_NativeSilverOre_To_SilverIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Native Silver</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_NativeSilverOre_To_SilverIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1302,7 +1302,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_NativeGoldOre_To_GoldIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Native Gold</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_NativeGoldOre_To_GoldIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.4</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1318,7 +1318,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_CarnotiteOre_To_UraniumIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Carnotite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_CarnotiteOre_To_UraniumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1334,7 +1334,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_BoraxOre_To_BoronIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Borax</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_BoraxOre_To_BoronIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1350,7 +1350,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_ElectrumOre_To_SilverIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Electrum</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_ElectrumOre_To_SilverIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1366,7 +1366,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_ElectrumOre_To_GoldIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Electrum</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_ElectrumOre_To_GoldIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.4</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1382,7 +1382,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_ElectrumOre_To_CopperIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Electrum</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_ElectrumOre_To_CopperIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1398,7 +1398,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_IlmeniteOre_To_TitaniumIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Ilmenite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_IlmeniteOre_To_TitaniumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1414,7 +1414,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_IlmeniteOre_To_MagnesiumIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Ilmenite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_IlmeniteOre_To_MagnesiumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1430,7 +1430,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_IlmeniteOre_To_IronIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Ilmenite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_IlmeniteOre_To_IronIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.05</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1446,7 +1446,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_BauxiteOre_To_AluminiumIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Bauxite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_BauxiteOre_To_AluminiumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1462,7 +1462,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_BauxiteOre_To_TitaniumIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Bauxite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_BauxiteOre_To_TitaniumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1478,7 +1478,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_SperryliteOre_To_PlatinumIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Sperrylite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_SperryliteOre_To_PlatinumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1494,7 +1494,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_NaturalThoriumOre_To_ThoriumIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Natural Thorium</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_NaturalThoriumOre_To_ThoriumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1510,7 +1510,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_BertranditeOre_To_BerylliumIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Bertrandite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_BertranditeOre_To_BerylliumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1526,7 +1526,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_RegolithOre_To_Helium-3Ingot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Regolith</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_RegolithOre_To_Helium-3Ingot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1542,7 +1542,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_HematiteDenseOre_To_IronIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Dense Hematite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_HematiteDenseOre_To_IronIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.05</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1558,7 +1558,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_MalachiteDenseOre_To_CopperIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Dense Malachite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_MalachiteDenseOre_To_CopperIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1574,7 +1574,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_CattieriteDenseOre_To_CobaltIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Dense Cattierite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_CattieriteDenseOre_To_CobaltIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1590,7 +1590,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_QuartzDenseOre_To_SiliconIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Dense Quartz</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_QuartzDenseOre_To_SiliconIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.6</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1606,7 +1606,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_MagnesiteDenseOre_To_MagnesiumIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Dense Magnesite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_MagnesiteDenseOre_To_MagnesiumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1622,7 +1622,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_MagnesiteDenseOre_To_NickelIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Dense Magnesite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_MagnesiteDenseOre_To_NickelIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1638,7 +1638,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_MagnesiteDenseOre_To_CobaltIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Dense Magnesite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_MagnesiteDenseOre_To_CobaltIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1654,7 +1654,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_CobaltiteDenseOre_To_CobaltIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Dense Cobaltite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_CobaltiteDenseOre_To_CobaltIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1670,7 +1670,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_CobaltiteDenseOre_To_IronIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Dense Cobaltite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_CobaltiteDenseOre_To_IronIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.05</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1686,7 +1686,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_CobaltiteDenseOre_To_NickelIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Dense Cobaltite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_CobaltiteDenseOre_To_NickelIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1702,7 +1702,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_GarnieriteDenseOre_To_NickelIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Dense Garnierite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_GarnieriteDenseOre_To_NickelIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1718,7 +1718,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_GarnieriteDenseOre_To_MagnesiumIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Dense Garnierite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_GarnieriteDenseOre_To_MagnesiumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1734,7 +1734,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_TetrahedriteDenseOre_To_CopperIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Dense Tetrahedrite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_TetrahedriteDenseOre_To_CopperIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1750,7 +1750,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_TetrahedriteDenseOre_To_IronIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Dense Tetrahedrite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_TetrahedriteDenseOre_To_IronIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.05</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1766,7 +1766,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_GraphiteDenseOre_To_CarbonIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Dense Graphite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_GraphiteDenseOre_To_CarbonIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1782,7 +1782,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_NativeSilverDenseOre_To_SilverIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Dense Native Silver</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_NativeSilverDenseOre_To_SilverIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1798,7 +1798,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_NativeGoldDenseOre_To_GoldIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Dense Native Gold</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_NativeGoldDenseOre_To_GoldIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.4</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1814,7 +1814,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_CarnotiteDenseOre_To_UraniumIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Dense Carnotite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_CarnotiteDenseOre_To_UraniumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1830,7 +1830,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_BoraxDenseOre_To_BoronIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Dense Borax</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_BoraxDenseOre_To_BoronIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>2</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1846,7 +1846,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_ElectrumDenseOre_To_SilverIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Dense Electrum</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_ElectrumDenseOre_To_SilverIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1862,7 +1862,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_ElectrumDenseOre_To_GoldIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Dense Electrum</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_ElectrumDenseOre_To_GoldIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.4</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1878,7 +1878,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_ElectrumDenseOre_To_CopperIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Dense Electrum</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_ElectrumDenseOre_To_CopperIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1894,7 +1894,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_IlmeniteDenseOre_To_TitaniumIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Dense Ilmenite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_IlmeniteDenseOre_To_TitaniumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1910,7 +1910,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_IlmeniteDenseOre_To_MagnesiumIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Dense Ilmenite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_IlmeniteDenseOre_To_MagnesiumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1926,7 +1926,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_IlmeniteDenseOre_To_IronIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Dense Ilmenite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_IlmeniteDenseOre_To_IronIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.05</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1942,7 +1942,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_BauxiteDenseOre_To_AluminiumIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Dense Bauxite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_BauxiteDenseOre_To_AluminiumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1958,7 +1958,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_BauxiteDenseOre_To_TitaniumIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Dense Bauxite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_BauxiteDenseOre_To_TitaniumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1974,7 +1974,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_SperryliteDenseOre_To_PlatinumIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Dense Sperrylite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_SperryliteDenseOre_To_PlatinumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>4</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -1990,7 +1990,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_NaturalThoriumDenseOre_To_ThoriumIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Dense Natural Thorium</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_NaturalThoriumDenseOre_To_ThoriumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2006,7 +2006,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_BertranditeDenseOre_To_BerylliumIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Dense Bertrandite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_BertranditeDenseOre_To_BerylliumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2022,7 +2022,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_RegolithDenseOre_To_Helium-3Ingot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Dense Regolith</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_RegolithDenseOre_To_Helium-3Ingot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2038,7 +2038,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_HematiteCrushedOre_To_IronIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Hematite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_HematiteCrushedOre_To_IronIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.15</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2054,7 +2054,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_MalachiteCrushedOre_To_CopperIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Malachite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_MalachiteCrushedOre_To_CopperIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.3</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2070,7 +2070,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_CattieriteCrushedOre_To_CobaltIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Cattierite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_CattieriteCrushedOre_To_CobaltIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2086,7 +2086,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_QuartzCrushedOre_To_SiliconIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Quartz</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_QuartzCrushedOre_To_SiliconIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1.8</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2102,7 +2102,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_MagnesiteCrushedOre_To_MagnesiumIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Magnesite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_MagnesiteCrushedOre_To_MagnesiumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2118,7 +2118,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_MagnesiteCrushedOre_To_NickelIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Magnesite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_MagnesiteCrushedOre_To_NickelIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2134,7 +2134,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_MagnesiteCrushedOre_To_CobaltIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Magnesite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_MagnesiteCrushedOre_To_CobaltIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2150,7 +2150,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_CobaltiteCrushedOre_To_CobaltIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Cobaltite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_CobaltiteCrushedOre_To_CobaltIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2166,7 +2166,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_CobaltiteCrushedOre_To_IronIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Cobaltite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_CobaltiteCrushedOre_To_IronIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.15</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2182,7 +2182,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_CobaltiteCrushedOre_To_NickelIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Cobaltite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_CobaltiteCrushedOre_To_NickelIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2198,7 +2198,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_GarnieriteCrushedOre_To_NickelIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Garnierite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_GarnieriteCrushedOre_To_NickelIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2214,7 +2214,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_GarnieriteCrushedOre_To_MagnesiumIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Garnierite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_GarnieriteCrushedOre_To_MagnesiumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2230,7 +2230,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_TetrahedriteCrushedOre_To_CopperIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Tetrahedrite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_TetrahedriteCrushedOre_To_CopperIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.3</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2246,7 +2246,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_TetrahedriteCrushedOre_To_IronIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Tetrahedrite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_TetrahedriteCrushedOre_To_IronIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.15</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2262,7 +2262,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_GraphiteCrushedOre_To_CarbonIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Graphite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_GraphiteCrushedOre_To_CarbonIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2278,7 +2278,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_NativeSilverCrushedOre_To_SilverIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Native Silver</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_NativeSilverCrushedOre_To_SilverIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2294,7 +2294,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_NativeGoldCrushedOre_To_GoldIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Native Gold</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_NativeGoldCrushedOre_To_GoldIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1.2</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2310,7 +2310,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_CarnotiteCrushedOre_To_UraniumIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Carnotite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_CarnotiteCrushedOre_To_UraniumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2326,7 +2326,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_BoraxCrushedOre_To_BoronIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Borax</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_BoraxCrushedOre_To_BoronIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2342,7 +2342,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_ElectrumCrushedOre_To_SilverIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Electrum</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_ElectrumCrushedOre_To_SilverIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2358,7 +2358,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_ElectrumCrushedOre_To_GoldIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Electrum</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_ElectrumCrushedOre_To_GoldIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1.2</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2374,7 +2374,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_ElectrumCrushedOre_To_CopperIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Electrum</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_ElectrumCrushedOre_To_CopperIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.3</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2390,7 +2390,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_IlmeniteCrushedOre_To_TitaniumIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Ilmenite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_IlmeniteCrushedOre_To_TitaniumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>4.5</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2406,7 +2406,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_IlmeniteCrushedOre_To_MagnesiumIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Ilmenite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_IlmeniteCrushedOre_To_MagnesiumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2422,7 +2422,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_IlmeniteCrushedOre_To_IronIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Ilmenite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_IlmeniteCrushedOre_To_IronIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.15</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2438,7 +2438,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_BauxiteCrushedOre_To_AluminiumIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Bauxite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_BauxiteCrushedOre_To_AluminiumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2454,7 +2454,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_BauxiteCrushedOre_To_TitaniumIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Bauxite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_BauxiteCrushedOre_To_TitaniumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>4.5</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2470,7 +2470,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_SperryliteCrushedOre_To_PlatinumIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Sperrylite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_SperryliteCrushedOre_To_PlatinumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2486,7 +2486,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_NaturalThoriumCrushedOre_To_ThoriumIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Natural Thorium</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_NaturalThoriumCrushedOre_To_ThoriumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>18</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2502,7 +2502,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_BertranditeCrushedOre_To_BerylliumIngot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Bertrandite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_BertranditeCrushedOre_To_BerylliumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>18</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2518,7 +2518,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_DED_RegolithCrushedOre_To_Helium-3Ingot</SubtypeId>
       </Id>
-      <DisplayName>Smelt Regolith</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_DED_RegolithCrushedOre_To_Helium-3Ingot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>18</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2534,7 +2534,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_HematiteOre_To_HematiteCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Hematite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_HematiteOre_To_HematiteCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.15</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2550,7 +2550,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_MalachiteOre_To_MalachiteCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Malachite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_MalachiteOre_To_MalachiteCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.3</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2566,7 +2566,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_CattieriteOre_To_CattieriteCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Cattierite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_CattieriteOre_To_CattieriteCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2582,7 +2582,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_QuartzOre_To_QuartzCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Quartz</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_QuartzOre_To_QuartzCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1.8</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2598,7 +2598,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_MagnesiteOre_To_MagnesiteCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Magnesite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_MagnesiteOre_To_MagnesiteCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2614,7 +2614,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_CobaltiteOre_To_CobaltiteCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Cobaltite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_CobaltiteOre_To_CobaltiteCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2630,7 +2630,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_GarnieriteOre_To_GarnieriteCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Garnierite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_GarnieriteOre_To_GarnieriteCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2646,7 +2646,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_TetrahedriteOre_To_TetrahedriteCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Tetrahedrite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_TetrahedriteOre_To_TetrahedriteCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.3</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2662,7 +2662,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_GraphiteOre_To_GraphiteCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Graphite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_GraphiteOre_To_GraphiteCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2678,7 +2678,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_NativeSilverOre_To_NativeSilverCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Native Silver</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_NativeSilverOre_To_NativeSilverCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2694,7 +2694,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_NativeGoldOre_To_NativeGoldCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Native Gold</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_NativeGoldOre_To_NativeGoldCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1.2</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2710,7 +2710,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_CarnotiteOre_To_CarnotiteCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Carnotite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_CarnotiteOre_To_CarnotiteCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2726,7 +2726,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_BoraxOre_To_BoraxCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Borax</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_BoraxOre_To_BoraxCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2742,7 +2742,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_ElectrumOre_To_ElectrumCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Electrum</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_ElectrumOre_To_ElectrumCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2758,7 +2758,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_IlmeniteOre_To_IlmeniteCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Ilmenite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_IlmeniteOre_To_IlmeniteCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>4.5</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2774,7 +2774,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_BauxiteOre_To_BauxiteCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Bauxite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_BauxiteOre_To_BauxiteCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2790,7 +2790,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_SperryliteOre_To_SperryliteCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Sperrylite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_SperryliteOre_To_SperryliteCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2806,7 +2806,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_NaturalThoriumOre_To_NaturalThoriumCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Natural Thorium</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_NaturalThoriumOre_To_NaturalThoriumCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>18</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2822,7 +2822,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_BertranditeOre_To_BertranditeCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Bertrandite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_BertranditeOre_To_BertranditeCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>18</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2838,7 +2838,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_RegolithOre_To_RegolithCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Regolith</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_RegolithOre_To_RegolithCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>18</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2854,7 +2854,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_HematiteDenseOre_To_HematiteCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Dense Hematite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_HematiteDenseOre_To_HematiteCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.15</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2870,7 +2870,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_MalachiteDenseOre_To_MalachiteCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Dense Malachite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_MalachiteDenseOre_To_MalachiteCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.3</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2886,7 +2886,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_CattieriteDenseOre_To_CattieriteCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Dense Cattierite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_CattieriteDenseOre_To_CattieriteCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2902,7 +2902,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_QuartzDenseOre_To_QuartzCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Dense Quartz</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_QuartzDenseOre_To_QuartzCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1.8</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2918,7 +2918,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_MagnesiteDenseOre_To_MagnesiteCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Dense Magnesite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_MagnesiteDenseOre_To_MagnesiteCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2934,7 +2934,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_CobaltiteDenseOre_To_CobaltiteCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Dense Cobaltite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_CobaltiteDenseOre_To_CobaltiteCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2950,7 +2950,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_GarnieriteDenseOre_To_GarnieriteCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Dense Garnierite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_GarnieriteDenseOre_To_GarnieriteCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2966,7 +2966,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_TetrahedriteDenseOre_To_TetrahedriteCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Dense Tetrahedrite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_TetrahedriteDenseOre_To_TetrahedriteCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.3</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2982,7 +2982,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_GraphiteDenseOre_To_GraphiteCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Dense Graphite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_GraphiteDenseOre_To_GraphiteCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -2998,7 +2998,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_NativeSilverDenseOre_To_NativeSilverCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Dense Native Silver</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_NativeSilverDenseOre_To_NativeSilverCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3014,7 +3014,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_NativeGoldDenseOre_To_NativeGoldCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Dense Native Gold</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_NativeGoldDenseOre_To_NativeGoldCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1.2</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3030,7 +3030,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_CarnotiteDenseOre_To_CarnotiteCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Dense Carnotite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_CarnotiteDenseOre_To_CarnotiteCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3046,7 +3046,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_BoraxDenseOre_To_BoraxCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Dense Borax</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_BoraxDenseOre_To_BoraxCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3062,7 +3062,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_ElectrumDenseOre_To_ElectrumCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Dense Electrum</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_ElectrumDenseOre_To_ElectrumCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3078,7 +3078,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_IlmeniteDenseOre_To_IlmeniteCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Dense Ilmenite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_IlmeniteDenseOre_To_IlmeniteCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>4.5</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3094,7 +3094,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_BauxiteDenseOre_To_BauxiteCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Dense Bauxite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_BauxiteDenseOre_To_BauxiteCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3110,7 +3110,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_SperryliteDenseOre_To_SperryliteCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Dense Sperrylite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_SperryliteDenseOre_To_SperryliteCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3126,7 +3126,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_NaturalThoriumDenseOre_To_NaturalThoriumCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Dense Natural Thorium</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_NaturalThoriumDenseOre_To_NaturalThoriumCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>18</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3142,7 +3142,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_BertranditeDenseOre_To_BertranditeCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Dense Bertrandite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_BertranditeDenseOre_To_BertranditeCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>18</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3158,7 +3158,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_RegolithDenseOre_To_RegolithCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Dense Regolith</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_RegolithDenseOre_To_RegolithCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>18</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3174,7 +3174,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_HematitePurifiedOre_To_HematiteCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Hematite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_HematitePurifiedOre_To_HematiteCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.15</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3190,7 +3190,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_MalachitePurifiedOre_To_MalachiteCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Malachite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_MalachitePurifiedOre_To_MalachiteCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.3</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3206,7 +3206,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_CattieritePurifiedOre_To_CattieriteCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Cattierite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_CattieritePurifiedOre_To_CattieriteCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3222,7 +3222,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_QuartzPurifiedOre_To_QuartzCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Quartz</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_QuartzPurifiedOre_To_QuartzCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1.8</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3238,7 +3238,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_MagnesitePurifiedOre_To_MagnesiteCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Magnesite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_MagnesitePurifiedOre_To_MagnesiteCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3254,7 +3254,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_CobaltitePurifiedOre_To_CobaltiteCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Cobaltite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_CobaltitePurifiedOre_To_CobaltiteCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3270,7 +3270,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_GarnieritePurifiedOre_To_GarnieriteCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Garnierite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_GarnieritePurifiedOre_To_GarnieriteCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3286,7 +3286,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_TetrahedritePurifiedOre_To_TetrahedriteCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Tetrahedrite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_TetrahedritePurifiedOre_To_TetrahedriteCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.3</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3302,7 +3302,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_GraphitePurifiedOre_To_GraphiteCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Graphite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_GraphitePurifiedOre_To_GraphiteCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3318,7 +3318,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_NativeSilverPurifiedOre_To_NativeSilverCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Native Silver</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_NativeSilverPurifiedOre_To_NativeSilverCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3334,7 +3334,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_NativeGoldPurifiedOre_To_NativeGoldCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Native Gold</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_NativeGoldPurifiedOre_To_NativeGoldCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>1.2</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3350,7 +3350,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_CarnotitePurifiedOre_To_CarnotiteCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Carnotite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_CarnotitePurifiedOre_To_CarnotiteCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3366,7 +3366,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_BoraxPurifiedOre_To_BoraxCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Borax</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_BoraxPurifiedOre_To_BoraxCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3382,7 +3382,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_ElectrumPurifiedOre_To_ElectrumCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Electrum</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_ElectrumPurifiedOre_To_ElectrumCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3398,7 +3398,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_IlmenitePurifiedOre_To_IlmeniteCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Ilmenite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_IlmenitePurifiedOre_To_IlmeniteCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>4.5</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3414,7 +3414,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_BauxitePurifiedOre_To_BauxiteCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Bauxite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_BauxitePurifiedOre_To_BauxiteCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3430,7 +3430,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_SperrylitePurifiedOre_To_SperryliteCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Sperrylite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_SperrylitePurifiedOre_To_SperryliteCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3446,7 +3446,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_NaturalThoriumPurifiedOre_To_NaturalThoriumCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Natural Thorium</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_NaturalThoriumPurifiedOre_To_NaturalThoriumCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>18</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3462,7 +3462,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_BertranditePurifiedOre_To_BertranditeCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Bertrandite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_BertranditePurifiedOre_To_BertranditeCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>18</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3478,7 +3478,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_CRU_RegolithPurifiedOre_To_RegolithCrushedOre</SubtypeId>
       </Id>
-      <DisplayName>Crush Regolith</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_CRU_RegolithPurifiedOre_To_RegolithCrushedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>18</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3494,7 +3494,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_PUR_HematiteOre_To_HematitePurifiedOre</SubtypeId>
       </Id>
-      <DisplayName>Purify Hematite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_PUR_HematiteOre_To_HematitePurifiedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.3</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3510,7 +3510,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_PUR_MalachiteOre_To_MalachitePurifiedOre</SubtypeId>
       </Id>
-      <DisplayName>Purify Malachite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_PUR_MalachiteOre_To_MalachitePurifiedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.6</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3526,7 +3526,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_PUR_CattieriteOre_To_CattieritePurifiedOre</SubtypeId>
       </Id>
-      <DisplayName>Purify Cattierite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_PUR_CattieriteOre_To_CattieritePurifiedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>24</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3542,7 +3542,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_PUR_QuartzOre_To_QuartzPurifiedOre</SubtypeId>
       </Id>
-      <DisplayName>Purify Quartz</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_PUR_QuartzOre_To_QuartzPurifiedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>3.6</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3558,7 +3558,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_PUR_MagnesiteOre_To_MagnesitePurifiedOre</SubtypeId>
       </Id>
-      <DisplayName>Purify Magnesite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_PUR_MagnesiteOre_To_MagnesitePurifiedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3574,7 +3574,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_PUR_CobaltiteOre_To_CobaltitePurifiedOre</SubtypeId>
       </Id>
-      <DisplayName>Purify Cobaltite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_PUR_CobaltiteOre_To_CobaltitePurifiedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>24</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3590,7 +3590,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_PUR_GarnieriteOre_To_GarnieritePurifiedOre</SubtypeId>
       </Id>
-      <DisplayName>Purify Garnierite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_PUR_GarnieriteOre_To_GarnieritePurifiedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3606,7 +3606,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_PUR_TetrahedriteOre_To_TetrahedritePurifiedOre</SubtypeId>
       </Id>
-      <DisplayName>Purify Tetrahedrite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_PUR_TetrahedriteOre_To_TetrahedritePurifiedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.6</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3622,7 +3622,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_PUR_GraphiteOre_To_GraphitePurifiedOre</SubtypeId>
       </Id>
-      <DisplayName>Purify Graphite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_PUR_GraphiteOre_To_GraphitePurifiedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3638,7 +3638,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_PUR_NativeSilverOre_To_NativeSilverPurifiedOre</SubtypeId>
       </Id>
-      <DisplayName>Purify Native Silver</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_PUR_NativeSilverOre_To_NativeSilverPurifiedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3654,7 +3654,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_PUR_NativeGoldOre_To_NativeGoldPurifiedOre</SubtypeId>
       </Id>
-      <DisplayName>Purify Native Gold</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_PUR_NativeGoldOre_To_NativeGoldPurifiedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>2.4</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3670,7 +3670,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_PUR_CarnotiteOre_To_CarnotitePurifiedOre</SubtypeId>
       </Id>
-      <DisplayName>Purify Carnotite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_PUR_CarnotiteOre_To_CarnotitePurifiedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>24</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3686,7 +3686,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_PUR_BoraxOre_To_BoraxPurifiedOre</SubtypeId>
       </Id>
-      <DisplayName>Purify Borax</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_PUR_BoraxOre_To_BoraxPurifiedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3702,7 +3702,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_PUR_ElectrumOre_To_ElectrumPurifiedOre</SubtypeId>
       </Id>
-      <DisplayName>Purify Electrum</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_PUR_ElectrumOre_To_ElectrumPurifiedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3718,7 +3718,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_PUR_IlmeniteOre_To_IlmenitePurifiedOre</SubtypeId>
       </Id>
-      <DisplayName>Purify Ilmenite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_PUR_IlmeniteOre_To_IlmenitePurifiedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>9</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3734,7 +3734,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_PUR_BauxiteOre_To_BauxitePurifiedOre</SubtypeId>
       </Id>
-      <DisplayName>Purify Bauxite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_PUR_BauxiteOre_To_BauxitePurifiedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3750,7 +3750,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_PUR_SperryliteOre_To_SperrylitePurifiedOre</SubtypeId>
       </Id>
-      <DisplayName>Purify Sperrylite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_PUR_SperryliteOre_To_SperrylitePurifiedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>24</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3766,7 +3766,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_PUR_NaturalThoriumOre_To_NaturalThoriumPurifiedOre</SubtypeId>
       </Id>
-      <DisplayName>Purify Natural Thorium</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_PUR_NaturalThoriumOre_To_NaturalThoriumPurifiedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>36</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3782,7 +3782,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_PUR_BertranditeOre_To_BertranditePurifiedOre</SubtypeId>
       </Id>
-      <DisplayName>Purify Bertrandite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_PUR_BertranditeOre_To_BertranditePurifiedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>36</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3798,7 +3798,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_PUR_RegolithOre_To_RegolithPurifiedOre</SubtypeId>
       </Id>
-      <DisplayName>Purify Regolith</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_PUR_RegolithOre_To_RegolithPurifiedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>36</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3814,7 +3814,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_PUR_HematiteDenseOre_To_HematitePurifiedOre</SubtypeId>
       </Id>
-      <DisplayName>Purify Dense Hematite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_PUR_HematiteDenseOre_To_HematitePurifiedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.3</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3830,7 +3830,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_PUR_MalachiteDenseOre_To_MalachitePurifiedOre</SubtypeId>
       </Id>
-      <DisplayName>Purify Dense Malachite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_PUR_MalachiteDenseOre_To_MalachitePurifiedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.6</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3846,7 +3846,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_PUR_CattieriteDenseOre_To_CattieritePurifiedOre</SubtypeId>
       </Id>
-      <DisplayName>Purify Dense Cattierite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_PUR_CattieriteDenseOre_To_CattieritePurifiedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>24</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3862,7 +3862,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_PUR_QuartzDenseOre_To_QuartzPurifiedOre</SubtypeId>
       </Id>
-      <DisplayName>Purify Dense Quartz</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_PUR_QuartzDenseOre_To_QuartzPurifiedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>3.6</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3878,7 +3878,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_PUR_MagnesiteDenseOre_To_MagnesitePurifiedOre</SubtypeId>
       </Id>
-      <DisplayName>Purify Dense Magnesite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_PUR_MagnesiteDenseOre_To_MagnesitePurifiedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3894,7 +3894,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_PUR_CobaltiteDenseOre_To_CobaltitePurifiedOre</SubtypeId>
       </Id>
-      <DisplayName>Purify Dense Cobaltite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_PUR_CobaltiteDenseOre_To_CobaltitePurifiedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>24</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3910,7 +3910,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_PUR_GarnieriteDenseOre_To_GarnieritePurifiedOre</SubtypeId>
       </Id>
-      <DisplayName>Purify Dense Garnierite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_PUR_GarnieriteDenseOre_To_GarnieritePurifiedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3926,7 +3926,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_PUR_TetrahedriteDenseOre_To_TetrahedritePurifiedOre</SubtypeId>
       </Id>
-      <DisplayName>Purify Dense Tetrahedrite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_PUR_TetrahedriteDenseOre_To_TetrahedritePurifiedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>0.6</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3942,7 +3942,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_PUR_GraphiteDenseOre_To_GraphitePurifiedOre</SubtypeId>
       </Id>
-      <DisplayName>Purify Dense Graphite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_PUR_GraphiteDenseOre_To_GraphitePurifiedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3958,7 +3958,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_PUR_NativeSilverDenseOre_To_NativeSilverPurifiedOre</SubtypeId>
       </Id>
-      <DisplayName>Purify Dense Native Silver</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_PUR_NativeSilverDenseOre_To_NativeSilverPurifiedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3974,7 +3974,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_PUR_NativeGoldDenseOre_To_NativeGoldPurifiedOre</SubtypeId>
       </Id>
-      <DisplayName>Purify Dense Native Gold</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_PUR_NativeGoldDenseOre_To_NativeGoldPurifiedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>2.4</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -3990,7 +3990,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_PUR_CarnotiteDenseOre_To_CarnotitePurifiedOre</SubtypeId>
       </Id>
-      <DisplayName>Purify Dense Carnotite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_PUR_CarnotiteDenseOre_To_CarnotitePurifiedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>24</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -4006,7 +4006,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_PUR_BoraxDenseOre_To_BoraxPurifiedOre</SubtypeId>
       </Id>
-      <DisplayName>Purify Dense Borax</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_PUR_BoraxDenseOre_To_BoraxPurifiedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>12</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -4022,7 +4022,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_PUR_ElectrumDenseOre_To_ElectrumPurifiedOre</SubtypeId>
       </Id>
-      <DisplayName>Purify Dense Electrum</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_PUR_ElectrumDenseOre_To_ElectrumPurifiedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -4038,7 +4038,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_PUR_IlmeniteDenseOre_To_IlmenitePurifiedOre</SubtypeId>
       </Id>
-      <DisplayName>Purify Dense Ilmenite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_PUR_IlmeniteDenseOre_To_IlmenitePurifiedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>9</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -4054,7 +4054,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_PUR_BauxiteDenseOre_To_BauxitePurifiedOre</SubtypeId>
       </Id>
-      <DisplayName>Purify Dense Bauxite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_PUR_BauxiteDenseOre_To_BauxitePurifiedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -4070,7 +4070,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_PUR_SperryliteDenseOre_To_SperrylitePurifiedOre</SubtypeId>
       </Id>
-      <DisplayName>Purify Dense Sperrylite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_PUR_SperryliteDenseOre_To_SperrylitePurifiedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>24</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -4086,7 +4086,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_PUR_NaturalThoriumDenseOre_To_NaturalThoriumPurifiedOre</SubtypeId>
       </Id>
-      <DisplayName>Purify Dense Natural Thorium</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_PUR_NaturalThoriumDenseOre_To_NaturalThoriumPurifiedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>36</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -4102,7 +4102,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_PUR_BertranditeDenseOre_To_BertranditePurifiedOre</SubtypeId>
       </Id>
-      <DisplayName>Purify Dense Bertrandite</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_PUR_BertranditeDenseOre_To_BertranditePurifiedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>36</BaseProductionTimeInSeconds>
       <Prerequisites>
@@ -4118,7 +4118,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_PUR_RegolithDenseOre_To_RegolithPurifiedOre</SubtypeId>
       </Id>
-      <DisplayName>Purify Dense Regolith</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_PUR_RegolithDenseOre_To_RegolithPurifiedOre</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\gravel_ingot.dds</Icon>
       <BaseProductionTimeInSeconds>36</BaseProductionTimeInSeconds>
       <Prerequisites>

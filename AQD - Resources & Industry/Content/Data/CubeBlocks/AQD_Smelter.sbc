@@ -5,11 +5,13 @@
     <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
       <Id>
         <TypeId>Refinery</TypeId>
-        <SubtypeId>AQD_Smelter_Iron</SubtypeId>
+        <SubtypeId>AQD_LG_Smelter_Iron</SubtypeId>
       </Id>
-      <DisplayName>Iron Smelter</DisplayName>
+      <DisplayName>DisplayName_AQD_LG_Smelter_Iron</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_Smelter.dds</Icon>
+      <Description>Description_AQD_LG_Smelter_Iron</Description>
       <CubeSize>Large</CubeSize>
+      <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="2" y="2" z="2" />
       <ModelOffset x="0" y="0" z="0" />
@@ -49,6 +51,7 @@
       </BlueprintClasses>
       <RefineSpeed>1.0</RefineSpeed>
       <MaterialEfficiency>1.0</MaterialEfficiency>
+      <OreAmountPerPullRequest>2000</OreAmountPerPullRequest>
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
       <PrimarySound>BlockRafinery</PrimarySound>
@@ -56,7 +59,6 @@
       <EmissiveColorPreset>Default</EmissiveColorPreset>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <OreAmountPerPullRequest>2000</OreAmountPerPullRequest>
       <PCU>75</PCU>
     </Definition>
     

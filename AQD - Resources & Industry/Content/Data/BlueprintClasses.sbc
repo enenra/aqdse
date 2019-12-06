@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
-<!-- Created by enenra's BlueprintClasses Editor on: 2019-08-05 11:30 -->
-<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<!-- Created by enenra's BlueprintClasses Editor on: 2019-12-06 12:53 -->
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <BlueprintClasses>
     <Class>
       <Id>
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_BasicRefinery</SubtypeId>
       </Id>
-      <DisplayName>Basic Refinery Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_BasicRefinery</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -18,7 +18,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_Refinery</SubtypeId>
       </Id>
-      <DisplayName>Refinery Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_Refinery</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -29,7 +29,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_DED_Iron</SubtypeId>
       </Id>
-      <DisplayName>Iron Smelter Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_DED_Iron</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -40,7 +40,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_DED_Copper</SubtypeId>
       </Id>
-      <DisplayName>Copper Smelter Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_DED_Copper</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -51,7 +51,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_DED_Nickel</SubtypeId>
       </Id>
-      <DisplayName>Nickel Smelter Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_DED_Nickel</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -62,7 +62,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_DED_Cobalt</SubtypeId>
       </Id>
-      <DisplayName>Cobalt Smelter Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_DED_Cobalt</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -73,7 +73,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_DED_Silicon</SubtypeId>
       </Id>
-      <DisplayName>Silicon Smelter Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_DED_Silicon</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -84,7 +84,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_DED_Magnesium</SubtypeId>
       </Id>
-      <DisplayName>Magnesium Smelter Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_DED_Magnesium</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -95,7 +95,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_DED_Carbon</SubtypeId>
       </Id>
-      <DisplayName>Carbon Smelter Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_DED_Carbon</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -106,7 +106,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_DED_Silver</SubtypeId>
       </Id>
-      <DisplayName>Silver Smelter Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_DED_Silver</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -117,7 +117,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_DED_Gold</SubtypeId>
       </Id>
-      <DisplayName>Gold Smelter Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_DED_Gold</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -128,7 +128,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_DED_Uranium</SubtypeId>
       </Id>
-      <DisplayName>Uranium Smelter Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_DED_Uranium</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -139,7 +139,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_DED_Boron</SubtypeId>
       </Id>
-      <DisplayName>Boron Smelter Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_DED_Boron</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -150,7 +150,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_DED_Titanium</SubtypeId>
       </Id>
-      <DisplayName>Titanium Smelter Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_DED_Titanium</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -161,7 +161,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_DED_Aluminium</SubtypeId>
       </Id>
-      <DisplayName>Aluminium Smelter Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_DED_Aluminium</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -172,7 +172,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_DED_Platinum</SubtypeId>
       </Id>
-      <DisplayName>Platinum Smelter Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_DED_Platinum</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -183,7 +183,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_DED_Thorium</SubtypeId>
       </Id>
-      <DisplayName>Thorium Smelter Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_DED_Thorium</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -194,7 +194,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_DED_Beryllium</SubtypeId>
       </Id>
-      <DisplayName>Beryllium Smelter Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_DED_Beryllium</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -205,7 +205,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_DED_Helium-3</SubtypeId>
       </Id>
-      <DisplayName>Helium-3 Smelter Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_DED_Helium-3</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -216,7 +216,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_CRU_Hematite</SubtypeId>
       </Id>
-      <DisplayName>Hematite Crusher Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_CRU_Hematite</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -227,7 +227,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_CRU_Malachite</SubtypeId>
       </Id>
-      <DisplayName>Malachite Crusher Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_CRU_Malachite</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -238,7 +238,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_CRU_Cattierite</SubtypeId>
       </Id>
-      <DisplayName>Cattierite Crusher Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_CRU_Cattierite</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -249,7 +249,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_CRU_Quartz</SubtypeId>
       </Id>
-      <DisplayName>Quartz Crusher Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_CRU_Quartz</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -260,7 +260,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_CRU_Magnesite</SubtypeId>
       </Id>
-      <DisplayName>Magnesite Crusher Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_CRU_Magnesite</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -271,7 +271,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_CRU_Cobaltite</SubtypeId>
       </Id>
-      <DisplayName>Cobaltite Crusher Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_CRU_Cobaltite</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -282,7 +282,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_CRU_Garnierite</SubtypeId>
       </Id>
-      <DisplayName>Garnierite Crusher Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_CRU_Garnierite</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -293,7 +293,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_CRU_Tetrahedrite</SubtypeId>
       </Id>
-      <DisplayName>Tetrahedrite Crusher Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_CRU_Tetrahedrite</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -304,7 +304,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_CRU_Graphite</SubtypeId>
       </Id>
-      <DisplayName>Graphite Crusher Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_CRU_Graphite</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -315,7 +315,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_CRU_NativeSilver</SubtypeId>
       </Id>
-      <DisplayName>Native Silver Crusher Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_CRU_NativeSilver</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -326,7 +326,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_CRU_NativeGold</SubtypeId>
       </Id>
-      <DisplayName>Native Gold Crusher Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_CRU_NativeGold</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -337,7 +337,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_CRU_Carnotite</SubtypeId>
       </Id>
-      <DisplayName>Carnotite Crusher Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_CRU_Carnotite</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -348,7 +348,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_CRU_Borax</SubtypeId>
       </Id>
-      <DisplayName>Borax Crusher Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_CRU_Borax</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -359,7 +359,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_CRU_Electrum</SubtypeId>
       </Id>
-      <DisplayName>Electrum Crusher Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_CRU_Electrum</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -370,7 +370,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_CRU_Ilmenite</SubtypeId>
       </Id>
-      <DisplayName>Ilmenite Crusher Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_CRU_Ilmenite</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -381,7 +381,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_CRU_Bauxite</SubtypeId>
       </Id>
-      <DisplayName>Bauxite Crusher Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_CRU_Bauxite</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -392,7 +392,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_CRU_Sperrylite</SubtypeId>
       </Id>
-      <DisplayName>Sperrylite Crusher Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_CRU_Sperrylite</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -403,7 +403,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_CRU_NaturalThorium</SubtypeId>
       </Id>
-      <DisplayName>Natural Thorium Crusher Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_CRU_NaturalThorium</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -414,7 +414,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_CRU_Bertrandite</SubtypeId>
       </Id>
-      <DisplayName>Bertrandite Crusher Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_CRU_Bertrandite</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -425,7 +425,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_CRU_Regolith</SubtypeId>
       </Id>
-      <DisplayName>Regolith Crusher Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_CRU_Regolith</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -436,7 +436,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_PUR_Hematite</SubtypeId>
       </Id>
-      <DisplayName>Hematite Purifier Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_PUR_Hematite</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -447,7 +447,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_PUR_Malachite</SubtypeId>
       </Id>
-      <DisplayName>Malachite Purifier Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_PUR_Malachite</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -458,7 +458,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_PUR_Cattierite</SubtypeId>
       </Id>
-      <DisplayName>Cattierite Purifier Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_PUR_Cattierite</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -469,7 +469,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_PUR_Quartz</SubtypeId>
       </Id>
-      <DisplayName>Quartz Purifier Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_PUR_Quartz</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -480,7 +480,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_PUR_Magnesite</SubtypeId>
       </Id>
-      <DisplayName>Magnesite Purifier Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_PUR_Magnesite</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -491,7 +491,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_PUR_Cobaltite</SubtypeId>
       </Id>
-      <DisplayName>Cobaltite Purifier Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_PUR_Cobaltite</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -502,7 +502,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_PUR_Garnierite</SubtypeId>
       </Id>
-      <DisplayName>Garnierite Purifier Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_PUR_Garnierite</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -513,7 +513,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_PUR_Tetrahedrite</SubtypeId>
       </Id>
-      <DisplayName>Tetrahedrite Purifier Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_PUR_Tetrahedrite</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -524,7 +524,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_PUR_Graphite</SubtypeId>
       </Id>
-      <DisplayName>Graphite Purifier Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_PUR_Graphite</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -535,7 +535,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_PUR_NativeSilver</SubtypeId>
       </Id>
-      <DisplayName>Native Silver Purifier Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_PUR_NativeSilver</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -546,7 +546,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_PUR_NativeGold</SubtypeId>
       </Id>
-      <DisplayName>Native Gold Purifier Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_PUR_NativeGold</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -557,7 +557,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_PUR_Carnotite</SubtypeId>
       </Id>
-      <DisplayName>Carnotite Purifier Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_PUR_Carnotite</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -568,7 +568,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_PUR_Borax</SubtypeId>
       </Id>
-      <DisplayName>Borax Purifier Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_PUR_Borax</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -579,7 +579,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_PUR_Electrum</SubtypeId>
       </Id>
-      <DisplayName>Electrum Purifier Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_PUR_Electrum</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -590,7 +590,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_PUR_Ilmenite</SubtypeId>
       </Id>
-      <DisplayName>Ilmenite Purifier Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_PUR_Ilmenite</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -601,7 +601,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_PUR_Bauxite</SubtypeId>
       </Id>
-      <DisplayName>Bauxite Purifier Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_PUR_Bauxite</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -612,7 +612,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_PUR_Sperrylite</SubtypeId>
       </Id>
-      <DisplayName>Sperrylite Purifier Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_PUR_Sperrylite</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -623,7 +623,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_PUR_NaturalThorium</SubtypeId>
       </Id>
-      <DisplayName>Natural Thorium Purifier Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_PUR_NaturalThorium</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -634,7 +634,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_PUR_Bertrandite</SubtypeId>
       </Id>
-      <DisplayName>Bertrandite Purifier Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_PUR_Bertrandite</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>
@@ -645,7 +645,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_PUR_Regolith</SubtypeId>
       </Id>
-      <DisplayName>Regolith Purifier Blueprints</DisplayName>
+      <DisplayName>DisplayName_AQD_BPC_PUR_Regolith</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\large_block.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\large_block_highlight.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_ore.dds</InputConstraintIcon>

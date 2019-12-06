@@ -246,6 +246,963 @@
   <data name="AQD_Ore_TetrahedriteDense" xml:space="preserve">
     <value>Dense Tetrahedrite</value>
   </data>
+  <data name="Description_AQD_LG_Smelter_Iron" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DisplayName_AQD_BPC_BasicRefinery" xml:space="preserve">
+    <value>Basic Refinery Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_CRU_Bauxite" xml:space="preserve">
+    <value>Bauxite Crusher Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_CRU_Bertrandite" xml:space="preserve">
+    <value>Bertrandite Crusher Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_CRU_Borax" xml:space="preserve">
+    <value>Borax Crusher Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_CRU_Carnotite" xml:space="preserve">
+    <value>Carnotite Crusher Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_CRU_Cattierite" xml:space="preserve">
+    <value>Cattierite Crusher Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_CRU_Cobaltite" xml:space="preserve">
+    <value>Cobaltite Crusher Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_CRU_Electrum" xml:space="preserve">
+    <value>Electrum Crusher Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_CRU_Garnierite" xml:space="preserve">
+    <value>Garnierite Crusher Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_CRU_Graphite" xml:space="preserve">
+    <value>Graphite Crusher Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_CRU_Hematite" xml:space="preserve">
+    <value>Hematite Crusher Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_CRU_Ilmenite" xml:space="preserve">
+    <value>Ilmenite Crusher Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_CRU_Magnesite" xml:space="preserve">
+    <value>Magnesite Crusher Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_CRU_Malachite" xml:space="preserve">
+    <value>Malachite Crusher Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_CRU_NativeGold" xml:space="preserve">
+    <value>Native Gold Crusher Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_CRU_NativeSilver" xml:space="preserve">
+    <value>Native Silver Crusher Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_CRU_NaturalThorium" xml:space="preserve">
+    <value>Natural Thorium Crusher Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_CRU_Quartz" xml:space="preserve">
+    <value>Quartz Crusher Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_CRU_Regolith" xml:space="preserve">
+    <value>Regolith Crusher Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_CRU_Sperrylite" xml:space="preserve">
+    <value>Sperrylite Crusher Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_CRU_Tetrahedrite" xml:space="preserve">
+    <value>Tetrahedrite Crusher Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_DED_Aluminium" xml:space="preserve">
+    <value>Aluminium Smelter Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_DED_Beryllium" xml:space="preserve">
+    <value>Beryllium Smelter Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_DED_Boron" xml:space="preserve">
+    <value>Boron Smelter Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_DED_Carbon" xml:space="preserve">
+    <value>Carbon Smelter Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_DED_Cobalt" xml:space="preserve">
+    <value>Cobalt Smelter Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_DED_Copper" xml:space="preserve">
+    <value>Copper Smelter Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_DED_Gold" xml:space="preserve">
+    <value>Gold Smelter Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_DED_Helium-3" xml:space="preserve">
+    <value>Helium-3 Smelter Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_DED_Iron" xml:space="preserve">
+    <value>Iron Smelter Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_DED_Magnesium" xml:space="preserve">
+    <value>Magnesium Smelter Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_DED_Nickel" xml:space="preserve">
+    <value>Nickel Smelter Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_DED_Platinum" xml:space="preserve">
+    <value>Platinum Smelter Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_DED_Silicon" xml:space="preserve">
+    <value>Silicon Smelter Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_DED_Silver" xml:space="preserve">
+    <value>Silver Smelter Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_DED_Thorium" xml:space="preserve">
+    <value>Thorium Smelter Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_DED_Titanium" xml:space="preserve">
+    <value>Titanium Smelter Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_DED_Uranium" xml:space="preserve">
+    <value>Uranium Smelter Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_PUR_Bauxite" xml:space="preserve">
+    <value>Bauxite Purifier Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_PUR_Bertrandite" xml:space="preserve">
+    <value>Bertrandite Purifier Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_PUR_Borax" xml:space="preserve">
+    <value>Borax Purifier Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_PUR_Carnotite" xml:space="preserve">
+    <value>Carnotite Purifier Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_PUR_Cattierite" xml:space="preserve">
+    <value>Cattierite Purifier Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_PUR_Cobaltite" xml:space="preserve">
+    <value>Cobaltite Purifier Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_PUR_Electrum" xml:space="preserve">
+    <value>Electrum Purifier Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_PUR_Garnierite" xml:space="preserve">
+    <value>Garnierite Purifier Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_PUR_Graphite" xml:space="preserve">
+    <value>Graphite Purifier Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_PUR_Hematite" xml:space="preserve">
+    <value>Hematite Purifier Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_PUR_Ilmenite" xml:space="preserve">
+    <value>Ilmenite Purifier Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_PUR_Magnesite" xml:space="preserve">
+    <value>Magnesite Purifier Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_PUR_Malachite" xml:space="preserve">
+    <value>Malachite Purifier Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_PUR_NativeGold" xml:space="preserve">
+    <value>Native Gold Purifier Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_PUR_NativeSilver" xml:space="preserve">
+    <value>Native Silver Purifier Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_PUR_NaturalThorium" xml:space="preserve">
+    <value>Natural Thorium Purifier Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_PUR_Quartz" xml:space="preserve">
+    <value>Quartz Purifier Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_PUR_Regolith" xml:space="preserve">
+    <value>Regolith Purifier Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_PUR_Sperrylite" xml:space="preserve">
+    <value>Sperrylite Purifier Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_PUR_Tetrahedrite" xml:space="preserve">
+    <value>Tetrahedrite Purifier Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_Refinery" xml:space="preserve">
+    <value>Refinery Blueprints</value>
+  </data>
+  <data name="DisplayName_AQD_BP_BauxiteDenseOre_To_AluminiumIngot" xml:space="preserve">
+    <value>Smelt Dense Bauxite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_BauxiteDenseOre_To_TitaniumIngot" xml:space="preserve">
+    <value>Smelt Dense Bauxite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_BauxiteOre_To_AluminiumIngot" xml:space="preserve">
+    <value>Refine Bauxite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_BauxiteOre_To_TitaniumIngot" xml:space="preserve">
+    <value>Refine Bauxite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_BertranditeDenseOre_To_BerylliumIngot" xml:space="preserve">
+    <value>Smelt Dense Bertrandite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_BertranditeOre_To_BerylliumIngot" xml:space="preserve">
+    <value>Refine Bertrandite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_BoraxDenseOre_To_BoronIngot" xml:space="preserve">
+    <value>Smelt Dense Borax</value>
+  </data>
+  <data name="DisplayName_AQD_BP_BoraxOre_To_BoronIngot" xml:space="preserve">
+    <value>Refine Borax</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CarnotiteDenseOre_To_UraniumIngot" xml:space="preserve">
+    <value>Smelt Dense Carnotite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CarnotiteOre_To_UraniumIngot" xml:space="preserve">
+    <value>Refine Carnotite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CattieriteDenseOre_To_CobaltIngot" xml:space="preserve">
+    <value>Refine Dense Cattierite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CattieriteOre_To_CobaltIngot" xml:space="preserve">
+    <value>Refine Cattierite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CobaltiteDenseOre_To_CobaltIngot" xml:space="preserve">
+    <value>Refine Dense Cobaltite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CobaltiteDenseOre_To_IronIngot" xml:space="preserve">
+    <value>Refine Dense Cobaltite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CobaltiteDenseOre_To_NickelIngot" xml:space="preserve">
+    <value>Refine Dense Cobaltite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CobaltiteOre_To_CobaltIngot" xml:space="preserve">
+    <value>Refine Cobaltite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CobaltiteOre_To_IronIngot" xml:space="preserve">
+    <value>Refine Cobaltite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CobaltiteOre_To_NickelIngot" xml:space="preserve">
+    <value>Refine Cobaltite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_BauxiteDenseOre_To_BauxiteCrushedOre" xml:space="preserve">
+    <value>Crush Dense Bauxite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_BauxiteOre_To_BauxiteCrushedOre" xml:space="preserve">
+    <value>Crush Bauxite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_BauxitePurifiedOre_To_BauxiteCrushedOre" xml:space="preserve">
+    <value>Crush Bauxite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_BertranditeDenseOre_To_BertranditeCrushedOre" xml:space="preserve">
+    <value>Crush Dense Bertrandite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_BertranditeOre_To_BertranditeCrushedOre" xml:space="preserve">
+    <value>Crush Bertrandite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_BertranditePurifiedOre_To_BertranditeCrushedOre" xml:space="preserve">
+    <value>Crush Bertrandite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_BoraxDenseOre_To_BoraxCrushedOre" xml:space="preserve">
+    <value>Crush Dense Borax</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_BoraxOre_To_BoraxCrushedOre" xml:space="preserve">
+    <value>Crush Borax</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_BoraxPurifiedOre_To_BoraxCrushedOre" xml:space="preserve">
+    <value>Crush Borax</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_CarnotiteDenseOre_To_CarnotiteCrushedOre" xml:space="preserve">
+    <value>Crush Dense Carnotite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_CarnotiteOre_To_CarnotiteCrushedOre" xml:space="preserve">
+    <value>Crush Carnotite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_CarnotitePurifiedOre_To_CarnotiteCrushedOre" xml:space="preserve">
+    <value>Crush Carnotite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_CattieriteDenseOre_To_CattieriteCrushedOre" xml:space="preserve">
+    <value>Crush Dense Cattierite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_CattieriteOre_To_CattieriteCrushedOre" xml:space="preserve">
+    <value>Crush Cattierite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_CattieritePurifiedOre_To_CattieriteCrushedOre" xml:space="preserve">
+    <value>Crush Cattierite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_CobaltiteDenseOre_To_CobaltiteCrushedOre" xml:space="preserve">
+    <value>Crush Dense Cobaltite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_CobaltiteOre_To_CobaltiteCrushedOre" xml:space="preserve">
+    <value>Crush Cobaltite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_CobaltitePurifiedOre_To_CobaltiteCrushedOre" xml:space="preserve">
+    <value>Crush Cobaltite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_ElectrumDenseOre_To_ElectrumCrushedOre" xml:space="preserve">
+    <value>Crush Dense Electrum</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_ElectrumOre_To_ElectrumCrushedOre" xml:space="preserve">
+    <value>Crush Electrum</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_ElectrumPurifiedOre_To_ElectrumCrushedOre" xml:space="preserve">
+    <value>Crush Electrum</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_GarnieriteDenseOre_To_GarnieriteCrushedOre" xml:space="preserve">
+    <value>Crush Dense Garnierite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_GarnieriteOre_To_GarnieriteCrushedOre" xml:space="preserve">
+    <value>Crush Garnierite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_GarnieritePurifiedOre_To_GarnieriteCrushedOre" xml:space="preserve">
+    <value>Crush Garnierite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_GraphiteDenseOre_To_GraphiteCrushedOre" xml:space="preserve">
+    <value>Crush Dense Graphite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_GraphiteOre_To_GraphiteCrushedOre" xml:space="preserve">
+    <value>Crush Graphite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_GraphitePurifiedOre_To_GraphiteCrushedOre" xml:space="preserve">
+    <value>Crush Graphite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_HematiteDenseOre_To_HematiteCrushedOre" xml:space="preserve">
+    <value>Crush Dense Hematite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_HematiteOre_To_HematiteCrushedOre" xml:space="preserve">
+    <value>Crush Hematite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_HematitePurifiedOre_To_HematiteCrushedOre" xml:space="preserve">
+    <value>Crush Hematite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_IlmeniteDenseOre_To_IlmeniteCrushedOre" xml:space="preserve">
+    <value>Crush Dense Ilmenite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_IlmeniteOre_To_IlmeniteCrushedOre" xml:space="preserve">
+    <value>Crush Ilmenite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_IlmenitePurifiedOre_To_IlmeniteCrushedOre" xml:space="preserve">
+    <value>Crush Ilmenite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_MagnesiteDenseOre_To_MagnesiteCrushedOre" xml:space="preserve">
+    <value>Crush Dense Magnesite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_MagnesiteOre_To_MagnesiteCrushedOre" xml:space="preserve">
+    <value>Crush Magnesite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_MagnesitePurifiedOre_To_MagnesiteCrushedOre" xml:space="preserve">
+    <value>Crush Magnesite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_MalachiteDenseOre_To_MalachiteCrushedOre" xml:space="preserve">
+    <value>Crush Dense Malachite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_MalachiteOre_To_MalachiteCrushedOre" xml:space="preserve">
+    <value>Crush Malachite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_MalachitePurifiedOre_To_MalachiteCrushedOre" xml:space="preserve">
+    <value>Crush Malachite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_NativeGoldDenseOre_To_NativeGoldCrushedOre" xml:space="preserve">
+    <value>Crush Dense Native Gold</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_NativeGoldOre_To_NativeGoldCrushedOre" xml:space="preserve">
+    <value>Crush Native Gold</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_NativeGoldPurifiedOre_To_NativeGoldCrushedOre" xml:space="preserve">
+    <value>Crush Native Gold</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_NativeSilverDenseOre_To_NativeSilverCrushedOre" xml:space="preserve">
+    <value>Crush Dense Native Silver</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_NativeSilverOre_To_NativeSilverCrushedOre" xml:space="preserve">
+    <value>Crush Native Silver</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_NativeSilverPurifiedOre_To_NativeSilverCrushedOre" xml:space="preserve">
+    <value>Crush Native Silver</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_NaturalThoriumDenseOre_To_NaturalThoriumCrushedOre" xml:space="preserve">
+    <value>Crush Dense Natural Thorium</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_NaturalThoriumOre_To_NaturalThoriumCrushedOre" xml:space="preserve">
+    <value>Crush Natural Thorium</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_NaturalThoriumPurifiedOre_To_NaturalThoriumCrushedOre" xml:space="preserve">
+    <value>Crush Natural Thorium</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_QuartzDenseOre_To_QuartzCrushedOre" xml:space="preserve">
+    <value>Crush Dense Quartz</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_QuartzOre_To_QuartzCrushedOre" xml:space="preserve">
+    <value>Crush Quartz</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_QuartzPurifiedOre_To_QuartzCrushedOre" xml:space="preserve">
+    <value>Crush Quartz</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_RegolithDenseOre_To_RegolithCrushedOre" xml:space="preserve">
+    <value>Crush Dense Regolith</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_RegolithOre_To_RegolithCrushedOre" xml:space="preserve">
+    <value>Crush Regolith</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_RegolithPurifiedOre_To_RegolithCrushedOre" xml:space="preserve">
+    <value>Crush Regolith</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_SperryliteDenseOre_To_SperryliteCrushedOre" xml:space="preserve">
+    <value>Crush Dense Sperrylite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_SperryliteOre_To_SperryliteCrushedOre" xml:space="preserve">
+    <value>Crush Sperrylite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_SperrylitePurifiedOre_To_SperryliteCrushedOre" xml:space="preserve">
+    <value>Crush Sperrylite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_TetrahedriteDenseOre_To_TetrahedriteCrushedOre" xml:space="preserve">
+    <value>Crush Dense Tetrahedrite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_TetrahedriteOre_To_TetrahedriteCrushedOre" xml:space="preserve">
+    <value>Crush Tetrahedrite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_CRU_TetrahedritePurifiedOre_To_TetrahedriteCrushedOre" xml:space="preserve">
+    <value>Crush Tetrahedrite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_BauxiteCrushedOre_To_AluminiumIngot" xml:space="preserve">
+    <value>Smelt Bauxite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_BauxiteCrushedOre_To_TitaniumIngot" xml:space="preserve">
+    <value>Smelt Bauxite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_BauxiteDenseOre_To_AluminiumIngot" xml:space="preserve">
+    <value>Smelt Dense Bauxite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_BauxiteDenseOre_To_TitaniumIngot" xml:space="preserve">
+    <value>Smelt Dense Bauxite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_BauxiteOre_To_AluminiumIngot" xml:space="preserve">
+    <value>Smelt Bauxite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_BauxiteOre_To_TitaniumIngot" xml:space="preserve">
+    <value>Smelt Bauxite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_BertranditeCrushedOre_To_BerylliumIngot" xml:space="preserve">
+    <value>Smelt Bertrandite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_BertranditeDenseOre_To_BerylliumIngot" xml:space="preserve">
+    <value>Smelt Dense Bertrandite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_BertranditeOre_To_BerylliumIngot" xml:space="preserve">
+    <value>Smelt Bertrandite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_BoraxCrushedOre_To_BoronIngot" xml:space="preserve">
+    <value>Smelt Borax</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_BoraxDenseOre_To_BoronIngot" xml:space="preserve">
+    <value>Smelt Dense Borax</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_BoraxOre_To_BoronIngot" xml:space="preserve">
+    <value>Smelt Borax</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_CarnotiteCrushedOre_To_UraniumIngot" xml:space="preserve">
+    <value>Smelt Carnotite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_CarnotiteDenseOre_To_UraniumIngot" xml:space="preserve">
+    <value>Smelt Dense Carnotite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_CarnotiteOre_To_UraniumIngot" xml:space="preserve">
+    <value>Smelt Carnotite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_CattieriteCrushedOre_To_CobaltIngot" xml:space="preserve">
+    <value>Smelt Cattierite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_CattieriteDenseOre_To_CobaltIngot" xml:space="preserve">
+    <value>Smelt Dense Cattierite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_CattieriteOre_To_CobaltIngot" xml:space="preserve">
+    <value>Smelt Cattierite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_CobaltiteCrushedOre_To_CobaltIngot" xml:space="preserve">
+    <value>Smelt Cobaltite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_CobaltiteCrushedOre_To_IronIngot" xml:space="preserve">
+    <value>Smelt Cobaltite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_CobaltiteCrushedOre_To_NickelIngot" xml:space="preserve">
+    <value>Smelt Cobaltite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_CobaltiteDenseOre_To_CobaltIngot" xml:space="preserve">
+    <value>Smelt Dense Cobaltite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_CobaltiteDenseOre_To_IronIngot" xml:space="preserve">
+    <value>Smelt Dense Cobaltite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_CobaltiteDenseOre_To_NickelIngot" xml:space="preserve">
+    <value>Smelt Dense Cobaltite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_CobaltiteOre_To_CobaltIngot" xml:space="preserve">
+    <value>Smelt Cobaltite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_CobaltiteOre_To_IronIngot" xml:space="preserve">
+    <value>Smelt Cobaltite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_CobaltiteOre_To_NickelIngot" xml:space="preserve">
+    <value>Smelt Cobaltite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_ElectrumCrushedOre_To_CopperIngot" xml:space="preserve">
+    <value>Smelt Electrum</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_ElectrumCrushedOre_To_GoldIngot" xml:space="preserve">
+    <value>Smelt Electrum</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_ElectrumCrushedOre_To_SilverIngot" xml:space="preserve">
+    <value>Smelt Electrum</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_ElectrumDenseOre_To_CopperIngot" xml:space="preserve">
+    <value>Smelt Dense Electrum</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_ElectrumDenseOre_To_GoldIngot" xml:space="preserve">
+    <value>Smelt Dense Electrum</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_ElectrumDenseOre_To_SilverIngot" xml:space="preserve">
+    <value>Smelt Dense Electrum</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_ElectrumOre_To_CopperIngot" xml:space="preserve">
+    <value>Smelt Electrum</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_ElectrumOre_To_GoldIngot" xml:space="preserve">
+    <value>Smelt Electrum</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_ElectrumOre_To_SilverIngot" xml:space="preserve">
+    <value>Smelt Electrum</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_GarnieriteCrushedOre_To_MagnesiumIngot" xml:space="preserve">
+    <value>Smelt Garnierite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_GarnieriteCrushedOre_To_NickelIngot" xml:space="preserve">
+    <value>Smelt Garnierite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_GarnieriteDenseOre_To_MagnesiumIngot" xml:space="preserve">
+    <value>Smelt Dense Garnierite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_GarnieriteDenseOre_To_NickelIngot" xml:space="preserve">
+    <value>Smelt Dense Garnierite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_GarnieriteOre_To_MagnesiumIngot" xml:space="preserve">
+    <value>Smelt Garnierite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_GarnieriteOre_To_NickelIngot" xml:space="preserve">
+    <value>Smelt Garnierite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_GraphiteCrushedOre_To_CarbonIngot" xml:space="preserve">
+    <value>Smelt Graphite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_GraphiteDenseOre_To_CarbonIngot" xml:space="preserve">
+    <value>Smelt Dense Graphite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_GraphiteOre_To_CarbonIngot" xml:space="preserve">
+    <value>Smelt Graphite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_HematiteCrushedOre_To_IronIngot" xml:space="preserve">
+    <value>Smelt Hematite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_HematiteDenseOre_To_IronIngot" xml:space="preserve">
+    <value>Smelt Dense Hematite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_HematiteOre_To_IronIngot" xml:space="preserve">
+    <value>Smelt Hematite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_IlmeniteCrushedOre_To_IronIngot" xml:space="preserve">
+    <value>Smelt Ilmenite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_IlmeniteCrushedOre_To_MagnesiumIngot" xml:space="preserve">
+    <value>Smelt Ilmenite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_IlmeniteCrushedOre_To_TitaniumIngot" xml:space="preserve">
+    <value>Smelt Ilmenite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_IlmeniteDenseOre_To_IronIngot" xml:space="preserve">
+    <value>Smelt Dense Ilmenite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_IlmeniteDenseOre_To_MagnesiumIngot" xml:space="preserve">
+    <value>Smelt Dense Ilmenite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_IlmeniteDenseOre_To_TitaniumIngot" xml:space="preserve">
+    <value>Smelt Dense Ilmenite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_IlmeniteOre_To_IronIngot" xml:space="preserve">
+    <value>Smelt Ilmenite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_IlmeniteOre_To_MagnesiumIngot" xml:space="preserve">
+    <value>Smelt Ilmenite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_IlmeniteOre_To_TitaniumIngot" xml:space="preserve">
+    <value>Smelt Ilmenite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_MagnesiteCrushedOre_To_CobaltIngot" xml:space="preserve">
+    <value>Smelt Magnesite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_MagnesiteCrushedOre_To_MagnesiumIngot" xml:space="preserve">
+    <value>Smelt Magnesite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_MagnesiteCrushedOre_To_NickelIngot" xml:space="preserve">
+    <value>Smelt Magnesite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_MagnesiteDenseOre_To_CobaltIngot" xml:space="preserve">
+    <value>Smelt Dense Magnesite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_MagnesiteDenseOre_To_MagnesiumIngot" xml:space="preserve">
+    <value>Smelt Dense Magnesite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_MagnesiteDenseOre_To_NickelIngot" xml:space="preserve">
+    <value>Smelt Dense Magnesite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_MagnesiteOre_To_CobaltIngot" xml:space="preserve">
+    <value>Smelt Magnesite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_MagnesiteOre_To_MagnesiumIngot" xml:space="preserve">
+    <value>Smelt Magnesite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_MagnesiteOre_To_NickelIngot" xml:space="preserve">
+    <value>Smelt Magnesite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_MalachiteCrushedOre_To_CopperIngot" xml:space="preserve">
+    <value>Smelt Malachite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_MalachiteDenseOre_To_CopperIngot" xml:space="preserve">
+    <value>Smelt Dense Malachite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_MalachiteOre_To_CopperIngot" xml:space="preserve">
+    <value>Smelt Malachite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_NativeGoldCrushedOre_To_GoldIngot" xml:space="preserve">
+    <value>Smelt Native Gold</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_NativeGoldDenseOre_To_GoldIngot" xml:space="preserve">
+    <value>Smelt Dense Native Gold</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_NativeGoldOre_To_GoldIngot" xml:space="preserve">
+    <value>Smelt Native Gold</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_NativeSilverCrushedOre_To_SilverIngot" xml:space="preserve">
+    <value>Smelt Native Silver</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_NativeSilverDenseOre_To_SilverIngot" xml:space="preserve">
+    <value>Smelt Dense Native Silver</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_NativeSilverOre_To_SilverIngot" xml:space="preserve">
+    <value>Smelt Native Silver</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_NaturalThoriumCrushedOre_To_ThoriumIngot" xml:space="preserve">
+    <value>Smelt Natural Thorium</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_NaturalThoriumDenseOre_To_ThoriumIngot" xml:space="preserve">
+    <value>Smelt Dense Natural Thorium</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_NaturalThoriumOre_To_ThoriumIngot" xml:space="preserve">
+    <value>Smelt Natural Thorium</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_QuartzCrushedOre_To_SiliconIngot" xml:space="preserve">
+    <value>Smelt Quartz</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_QuartzDenseOre_To_SiliconIngot" xml:space="preserve">
+    <value>Smelt Dense Quartz</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_QuartzOre_To_SiliconIngot" xml:space="preserve">
+    <value>Smelt Quartz</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_RegolithCrushedOre_To_Helium-3Ingot" xml:space="preserve">
+    <value>Smelt Regolith</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_RegolithDenseOre_To_Helium-3Ingot" xml:space="preserve">
+    <value>Smelt Dense Regolith</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_RegolithOre_To_Helium-3Ingot" xml:space="preserve">
+    <value>Smelt Regolith</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_SperryliteCrushedOre_To_PlatinumIngot" xml:space="preserve">
+    <value>Smelt Sperrylite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_SperryliteDenseOre_To_PlatinumIngot" xml:space="preserve">
+    <value>Smelt Dense Sperrylite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_SperryliteOre_To_PlatinumIngot" xml:space="preserve">
+    <value>Smelt Sperrylite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_TetrahedriteCrushedOre_To_CopperIngot" xml:space="preserve">
+    <value>Smelt Tetrahedrite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_TetrahedriteCrushedOre_To_IronIngot" xml:space="preserve">
+    <value>Smelt Tetrahedrite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_TetrahedriteDenseOre_To_CopperIngot" xml:space="preserve">
+    <value>Smelt Dense Tetrahedrite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_TetrahedriteDenseOre_To_IronIngot" xml:space="preserve">
+    <value>Smelt Dense Tetrahedrite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_TetrahedriteOre_To_CopperIngot" xml:space="preserve">
+    <value>Smelt Tetrahedrite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_DED_TetrahedriteOre_To_IronIngot" xml:space="preserve">
+    <value>Smelt Tetrahedrite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_ElectrumDenseOre_To_CopperIngot" xml:space="preserve">
+    <value>Smelt Dense Electrum</value>
+  </data>
+  <data name="DisplayName_AQD_BP_ElectrumDenseOre_To_GoldIngot" xml:space="preserve">
+    <value>Smelt Dense Electrum</value>
+  </data>
+  <data name="DisplayName_AQD_BP_ElectrumDenseOre_To_SilverIngot" xml:space="preserve">
+    <value>Smelt Dense Electrum</value>
+  </data>
+  <data name="DisplayName_AQD_BP_ElectrumOre_To_CopperIngot" xml:space="preserve">
+    <value>Refine Electrum</value>
+  </data>
+  <data name="DisplayName_AQD_BP_ElectrumOre_To_GoldIngot" xml:space="preserve">
+    <value>Refine Electrum</value>
+  </data>
+  <data name="DisplayName_AQD_BP_ElectrumOre_To_SilverIngot" xml:space="preserve">
+    <value>Refine Electrum</value>
+  </data>
+  <data name="DisplayName_AQD_BP_GarnieriteDenseOre_To_MagnesiumIngot" xml:space="preserve">
+    <value>Refine Dense Garnierite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_GarnieriteDenseOre_To_NickelIngot" xml:space="preserve">
+    <value>Refine Dense Garnierite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_GarnieriteOre_To_MagnesiumIngot" xml:space="preserve">
+    <value>Refine Garnierite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_GarnieriteOre_To_NickelIngot" xml:space="preserve">
+    <value>Refine Garnierite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_GraphiteDenseOre_To_CarbonIngot" xml:space="preserve">
+    <value>Smelt Dense Graphite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_GraphiteOre_To_CarbonIngot" xml:space="preserve">
+    <value>Refine Graphite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_HematiteDenseOre_To_IronIngot" xml:space="preserve">
+    <value>Refine Dense Hematite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_HematiteOre_To_IronIngot" xml:space="preserve">
+    <value>Refine Hematite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_IceDirtyOre_To_IceOre" xml:space="preserve">
+    <value>Deconatminate Dirty Ice</value>
+  </data>
+  <data name="DisplayName_AQD_BP_IceOre_ToIceDistilledOre" xml:space="preserve">
+    <value>Distill Ice</value>
+  </data>
+  <data name="DisplayName_AQD_BP_IceRockyOre_To_IceDirtyOre" xml:space="preserve">
+    <value>Evaporate Rocky Ice</value>
+  </data>
+  <data name="DisplayName_AQD_BP_IlmeniteDenseOre_To_IronIngot" xml:space="preserve">
+    <value>Smelt Dense Ilmenite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_IlmeniteDenseOre_To_MagnesiumIngot" xml:space="preserve">
+    <value>Smelt Dense Ilmenite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_IlmeniteDenseOre_To_TitaniumIngot" xml:space="preserve">
+    <value>Smelt Dense Ilmenite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_IlmeniteOre_To_IronIngot" xml:space="preserve">
+    <value>Refine Ilmenite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_IlmeniteOre_To_MagnesiumIngot" xml:space="preserve">
+    <value>Refine Ilmenite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_IlmeniteOre_To_TitaniumIngot" xml:space="preserve">
+    <value>Refine Ilmenite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_MagnesiteDenseOre_To_CobaltIngot" xml:space="preserve">
+    <value>Refine Dense Magnesite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_MagnesiteDenseOre_To_MagnesiumIngot" xml:space="preserve">
+    <value>Refine Dense Magnesite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_MagnesiteDenseOre_To_NickelIngot" xml:space="preserve">
+    <value>Refine Dense Magnesite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_MagnesiteOre_To_CobaltIngot" xml:space="preserve">
+    <value>Refine Magnesite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_MagnesiteOre_To_MagnesiumIngot" xml:space="preserve">
+    <value>Refine Magnesite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_MagnesiteOre_To_NickelIngot" xml:space="preserve">
+    <value>Refine Magnesite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_MalachiteDenseOre_To_CopperIngot" xml:space="preserve">
+    <value>Refine Dense Malachite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_MalachiteOre_To_CopperIngot" xml:space="preserve">
+    <value>Refine Malachite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_NativeGoldDenseOre_To_GoldIngot" xml:space="preserve">
+    <value>Smelt Dense Native Gold</value>
+  </data>
+  <data name="DisplayName_AQD_BP_NativeGoldOre_To_GoldIngot" xml:space="preserve">
+    <value>Refine Native Gold</value>
+  </data>
+  <data name="DisplayName_AQD_BP_NativeSilverDenseOre_To_SilverIngot" xml:space="preserve">
+    <value>Smelt Dense Native Silver</value>
+  </data>
+  <data name="DisplayName_AQD_BP_NativeSilverOre_To_SilverIngot" xml:space="preserve">
+    <value>Refine Native Silver</value>
+  </data>
+  <data name="DisplayName_AQD_BP_NaturalThoriumDenseOre_To_ThoriumIngot" xml:space="preserve">
+    <value>Smelt Dense Natural Thorium</value>
+  </data>
+  <data name="DisplayName_AQD_BP_NaturalThoriumOre_To_ThoriumIngot" xml:space="preserve">
+    <value>Refine Natural Thorium</value>
+  </data>
+  <data name="DisplayName_AQD_BP_PUR_BauxiteDenseOre_To_BauxitePurifiedOre" xml:space="preserve">
+    <value>Purify Dense Bauxite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_PUR_BauxiteOre_To_BauxitePurifiedOre" xml:space="preserve">
+    <value>Purify Bauxite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_PUR_BertranditeDenseOre_To_BertranditePurifiedOre" xml:space="preserve">
+    <value>Purify Dense Bertrandite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_PUR_BertranditeOre_To_BertranditePurifiedOre" xml:space="preserve">
+    <value>Purify Bertrandite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_PUR_BoraxDenseOre_To_BoraxPurifiedOre" xml:space="preserve">
+    <value>Purify Dense Borax</value>
+  </data>
+  <data name="DisplayName_AQD_BP_PUR_BoraxOre_To_BoraxPurifiedOre" xml:space="preserve">
+    <value>Purify Borax</value>
+  </data>
+  <data name="DisplayName_AQD_BP_PUR_CarnotiteDenseOre_To_CarnotitePurifiedOre" xml:space="preserve">
+    <value>Purify Dense Carnotite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_PUR_CarnotiteOre_To_CarnotitePurifiedOre" xml:space="preserve">
+    <value>Purify Carnotite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_PUR_CattieriteDenseOre_To_CattieritePurifiedOre" xml:space="preserve">
+    <value>Purify Dense Cattierite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_PUR_CattieriteOre_To_CattieritePurifiedOre" xml:space="preserve">
+    <value>Purify Cattierite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_PUR_CobaltiteDenseOre_To_CobaltitePurifiedOre" xml:space="preserve">
+    <value>Purify Dense Cobaltite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_PUR_CobaltiteOre_To_CobaltitePurifiedOre" xml:space="preserve">
+    <value>Purify Cobaltite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_PUR_ElectrumDenseOre_To_ElectrumPurifiedOre" xml:space="preserve">
+    <value>Purify Dense Electrum</value>
+  </data>
+  <data name="DisplayName_AQD_BP_PUR_ElectrumOre_To_ElectrumPurifiedOre" xml:space="preserve">
+    <value>Purify Electrum</value>
+  </data>
+  <data name="DisplayName_AQD_BP_PUR_GarnieriteDenseOre_To_GarnieritePurifiedOre" xml:space="preserve">
+    <value>Purify Dense Garnierite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_PUR_GarnieriteOre_To_GarnieritePurifiedOre" xml:space="preserve">
+    <value>Purify Garnierite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_PUR_GraphiteDenseOre_To_GraphitePurifiedOre" xml:space="preserve">
+    <value>Purify Dense Graphite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_PUR_GraphiteOre_To_GraphitePurifiedOre" xml:space="preserve">
+    <value>Purify Graphite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_PUR_HematiteDenseOre_To_HematitePurifiedOre" xml:space="preserve">
+    <value>Purify Dense Hematite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_PUR_HematiteOre_To_HematitePurifiedOre" xml:space="preserve">
+    <value>Purify Hematite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_PUR_IlmeniteDenseOre_To_IlmenitePurifiedOre" xml:space="preserve">
+    <value>Purify Dense Ilmenite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_PUR_IlmeniteOre_To_IlmenitePurifiedOre" xml:space="preserve">
+    <value>Purify Ilmenite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_PUR_MagnesiteDenseOre_To_MagnesitePurifiedOre" xml:space="preserve">
+    <value>Purify Dense Magnesite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_PUR_MagnesiteOre_To_MagnesitePurifiedOre" xml:space="preserve">
+    <value>Purify Magnesite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_PUR_MalachiteDenseOre_To_MalachitePurifiedOre" xml:space="preserve">
+    <value>Purify Dense Malachite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_PUR_MalachiteOre_To_MalachitePurifiedOre" xml:space="preserve">
+    <value>Purify Malachite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_PUR_NativeGoldDenseOre_To_NativeGoldPurifiedOre" xml:space="preserve">
+    <value>Purify Dense Native Gold</value>
+  </data>
+  <data name="DisplayName_AQD_BP_PUR_NativeGoldOre_To_NativeGoldPurifiedOre" xml:space="preserve">
+    <value>Purify Native Gold</value>
+  </data>
+  <data name="DisplayName_AQD_BP_PUR_NativeSilverDenseOre_To_NativeSilverPurifiedOre" xml:space="preserve">
+    <value>Purify Dense Native Silver</value>
+  </data>
+  <data name="DisplayName_AQD_BP_PUR_NativeSilverOre_To_NativeSilverPurifiedOre" xml:space="preserve">
+    <value>Purify Native Silver</value>
+  </data>
+  <data name="DisplayName_AQD_BP_PUR_NaturalThoriumDenseOre_To_NaturalThoriumPurifiedOre" xml:space="preserve">
+    <value>Purify Dense Natural Thorium</value>
+  </data>
+  <data name="DisplayName_AQD_BP_PUR_NaturalThoriumOre_To_NaturalThoriumPurifiedOre" xml:space="preserve">
+    <value>Purify Natural Thorium</value>
+  </data>
+  <data name="DisplayName_AQD_BP_PUR_QuartzDenseOre_To_QuartzPurifiedOre" xml:space="preserve">
+    <value>Purify Dense Quartz</value>
+  </data>
+  <data name="DisplayName_AQD_BP_PUR_QuartzOre_To_QuartzPurifiedOre" xml:space="preserve">
+    <value>Purify Quartz</value>
+  </data>
+  <data name="DisplayName_AQD_BP_PUR_RegolithDenseOre_To_RegolithPurifiedOre" xml:space="preserve">
+    <value>Purify Dense Regolith</value>
+  </data>
+  <data name="DisplayName_AQD_BP_PUR_RegolithOre_To_RegolithPurifiedOre" xml:space="preserve">
+    <value>Purify Regolith</value>
+  </data>
+  <data name="DisplayName_AQD_BP_PUR_SperryliteDenseOre_To_SperrylitePurifiedOre" xml:space="preserve">
+    <value>Purify Dense Sperrylite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_PUR_SperryliteOre_To_SperrylitePurifiedOre" xml:space="preserve">
+    <value>Purify Sperrylite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_PUR_TetrahedriteDenseOre_To_TetrahedritePurifiedOre" xml:space="preserve">
+    <value>Purify Dense Tetrahedrite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_PUR_TetrahedriteOre_To_TetrahedritePurifiedOre" xml:space="preserve">
+    <value>Purify Tetrahedrite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_QuartzDenseOre_To_SiliconIngot" xml:space="preserve">
+    <value>Refine Dense Quartz</value>
+  </data>
+  <data name="DisplayName_AQD_BP_QuartzOre_To_SiliconIngot" xml:space="preserve">
+    <value>Refine Quartz</value>
+  </data>
+  <data name="DisplayName_AQD_BP_RegolithDenseOre_To_Helium-3Ingot" xml:space="preserve">
+    <value>Smelt Dense Regolith</value>
+  </data>
+  <data name="DisplayName_AQD_BP_RegolithOre_To_Helium-3Ingot" xml:space="preserve">
+    <value>Refine Regolith</value>
+  </data>
+  <data name="DisplayName_AQD_BP_SperryliteDenseOre_To_PlatinumIngot" xml:space="preserve">
+    <value>Smelt Dense Sperrylite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_SperryliteOre_To_PlatinumIngot" xml:space="preserve">
+    <value>Refine Sperrylite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_TetrahedriteDenseOre_To_CopperIngot" xml:space="preserve">
+    <value>Refine Dense Tetrahedrite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_TetrahedriteDenseOre_To_IronIngot" xml:space="preserve">
+    <value>Refine Dense Tetrahedrite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_TetrahedriteOre_To_CopperIngot" xml:space="preserve">
+    <value>Refine Tetrahedrite</value>
+  </data>
+  <data name="DisplayName_AQD_BP_TetrahedriteOre_To_IronIngot" xml:space="preserve">
+    <value>Refine Tetrahedrite</value>
+  </data>
+  <data name="DisplayName_AQD_Comp_Test" xml:space="preserve">
+    <value>Test Component</value>
+  </data>
   <data name="DisplayName_AQD_Ingot_Aluminium" xml:space="preserve">
     <value>Aluminium Ingot</value>
   </data>
@@ -269,6 +1226,9 @@
   </data>
   <data name="DisplayName_AQD_Ingot_Titanium" xml:space="preserve">
     <value>Titanium Ingot</value>
+  </data>
+  <data name="DisplayName_AQD_LG_Smelter_Iron" xml:space="preserve">
+    <value>Iron Smelter</value>
   </data>
   <data name="DisplayName_AQD_Ore_Bauxite" xml:space="preserve">
     <value>Bauxite</value>
