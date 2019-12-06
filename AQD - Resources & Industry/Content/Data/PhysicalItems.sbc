@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!-- Created by enenra's PhysicalItems Editor on: 2019-08-10 13:11 -->
+<!-- Created by enenra's PhysicalItems Editor on: 2019-12-06 13:57 -->
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <PhysicalItems>
     <PhysicalItem>
@@ -19,6 +19,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Ice</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -37,6 +38,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Ice</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -55,6 +57,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Ice</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -73,6 +76,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Fe</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -91,6 +95,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Cu</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -109,6 +114,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Co</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -127,6 +133,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Si</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -145,6 +152,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>MgNiCo</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -163,6 +171,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>CoFeNi</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -181,6 +190,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Ni Mg</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -199,6 +209,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Cu Fe</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -217,6 +228,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>C</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -235,6 +247,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Ag</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -253,6 +266,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Au</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -271,6 +285,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>U</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -289,6 +304,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>B</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -307,6 +323,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>AgAuCu</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -325,6 +342,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Ti Fe</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -343,6 +361,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Al Ti</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -361,6 +380,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Pt</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -379,6 +399,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Th</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -397,6 +418,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Be</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -415,6 +437,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>He-3</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -433,6 +456,7 @@
       <Model>Models\Ingots\AQD_Ingot_Copper.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <IconSymbol>Cu</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -451,6 +475,7 @@
       <Model>Models\Ingots\AQD_Ingot_Carbon.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <IconSymbol>C</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -469,6 +494,7 @@
       <Model>Models\Ingots\AQD_Ingot_Boron.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <IconSymbol>B</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -487,6 +513,7 @@
       <Model>Models\Ingots\AQD_Ingot_Titanium.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <IconSymbol>Ti</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -505,6 +532,7 @@
       <Model>Models\Ingots\AQD_Ingot_Aluminium.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <IconSymbol>Al</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -523,6 +551,7 @@
       <Model>Models\Ingots\AQD_Ingot_Thorium.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <IconSymbol>Th</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -541,6 +570,7 @@
       <Model>Models\Ingots\AQD_Ingot_Beryllium.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <IconSymbol>Be</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -559,6 +589,7 @@
       <Model>Models\Ingots\AQD_Ingot_Helium-3.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <IconSymbol>He-3</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -577,6 +608,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Fe</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -595,6 +627,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Cu</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -613,6 +646,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Co</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -631,6 +665,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Si</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -649,6 +684,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>MgNiCo</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -667,6 +703,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>CoFeNi</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -685,6 +722,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Ni Mg</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -703,6 +741,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Cu Fe</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -721,6 +760,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>C</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -739,6 +779,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Ag</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -757,6 +798,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Au</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -775,6 +817,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>U</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -793,6 +836,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>B</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -811,6 +855,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>AgAuCu</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -829,6 +874,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Ti Fe</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -847,6 +893,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Al Ti</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -865,6 +912,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Pt</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -883,6 +931,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Th</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -901,6 +950,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Be</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -919,6 +969,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>He-3</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -937,6 +988,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Fe</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -955,6 +1007,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Cu</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -973,6 +1026,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Co</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -991,6 +1045,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Si</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1009,6 +1064,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>MgNiCo</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1027,6 +1083,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>CoFeNi</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1045,6 +1102,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Ni Mg</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1063,6 +1121,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Cu Fe</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1081,6 +1140,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>C</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1099,6 +1159,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Ag</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1117,6 +1178,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Au</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1135,6 +1197,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>U</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1153,6 +1216,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>B</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1171,6 +1235,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>AgAuCu</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1189,6 +1254,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Ti Fe</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1207,6 +1273,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Al Ti</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1225,6 +1292,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Pt</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1243,6 +1311,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Th</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1261,6 +1330,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Be</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1279,6 +1349,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>He-3</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1297,6 +1368,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Fe</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1315,6 +1387,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Cu</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1333,6 +1406,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Co</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1351,6 +1425,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Si</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1369,6 +1444,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>MgNiCo</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1387,6 +1463,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>CoFeNi</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1405,6 +1482,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Ni Mg</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1423,6 +1501,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Cu Fe</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1441,6 +1520,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>C</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1459,6 +1539,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Ag</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1477,6 +1558,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Au</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1495,6 +1577,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>U</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1513,6 +1596,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>B</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1531,6 +1615,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>AgAuCu</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1549,6 +1634,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Ti Fe</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1567,6 +1653,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Al Ti</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1585,6 +1672,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Pt</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1603,6 +1691,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Th</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1621,6 +1710,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>Be</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
     <PhysicalItem>
       <Id>
@@ -1639,6 +1729,7 @@
       <Model>Models\Components\Sphere.mwm</Model>
       <PhysicalMaterial>Stone</PhysicalMaterial>
       <IconSymbol>He-3</IconSymbol>
+      <CanPlayerOrder>true</CanPlayerOrder>
     </PhysicalItem>
   </PhysicalItems>
 </Definitions>
