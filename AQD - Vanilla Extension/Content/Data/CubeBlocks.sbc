@@ -7,9 +7,9 @@
     <Definition xsi:type="MyObjectBuilder_ButtonPanelDefinition">
       <Id>
         <TypeId>ButtonPanel</TypeId>
-        <SubtypeId>ButtonPanelSmallMulti</SubtypeId>
+        <SubtypeId>AQD_SG_ButtonPanelSmallMulti</SubtypeId>
       </Id>
-      <DisplayName>Multi Button</DisplayName>
+      <DisplayName>DisplayName_AQD_SG_ButtonPanelSmallMulti</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\AQD_SG_MultiButton.dds</Icon>
       <Description>Description_ButtonPanel</Description>      
       <CubeSize>Small</CubeSize>
@@ -33,12 +33,6 @@
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\small\ButtonConstruction_1.mwm" />
       </BuildProgressModels>
-      <BlockVariants>
-        <BlockVariant>
-          <TypeId>ButtonPanel</TypeId>
-          <SubtypeId>ButtonPanelSmall</SubtypeId>
-        </BlockVariant>
-      </BlockVariants>
       <EdgeType>Light</EdgeType>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
