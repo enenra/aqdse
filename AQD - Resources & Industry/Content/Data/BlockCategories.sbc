@@ -27,6 +27,26 @@
         <string>Refinery/AQD_LG_Smelter_Thorium</string>
         <string>Refinery/AQD_LG_Smelter_Beryllium</string>
         <string>Refinery/AQD_LG_Smelter_Helium-3</string>
+        <string>Refinery/AQD_LG_Crusher_Hematite</string>
+        <string>Refinery/AQD_LG_Crusher_Malachite</string>
+        <string>Refinery/AQD_LG_Crusher_Cattierite</string>
+        <string>Refinery/AQD_LG_Crusher_Quartz</string>
+        <string>Refinery/AQD_LG_Crusher_Magnesite</string>
+        <string>Refinery/AQD_LG_Crusher_Cobaltite</string>
+        <string>Refinery/AQD_LG_Crusher_Garnierite</string>
+        <string>Refinery/AQD_LG_Crusher_Tetrahedrite</string>
+        <string>Refinery/AQD_LG_Crusher_Graphite</string>
+        <string>Refinery/AQD_LG_Crusher_NativeSilver</string>
+        <string>Refinery/AQD_LG_Crusher_NativeGold</string>
+        <string>Refinery/AQD_LG_Crusher_Carnotite</string>
+        <string>Refinery/AQD_LG_Crusher_Borax</string>
+        <string>Refinery/AQD_LG_Crusher_Electrum</string>
+        <string>Refinery/AQD_LG_Crusher_Ilmenite</string>
+        <string>Refinery/AQD_LG_Crusher_Bauxite</string>
+        <string>Refinery/AQD_LG_Crusher_Sperrylite</string>
+        <string>Refinery/AQD_LG_Crusher_NaturalThorium</string>
+        <string>Refinery/AQD_LG_Crusher_Bertrandite</string>
+        <string>Refinery/AQD_LG_Crusher_Regolith</string>
       </ItemIds>
     </Category>
 
@@ -55,6 +75,26 @@
         <string>Refinery/AQD_LG_Smelter_Thorium</string>
         <string>Refinery/AQD_LG_Smelter_Beryllium</string>
         <string>Refinery/AQD_LG_Smelter_Helium-3</string>
+        <string>Refinery/AQD_LG_Crusher_Hematite</string>
+        <string>Refinery/AQD_LG_Crusher_Malachite</string>
+        <string>Refinery/AQD_LG_Crusher_Cattierite</string>
+        <string>Refinery/AQD_LG_Crusher_Quartz</string>
+        <string>Refinery/AQD_LG_Crusher_Magnesite</string>
+        <string>Refinery/AQD_LG_Crusher_Cobaltite</string>
+        <string>Refinery/AQD_LG_Crusher_Garnierite</string>
+        <string>Refinery/AQD_LG_Crusher_Tetrahedrite</string>
+        <string>Refinery/AQD_LG_Crusher_Graphite</string>
+        <string>Refinery/AQD_LG_Crusher_NativeSilver</string>
+        <string>Refinery/AQD_LG_Crusher_NativeGold</string>
+        <string>Refinery/AQD_LG_Crusher_Carnotite</string>
+        <string>Refinery/AQD_LG_Crusher_Borax</string>
+        <string>Refinery/AQD_LG_Crusher_Electrum</string>
+        <string>Refinery/AQD_LG_Crusher_Ilmenite</string>
+        <string>Refinery/AQD_LG_Crusher_Bauxite</string>
+        <string>Refinery/AQD_LG_Crusher_Sperrylite</string>
+        <string>Refinery/AQD_LG_Crusher_NaturalThorium</string>
+        <string>Refinery/AQD_LG_Crusher_Bertrandite</string>
+        <string>Refinery/AQD_LG_Crusher_Regolith</string>
       </ItemIds>
     </Category>
 

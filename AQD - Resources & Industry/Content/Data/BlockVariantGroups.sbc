@@ -28,5 +28,34 @@
       </Blocks>
     </BlockVariantGroup>
 
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CrusherGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_Crusher_Hematite.dds</Icon>
+      <DisplayName>DisplayName_AQD_LG_Crusher_Hematite</DisplayName>
+      <Description>Description_AQD_LG_Crusher_Hematite</Description>
+      <Blocks>
+        <Block Type="Refinery" Subtype="AQD_LG_Crusher_Hematite" />
+        <Block Type="Refinery" Subtype="AQD_LG_Crusher_Malachite" />
+        <Block Type="Refinery" Subtype="AQD_LG_Crusher_Cattierite" />
+        <Block Type="Refinery" Subtype="AQD_LG_Crusher_Quartz" />
+        <Block Type="Refinery" Subtype="AQD_LG_Crusher_Magnesite" />
+        <Block Type="Refinery" Subtype="AQD_LG_Crusher_Cobaltite" />
+        <Block Type="Refinery" Subtype="AQD_LG_Crusher_Garnierite" />
+        <Block Type="Refinery" Subtype="AQD_LG_Crusher_Tetrahedrite" />
+        <Block Type="Refinery" Subtype="AQD_LG_Crusher_Graphite" />
+        <Block Type="Refinery" Subtype="AQD_LG_Crusher_NativeSilver" />
+        <Block Type="Refinery" Subtype="AQD_LG_Crusher_NativeGold" />
+        <Block Type="Refinery" Subtype="AQD_LG_Crusher_Carnotite" />
+        <Block Type="Refinery" Subtype="AQD_LG_Crusher_Borax" />
+        <Block Type="Refinery" Subtype="AQD_LG_Crusher_Electrum" />
+        <Block Type="Refinery" Subtype="AQD_LG_Crusher_Ilmenite" />
+        <Block Type="Refinery" Subtype="AQD_LG_Crusher_Bauxite" />
+        <Block Type="Refinery" Subtype="AQD_LG_Crusher_Sperrylite" />
+        <Block Type="Refinery" Subtype="AQD_LG_Crusher_NaturalThorium" />
+        <Block Type="Refinery" Subtype="AQD_LG_Crusher_Bertrandite" />
+        <Block Type="Refinery" Subtype="AQD_LG_Crusher_Regolith" />
+      </Blocks>
+    </BlockVariantGroup>
+
   </BlockVariantGroups>
 </Definitions>
