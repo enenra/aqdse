@@ -5,17 +5,17 @@
     <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
       <Id>
         <TypeId>Refinery</TypeId>
-        <SubtypeId>AQD_LG_Crusher_Hematite</SubtypeId>
+        <SubtypeId>AQD_LG_Purifier_Hematite</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_LG_Crusher_Hematite</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
-      <Description>Description_AQD_LG_Crusher_Hematite</Description>
+      <DisplayName>DisplayName_AQD_LG_Purifier_Hematite</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\OxygenGenerator.dds</Icon>
+      <Description>Description_AQD_LG_Purifier_Hematite</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\BasicRefinery.mwm</Model>
+      <Model>Models\Cubes\Large\OxygenGenerator.mwm</Model>
       <!-- Needs to be adjusted -->
       <Components>
         <Component Subtype="SteelPlate" Count="100" />
@@ -35,11 +35,11 @@
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="2" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BasicRefineryConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BasicRefineryConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BasicRefineryConstruction_3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\OxygenGeneratorConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenGeneratorConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OxygenGeneratorConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>AQD_Crusher_Hematite</BlockPairName>
+      <BlockPairName>AQD_Purifier_Hematite</BlockPairName>
       <BuildTimeSeconds>50</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <InventoryMaxVolume>4</InventoryMaxVolume>
@@ -47,7 +47,7 @@
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
       <OperationalPowerConsumption>0.33</OperationalPowerConsumption>
       <BlueprintClasses>
-        <Class>AQD_BPC_CRU_Hematite</Class>
+        <Class>AQD_BPC_PUR_Hematite</Class>
       </BlueprintClasses>
       <RefineSpeed>1.0</RefineSpeed>
       <MaterialEfficiency>1.0</MaterialEfficiency>
@@ -65,17 +65,17 @@
     <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
       <Id>
         <TypeId>Refinery</TypeId>
-        <SubtypeId>AQD_LG_Crusher_Malachite</SubtypeId>
+        <SubtypeId>AQD_LG_Purifier_Malachite</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_LG_Crusher_Malachite</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
-      <Description>Description_AQD_LG_Crusher_Malachite</Description>
+      <DisplayName>DisplayName_AQD_LG_Purifier_Malachite</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\OxygenGenerator.dds</Icon>
+      <Description>Description_AQD_LG_Purifier_Malachite</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\BasicRefinery.mwm</Model>
+      <Model>Models\Cubes\Large\OxygenGenerator.mwm</Model>
       <!-- Needs to be adjusted -->
       <Components>
         <Component Subtype="SteelPlate" Count="100" />
@@ -95,11 +95,11 @@
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="2" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BasicRefineryConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BasicRefineryConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BasicRefineryConstruction_3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\OxygenGeneratorConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenGeneratorConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OxygenGeneratorConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>AQD_Crusher_Malachite</BlockPairName>
+      <BlockPairName>AQD_Purifier_Malachite</BlockPairName>
       <BuildTimeSeconds>50</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <InventoryMaxVolume>4</InventoryMaxVolume>
@@ -107,7 +107,7 @@
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
       <OperationalPowerConsumption>0.33</OperationalPowerConsumption>
       <BlueprintClasses>
-        <Class>AQD_BPC_CRU_Malachite</Class>
+        <Class>AQD_BPC_PUR_Malachite</Class>
       </BlueprintClasses>
       <RefineSpeed>1.0</RefineSpeed>
       <MaterialEfficiency>1.0</MaterialEfficiency>
@@ -125,17 +125,17 @@
     <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
       <Id>
         <TypeId>Refinery</TypeId>
-        <SubtypeId>AQD_LG_Crusher_Cattierite</SubtypeId>
+        <SubtypeId>AQD_LG_Purifier_Cattierite</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_LG_Crusher_Cattierite</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
-      <Description>Description_AQD_LG_Crusher_Cattierite</Description>
+      <DisplayName>DisplayName_AQD_LG_Purifier_Cattierite</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\OxygenGenerator.dds</Icon>
+      <Description>Description_AQD_LG_Purifier_Cattierite</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\BasicRefinery.mwm</Model>
+      <Model>Models\Cubes\Large\OxygenGenerator.mwm</Model>
       <!-- Needs to be adjusted -->
       <Components>
         <Component Subtype="SteelPlate" Count="100" />
@@ -155,11 +155,11 @@
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="2" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BasicRefineryConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BasicRefineryConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BasicRefineryConstruction_3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\OxygenGeneratorConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenGeneratorConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OxygenGeneratorConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>AQD_Crusher_Cattierite</BlockPairName>
+      <BlockPairName>AQD_Purifier_Cattierite</BlockPairName>
       <BuildTimeSeconds>50</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <InventoryMaxVolume>4</InventoryMaxVolume>
@@ -167,7 +167,7 @@
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
       <OperationalPowerConsumption>0.33</OperationalPowerConsumption>
       <BlueprintClasses>
-        <Class>AQD_BPC_CRU_Cattierite</Class>
+        <Class>AQD_BPC_PUR_Cattierite</Class>
       </BlueprintClasses>
       <RefineSpeed>1.0</RefineSpeed>
       <MaterialEfficiency>1.0</MaterialEfficiency>
@@ -185,17 +185,17 @@
     <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
       <Id>
         <TypeId>Refinery</TypeId>
-        <SubtypeId>AQD_LG_Crusher_Quartz</SubtypeId>
+        <SubtypeId>AQD_LG_Purifier_Quartz</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_LG_Crusher_Quartz</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
-      <Description>Description_AQD_LG_Crusher_Quartz</Description>
+      <DisplayName>DisplayName_AQD_LG_Purifier_Quartz</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\OxygenGenerator.dds</Icon>
+      <Description>Description_AQD_LG_Purifier_Quartz</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\BasicRefinery.mwm</Model>
+      <Model>Models\Cubes\Large\OxygenGenerator.mwm</Model>
       <!-- Needs to be adjusted -->
       <Components>
         <Component Subtype="SteelPlate" Count="100" />
@@ -215,11 +215,11 @@
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="2" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BasicRefineryConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BasicRefineryConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BasicRefineryConstruction_3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\OxygenGeneratorConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenGeneratorConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OxygenGeneratorConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>AQD_Crusher_Quartz</BlockPairName>
+      <BlockPairName>AQD_Purifier_Quartz</BlockPairName>
       <BuildTimeSeconds>50</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <InventoryMaxVolume>4</InventoryMaxVolume>
@@ -227,7 +227,7 @@
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
       <OperationalPowerConsumption>0.33</OperationalPowerConsumption>
       <BlueprintClasses>
-        <Class>AQD_BPC_CRU_Quartz</Class>
+        <Class>AQD_BPC_PUR_Quartz</Class>
       </BlueprintClasses>
       <RefineSpeed>1.0</RefineSpeed>
       <MaterialEfficiency>1.0</MaterialEfficiency>
@@ -245,17 +245,17 @@
     <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
       <Id>
         <TypeId>Refinery</TypeId>
-        <SubtypeId>AQD_LG_Crusher_Magnesite</SubtypeId>
+        <SubtypeId>AQD_LG_Purifier_Magnesite</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_LG_Crusher_Magnesite</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
-      <Description>Description_AQD_LG_Crusher_Magnesite</Description>
+      <DisplayName>DisplayName_AQD_LG_Purifier_Magnesite</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\OxygenGenerator.dds</Icon>
+      <Description>Description_AQD_LG_Purifier_Magnesite</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\BasicRefinery.mwm</Model>
+      <Model>Models\Cubes\Large\OxygenGenerator.mwm</Model>
       <!-- Needs to be adjusted -->
       <Components>
         <Component Subtype="SteelPlate" Count="100" />
@@ -275,11 +275,11 @@
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="2" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BasicRefineryConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BasicRefineryConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BasicRefineryConstruction_3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\OxygenGeneratorConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenGeneratorConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OxygenGeneratorConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>AQD_Crusher_Magnesite</BlockPairName>
+      <BlockPairName>AQD_Purifier_Magnesite</BlockPairName>
       <BuildTimeSeconds>50</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <InventoryMaxVolume>4</InventoryMaxVolume>
@@ -287,7 +287,7 @@
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
       <OperationalPowerConsumption>0.33</OperationalPowerConsumption>
       <BlueprintClasses>
-        <Class>AQD_BPC_CRU_Magnesite</Class>
+        <Class>AQD_BPC_PUR_Magnesite</Class>
       </BlueprintClasses>
       <RefineSpeed>1.0</RefineSpeed>
       <MaterialEfficiency>1.0</MaterialEfficiency>
@@ -305,17 +305,17 @@
     <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
       <Id>
         <TypeId>Refinery</TypeId>
-        <SubtypeId>AQD_LG_Crusher_Cobaltite</SubtypeId>
+        <SubtypeId>AQD_LG_Purifier_Cobaltite</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_LG_Crusher_Cobaltite</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
-      <Description>Description_AQD_LG_Crusher_Cobaltite</Description>
+      <DisplayName>DisplayName_AQD_LG_Purifier_Cobaltite</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\OxygenGenerator.dds</Icon>
+      <Description>Description_AQD_LG_Purifier_Cobaltite</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\BasicRefinery.mwm</Model>
+      <Model>Models\Cubes\Large\OxygenGenerator.mwm</Model>
       <!-- Needs to be adjusted -->
       <Components>
         <Component Subtype="SteelPlate" Count="100" />
@@ -335,11 +335,11 @@
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="2" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BasicRefineryConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BasicRefineryConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BasicRefineryConstruction_3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\OxygenGeneratorConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenGeneratorConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OxygenGeneratorConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>AQD_Crusher_Cobaltite</BlockPairName>
+      <BlockPairName>AQD_Purifier_Cobaltite</BlockPairName>
       <BuildTimeSeconds>50</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <InventoryMaxVolume>4</InventoryMaxVolume>
@@ -347,7 +347,7 @@
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
       <OperationalPowerConsumption>0.33</OperationalPowerConsumption>
       <BlueprintClasses>
-        <Class>AQD_BPC_CRU_Cobaltite</Class>
+        <Class>AQD_BPC_PUR_Cobaltite</Class>
       </BlueprintClasses>
       <RefineSpeed>1.0</RefineSpeed>
       <MaterialEfficiency>1.0</MaterialEfficiency>
@@ -365,17 +365,17 @@
     <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
       <Id>
         <TypeId>Refinery</TypeId>
-        <SubtypeId>AQD_LG_Crusher_Garnierite</SubtypeId>
+        <SubtypeId>AQD_LG_Purifier_Garnierite</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_LG_Crusher_Garnierite</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
-      <Description>Description_AQD_LG_Crusher_Garnierite</Description>
+      <DisplayName>DisplayName_AQD_LG_Purifier_Garnierite</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\OxygenGenerator.dds</Icon>
+      <Description>Description_AQD_LG_Purifier_Garnierite</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\BasicRefinery.mwm</Model>
+      <Model>Models\Cubes\Large\OxygenGenerator.mwm</Model>
       <!-- Needs to be adjusted -->
       <Components>
         <Component Subtype="SteelPlate" Count="100" />
@@ -395,11 +395,11 @@
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="2" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BasicRefineryConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BasicRefineryConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BasicRefineryConstruction_3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\OxygenGeneratorConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenGeneratorConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OxygenGeneratorConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>AQD_Crusher_Garnierite</BlockPairName>
+      <BlockPairName>AQD_Purifier_Garnierite</BlockPairName>
       <BuildTimeSeconds>50</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <InventoryMaxVolume>4</InventoryMaxVolume>
@@ -407,7 +407,7 @@
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
       <OperationalPowerConsumption>0.33</OperationalPowerConsumption>
       <BlueprintClasses>
-        <Class>AQD_BPC_CRU_Garnierite</Class>
+        <Class>AQD_BPC_PUR_Garnierite</Class>
       </BlueprintClasses>
       <RefineSpeed>1.0</RefineSpeed>
       <MaterialEfficiency>1.0</MaterialEfficiency>
@@ -425,17 +425,17 @@
     <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
       <Id>
         <TypeId>Refinery</TypeId>
-        <SubtypeId>AQD_LG_Crusher_Tetrahedrite</SubtypeId>
+        <SubtypeId>AQD_LG_Purifier_Tetrahedrite</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_LG_Crusher_Tetrahedrite</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
-      <Description>Description_AQD_LG_Crusher_Tetrahedrite</Description>
+      <DisplayName>DisplayName_AQD_LG_Purifier_Tetrahedrite</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\OxygenGenerator.dds</Icon>
+      <Description>Description_AQD_LG_Purifier_Tetrahedrite</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\BasicRefinery.mwm</Model>
+      <Model>Models\Cubes\Large\OxygenGenerator.mwm</Model>
       <!-- Needs to be adjusted -->
       <Components>
         <Component Subtype="SteelPlate" Count="100" />
@@ -455,11 +455,11 @@
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="2" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BasicRefineryConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BasicRefineryConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BasicRefineryConstruction_3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\OxygenGeneratorConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenGeneratorConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OxygenGeneratorConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>AQD_Crusher_Tetrahedrite</BlockPairName>
+      <BlockPairName>AQD_Purifier_Tetrahedrite</BlockPairName>
       <BuildTimeSeconds>50</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <InventoryMaxVolume>4</InventoryMaxVolume>
@@ -467,7 +467,7 @@
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
       <OperationalPowerConsumption>0.33</OperationalPowerConsumption>
       <BlueprintClasses>
-        <Class>AQD_BPC_CRU_Tetrahedrite</Class>
+        <Class>AQD_BPC_PUR_Tetrahedrite</Class>
       </BlueprintClasses>
       <RefineSpeed>1.0</RefineSpeed>
       <MaterialEfficiency>1.0</MaterialEfficiency>
@@ -485,17 +485,17 @@
     <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
       <Id>
         <TypeId>Refinery</TypeId>
-        <SubtypeId>AQD_LG_Crusher_Graphite</SubtypeId>
+        <SubtypeId>AQD_LG_Purifier_Graphite</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_LG_Crusher_Graphite</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
-      <Description>Description_AQD_LG_Crusher_Graphite</Description>
+      <DisplayName>DisplayName_AQD_LG_Purifier_Graphite</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\OxygenGenerator.dds</Icon>
+      <Description>Description_AQD_LG_Purifier_Graphite</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\BasicRefinery.mwm</Model>
+      <Model>Models\Cubes\Large\OxygenGenerator.mwm</Model>
       <!-- Needs to be adjusted -->
       <Components>
         <Component Subtype="SteelPlate" Count="100" />
@@ -515,11 +515,11 @@
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="2" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BasicRefineryConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BasicRefineryConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BasicRefineryConstruction_3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\OxygenGeneratorConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenGeneratorConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OxygenGeneratorConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>AQD_Crusher_Graphite</BlockPairName>
+      <BlockPairName>AQD_Purifier_Graphite</BlockPairName>
       <BuildTimeSeconds>50</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <InventoryMaxVolume>4</InventoryMaxVolume>
@@ -527,7 +527,7 @@
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
       <OperationalPowerConsumption>0.33</OperationalPowerConsumption>
       <BlueprintClasses>
-        <Class>AQD_BPC_CRU_Graphite</Class>
+        <Class>AQD_BPC_PUR_Graphite</Class>
       </BlueprintClasses>
       <RefineSpeed>1.0</RefineSpeed>
       <MaterialEfficiency>1.0</MaterialEfficiency>
@@ -545,17 +545,17 @@
     <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
       <Id>
         <TypeId>Refinery</TypeId>
-        <SubtypeId>AQD_LG_Crusher_NativeSilver</SubtypeId>
+        <SubtypeId>AQD_LG_Purifier_NativeSilver</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_LG_Crusher_NativeSilver</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
-      <Description>Description_AQD_LG_Crusher_NativeSilver</Description>
+      <DisplayName>DisplayName_AQD_LG_Purifier_NativeSilver</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\OxygenGenerator.dds</Icon>
+      <Description>Description_AQD_LG_Purifier_NativeSilver</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\BasicRefinery.mwm</Model>
+      <Model>Models\Cubes\Large\OxygenGenerator.mwm</Model>
       <!-- Needs to be adjusted -->
       <Components>
         <Component Subtype="SteelPlate" Count="100" />
@@ -575,11 +575,11 @@
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="2" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BasicRefineryConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BasicRefineryConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BasicRefineryConstruction_3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\OxygenGeneratorConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenGeneratorConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OxygenGeneratorConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>AQD_Crusher_NativeSilver</BlockPairName>
+      <BlockPairName>AQD_Purifier_NativeSilver</BlockPairName>
       <BuildTimeSeconds>50</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <InventoryMaxVolume>4</InventoryMaxVolume>
@@ -587,7 +587,7 @@
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
       <OperationalPowerConsumption>0.33</OperationalPowerConsumption>
       <BlueprintClasses>
-        <Class>AQD_BPC_CRU_NativeSilver</Class>
+        <Class>AQD_BPC_PUR_NativeSilver</Class>
       </BlueprintClasses>
       <RefineSpeed>1.0</RefineSpeed>
       <MaterialEfficiency>1.0</MaterialEfficiency>
@@ -605,17 +605,17 @@
     <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
       <Id>
         <TypeId>Refinery</TypeId>
-        <SubtypeId>AQD_LG_Crusher_NativeGold</SubtypeId>
+        <SubtypeId>AQD_LG_Purifier_NativeGold</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_LG_Crusher_NativeGold</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
-      <Description>Description_AQD_LG_Crusher_NativeGold</Description>
+      <DisplayName>DisplayName_AQD_LG_Purifier_NativeGold</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\OxygenGenerator.dds</Icon>
+      <Description>Description_AQD_LG_Purifier_NativeGold</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\BasicRefinery.mwm</Model>
+      <Model>Models\Cubes\Large\OxygenGenerator.mwm</Model>
       <!-- Needs to be adjusted -->
       <Components>
         <Component Subtype="SteelPlate" Count="100" />
@@ -635,11 +635,11 @@
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="2" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BasicRefineryConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BasicRefineryConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BasicRefineryConstruction_3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\OxygenGeneratorConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenGeneratorConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OxygenGeneratorConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>AQD_Crusher_NativeGold</BlockPairName>
+      <BlockPairName>AQD_Purifier_NativeGold</BlockPairName>
       <BuildTimeSeconds>50</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <InventoryMaxVolume>4</InventoryMaxVolume>
@@ -647,7 +647,7 @@
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
       <OperationalPowerConsumption>0.33</OperationalPowerConsumption>
       <BlueprintClasses>
-        <Class>AQD_BPC_CRU_NativeGold</Class>
+        <Class>AQD_BPC_PUR_NativeGold</Class>
       </BlueprintClasses>
       <RefineSpeed>1.0</RefineSpeed>
       <MaterialEfficiency>1.0</MaterialEfficiency>
@@ -665,17 +665,17 @@
     <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
       <Id>
         <TypeId>Refinery</TypeId>
-        <SubtypeId>AQD_LG_Crusher_Carnotite</SubtypeId>
+        <SubtypeId>AQD_LG_Purifier_Carnotite</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_LG_Crusher_Carnotite</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
-      <Description>Description_AQD_LG_Crusher_Carnotite</Description>
+      <DisplayName>DisplayName_AQD_LG_Purifier_Carnotite</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\OxygenGenerator.dds</Icon>
+      <Description>Description_AQD_LG_Purifier_Carnotite</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\BasicRefinery.mwm</Model>
+      <Model>Models\Cubes\Large\OxygenGenerator.mwm</Model>
       <!-- Needs to be adjusted -->
       <Components>
         <Component Subtype="SteelPlate" Count="100" />
@@ -695,11 +695,11 @@
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="2" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BasicRefineryConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BasicRefineryConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BasicRefineryConstruction_3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\OxygenGeneratorConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenGeneratorConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OxygenGeneratorConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>AQD_Crusher_Carnotite</BlockPairName>
+      <BlockPairName>AQD_Purifier_Carnotite</BlockPairName>
       <BuildTimeSeconds>50</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <InventoryMaxVolume>4</InventoryMaxVolume>
@@ -707,7 +707,7 @@
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
       <OperationalPowerConsumption>0.33</OperationalPowerConsumption>
       <BlueprintClasses>
-        <Class>AQD_BPC_CRU_Carnotite</Class>
+        <Class>AQD_BPC_PUR_Carnotite</Class>
       </BlueprintClasses>
       <RefineSpeed>1.0</RefineSpeed>
       <MaterialEfficiency>1.0</MaterialEfficiency>
@@ -725,17 +725,17 @@
     <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
       <Id>
         <TypeId>Refinery</TypeId>
-        <SubtypeId>AQD_LG_Crusher_Borax</SubtypeId>
+        <SubtypeId>AQD_LG_Purifier_Borax</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_LG_Crusher_Borax</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
-      <Description>Description_AQD_LG_Crusher_Borax</Description>
+      <DisplayName>DisplayName_AQD_LG_Purifier_Borax</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\OxygenGenerator.dds</Icon>
+      <Description>Description_AQD_LG_Purifier_Borax</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\BasicRefinery.mwm</Model>
+      <Model>Models\Cubes\Large\OxygenGenerator.mwm</Model>
       <!-- Needs to be adjusted -->
       <Components>
         <Component Subtype="SteelPlate" Count="100" />
@@ -755,11 +755,11 @@
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="2" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BasicRefineryConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BasicRefineryConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BasicRefineryConstruction_3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\OxygenGeneratorConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenGeneratorConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OxygenGeneratorConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>AQD_Crusher_Borax</BlockPairName>
+      <BlockPairName>AQD_Purifier_Borax</BlockPairName>
       <BuildTimeSeconds>50</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <InventoryMaxVolume>4</InventoryMaxVolume>
@@ -767,7 +767,7 @@
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
       <OperationalPowerConsumption>0.33</OperationalPowerConsumption>
       <BlueprintClasses>
-        <Class>AQD_BPC_CRU_Borax</Class>
+        <Class>AQD_BPC_PUR_Borax</Class>
       </BlueprintClasses>
       <RefineSpeed>1.0</RefineSpeed>
       <MaterialEfficiency>1.0</MaterialEfficiency>
@@ -785,17 +785,17 @@
     <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
       <Id>
         <TypeId>Refinery</TypeId>
-        <SubtypeId>AQD_LG_Crusher_Electrum</SubtypeId>
+        <SubtypeId>AQD_LG_Purifier_Electrum</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_LG_Crusher_Electrum</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
-      <Description>Description_AQD_LG_Crusher_Electrum</Description>
+      <DisplayName>DisplayName_AQD_LG_Purifier_Electrum</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\OxygenGenerator.dds</Icon>
+      <Description>Description_AQD_LG_Purifier_Electrum</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\BasicRefinery.mwm</Model>
+      <Model>Models\Cubes\Large\OxygenGenerator.mwm</Model>
       <!-- Needs to be adjusted -->
       <Components>
         <Component Subtype="SteelPlate" Count="100" />
@@ -815,11 +815,11 @@
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="2" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BasicRefineryConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BasicRefineryConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BasicRefineryConstruction_3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\OxygenGeneratorConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenGeneratorConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OxygenGeneratorConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>AQD_Crusher_Electrum</BlockPairName>
+      <BlockPairName>AQD_Purifier_Electrum</BlockPairName>
       <BuildTimeSeconds>50</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <InventoryMaxVolume>4</InventoryMaxVolume>
@@ -827,7 +827,7 @@
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
       <OperationalPowerConsumption>0.33</OperationalPowerConsumption>
       <BlueprintClasses>
-        <Class>AQD_BPC_CRU_Electrum</Class>
+        <Class>AQD_BPC_PUR_Electrum</Class>
       </BlueprintClasses>
       <RefineSpeed>1.0</RefineSpeed>
       <MaterialEfficiency>1.0</MaterialEfficiency>
@@ -845,17 +845,17 @@
     <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
       <Id>
         <TypeId>Refinery</TypeId>
-        <SubtypeId>AQD_LG_Crusher_Ilmenite</SubtypeId>
+        <SubtypeId>AQD_LG_Purifier_Ilmenite</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_LG_Crusher_Ilmenite</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
-      <Description>Description_AQD_LG_Crusher_Ilmenite</Description>
+      <DisplayName>DisplayName_AQD_LG_Purifier_Ilmenite</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\OxygenGenerator.dds</Icon>
+      <Description>Description_AQD_LG_Purifier_Ilmenite</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\BasicRefinery.mwm</Model>
+      <Model>Models\Cubes\Large\OxygenGenerator.mwm</Model>
       <!-- Needs to be adjusted -->
       <Components>
         <Component Subtype="SteelPlate" Count="100" />
@@ -875,11 +875,11 @@
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="2" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BasicRefineryConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BasicRefineryConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BasicRefineryConstruction_3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\OxygenGeneratorConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenGeneratorConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OxygenGeneratorConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>AQD_Crusher_Ilmenite</BlockPairName>
+      <BlockPairName>AQD_Purifier_Ilmenite</BlockPairName>
       <BuildTimeSeconds>50</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <InventoryMaxVolume>4</InventoryMaxVolume>
@@ -887,7 +887,7 @@
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
       <OperationalPowerConsumption>0.33</OperationalPowerConsumption>
       <BlueprintClasses>
-        <Class>AQD_BPC_CRU_Ilmenite</Class>
+        <Class>AQD_BPC_PUR_Ilmenite</Class>
       </BlueprintClasses>
       <RefineSpeed>1.0</RefineSpeed>
       <MaterialEfficiency>1.0</MaterialEfficiency>
@@ -905,17 +905,17 @@
     <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
       <Id>
         <TypeId>Refinery</TypeId>
-        <SubtypeId>AQD_LG_Crusher_Bauxite</SubtypeId>
+        <SubtypeId>AQD_LG_Purifier_Bauxite</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_LG_Crusher_Bauxite</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
-      <Description>Description_AQD_LG_Crusher_Bauxite</Description>
+      <DisplayName>DisplayName_AQD_LG_Purifier_Bauxite</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\OxygenGenerator.dds</Icon>
+      <Description>Description_AQD_LG_Purifier_Bauxite</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\BasicRefinery.mwm</Model>
+      <Model>Models\Cubes\Large\OxygenGenerator.mwm</Model>
       <!-- Needs to be adjusted -->
       <Components>
         <Component Subtype="SteelPlate" Count="100" />
@@ -935,11 +935,11 @@
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="2" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BasicRefineryConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BasicRefineryConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BasicRefineryConstruction_3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\OxygenGeneratorConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenGeneratorConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OxygenGeneratorConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>AQD_Crusher_Bauxite</BlockPairName>
+      <BlockPairName>AQD_Purifier_Bauxite</BlockPairName>
       <BuildTimeSeconds>50</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <InventoryMaxVolume>4</InventoryMaxVolume>
@@ -947,7 +947,7 @@
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
       <OperationalPowerConsumption>0.33</OperationalPowerConsumption>
       <BlueprintClasses>
-        <Class>AQD_BPC_CRU_Bauxite</Class>
+        <Class>AQD_BPC_PUR_Bauxite</Class>
       </BlueprintClasses>
       <RefineSpeed>1.0</RefineSpeed>
       <MaterialEfficiency>1.0</MaterialEfficiency>
@@ -965,17 +965,17 @@
     <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
       <Id>
         <TypeId>Refinery</TypeId>
-        <SubtypeId>AQD_LG_Crusher_Sperrylite</SubtypeId>
+        <SubtypeId>AQD_LG_Purifier_Sperrylite</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_LG_Crusher_Sperrylite</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
-      <Description>Description_AQD_LG_Crusher_Sperrylite</Description>
+      <DisplayName>DisplayName_AQD_LG_Purifier_Sperrylite</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\OxygenGenerator.dds</Icon>
+      <Description>Description_AQD_LG_Purifier_Sperrylite</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\BasicRefinery.mwm</Model>
+      <Model>Models\Cubes\Large\OxygenGenerator.mwm</Model>
       <!-- Needs to be adjusted -->
       <Components>
         <Component Subtype="SteelPlate" Count="100" />
@@ -995,11 +995,11 @@
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="2" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BasicRefineryConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BasicRefineryConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BasicRefineryConstruction_3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\OxygenGeneratorConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenGeneratorConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OxygenGeneratorConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>AQD_Crusher_Sperrylite</BlockPairName>
+      <BlockPairName>AQD_Purifier_Sperrylite</BlockPairName>
       <BuildTimeSeconds>50</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <InventoryMaxVolume>4</InventoryMaxVolume>
@@ -1007,7 +1007,7 @@
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
       <OperationalPowerConsumption>0.33</OperationalPowerConsumption>
       <BlueprintClasses>
-        <Class>AQD_BPC_CRU_Sperrylite</Class>
+        <Class>AQD_BPC_PUR_Sperrylite</Class>
       </BlueprintClasses>
       <RefineSpeed>1.0</RefineSpeed>
       <MaterialEfficiency>1.0</MaterialEfficiency>
@@ -1025,17 +1025,17 @@
     <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
       <Id>
         <TypeId>Refinery</TypeId>
-        <SubtypeId>AQD_LG_Crusher_NaturalThorium</SubtypeId>
+        <SubtypeId>AQD_LG_Purifier_NaturalThorium</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_LG_Crusher_NaturalThorium</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_Crusher_NaturalThorium.dds</Icon>
-      <Description>Description_AQD_LG_Crusher_NaturalThorium</Description>
+      <DisplayName>DisplayName_AQD_LG_Purifier_NaturalThorium</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\OxygenGenerator.dds</Icon>
+      <Description>Description_AQD_LG_Purifier_NaturalThorium</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\BasicRefinery.mwm</Model>
+      <Model>Models\Cubes\Large\OxygenGenerator.mwm</Model>
       <!-- Needs to be adjusted -->
       <Components>
         <Component Subtype="SteelPlate" Count="100" />
@@ -1055,11 +1055,11 @@
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="2" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BasicRefineryConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BasicRefineryConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BasicRefineryConstruction_3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\OxygenGeneratorConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenGeneratorConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OxygenGeneratorConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>AQD_Crusher_NaturalThorium</BlockPairName>
+      <BlockPairName>AQD_Purifier_NaturalThorium</BlockPairName>
       <BuildTimeSeconds>50</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <InventoryMaxVolume>4</InventoryMaxVolume>
@@ -1067,7 +1067,7 @@
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
       <OperationalPowerConsumption>0.33</OperationalPowerConsumption>
       <BlueprintClasses>
-        <Class>AQD_BPC_CRU_NaturalThorium</Class>
+        <Class>AQD_BPC_PUR_NaturalThorium</Class>
       </BlueprintClasses>
       <RefineSpeed>1.0</RefineSpeed>
       <MaterialEfficiency>1.0</MaterialEfficiency>
@@ -1085,17 +1085,17 @@
     <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
       <Id>
         <TypeId>Refinery</TypeId>
-        <SubtypeId>AQD_LG_Crusher_Bertrandite</SubtypeId>
+        <SubtypeId>AQD_LG_Purifier_Bertrandite</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_LG_Crusher_Bertrandite</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
-      <Description>Description_AQD_LG_Crusher_Bertrandite</Description>
+      <DisplayName>DisplayName_AQD_LG_Purifier_Bertrandite</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\OxygenGenerator.dds</Icon>
+      <Description>Description_AQD_LG_Purifier_Bertrandite</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\BasicRefinery.mwm</Model>
+      <Model>Models\Cubes\Large\OxygenGenerator.mwm</Model>
       <!-- Needs to be adjusted -->
       <Components>
         <Component Subtype="SteelPlate" Count="100" />
@@ -1115,11 +1115,11 @@
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="2" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BasicRefineryConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BasicRefineryConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BasicRefineryConstruction_3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\OxygenGeneratorConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenGeneratorConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OxygenGeneratorConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>AQD_Crusher_Bertrandite</BlockPairName>
+      <BlockPairName>AQD_Purifier_Bertrandite</BlockPairName>
       <BuildTimeSeconds>50</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <InventoryMaxVolume>4</InventoryMaxVolume>
@@ -1127,7 +1127,7 @@
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
       <OperationalPowerConsumption>0.33</OperationalPowerConsumption>
       <BlueprintClasses>
-        <Class>AQD_BPC_CRU_Bertrandite</Class>
+        <Class>AQD_BPC_PUR_Bertrandite</Class>
       </BlueprintClasses>
       <RefineSpeed>1.0</RefineSpeed>
       <MaterialEfficiency>1.0</MaterialEfficiency>
@@ -1145,17 +1145,17 @@
     <Definition xsi:type="MyObjectBuilder_RefineryDefinition">
       <Id>
         <TypeId>Refinery</TypeId>
-        <SubtypeId>AQD_LG_Crusher_Regolith</SubtypeId>
+        <SubtypeId>AQD_LG_Purifier_Regolith</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_LG_Crusher_Regolith</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\Blastfurnace.dds</Icon>
-      <Description>Description_AQD_LG_Crusher_Regolith</Description>
+      <DisplayName>DisplayName_AQD_LG_Purifier_Regolith</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\OxygenGenerator.dds</Icon>
+      <Description>Description_AQD_LG_Purifier_Regolith</Description>
       <CubeSize>Large</CubeSize>
       <GuiVisible>true</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="2" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\BasicRefinery.mwm</Model>
+      <Model>Models\Cubes\Large\OxygenGenerator.mwm</Model>
       <!-- Needs to be adjusted -->
       <Components>
         <Component Subtype="SteelPlate" Count="100" />
@@ -1175,11 +1175,11 @@
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="2" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\BasicRefineryConstruction_1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\BasicRefineryConstruction_2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\BasicRefineryConstruction_3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\OxygenGeneratorConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\OxygenGeneratorConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\OxygenGeneratorConstruction_3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>AQD_Crusher_Regolith</BlockPairName>
+      <BlockPairName>AQD_Purifier_Regolith</BlockPairName>
       <BuildTimeSeconds>50</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
       <InventoryMaxVolume>4</InventoryMaxVolume>
@@ -1187,7 +1187,7 @@
       <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
       <OperationalPowerConsumption>0.33</OperationalPowerConsumption>
       <BlueprintClasses>
-        <Class>AQD_BPC_CRU_Regolith</Class>
+        <Class>AQD_BPC_PUR_Regolith</Class>
       </BlueprintClasses>
       <RefineSpeed>1.0</RefineSpeed>
       <MaterialEfficiency>1.0</MaterialEfficiency>

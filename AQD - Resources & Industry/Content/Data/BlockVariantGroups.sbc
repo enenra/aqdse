@@ -57,5 +57,34 @@
       </Blocks>
     </BlockVariantGroup>
 
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="PurifierGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_Purifier_Hematite.dds</Icon>
+      <DisplayName>DisplayName_AQD_LG_Purifier_Hematite</DisplayName>
+      <Description>Description_AQD_LG_Purifier_Hematite</Description>
+      <Blocks>
+        <Block Type="Refinery" Subtype="AQD_LG_Purifier_Hematite" />
+        <Block Type="Refinery" Subtype="AQD_LG_Purifier_Malachite" />
+        <Block Type="Refinery" Subtype="AQD_LG_Purifier_Cattierite" />
+        <Block Type="Refinery" Subtype="AQD_LG_Purifier_Quartz" />
+        <Block Type="Refinery" Subtype="AQD_LG_Purifier_Magnesite" />
+        <Block Type="Refinery" Subtype="AQD_LG_Purifier_Cobaltite" />
+        <Block Type="Refinery" Subtype="AQD_LG_Purifier_Garnierite" />
+        <Block Type="Refinery" Subtype="AQD_LG_Purifier_Tetrahedrite" />
+        <Block Type="Refinery" Subtype="AQD_LG_Purifier_Graphite" />
+        <Block Type="Refinery" Subtype="AQD_LG_Purifier_NativeSilver" />
+        <Block Type="Refinery" Subtype="AQD_LG_Purifier_NativeGold" />
+        <Block Type="Refinery" Subtype="AQD_LG_Purifier_Carnotite" />
+        <Block Type="Refinery" Subtype="AQD_LG_Purifier_Borax" />
+        <Block Type="Refinery" Subtype="AQD_LG_Purifier_Electrum" />
+        <Block Type="Refinery" Subtype="AQD_LG_Purifier_Ilmenite" />
+        <Block Type="Refinery" Subtype="AQD_LG_Purifier_Bauxite" />
+        <Block Type="Refinery" Subtype="AQD_LG_Purifier_Sperrylite" />
+        <Block Type="Refinery" Subtype="AQD_LG_Purifier_NaturalThorium" />
+        <Block Type="Refinery" Subtype="AQD_LG_Purifier_Bertrandite" />
+        <Block Type="Refinery" Subtype="AQD_LG_Purifier_Regolith" />
+      </Blocks>
+    </BlockVariantGroup>
+
   </BlockVariantGroups>
 </Definitions>

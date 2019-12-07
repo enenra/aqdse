@@ -47,6 +47,26 @@
         <string>Refinery/AQD_LG_Crusher_NaturalThorium</string>
         <string>Refinery/AQD_LG_Crusher_Bertrandite</string>
         <string>Refinery/AQD_LG_Crusher_Regolith</string>
+        <string>Refinery/AQD_LG_Purifier_Hematite</string>
+        <string>Refinery/AQD_LG_Purifier_Malachite</string>
+        <string>Refinery/AQD_LG_Purifier_Cattierite</string>
+        <string>Refinery/AQD_LG_Purifier_Quartz</string>
+        <string>Refinery/AQD_LG_Purifier_Magnesite</string>
+        <string>Refinery/AQD_LG_Purifier_Cobaltite</string>
+        <string>Refinery/AQD_LG_Purifier_Garnierite</string>
+        <string>Refinery/AQD_LG_Purifier_Tetrahedrite</string>
+        <string>Refinery/AQD_LG_Purifier_Graphite</string>
+        <string>Refinery/AQD_LG_Purifier_NativeSilver</string>
+        <string>Refinery/AQD_LG_Purifier_NativeGold</string>
+        <string>Refinery/AQD_LG_Purifier_Carnotite</string>
+        <string>Refinery/AQD_LG_Purifier_Borax</string>
+        <string>Refinery/AQD_LG_Purifier_Electrum</string>
+        <string>Refinery/AQD_LG_Purifier_Ilmenite</string>
+        <string>Refinery/AQD_LG_Purifier_Bauxite</string>
+        <string>Refinery/AQD_LG_Purifier_Sperrylite</string>
+        <string>Refinery/AQD_LG_Purifier_NaturalThorium</string>
+        <string>Refinery/AQD_LG_Purifier_Bertrandite</string>
+        <string>Refinery/AQD_LG_Purifier_Regolith</string>
       </ItemIds>
     </Category>
 
@@ -95,6 +115,26 @@
         <string>Refinery/AQD_LG_Crusher_NaturalThorium</string>
         <string>Refinery/AQD_LG_Crusher_Bertrandite</string>
         <string>Refinery/AQD_LG_Crusher_Regolith</string>
+        <string>Refinery/AQD_LG_Purifier_Hematite</string>
+        <string>Refinery/AQD_LG_Purifier_Malachite</string>
+        <string>Refinery/AQD_LG_Purifier_Cattierite</string>
+        <string>Refinery/AQD_LG_Purifier_Quartz</string>
+        <string>Refinery/AQD_LG_Purifier_Magnesite</string>
+        <string>Refinery/AQD_LG_Purifier_Cobaltite</string>
+        <string>Refinery/AQD_LG_Purifier_Garnierite</string>
+        <string>Refinery/AQD_LG_Purifier_Tetrahedrite</string>
+        <string>Refinery/AQD_LG_Purifier_Graphite</string>
+        <string>Refinery/AQD_LG_Purifier_NativeSilver</string>
+        <string>Refinery/AQD_LG_Purifier_NativeGold</string>
+        <string>Refinery/AQD_LG_Purifier_Carnotite</string>
+        <string>Refinery/AQD_LG_Purifier_Borax</string>
+        <string>Refinery/AQD_LG_Purifier_Electrum</string>
+        <string>Refinery/AQD_LG_Purifier_Ilmenite</string>
+        <string>Refinery/AQD_LG_Purifier_Bauxite</string>
+        <string>Refinery/AQD_LG_Purifier_Sperrylite</string>
+        <string>Refinery/AQD_LG_Purifier_NaturalThorium</string>
+        <string>Refinery/AQD_LG_Purifier_Bertrandite</string>
+        <string>Refinery/AQD_LG_Purifier_Regolith</string>
       </ItemIds>
     </Category>
 

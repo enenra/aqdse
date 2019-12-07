@@ -306,6 +306,66 @@
   <data name="Description_AQD_LG_Crusher_Tetrahedrite" xml:space="preserve">
     <value />
   </data>
+  <data name="Description_AQD_LG_Purifier_Bauxite" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Description_AQD_LG_Purifier_Bertrandite" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Description_AQD_LG_Purifier_Borax" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Description_AQD_LG_Purifier_Carnotite" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Description_AQD_LG_Purifier_Cattierite" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Description_AQD_LG_Purifier_Cobaltite" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Description_AQD_LG_Purifier_Electrum" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Description_AQD_LG_Purifier_Garnierite" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Description_AQD_LG_Purifier_Graphite" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Description_AQD_LG_Purifier_Hematite" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Description_AQD_LG_Purifier_Ilmenite" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Description_AQD_LG_Purifier_Magnesite" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Description_AQD_LG_Purifier_Malachite" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Description_AQD_LG_Purifier_NativeGold" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Description_AQD_LG_Purifier_NativeSilver" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Description_AQD_LG_Purifier_NaturalThorium" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Description_AQD_LG_Purifier_Quartz" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Description_AQD_LG_Purifier_Regolith" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Description_AQD_LG_Purifier_Sperrylite" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Description_AQD_LG_Purifier_Tetrahedrite" xml:space="preserve">
+    <value />
+  </data>
   <data name="Description_AQD_LG_Smelter" xml:space="preserve">
     <value />
   </data>
@@ -1390,13 +1450,73 @@
     <value>Quartz Crusher</value>
   </data>
   <data name="DisplayName_AQD_LG_Crusher_Regolith" xml:space="preserve">
-    <value>Regolith</value>
+    <value>Regolith Crusher</value>
   </data>
   <data name="DisplayName_AQD_LG_Crusher_Sperrylite" xml:space="preserve">
     <value>Sperrylite Crusher</value>
   </data>
   <data name="DisplayName_AQD_LG_Crusher_Tetrahedrite" xml:space="preserve">
     <value>Tetrahedrite Crusher</value>
+  </data>
+  <data name="DisplayName_AQD_LG_Purifier_Bauxite" xml:space="preserve">
+    <value>Bauxite Purifier</value>
+  </data>
+  <data name="DisplayName_AQD_LG_Purifier_Bertrandite" xml:space="preserve">
+    <value>Bertrandite Purifier</value>
+  </data>
+  <data name="DisplayName_AQD_LG_Purifier_Borax" xml:space="preserve">
+    <value>Borax Purifier</value>
+  </data>
+  <data name="DisplayName_AQD_LG_Purifier_Carnotite" xml:space="preserve">
+    <value>Carnotite Purifier</value>
+  </data>
+  <data name="DisplayName_AQD_LG_Purifier_Cattierite" xml:space="preserve">
+    <value>Cattierite Purifier</value>
+  </data>
+  <data name="DisplayName_AQD_LG_Purifier_Cobaltite" xml:space="preserve">
+    <value>Cobaltite Purifier</value>
+  </data>
+  <data name="DisplayName_AQD_LG_Purifier_Electrum" xml:space="preserve">
+    <value>Electrum Purifier</value>
+  </data>
+  <data name="DisplayName_AQD_LG_Purifier_Garnierite" xml:space="preserve">
+    <value>Garnierite Purifier</value>
+  </data>
+  <data name="DisplayName_AQD_LG_Purifier_Graphite" xml:space="preserve">
+    <value>Graphite Purifier</value>
+  </data>
+  <data name="DisplayName_AQD_LG_Purifier_Hematite" xml:space="preserve">
+    <value>Hematite Purifier</value>
+  </data>
+  <data name="DisplayName_AQD_LG_Purifier_Ilmenite" xml:space="preserve">
+    <value>Ilmenite Purifier</value>
+  </data>
+  <data name="DisplayName_AQD_LG_Purifier_Magnesite" xml:space="preserve">
+    <value>Magnesite Purifier</value>
+  </data>
+  <data name="DisplayName_AQD_LG_Purifier_Malachite" xml:space="preserve">
+    <value>Malachite Purifier</value>
+  </data>
+  <data name="DisplayName_AQD_LG_Purifier_NativeGold" xml:space="preserve">
+    <value>NativeGold Purifier</value>
+  </data>
+  <data name="DisplayName_AQD_LG_Purifier_NativeSilver" xml:space="preserve">
+    <value>NativeSilver Purifier</value>
+  </data>
+  <data name="DisplayName_AQD_LG_Purifier_NaturalThorium" xml:space="preserve">
+    <value>NaturalThorium Purifier</value>
+  </data>
+  <data name="DisplayName_AQD_LG_Purifier_Quartz" xml:space="preserve">
+    <value>Quartz Purifier</value>
+  </data>
+  <data name="DisplayName_AQD_LG_Purifier_Regolith" xml:space="preserve">
+    <value>Regolith Purifier</value>
+  </data>
+  <data name="DisplayName_AQD_LG_Purifier_Sperrylite" xml:space="preserve">
+    <value>Sperrylite Purifier</value>
+  </data>
+  <data name="DisplayName_AQD_LG_Purifier_Tetrahedrite" xml:space="preserve">
+    <value>Tetrahedrite Purifier</value>
   </data>
   <data name="DisplayName_AQD_LG_Smelter" xml:space="preserve">
     <value>Smelter</value>
