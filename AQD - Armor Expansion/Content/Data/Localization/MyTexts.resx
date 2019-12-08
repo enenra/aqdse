@@ -117,6 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="DisplayName_AQD_LG_HA_Corner_Bevel" xml:space="preserve">
+    <value>Heavy Armor Bevelled Corner</value>
+  </data>
   <data name="DisplayName_AQD_LG_HA_Corner_Split" xml:space="preserve">
     <value>Heavy Armor Corner Split</value>
   </data>
@@ -128,6 +131,9 @@
   </data>
   <data name="DisplayName_AQD_LG_HA_Inv_Corner_Split" xml:space="preserve">
     <value>Heavy Armor Inverted Corner Split</value>
+  </data>
+  <data name="DisplayName_AQD_LG_LA_Corner_Bevel" xml:space="preserve">
+    <value>Light Armor Bevelled Corner</value>
   </data>
   <data name="DisplayName_AQD_LG_LA_Corner_Split" xml:space="preserve">
     <value>Light Armor Corner Split</value>
