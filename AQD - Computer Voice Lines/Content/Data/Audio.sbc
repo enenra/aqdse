@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!-- Created by enenra's SE Editor version 0.5 on: 2019-07-17 09:02 -->
+<!-- Created by enenra's SE Editor version 0.5 on: 2019-12-08 12:24 -->
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Sounds>
     <Sound>
@@ -1315,6 +1315,804 @@
       <Waves>
         <Wave Type="D3">
           <Start>Audio\SB\AQD_SB_Arc_094.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- One -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_095</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_095.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Two -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_096</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_096.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Three -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_097</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_097.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Four -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_098</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_098.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Five -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_099</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_099.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Six -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_100</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_100.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Seven -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_101</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_101.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Eight -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_102</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_102.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Nine -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_103</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_103.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Ten -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_104</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_104.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Eleven -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_105</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_105.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Twelve -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_106</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_106.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Thirteen -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_107</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_107.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Fourteen -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_108</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_108.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Fifteen -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_109</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_109.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Sixteen -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_110</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_110.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Seventeen -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_111</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_111.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Eighteen -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_112</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_112.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Nineteen -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_113</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_113.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Twenty -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_114</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_114.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Thirty -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_115</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_115.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Fourty -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_116</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_116.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Fifty -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_117</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_117.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Sixty -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_118</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_118.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Seventy -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_119</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_119.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Eighty -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_120</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_120.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Ninety -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_121</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_121.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Hundred -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_122</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_122.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Thousand -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_123</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_123.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Million -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_124</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_124.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Standby -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_125</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_125.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Ready -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_126</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_126.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Full -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_127</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_127.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Low -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_128</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_128.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Medium -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_129</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_129.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- High -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_130</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_130.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Defcon -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_131</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_131.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Alert -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_132</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_132.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Red -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_133</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_133.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Orange -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_134</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_134.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Yellow -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_135</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_135.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Green -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_136</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_136.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Blue -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_137</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_137.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Purple -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_138</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_138.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Hello -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_139</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_139.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Greetings -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_140</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_140.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Goodbye -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_141</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_141.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Captain -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_142</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_142.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Lieutenant -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_143</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_143.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Colonel -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_144</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_144.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Commander -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_145</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_145.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Soldier -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_146</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_146.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Civilian -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_147</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_147.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Merge -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_148</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_148.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Warhead... armed. -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_149</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_149.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Warhead... disarmed. -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_150</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_150.wav</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <!-- Count down sequence initiated. -->
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>AQD_SB_Arc_151</SubtypeId>
+      </Id>
+      <Category>Sb</Category>
+      <MaxDistance>100</MaxDistance>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\SB\AQD_SB_Arc_151.wav</Start>
         </Wave>
       </Waves>
     </Sound>
