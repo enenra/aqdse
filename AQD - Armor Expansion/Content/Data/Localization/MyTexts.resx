@@ -129,6 +129,9 @@
   <data name="DisplayName_AQD_LG_HA_Corner_Split_2x1x1_Tip" xml:space="preserve">
     <value>Heavy Armor Corner Split 2x1x1 Tip</value>
   </data>
+  <data name="DisplayName_AQD_LG_HA_Half_Corner_Inv_Base" xml:space="preserve">
+    <value>Heavy Armor Half Inverted Corner Base</value>
+  </data>
   <data name="DisplayName_AQD_LG_HA_Inv_Corner_Split" xml:space="preserve">
     <value>Heavy Armor Inverted Corner Split</value>
   </data>
@@ -143,6 +146,9 @@
   </data>
   <data name="DisplayName_AQD_LG_LA_Corner_Split_2x1x1_Tip" xml:space="preserve">
     <value>Light Armor Corner Split 2x1x1 Base</value>
+  </data>
+  <data name="DisplayName_AQD_LG_LA_Half_Corner_Inv_Base" xml:space="preserve">
+    <value>Light Armor Half Inverted Corner Base</value>
   </data>
   <data name="DisplayName_AQD_LG_LA_Inv_Corner_Split" xml:space="preserve">
     <value>Light Armor Inverted Corner Split</value>
