@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<!-- Created by enenra's SE Editor version 0.5 on: 2019-12-08 09:43 -->
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SoundCategories>
+    <SoundCategory>
+      <Id>
+        <TypeId>SoundCategoryDefinition</TypeId>
+        <SubtypeId>AQD_SoundBlockSounds</SubtypeId>
+      </Id>
+      <Sounds>
+        <SoundDesc Id="AQD_SB_Arc_000" SoundName="SoundBlock_SoundName_AQD_SB_Arc_000" />
+        <SoundDesc Id="AQD_SB_Arc_001" SoundName="SoundBlock_SoundName_AQD_SB_Arc_001" />
+        <SoundDesc Id="AQD_SB_Arc_002" SoundName="SoundBlock_SoundName_AQD_SB_Arc_002" />
+        <SoundDesc Id="AQD_SB_Arc_003" SoundName="SoundBlock_SoundName_AQD_SB_Arc_003" />
+        <SoundDesc Id="AQD_SB_Arc_004" SoundName="SoundBlock_SoundName_AQD_SB_Arc_004" />
+        <SoundDesc Id="AQD_SB_Arc_005" SoundName="SoundBlock_SoundName_AQD_SB_Arc_005" />
+        <SoundDesc Id="AQD_SB_Arc_006" SoundName="SoundBlock_SoundName_AQD_SB_Arc_006" />
+        <SoundDesc Id="AQD_SB_Arc_007" SoundName="SoundBlock_SoundName_AQD_SB_Arc_007" />
+        <SoundDesc Id="AQD_SB_Arc_008" SoundName="SoundBlock_SoundName_AQD_SB_Arc_008" />
+        <SoundDesc Id="AQD_SB_Arc_009" SoundName="SoundBlock_SoundName_AQD_SB_Arc_009" />
+        <SoundDesc Id="AQD_SB_Arc_010" SoundName="SoundBlock_SoundName_AQD_SB_Arc_010" />
+        <SoundDesc Id="AQD_SB_Arc_011" SoundName="SoundBlock_SoundName_AQD_SB_Arc_011" />
+        <SoundDesc Id="AQD_SB_Arc_012" SoundName="SoundBlock_SoundName_AQD_SB_Arc_012" />
+        <SoundDesc Id="AQD_SB_Arc_013" SoundName="SoundBlock_SoundName_AQD_SB_Arc_013" />
+        <SoundDesc Id="AQD_SB_Arc_014" SoundName="SoundBlock_SoundName_AQD_SB_Arc_014" />
+        <SoundDesc Id="AQD_SB_Arc_015" SoundName="SoundBlock_SoundName_AQD_SB_Arc_015" />
+        <SoundDesc Id="AQD_SB_Arc_016" SoundName="SoundBlock_SoundName_AQD_SB_Arc_016" />
+        <SoundDesc Id="AQD_SB_Arc_017" SoundName="SoundBlock_SoundName_AQD_SB_Arc_017" />
+        <SoundDesc Id="AQD_SB_Arc_018" SoundName="SoundBlock_SoundName_AQD_SB_Arc_018" />
+        <SoundDesc Id="AQD_SB_Arc_019" SoundName="SoundBlock_SoundName_AQD_SB_Arc_019" />
+        <SoundDesc Id="AQD_SB_Arc_020" SoundName="SoundBlock_SoundName_AQD_SB_Arc_020" />
+        <SoundDesc Id="AQD_SB_Arc_021" SoundName="SoundBlock_SoundName_AQD_SB_Arc_021" />
+        <SoundDesc Id="AQD_SB_Arc_022" SoundName="SoundBlock_SoundName_AQD_SB_Arc_022" />
+        <SoundDesc Id="AQD_SB_Arc_023" SoundName="SoundBlock_SoundName_AQD_SB_Arc_023" />
+        <SoundDesc Id="AQD_SB_Arc_024" SoundName="SoundBlock_SoundName_AQD_SB_Arc_024" />
+        <SoundDesc Id="AQD_SB_Arc_025" SoundName="SoundBlock_SoundName_AQD_SB_Arc_025" />
+        <SoundDesc Id="AQD_SB_Arc_026" SoundName="SoundBlock_SoundName_AQD_SB_Arc_026" />
+        <SoundDesc Id="AQD_SB_Arc_027" SoundName="SoundBlock_SoundName_AQD_SB_Arc_027" />
+        <SoundDesc Id="AQD_SB_Arc_028" SoundName="SoundBlock_SoundName_AQD_SB_Arc_028" />
+        <SoundDesc Id="AQD_SB_Arc_029" SoundName="SoundBlock_SoundName_AQD_SB_Arc_029" />
+        <SoundDesc Id="AQD_SB_Arc_030" SoundName="SoundBlock_SoundName_AQD_SB_Arc_030" />
+        <SoundDesc Id="AQD_SB_Arc_031" SoundName="SoundBlock_SoundName_AQD_SB_Arc_031" />
+        <SoundDesc Id="AQD_SB_Arc_032" SoundName="SoundBlock_SoundName_AQD_SB_Arc_032" />
+        <SoundDesc Id="AQD_SB_Arc_033" SoundName="SoundBlock_SoundName_AQD_SB_Arc_033" />
+        <SoundDesc Id="AQD_SB_Arc_034" SoundName="SoundBlock_SoundName_AQD_SB_Arc_034" />
+        <SoundDesc Id="AQD_SB_Arc_035" SoundName="SoundBlock_SoundName_AQD_SB_Arc_035" />
+        <SoundDesc Id="AQD_SB_Arc_036" SoundName="SoundBlock_SoundName_AQD_SB_Arc_036" />
+        <SoundDesc Id="AQD_SB_Arc_037" SoundName="SoundBlock_SoundName_AQD_SB_Arc_037" />
+        <SoundDesc Id="AQD_SB_Arc_038" SoundName="SoundBlock_SoundName_AQD_SB_Arc_038" />
+        <SoundDesc Id="AQD_SB_Arc_039" SoundName="SoundBlock_SoundName_AQD_SB_Arc_039" />
+        <SoundDesc Id="AQD_SB_Arc_040" SoundName="SoundBlock_SoundName_AQD_SB_Arc_040" />
+        <SoundDesc Id="AQD_SB_Arc_041" SoundName="SoundBlock_SoundName_AQD_SB_Arc_041" />
+        <SoundDesc Id="AQD_SB_Arc_042" SoundName="SoundBlock_SoundName_AQD_SB_Arc_042" />
+        <SoundDesc Id="AQD_SB_Arc_043" SoundName="SoundBlock_SoundName_AQD_SB_Arc_043" />
+        <SoundDesc Id="AQD_SB_Arc_044" SoundName="SoundBlock_SoundName_AQD_SB_Arc_044" />
+        <SoundDesc Id="AQD_SB_Arc_045" SoundName="SoundBlock_SoundName_AQD_SB_Arc_045" />
+        <SoundDesc Id="AQD_SB_Arc_046" SoundName="SoundBlock_SoundName_AQD_SB_Arc_046" />
+        <SoundDesc Id="AQD_SB_Arc_047" SoundName="SoundBlock_SoundName_AQD_SB_Arc_047" />
+        <SoundDesc Id="AQD_SB_Arc_048" SoundName="SoundBlock_SoundName_AQD_SB_Arc_048" />
+        <SoundDesc Id="AQD_SB_Arc_049" SoundName="SoundBlock_SoundName_AQD_SB_Arc_049" />
+        <SoundDesc Id="AQD_SB_Arc_050" SoundName="SoundBlock_SoundName_AQD_SB_Arc_050" />
+        <SoundDesc Id="AQD_SB_Arc_051" SoundName="SoundBlock_SoundName_AQD_SB_Arc_051" />
+        <SoundDesc Id="AQD_SB_Arc_052" SoundName="SoundBlock_SoundName_AQD_SB_Arc_052" />
+        <SoundDesc Id="AQD_SB_Arc_053" SoundName="SoundBlock_SoundName_AQD_SB_Arc_053" />
+        <SoundDesc Id="AQD_SB_Arc_054" SoundName="SoundBlock_SoundName_AQD_SB_Arc_054" />
+        <SoundDesc Id="AQD_SB_Arc_055" SoundName="SoundBlock_SoundName_AQD_SB_Arc_055" />
+        <SoundDesc Id="AQD_SB_Arc_056" SoundName="SoundBlock_SoundName_AQD_SB_Arc_056" />
+        <SoundDesc Id="AQD_SB_Arc_057" SoundName="SoundBlock_SoundName_AQD_SB_Arc_057" />
+        <SoundDesc Id="AQD_SB_Arc_058" SoundName="SoundBlock_SoundName_AQD_SB_Arc_058" />
+        <SoundDesc Id="AQD_SB_Arc_059" SoundName="SoundBlock_SoundName_AQD_SB_Arc_059" />
+        <SoundDesc Id="AQD_SB_Arc_060" SoundName="SoundBlock_SoundName_AQD_SB_Arc_060" />
+        <SoundDesc Id="AQD_SB_Arc_061" SoundName="SoundBlock_SoundName_AQD_SB_Arc_061" />
+        <SoundDesc Id="AQD_SB_Arc_062" SoundName="SoundBlock_SoundName_AQD_SB_Arc_062" />
+        <SoundDesc Id="AQD_SB_Arc_063" SoundName="SoundBlock_SoundName_AQD_SB_Arc_063" />
+        <SoundDesc Id="AQD_SB_Arc_064" SoundName="SoundBlock_SoundName_AQD_SB_Arc_064" />
+        <SoundDesc Id="AQD_SB_Arc_065" SoundName="SoundBlock_SoundName_AQD_SB_Arc_065" />
+        <SoundDesc Id="AQD_SB_Arc_066" SoundName="SoundBlock_SoundName_AQD_SB_Arc_066" />
+        <SoundDesc Id="AQD_SB_Arc_067" SoundName="SoundBlock_SoundName_AQD_SB_Arc_067" />
+        <SoundDesc Id="AQD_SB_Arc_068" SoundName="SoundBlock_SoundName_AQD_SB_Arc_068" />
+        <SoundDesc Id="AQD_SB_Arc_069" SoundName="SoundBlock_SoundName_AQD_SB_Arc_069" />
+        <SoundDesc Id="AQD_SB_Arc_070" SoundName="SoundBlock_SoundName_AQD_SB_Arc_070" />
+        <SoundDesc Id="AQD_SB_Arc_071" SoundName="SoundBlock_SoundName_AQD_SB_Arc_071" />
+        <SoundDesc Id="AQD_SB_Arc_072" SoundName="SoundBlock_SoundName_AQD_SB_Arc_072" />
+        <SoundDesc Id="AQD_SB_Arc_073" SoundName="SoundBlock_SoundName_AQD_SB_Arc_073" />
+        <SoundDesc Id="AQD_SB_Arc_074" SoundName="SoundBlock_SoundName_AQD_SB_Arc_074" />
+        <SoundDesc Id="AQD_SB_Arc_075" SoundName="SoundBlock_SoundName_AQD_SB_Arc_075" />
+        <SoundDesc Id="AQD_SB_Arc_076" SoundName="SoundBlock_SoundName_AQD_SB_Arc_076" />
+        <SoundDesc Id="AQD_SB_Arc_077" SoundName="SoundBlock_SoundName_AQD_SB_Arc_077" />
+        <SoundDesc Id="AQD_SB_Arc_078" SoundName="SoundBlock_SoundName_AQD_SB_Arc_078" />
+        <SoundDesc Id="AQD_SB_Arc_079" SoundName="SoundBlock_SoundName_AQD_SB_Arc_079" />
+        <SoundDesc Id="AQD_SB_Arc_080" SoundName="SoundBlock_SoundName_AQD_SB_Arc_080" />
+        <SoundDesc Id="AQD_SB_Arc_081" SoundName="SoundBlock_SoundName_AQD_SB_Arc_081" />
+        <SoundDesc Id="AQD_SB_Arc_082" SoundName="SoundBlock_SoundName_AQD_SB_Arc_082" />
+        <SoundDesc Id="AQD_SB_Arc_083" SoundName="SoundBlock_SoundName_AQD_SB_Arc_083" />
+        <SoundDesc Id="AQD_SB_Arc_084" SoundName="SoundBlock_SoundName_AQD_SB_Arc_084" />
+        <SoundDesc Id="AQD_SB_Arc_085" SoundName="SoundBlock_SoundName_AQD_SB_Arc_085" />
+        <SoundDesc Id="AQD_SB_Arc_086" SoundName="SoundBlock_SoundName_AQD_SB_Arc_086" />
+        <SoundDesc Id="AQD_SB_Arc_087" SoundName="SoundBlock_SoundName_AQD_SB_Arc_087" />
+        <SoundDesc Id="AQD_SB_Arc_088" SoundName="SoundBlock_SoundName_AQD_SB_Arc_088" />
+        <SoundDesc Id="AQD_SB_Arc_089" SoundName="SoundBlock_SoundName_AQD_SB_Arc_089" />
+        <SoundDesc Id="AQD_SB_Arc_090" SoundName="SoundBlock_SoundName_AQD_SB_Arc_090" />
+        <SoundDesc Id="AQD_SB_Arc_091" SoundName="SoundBlock_SoundName_AQD_SB_Arc_091" />
+        <SoundDesc Id="AQD_SB_Arc_092" SoundName="SoundBlock_SoundName_AQD_SB_Arc_092" />
+        <SoundDesc Id="AQD_SB_Arc_093" SoundName="SoundBlock_SoundName_AQD_SB_Arc_093" />
+      </Sounds>
+    </SoundCategory>
+  </SoundCategories>
+</Definitions>
