@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ResearchBlocks>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="TextPanel" Subtype="AQD_LG_BannerLCD" />
+      <UnlockedByGroups>
+        <GroupSubtype>3</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="TextPanel" Subtype="AQD_LG_BannerLCD1x4" />
+      <UnlockedByGroups>
+        <GroupSubtype>3</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="TextPanel" Subtype="AQD_LG_BannerLCD2x2" />
+      <UnlockedByGroups>
+        <GroupSubtype>3</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="TextPanel" Subtype="AQD_LG_BannerLCD4x4" />
+      <UnlockedByGroups>
+        <GroupSubtype>3</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="TextPanel" Subtype="AQD_SG_BannerLCD" />
+      <UnlockedByGroups>
+        <GroupSubtype>3</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="TextPanel" Subtype="AQD_SG_BannerLCD1x4" />
+      <UnlockedByGroups>
+        <GroupSubtype>3</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="TextPanel" Subtype="AQD_SG_BannerLCD2x2" />
+      <UnlockedByGroups>
+        <GroupSubtype>3</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="TextPanel" Subtype="AQD_SG_BannerLCD4x4" />
+      <UnlockedByGroups>
+        <GroupSubtype>3</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+  </ResearchBlocks>
+</Definitions>
