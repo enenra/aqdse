@@ -60,7 +60,7 @@
       <Model>Models\Cubes\Small\AQD_SG_BannerLCD1x4.mwm</Model>
       <ModelOffset x="0" y="0" z="0" />
       <Components>
-        <Component Subtype="Display" Count="40" />
+        <Component Subtype="Display" Count="8" />
       </Components>
       <CriticalComponent Subtype="Display" Index="0" />
       <MountPoints>

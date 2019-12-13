@@ -17,7 +17,7 @@
       <Model>Models\Cubes\Large\AQD_LG_BannerLCD4x4.mwm</Model>
       <ModelOffset x="0" y="0" z="0" />
       <Components>
-        <Component Subtype="Display" Count="40" />
+        <Component Subtype="Display" Count="80" />
       </Components>
       <CriticalComponent Subtype="Display" Index="0" />
       <MountPoints>
@@ -58,7 +58,7 @@
       <Model>Models\Cubes\Small\AQD_SG_BannerLCD4x4.mwm</Model>
       <ModelOffset x="0" y="0" z="0" />
       <Components>
-        <Component Subtype="Display" Count="40" />
+        <Component Subtype="Display" Count="16" />
       </Components>
       <CriticalComponent Subtype="Display" Index="0" />
       <MountPoints>
