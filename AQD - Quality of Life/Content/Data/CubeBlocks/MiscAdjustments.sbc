@@ -226,5 +226,91 @@
       <PCU>40</PCU>      
     </Definition>
 
+    <!-- Changes small hydrogen tank components to make it more reasonable in price and weight -->
+
+    <Definition xsi:type="MyObjectBuilder_GasTankDefinition">
+      <Id>
+        <TypeId>OxygenTank</TypeId>
+        <SubtypeId>SmallHydrogenTank</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_HydrogenTank</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\HydrogenTank.dds</Icon>
+      <Description>Description_HydrogenTank</Description>
+      <CubeSize>Small</CubeSize>
+        <GuiVisible>false</GuiVisible>
+      <Public>true</Public>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="5" y="5" z="5" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\HydrogenTank.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="30" />
+        <Component Subtype="LargeTube" Count="20" />
+        <Component Subtype="SmallTube" Count="30" />
+        <Component Subtype="Computer" Count="4" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="SteelPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Top" StartX="1.0" StartY="1.0" EndX="4.0" EndY="4.0" />
+        <MountPoint Side="Top" StartX="2.0" StartY="0.0" EndX="3.0" EndY="1.0" />
+        <MountPoint Side="Top" StartX="2.0" StartY="4.0" EndX="3.0" EndY="5.0" />
+        <MountPoint Side="Top" StartX="0.0" StartY="2.0" EndX="1.0" EndY="3.0" />
+        <MountPoint Side="Top" StartX="4.0" StartY="2.0" EndX="5.0" EndY="3.0" />
+        <MountPoint Side="Bottom" StartX="1.0" StartY="1.0" EndX="4.0" EndY="4.0" Default="true" />
+        <MountPoint Side="Bottom" StartX="2.0" StartY="0.0" EndX="3.0" EndY="1.0" />
+        <MountPoint Side="Bottom" StartX="2.0" StartY="4.0" EndX="3.0" EndY="5.0" />
+        <MountPoint Side="Bottom" StartX="0.0" StartY="2.0" EndX="1.0" EndY="3.0" />
+        <MountPoint Side="Bottom" StartX="4.0" StartY="2.0" EndX="5.0" EndY="3.0" />
+        <MountPoint Side="Front" StartX="1.0" StartY="2.0" EndX="4.0" EndY="3.0" />
+        <MountPoint Side="Front" StartX="2.0" StartY="0.0" EndX="3.0" EndY="2.0" />
+        <MountPoint Side="Front" StartX="2.0" StartY="3.0" EndX="3.0" EndY="5.0" />
+        <MountPoint Side="Back" StartX="1.0" StartY="2.0" EndX="4.0" EndY="3.0" />
+        <MountPoint Side="Back" StartX="2.0" StartY="0.0" EndX="3.0" EndY="2.0" />
+        <MountPoint Side="Back" StartX="2.0" StartY="3.0" EndX="3.0" EndY="5.0" />
+        <MountPoint Side="Left" StartX="1.0" StartY="2.0" EndX="4.0" EndY="3.0" />
+        <MountPoint Side="Left" StartX="2.0" StartY="0.0" EndX="3.0" EndY="2.0" />
+        <MountPoint Side="Left" StartX="2.0" StartY="3.0" EndX="3.0" EndY="5.0" />
+        <MountPoint Side="Right" StartX="1.0" StartY="2.0" EndX="4.0" EndY="3.0" />
+        <MountPoint Side="Right" StartX="2.0" StartY="0.0" EndX="3.0" EndY="2.0" />
+        <MountPoint Side="Right" StartX="2.0" StartY="3.0" EndX="3.0" EndY="5.0" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\HydrogenTank_Construction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\HydrogenTank_Construction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\HydrogenTank_Construction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>HydrogenTank</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <ResourceSourceGroup>Reactors</ResourceSourceGroup>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <OperationalPowerConsumption>0.001</OperationalPowerConsumption>
+      <StandbyPowerConsumption>0.000001</StandbyPowerConsumption>
+      <Capacity>160000</Capacity>
+      <InventoryMaxVolume>0.75</InventoryMaxVolume>
+      <InventorySize>
+        <X>2</X>
+        <Y>2</Y>
+        <Z>2</Z>
+      </InventorySize>
+      <StoredGasId>
+        <TypeId>GasProperties</TypeId>
+        <SubtypeId>Hydrogen</SubtypeId>
+      </StoredGasId>
+      <BlueprintClasses>
+        <Class>HydrogenBottles</Class>
+      </BlueprintClasses>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>25</PCU>      
+    </Definition>
+
   </CubeBlocks>
 </Definitions>
