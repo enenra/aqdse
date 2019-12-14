@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <!-- Spotlight range adjustments -->
+
+    <Definition xsi:type="MyObjectBuilder_ReflectorBlockDefinition">
+      <Id>
+        <TypeId>ReflectorLight</TypeId>
+        <SubtypeId>LargeBlockFrontLight</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_ReflectorLight</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\light.dds</Icon>
+      <Description>Description_ReflectorLight</Description>
+      <CubeSize>Large</CubeSize>
+        <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\light.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="8" />
+        <Component Subtype="LargeTube" Count="2" />
+        <Component Subtype="InteriorPlate" Count="20" />
+        <Component Subtype="Construction" Count="15" />
+        <Component Subtype="BulletproofGlass" Count="4" />
+      </Components>
+      <CriticalComponent Subtype="Construction" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.8" Default="true" />
+        <MountPoint Side="Left" StartX="0.5" StartY="0.38" EndX="0.9" EndY="0.62" />
+        <MountPoint Side="Right" StartX="0.1" StartY="0.38" EndX="0.5" EndY="0.62" />
+        <MountPoint Side="Bottom" StartX="0.38" StartY="0.5" EndX="0.62" EndY="0.9" />
+        <MountPoint Side="Top" StartX="0.38" StartY="0.1" EndX="0.62" EndY="0.5" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\LightConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\LightConstruction_2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightConstruction_3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>ReflectorLight</BlockPairName>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <LightRadius Min="2" Max="10" Default="5" />
+      <LightReflectorRadius Min="10" Max="460" Default="460" />
+      <LightFalloff Min="1" Max="3" Default="1.5" />
+      <LightIntensity Min="0.5" Max="5" Default="1" />
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.001</RequiredPowerInput>
+      <Flare>SpotlightLarge</Flare>
+      <ReflectorThickness>11</ReflectorThickness>
+      <ReflectorTexture>Textures\Lights\reflector_large.dds</ReflectorTexture>
+      <ReflectorConeDegrees>52</ReflectorConeDegrees>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>25</PCU>
+      <IsAirTight>false</IsAirTight>      
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_ReflectorBlockDefinition">
+      <Id>
+        <TypeId>ReflectorLight</TypeId>
+        <SubtypeId>SmallBlockFrontLight</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_ReflectorLight</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\light.dds</Icon>
+      <Description>Description_ReflectorLight</Description>
+      <CubeSize>Small</CubeSize>
+        <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\light.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+        <Component Subtype="LargeTube" Count="1" />
+        <Component Subtype="InteriorPlate" Count="1" />
+        <Component Subtype="Construction" Count="1" />
+        <Component Subtype="BulletproofGlass" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="Construction" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\LightConstruction_1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightConstruction_2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>ReflectorLight</BlockPairName>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>7</BuildTimeSeconds>
+      <LightRadius Min="1" Max="5" Default="5" />
+      <LightReflectorRadius Min="10" Max="360" Default="360" />
+      <LightFalloff Min="1" Max="3" Default="1.5" />
+      <LightIntensity Min="0.5" Max="5" Default="3" />
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.0002</RequiredPowerInput>
+      <Flare>SpotlightSmall</Flare>
+      <ReflectorThickness>2.5</ReflectorThickness>
+      <ReflectorTexture>Textures\Lights\reflector_small.dds</ReflectorTexture>
+      <ReflectorConeDegrees>52</ReflectorConeDegrees>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+      <DestroySound>PoofExplosionCat2</DestroySound>
+      <PCU>25</PCU>
+      <IsAirTight>false</IsAirTight>      
+    </Definition>
+
+    <!-- Light range adjustments -->
+
+    <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+      <Id>
+        <TypeId>InteriorLight</TypeId>
+        <SubtypeId>SmallLight</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_InteriorLight</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\interior_light.dds</Icon>
+      <Description>Description_InteriorLight</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\InteriorLight.mwm</Model>
+      <Components>
+        <Component Subtype="Construction" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="Construction" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" ExclusionMask="3" PropertiesMask="3" StartX="0.4" StartY="0.44" EndX="0.6" EndY="0.55" />
+      </MountPoints>
+      <IsStandAlone>false</IsStandAlone>
+      <HasPhysics>false</HasPhysics>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\InteriorLightConstruction_1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>InteriorLight</BlockPairName>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <LightRadius Min="1" Max="40" Default="3.6" />
+      <LightFalloff Min="0" Max="3" Default="1.3" />
+      <LightIntensity Min="0.5" Max="10" Default="5" />
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.00006</RequiredPowerInput>
+      <Flare>InteriorLight</Flare>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+      <DestroyEffectOffset>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1.1</Z>
+      </DestroyEffectOffset>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>25</PCU>
+      <IsAirTight>false</IsAirTight>      
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+      <Id>
+        <TypeId>InteriorLight</TypeId>
+        <SubtypeId>SmallBlockSmallLight</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_InteriorLight</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\interior_light.dds</Icon>
+      <Description>Description_InteriorLight</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="-1" />
+      <Model>Models\Cubes\Large\InteriorLight.mwm</Model>
+      <Components>
+        <Component Subtype="Construction" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="Construction" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" ExclusionMask="3" PropertiesMask="3" StartX="0.4" StartY="0.44" EndX="0.6" EndY="0.55" />
+      </MountPoints>
+      <IsStandAlone>false</IsStandAlone>
+      <HasPhysics>false</HasPhysics>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\InteriorLightConstruction_1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>InteriorLight</BlockPairName>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <Flare>InteriorLightSmall</Flare>
+      <LightRadius Min="1" Max="20" Default="3.6" />
+      <LightFalloff Min="0" Max="3" Default="1.3" />
+      <LightIntensity Min="0.5" Max="10" Default="5" />
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.00006</RequiredPowerInput>
+      <LightGlare>GlareLsInteriorLight</LightGlare>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>25</PCU>
+      <IsAirTight>false</IsAirTight>      
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+      <Id>
+        <TypeId>InteriorLight</TypeId>
+        <SubtypeId>LargeBlockLight_1corner</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_CornerLight</DisplayName>
+      <BlockPairName>CornerLight</BlockPairName>
+      <Icon>Textures\GUI\Icons\Cubes\Light_1corner.dds</Icon>
+      <Description>Description_CornerLight</Description>
+      <CubeSize>Large</CubeSize>
+        <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\large\Light_1corner.mwm</Model>
+      <Components>
+        <Component Subtype="Construction" Count="3" />
+      </Components>
+      <CriticalComponent Subtype="Construction" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.24" />
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.76" EndX="1.00" EndY="1.00" />
+      </MountPoints>
+      <IsStandAlone>false</IsStandAlone>
+      <HasPhysics>false</HasPhysics>
+      <EdgeType>Light</EdgeType>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\Light_1corner_Construction_1.mwm" />
+      </BuildProgressModels>
+      <BuildTimeSeconds>4</BuildTimeSeconds>
+      <Flare>NoFlare</Flare>
+      <LightRadius Min="0.1" Max="40" Default="2.0" />
+      <LightFalloff Min="0" Max="2" Default="1.0" />
+      <LightIntensity Min="0.0" Max="10" Default="4.0" />
+      <RequiredPowerInput>0.00008</RequiredPowerInput>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+      <DestroyEffectOffset>
+        <X>0</X>
+        <Y>-1.1</Y>
+        <Z>1.1</Z>
+      </DestroyEffectOffset>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>25</PCU>
+      <IsAirTight>false</IsAirTight>      
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+      <Id>
+        <TypeId>InteriorLight</TypeId>
+        <SubtypeId>LargeBlockLight_2corner</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_CornerLightDouble</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Light_2corner.dds</Icon>
+      <Description>Description_CornerLight</Description>
+      <CubeSize>Large</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\large\Light_2corner.mwm</Model>
+      <Components>
+        <Component Subtype="Construction" Count="6" />
+      </Components>
+      <CriticalComponent Subtype="Construction" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.24" />
+        <MountPoint Side="Back" StartX="0.00" StartY="0.76" EndX="1.00" EndY="1.00" />
+      </MountPoints>
+      <IsStandAlone>false</IsStandAlone>
+      <HasPhysics>false</HasPhysics>
+      <EdgeType>Light</EdgeType>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\Light_2corner_Construction_1.mwm" />
+      </BuildProgressModels>
+      <BuildTimeSeconds>6</BuildTimeSeconds>
+      <Flare>NoFlare</Flare>
+      <LightRadius Min="0.1" Max="20" Default="2.0" />
+      <LightFalloff Min="0" Max="2" Default="1.0" />
+      <LightIntensity Min="0.0" Max="10" Default="4.0" />
+      <RequiredPowerInput>0.00008</RequiredPowerInput>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+      <DestroyEffectOffset>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1.1</Z>
+      </DestroyEffectOffset>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>25</PCU>
+      <IsAirTight>false</IsAirTight>      
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+      <Id>
+        <TypeId>InteriorLight</TypeId>
+        <SubtypeId>SmallBlockLight_1corner</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_CornerLight</DisplayName>
+      <BlockPairName>CornerLight</BlockPairName>
+      <Icon>Textures\GUI\Icons\Cubes\Light_1corner.dds</Icon>
+      <Description>Description_CornerLight</Description>
+      <CubeSize>Small</CubeSize>
+        <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\small\Light_1corner.mwm</Model>
+      <Components>
+        <Component Subtype="Construction" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="Construction" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.24" />
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.76" EndX="1.00" EndY="1.00" />
+      </MountPoints>
+      <IsStandAlone>false</IsStandAlone>
+      <HasPhysics>false</HasPhysics>
+      <EdgeType>Light</EdgeType>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\Light_1corner_Construction_1.mwm" />
+      </BuildProgressModels>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <Flare>NoFlare</Flare>
+      <LightRadius Min="0.1" Max="20" Default="2.0" />
+      <LightFalloff Min="0" Max="2" Default="1.0" />
+      <LightIntensity Min="0.0" Max="10" Default="4.0" />
+      <RequiredPowerInput>0.00008</RequiredPowerInput>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>25</PCU>
+      <IsAirTight>false</IsAirTight>      
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+      <Id>
+        <TypeId>InteriorLight</TypeId>
+        <SubtypeId>SmallBlockLight_2corner</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_CornerLightDouble</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Light_2corner.dds</Icon>
+      <Description>Description_CornerLight</Description>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\small\Light_2corner.mwm</Model>
+      <Components>
+        <Component Subtype="Construction" Count="4" />
+      </Components>
+      <CriticalComponent Subtype="Construction" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.24" />
+        <MountPoint Side="Back" StartX="0.00" StartY="0.76" EndX="1.00" EndY="1.00" />
+      </MountPoints>
+      <IsStandAlone>false</IsStandAlone>
+      <HasPhysics>false</HasPhysics>
+      <EdgeType>Light</EdgeType>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\Light_2corner_Construction_1.mwm" />
+      </BuildProgressModels>
+      <BuildTimeSeconds>4</BuildTimeSeconds>
+      <Flare>NoFlare</Flare>
+      <LightRadius Min="0.1" Max="20" Default="2.0" />
+      <LightFalloff Min="0" Max="2" Default="1.0" />
+      <LightIntensity Min="0.0" Max="10" Default="4.0" />
+      <RequiredPowerInput>0.00008</RequiredPowerInput>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringY>Z</MirroringY>
+      <ResourceSourceGroup>Battery</ResourceSourceGroup>
+      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>25</PCU>
+      <IsAirTight>false</IsAirTight>      
+    </Definition>
+    
+  </CubeBlocks>
+</Definitions>
