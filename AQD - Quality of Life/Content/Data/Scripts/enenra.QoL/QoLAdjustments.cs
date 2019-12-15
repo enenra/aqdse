@@ -4,6 +4,8 @@ using VRage.Game;
 using System.Linq;
 using Sandbox.Common.ObjectBuilders;
 using Sandbox.ModAPI;
+using System.Collections.Generic;
+using System;
 
 namespace enenra.QoL
 {
@@ -13,7 +15,6 @@ namespace enenra.QoL
         public override void BeforeStart()
         {
             base.BeforeStart();
-            if (MyAPIGateway.Multiplayer.IsServer) return;
             ChangeCubeBlocks();
             ChangeAmmos();
         }
@@ -48,33 +49,76 @@ namespace enenra.QoL
             }
         }
 
-        private static void ChangeAmmos()
+        private void ChangeAmmos()
         {
-            foreach (MyDefinitionBase def in MyDefinitionManager.Static.GetAllDefinitions())
+            foreach (var def in GetAmmoDefinitions())
             {
-                MyAmmoDefinition ammoDef = def as MyAmmoDefinition;
-                if (ammoDef == null) continue;
 
-                if (ammoDef.Id.TypeId == typeof(MyProjectileAmmoDefinition))
+                var caliberDef = def as MyProjectileAmmoDefinition;
+
+                if (caliberDef != null)
                 {
-                    var caliberDef = ammoDef as MyProjectileAmmoDefinition;
 
                     if (caliberDef.Id.SubtypeName == "SmallCaliber")
                     {
+                        MyAPIGateway.Utilities.ShowMessage("QoL", "SmallCaliber adjusted");
+                        caliberDef.ProjectileTrailScale = 0.25f;
                         caliberDef.ProjectileTrailColor.X = 0.25f;
-                        caliberDef.ProjectileTrailColor.Y = 0.155f;
+                        caliberDef.ProjectileTrailColor.Y = 0.125f;
                         caliberDef.ProjectileTrailColor.Z = 0.1f;
                         caliberDef.ProjectileTrailProbability = 1.0f;
                     }
                     else if (caliberDef.Id.SubtypeName == "LargeCaliber")
                     {
+                        MyAPIGateway.Utilities.ShowMessage("QoL", "LargeCaliber adjusted");
+                        caliberDef.ProjectileTrailScale = 0.75f;
                         caliberDef.ProjectileTrailColor.X = 0.25f;
-                        caliberDef.ProjectileTrailColor.Y = 0.155f;
+                        caliberDef.ProjectileTrailColor.Y = 0.125f;
                         caliberDef.ProjectileTrailColor.Z = 0.1f;
                         caliberDef.ProjectileTrailProbability = 1.0f;
                     }
                 }
             }
+        }
+
+        public List<MyAmmoDefinition> GetAmmoDefinitions()
+        {
+
+            var allItems = MyDefinitionManager.Static.GetPhysicalItemDefinitions();
+            var ammoDefinitions = new List<MyAmmoDefinition>();
+
+            foreach (var item in allItems.Where(x => x as MyAmmoMagazineDefinition != null))
+            {
+
+                var ammoMag = item as MyAmmoMagazineDefinition;
+
+                try
+                {
+
+                    var ammoDef = MyDefinitionManager.Static.GetAmmoDefinition(ammoMag.AmmoDefinitionId);
+                    ammoDefinitions.Add(ammoDef);
+
+                }
+                catch (Exception)
+                {
+
+
+
+                }
+
+            }
+
+            return ammoDefinitions;
+
+        }
+        public override void LoadData()
+        {
+            LoadMessage.LoadData();
+        }
+
+        protected override void UnloadData()
+        {
+            LoadMessage.UnloadData();
         }
     }
 }
