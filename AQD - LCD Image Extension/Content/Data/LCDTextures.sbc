@@ -57,7 +57,7 @@
         <TypeId>LCDTextureDefinition</TypeId>
         <SubtypeId>AQD_LCD_Welder</SubtypeId>
       </Id>
-      <LocalizationId>Welder</LocalizationId>
+      <LocalizationId>LCD_AQD_LCD_Welder</LocalizationId>
      <TexturePath>Textures\Models\AQD_LCD_Welder.dds</TexturePath>
      <TexturePath>Textures\Sprites\AQD_LCD_Welder.dds</TexturePath>
     </LCDTextureDefinition>
@@ -67,7 +67,7 @@
         <TypeId>LCDTextureDefinition</TypeId>
         <SubtypeId>AQD_LCD_Grinder</SubtypeId>
       </Id>
-      <LocalizationId>Grinder</LocalizationId>
+      <LocalizationId>LCD_AQD_LCD_Grinder</LocalizationId>
      <TexturePath>Textures\Models\AQD_LCD_Grinder.dds</TexturePath>
      <TexturePath>Textures\Sprites\AQD_LCD_Grinder.dds</TexturePath>
     </LCDTextureDefinition>
@@ -77,7 +77,7 @@
         <TypeId>LCDTextureDefinition</TypeId>
         <SubtypeId>AQD_LCD_Drill</SubtypeId>
       </Id>
-      <LocalizationId>Drill</LocalizationId>
+      <LocalizationId>LCD_AQD_LCD_Drill</LocalizationId>
      <TexturePath>Textures\Models\AQD_LCD_Drill.dds</TexturePath>
      <TexturePath>Textures\Sprites\AQD_LCD_Drill.dds</TexturePath>
     </LCDTextureDefinition>
@@ -87,7 +87,7 @@
         <TypeId>LCDTextureDefinition</TypeId>
         <SubtypeId>AQD_LCD_Flammable</SubtypeId>
       </Id>
-      <LocalizationId>Flammable</LocalizationId>
+      <LocalizationId>LCD_AQD_LCD_Flammable</LocalizationId>
      <TexturePath>Textures\Models\AQD_LCD_Flammable.dds</TexturePath>
      <TexturePath>Textures\Sprites\AQD_LCD_Flammable.dds</TexturePath>
     </LCDTextureDefinition>
@@ -97,7 +97,7 @@
         <TypeId>LCDTextureDefinition</TypeId>
         <SubtypeId>AQD_LCD_Depressurized</SubtypeId>
       </Id>
-      <LocalizationId>Depressurized</LocalizationId>
+      <LocalizationId>LCD_AQD_LCD_Depressurized</LocalizationId>
      <TexturePath>Textures\Models\AQD_LCD_Depressurized.dds</TexturePath>
      <TexturePath>Textures\Sprites\AQD_LCD_Depressurized.dds</TexturePath>
     </LCDTextureDefinition>
@@ -107,7 +107,7 @@
         <TypeId>LCDTextureDefinition</TypeId>
         <SubtypeId>AQD_LCD_Pressurized</SubtypeId>
       </Id>
-      <LocalizationId>Pressurized</LocalizationId>
+      <LocalizationId>LCD_AQD_LCD_Pressurized</LocalizationId>
      <TexturePath>Textures\Models\AQD_LCD_Pressurized.dds</TexturePath>
      <TexturePath>Textures\Sprites\AQD_LCD_Pressurized.dds</TexturePath>
     </LCDTextureDefinition>
@@ -117,7 +117,7 @@
         <TypeId>LCDTextureDefinition</TypeId>
         <SubtypeId>AQD_LCD_Medical</SubtypeId>
       </Id>
-      <LocalizationId>Medical</LocalizationId>
+      <LocalizationId>LCD_AQD_LCD_Medical</LocalizationId>
      <TexturePath>Textures\Models\AQD_LCD_Medical.dds</TexturePath>
      <TexturePath>Textures\Sprites\AQD_LCD_Medical.dds</TexturePath>
     </LCDTextureDefinition>
@@ -127,9 +127,19 @@
         <TypeId>LCDTextureDefinition</TypeId>
         <SubtypeId>AQD_LCD_Electricity</SubtypeId>
       </Id>
-      <LocalizationId>Electricity</LocalizationId>
+      <LocalizationId>LCD_AQD_LCD_Electricity</LocalizationId>
      <TexturePath>Textures\Models\AQD_LCD_Electricity.dds</TexturePath>
      <TexturePath>Textures\Sprites\AQD_LCD_Electricity.dds</TexturePath>
+    </LCDTextureDefinition>
+
+    <LCDTextureDefinition>
+      <Id>
+        <TypeId>LCDTextureDefinition</TypeId>
+        <SubtypeId>AQD_LCD_Stripes</SubtypeId>
+      </Id>
+      <LocalizationId>LCD_AQD_LCD_Stripes</LocalizationId>
+     <TexturePath>Textures\Models\AQD_LCD_Stripes.dds</TexturePath>
+     <TexturePath>Textures\Sprites\AQD_LCD_Stripes.dds</TexturePath>
     </LCDTextureDefinition>
 
   </LCDTextures>
