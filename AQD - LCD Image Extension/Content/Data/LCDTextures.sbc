@@ -135,6 +135,26 @@
     <LCDTextureDefinition>
       <Id>
         <TypeId>LCDTextureDefinition</TypeId>
+        <SubtypeId>AQD_LCD_Biohazard</SubtypeId>
+      </Id>
+      <LocalizationId>LCD_AQD_LCD_Biohazard</LocalizationId>
+     <TexturePath>Textures\Models\AQD_LCD_Biohazard.dds</TexturePath>
+     <TexturePath>Textures\Sprites\AQD_LCD_Biohazard.dds</TexturePath>
+    </LCDTextureDefinition>
+
+    <LCDTextureDefinition>
+      <Id>
+        <TypeId>LCDTextureDefinition</TypeId>
+        <SubtypeId>AQD_LCD_Nuclear</SubtypeId>
+      </Id>
+      <LocalizationId>LCD_AQD_LCD_Nuclear</LocalizationId>
+     <TexturePath>Textures\Models\AQD_LCD_Nuclear.dds</TexturePath>
+     <TexturePath>Textures\Sprites\AQD_LCD_Nuclear.dds</TexturePath>
+    </LCDTextureDefinition>
+
+    <LCDTextureDefinition>
+      <Id>
+        <TypeId>LCDTextureDefinition</TypeId>
         <SubtypeId>AQD_LCD_Stripes</SubtypeId>
       </Id>
       <LocalizationId>LCD_AQD_LCD_Stripes</LocalizationId>
