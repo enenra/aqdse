@@ -141,6 +141,9 @@
   <data name="DisplayName_AQD_LG_HA_SlabSlope" xml:space="preserve">
     <value>Heavy Armor Slab Slope</value>
   </data>
+  <data name="DisplayName_AQD_LG_HA_Slab_Corner_Split" xml:space="preserve">
+    <value>Heavy Armor Slab Corner Split</value>
+  </data>
   <data name="DisplayName_AQD_LG_HA_Slab_InvCorner" xml:space="preserve">
     <value>Heavy Armor Slab Inverted Corner</value>
   </data>
@@ -170,6 +173,9 @@
   </data>
   <data name="DisplayName_AQD_LG_LA_SlabSlope" xml:space="preserve">
     <value>Light Armor Slab Slope</value>
+  </data>
+  <data name="DisplayName_AQD_LG_LA_Slab_Corner_Split" xml:space="preserve">
+    <value>Light Armor Slab Corner Split</value>
   </data>
   <data name="DisplayName_AQD_LG_LA_Slab_InvCorner" xml:space="preserve">
     <value>Light Armor Slab Inverted Corner</value>
