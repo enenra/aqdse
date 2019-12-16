@@ -61,7 +61,6 @@ namespace enenra.QoL
 
                     if (caliberDef.Id.SubtypeName == "SmallCaliber")
                     {
-                        MyAPIGateway.Utilities.ShowMessage("QoL", "SmallCaliber adjusted");
                         caliberDef.ProjectileTrailScale = 0.25f;
                         caliberDef.ProjectileTrailColor.X = 0.25f;
                         caliberDef.ProjectileTrailColor.Y = 0.125f;
@@ -70,7 +69,6 @@ namespace enenra.QoL
                     }
                     else if (caliberDef.Id.SubtypeName == "LargeCaliber")
                     {
-                        MyAPIGateway.Utilities.ShowMessage("QoL", "LargeCaliber adjusted");
                         caliberDef.ProjectileTrailScale = 0.75f;
                         caliberDef.ProjectileTrailColor.X = 0.25f;
                         caliberDef.ProjectileTrailColor.Y = 0.125f;
