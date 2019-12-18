@@ -178,10 +178,10 @@
     <value>Light Armor Corner Split</value>
   </data>
   <data name="DisplayName_AQD_LG_LA_Corner_Split_2x1x1_Base" xml:space="preserve">
-    <value>Light Armor Corner Split 2x1x1 Tip</value>
+    <value>Light Armor Corner Split 2x1x1 Base</value>
   </data>
   <data name="DisplayName_AQD_LG_LA_Corner_Split_2x1x1_Tip" xml:space="preserve">
-    <value>Light Armor Corner Split 2x1x1 Base</value>
+    <value>Light Armor Corner Split 2x1x1 Tip</value>
   </data>
   <data name="DisplayName_AQD_LG_LA_Half_Corner_Inv_Base" xml:space="preserve">
     <value>Light Armor Half Inverted Corner Base</value>
