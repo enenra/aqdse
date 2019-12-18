@@ -33,8 +33,8 @@
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\armor\AQD_LG_LA_Corner_Bevel_BS2.mwm" />
       </BuildProgressModels>
       <BlockPairName>AQD_LA_Corner_Bevel</BlockPairName>
-      <MirroringX>X</MirroringX>
-      <MirroringY>Y</MirroringY>
+      <MirroringX>Y</MirroringX>
+      <MirroringY>X</MirroringY>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>6</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
@@ -71,8 +71,8 @@
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\armor\AQD_SG_LA_Corner_Bevel_BS2.mwm" />
       </BuildProgressModels>
       <BlockPairName>AQD_LA_Corner_Bevel</BlockPairName>
-      <MirroringX>X</MirroringX>
-      <MirroringY>Y</MirroringY>
+      <MirroringX>Y</MirroringX>
+      <MirroringY>X</MirroringY>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>3</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
@@ -111,8 +111,8 @@
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\armor\AQD_LG_LA_Corner_Bevel_BS2.mwm" />
       </BuildProgressModels>
       <BlockPairName>AQD_HA_Corner_Bevel</BlockPairName>
-      <MirroringX>X</MirroringX>
-      <MirroringY>Y</MirroringY>
+      <MirroringX>Y</MirroringX>
+      <MirroringY>X</MirroringY>
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>15</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
@@ -151,8 +151,8 @@
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\armor\AQD_SG_LA_Corner_Bevel_BS2.mwm" />
       </BuildProgressModels>
       <BlockPairName>AQD_HA_Corner_Bevel</BlockPairName>
-      <MirroringX>X</MirroringX>
-      <MirroringY>Y</MirroringY>
+      <MirroringX>Y</MirroringX>
+      <MirroringY>X</MirroringY>
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>5</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>

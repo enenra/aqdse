@@ -29,8 +29,9 @@
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\armor\AQD_LG_LA_Plate_Triangle_BS2.mwm" />
       </BuildProgressModels>
       <BlockPairName>AQD_LA_Plate_Triangle</BlockPairName>
-      <MirroringX>X</MirroringX>
-      <MirroringY>Y</MirroringY>
+      <MirroringX>MinusHalfY</MirroringX>
+      <MirroringY>ZHalfY</MirroringY>
+      <MirroringZ>HalfY</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>2</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
@@ -64,8 +65,9 @@
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\armor\AQD_SG_LA_Plate_Triangle_BS2.mwm" />
       </BuildProgressModels>
       <BlockPairName>AQD_LA_Plate_Triangle</BlockPairName>
-      <MirroringX>X</MirroringX>
-      <MirroringY>Y</MirroringY>
+      <MirroringX>MinusHalfY</MirroringX>
+      <MirroringY>ZHalfY</MirroringY>
+      <MirroringZ>HalfY</MirroringZ>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>1</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
@@ -101,8 +103,9 @@
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\armor\AQD_LG_LA_Plate_Triangle_BS2.mwm" />
       </BuildProgressModels>
       <BlockPairName>AQD_HA_Plate_Triangle</BlockPairName>
-      <MirroringX>X</MirroringX>
-      <MirroringY>Y</MirroringY>
+      <MirroringX>MinusHalfY</MirroringX>
+      <MirroringY>ZHalfY</MirroringY>
+      <MirroringZ>HalfY</MirroringZ>
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>2.5</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
@@ -138,8 +141,9 @@
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\armor\AQD_SG_LA_Plate_Triangle_BS2.mwm" />
       </BuildProgressModels>
       <BlockPairName>AQD_HA_Plate_Triangle</BlockPairName>
-      <MirroringX>X</MirroringX>
-      <MirroringY>Y</MirroringY>
+      <MirroringX>MinusHalfY</MirroringX>
+      <MirroringY>ZHalfY</MirroringY>
+      <MirroringZ>HalfY</MirroringZ>
       <EdgeType>Heavy</EdgeType>
       <BuildTimeSeconds>1</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>

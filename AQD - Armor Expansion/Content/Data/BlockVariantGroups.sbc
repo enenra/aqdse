@@ -198,7 +198,7 @@
 
     <BlockVariantGroup>
       <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ArmorLightSlabGroup" />
-      <Icon>Textures\GUI\Icons\Cubes\LargeHalfArmorBlock.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\LightArmorSquareSlab.dds</Icon>
       <DisplayName>DisplayName_BlockGroup_LargeHalfArmorBlockGroup</DisplayName>
       <Description>Description_LightArmor</Description>
       <Blocks>
@@ -221,7 +221,7 @@
 
     <BlockVariantGroup>
       <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ArmorHeavySlabGroup" />
-      <Icon>Textures\GUI\Icons\Cubes\LargeHeavyHalfArmorBlock.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\HeavyArmorSquareSlab.dds</Icon>
       <DisplayName>DisplayName_BlockGroup_LargeHeavyHalfArmorBlockGroup</DisplayName>
       <Description>Description_HeavyArmor</Description>
       <Blocks>
