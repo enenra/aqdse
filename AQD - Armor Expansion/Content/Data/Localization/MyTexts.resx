@@ -138,8 +138,23 @@
   <data name="DisplayName_AQD_LG_HA_Inv_Corner_Split" xml:space="preserve">
     <value>Heavy Armor Inverted Corner Split</value>
   </data>
+  <data name="DisplayName_AQD_LG_HA_Plate_1x1" xml:space="preserve">
+    <value>Heavy Armor Plate 1x1</value>
+  </data>
+  <data name="DisplayName_AQD_LG_HA_Plate_2x1Base" xml:space="preserve">
+    <value>Heavy Armor Plate 2x1 Base</value>
+  </data>
+  <data name="DisplayName_AQD_LG_HA_Plate_2x1Tip" xml:space="preserve">
+    <value>Heavy Armor Plate 2x1 Tip</value>
+  </data>
+  <data name="DisplayName_AQD_LG_HA_Plate_Slope" xml:space="preserve">
+    <value>Heavy Armor Plate Slope</value>
+  </data>
   <data name="DisplayName_AQD_LG_HA_Plate_Slope2x1" xml:space="preserve">
     <value>Heavy Armor Plate Slope 2x1</value>
+  </data>
+  <data name="DisplayName_AQD_LG_HA_Plate_Triangle" xml:space="preserve">
+    <value>Heavy Armor Plate Triangle</value>
   </data>
   <data name="DisplayName_AQD_LG_HA_SlabSlope" xml:space="preserve">
     <value>Heavy Armor Slab Slope</value>
@@ -177,8 +192,23 @@
   <data name="DisplayName_AQD_LG_LA_Inv_Corner_Split" xml:space="preserve">
     <value>Light Armor Inverted Corner Split</value>
   </data>
+  <data name="DisplayName_AQD_LG_LA_Plate_1x1" xml:space="preserve">
+    <value>Light Armor Plate 1x1</value>
+  </data>
+  <data name="DisplayName_AQD_LG_LA_Plate_2x1Base" xml:space="preserve">
+    <value>Light Armor Plate 2x1 Base</value>
+  </data>
+  <data name="DisplayName_AQD_LG_LA_Plate_2x1Tip" xml:space="preserve">
+    <value>Light Armor Plate 2x1 Tip</value>
+  </data>
+  <data name="DisplayName_AQD_LG_LA_Plate_Slope" xml:space="preserve">
+    <value>Light Armor Plate Slope</value>
+  </data>
   <data name="DisplayName_AQD_LG_LA_Plate_Slope2x1" xml:space="preserve">
     <value>Light Armor Plate Slope 2x1</value>
+  </data>
+  <data name="DisplayName_AQD_LG_LA_Plate_Triangle" xml:space="preserve">
+    <value>Light Armor Plate Triangle</value>
   </data>
   <data name="DisplayName_AQD_LG_LA_SlabSlope" xml:space="preserve">
     <value>Light Armor Slab Slope</value>
