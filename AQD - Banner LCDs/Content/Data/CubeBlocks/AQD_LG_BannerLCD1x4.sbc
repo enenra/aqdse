@@ -18,8 +18,9 @@
       <ModelOffset x="0" y="0" z="0" />
       <Components>
         <Component Subtype="Display" Count="40" />
+        <Component Subtype="Computer" Count="1" />
       </Components>
-      <CriticalComponent Subtype="Display" Index="0" />
+      <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="4" EndY="1" Default="true" />
       </MountPoints>
@@ -61,8 +62,9 @@
       <ModelOffset x="0" y="0" z="0" />
       <Components>
         <Component Subtype="Display" Count="8" />
+        <Component Subtype="Computer" Count="1" />
       </Components>
-      <CriticalComponent Subtype="Display" Index="0" />
+      <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="4" EndY="1" Default="true" />
       </MountPoints>
