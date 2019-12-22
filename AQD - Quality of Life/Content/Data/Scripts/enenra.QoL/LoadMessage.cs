@@ -10,7 +10,7 @@ namespace enenra.QoL
         private const string SENDER = "enenra";
         private const string VARIABLE_NAME = "displayCount";
         private const int MAX_TIMES = 2;
-        private const string MESSAGE1 = "PSA for AQD - Quality of Life mod users: I've decided to refocus the mod. The following mods have been removed from the pack: BuildVision, HUD Compass, Sleep Mod. They will be moved to another modpack instead. Please visit the QoL mod page for more details.";
+        private const string MESSAGE1 = "PSA for AQD - Quality of Life mod users: I've decided to refocus the mod. The following mods have been removed from the pack: BuildVision, HUD Compass, Sleep Mod. They will be moved to my new modpack, Vanilla Extension, instead. Please visit the QoL mod page for more details.";
         private const string MESSAGE2 = "This message will only show twice on load per world, and will be removed completely in a week or so.";
         private static int _amountDisplayed;
 
