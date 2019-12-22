@@ -132,6 +132,9 @@
   <data name="DisplayName_AQD_LG_HA_Half_Corner_Inv_Base" xml:space="preserve">
     <value>Heavy Armor Half Inverted Corner Base</value>
   </data>
+  <data name="DisplayName_AQD_LG_HA_Half_Corner_Inv_BaseMirror" xml:space="preserve">
+    <value>Heavy Armor Half Inverted Corner Base Mirrored</value>
+  </data>
   <data name="DisplayName_AQD_LG_HA_Half_Corner_Inv_Tip" xml:space="preserve">
     <value>Heavy Armor Half Inverted Corner Tip</value>
   </data>
@@ -144,8 +147,14 @@
   <data name="DisplayName_AQD_LG_HA_Plate_2x1Base" xml:space="preserve">
     <value>Heavy Armor Plate 2x1 Base</value>
   </data>
+  <data name="DisplayName_AQD_LG_HA_Plate_2x1BaseMirror" xml:space="preserve">
+    <value>Heavy Armor Plate 2x1 Base Mirrored</value>
+  </data>
   <data name="DisplayName_AQD_LG_HA_Plate_2x1Tip" xml:space="preserve">
     <value>Heavy Armor Plate 2x1 Tip</value>
+  </data>
+  <data name="DisplayName_AQD_LG_HA_Plate_2x1TipMirror" xml:space="preserve">
+    <value>Heavy Armor Plate 2x1 Tip Mirrored</value>
   </data>
   <data name="DisplayName_AQD_LG_HA_Plate_Slope" xml:space="preserve">
     <value>Heavy Armor Plate Slope</value>
@@ -186,6 +195,9 @@
   <data name="DisplayName_AQD_LG_LA_Half_Corner_Inv_Base" xml:space="preserve">
     <value>Light Armor Half Inverted Corner Base</value>
   </data>
+  <data name="DisplayName_AQD_LG_LA_Half_Corner_Inv_BaseMirror" xml:space="preserve">
+    <value>Light Armor Half Inverted Corner Base Mirrored</value>
+  </data>
   <data name="DisplayName_AQD_LG_LA_Half_Corner_Inv_Tip" xml:space="preserve">
     <value>Light Armor Half Inverted Corner Tip</value>
   </data>
@@ -198,8 +210,14 @@
   <data name="DisplayName_AQD_LG_LA_Plate_2x1Base" xml:space="preserve">
     <value>Light Armor Plate 2x1 Base</value>
   </data>
+  <data name="DisplayName_AQD_LG_LA_Plate_2x1BaseMirror" xml:space="preserve">
+    <value>Light Armor Plate 2x1 Base Mirrored</value>
+  </data>
   <data name="DisplayName_AQD_LG_LA_Plate_2x1Tip" xml:space="preserve">
     <value>Light Armor Plate 2x1 Tip</value>
+  </data>
+  <data name="DisplayName_AQD_LG_LA_Plate_2x1TipMirror" xml:space="preserve">
+    <value>Light Armor Plate 2x1 Tip Mirrored</value>
   </data>
   <data name="DisplayName_AQD_LG_LA_Plate_Slope" xml:space="preserve">
     <value>Light Armor Plate Slope</value>
