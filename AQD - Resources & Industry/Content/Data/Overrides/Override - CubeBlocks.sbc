@@ -135,7 +135,6 @@
     </Definition>
 
     <!-- Yield Module is disabled in AQD. -->
-    <!-- Keen fucked removing blocks. I'm hoping they'll fix that though, so I'm going to keep this here until they do or I run out of patience.
     <Definition Enabled="false" xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
       <Id>
         <TypeId>UpgradeModule</TypeId>
@@ -191,7 +190,6 @@
       <PCU>1</PCU>
       <IsAirTight>false</IsAirTight>      
     </Definition>
-  -->
     
   </CubeBlocks>
 </Definitions>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlockVariantGroups>
+
+    <!-- Yield Module is disabled in AQD.
+      Keen fucked removing blocks. If they're referenced in the new radial menu but not in cubeblocks, game crashes. Also removing the block from this file prevents the crash. -->
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="UpgradeModuleGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\UpgradeProductivity.dds</Icon>
+      <DisplayName>DisplayName_BlockGroup_UpgradeModuleGroup</DisplayName>
+      <Description>Description_BlockGroup_UpgradeModuleGroup</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_UpgradeModule" Subtype="LargeProductivityModule" />
+        <Block Type="MyObjectBuilder_UpgradeModule" Subtype="LargeEnergyModule" />
+      </Blocks>
+    </BlockVariantGroup>
+
+  </BlockVariantGroups>
+</Definitions>
