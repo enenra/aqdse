@@ -11,6 +11,21 @@
       <Name>SmallBlocks</Name>
       <ItemIds>
         <string>ButtonPanel/AQD_SG_MultiButton</string>
+        <string>Cockpit/PassengerSeatSmallNarrow</string>
+        <string>Cockpit/OpenCockpitSmallNarrow</string>
+      </ItemIds>
+    </Category>
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_Cockpit</DisplayName>
+      <Name>Cockpits</Name>
+      <ItemIds>
+        <string>Cockpit/PassengerSeatSmallNarrow</string>
+        <string>Cockpit/OpenCockpitSmallNarrow</string>
       </ItemIds>
     </Category>
 

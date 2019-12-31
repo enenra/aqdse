@@ -120,4 +120,10 @@
   <data name="DisplayName_AQD_SG_ButtonPanelSmallMulti" xml:space="preserve">
     <value>Multi Button</value>
   </data>
+  <data name="DisplayName_Block_OpenCockpitSmallNarrow" xml:space="preserve">
+    <value>Control Seat Narrow</value>
+  </data>
+  <data name="DisplayName_Block_PassengerSeatNarrow" xml:space="preserve">
+    <value>Passenger Seat Narrow</value>
+  </data>
 </root>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlockVariantGroups>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="OpenCockpitGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\OpenCockpitSmall.dds</Icon>
+      <DisplayName>DisplayName_Block_OpenCockpitSmall</DisplayName>
+      <Description>Description_ControlStation</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCockpit" />
+        <Block Type="MyObjectBuilder_Cockpit" Subtype="CockpitOpen" />
+        <Block Type="MyObjectBuilder_Cockpit" Subtype="OpenCockpitLarge" />
+        <Block Type="MyObjectBuilder_Cockpit" Subtype="OpenCockpitSmall" />
+        <Block Type="MyObjectBuilder_Cockpit" Subtype="OpenCockpitSmallNarrow" />
+        <Block Type="MyObjectBuilder_Cockpit" Subtype="PassengerSeatLarge" />
+        <Block Type="MyObjectBuilder_Cockpit" Subtype="PassengerSeatSmall" />
+        <Block Type="MyObjectBuilder_Cockpit" Subtype="PassengerSeatSmallNarrow" />
+      </Blocks>
+    </BlockVariantGroup>
+
+  </BlockVariantGroups>
+</Definitions>
