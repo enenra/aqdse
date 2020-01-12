@@ -19,6 +19,12 @@ namespace enenra.RemoveEdges
                 if (blockDef == null)
                     continue;
 
+                if (blockDef.BlockTopology == null)
+                    continue;
+
+                if (blockDef.CubeDefinition == null)
+                    continue;
+
                 if (blockDef.BlockTopology == MyBlockTopology.TriangleMesh)
                     continue;
 
