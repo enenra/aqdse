@@ -54,8 +54,8 @@
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId/>
       </Id>
-      <DisplayName>DisplayName_Category_ConveyorBlocks</DisplayName>
-      <Name>Conveyors</Name>
+      <DisplayName>DisplayName_Category_SmallBlocks</DisplayName>
+      <Name>SmallBlocks</Name>
       <ItemIds>
         <string>CubeBlock/AQD_SG_HA_Corner_Bevel</string>
         <string>CubeBlock/AQD_SG_HA_Corner_Split</string>
