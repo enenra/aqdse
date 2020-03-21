@@ -20,9 +20,9 @@
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.05" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.5" EndY="0.05" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.5" EndY="1" Default="true" />
       </MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\armor\AQD_LG_LA_Plate_2x1Tip_BS1.mwm" />
@@ -56,9 +56,9 @@
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.05" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.5" EndY="0.05" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.5" EndY="1" Default="true" />
       </MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\armor\AQD_SG_LA_Plate_2x1Tip_BS1.mwm" />
@@ -94,9 +94,9 @@
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.05" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.5" EndY="0.05" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.5" EndY="1" Default="true" />
       </MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\armor\AQD_LG_LA_Plate_2x1Tip_BS1.mwm" />
@@ -132,9 +132,9 @@
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.05" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.5" EndY="0.05" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.5" EndY="1" Default="true" />
       </MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\armor\AQD_SG_LA_Plate_2x1Tip_BS1.mwm" />
@@ -171,9 +171,9 @@
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Back" StartX="0.5" StartY="0" EndX="1" EndY="0.05" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.05" />
+        <MountPoint Side="Bottom" StartX="0.5" StartY="0" EndX="1" EndY="1" Default="true" />
       </MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\armor\AQD_LG_LA_Plate_2x1TipMirror_BS1.mwm" />
@@ -207,9 +207,9 @@
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Back" StartX="0.5" StartY="0" EndX="1" EndY="0.05" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.05" />
+        <MountPoint Side="Bottom" StartX="0.5" StartY="0" EndX="1" EndY="1" Default="true" />
       </MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\armor\AQD_SG_LA_Plate_2x1TipMirror_BS1.mwm" />
@@ -245,9 +245,9 @@
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Back" StartX="0.5" StartY="0" EndX="1" EndY="0.05" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.05" />
+        <MountPoint Side="Bottom" StartX="0.5" StartY="0" EndX="1" EndY="1" Default="true" />
       </MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\armor\AQD_LG_LA_Plate_2x1TipMirror_BS1.mwm" />
@@ -283,9 +283,9 @@
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Back" StartX="0.5" StartY="0" EndX="1" EndY="0.05" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.05" />
+        <MountPoint Side="Bottom" StartX="0.5" StartY="0" EndX="1" EndY="1" Default="true" />
       </MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\armor\AQD_SG_LA_Plate_2x1TipMirror_BS1.mwm" />

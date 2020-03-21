@@ -20,10 +20,10 @@
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.05" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.05" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.05" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.05" />
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
       </MountPoints>
       <BuildProgressModels>
@@ -57,10 +57,10 @@
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.05" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.05" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.05" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.05" />
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
       </MountPoints>
       <BuildProgressModels>
@@ -96,10 +96,10 @@
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.05" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.05" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.05" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.05" />
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
       </MountPoints>
       <BuildProgressModels>
@@ -135,10 +135,10 @@
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
-        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="0.05" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.05" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.05" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.05" />
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
       </MountPoints>
       <BuildProgressModels>
