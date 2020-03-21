@@ -161,7 +161,6 @@
       <DisplayName>DisplayName_AQD_LG_LA_Plate_2x1TipMirror</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_LA_Plate_2x1Tip.dds</Icon>
       <Description>Description_LightArmor</Description>
-      <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -174,7 +173,7 @@
       <MountPoints>
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
       </MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\armor\AQD_LG_LA_Plate_2x1TipMirror_BS1.mwm" />
@@ -198,7 +197,6 @@
       <DisplayName>DisplayName_AQD_LG_LA_Plate_2x1TipMirror</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_LA_Plate_2x1Tip.dds</Icon>
       <Description>Description_LightArmor</Description>
-      <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -211,7 +209,7 @@
       <MountPoints>
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
       </MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\armor\AQD_SG_LA_Plate_2x1TipMirror_BS1.mwm" />
@@ -235,7 +233,6 @@
       <DisplayName>DisplayName_AQD_LG_HA_Plate_2x1TipMirror</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_HA_Plate_2x1Tip.dds</Icon>
       <Description>Description_HeavyArmor</Description>
-      <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -250,7 +247,7 @@
       <MountPoints>
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
       </MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\armor\AQD_LG_LA_Plate_2x1TipMirror_BS1.mwm" />
@@ -274,7 +271,6 @@
       <DisplayName>DisplayName_AQD_LG_HA_Plate_2x1TipMirror</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_HA_Plate_2x1Tip.dds</Icon>
       <Description>Description_HeavyArmor</Description>
-      <GuiVisible>false</GuiVisible>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -289,7 +285,7 @@
       <MountPoints>
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
       </MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\armor\AQD_SG_LA_Plate_2x1TipMirror_BS1.mwm" />
