@@ -28,12 +28,12 @@
         <Block Type="MyObjectBuilder_Conveyor" Subtype="AQD_LG_ConveyorT" />
         <Block Type="MyObjectBuilder_Conveyor" Subtype="AQD_LG_ConveyorX" />
         <Block Type="MyObjectBuilder_Conveyor" Subtype="LargeBlockConveyor" />
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="SmallShipConveyorHub" />
         <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="LargeBlockConveyorSorter" />
+        <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="MediumBlockConveyorSorter" />
         <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeMedium" />
         <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorFrameMedium" />
         <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeCurvedMedium" />
-        <Block Type="MyObjectBuilder_Conveyor" Subtype="SmallShipConveyorHub" />
-        <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="MediumBlockConveyorSorter" />
       </Blocks>
     </BlockVariantGroup>
 
@@ -48,7 +48,9 @@
         <Block Type="MyObjectBuilder_Conveyor" Subtype="AQD_LG_ConveyorTArmored" />
         <Block Type="MyObjectBuilder_Conveyor" Subtype="AQD_LG_ConveyorXArmored" />
         <Block Type="MyObjectBuilder_Conveyor" Subtype="LargeBlockConveyor" />
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="SmallShipConveyorHub" />
         <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="LargeBlockConveyorSorter" />
+        <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="MediumBlockConveyorSorter" />
       </Blocks>
     </BlockVariantGroup>
 
