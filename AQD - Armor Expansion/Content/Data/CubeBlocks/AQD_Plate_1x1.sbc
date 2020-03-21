@@ -16,7 +16,7 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\armor\AQD_LG_LA_Plate_1x1.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="15" />
+        <Component Subtype="SteelPlate" Count="5" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -90,9 +90,9 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\armor\AQD_LG_HA_Plate_1x1.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="20" />
-        <Component Subtype="MetalGrid" Count="5" />
         <Component Subtype="SteelPlate" Count="10" />
+        <Component Subtype="MetalGrid" Count="5" />
+        <Component Subtype="SteelPlate" Count="5" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>

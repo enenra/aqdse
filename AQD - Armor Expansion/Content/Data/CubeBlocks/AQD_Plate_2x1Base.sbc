@@ -16,7 +16,7 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\armor\AQD_LG_LA_Plate_2x1Base.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="10" />
+        <Component Subtype="SteelPlate" Count="5" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -90,9 +90,9 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\armor\AQD_LG_HA_Plate_2x1Base.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="12" />
-        <Component Subtype="MetalGrid" Count="4" />
         <Component Subtype="SteelPlate" Count="7" />
+        <Component Subtype="MetalGrid" Count="4" />
+        <Component Subtype="SteelPlate" Count="3" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -171,7 +171,7 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\armor\AQD_LG_LA_Plate_2x1BaseMirror.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="10" />
+        <Component Subtype="SteelPlate" Count="5" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
@@ -245,9 +245,9 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\armor\AQD_LG_HA_Plate_2x1BaseMirror.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="12" />
-        <Component Subtype="MetalGrid" Count="4" />
         <Component Subtype="SteelPlate" Count="7" />
+        <Component Subtype="MetalGrid" Count="4" />
+        <Component Subtype="SteelPlate" Count="3" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
       <MountPoints>
