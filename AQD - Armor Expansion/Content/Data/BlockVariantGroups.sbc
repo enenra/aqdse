@@ -209,6 +209,8 @@
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_LA_Slab_InvCorner" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_LA_Slab_InvCorner_Split" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_LA_SlabSlope" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_LA_Slab_Half_Corner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_LA_Slab_Half_Corner_Split" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="HalfArmorBlock" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="HalfSlopeArmorBlock" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_LA_Slab_Corner" />
@@ -216,6 +218,8 @@
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_LA_Slab_InvCorner" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_LA_Slab_InvCorner_Split" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_LA_SlabSlope" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_LA_Slab_Half_Corner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_LA_Slab_Half_Corner_Split" />
       </Blocks>
     </BlockVariantGroup>
 
@@ -232,6 +236,8 @@
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_HA_Slab_InvCorner" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_HA_Slab_InvCorner_Split" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_HA_SlabSlope" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_HA_Slab_Half_Corner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_HA_Slab_Half_Corner_Split" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="HeavyHalfArmorBlock" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="HeavyHalfSlopeArmorBlock" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_HA_Slab_Corner" />
@@ -239,6 +245,8 @@
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_HA_Slab_InvCorner" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_HA_Slab_InvCorner_Split" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_HA_SlabSlope" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_HA_Slab_Half_Corner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_HA_Slab_Half_Corner_Split" />
       </Blocks>
     </BlockVariantGroup>
 
