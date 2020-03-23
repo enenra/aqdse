@@ -33,6 +33,9 @@
         <string>CubeBlock/AQD_LG_HA_SlabSlope</string>
         <string>CubeBlock/AQD_LG_HA_Slab_Half_Corner</string>
         <string>CubeBlock/AQD_LG_HA_Slab_Half_Corner_Split</string>
+        <string>CubeBlock/AQD_LG_HA_Slope3x1</string>
+        <string>CubeBlock/AQD_LG_HA_Slope3x1_Corner</string>
+        <string>CubeBlock/AQD_LG_HA_Slope3x1_InvCorner</string>
         <string>CubeBlock/AQD_LG_LA_Corner_Bevel</string>
         <string>CubeBlock/AQD_LG_LA_Corner_Split</string>
         <string>CubeBlock/AQD_LG_LA_Corner_Split_2x1x1_Base</string>
@@ -56,6 +59,9 @@
         <string>CubeBlock/AQD_LG_LA_SlabSlope</string>
         <string>CubeBlock/AQD_LG_LA_Slab_Half_Corner</string>
         <string>CubeBlock/AQD_LG_LA_Slab_Half_Corner_Split</string>
+        <string>CubeBlock/AQD_LG_LA_Slope3x1</string>
+        <string>CubeBlock/AQD_LG_LA_Slope3x1_Corner</string>
+        <string>CubeBlock/AQD_LG_LA_Slope3x1_InvCorner</string>
       </ItemIds>
     </Category>
 
@@ -90,6 +96,9 @@
         <string>CubeBlock/AQD_SG_HA_SlabSlope</string>
         <string>CubeBlock/AQD_SG_HA_Slab_Half_Corner</string>
         <string>CubeBlock/AQD_SG_HA_Slab_Half_Corner_Split</string>
+        <string>CubeBlock/AQD_SG_HA_Slope3x1</string>
+        <string>CubeBlock/AQD_SG_HA_Slope3x1_Corner</string>
+        <string>CubeBlock/AQD_SG_HA_Slope3x1_InvCorner</string>
         <string>CubeBlock/AQD_SG_LA_Corner_Bevel</string>
         <string>CubeBlock/AQD_SG_LA_Corner_Split</string>
         <string>CubeBlock/AQD_SG_LA_Corner_Split_2x1x1_Base</string>
@@ -113,6 +122,9 @@
         <string>CubeBlock/AQD_SG_LA_SlabSlope</string>
         <string>CubeBlock/AQD_SG_LA_Slab_Half_Corner</string>
         <string>CubeBlock/AQD_SG_LA_Slab_Half_Corner_Split</string>
+        <string>CubeBlock/AQD_SG_LA_Slope3x1</string>
+        <string>CubeBlock/AQD_SG_LA_Slope3x1_Corner</string>
+        <string>CubeBlock/AQD_SG_LA_Slope3x1_InvCorner</string>
       </ItemIds>
     </Category>
 
@@ -147,6 +159,9 @@
         <string>CubeBlock/AQD_LG_HA_SlabSlope</string>
         <string>CubeBlock/AQD_LG_HA_Slab_Half_Corner</string>
         <string>CubeBlock/AQD_LG_HA_Slab_Half_Corner_Split</string>
+        <string>CubeBlock/AQD_LG_HA_Slope3x1</string>
+        <string>CubeBlock/AQD_LG_HA_Slope3x1_Corner</string>
+        <string>CubeBlock/AQD_LG_HA_Slope3x1_InvCorner</string>
         <string>CubeBlock/AQD_LG_LA_Corner_Bevel</string>
         <string>CubeBlock/AQD_LG_LA_Corner_Split</string>
         <string>CubeBlock/AQD_LG_LA_Corner_Split_2x1x1_Base</string>
@@ -170,6 +185,9 @@
         <string>CubeBlock/AQD_LG_LA_SlabSlope</string>
         <string>CubeBlock/AQD_LG_LA_Slab_Half_Corner</string>
         <string>CubeBlock/AQD_LG_LA_Slab_Half_Corner_Split</string>
+        <string>CubeBlock/AQD_LG_LA_Slope3x1</string>
+        <string>CubeBlock/AQD_LG_LA_Slope3x1_Corner</string>
+        <string>CubeBlock/AQD_LG_LA_Slope3x1_InvCorner</string>
       </ItemIds>
     </Category>
 
