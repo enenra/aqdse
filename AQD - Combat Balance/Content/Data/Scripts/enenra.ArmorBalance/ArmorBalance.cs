@@ -27,7 +27,9 @@ namespace enenra.ArmorBalance
             {
                 MyCubeBlockDefinition blockDef = def as MyCubeBlockDefinition;
 
-                if (blockDef == null || blockDef.BlockTopology == MyBlockTopology.TriangleMesh) continue;
+                if (blockDef == null) continue;
+
+                if (blockDef.BlockTopology == MyBlockTopology.TriangleMesh && !(blockDef.Id.SubtypeName.StartsWith("AQD_LG_LA_") || blockDef.Id.SubtypeName.StartsWith("AQD_SG_LA_") || blockDef.Id.SubtypeName.StartsWith("AQD_LG_HA_") || blockDef.Id.SubtypeName.StartsWith("AQD_SG_HA_"))) continue;
 
                 if (blockDef.EdgeType == "Light")
                 {
