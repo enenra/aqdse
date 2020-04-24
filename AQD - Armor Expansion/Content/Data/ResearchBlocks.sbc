@@ -62,6 +62,13 @@
     </ResearchBlock>
 
     <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="CubeBlock" Subtype="AQD_LG_LA_HalfPlate" />
+      <UnlockedByGroups>
+        <GroupSubtype>1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
       <Id Type="CubeBlock" Subtype="AQD_LG_LA_Plate_2x1Base" />
       <UnlockedByGroups>
         <GroupSubtype>1</GroupSubtype>
@@ -166,6 +173,13 @@
       </UnlockedByGroups>
     </ResearchBlock>
 
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="CubeBlock" Subtype="AQD_LG_LA_Slab_RaisedCorner_Split" />
+      <UnlockedByGroups>
+        <GroupSubtype>1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
     <!-- HA -->
 
     <ResearchBlock xsi:type="ResearchBlock">
@@ -219,6 +233,13 @@
 
     <ResearchBlock xsi:type="ResearchBlock">
       <Id Type="CubeBlock" Subtype="AQD_LG_HA_Plate_1x1" />
+      <UnlockedByGroups>
+        <GroupSubtype>1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="CubeBlock" Subtype="AQD_LG_HA_HalfPlate" />
       <UnlockedByGroups>
         <GroupSubtype>1</GroupSubtype>
       </UnlockedByGroups>
@@ -329,6 +350,13 @@
       </UnlockedByGroups>
     </ResearchBlock>
 
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="CubeBlock" Subtype="AQD_LG_HA_Slab_RaisedCorner_Split" />
+      <UnlockedByGroups>
+        <GroupSubtype>1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
     <!-- SG -->
     <!-- LA -->
 
@@ -383,6 +411,13 @@
 
     <ResearchBlock xsi:type="ResearchBlock">
       <Id Type="CubeBlock" Subtype="AQD_SG_LA_Plate_1x1" />
+      <UnlockedByGroups>
+        <GroupSubtype>1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="CubeBlock" Subtype="AQD_SG_LA_HalfPlate" />
       <UnlockedByGroups>
         <GroupSubtype>1</GroupSubtype>
       </UnlockedByGroups>
@@ -493,6 +528,13 @@
       </UnlockedByGroups>
     </ResearchBlock>
 
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="CubeBlock" Subtype="AQD_SG_LA_Slab_RaisedCorner_Split" />
+      <UnlockedByGroups>
+        <GroupSubtype>1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
     <!-- HA -->
 
     <ResearchBlock xsi:type="ResearchBlock">
@@ -546,6 +588,13 @@
 
     <ResearchBlock xsi:type="ResearchBlock">
       <Id Type="CubeBlock" Subtype="AQD_SG_HA_Plate_1x1" />
+      <UnlockedByGroups>
+        <GroupSubtype>1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="CubeBlock" Subtype="AQD_SG_HA_HalfPlate" />
       <UnlockedByGroups>
         <GroupSubtype>1</GroupSubtype>
       </UnlockedByGroups>
@@ -651,6 +700,13 @@
 
     <ResearchBlock xsi:type="ResearchBlock">
       <Id Type="CubeBlock" Subtype="AQD_SG_HA_Slope3x1_InvCorner" />
+      <UnlockedByGroups>
+        <GroupSubtype>1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="CubeBlock" Subtype="AQD_SG_HA_Slab_RaisedCorner_Split" />
       <UnlockedByGroups>
         <GroupSubtype>1</GroupSubtype>
       </UnlockedByGroups>

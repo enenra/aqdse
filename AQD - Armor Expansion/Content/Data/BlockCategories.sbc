@@ -19,6 +19,7 @@
         <string>CubeBlock/AQD_LG_HA_Half_Corner_Inv_Tip</string>
         <string>CubeBlock/AQD_LG_HA_Inv_Corner_Split</string>
         <string>CubeBlock/AQD_LG_HA_Plate_1x1</string>
+        <string>CubeBlock/AQD_LG_HA_HalfPlate</string>
         <string>CubeBlock/AQD_LG_HA_Plate_2x1Base</string>
         <string>CubeBlock/AQD_LG_HA_Plate_2x1Tip</string>
         <string>CubeBlock/AQD_LG_HA_Plate_2x1BaseMirror</string>
@@ -36,6 +37,7 @@
         <string>CubeBlock/AQD_LG_HA_Slope3x1</string>
         <string>CubeBlock/AQD_LG_HA_Slope3x1_Corner</string>
         <string>CubeBlock/AQD_LG_HA_Slope3x1_InvCorner</string>
+        <string>CubeBlock/AQD_LG_HA_Slab_RaisedCorner_Split</string>
         <string>CubeBlock/AQD_LG_LA_Corner_Bevel</string>
         <string>CubeBlock/AQD_LG_LA_Corner_Split</string>
         <string>CubeBlock/AQD_LG_LA_Corner_Split_2x1x1_Base</string>
@@ -45,6 +47,7 @@
         <string>CubeBlock/AQD_LG_LA_Half_Corner_Inv_Tip</string>
         <string>CubeBlock/AQD_LG_LA_Inv_Corner_Split</string>
         <string>CubeBlock/AQD_LG_LA_Plate_1x1</string>
+        <string>CubeBlock/AQD_LG_LA_HalfPlate</string>
         <string>CubeBlock/AQD_LG_LA_Plate_2x1Base</string>
         <string>CubeBlock/AQD_LG_LA_Plate_2x1Tip</string>
         <string>CubeBlock/AQD_LG_LA_Plate_2x1BaseMirror</string>
@@ -62,6 +65,7 @@
         <string>CubeBlock/AQD_LG_LA_Slope3x1</string>
         <string>CubeBlock/AQD_LG_LA_Slope3x1_Corner</string>
         <string>CubeBlock/AQD_LG_LA_Slope3x1_InvCorner</string>
+        <string>CubeBlock/AQD_LG_LA_Slab_RaisedCorner_Split</string>
       </ItemIds>
     </Category>
 
@@ -82,6 +86,7 @@
         <string>CubeBlock/AQD_SG_HA_Half_Corner_Inv_Tip</string>
         <string>CubeBlock/AQD_SG_HA_Inv_Corner_Split</string>
         <string>CubeBlock/AQD_SG_HA_Plate_1x1</string>
+        <string>CubeBlock/AQD_SG_HA_HalfPlate</string>
         <string>CubeBlock/AQD_SG_HA_Plate_2x1Base</string>
         <string>CubeBlock/AQD_SG_HA_Plate_2x1Tip</string>
         <string>CubeBlock/AQD_SG_HA_Plate_2x1BaseMirror</string>
@@ -99,6 +104,7 @@
         <string>CubeBlock/AQD_SG_HA_Slope3x1</string>
         <string>CubeBlock/AQD_SG_HA_Slope3x1_Corner</string>
         <string>CubeBlock/AQD_SG_HA_Slope3x1_InvCorner</string>
+        <string>CubeBlock/AQD_SG_HA_Slab_RaisedCorner_Split</string>
         <string>CubeBlock/AQD_SG_LA_Corner_Bevel</string>
         <string>CubeBlock/AQD_SG_LA_Corner_Split</string>
         <string>CubeBlock/AQD_SG_LA_Corner_Split_2x1x1_Base</string>
@@ -108,6 +114,7 @@
         <string>CubeBlock/AQD_SG_LA_Half_Corner_Inv_Tip</string>
         <string>CubeBlock/AQD_SG_LA_Inv_Corner_Split</string>
         <string>CubeBlock/AQD_SG_LA_Plate_1x1</string>
+        <string>CubeBlock/AQD_SG_LA_HalfPlate</string>
         <string>CubeBlock/AQD_SG_LA_Plate_2x1Base</string>
         <string>CubeBlock/AQD_SG_LA_Plate_2x1Tip</string>
         <string>CubeBlock/AQD_SG_LA_Plate_2x1BaseMirror</string>
@@ -125,6 +132,7 @@
         <string>CubeBlock/AQD_SG_LA_Slope3x1</string>
         <string>CubeBlock/AQD_SG_LA_Slope3x1_Corner</string>
         <string>CubeBlock/AQD_SG_LA_Slope3x1_InvCorner</string>
+        <string>CubeBlock/AQD_SG_LA_Slab_RaisedCorner_Split</string>
       </ItemIds>
     </Category>
 
@@ -145,6 +153,7 @@
         <string>CubeBlock/AQD_LG_HA_Half_Corner_Inv_Tip</string>
         <string>CubeBlock/AQD_LG_HA_Inv_Corner_Split</string>
         <string>CubeBlock/AQD_LG_HA_Plate_1x1</string>
+        <string>CubeBlock/AQD_LG_HA_HalfPlate</string>
         <string>CubeBlock/AQD_LG_HA_Plate_2x1Base</string>
         <string>CubeBlock/AQD_LG_HA_Plate_2x1Tip</string>
         <string>CubeBlock/AQD_LG_HA_Plate_2x1BaseMirror</string>
@@ -162,6 +171,7 @@
         <string>CubeBlock/AQD_LG_HA_Slope3x1</string>
         <string>CubeBlock/AQD_LG_HA_Slope3x1_Corner</string>
         <string>CubeBlock/AQD_LG_HA_Slope3x1_InvCorner</string>
+        <string>CubeBlock/AQD_LG_HA_Slab_RaisedCorner_Split</string>
         <string>CubeBlock/AQD_LG_LA_Corner_Bevel</string>
         <string>CubeBlock/AQD_LG_LA_Corner_Split</string>
         <string>CubeBlock/AQD_LG_LA_Corner_Split_2x1x1_Base</string>
@@ -171,6 +181,7 @@
         <string>CubeBlock/AQD_LG_LA_Half_Corner_Inv_Tip</string>
         <string>CubeBlock/AQD_LG_LA_Inv_Corner_Split</string>
         <string>CubeBlock/AQD_LG_LA_Plate_1x1</string>
+        <string>CubeBlock/AQD_LG_LA_HalfPlate</string>
         <string>CubeBlock/AQD_LG_LA_Plate_2x1Base</string>
         <string>CubeBlock/AQD_LG_LA_Plate_2x1Tip</string>
         <string>CubeBlock/AQD_LG_LA_Plate_2x1BaseMirror</string>
@@ -188,6 +199,7 @@
         <string>CubeBlock/AQD_LG_LA_Slope3x1</string>
         <string>CubeBlock/AQD_LG_LA_Slope3x1_Corner</string>
         <string>CubeBlock/AQD_LG_LA_Slope3x1_InvCorner</string>
+        <string>CubeBlock/AQD_LG_LA_Slab_RaisedCorner_Split</string>
       </ItemIds>
     </Category>
 
