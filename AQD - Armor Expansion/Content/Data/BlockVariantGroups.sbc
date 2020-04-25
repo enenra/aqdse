@@ -32,17 +32,34 @@
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorSlope2Base" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorSlope2Tip" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_LA_Corner_Bevel" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_LA_Slab_RaisedCorner" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_LA_Slab_RaisedCorner_Split" />
-        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_LA_Slope3x1" />
-        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_LA_Slope3x1_Corner" />
-        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_LA_Slope3x1_InvCorner" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorSlope2Base" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorSlope2Tip" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_LA_Corner_Bevel" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_LA_Slab_RaisedCorner" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_LA_Slab_RaisedCorner_Split" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ArmorLightLongRampGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_LA_Slope3x1.dds</Icon>
+      <DisplayName>DisplayName_AQD_LG_LA_Slope3x1</DisplayName>
+      <Description>Description_LightArmor</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_LA_Slope3x1" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_LA_Slope3x1_Corner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_LA_Slope3x1_InvCorner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_LA_Slope4x1" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_LA_Slope4x1_Corner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_LA_Slope4x1_InvCorner" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_LA_Slope3x1" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_LA_Slope3x1_Corner" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_LA_Slope3x1_InvCorner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_LA_Slope4x1" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_LA_Slope4x1_Corner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_LA_Slope4x1_InvCorner" />
       </Blocks>
     </BlockVariantGroup>
 
@@ -116,17 +133,34 @@
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockArmorSlope2Base" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockArmorSlope2Tip" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_HA_Corner_Bevel" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_HA_Slab_RaisedCorner" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_HA_Slab_RaisedCorner_Split" />
-        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_HA_Slope3x1" />
-        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_HA_Slope3x1_Corner" />
-        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_HA_Slope3x1_InvCorner" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockArmorSlope2Base" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockArmorSlope2Tip" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_HA_Corner_Bevel" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_HA_Slab_RaisedCorner" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_HA_Slab_RaisedCorner_Split" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ArmorHeavyLongRampGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_HA_Slope3x1.dds</Icon>
+      <DisplayName>DisplayName_AQD_LG_HA_Slope3x1</DisplayName>
+      <Description>Description_HeavyArmor</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_HA_Slope3x1" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_HA_Slope3x1_Corner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_HA_Slope3x1_InvCorner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_HA_Slope4x1" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_HA_Slope4x1_Corner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_HA_Slope4x1_InvCorner" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_HA_Slope3x1" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_HA_Slope3x1_Corner" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_HA_Slope3x1_InvCorner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_HA_Slope4x1" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_HA_Slope4x1_Corner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_HA_Slope4x1_InvCorner" />
       </Blocks>
     </BlockVariantGroup>
 

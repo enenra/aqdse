@@ -189,6 +189,9 @@
   <data name="DisplayName_AQD_LG_HA_Slab_InvCorner_Split" xml:space="preserve">
     <value>Heavy Armor Slab Inverted Corner Split</value>
   </data>
+  <data name="DisplayName_AQD_LG_HA_Slab_RaisedCorner" xml:space="preserve">
+    <value>Heavy Armor Slab Raised Corner</value>
+  </data>
   <data name="DisplayName_AQD_LG_HA_Slab_RaisedCorner_Split" xml:space="preserve">
     <value>Heavy Armor Slab Raised Corner Split</value>
   </data>
@@ -200,6 +203,15 @@
   </data>
   <data name="DisplayName_AQD_LG_HA_Slope3x1_InvCorner" xml:space="preserve">
     <value>Heavy Armor Slope 3x1 Inverted Corner</value>
+  </data>
+  <data name="DisplayName_AQD_LG_HA_Slope4x1" xml:space="preserve">
+    <value>Heavy Armor Slope 4x1</value>
+  </data>
+  <data name="DisplayName_AQD_LG_HA_Slope4x1_Corner" xml:space="preserve">
+    <value>Heavy Armor Slope 4x1 Corner</value>
+  </data>
+  <data name="DisplayName_AQD_LG_HA_Slope4x1_InvCorner" xml:space="preserve">
+    <value>Heavy Armor Slope 4x1 Inverted Corner</value>
   </data>
   <data name="DisplayName_AQD_LG_LA_Corner_Bevel" xml:space="preserve">
     <value>Light Armor Bevelled Corner</value>
@@ -273,6 +285,9 @@
   <data name="DisplayName_AQD_LG_LA_Slab_InvCorner_Split" xml:space="preserve">
     <value>Light Armor Slab Inverted Corner Split</value>
   </data>
+  <data name="DisplayName_AQD_LG_LA_Slab_RaisedCorner" xml:space="preserve">
+    <value>Light Armor Slab Raised Corner</value>
+  </data>
   <data name="DisplayName_AQD_LG_LA_Slab_RaisedCorner_Split" xml:space="preserve">
     <value>Light Armor Slab Raised Corner Split</value>
   </data>
@@ -285,6 +300,15 @@
   <data name="DisplayName_AQD_LG_LA_Slope3x1_InvCorner" xml:space="preserve">
     <value>Light Armor Slope 3x1 Inverted Corner</value>
   </data>
+  <data name="DisplayName_AQD_LG_LA_Slope4x1" xml:space="preserve">
+    <value>Light Armor Slope 4x1</value>
+  </data>
+  <data name="DisplayName_AQD_LG_LA_Slope4x1_Corner" xml:space="preserve">
+    <value>Light Armor Slope 4x1 Corner</value>
+  </data>
+  <data name="DisplayName_AQD_LG_LA_Slope4x1_InvCorner" xml:space="preserve">
+    <value>Light Armor Slope 4x1 Inverted Corner</value>
+  </data>
   <data name="DisplayName_AQD_SG_HA_HalfPlate" xml:space="preserve">
     <value>Heavy Armor Half Plate</value>
   </data>
@@ -294,7 +318,10 @@
   <data name="DisplayName_AQD_SG_HA_Slab_Half_Corner_Split" xml:space="preserve">
     <value>Heavy Armor Slab Half Corner Split</value>
   </data>
-  <data name="DisplayName_AQD_SG_HA_Slab_RaisedCorner_Split1" xml:space="preserve">
+  <data name="DisplayName_AQD_SG_HA_Slab_RaisedCorner" xml:space="preserve">
+    <value>Heavy Armor Slab Raised Corner</value>
+  </data>
+  <data name="DisplayName_AQD_SG_HA_Slab_RaisedCorner_Split" xml:space="preserve">
     <value>Heavy Armor Slab Raised Corner Split</value>
   </data>
   <data name="DisplayName_AQD_SG_HA_Slope3x1" xml:space="preserve">
@@ -306,6 +333,15 @@
   <data name="DisplayName_AQD_SG_HA_Slope3x1_InvCorner" xml:space="preserve">
     <value>Heavy Armor Slope 3x1 Inverted Corner</value>
   </data>
+  <data name="DisplayName_AQD_SG_HA_Slope4x1" xml:space="preserve">
+    <value>Heavy Armor Slope 4x1</value>
+  </data>
+  <data name="DisplayName_AQD_SG_HA_Slope4x1_Corner" xml:space="preserve">
+    <value>Heavy Armor Slope 4x1 Corner</value>
+  </data>
+  <data name="DisplayName_AQD_SG_HA_Slope4x1_InvCorner" xml:space="preserve">
+    <value>Heavy Armor Slope 4x1 Inverted Corner</value>
+  </data>
   <data name="DisplayName_AQD_SG_LA_HalfPlate" xml:space="preserve">
     <value>Light Armor Half Plate</value>
   </data>
@@ -315,7 +351,10 @@
   <data name="DisplayName_AQD_SG_LA_Slab_Half_Corner_Split" xml:space="preserve">
     <value>Light Armor Slab Half Corner Split</value>
   </data>
-  <data name="DisplayName_AQD_SG_LA_Slab_RaisedCorner_Split1" xml:space="preserve">
+  <data name="DisplayName_AQD_SG_LA_Slab_RaisedCorner" xml:space="preserve">
+    <value>Light Armor Slab Raised Corner</value>
+  </data>
+  <data name="DisplayName_AQD_SG_LA_Slab_RaisedCorner_Split" xml:space="preserve">
     <value>Light Armor Slab Raised Corner Split</value>
   </data>
   <data name="DisplayName_AQD_SG_LA_Slope3x1" xml:space="preserve">
@@ -326,5 +365,14 @@
   </data>
   <data name="DisplayName_AQD_SG_LA_Slope3x1_InvCorner" xml:space="preserve">
     <value>Light Armor Slope 3x1 Inverted Corner</value>
+  </data>
+  <data name="DisplayName_AQD_SG_LA_Slope4x1" xml:space="preserve">
+    <value>Light Armor Slope 4x1</value>
+  </data>
+  <data name="DisplayName_AQD_SG_LA_Slope4x1_Corner" xml:space="preserve">
+    <value>Light Armor Slope 4x1 Corner</value>
+  </data>
+  <data name="DisplayName_AQD_SG_LA_Slope4x1_InvCorner" xml:space="preserve">
+    <value>Light Armor Slope 4x1 Inverted Corner</value>
   </data>
 </root>
