@@ -157,7 +157,6 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\AQD_LG_ConveyorT.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="5" />
         <Component Subtype="InteriorPlate" Count="10" />
         <Component Subtype="Construction" Count="20" />
         <Component Subtype="SmallTube" Count="12" />
@@ -209,7 +208,6 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\AQD_LG_ConveyorX.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="5" />
         <Component Subtype="InteriorPlate" Count="10" />
         <Component Subtype="Construction" Count="20" />
         <Component Subtype="SmallTube" Count="12" />
