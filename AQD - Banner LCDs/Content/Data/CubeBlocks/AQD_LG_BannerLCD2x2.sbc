@@ -41,7 +41,6 @@
       <DamagedSound>ParticleElectrical</DamagedSound>
       <PCU>50</PCU>
       <IsAirTight>false</IsAirTight>
-      <DLC>DecorativeBlocks2</DLC>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
@@ -83,7 +82,6 @@
       <DamagedSound>ParticleElectrical</DamagedSound>
       <PCU>50</PCU>
       <IsAirTight>false</IsAirTight>
-      <DLC>DecorativeBlocks2</DLC>
     </Definition>
 
   </CubeBlocks>
