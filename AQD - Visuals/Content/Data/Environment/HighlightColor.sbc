@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Definition xsi:type="EnvironmentDefinition">
+    <Id>
+      <TypeId>EnvironmentDefinition</TypeId>
+      <SubtypeId>Default</SubtypeId>
+    </Id>
+
+    <ContourHighlightColor>
+      <X>1</X>
+      <Y>1</Y>
+      <Z>1</Z>
+      <W>0.065</W>
+    </ContourHighlightColor>
+    <ContourHighlightThickness>6.5</ContourHighlightThickness>
+    <HighlightPulseInSeconds>3</HighlightPulseInSeconds>
+
+  </Definition>
+</Definitions>
