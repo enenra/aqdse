@@ -5,16 +5,18 @@
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
-        <SubtypeId>AQD_LG_LA_SlabSlope</SubtypeId>
+        <SubtypeId>AQD_LG_LA_Slab_Corner</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_LG_LA_SlabSlope</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_LA_SlabSlope.dds</Icon>
+      <DisplayName>DisplayName_AQD_LG_LA_Slab_Corner</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_LA_Slab_Corner.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
+      <Public>false</Public>
+      <GUIVisible>false</GUIVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\armor\AQD_LG_LA_SlabSlope.mwm</Model>
+      <Model>Models\Cubes\Large\armor\AQD_LG_LA_Slab_Corner.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="5" />
         <Component Subtype="SteelPlate" Count="2" />
@@ -26,10 +28,10 @@
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\armor\AQD_LG_LA_SlabSlope_BS1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\armor\AQD_LG_LA_SlabSlope_BS2.mwm" />
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\armor\AQD_LG_LA_Slab_Corner_BS1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\armor\AQD_LG_LA_Slab_Corner_BS2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>AQD_LA_SlabSlope</BlockPairName>
+      <BlockPairName>AQD_LA_Slab_Corner</BlockPairName>
       <MirroringX>MinusHalfY</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>HalfY</MirroringZ>
@@ -42,16 +44,18 @@
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
-        <SubtypeId>AQD_SG_LA_SlabSlope</SubtypeId>
+        <SubtypeId>AQD_SG_LA_Slab_Corner</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_LG_LA_SlabSlope</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_LA_SlabSlope.dds</Icon>
+      <DisplayName>DisplayName_AQD_LG_LA_Slab_Corner</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_LA_Slab_Corner.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
+      <Public>false</Public>
+      <GUIVisible>false</GUIVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\armor\AQD_SG_LA_SlabSlope.mwm</Model>
+      <Model>Models\Cubes\Small\armor\AQD_SG_LA_Slab_Corner.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="1" />
       </Components>
@@ -62,10 +66,10 @@
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\armor\AQD_SG_LA_SlabSlope_BS1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\armor\AQD_SG_LA_SlabSlope_BS2.mwm" />
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\armor\AQD_SG_LA_Slab_Corner_BS1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\armor\AQD_SG_LA_Slab_Corner_BS2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>AQD_LA_SlabSlope</BlockPairName>
+      <BlockPairName>AQD_LA_Slab_Corner</BlockPairName>
       <MirroringX>MinusHalfY</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>HalfY</MirroringZ>
@@ -78,16 +82,18 @@
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
-        <SubtypeId>AQD_LG_HA_SlabSlope</SubtypeId>
+        <SubtypeId>AQD_LG_HA_Slab_Corner</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_LG_HA_SlabSlope</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_HA_SlabSlope.dds</Icon>
+      <DisplayName>DisplayName_AQD_LG_HA_Slab_Corner</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_HA_Slab_Corner.dds</Icon>
       <Description>Description_HeavyArmor</Description>
       <CubeSize>Large</CubeSize>
+      <Public>false</Public>
+      <GUIVisible>false</GUIVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\armor\AQD_LG_HA_SlabSlope.mwm</Model>
+      <Model>Models\Cubes\Large\armor\AQD_LG_HA_Slab_Corner.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="30" />
         <Component Subtype="MetalGrid" Count="6" />
@@ -100,10 +106,10 @@
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\armor\AQD_LG_LA_SlabSlope_BS1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\armor\AQD_LG_LA_SlabSlope_BS2.mwm" />
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\armor\AQD_LG_LA_Slab_Corner_BS1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\armor\AQD_LG_LA_Slab_Corner_BS2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>AQD_HA_SlabSlope</BlockPairName>
+      <BlockPairName>AQD_HA_Slab_Corner</BlockPairName>
       <MirroringX>MinusHalfY</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>HalfY</MirroringZ>
@@ -116,16 +122,18 @@
     <Definition>
       <Id>
         <TypeId>CubeBlock</TypeId>
-        <SubtypeId>AQD_SG_HA_SlabSlope</SubtypeId>
+        <SubtypeId>AQD_SG_HA_Slab_Corner</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_LG_HA_SlabSlope</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_HA_SlabSlope.dds</Icon>
+      <DisplayName>DisplayName_AQD_LG_HA_Slab_Corner</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_HA_Slab_Corner.dds</Icon>
       <Description>Description_HeavyArmor</Description>
       <CubeSize>Small</CubeSize>
+      <Public>false</Public>
+      <GUIVisible>false</GUIVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\armor\AQD_SG_HA_SlabSlope.mwm</Model>
+      <Model>Models\Cubes\Small\armor\AQD_SG_HA_Slab_Corner.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="1" />
         <Component Subtype="MetalGrid" Count="1" />
@@ -138,10 +146,10 @@
         <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\armor\AQD_SG_LA_SlabSlope_BS1.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\armor\AQD_SG_LA_SlabSlope_BS2.mwm" />
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\armor\AQD_SG_LA_Slab_Corner_BS1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\armor\AQD_SG_LA_Slab_Corner_BS2.mwm" />
       </BuildProgressModels>
-      <BlockPairName>AQD_HA_SlabSlope</BlockPairName>
+      <BlockPairName>AQD_HA_Slab_Corner</BlockPairName>
       <MirroringX>MinusHalfY</MirroringX>
       <MirroringY>ZHalfY</MirroringY>
       <MirroringZ>HalfY</MirroringZ>

@@ -11,6 +11,8 @@
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_LA_Half_Corner_Inv_Base.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
+      <Public>false</Public>
+      <GUIVisible>false</GUIVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
@@ -51,6 +53,8 @@
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_LA_Half_Corner_Inv_Base.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
+      <Public>false</Public>
+      <GUIVisible>false</GUIVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
@@ -90,6 +94,8 @@
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_HA_Half_Corner_Inv_Base.dds</Icon>
       <Description>Description_HeavyArmor</Description>
       <CubeSize>Large</CubeSize>
+      <Public>false</Public>
+      <GUIVisible>false</GUIVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
@@ -131,6 +137,8 @@
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_HA_Half_Corner_Inv_Base.dds</Icon>
       <Description>Description_HeavyArmor</Description>
       <CubeSize>Small</CubeSize>
+      <Public>false</Public>
+      <GUIVisible>false</GUIVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
@@ -175,6 +183,8 @@
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_LA_Half_Corner_Inv_Base.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
+      <Public>false</Public>
+      <GUIVisible>false</GUIVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
@@ -215,6 +225,8 @@
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_LA_Half_Corner_Inv_Base.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
+      <Public>false</Public>
+      <GUIVisible>false</GUIVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
@@ -254,6 +266,8 @@
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_HA_Half_Corner_Inv_Base.dds</Icon>
       <Description>Description_HeavyArmor</Description>
       <CubeSize>Large</CubeSize>
+      <Public>false</Public>
+      <GUIVisible>false</GUIVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
@@ -295,6 +309,8 @@
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_HA_Half_Corner_Inv_Base.dds</Icon>
       <Description>Description_HeavyArmor</Description>
       <CubeSize>Small</CubeSize>
+      <Public>false</Public>
+      <GUIVisible>false</GUIVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
