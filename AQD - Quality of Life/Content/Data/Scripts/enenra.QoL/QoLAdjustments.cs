@@ -114,14 +114,5 @@ namespace enenra.QoL
             return ammoDefinitions;
 
         }
-        public override void LoadData()
-        {
-            LoadMessage.LoadData();
-        }
-
-        protected override void UnloadData()
-        {
-            LoadMessage.UnloadData();
-        }
     }
 }
