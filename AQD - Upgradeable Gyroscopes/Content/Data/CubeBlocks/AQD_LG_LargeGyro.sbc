@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_GyroDefinition">
+			<Id>
+				<TypeId>Gyro</TypeId>
+				<SubtypeId>AQD_LG_LargeGyro</SubtypeId>
+			</Id>
+			<DisplayName>DisplayName_AQD_LG_LargeGyro</DisplayName>
+			<Description>Description_AQD_LG_LargeGyro</Description>
+			<Icon>Textures\GUI\Icons\AstronautBackpack.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="3" z="3"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\large\AQD_LG_LargeGyro.mwm</Model>
+			<Components>
+				<Component Count="10" Subtype="SteelPlate"/>
+			</Components>
+			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="3.0" EndY="3.0"/>
+				<MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="3.0" EndY="3.0"/>
+				<MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="3.0" EndY="3.0"/>
+				<MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="3.0" EndY="3.0"/>
+				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="3.0" EndY="3.0"/>
+				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="3.0" EndY="3.0"/>
+			</MountPoints>
+			<BlockPairName>AQD_LG_LargeGyro</BlockPairName>
+			<EdgeType>Light</EdgeType>
+			<BuildTimeSeconds>40</BuildTimeSeconds>
+			<PrimarySound>BlockGyroscope</PrimarySound>
+
+			<ResourceSinkGroup>Gyro</ResourceSinkGroup>
+			<ForceMagnitude>3.36E+07</ForceMagnitude>
+			<RequiredPowerInput>0.01</RequiredPowerInput>
+
+			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+			<DamagedSound>ParticleHeavyMech</DamagedSound>
+			<EmissiveColorPreset>Extended</EmissiveColorPreset>
+			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+			<DestroySound>WepSmallWarheadExpl</DestroySound>
+			<PCU>50</PCU>
+			<IsAirTight>false</IsAirTight>
+		</Definition>
+	</CubeBlocks>
+</Definitions>
