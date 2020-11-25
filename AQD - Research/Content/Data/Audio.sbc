@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Sounds>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>ArcBlockResearchLab</SubtypeId>
+      </Id>
+      <Category>BLOCK</Category>
+      <MaxDistance>17</MaxDistance>
+      <UpdateDistance>30</UpdateDistance>
+      <Volume>0.5</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\ARC\BLOCK\ArcBlockResearchLabStart3d.wav</Start>
+          <Loop>Audio\ARC\BLOCK\ArcBlockResearchLabLoop3d.wav</Loop>
+          <End>Audio\ARC\BLOCK\ArcBlockResearchLabEnd3d.wav</End>
+        </Wave>
+      </Waves>
+    </Sound>
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>RealBlockResearchLab</SubtypeId>
+      </Id>
+      <Category>R_BLOCK</Category>
+      <MaxDistance>5</MaxDistance>
+      <UpdateDistance>20</UpdateDistance>
+      <Volume>0.3</Volume>
+      <Loopable>true</Loopable>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\REAL\BLOCK\RealBlockResearchLabStart3d.wav</Start>
+          <Loop>Audio\REAL\BLOCK\RealBlockResearchLabLoop3d.wav</Loop>
+          <End>Audio\REAL\BLOCK\RealBlockResearchLabEnd3d.wav</End>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>ArcBlockResearchLabProcess</SubtypeId>
+      </Id>
+      <Category>BLOCK_PROGRESS</Category>
+      <MaxDistance>15</MaxDistance>
+      <UpdateDistance>30</UpdateDistance>
+      <Volume>0.8</Volume>
+      <Loopable>true</Loopable>
+      <PitchVariation>50</PitchVariation>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\ARC\BLOCK\ArcBlockResearchLabProcessStart3d.wav</Start>
+          <Loop>Audio\ARC\BLOCK\ArcBlockResearchLabProcessLoop3d.wav</Loop>
+          <End>Audio\ARC\BLOCK\ArcBlockResearchLabProcessEnd3d.wav</End>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>RealBlockResearchLabProcess</SubtypeId>
+      </Id>
+      <Category>R_BLOCK_PROGRESS</Category>
+      <MaxDistance>12</MaxDistance>
+      <UpdateDistance>22</UpdateDistance>
+      <Volume>0.8</Volume>
+      <Pitch>-2</Pitch>
+      <Loopable>true</Loopable>
+      <PreventSynchronization>10</PreventSynchronization>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\Real\BLOCK\RealBlockResearchLabProcessStart3d.wav</Start>
+          <Loop>Audio\Real\BLOCK\RealBlockResearchLabProcessLoop3d.wav</Loop>
+          <End>Audio\Real\BLOCK\RealBlockResearchLabProcessEnd3d.wav</End>
+        </Wave>
+      </Waves>
+    </Sound>
+    
+  </Sounds>
+</Definitions>

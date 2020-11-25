@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>AQD_LG_ResearchLab</SubtypeId>
+      </Id>
+      <DisplayName>Research Lab</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_ResearchLab.dds</Icon>
+      <Description>The Research Lab enables the research of new technologies, unlocking blocks, recipes for Assemblers and Refineries as well as access to other technologies. Technologies are researched by inserting the required tier of Research Material and are output as Research Blueprints, which store the technology's information.</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\AQD_LG_ResearchLab.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="130" />
+        <Component Subtype="Construction" Count="40" />
+        <Component Subtype="Motor" Count="8" />
+        <Component Subtype="Display" Count="16" />
+        <Component Subtype="Computer" Count="120" />
+        <Component Subtype="SteelPlate" Count="40" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\AQD_LG_ResearchLab_BS1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AQD_LG_ResearchLab_BS2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AQD_LG_ResearchLab_BS3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AQD_LG_ResearchLab</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>80</BuildTimeSeconds>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventoryMaxVolume>1</InventoryMaxVolume>
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.01</StandbyPowerConsumption>
+      <OperationalPowerConsumption>1.00</OperationalPowerConsumption>
+      <BlueprintClasses>
+        <Class>AQD_BPC_ResearchLab</Class>
+      </BlueprintClasses>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <PrimarySound>BlockResearchLab</PrimarySound>
+      <ActionSound>BlockResearchLabProcess</ActionSound>
+      <DestroyEffect>Explosion_Missile</DestroyEffect>
+      <DestroySound>WepSmallMissileExpl</DestroySound>
+      <PCU>60</PCU>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+      <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>AQD_LG_DataStorage</SubtypeId>
+      </Id>
+      <DisplayName>Data Storage</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_DataStorage.dds</Icon>
+      <Description>The Data Storage is able to securely store Research Blueprints.</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\AQD_LG_DataStorage.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="100" />
+        <Component Subtype="Construction" Count="35" />
+        <Component Subtype="MetalGrid" Count="6" />
+        <Component Subtype="Motor" Count="2" />
+        <Component Subtype="Display" Count="12" />
+        <Component Subtype="Computer" Count="48" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="InteriorPlate" Count="40" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\AQD_LG_DataStorage_BS1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AQD_LG_DataStorage_BS2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AQD_LG_DataStorage_BS3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AQD_LG_DataStorage</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>10</PCU>
+    </Definition>
+    
+  </CubeBlocks>
+</Definitions>

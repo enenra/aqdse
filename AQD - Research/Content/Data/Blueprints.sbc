@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<!-- Created by ERSA Editor version 0.75 on: 2019-01-19 16:46 -->
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AQD_BP_ResearchMaterial</SubtypeId>
+      </Id>
+      <DisplayName>Produce Research Material</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_ResearchMaterial.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Silicon" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_ResearchMaterial" />
+      </Results>
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AQD_BP_ResearchMaterial2</SubtypeId>
+      </Id>
+      <DisplayName>Produce Enh. Research Material</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_EnhancedResearchMaterial.dds</Icon>
+      <Prerequisites>
+        <Item Amount="50" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="30" TypeId="Ingot" SubtypeId="Cobalt" />
+        <Item Amount="20" TypeId="Ingot" SubtypeId="Magnesium" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_EnhancedResearchMaterial" />
+      </Results>
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AQD_BP_ResearchMaterial3</SubtypeId>
+      </Id>
+      <DisplayName>Produce Adv. Research Material</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_AdvancedResearchMaterial.dds</Icon>
+      <Prerequisites>
+        <Item Amount="30" TypeId="Ingot" SubtypeId="Magnesium" />
+        <Item Amount="20" TypeId="Ingot" SubtypeId="Uranium" />
+        <Item Amount="60" TypeId="Ingot" SubtypeId="Silver" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_AdvancedResearchMaterial" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AQD_BP_ResearchMaterial4</SubtypeId>
+      </Id>
+      <DisplayName>Produce Elite Research Material</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_EliteResearchMaterial.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Silver" />
+        <Item Amount="100" TypeId="Ingot" SubtypeId="Gold" />
+        <Item Amount="50" TypeId="Ingot" SubtypeId="Platinum" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_EliteResearchMaterial" />
+      </Results>
+      <BaseProductionTimeInSeconds>40</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+  </Blueprints>
+</Definitions>

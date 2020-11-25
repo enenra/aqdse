@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<!-- Created by ERSA Editor version 1.1 on: 2019-01-24 12:01 -->
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AQD_LOC_A1_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Small Wheels</DisplayName>
+      <Icon>Textures\GUI\Icons\AQD_research_locomotion.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Component" SubtypeId="AQD_ResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_LOC_A1_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>300</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AQD_LOC_A2_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Upscaled Wheels</DisplayName>
+      <Icon>Textures\GUI\Icons\AQD_research_locomotion.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_LOC_A1_BP" />
+        <Item Amount="40" TypeId="Component" SubtypeId="AQD_ResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_LOC_A2_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>300</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AQD_LOC_A3_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Heavy-Duty Wheels</DisplayName>
+      <Icon>Textures\GUI\Icons\AQD_research_locomotion.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_LOC_A2_BP" />
+        <Item Amount="20" TypeId="Component" SubtypeId="AQD_EnhancedResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_LOC_A3_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>300</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AQD_LOC_B1_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Hydrogen Thrusters</DisplayName>
+      <Icon>Textures\GUI\Icons\AQD_research_locomotion.dds</Icon>
+      <Prerequisites>
+        <Item Amount="30" TypeId="Component" SubtypeId="AQD_EnhancedResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_LOC_B1_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>600</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AQD_LOC_B2_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Atmospheric Thrusters</DisplayName>
+      <Icon>Textures\GUI\Icons\AQD_research_locomotion.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_LOC_B1_BP" />
+        <Item Amount="40" TypeId="Component" SubtypeId="AQD_AdvancedResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_LOC_B2_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>1200</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AQD_LOC_B3_RBP</SubtypeId>
+      </Id>
+      <DisplayName>Research Ion Thrusters</DisplayName>
+      <Icon>Textures\GUI\Icons\AQD_research_locomotion.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_LOC_B2_BP" />
+        <Item Amount="40" TypeId="Component" SubtypeId="AQD_EliteResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_LOC_B3_BP" />
+      </Results>
+      <BaseProductionTimeInSeconds>1800</BaseProductionTimeInSeconds>
+    </Blueprint>
+  </Blueprints>
+</Definitions>

@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<!-- Created by ERSA Editor version 0.75 on: 2019-01-19 16:41 -->
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Components>
+
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>AQD_ResearchMaterial</SubtypeId>
+      </Id>
+      <DisplayName>Research Material</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_ResearchMaterial.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.2</Y>
+        <Z>0.6</Z>
+      </Size>
+      <Mass>12</Mass>
+      <Volume>24</Volume>
+      <Model>Models\Components\AQD_ResearchMaterial.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.25</DropProbability>
+      <Health>12</Health>
+    </Component>
+
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>AQD_EnhancedResearchMaterial</SubtypeId>
+      </Id>
+      <DisplayName>Enh. Research Material</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_EnhancedResearchMaterial.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.2</Y>
+        <Z>0.6</Z>
+      </Size>
+      <Mass>12</Mass>
+      <Volume>24</Volume>
+      <Model>Models\Components\AQD_EnhancedResearchMaterial.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.25</DropProbability>
+      <Health>12</Health>
+    </Component>
+
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>AQD_AdvancedResearchMaterial</SubtypeId>
+      </Id>
+      <DisplayName>Adv. Research Material</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_AdvancedResearchMaterial.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.2</Y>
+        <Z>0.6</Z>
+      </Size>
+      <Mass>12</Mass>
+      <Volume>24</Volume>
+      <Model>Models\Components\AQD_AdvancedResearchMaterial.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.25</DropProbability>
+      <Health>12</Health>
+    </Component>
+
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>AQD_EliteResearchMaterial</SubtypeId>
+      </Id>
+      <DisplayName>Elite Research Material</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_EliteResearchMaterial.dds</Icon>
+      <Size>
+        <X>0.2</X>
+        <Y>0.2</Y>
+        <Z>0.6</Z>
+      </Size>
+      <Mass>12</Mass>
+      <Volume>24</Volume>
+      <Model>Models\Components\AQD_EliteResearchMaterial.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.25</DropProbability>
+      <Health>12</Health>
+    </Component>
+
+  </Components>
+</Definitions>

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!-- Created from enenra's Research Spreadsheet on: 2018-08-17 23:01 -->
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlueprintClasses>
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_BPC_ResearchLab</SubtypeId>
+      </Id>
+      <DisplayName>Research Blueprints</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\research_blueprint.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\research_blueprint_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_research_blueprint.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_research_blueprint.dds</OutputConstraintIcon>
+    </Class>
+  </BlueprintClasses>
+
+  <BlueprintClassEntries>
+    <Entry Class="Components" BlueprintSubtypeId="AQD_BP_ResearchMaterial" />
+    <Entry Class="Components" BlueprintSubtypeId="AQD_BP_ResearchMaterial2" />
+    <Entry Class="Components" BlueprintSubtypeId="AQD_BP_ResearchMaterial3" />
+    <Entry Class="Components" BlueprintSubtypeId="AQD_BP_ResearchMaterial4" />
+  </BlueprintClassEntries>
+</Definitions>

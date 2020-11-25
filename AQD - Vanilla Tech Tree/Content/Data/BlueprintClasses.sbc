@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- Created by ERSA Editor version 0.75 on: 2019-01-22 20:53 -->
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlueprintClassEntries>
+    <Entry Class="AQD_BPC_ResearchLab" BlueprintSubtypeId="AQD_LOC_A1_RBP" />
+    <Entry Class="AQD_BPC_ResearchLab" BlueprintSubtypeId="AQD_LOC_A2_RBP" />
+    <Entry Class="AQD_BPC_ResearchLab" BlueprintSubtypeId="AQD_LOC_A3_RBP" />
+    <Entry Class="AQD_BPC_ResearchLab" BlueprintSubtypeId="AQD_LOC_B1_RBP" />
+    <Entry Class="AQD_BPC_ResearchLab" BlueprintSubtypeId="AQD_LOC_B2_RBP" />
+    <Entry Class="AQD_BPC_ResearchLab" BlueprintSubtypeId="AQD_LOC_B3_RBP" />
+  </BlueprintClassEntries>
+</Definitions>
