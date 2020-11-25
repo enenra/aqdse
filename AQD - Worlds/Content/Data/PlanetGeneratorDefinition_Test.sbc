@@ -4,7 +4,7 @@
   <Definition xsi:type="PlanetGeneratorDefinition">
     <Id>
       <TypeId>PlanetGeneratorDefinition</TypeId>
-      <SubtypeId>EarthLike</SubtypeId>
+      <SubtypeId>Test</SubtypeId>
     </Id>
 
     <MesherPostprocessing xsi:type="MyObjectBuilder_VoxelMesherComponentDefinition">
