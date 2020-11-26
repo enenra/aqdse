@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_LargeBlocks</DisplayName>
+      <Name>LargeBlocks</Name>
+      <StrictSearch>true</StrictSearch>
+      <ItemIds>
+        <string>CubeBlock/AQD_LG_Concrete_Block</string>
+        <string>CubeBlock/AQD_LG_Concrete_Slope</string>
+        <string>CubeBlock/AQD_LG_Concrete_Corner</string>
+        <string>CubeBlock/AQD_LG_Concrete_Corner_Inv</string>
+        <string>CubeBlock/AQD_LG_Concrete_Half_Block</string>
+        <string>CubeBlock/AQD_LG_Concrete_Half_Block_Slope</string>
+
+        <string>CubeBlock/AQD_LG_ReinforcedConcrete_Block</string>
+        <string>CubeBlock/AQD_LG_ReinforcedConcrete_Slope</string>
+        <string>CubeBlock/AQD_LG_ReinforcedConcrete_Corner</string>
+        <string>CubeBlock/AQD_LG_ReinforcedConcrete_Corner_Inv</string>
+        <string>CubeBlock/AQD_LG_ReinforcedConcrete_Half_Block</string>
+        <string>CubeBlock/AQD_LG_ReinforcedConcrete_Half_Block_Slope</string>
+      </ItemIds>
+    </Category>
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_AQD_Cat_Concrete</DisplayName>
+      <Name>Concrete</Name>
+      <ItemIds>
+        <string>CubeBlock/AQD_LG_Concrete_Block</string>
+        <string>CubeBlock/AQD_LG_Concrete_Slope</string>
+        <string>CubeBlock/AQD_LG_Concrete_Corner</string>
+        <string>CubeBlock/AQD_LG_Concrete_Corner_Inv</string>
+        <string>CubeBlock/AQD_LG_Concrete_Half_Block</string>
+        <string>CubeBlock/AQD_LG_Concrete_Half_Block_Slope</string>
+
+        <string>CubeBlock/AQD_LG_ReinforcedConcrete_Block</string>
+        <string>CubeBlock/AQD_LG_ReinforcedConcrete_Slope</string>
+        <string>CubeBlock/AQD_LG_ReinforcedConcrete_Corner</string>
+        <string>CubeBlock/AQD_LG_ReinforcedConcrete_Corner_Inv</string>
+        <string>CubeBlock/AQD_LG_ReinforcedConcrete_Half_Block</string>
+        <string>CubeBlock/AQD_LG_ReinforcedConcrete_Half_Block_Slope</string>
+      </ItemIds>
+    </Category>
+
+  </CategoryClasses>
+</Definitions>

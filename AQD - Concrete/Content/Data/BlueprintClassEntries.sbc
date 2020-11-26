@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlueprintClassEntries>
+
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_Concrete_Block" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_Concrete_Slope" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_Concrete_Corner" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_Concrete_Corner_Inv" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_Concrete_Half_Block" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_Concrete_Half_Block_Slope" />
+
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_ReinforcedConcrete_Block" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_ReinforcedConcrete_Slope" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_ReinforcedConcrete_Corner" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_ReinforcedConcrete_Corner_Inv" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_ReinforcedConcrete_Half_Block" />
+    <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_ReinforcedConcrete_Half_Block_Slope" />
+
+    <Entry Class="SimpleComponents" BlueprintSubtypeId="AQD_BP_StoneIngot_To_Concrete" />
+    <Entry Class="Components" BlueprintSubtypeId="AQD_BP_StoneIngot_To_Concrete" />
+
+  </BlueprintClassEntries>
+</Definitions>

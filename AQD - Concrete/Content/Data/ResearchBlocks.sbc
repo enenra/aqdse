@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ResearchBlocks>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="CubeBlock" Subtype="AQD_LG_Concrete_Block" />
+      <UnlockedByGroups>
+        <GroupSubtype>1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="CubeBlock" Subtype="AQD_LG_Concrete_Slope" />
+      <UnlockedByGroups>
+        <GroupSubtype>1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="CubeBlock" Subtype="AQD_LG_Concrete_Corner" />
+      <UnlockedByGroups>
+        <GroupSubtype>1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="CubeBlock" Subtype="AQD_LG_Concrete_Corner_Inv" />
+      <UnlockedByGroups>
+        <GroupSubtype>1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="CubeBlock" Subtype="AQD_LG_Concrete_Half_Block" />
+      <UnlockedByGroups>
+        <GroupSubtype>1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="CubeBlock" Subtype="AQD_LG_Concrete_Half_Block_Slope" />
+      <UnlockedByGroups>
+        <GroupSubtype>1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="CubeBlock" Subtype="AQD_LG_ReinforcedConcrete_Block" />
+      <UnlockedByGroups>
+        <GroupSubtype>1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="CubeBlock" Subtype="AQD_LG_ReinforcedConcrete_Slope" />
+      <UnlockedByGroups>
+        <GroupSubtype>1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="CubeBlock" Subtype="AQD_LG_ReinforcedConcrete_Corner" />
+      <UnlockedByGroups>
+        <GroupSubtype>1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="CubeBlock" Subtype="AQD_LG_ReinforcedConcrete_Corner_Inv" />
+      <UnlockedByGroups>
+        <GroupSubtype>1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="CubeBlock" Subtype="AQD_LG_ReinforcedConcrete_Half_Block" />
+      <UnlockedByGroups>
+        <GroupSubtype>1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="CubeBlock" Subtype="AQD_LG_ReinforcedConcrete_Half_Block_Slope" />
+      <UnlockedByGroups>
+        <GroupSubtype>1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+  </ResearchBlocks>
+</Definitions>
