@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <!-- Created from enenra's Research Spreadsheet on: 2018-08-17 23:01 -->
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <BlueprintClasses>
     <Class>
       <Id>
@@ -17,8 +18,8 @@
 
   <BlueprintClassEntries>
     <Entry Class="Components" BlueprintSubtypeId="AQD_BP_ResearchMaterial" />
-    <Entry Class="Components" BlueprintSubtypeId="AQD_BP_ResearchMaterial2" />
-    <Entry Class="Components" BlueprintSubtypeId="AQD_BP_ResearchMaterial3" />
-    <Entry Class="Components" BlueprintSubtypeId="AQD_BP_ResearchMaterial4" />
+    <Entry Class="Components" BlueprintSubtypeId="AQD_BP_EnhancedResearchMaterial" />
+    <Entry Class="Components" BlueprintSubtypeId="AQD_BP_AdvancedResearchMaterial" />
+    <Entry Class="Components" BlueprintSubtypeId="AQD_BP_EliteResearchMaterial" />
   </BlueprintClassEntries>
 </Definitions>

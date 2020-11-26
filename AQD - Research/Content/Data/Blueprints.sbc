@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <!-- Created by ERSA Editor version 0.75 on: 2019-01-19 16:46 -->
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Blueprints>
 
     <Blueprint>
@@ -8,7 +9,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_ResearchMaterial</SubtypeId>
       </Id>
-      <DisplayName>Produce Research Material</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_ResearchMaterial</DisplayName>
       <Icon>Textures\GUI\Icons\component\AQD_ResearchMaterial.dds</Icon>
       <Prerequisites>
         <Item Amount="10" TypeId="Ingot" SubtypeId="Iron" />
@@ -24,9 +25,9 @@
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>AQD_BP_ResearchMaterial2</SubtypeId>
+        <SubtypeId>AQD_BP_EnhancedResearchMaterial</SubtypeId>
       </Id>
-      <DisplayName>Produce Enh. Research Material</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_EnhancedResearchMaterial</DisplayName>
       <Icon>Textures\GUI\Icons\component\AQD_EnhancedResearchMaterial.dds</Icon>
       <Prerequisites>
         <Item Amount="50" TypeId="Ingot" SubtypeId="Silicon" />
@@ -42,9 +43,9 @@
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>AQD_BP_ResearchMaterial3</SubtypeId>
+        <SubtypeId>AQD_BP_AdvancedResearchMaterial</SubtypeId>
       </Id>
-      <DisplayName>Produce Adv. Research Material</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_AdvancedResearchMaterial</DisplayName>
       <Icon>Textures\GUI\Icons\component\AQD_AdvancedResearchMaterial.dds</Icon>
       <Prerequisites>
         <Item Amount="30" TypeId="Ingot" SubtypeId="Magnesium" />
@@ -60,9 +61,9 @@
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>AQD_BP_ResearchMaterial4</SubtypeId>
+        <SubtypeId>AQD_BP_EliteResearchMaterial</SubtypeId>
       </Id>
-      <DisplayName>Produce Elite Research Material</DisplayName>
+      <DisplayName>DisplayName_AQD_BP_EliteResearchMaterial</DisplayName>
       <Icon>Textures\GUI\Icons\component\AQD_EliteResearchMaterial.dds</Icon>
       <Prerequisites>
         <Item Amount="100" TypeId="Ingot" SubtypeId="Silver" />

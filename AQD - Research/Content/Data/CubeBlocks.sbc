@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
 
     <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
@@ -7,9 +8,9 @@
         <TypeId>Assembler</TypeId>
         <SubtypeId>AQD_LG_ResearchLab</SubtypeId>
       </Id>
-      <DisplayName>Research Lab</DisplayName>
+      <DisplayName>DisplayName_AQD_LG_ResearchLab</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_ResearchLab.dds</Icon>
-      <Description>The Research Lab enables the research of new technologies, unlocking blocks, recipes for Assemblers and Refineries as well as access to other technologies. Technologies are researched by inserting the required tier of Research Material and are output as Research Blueprints, which store the technology's information.</Description>
+      <Description>Description_AQD_LG_ResearchLab</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -58,9 +59,9 @@
         <TypeId>CargoContainer</TypeId>
         <SubtypeId>AQD_LG_DataStorage</SubtypeId>
       </Id>
-      <DisplayName>Data Storage</DisplayName>
+      <DisplayName>DisplayName_AQD_LG_DataStorage</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_DataStorage.dds</Icon>
-      <Description>The Data Storage is able to securely store Research Blueprints.</Description>
+      <Description>Description_AQD_LG_DataStorage</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -97,6 +98,6 @@
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>10</PCU>
     </Definition>
-    
+
   </CubeBlocks>
 </Definitions>
