@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
 
     <!-- Spotlight range adjustments -->
@@ -13,7 +14,7 @@
       <Icon>Textures\GUI\Icons\Cubes\light.dds</Icon>
       <Description>Description_ReflectorLight</Description>
       <CubeSize>Large</CubeSize>
-        <GuiVisible>false</GuiVisible>
+      <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
@@ -57,7 +58,7 @@
       <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
       <DestroySound>PoofExplosionCat3</DestroySound>
       <PCU>25</PCU>
-      <IsAirTight>false</IsAirTight>      
+      <IsAirTight>false</IsAirTight>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_ReflectorBlockDefinition">
@@ -69,7 +70,7 @@
       <Icon>Textures\GUI\Icons\Cubes\light.dds</Icon>
       <Description>Description_ReflectorLight</Description>
       <CubeSize>Small</CubeSize>
-        <GuiVisible>false</GuiVisible>
+      <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
@@ -112,7 +113,57 @@
       <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
       <DestroySound>PoofExplosionCat2</DestroySound>
       <PCU>25</PCU>
-      <IsAirTight>false</IsAirTight>      
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_ReflectorBlockDefinition">
+      <Id>
+        <TypeId>ReflectorLight</TypeId>
+        <SubtypeId>OffsetSpotlight</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_OffsetSpotlight</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\CarLight2_Racing.dds</Icon>
+      <Description>Description_OffsetLight</Description>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\CarLight2_Racing.mwm</Model>
+      <Components>
+        <Component Subtype="Construction" Count="2" />
+        <Component Subtype="BulletproofGlass" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" ExclusionMask="3" PropertiesMask="3" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+      </MountPoints>
+      <IsStandAlone>false</IsStandAlone>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\CarLight1_Racing_Construction1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CarLight1_Racing_Construction2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>OffsetSpotlight</BlockPairName>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>4</BuildTimeSeconds>
+      <LightRadius Min="1" Max="5" Default="5" />
+      <LightReflectorRadius Min="10" Max="180" Default="180" />
+      <LightFalloff Min="1" Max="3" Default="1.5" />
+      <LightIntensity Min="0.5" Max="5" Default="3" />
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.0002</RequiredPowerInput>
+      <Flare>SpotlightSmall</Flare>
+      <ReflectorThickness>2.5</ReflectorThickness>
+      <ReflectorTexture>Textures\Lights\reflector_small.dds</ReflectorTexture>
+      <ReflectorConeDegrees>52</ReflectorConeDegrees>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <DestroyEffect>BlockDestroyed_Medium</DestroyEffect>
+      <DestroySound>PoofExplosionCat2</DestroySound>
+      <PCU>25</PCU>
+      <IsAirTight>false</IsAirTight>
+      <DLC>ScrapRace</DLC>
     </Definition>
 
     <!-- Light range adjustments -->
@@ -162,7 +213,7 @@
       </DestroyEffectOffset>
       <DestroySound>PoofExplosionCat1</DestroySound>
       <PCU>25</PCU>
-      <IsAirTight>false</IsAirTight>      
+      <IsAirTight>false</IsAirTight>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
@@ -206,7 +257,7 @@
       <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
       <DestroySound>PoofExplosionCat1</DestroySound>
       <PCU>25</PCU>
-      <IsAirTight>false</IsAirTight>      
+      <IsAirTight>false</IsAirTight>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
@@ -219,7 +270,7 @@
       <Icon>Textures\GUI\Icons\Cubes\Light_1corner.dds</Icon>
       <Description>Description_CornerLight</Description>
       <CubeSize>Large</CubeSize>
-        <GuiVisible>false</GuiVisible>
+      <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
@@ -257,7 +308,7 @@
       </DestroyEffectOffset>
       <DestroySound>PoofExplosionCat1</DestroySound>
       <PCU>25</PCU>
-      <IsAirTight>false</IsAirTight>      
+      <IsAirTight>false</IsAirTight>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
@@ -307,7 +358,7 @@
       </DestroyEffectOffset>
       <DestroySound>PoofExplosionCat1</DestroySound>
       <PCU>25</PCU>
-      <IsAirTight>false</IsAirTight>      
+      <IsAirTight>false</IsAirTight>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
@@ -320,7 +371,7 @@
       <Icon>Textures\GUI\Icons\Cubes\Light_1corner.dds</Icon>
       <Description>Description_CornerLight</Description>
       <CubeSize>Small</CubeSize>
-        <GuiVisible>false</GuiVisible>
+      <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
@@ -353,7 +404,7 @@
       <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
       <DestroySound>PoofExplosionCat1</DestroySound>
       <PCU>25</PCU>
-      <IsAirTight>false</IsAirTight>      
+      <IsAirTight>false</IsAirTight>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
@@ -398,8 +449,57 @@
       <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
       <DestroySound>PoofExplosionCat1</DestroySound>
       <PCU>25</PCU>
-      <IsAirTight>false</IsAirTight>      
+      <IsAirTight>false</IsAirTight>
     </Definition>
-    
+
+    <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+      <Id>
+        <TypeId>InteriorLight</TypeId>
+        <SubtypeId>OffsetLight</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_OffsetLight</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\CarLight1_Racing.dds</Icon>
+      <Description>Description_OffsetLight</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\CarLight1_Racing.mwm</Model>
+      <Components>
+        <Component Subtype="Construction" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="Construction" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" ExclusionMask="3" PropertiesMask="3" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+      </MountPoints>
+      <IsStandAlone>false</IsStandAlone>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\CarLight1_Racing_Construction1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\CarLight1_Racing_Construction2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>OffsetLight</BlockPairName>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <LightRadius Min="1" Max="20" Default="3.6" />
+      <LightFalloff Min="0" Max="3" Default="1.3" />
+      <LightIntensity Min="0.5" Max="10" Default="5" />
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.00006</RequiredPowerInput>
+      <Flare>InteriorLight</Flare>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+      <DestroyEffectOffset>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1.1</Z>
+      </DestroyEffectOffset>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>25</PCU>
+      <IsAirTight>false</IsAirTight>
+      <DLC>ScrapRace</DLC>
+    </Definition>
+
   </CubeBlocks>
 </Definitions>
