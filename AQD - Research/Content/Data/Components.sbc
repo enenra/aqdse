@@ -7,7 +7,7 @@
     <Component>
       <Id>
         <TypeId>Component</TypeId>
-        <SubtypeId>AQD_ResearchMaterial</SubtypeId>
+        <SubtypeId>AQD_Comp_ResearchMaterial</SubtypeId>
       </Id>
       <DisplayName>DisplayName_AQD_Comp_ResearchMaterial</DisplayName>
       <Icon>Textures\GUI\Icons\component\AQD_ResearchMaterial.dds</Icon>
@@ -17,7 +17,7 @@
         <Z>0.6</Z>
       </Size>
       <Mass>12</Mass>
-      <Volume>24</Volume>
+      <Volume>14</Volume>
       <Model>Models\Components\AQD_ResearchMaterial.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <MaxIntegrity>10</MaxIntegrity>
@@ -28,7 +28,7 @@
     <Component>
       <Id>
         <TypeId>Component</TypeId>
-        <SubtypeId>AQD_EnhancedResearchMaterial</SubtypeId>
+        <SubtypeId>AQD_Comp_EnhancedResearchMaterial</SubtypeId>
       </Id>
       <DisplayName>DisplayName_AQD_Comp_EnhancedResearchMaterial</DisplayName>
       <Icon>Textures\GUI\Icons\component\AQD_EnhancedResearchMaterial.dds</Icon>
@@ -38,7 +38,7 @@
         <Z>0.6</Z>
       </Size>
       <Mass>12</Mass>
-      <Volume>24</Volume>
+      <Volume>14</Volume>
       <Model>Models\Components\AQD_EnhancedResearchMaterial.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <MaxIntegrity>10</MaxIntegrity>
@@ -49,7 +49,7 @@
     <Component>
       <Id>
         <TypeId>Component</TypeId>
-        <SubtypeId>AQD_AdvancedResearchMaterial</SubtypeId>
+        <SubtypeId>AQD_Comp_AdvancedResearchMaterial</SubtypeId>
       </Id>
       <DisplayName>DisplayName_AQD_Comp_AdvancedResearchMaterial</DisplayName>
       <Icon>Textures\GUI\Icons\component\AQD_AdvancedResearchMaterial.dds</Icon>
@@ -59,7 +59,7 @@
         <Z>0.6</Z>
       </Size>
       <Mass>12</Mass>
-      <Volume>24</Volume>
+      <Volume>14</Volume>
       <Model>Models\Components\AQD_AdvancedResearchMaterial.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <MaxIntegrity>10</MaxIntegrity>
@@ -70,7 +70,7 @@
     <Component>
       <Id>
         <TypeId>Component</TypeId>
-        <SubtypeId>AQD_EliteResearchMaterial</SubtypeId>
+        <SubtypeId>AQD_Comp_EliteResearchMaterial</SubtypeId>
       </Id>
       <DisplayName>DisplayName_AQD_Comp_EliteResearchMaterial</DisplayName>
       <Icon>Textures\GUI\Icons\component\AQD_EliteResearchMaterial.dds</Icon>
@@ -80,7 +80,7 @@
         <Z>0.6</Z>
       </Size>
       <Mass>12</Mass>
-      <Volume>24</Volume>
+      <Volume>14</Volume>
       <Model>Models\Components\AQD_EliteResearchMaterial.mwm</Model>
       <PhysicalMaterial>Metal</PhysicalMaterial>
       <MaxIntegrity>10</MaxIntegrity>

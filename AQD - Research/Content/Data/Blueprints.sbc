@@ -17,7 +17,7 @@
         <Item Amount="20" TypeId="Ingot" SubtypeId="Silicon" />
       </Prerequisites>
       <Results>
-        <Item Amount="1" TypeId="Component" SubtypeId="AQD_ResearchMaterial" />
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Comp_ResearchMaterial" />
       </Results>
       <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -35,7 +35,7 @@
         <Item Amount="20" TypeId="Ingot" SubtypeId="Magnesium" />
       </Prerequisites>
       <Results>
-        <Item Amount="1" TypeId="Component" SubtypeId="AQD_EnhancedResearchMaterial" />
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Comp_EnhancedResearchMaterial" />
       </Results>
       <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -53,7 +53,7 @@
         <Item Amount="20" TypeId="Ingot" SubtypeId="Gold" />
       </Prerequisites>
       <Results>
-        <Item Amount="1" TypeId="Component" SubtypeId="AQD_AdvancedResearchMaterial" />
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Comp_AdvancedResearchMaterial" />
       </Results>
       <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
@@ -71,7 +71,7 @@
         <Item Amount="20" TypeId="Ingot" SubtypeId="Platinum" />
       </Prerequisites>
       <Results>
-        <Item Amount="1" TypeId="Component" SubtypeId="AQD_EliteResearchMaterial" />
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Comp_EliteResearchMaterial" />
       </Results>
       <BaseProductionTimeInSeconds>40</BaseProductionTimeInSeconds>
     </Blueprint>

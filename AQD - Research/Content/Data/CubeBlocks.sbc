@@ -34,7 +34,7 @@
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>80</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
-      <InventoryMaxVolume>1</InventoryMaxVolume>
+      <InventoryMaxVolume>5</InventoryMaxVolume>
       <InventorySize>
         <X>1</X>
         <Y>1</Y>
@@ -43,7 +43,10 @@
       <StandbyPowerConsumption>0.01</StandbyPowerConsumption>
       <OperationalPowerConsumption>1.00</OperationalPowerConsumption>
       <BlueprintClasses>
-        <Class>AQD_BPC_ResearchLab</Class>
+        <Class>AQD_BPC_ResearchLab_T1</Class>
+        <Class>AQD_BPC_ResearchLab_T2</Class>
+        <Class>AQD_BPC_ResearchLab_T3</Class>
+        <Class>AQD_BPC_ResearchLab_T4</Class>
       </BlueprintClasses>
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
       <DamagedSound>ParticleHeavyMech</DamagedSound>

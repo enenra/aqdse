@@ -44,6 +44,31 @@ namespace enenra.EmissiveControl
         {
             NeedsUpdate |= MyEntityUpdateEnum.EACH_10TH_FRAME;
 
+            foreach (var mod in MyAPIGateway.Session.Mods)
+            {
+                if (mod.PublishedFileId == 2244563617) // AQD - Visuals
+                {
+                    GREEN.R = 60;
+                    GREEN.G = 163;
+                    GREEN.B = 33;
+                    RED.R = 171;
+                    RED.G = 42;
+                    RED.B = 29;
+                    LIGHTBLUE.R = 54;
+                    LIGHTBLUE.G = 90;
+                    LIGHTBLUE.B = 161;
+                }
+                else if (mod.PublishedFileId == 2212516940) // Emissive Colors - Red / Green Color Vision Deficiency
+                {
+                    GREEN.R = 10;
+                    GREEN.G = 255;
+                    GREEN.B = 25;
+                    LIGHTBLUE.R = 0;
+                    LIGHTBLUE.G = 255;
+                    LIGHTBLUE.B = 255;
+                }
+            }
+
             m_block = (Sandbox.ModAPI.IMyAssembler)Entity;
         }
 
