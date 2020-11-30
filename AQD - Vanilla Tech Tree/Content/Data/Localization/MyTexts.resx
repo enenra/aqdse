@@ -1,0 +1,426 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DisplayName_AQD_Tech_ARM_A1" xml:space="preserve">
+    <value>Reinforced Armor Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_ARM_A2" xml:space="preserve">
+    <value>Blast Protection Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_AUT_A1" xml:space="preserve">
+    <value>Sensor Equipment Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_AUT_B1" xml:space="preserve">
+    <value>Basic Automation Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_AUT_B2" xml:space="preserve">
+    <value>Action Sequencing Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_AUT_B3" xml:space="preserve">
+    <value>Logic Processors Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_COM_A1" xml:space="preserve">
+    <value>Targeting Disruption Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_COM_A2" xml:space="preserve">
+    <value>Automated Turrets Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_COM_A3" xml:space="preserve">
+    <value>Automatic Reload Systems Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_COM_A4" xml:space="preserve">
+    <value>Upscaled Missile Systems Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_DEF_A1" xml:space="preserve">
+    <value>Mass Generation Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_DEF_A2" xml:space="preserve">
+    <value>Gravity Generation Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_DEF_B1" xml:space="preserve">
+    <value>Cryo Sleep Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_DEF_B2" xml:space="preserve">
+    <value>FTL Travel Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_IND_A1" xml:space="preserve">
+    <value>Upscaled Drills Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_IND_A2" xml:space="preserve">
+    <value>Upscaled Grinders Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_IND_A3" xml:space="preserve">
+    <value>Upscaled Welders Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_IND_B1" xml:space="preserve">
+    <value>Upscaled Refining Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_IND_B2" xml:space="preserve">
+    <value>Energy Saving Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_IND_B3" xml:space="preserve">
+    <value>Productivity Improvements Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_IND_B4" xml:space="preserve">
+    <value>Yield Improvements Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_LOC_A1" xml:space="preserve">
+    <value>Upscaled Wheels Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_LOC_A2" xml:space="preserve">
+    <value>Heavy-Duty Wheels Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_LOC_B1" xml:space="preserve">
+    <value>Hydrogen Thrust Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_LOC_B2" xml:space="preserve">
+    <value>Upscaled Hydrogen Thrusters Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_LOC_C1" xml:space="preserve">
+    <value>Jet Engines Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_LOC_C2" xml:space="preserve">
+    <value>Upscaled Jet Engines Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_LOC_D1" xml:space="preserve">
+    <value>Ion Thrust Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_LOC_D2" xml:space="preserve">
+    <value>Upscaled Ion Thrust Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_PWR_A1" xml:space="preserve">
+    <value>Solar Power Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_PWR_B1" xml:space="preserve">
+    <value>Nuclear Reactors Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_PWR_B2" xml:space="preserve">
+    <value>Upscaled Reactors Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_STOR_A1" xml:space="preserve">
+    <value>Upscaled Cargo Containers Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_STOR_A2" xml:space="preserve">
+    <value>Advanced Cargo Containers Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_STOR_B1" xml:space="preserve">
+    <value>Upscaled Tanks Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_STOR_B2" xml:space="preserve">
+    <value>Advanced Tanks Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_STOR_C1" xml:space="preserve">
+    <value>Item Transfer Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_STOR_C2" xml:space="preserve">
+    <value>Advanced Item Transfer Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_STOR_C3" xml:space="preserve">
+    <value>Flexible Item Transfer Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_UTIL_A1" xml:space="preserve">
+    <value>Positional Markers Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_UTIL_A2" xml:space="preserve">
+    <value>Upscaled Short-Range Comms Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_UTIL_A3" xml:space="preserve">
+    <value>Long-Range Communications Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_UTIL_B1" xml:space="preserve">
+    <value>Upscaled Detectors Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_UTIL_C1" xml:space="preserve">
+    <value>Holographic Projectors Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_UTIL_D1" xml:space="preserve">
+    <value>Upscaled Doors Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_UTIL_E1" xml:space="preserve">
+    <value>Enclosed Cockpits Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_UTIL_E2" xml:space="preserve">
+    <value>Upscaled Cockpits Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_UTIL_E3" xml:space="preserve">
+    <value>Upscaled Control Consoles Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_UTIL_F1" xml:space="preserve">
+    <value>Automatic Vents Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_UTIL_F2" xml:space="preserve">
+    <value>Oxygen Collection Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_UTIL_G1" xml:space="preserve">
+    <value>Upscaled Gyroscopes Schematic</value>
+  </data>
+  <data name="DisplayName_T1_AQD_BP_AUT_B1" xml:space="preserve">
+    <value>Research Basic Automation</value>
+  </data>
+  <data name="DisplayName_T1_AQD_BP_AUT_B2" xml:space="preserve">
+    <value>Research Action Sequencing</value>
+  </data>
+  <data name="DisplayName_T1_AQD_BP_COM_A1" xml:space="preserve">
+    <value>Research Targeting Disruption</value>
+  </data>
+  <data name="DisplayName_T1_AQD_BP_LOC_A1" xml:space="preserve">
+    <value>Research Upscaled Wheels</value>
+  </data>
+  <data name="DisplayName_T1_AQD_BP_LOC_A2" xml:space="preserve">
+    <value>Research Heavy-Duty Wheels</value>
+  </data>
+  <data name="DisplayName_T1_AQD_BP_LOC_B1" xml:space="preserve">
+    <value>Research Hydrogen Thrust</value>
+  </data>
+  <data name="DisplayName_T1_AQD_BP_PWR_A1" xml:space="preserve">
+    <value>Research Solar Power</value>
+  </data>
+  <data name="DisplayName_T1_AQD_BP_STOR_A1" xml:space="preserve">
+    <value>Research Upscaled Cargo Containers</value>
+  </data>
+  <data name="DisplayName_T1_AQD_BP_STOR_A2" xml:space="preserve">
+    <value>Research Advanced Cargo Containers</value>
+  </data>
+  <data name="DisplayName_T1_AQD_BP_STOR_B1" xml:space="preserve">
+    <value>Research Upscaled Tanks</value>
+  </data>
+  <data name="DisplayName_T1_AQD_BP_STOR_B2" xml:space="preserve">
+    <value>Research Advanced Tanks</value>
+  </data>
+  <data name="DisplayName_T1_AQD_BP_STOR_C1" xml:space="preserve">
+    <value>Research Item Transfer</value>
+  </data>
+  <data name="DisplayName_T1_AQD_BP_STOR_C2" xml:space="preserve">
+    <value>Research Advanced Item Transfer</value>
+  </data>
+  <data name="DisplayName_T1_AQD_BP_STOR_C3" xml:space="preserve">
+    <value>Research Flexible Item Transfer</value>
+  </data>
+  <data name="DisplayName_T1_AQD_BP_UTIL_E1" xml:space="preserve">
+    <value>Research Enclosed Cockpits</value>
+  </data>
+  <data name="DisplayName_T1_AQD_BP_UTIL_F1" xml:space="preserve">
+    <value>Research Automatic Vents</value>
+  </data>
+  <data name="DisplayName_T2_AQD_BP_ARM_A1" xml:space="preserve">
+    <value>Research Reinforced Armor</value>
+  </data>
+  <data name="DisplayName_T2_AQD_BP_AUT_A1" xml:space="preserve">
+    <value>Research Sensor Equipment</value>
+  </data>
+  <data name="DisplayName_T2_AQD_BP_AUT_B3" xml:space="preserve">
+    <value>Research Logic Processors</value>
+  </data>
+  <data name="DisplayName_T2_AQD_BP_COM_A2" xml:space="preserve">
+    <value>Research Automated Turrets</value>
+  </data>
+  <data name="DisplayName_T2_AQD_BP_COM_A3" xml:space="preserve">
+    <value>Research Automatic Reload Systems</value>
+  </data>
+  <data name="DisplayName_T2_AQD_BP_IND_A1" xml:space="preserve">
+    <value>Research Upscaled Drills</value>
+  </data>
+  <data name="DisplayName_T2_AQD_BP_IND_A2" xml:space="preserve">
+    <value>Research Upscaled Grinders</value>
+  </data>
+  <data name="DisplayName_T2_AQD_BP_IND_A3" xml:space="preserve">
+    <value>Research Upscaled Welders</value>
+  </data>
+  <data name="DisplayName_T2_AQD_BP_IND_B1" xml:space="preserve">
+    <value>Research Upscaled Refining</value>
+  </data>
+  <data name="DisplayName_T2_AQD_BP_IND_B2" xml:space="preserve">
+    <value>Research Energy Saving</value>
+  </data>
+  <data name="DisplayName_T2_AQD_BP_IND_B3" xml:space="preserve">
+    <value>Research Productivity Improvements</value>
+  </data>
+  <data name="DisplayName_T2_AQD_BP_LOC_B2" xml:space="preserve">
+    <value>Research Upscaled Hydrogen Thrusters</value>
+  </data>
+  <data name="DisplayName_T2_AQD_BP_LOC_C1" xml:space="preserve">
+    <value>Research Jet Engines</value>
+  </data>
+  <data name="DisplayName_T2_AQD_BP_UTIL_A1" xml:space="preserve">
+    <value>Research Positional Markers</value>
+  </data>
+  <data name="DisplayName_T2_AQD_BP_UTIL_A2" xml:space="preserve">
+    <value>Research Upscaled Short-Range Comms</value>
+  </data>
+  <data name="DisplayName_T2_AQD_BP_UTIL_B1" xml:space="preserve">
+    <value>Research Upscaled Detectors</value>
+  </data>
+  <data name="DisplayName_T2_AQD_BP_UTIL_D1" xml:space="preserve">
+    <value>Research Upscaled Doors</value>
+  </data>
+  <data name="DisplayName_T2_AQD_BP_UTIL_E2" xml:space="preserve">
+    <value>Research Upscaled Cockpits</value>
+  </data>
+  <data name="DisplayName_T2_AQD_BP_UTIL_G1" xml:space="preserve">
+    <value>Research Upscaled Gyroscopes</value>
+  </data>
+  <data name="DisplayName_T3_AQD_BP_ARM_A2" xml:space="preserve">
+    <value>Research Blast Protection</value>
+  </data>
+  <data name="DisplayName_T3_AQD_BP_COM_A4" xml:space="preserve">
+    <value>Research Upscaled Missile Systems</value>
+  </data>
+  <data name="DisplayName_T3_AQD_BP_DEF_B1" xml:space="preserve">
+    <value>Research Cryo Sleep</value>
+  </data>
+  <data name="DisplayName_T3_AQD_BP_DEF_B2" xml:space="preserve">
+    <value>Research FTL Travel</value>
+  </data>
+  <data name="DisplayName_T3_AQD_BP_IND_B4" xml:space="preserve">
+    <value>Research Yield Improvements</value>
+  </data>
+  <data name="DisplayName_T3_AQD_BP_LOC_C2" xml:space="preserve">
+    <value>Research Upscaled Jet Engines</value>
+  </data>
+  <data name="DisplayName_T3_AQD_BP_PWR_B1" xml:space="preserve">
+    <value>Research Nuclear Reactors</value>
+  </data>
+  <data name="DisplayName_T3_AQD_BP_PWR_B2" xml:space="preserve">
+    <value>Research Upscaled Reactors</value>
+  </data>
+  <data name="DisplayName_T3_AQD_BP_UTIL_A3" xml:space="preserve">
+    <value>Research Long-Range Communications</value>
+  </data>
+  <data name="DisplayName_T3_AQD_BP_UTIL_C1" xml:space="preserve">
+    <value>Research Holographic Projectors</value>
+  </data>
+  <data name="DisplayName_T3_AQD_BP_UTIL_E3" xml:space="preserve">
+    <value>Research Upscaled Control Consoles</value>
+  </data>
+  <data name="DisplayName_T4_AQD_BP_DEF_A1" xml:space="preserve">
+    <value>Research Mass Generation</value>
+  </data>
+  <data name="DisplayName_T4_AQD_BP_DEF_A2" xml:space="preserve">
+    <value>Research Gravity Generation</value>
+  </data>
+  <data name="DisplayName_T4_AQD_BP_LOC_D1" xml:space="preserve">
+    <value>Research Ion Thrust</value>
+  </data>
+  <data name="DisplayName_T4_AQD_BP_LOC_D2" xml:space="preserve">
+    <value>Research Upscaled Ion Thrust</value>
+  </data>
+  <data name="DisplayName_T4_AQD_BP_UTIL_F2" xml:space="preserve">
+    <value>Research Oxygen Collection</value>
+  </data>
+</root>

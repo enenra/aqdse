@@ -12,9 +12,9 @@
       <DisplayName>DisplayName_AQD_BP_ResearchMaterial</DisplayName>
       <Icon>Textures\GUI\Icons\component\AQD_ResearchMaterial.dds</Icon>
       <Prerequisites>
-        <Item Amount="10" TypeId="Ingot" SubtypeId="Iron" />
-        <Item Amount="10" TypeId="Ingot" SubtypeId="Nickel" />
-        <Item Amount="10" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="50" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="30" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="20" TypeId="Ingot" SubtypeId="Silicon" />
       </Prerequisites>
       <Results>
         <Item Amount="1" TypeId="Component" SubtypeId="AQD_ResearchMaterial" />
@@ -48,9 +48,9 @@
       <DisplayName>DisplayName_AQD_BP_AdvancedResearchMaterial</DisplayName>
       <Icon>Textures\GUI\Icons\component\AQD_AdvancedResearchMaterial.dds</Icon>
       <Prerequisites>
-        <Item Amount="30" TypeId="Ingot" SubtypeId="Magnesium" />
-        <Item Amount="20" TypeId="Ingot" SubtypeId="Uranium" />
-        <Item Amount="60" TypeId="Ingot" SubtypeId="Silver" />
+        <Item Amount="50" TypeId="Ingot" SubtypeId="Magnesium" />
+        <Item Amount="30" TypeId="Ingot" SubtypeId="Silver" />
+        <Item Amount="20" TypeId="Ingot" SubtypeId="Gold" />
       </Prerequisites>
       <Results>
         <Item Amount="1" TypeId="Component" SubtypeId="AQD_AdvancedResearchMaterial" />
@@ -66,9 +66,9 @@
       <DisplayName>DisplayName_AQD_BP_EliteResearchMaterial</DisplayName>
       <Icon>Textures\GUI\Icons\component\AQD_EliteResearchMaterial.dds</Icon>
       <Prerequisites>
-        <Item Amount="100" TypeId="Ingot" SubtypeId="Silver" />
-        <Item Amount="100" TypeId="Ingot" SubtypeId="Gold" />
-        <Item Amount="50" TypeId="Ingot" SubtypeId="Platinum" />
+        <Item Amount="50" TypeId="Ingot" SubtypeId="Gold" />
+        <Item Amount="30" TypeId="Ingot" SubtypeId="Uranium" />
+        <Item Amount="20" TypeId="Ingot" SubtypeId="Platinum" />
       </Prerequisites>
       <Results>
         <Item Amount="1" TypeId="Component" SubtypeId="AQD_EliteResearchMaterial" />

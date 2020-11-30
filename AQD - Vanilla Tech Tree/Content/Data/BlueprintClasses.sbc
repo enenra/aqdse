@@ -1,12 +1,57 @@
-<?xml version="1.0"?>
-<!-- Created by ERSA Editor version 0.75 on: 2019-01-22 20:53 -->
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<?xml version="1.0"?><!-- Created by AQD ResearchGroups Editor on: 2020-11-30 12:29 -->
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <BlueprintClassEntries>
-    <Entry Class="AQD_BPC_ResearchLab" BlueprintSubtypeId="AQD_LOC_A1_RBP" />
-    <Entry Class="AQD_BPC_ResearchLab" BlueprintSubtypeId="AQD_LOC_A2_RBP" />
-    <Entry Class="AQD_BPC_ResearchLab" BlueprintSubtypeId="AQD_LOC_A3_RBP" />
-    <Entry Class="AQD_BPC_ResearchLab" BlueprintSubtypeId="AQD_LOC_B1_RBP" />
-    <Entry Class="AQD_BPC_ResearchLab" BlueprintSubtypeId="AQD_LOC_B2_RBP" />
-    <Entry Class="AQD_BPC_ResearchLab" BlueprintSubtypeId="AQD_LOC_B3_RBP" />
+    <Entry Class="AQD_BPC_ResearchLab_T1" BlueprintSubtypeId="T1_AQD_BP_LOC_A1" />
+    <Entry Class="AQD_BPC_ResearchLab_T1" BlueprintSubtypeId="T1_AQD_BP_LOC_A2" />
+    <Entry Class="AQD_BPC_ResearchLab_T1" BlueprintSubtypeId="T1_AQD_BP_LOC_B1" />
+    <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_AQD_BP_LOC_B2" />
+    <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_AQD_BP_LOC_C1" />
+    <Entry Class="AQD_BPC_ResearchLab_T3" BlueprintSubtypeId="T3_AQD_BP_LOC_C2" />
+    <Entry Class="AQD_BPC_ResearchLab_T4" BlueprintSubtypeId="T4_AQD_BP_LOC_D1" />
+    <Entry Class="AQD_BPC_ResearchLab_T4" BlueprintSubtypeId="T4_AQD_BP_LOC_D2" />
+    <Entry Class="AQD_BPC_ResearchLab_T1" BlueprintSubtypeId="T1_AQD_BP_PWR_A1" />
+    <Entry Class="AQD_BPC_ResearchLab_T3" BlueprintSubtypeId="T3_AQD_BP_PWR_B1" />
+    <Entry Class="AQD_BPC_ResearchLab_T3" BlueprintSubtypeId="T3_AQD_BP_PWR_B2" />
+    <Entry Class="AQD_BPC_ResearchLab_T1" BlueprintSubtypeId="T1_AQD_BP_STOR_A1" />
+    <Entry Class="AQD_BPC_ResearchLab_T1" BlueprintSubtypeId="T1_AQD_BP_STOR_A2" />
+    <Entry Class="AQD_BPC_ResearchLab_T1" BlueprintSubtypeId="T1_AQD_BP_STOR_B1" />
+    <Entry Class="AQD_BPC_ResearchLab_T1" BlueprintSubtypeId="T1_AQD_BP_STOR_B2" />
+    <Entry Class="AQD_BPC_ResearchLab_T1" BlueprintSubtypeId="T1_AQD_BP_STOR_C1" />
+    <Entry Class="AQD_BPC_ResearchLab_T1" BlueprintSubtypeId="T1_AQD_BP_STOR_C2" />
+    <Entry Class="AQD_BPC_ResearchLab_T1" BlueprintSubtypeId="T1_AQD_BP_STOR_C3" />
+    <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_AQD_BP_IND_A1" />
+    <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_AQD_BP_IND_A2" />
+    <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_AQD_BP_IND_A3" />
+    <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_AQD_BP_IND_B1" />
+    <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_AQD_BP_IND_B2" />
+    <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_AQD_BP_IND_B3" />
+    <Entry Class="AQD_BPC_ResearchLab_T3" BlueprintSubtypeId="T3_AQD_BP_IND_B4" />
+    <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_AQD_BP_AUT_A1" />
+    <Entry Class="AQD_BPC_ResearchLab_T1" BlueprintSubtypeId="T1_AQD_BP_AUT_B1" />
+    <Entry Class="AQD_BPC_ResearchLab_T1" BlueprintSubtypeId="T1_AQD_BP_AUT_B2" />
+    <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_AQD_BP_AUT_B3" />
+    <Entry Class="AQD_BPC_ResearchLab_T4" BlueprintSubtypeId="T4_AQD_BP_DEF_A1" />
+    <Entry Class="AQD_BPC_ResearchLab_T4" BlueprintSubtypeId="T4_AQD_BP_DEF_A2" />
+    <Entry Class="AQD_BPC_ResearchLab_T3" BlueprintSubtypeId="T3_AQD_BP_DEF_B1" />
+    <Entry Class="AQD_BPC_ResearchLab_T3" BlueprintSubtypeId="T3_AQD_BP_DEF_B2" />
+    <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_AQD_BP_UTIL_A1" />
+    <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_AQD_BP_UTIL_A2" />
+    <Entry Class="AQD_BPC_ResearchLab_T3" BlueprintSubtypeId="T3_AQD_BP_UTIL_A3" />
+    <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_AQD_BP_UTIL_B1" />
+    <Entry Class="AQD_BPC_ResearchLab_T3" BlueprintSubtypeId="T3_AQD_BP_UTIL_C1" />
+    <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_AQD_BP_UTIL_D1" />
+    <Entry Class="AQD_BPC_ResearchLab_T1" BlueprintSubtypeId="T1_AQD_BP_UTIL_E1" />
+    <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_AQD_BP_UTIL_E2" />
+    <Entry Class="AQD_BPC_ResearchLab_T3" BlueprintSubtypeId="T3_AQD_BP_UTIL_E3" />
+    <Entry Class="AQD_BPC_ResearchLab_T1" BlueprintSubtypeId="T1_AQD_BP_UTIL_F1" />
+    <Entry Class="AQD_BPC_ResearchLab_T4" BlueprintSubtypeId="T4_AQD_BP_UTIL_F2" />
+    <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_AQD_BP_UTIL_G1" />
+    <Entry Class="AQD_BPC_ResearchLab_T1" BlueprintSubtypeId="T1_AQD_BP_COM_A1" />
+    <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_AQD_BP_COM_A2" />
+    <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_AQD_BP_COM_A3" />
+    <Entry Class="AQD_BPC_ResearchLab_T3" BlueprintSubtypeId="T3_AQD_BP_COM_A4" />
+    <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_AQD_BP_ARM_A1" />
+    <Entry Class="AQD_BPC_ResearchLab_T3" BlueprintSubtypeId="T3_AQD_BP_ARM_A2" />
   </BlueprintClassEntries>
 </Definitions>

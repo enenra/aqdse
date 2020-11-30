@@ -1,100 +1,797 @@
-<?xml version="1.0"?>
-<!-- Created by ERSA Editor version 1.1 on: 2019-01-24 12:01 -->
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<?xml version="1.0"?><!-- Created by AQD ResearchGroups Editor on: 2020-11-30 12:29 -->
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Blueprints>
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>AQD_LOC_A1_RBP</SubtypeId>
+        <SubtypeId>T1_AQD_BP_LOC_A1</SubtypeId>
       </Id>
-      <DisplayName>Research Small Wheels</DisplayName>
-      <Icon>Textures\GUI\Icons\AQD_research_locomotion.dds</Icon>
+      <DisplayName>DisplayName_T1_AQD_BP_LOC_A1</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_locomotion.dds</Icon>
       <Prerequisites>
         <Item Amount="10" TypeId="Component" SubtypeId="AQD_ResearchMaterial" />
       </Prerequisites>
       <Results>
-        <Item Amount="1" TypeId="Component" SubtypeId="AQD_LOC_A1_BP" />
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_LOC_A1" />
       </Results>
-      <BaseProductionTimeInSeconds>300</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>AQD_LOC_A2_RBP</SubtypeId>
+        <SubtypeId>T1_AQD_BP_LOC_A2</SubtypeId>
       </Id>
-      <DisplayName>Research Upscaled Wheels</DisplayName>
-      <Icon>Textures\GUI\Icons\AQD_research_locomotion.dds</Icon>
+      <DisplayName>DisplayName_T1_AQD_BP_LOC_A2</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_locomotion.dds</Icon>
       <Prerequisites>
-        <Item Amount="1" TypeId="Component" SubtypeId="AQD_LOC_A1_BP" />
+        <Item Amount="20" TypeId="Component" SubtypeId="AQD_ResearchMaterial" />
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_LOC_A1" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_LOC_A2" />
+      </Results>
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_AQD_BP_LOC_B1</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_T1_AQD_BP_LOC_B1</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_locomotion.dds</Icon>
+      <Prerequisites>
         <Item Amount="40" TypeId="Component" SubtypeId="AQD_ResearchMaterial" />
       </Prerequisites>
       <Results>
-        <Item Amount="1" TypeId="Component" SubtypeId="AQD_LOC_A2_BP" />
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_LOC_B1" />
       </Results>
-      <BaseProductionTimeInSeconds>300</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>AQD_LOC_A3_RBP</SubtypeId>
+        <SubtypeId>T2_AQD_BP_LOC_B2</SubtypeId>
       </Id>
-      <DisplayName>Research Heavy-Duty Wheels</DisplayName>
-      <Icon>Textures\GUI\Icons\AQD_research_locomotion.dds</Icon>
+      <DisplayName>DisplayName_T2_AQD_BP_LOC_B2</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_locomotion.dds</Icon>
       <Prerequisites>
-        <Item Amount="1" TypeId="Component" SubtypeId="AQD_LOC_A2_BP" />
+        <Item Amount="80" TypeId="Component" SubtypeId="AQD_EnhancedResearchMaterial" />
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_LOC_B1" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_LOC_B2" />
+      </Results>
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_AQD_BP_LOC_C1</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_T2_AQD_BP_LOC_C1</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_locomotion.dds</Icon>
+      <Prerequisites>
+        <Item Amount="80" TypeId="Component" SubtypeId="AQD_EnhancedResearchMaterial" />
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_LOC_B2" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_LOC_C1" />
+      </Results>
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T3_AQD_BP_LOC_C2</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_T3_AQD_BP_LOC_C2</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_locomotion.dds</Icon>
+      <Prerequisites>
+        <Item Amount="40" TypeId="Component" SubtypeId="AQD_AdvancedResearchMaterial" />
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_LOC_C1" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_LOC_C2" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T4_AQD_BP_LOC_D1</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_T4_AQD_BP_LOC_D1</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_locomotion.dds</Icon>
+      <Prerequisites>
+        <Item Amount="20" TypeId="Component" SubtypeId="AQD_EliteResearchMaterial" />
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_LOC_C2" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_LOC_D1" />
+      </Results>
+      <BaseProductionTimeInSeconds>40</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T4_AQD_BP_LOC_D2</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_T4_AQD_BP_LOC_D2</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_locomotion.dds</Icon>
+      <Prerequisites>
+        <Item Amount="40" TypeId="Component" SubtypeId="AQD_EliteResearchMaterial" />
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_LOC_D1" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_LOC_D2" />
+      </Results>
+      <BaseProductionTimeInSeconds>60</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_AQD_BP_PWR_A1</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_T1_AQD_BP_PWR_A1</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_power.dds</Icon>
+      <Prerequisites>
+        <Item Amount="40" TypeId="Component" SubtypeId="AQD_ResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_PWR_A1" />
+      </Results>
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T3_AQD_BP_PWR_B1</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_T3_AQD_BP_PWR_B1</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_power.dds</Icon>
+      <Prerequisites>
+        <Item Amount="20" TypeId="Component" SubtypeId="AQD_AdvancedResearchMaterial" />
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_PWR_A1" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_PWR_B1" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T3_AQD_BP_PWR_B2</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_T3_AQD_BP_PWR_B2</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_power.dds</Icon>
+      <Prerequisites>
+        <Item Amount="40" TypeId="Component" SubtypeId="AQD_AdvancedResearchMaterial" />
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_PWR_B1" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_PWR_B2" />
+      </Results>
+      <BaseProductionTimeInSeconds>40</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_AQD_BP_STOR_A1</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_T1_AQD_BP_STOR_A1</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_storage.dds</Icon>
+      <Prerequisites>
+        <Item Amount="20" TypeId="Component" SubtypeId="AQD_ResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_STOR_A1" />
+      </Results>
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_AQD_BP_STOR_A2</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_T1_AQD_BP_STOR_A2</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_storage.dds</Icon>
+      <Prerequisites>
+        <Item Amount="60" TypeId="Component" SubtypeId="AQD_ResearchMaterial" />
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_STOR_A1" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_STOR_A2" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_AQD_BP_STOR_B1</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_T1_AQD_BP_STOR_B1</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_storage.dds</Icon>
+      <Prerequisites>
+        <Item Amount="60" TypeId="Component" SubtypeId="AQD_ResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_STOR_B1" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_AQD_BP_STOR_B2</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_T1_AQD_BP_STOR_B2</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_storage.dds</Icon>
+      <Prerequisites>
+        <Item Amount="80" TypeId="Component" SubtypeId="AQD_ResearchMaterial" />
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_STOR_B1" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_STOR_B2" />
+      </Results>
+      <BaseProductionTimeInSeconds>40</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_AQD_BP_STOR_C1</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_T1_AQD_BP_STOR_C1</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_storage.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10" TypeId="Component" SubtypeId="AQD_ResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_STOR_C1" />
+      </Results>
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_AQD_BP_STOR_C2</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_T1_AQD_BP_STOR_C2</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_storage.dds</Icon>
+      <Prerequisites>
+        <Item Amount="60" TypeId="Component" SubtypeId="AQD_ResearchMaterial" />
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_STOR_C1" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_STOR_C2" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_AQD_BP_STOR_C3</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_T1_AQD_BP_STOR_C3</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_storage.dds</Icon>
+      <Prerequisites>
+        <Item Amount="80" TypeId="Component" SubtypeId="AQD_ResearchMaterial" />
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_STOR_C2" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_STOR_C3" />
+      </Results>
+      <BaseProductionTimeInSeconds>40</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_AQD_BP_IND_A1</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_T2_AQD_BP_IND_A1</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_industry.dds</Icon>
+      <Prerequisites>
         <Item Amount="20" TypeId="Component" SubtypeId="AQD_EnhancedResearchMaterial" />
       </Prerequisites>
       <Results>
-        <Item Amount="1" TypeId="Component" SubtypeId="AQD_LOC_A3_BP" />
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_IND_A1" />
       </Results>
-      <BaseProductionTimeInSeconds>300</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>AQD_LOC_B1_RBP</SubtypeId>
+        <SubtypeId>T2_AQD_BP_IND_A2</SubtypeId>
       </Id>
-      <DisplayName>Research Hydrogen Thrusters</DisplayName>
-      <Icon>Textures\GUI\Icons\AQD_research_locomotion.dds</Icon>
+      <DisplayName>DisplayName_T2_AQD_BP_IND_A2</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_industry.dds</Icon>
       <Prerequisites>
-        <Item Amount="30" TypeId="Component" SubtypeId="AQD_EnhancedResearchMaterial" />
+        <Item Amount="20" TypeId="Component" SubtypeId="AQD_EnhancedResearchMaterial" />
       </Prerequisites>
       <Results>
-        <Item Amount="1" TypeId="Component" SubtypeId="AQD_LOC_B1_BP" />
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_IND_A2" />
       </Results>
-      <BaseProductionTimeInSeconds>600</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>AQD_LOC_B2_RBP</SubtypeId>
+        <SubtypeId>T2_AQD_BP_IND_A3</SubtypeId>
       </Id>
-      <DisplayName>Research Atmospheric Thrusters</DisplayName>
-      <Icon>Textures\GUI\Icons\AQD_research_locomotion.dds</Icon>
+      <DisplayName>DisplayName_T2_AQD_BP_IND_A3</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_industry.dds</Icon>
       <Prerequisites>
-        <Item Amount="1" TypeId="Component" SubtypeId="AQD_LOC_B1_BP" />
+        <Item Amount="20" TypeId="Component" SubtypeId="AQD_EnhancedResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_IND_A3" />
+      </Results>
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_AQD_BP_IND_B1</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_T2_AQD_BP_IND_B1</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_industry.dds</Icon>
+      <Prerequisites>
+        <Item Amount="40" TypeId="Component" SubtypeId="AQD_EnhancedResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_IND_B1" />
+      </Results>
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_AQD_BP_IND_B2</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_T2_AQD_BP_IND_B2</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_industry.dds</Icon>
+      <Prerequisites>
+        <Item Amount="60" TypeId="Component" SubtypeId="AQD_EnhancedResearchMaterial" />
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_IND_B1" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_IND_B2" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_AQD_BP_IND_B3</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_T2_AQD_BP_IND_B3</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_industry.dds</Icon>
+      <Prerequisites>
+        <Item Amount="60" TypeId="Component" SubtypeId="AQD_EnhancedResearchMaterial" />
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_IND_B2" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_IND_B3" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T3_AQD_BP_IND_B4</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_T3_AQD_BP_IND_B4</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_industry.dds</Icon>
+      <Prerequisites>
+        <Item Amount="80" TypeId="Component" SubtypeId="AQD_AdvancedResearchMaterial" />
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_IND_B3" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_IND_B4" />
+      </Results>
+      <BaseProductionTimeInSeconds>40</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_AQD_BP_AUT_A1</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_T2_AQD_BP_AUT_A1</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_automation.dds</Icon>
+      <Prerequisites>
+        <Item Amount="40" TypeId="Component" SubtypeId="AQD_EnhancedResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_AUT_A1" />
+      </Results>
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_AQD_BP_AUT_B1</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_T1_AQD_BP_AUT_B1</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_automation.dds</Icon>
+      <Prerequisites>
+        <Item Amount="20" TypeId="Component" SubtypeId="AQD_ResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_AUT_B1" />
+      </Results>
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_AQD_BP_AUT_B2</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_T1_AQD_BP_AUT_B2</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_automation.dds</Icon>
+      <Prerequisites>
+        <Item Amount="20" TypeId="Component" SubtypeId="AQD_ResearchMaterial" />
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_AUT_B1" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_AUT_B2" />
+      </Results>
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_AQD_BP_AUT_B3</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_T2_AQD_BP_AUT_B3</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_automation.dds</Icon>
+      <Prerequisites>
+        <Item Amount="40" TypeId="Component" SubtypeId="AQD_EnhancedResearchMaterial" />
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_AUT_B2" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_AUT_B3" />
+      </Results>
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T4_AQD_BP_DEF_A1</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_T4_AQD_BP_DEF_A1</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_combat.dds</Icon>
+      <Prerequisites>
+        <Item Amount="60" TypeId="Component" SubtypeId="AQD_EliteResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_DEF_A1" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T4_AQD_BP_DEF_A2</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_T4_AQD_BP_DEF_A2</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_combat.dds</Icon>
+      <Prerequisites>
+        <Item Amount="80" TypeId="Component" SubtypeId="AQD_EliteResearchMaterial" />
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_DEF_A1" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_DEF_A2" />
+      </Results>
+      <BaseProductionTimeInSeconds>40</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T3_AQD_BP_DEF_B1</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_T3_AQD_BP_DEF_B1</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_combat.dds</Icon>
+      <Prerequisites>
+        <Item Amount="20" TypeId="Component" SubtypeId="AQD_AdvancedResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_DEF_B1" />
+      </Results>
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T3_AQD_BP_DEF_B2</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_T3_AQD_BP_DEF_B2</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_combat.dds</Icon>
+      <Prerequisites>
+        <Item Amount="60" TypeId="Component" SubtypeId="AQD_AdvancedResearchMaterial" />
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_DEF_B1" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_DEF_B2" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_AQD_BP_UTIL_A1</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_T2_AQD_BP_UTIL_A1</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_utility.dds</Icon>
+      <Prerequisites>
+        <Item Amount="40" TypeId="Component" SubtypeId="AQD_EnhancedResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_UTIL_A1" />
+      </Results>
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_AQD_BP_UTIL_A2</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_T2_AQD_BP_UTIL_A2</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_utility.dds</Icon>
+      <Prerequisites>
+        <Item Amount="60" TypeId="Component" SubtypeId="AQD_EnhancedResearchMaterial" />
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_UTIL_A1" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_UTIL_A2" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T3_AQD_BP_UTIL_A3</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_T3_AQD_BP_UTIL_A3</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_utility.dds</Icon>
+      <Prerequisites>
+        <Item Amount="60" TypeId="Component" SubtypeId="AQD_AdvancedResearchMaterial" />
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_UTIL_A2" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_UTIL_A3" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_AQD_BP_UTIL_B1</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_T2_AQD_BP_UTIL_B1</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_utility.dds</Icon>
+      <Prerequisites>
+        <Item Amount="20" TypeId="Component" SubtypeId="AQD_EnhancedResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_UTIL_B1" />
+      </Results>
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T3_AQD_BP_UTIL_C1</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_T3_AQD_BP_UTIL_C1</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_utility.dds</Icon>
+      <Prerequisites>
+        <Item Amount="60" TypeId="Component" SubtypeId="AQD_AdvancedResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_UTIL_C1" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_AQD_BP_UTIL_D1</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_T2_AQD_BP_UTIL_D1</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_utility.dds</Icon>
+      <Prerequisites>
+        <Item Amount="40" TypeId="Component" SubtypeId="AQD_EnhancedResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_UTIL_D1" />
+      </Results>
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_AQD_BP_UTIL_E1</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_T1_AQD_BP_UTIL_E1</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_utility.dds</Icon>
+      <Prerequisites>
+        <Item Amount="40" TypeId="Component" SubtypeId="AQD_ResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_UTIL_E1" />
+      </Results>
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_AQD_BP_UTIL_E2</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_T2_AQD_BP_UTIL_E2</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_utility.dds</Icon>
+      <Prerequisites>
+        <Item Amount="40" TypeId="Component" SubtypeId="AQD_EnhancedResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_UTIL_E2" />
+      </Results>
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T3_AQD_BP_UTIL_E3</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_T3_AQD_BP_UTIL_E3</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_utility.dds</Icon>
+      <Prerequisites>
         <Item Amount="40" TypeId="Component" SubtypeId="AQD_AdvancedResearchMaterial" />
       </Prerequisites>
       <Results>
-        <Item Amount="1" TypeId="Component" SubtypeId="AQD_LOC_B2_BP" />
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_UTIL_E3" />
       </Results>
-      <BaseProductionTimeInSeconds>1200</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
     </Blueprint>
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>AQD_LOC_B3_RBP</SubtypeId>
+        <SubtypeId>T1_AQD_BP_UTIL_F1</SubtypeId>
       </Id>
-      <DisplayName>Research Ion Thrusters</DisplayName>
-      <Icon>Textures\GUI\Icons\AQD_research_locomotion.dds</Icon>
+      <DisplayName>DisplayName_T1_AQD_BP_UTIL_F1</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_utility.dds</Icon>
       <Prerequisites>
-        <Item Amount="1" TypeId="Component" SubtypeId="AQD_LOC_B2_BP" />
-        <Item Amount="40" TypeId="Component" SubtypeId="AQD_EliteResearchMaterial" />
+        <Item Amount="20" TypeId="Component" SubtypeId="AQD_ResearchMaterial" />
       </Prerequisites>
       <Results>
-        <Item Amount="1" TypeId="Component" SubtypeId="AQD_LOC_B3_BP" />
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_UTIL_F1" />
       </Results>
-      <BaseProductionTimeInSeconds>1800</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T4_AQD_BP_UTIL_F2</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_T4_AQD_BP_UTIL_F2</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_utility.dds</Icon>
+      <Prerequisites>
+        <Item Amount="80" TypeId="Component" SubtypeId="AQD_EliteResearchMaterial" />
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_UTIL_F1" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_UTIL_F2" />
+      </Results>
+      <BaseProductionTimeInSeconds>40</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_AQD_BP_UTIL_G1</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_T2_AQD_BP_UTIL_G1</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_utility.dds</Icon>
+      <Prerequisites>
+        <Item Amount="40" TypeId="Component" SubtypeId="AQD_EnhancedResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_UTIL_G1" />
+      </Results>
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T1_AQD_BP_COM_A1</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_T1_AQD_BP_COM_A1</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_combat.dds</Icon>
+      <Prerequisites>
+        <Item Amount="20" TypeId="Component" SubtypeId="AQD_ResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_COM_A1" />
+      </Results>
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_AQD_BP_COM_A2</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_T2_AQD_BP_COM_A2</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_combat.dds</Icon>
+      <Prerequisites>
+        <Item Amount="40" TypeId="Component" SubtypeId="AQD_EnhancedResearchMaterial" />
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_COM_A1" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_COM_A2" />
+      </Results>
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_AQD_BP_COM_A3</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_T2_AQD_BP_COM_A3</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_combat.dds</Icon>
+      <Prerequisites>
+        <Item Amount="80" TypeId="Component" SubtypeId="AQD_EnhancedResearchMaterial" />
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_COM_A2" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_COM_A3" />
+      </Results>
+      <BaseProductionTimeInSeconds>40</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T3_AQD_BP_COM_A4</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_T3_AQD_BP_COM_A4</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_combat.dds</Icon>
+      <Prerequisites>
+        <Item Amount="80" TypeId="Component" SubtypeId="AQD_AdvancedResearchMaterial" />
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_COM_A3" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_COM_A4" />
+      </Results>
+      <BaseProductionTimeInSeconds>40</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_AQD_BP_ARM_A1</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_T2_AQD_BP_ARM_A1</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_armor.dds</Icon>
+      <Prerequisites>
+        <Item Amount="60" TypeId="Component" SubtypeId="AQD_EnhancedResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_ARM_A1" />
+      </Results>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T3_AQD_BP_ARM_A2</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_T3_AQD_BP_ARM_A2</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_research_armor.dds</Icon>
+      <Prerequisites>
+        <Item Amount="40" TypeId="Component" SubtypeId="AQD_AdvancedResearchMaterial" />
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_ARM_A1" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_ARM_A2" />
+      </Results>
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
     </Blueprint>
   </Blueprints>
 </Definitions>
