@@ -159,6 +159,21 @@
   <data name="DisplayName_AQD_Tech_DEF_B2" xml:space="preserve">
     <value>FTL Travel Schematic</value>
   </data>
+  <data name="DisplayName_AQD_Tech_DEF_C1" xml:space="preserve">
+    <value>Field Generation Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_DEF_D1" xml:space="preserve">
+    <value>Nonviolent Contact Machinery Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_DEF_D2" xml:space="preserve">
+    <value>Upscaled Vending Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_DEF_D3" xml:space="preserve">
+    <value>Store Uplink Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_DEF_D4" xml:space="preserve">
+    <value>Contract Uplink Schematic</value>
+  </data>
   <data name="DisplayName_AQD_Tech_IND_A1" xml:space="preserve">
     <value>Upscaled Drills Schematic</value>
   </data>
@@ -270,6 +285,9 @@
   <data name="DisplayName_AQD_Tech_UTIL_G1" xml:space="preserve">
     <value>Upscaled Gyroscopes Schematic</value>
   </data>
+  <data name="DisplayName_AQD_Tech_UTIL_H1" xml:space="preserve">
+    <value>Medical Facilities Schematic</value>
+  </data>
   <data name="DisplayName_T1_AQD_BP_AUT_B1" xml:space="preserve">
     <value>Research Basic Automation</value>
   </data>
@@ -278,6 +296,9 @@
   </data>
   <data name="DisplayName_T1_AQD_BP_COM_A1" xml:space="preserve">
     <value>Research Targeting Disruption</value>
+  </data>
+  <data name="DisplayName_T1_AQD_BP_DEF_D1" xml:space="preserve">
+    <value>Research Nonviolent Contact Machinery</value>
   </data>
   <data name="DisplayName_T1_AQD_BP_LOC_A1" xml:space="preserve">
     <value>Research Upscaled Wheels</value>
@@ -333,6 +354,9 @@
   <data name="DisplayName_T2_AQD_BP_COM_A3" xml:space="preserve">
     <value>Research Automatic Reload Systems</value>
   </data>
+  <data name="DisplayName_T2_AQD_BP_DEF_D2" xml:space="preserve">
+    <value>Research Upscaled Vending</value>
+  </data>
   <data name="DisplayName_T2_AQD_BP_IND_A1" xml:space="preserve">
     <value>Research Upscaled Drills</value>
   </data>
@@ -375,6 +399,9 @@
   <data name="DisplayName_T2_AQD_BP_UTIL_G1" xml:space="preserve">
     <value>Research Upscaled Gyroscopes</value>
   </data>
+  <data name="DisplayName_T2_AQD_BP_UTIL_H1" xml:space="preserve">
+    <value>Research Medical Facilities</value>
+  </data>
   <data name="DisplayName_T3_AQD_BP_ARM_A2" xml:space="preserve">
     <value>Research Blast Protection</value>
   </data>
@@ -386,6 +413,9 @@
   </data>
   <data name="DisplayName_T3_AQD_BP_DEF_B2" xml:space="preserve">
     <value>Research FTL Travel</value>
+  </data>
+  <data name="DisplayName_T3_AQD_BP_DEF_D3" xml:space="preserve">
+    <value>Research Store Uplink</value>
   </data>
   <data name="DisplayName_T3_AQD_BP_IND_B4" xml:space="preserve">
     <value>Research Yield Improvements</value>
@@ -413,6 +443,12 @@
   </data>
   <data name="DisplayName_T4_AQD_BP_DEF_A2" xml:space="preserve">
     <value>Research Gravity Generation</value>
+  </data>
+  <data name="DisplayName_T4_AQD_BP_DEF_C1" xml:space="preserve">
+    <value>Research Field Generation</value>
+  </data>
+  <data name="DisplayName_T4_AQD_BP_DEF_D4" xml:space="preserve">
+    <value>Research Contract Uplink</value>
   </data>
   <data name="DisplayName_T4_AQD_BP_LOC_D1" xml:space="preserve">
     <value>Research Ion Thrust</value>

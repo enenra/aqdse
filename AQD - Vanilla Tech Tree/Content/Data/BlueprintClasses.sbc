@@ -1,4 +1,4 @@
-<?xml version="1.0"?><!-- Created by AQD ResearchGroups Editor on: 2020-11-30 12:29 -->
+<?xml version="1.0"?><!-- Created by AQD ResearchGroups Editor on: 2020-11-30 23:46 -->
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <BlueprintClassEntries>
@@ -35,6 +35,11 @@
     <Entry Class="AQD_BPC_ResearchLab_T4" BlueprintSubtypeId="T4_AQD_BP_DEF_A2" />
     <Entry Class="AQD_BPC_ResearchLab_T3" BlueprintSubtypeId="T3_AQD_BP_DEF_B1" />
     <Entry Class="AQD_BPC_ResearchLab_T3" BlueprintSubtypeId="T3_AQD_BP_DEF_B2" />
+    <Entry Class="AQD_BPC_ResearchLab_T4" BlueprintSubtypeId="T4_AQD_BP_DEF_C1" />
+    <Entry Class="AQD_BPC_ResearchLab_T1" BlueprintSubtypeId="T1_AQD_BP_DEF_D1" />
+    <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_AQD_BP_DEF_D2" />
+    <Entry Class="AQD_BPC_ResearchLab_T3" BlueprintSubtypeId="T3_AQD_BP_DEF_D3" />
+    <Entry Class="AQD_BPC_ResearchLab_T4" BlueprintSubtypeId="T4_AQD_BP_DEF_D4" />
     <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_AQD_BP_UTIL_A1" />
     <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_AQD_BP_UTIL_A2" />
     <Entry Class="AQD_BPC_ResearchLab_T3" BlueprintSubtypeId="T3_AQD_BP_UTIL_A3" />
@@ -47,6 +52,7 @@
     <Entry Class="AQD_BPC_ResearchLab_T1" BlueprintSubtypeId="T1_AQD_BP_UTIL_F1" />
     <Entry Class="AQD_BPC_ResearchLab_T4" BlueprintSubtypeId="T4_AQD_BP_UTIL_F2" />
     <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_AQD_BP_UTIL_G1" />
+    <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_AQD_BP_UTIL_H1" />
     <Entry Class="AQD_BPC_ResearchLab_T1" BlueprintSubtypeId="T1_AQD_BP_COM_A1" />
     <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_AQD_BP_COM_A2" />
     <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_AQD_BP_COM_A3" />

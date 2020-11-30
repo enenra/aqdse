@@ -1,11 +1,11 @@
-<?xml version="1.0"?><!-- Created by AQD ResearchGroups Editor on: 2020-11-30 12:29 -->
+<?xml version="1.0"?><!-- Created by AQD ResearchGroups Editor on: 2020-11-30 23:46 -->
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <EntityComponents>
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>CubeBlocks</SubtypeId>
+        <SubtypeId>ProgressionFramework</SubtypeId>
       </Id>
       <Description>
         [?xml version="1.0" encoding="utf-16"?]
@@ -108,6 +108,7 @@
             [BlockDefinitons]
               [OverwriteOthers]false[/OverwriteOthers]
               [Id Type="MyObjectBuilder_SolarPanel" SubtypeId="LargeBlockSolarPanel" UseBlockVariantsGroup="true" /]
+              [Id Type="MyObjectBuilder_SolarPanel" SubtypeId="SmallBlockSolarPanel" UseBlockVariantsGroup="false" /]
             [/BlockDefinitons]
           [/ResearchGroup]
           [ResearchGroup]
@@ -300,6 +301,42 @@
             [/BlockDefinitons]
           [/ResearchGroup]
           [ResearchGroup]
+            [Item Type="MyObjectBuilder_Component" SubtypeId="AQD_Tech_DEF_C1" /]
+            [BlockDefinitons]
+              [OverwriteOthers]false[/OverwriteOthers]
+              [Id Type="MyObjectBuilder_SafeZoneBlock" SubtypeId="SafeZoneBlock" UseBlockVariantsGroup="false" /]
+            [/BlockDefinitons]
+          [/ResearchGroup]
+          [ResearchGroup]
+            [Item Type="MyObjectBuilder_Component" SubtypeId="AQD_Tech_DEF_D1" /]
+            [BlockDefinitons]
+              [OverwriteOthers]false[/OverwriteOthers]
+              [Id Type="MyObjectBuilder_VendingMachine" SubtypeId="VendingMachine" UseBlockVariantsGroup="false" /]
+            [/BlockDefinitons]
+          [/ResearchGroup]
+          [ResearchGroup]
+            [Item Type="MyObjectBuilder_Component" SubtypeId="AQD_Tech_DEF_D2" /]
+            [BlockDefinitons]
+              [OverwriteOthers]false[/OverwriteOthers]
+              [Id Type="MyObjectBuilder_StoreBlock" SubtypeId="StoreBlock" UseBlockVariantsGroup="false" /]
+            [/BlockDefinitons]
+          [/ResearchGroup]
+          [ResearchGroup]
+            [Item Type="MyObjectBuilder_Component" SubtypeId="AQD_Tech_DEF_D3" /]
+            [BlockDefinitons]
+              [OverwriteOthers]false[/OverwriteOthers]
+              [Id Type="MyObjectBuilder_VendingMachine" SubtypeId="FoodDispenser" UseBlockVariantsGroup="false" /]
+              [Id Type="MyObjectBuilder_StoreBlock" SubtypeId="AtmBlock" UseBlockVariantsGroup="false" /]
+            [/BlockDefinitons]
+          [/ResearchGroup]
+          [ResearchGroup]
+            [Item Type="MyObjectBuilder_Component" SubtypeId="AQD_Tech_DEF_D4" /]
+            [BlockDefinitons]
+              [OverwriteOthers]false[/OverwriteOthers]
+              [Id Type="MyObjectBuilder_ContractBlock" SubtypeId="ContractBlock" UseBlockVariantsGroup="false" /]
+            [/BlockDefinitons]
+          [/ResearchGroup]
+          [ResearchGroup]
             [Item Type="MyObjectBuilder_Component" SubtypeId="AQD_Tech_UTIL_A1" /]
             [BlockDefinitons]
               [OverwriteOthers]false[/OverwriteOthers]
@@ -396,6 +433,15 @@
             [/BlockDefinitons]
           [/ResearchGroup]
           [ResearchGroup]
+            [Item Type="MyObjectBuilder_Component" SubtypeId="AQD_Tech_UTIL_H1" /]
+            [BlockDefinitons]
+              [OverwriteOthers]false[/OverwriteOthers]
+              [Id Type="MyObjectBuilder_MedicalRoom" SubtypeId="LargeMedicalRoom" UseBlockVariantsGroup="false" /]
+              [Id Type="MyObjectBuilder_LCDPanelsBlock" SubtypeId="MedicalStation" UseBlockVariantsGroup="false" /]
+              [Id Type="MyObjectBuilder_LCDPanelsBlock" SubtypeId="LabEquipment" UseBlockVariantsGroup="false" /]
+            [/BlockDefinitons]
+          [/ResearchGroup]
+          [ResearchGroup]
             [Item Type="MyObjectBuilder_Component" SubtypeId="AQD_Tech_COM_A1" /]
             [BlockDefinitons]
               [OverwriteOthers]false[/OverwriteOthers]
@@ -450,4 +496,4 @@
       </Description>
     </EntityComponent>
   </EntityComponents>
-</Definitions>					
+</Definitions>
