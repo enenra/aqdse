@@ -17,11 +17,11 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\AQD_LG_ResearchLab.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="130" />
+        <Component Subtype="SteelPlate" Count="100" />
         <Component Subtype="Construction" Count="40" />
         <Component Subtype="Motor" Count="8" />
         <Component Subtype="Display" Count="16" />
-        <Component Subtype="Computer" Count="120" />
+        <Component Subtype="Computer" Count="100" />
         <Component Subtype="SteelPlate" Count="40" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
@@ -71,14 +71,13 @@
       <ModelOffset x="0" y="0" z="0" />
       <Model>Models\Cubes\Large\AQD_LG_DataStorage.mwm</Model>
       <Components>
-        <Component Subtype="InteriorPlate" Count="100" />
-        <Component Subtype="Construction" Count="35" />
-        <Component Subtype="MetalGrid" Count="6" />
+        <Component Subtype="InteriorPlate" Count="50" />
+        <Component Subtype="Construction" Count="25" />
         <Component Subtype="Motor" Count="2" />
-        <Component Subtype="Display" Count="12" />
-        <Component Subtype="Computer" Count="48" />
+        <Component Subtype="Display" Count="10" />
+        <Component Subtype="Computer" Count="20" />
         <Component Subtype="Construction" Count="5" />
-        <Component Subtype="InteriorPlate" Count="40" />
+        <Component Subtype="InteriorPlate" Count="20" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>

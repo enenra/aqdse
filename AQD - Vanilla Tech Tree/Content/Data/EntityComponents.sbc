@@ -123,7 +123,7 @@
             [Item Type="MyObjectBuilder_Component" SubtypeId="AQD_Tech_PWR_A1" /]
             [BlockDefinitons]
               [OverwriteOthers]false[/OverwriteOthers]
-              [Id Type="MyObjectBuilder_SolarPanel" SubtypeId="LargeBlockSolarPanel" UseBlockVariantsGroup="true" /]
+              [Id Type="MyObjectBuilder_SolarPanel" SubtypeId="LargeBlockSolarPanel" UseBlockVariantsGroup="false" /]
               [Id Type="MyObjectBuilder_SolarPanel" SubtypeId="SmallBlockSolarPanel" UseBlockVariantsGroup="false" /]
             [/BlockDefinitons]
           [/ResearchGroup]
