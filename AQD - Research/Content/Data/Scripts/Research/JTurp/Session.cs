@@ -128,14 +128,18 @@ namespace AQDResearch
       if (cubeblock == null || cubeblock.InventoryCount == 0)
         return;
 
-      bool allowed = cubeblock.BlockDefinition.Id == _researchLab || cubeblock.BlockDefinition.Id == _dataStorage;
+      bool isDataBlock = cubeblock.BlockDefinition.Id == _dataStorage;
+      bool allowed = isDataBlock || cubeblock.BlockDefinition.Id == _researchLab;
 
       for (int i = 0; i < cubeblock.InventoryCount; i++)
       {
         var inv = cubeblock.GetInventory(i);
-        var constraint = inv.Constraint ?? new MyInventoryConstraint("AQDConstraint", whitelist: true);
-        if (inv.Constraint == null)
+        MyInventoryConstraint constraint = inv.Constraint;
+        if (constraint == null)
+        {
+          constraint = new MyInventoryConstraint("AQDConstraint", whitelist: isDataBlock);
           inv.Constraint = constraint;
+        }
 
         if (constraint.IsWhitelist)
         {
@@ -145,13 +149,10 @@ namespace AQDResearch
               constraint.Add(group.ComponentId.DefinitionId);
           }
         }
-        else
+        else if (!allowed)
         {
-          if (!allowed)
-          {
-            foreach (var group in _researchSettings.ResearchGroupList)
-              constraint.Add(group.ComponentId.DefinitionId);
-          }
+          foreach (var group in _researchSettings.ResearchGroupList)
+            constraint.Add(group.ComponentId.DefinitionId);
         }
       }
     }

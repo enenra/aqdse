@@ -16,6 +16,9 @@ namespace AQDResearch
     [XmlAttribute("SubtypeId")]
     public string SubtypeId;
 
+    [XmlAttribute("UseBlockVariantsGroup")]
+    public bool UseBlockVariantsGroup;
+
     [XmlIgnore]
     MyDefinitionId _definitionId = new MyDefinitionId();
 
@@ -51,6 +54,9 @@ namespace AQDResearch
     [XmlElement("Item")]
     public SerialId ComponentId;
 
+    [XmlElement("OverwriteOthers")]
+    public bool OverwriteAllOthers;
+
     [XmlArrayItem("Id")]
     public List<SerialId> BlockDefinitons { get; set; } = new List<SerialId>();
 
@@ -68,6 +74,7 @@ namespace AQDResearch
     }
   }
 
+  [XmlType("ResearchGroups")]
   public class ResearchGroupSettings
   {
     public bool AutoAdjustAssemblerEfficiency { get; set; } = true;
@@ -85,8 +92,21 @@ namespace AQDResearch
         return;
 
       var compDef = new MyDefinitionId(typeId, group.ComponentId.SubtypeId);
-      ResearchGroups[compDef] = group;
-      ResearchGroupList.Add(group);
+
+      ResearchGroup existing;
+      if (!group.OverwriteAllOthers && ResearchGroups.TryGetValue(compDef, out existing))
+      {
+        foreach (var item in group.BlockDefinitons)
+        {
+          if (!existing.BlockDefinitons.Contains(item))
+            existing.BlockDefinitons.Add(item);
+        }
+      }
+      else
+      {
+        ResearchGroups[compDef] = group;
+        ResearchGroupList.Add(group);
+      }
     }
 
     public void AddResearchGroup(SerializableDefinitionId compDef, List<SerializableDefinitionId> defList)
