@@ -53,49 +53,46 @@ namespace AQDResearch
         _researchLab = new MyDefinitionId(typeof(MyObjectBuilder_Assembler), "AQD_LG_ResearchLab");
         _dataStorage = new MyDefinitionId(typeof(MyObjectBuilder_CargoContainer), "AQD_LG_DataStorage");
 
-        if (IsServer)
+        _researchSettings = new ResearchGroupSettings();
+
+        StringBuilder sb = new StringBuilder();
+        foreach (var def in MyDefinitionManager.Static.GetEntityComponentDefinitions())
         {
-          _researchSettings = new ResearchGroupSettings();
-
-          StringBuilder sb = new StringBuilder();
-          foreach (var def in MyDefinitionManager.Static.GetEntityComponentDefinitions())
+          if (def.Id.SubtypeName.StartsWith("ProgressionFramework"))
           {
-            if (def.Id.SubtypeName.StartsWith("ProgressionFramework"))
+            sb.Clear();
+            foreach (var ch in def.DescriptionText)
             {
-              sb.Clear();
-              foreach (var ch in def.DescriptionText)
-              {
-                if (ch == '[')
-                  sb.Append('<');
-                else if (ch == ']')
-                  sb.Append('>');
-                else
-                  sb.Append(ch);
-              }
+              if (ch == '[')
+                sb.Append('<');
+              else if (ch == ']')
+                sb.Append('>');
+              else
+                sb.Append(ch);
+            }
 
-              var buffer = sb.ToString().Trim();
-              try
-              {
-                var settings = MyAPIGateway.Utilities.SerializeFromXML<ResearchGroupSettings>(buffer);
+            var buffer = sb.ToString().Trim();
+            try
+            {
+              var settings = MyAPIGateway.Utilities.SerializeFromXML<ResearchGroupSettings>(buffer);
 
-                foreach (var group in settings.ResearchGroupList)
-                {
-                  _researchSettings.AddResearchGroup(group);
-                }
-              }
-              catch (Exception ex)
+              foreach (var group in settings.ResearchGroupList)
               {
-                _logger.Log($"Error trying to deserialize EntityComponentDefinition: {ex.Message}\n{ex.StackTrace}\nBuffer = \n{buffer}\n", MessageType.ERROR);
+                _researchSettings.AddResearchGroup(group);
               }
             }
+            catch (Exception ex)
+            {
+              _logger.Log($"Error trying to deserialize EntityComponentDefinition: {ex.Message}\n{ex.StackTrace}\nBuffer = \n{buffer}\n", MessageType.ERROR);
+            }
           }
-
-          var ents = MyEntities.GetEntities();
-          foreach (var e in ents)
-            ProcessEntity(e);
-
-          MyEntities.OnEntityCreate += MyEntities_OnEntityCreate;
         }
+
+        var ents = MyEntities.GetEntities();
+        foreach (var e in ents)
+          ProcessEntity(e);
+
+        MyEntities.OnEntityCreate += MyEntities_OnEntityCreate;
       }
       catch(Exception ex)
       {
@@ -121,9 +118,6 @@ namespace AQDResearch
 
     private void MyEntities_OnEntityCreate(MyEntity obj)
     {
-      if (!IsServer)
-        return;
-
       var cubeblock = obj as MyCubeBlock;
       if (cubeblock == null || cubeblock.InventoryCount == 0)
         return;
