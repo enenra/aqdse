@@ -1,0 +1,21 @@
+<?xml version="1.0"?><!-- Created by AQD ResearchGroups Editor on: 2020-12-03 13:11 -->
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_AQD_BP_STOR_D1_CE</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_T2_AQD_BP_STOR_D1_CE</DisplayName>
+      <Icon>Textures\GUI\Icons\AQD_research_storage.dds</Icon>
+      <Prerequisites>
+        <Item Amount="40" TypeId="Component" SubtypeId="AQD_Comp_EnhancedResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_STOR_D1_CE" />
+      </Results>
+      <BaseProductionTimeInSeconds>1200</BaseProductionTimeInSeconds>
+    </Blueprint>
+  </Blueprints>
+</Definitions>

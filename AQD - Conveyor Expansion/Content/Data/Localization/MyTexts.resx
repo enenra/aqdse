@@ -141,4 +141,10 @@
   <data name="DisplayName_AQD_LG_ConveyorXArmored" xml:space="preserve">
     <value>Conveyor X Armored</value>
   </data>
+  <data name="DisplayName_AQD_Tech_STOR_D1_CE" xml:space="preserve">
+    <value>Reinforced Conveyors Schematic</value>
+  </data>
+  <data name="DisplayName_T2_AQD_BP_STOR_D1_CE" xml:space="preserve">
+    <value>Research Reinforced Conveyors</value>
+  </data>
 </root>

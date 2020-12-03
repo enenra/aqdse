@@ -1,0 +1,26 @@
+<?xml version="1.0"?><!-- Created by AQD ResearchGroups Editor on: 2020-12-03 13:11 -->
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Components>
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>AQD_Tech_STOR_D1_CE</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_AQD_Tech_STOR_D1_CE</DisplayName>
+      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\research_blueprint_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.25</DropProbability>
+      <Health>10</Health>
+    </Component>
+  </Components>
+</Definitions>
