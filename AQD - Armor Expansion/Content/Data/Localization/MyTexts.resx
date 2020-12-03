@@ -375,4 +375,10 @@
   <data name="DisplayName_AQD_SG_LA_Slope4x1_InvCorner" xml:space="preserve">
     <value>Light Armor Slope 4x1 Inverted Corner</value>
   </data>
+  <data name="DisplayName_AQD_Tech_ARM_A1" xml:space="preserve">
+    <value>Reinforced Armor Schematic</value>
+  </data>
+  <data name="DisplayName_T2_AQD_BP_ARM_A1" xml:space="preserve">
+    <value>Research Reinforced Armor</value>
+  </data>
 </root>
