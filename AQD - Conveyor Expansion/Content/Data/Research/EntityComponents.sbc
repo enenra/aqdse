@@ -5,7 +5,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>ProgressionFramework</SubtypeId>
+        <SubtypeId>ProgressionFramework_AQD_Conveyor_Expansion</SubtypeId>
       </Id>
       <Description>
         [?xml version="1.0" encoding="utf-16"?]
