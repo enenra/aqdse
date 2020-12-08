@@ -14,9 +14,9 @@ namespace enenra.ArmorBalance
         public const float lightArmorSmallDamageMod = 0.5f;
         public const float lightArmorSmallDeformationMod = 0.2f;
 
-        public const float heavyArmorLargeDamageMod = 0.25f;
+        public const float heavyArmorLargeDamageMod = 0.5f;
         public const float heavyArmorLargeDeformationMod = 0.15f;
-        public const float heavyArmorSmallDamageMod = 0.25f;
+        public const float heavyArmorSmallDamageMod = 0.5f;
         public const float heavyArmorSmallDeformationMod = 0.15f;
 
         private bool isInit = false;
