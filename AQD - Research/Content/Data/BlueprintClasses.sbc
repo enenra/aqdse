@@ -56,6 +56,7 @@
 
 
   <BlueprintClassEntries>
+    <Entry Class="SimpleComponents" BlueprintSubtypeId="AQD_BP_ResearchMaterial" />
     <Entry Class="Components" BlueprintSubtypeId="AQD_BP_ResearchMaterial" />
     <Entry Class="Components" BlueprintSubtypeId="AQD_BP_EnhancedResearchMaterial" />
     <Entry Class="Components" BlueprintSubtypeId="AQD_BP_AdvancedResearchMaterial" />

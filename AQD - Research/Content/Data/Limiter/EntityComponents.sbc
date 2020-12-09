@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BlockRestrictions_AQD_Research</SubtypeId>
+      </Id>
+      <Description>
+        [?xml version="1.0" encoding="utf-16"?]
+        [DefaultSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"]
+          [DefaultSetting]
+            [Type]MyObjectBuilder_Assembler/AQD_LG_ResearchLab[/Type]
+            [PlayerMaxCount]1[/PlayerMaxCount]
+            [GridMaxCount]0[/GridMaxCount]
+            [FactionMaxCount]0[/FactionMaxCount]
+            [AllowedForNPC]false[/AllowedForNPC]
+            [AllowedForPlayer]true[/AllowedForPlayer]
+            [AllowedForUnowned]false[/AllowedForUnowned]
+            [AllowedForNPCStaticOnly]false[/AllowedForNPCStaticOnly]
+            [AllowedForPlayerStaticOnly]false[/AllowedForPlayerStaticOnly]
+            [AllowedForUnownedStaticOnly]false[/AllowedForUnownedStaticOnly]
+          [/DefaultSetting]
+        [/DefaultSettings]
+      </Description>
+    </EntityComponent>
+  </EntityComponents>
+</Definitions>
