@@ -156,6 +156,7 @@
       <PCU>1</PCU>
       <PCUConsole>2</PCUConsole>
       <IsAirTight>true</IsAirTight>
+      <PhysicalMaterial>Rock</PhysicalMaterial>
       <DLC>ScrapRace</DLC>
     </Definition>
 
@@ -285,6 +286,7 @@
       <DisassembleRatio>2.5</DisassembleRatio>
       <PCU>1</PCU>
       <PCUConsole>2</PCUConsole>
+      <PhysicalMaterial>Rock</PhysicalMaterial>
       <DLC>ScrapRace</DLC>
     </Definition>
 
@@ -386,6 +388,7 @@
       <PCU>1</PCU>
       <PCUConsole>2</PCUConsole>
       <IsAirTight>false</IsAirTight>
+      <PhysicalMaterial>Rock</PhysicalMaterial>
       <DLC>ScrapRace</DLC>
     </Definition>
 
@@ -544,6 +547,7 @@
       <DisassembleRatio>2.5</DisassembleRatio>
       <PCU>1</PCU>
       <PCUConsole>2</PCUConsole>
+      <PhysicalMaterial>Rock</PhysicalMaterial>
       <DLC>ScrapRace</DLC>
     </Definition>
 
@@ -710,6 +714,7 @@
       <MirroringZ>Y</MirroringZ>
       <PCU>1</PCU>
       <PCUConsole>2</PCUConsole>
+      <PhysicalMaterial>Rock</PhysicalMaterial>
       <DLC>ScrapRace</DLC>
     </Definition>
 
@@ -879,6 +884,7 @@
       <PCU>1</PCU>
       <PCUConsole>2</PCUConsole>
       <IsAirTight>false</IsAirTight>
+      <PhysicalMaterial>Rock</PhysicalMaterial>
       <DLC>ScrapRace</DLC>
     </Definition>
 
