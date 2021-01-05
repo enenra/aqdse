@@ -477,7 +477,7 @@ namespace enenra.OreRemapping
                     }
 
                 }
-                if (planet.Id.SubtypeName == "Pertram")
+                if (planet.Id.SubtypeName == "Pertam")
                 {
                     for (int i = 0; i < oreList.Count; i++)
                     {
