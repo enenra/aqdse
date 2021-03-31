@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Blueprints>
 
     <!-- Prevents Refineries and Basic Refineries from producing ore from stone. -->
-
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
@@ -18,6 +18,27 @@
         <Item Amount="1" TypeId="Ingot" SubtypeId="Stone" />
       </Results>
       <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <!-- Increases ore gain from stone for survivalkits. -->
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>StoneOreToIngotBasic</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BlueprintClass_Ingots</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ore" SubtypeId="Stone" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="3" TypeId="Ingot" SubtypeId="Stone" />
+        <Item Amount="6" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="0.6" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="0.8" TypeId="Ingot" SubtypeId="Silicon" />
+      </Results>
+      <Priority>1000</Priority>
+      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
     </Blueprint>
 
   </Blueprints>

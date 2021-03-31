@@ -50,7 +50,7 @@
       <InventorySize>
         <X>0.5</X>
         <Y>0.5</Y>
-        <Z>0.5</Z>
+        <Z>0.2</Z>
       </InventorySize>
       <InventoryFillFactorMin>0.0002</InventoryFillFactorMin>
       <InventoryFillFactorMax>0.0004</InventoryFillFactorMax>
@@ -128,9 +128,9 @@
       <ResourceSourceGroup>Reactors</ResourceSourceGroup>
       <MaxPowerOutput>14.75</MaxPowerOutput>
       <InventorySize>
-        <X>1</X>
-        <Y>1</Y>
-        <Z>1</Z>
+        <X>0.5</X>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
       </InventorySize>
       <InventoryFillFactorMin>0.0005</InventoryFillFactorMin>
       <InventoryFillFactorMax>0.001</InventoryFillFactorMax>
@@ -203,8 +203,8 @@
       <MaxPowerOutput>15</MaxPowerOutput>
       <InventorySize>
         <X>1</X>
-        <Y>1</Y>
-        <Z>1</Z>
+        <Y>0.5</Y>
+        <Z>0.5</Z>
       </InventorySize>
       <InventoryFillFactorMin>0.0005</InventoryFillFactorMin>
       <InventoryFillFactorMax>0.001</InventoryFillFactorMax>
@@ -281,9 +281,9 @@
       <ResourceSourceGroup>Reactors</ResourceSourceGroup>
       <MaxPowerOutput>300</MaxPowerOutput>
       <InventorySize>
-        <X>2</X>
-        <Y>2</Y>
-        <Z>2</Z>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>0.5</Z>
       </InventorySize>
       <InventoryFillFactorMin>0.001</InventoryFillFactorMin>
       <InventoryFillFactorMax>0.002</InventoryFillFactorMax>

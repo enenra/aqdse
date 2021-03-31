@@ -6,35 +6,22 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>BlockRestrictions_AQD_Gameplay_Balance_SKL</SubtypeId>
+        <SubtypeId>BlockRestrictions_AQD_Gameplay_Balance</SubtypeId>
       </Id>
       <Description>
         [?xml version="1.0" encoding="utf-16"?]
         [DefaultSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"]
+
           [DefaultSetting]
             [Type]MyObjectBuilder_SurvivalKitDefinition/SurvivalKitLarge[/Type]
-            [PlayerMaxCount]0[/PlayerMaxCount]
             [GridMaxCount]1[/GridMaxCount]
-            [FactionMaxCount]0[/FactionMaxCount]
-            [AllowedForNPC]false[/AllowedForNPC]
-            [AllowedForPlayer]true[/AllowedForPlayer]
-            [AllowedForUnowned]false[/AllowedForUnowned]
-            [AllowedForNPCStaticOnly]false[/AllowedForNPCStaticOnly]
-            [AllowedForPlayerStaticOnly]false[/AllowedForPlayerStaticOnly]
-            [AllowedForUnownedStaticOnly]false[/AllowedForUnownedStaticOnly]
           [/DefaultSetting]
+
           [DefaultSetting]
             [Type]MyObjectBuilder_SurvivalKitDefinition/SurvivalKit[/Type]
-            [PlayerMaxCount]0[/PlayerMaxCount]
             [GridMaxCount]1[/GridMaxCount]
-            [FactionMaxCount]0[/FactionMaxCount]
-            [AllowedForNPC]false[/AllowedForNPC]
-            [AllowedForPlayer]true[/AllowedForPlayer]
-            [AllowedForUnowned]false[/AllowedForUnowned]
-            [AllowedForNPCStaticOnly]false[/AllowedForNPCStaticOnly]
-            [AllowedForPlayerStaticOnly]false[/AllowedForPlayerStaticOnly]
-            [AllowedForUnownedStaticOnly]false[/AllowedForUnownedStaticOnly]
           [/DefaultSetting]
+
         [/[DefaultSettings]
       </Description>
     </EntityComponent>
