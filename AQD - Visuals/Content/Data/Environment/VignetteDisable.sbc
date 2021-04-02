@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Definition xsi:type="EnvironmentDefinition">
+    <Id>
+      <TypeId>EnvironmentDefinition</TypeId>
+      <SubtypeId>Default</SubtypeId>
+    </Id>
+
+    <!-- Disables vignette effect -->
+    <PostProcessSettings>
+      <ChromaticIterations>1</ChromaticIterations>
+      <Data>
+        <ChromaticFactor>0.003</ChromaticFactor>
+        <VignetteStart>0.84</VignetteStart>
+        <VignetteLength>2.5</VignetteLength>
+      </Data>
+    </PostProcessSettings>
+
+  </Definition>
+</Definitions>
