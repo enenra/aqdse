@@ -13,6 +13,8 @@
         <Block Type="MyObjectBuilder_Cockpit" Subtype="OpenCockpitLarge" />
         <Block Type="MyObjectBuilder_Cockpit" Subtype="OpenCockpitSmall" />
         <Block Type="MyObjectBuilder_Cockpit" Subtype="OpenCockpitSmallNarrow" />
+        <Block Type="MyObjectBuilder_Cockpit" Subtype="RoverCockpit" />
+        <Block Type="MyObjectBuilder_Cockpit" Subtype="BuggyCockpit" />
         <Block Type="MyObjectBuilder_Cockpit" Subtype="PassengerSeatLarge" />
         <Block Type="MyObjectBuilder_Cockpit" Subtype="PassengerSeatSmall" />
         <Block Type="MyObjectBuilder_Cockpit" Subtype="PassengerSeatSmallNarrow" />
