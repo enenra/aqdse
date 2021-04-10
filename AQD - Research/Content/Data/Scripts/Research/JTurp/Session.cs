@@ -5,6 +5,7 @@ using Sandbox.Common.ObjectBuilders;
 using Sandbox.Definitions;
 using Sandbox.Game;
 using Sandbox.Game.Entities;
+using Sandbox.Game.Entities.Cube;
 using Sandbox.ModAPI;
 using Sandbox.ModAPI.Ingame;
 
@@ -123,7 +124,24 @@ namespace AQDResearch
         return;
 
       bool isDataBlock = cubeblock.BlockDefinition.Id == _dataStorage;
-      bool allowed = isDataBlock || cubeblock.BlockDefinition.Id == _researchLab;
+      bool isResearchBlock = cubeblock.BlockDefinition.Id == _researchLab;
+      bool allowed = isDataBlock || isResearchBlock;
+
+      try
+      {
+        if (isResearchBlock)
+        {
+          var asm = cubeblock as Sandbox.ModAPI.IMyAssembler;
+          asm.Mode = MyAssemblerMode.Assembly;
+          asm.CurrentModeChanged += Assembler_OnModeChanged;
+          asm.OnClosing += Assembler_OnClosing;
+        }
+      }
+      catch(Exception ex)
+      {
+        _logger.Log();
+        _logger.Log($"Exception with Assembler: {ex.Message}\n{ex.StackTrace}");
+      }
 
       for (int i = 0; i < cubeblock.InventoryCount; i++)
       {
@@ -149,6 +167,23 @@ namespace AQDResearch
             constraint.Add(group.ComponentId.DefinitionId);
         }
       }
+    }
+
+    private void Assembler_OnClosing(VRage.ModAPI.IMyEntity obj)
+    {
+      var asm = obj as Sandbox.ModAPI.IMyAssembler;
+      if (asm == null)
+        return;
+
+      asm.CurrentModeChanged -= Assembler_OnModeChanged;
+      asm.OnClosing -= Assembler_OnClosing;
+    }
+
+    private void Assembler_OnModeChanged(Sandbox.ModAPI.IMyAssembler assembler)
+    {
+      assembler.CurrentModeChanged -= Assembler_OnModeChanged;
+      assembler.Mode = MyAssemblerMode.Assembly;
+      assembler.CurrentModeChanged += Assembler_OnModeChanged;
     }
   }
 }
