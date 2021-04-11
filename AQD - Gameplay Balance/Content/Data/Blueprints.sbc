@@ -38,7 +38,7 @@
         <Item Amount="0.8" TypeId="Ingot" SubtypeId="Silicon" />
       </Results>
       <Priority>1000</Priority>
-      <BaseProductionTimeInSeconds>1</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
     </Blueprint>
 
   </Blueprints>
