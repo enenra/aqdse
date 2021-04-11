@@ -17,6 +17,7 @@
     <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_ReinforcedConcrete_Half_Block" />
     <Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_ReinforcedConcrete_Half_Block_Slope" />
 
+    <Entry Class="BasicComponents" BlueprintSubtypeId="AQD_BP_StoneIngot_To_Concrete" />
     <Entry Class="SimpleComponents" BlueprintSubtypeId="AQD_BP_StoneIngot_To_Concrete" />
     <Entry Class="Components" BlueprintSubtypeId="AQD_BP_StoneIngot_To_Concrete" />
 
