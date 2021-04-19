@@ -1,11 +1,14 @@
 {
 	"folders": [
-		{
-			"path": "."
-		},
-		{
-			"path": "..\\..\\..\\..\\..\\..\\..\\Program Files (x86)\\Steam\\steamapps\\common\\SpaceEngineers\\Content\\Data"
-		}
-	],
+        {
+            "path": "."
+        },
+        {
+            "path": "..\\..\\..\\..\\..\\..\\..\\Program Files (x86)\\Steam\\steamapps\\common\\SpaceEngineers\\Content\\Data"
+        },
+        {
+            "path": "..\\..\\..\\..\\..\\..\\..\\Program Files (x86)\\Steam\\steamapps\\workshop\\content\\244850"
+        }
+    ],
 	"settings": {}
 }
