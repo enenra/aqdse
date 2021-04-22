@@ -25,6 +25,7 @@
       <DeviateShotAngle>0.3</DeviateShotAngle>
       <MuzzleFlashLifeSpan>30</MuzzleFlashLifeSpan>
       <AmmoMagazines>
+        <AmmoMagazine Subtype="RapidFireAutomaticRifleGun_Mag_50rd" />
         <AmmoMagazine Subtype="NATO_5p56x45mm" />
       </AmmoMagazines>
     </Weapon>
@@ -106,90 +107,6 @@
         <AmmoMagazine Subtype="Missile200mm" />
       </AmmoMagazines>
       <ReloadTime>6000</ReloadTime>
-    </Weapon>
-    <Weapon>
-      <Id>
-        <TypeId>WeaponDefinition</TypeId>
-        <SubtypeId>AutomaticRifleGun</SubtypeId>
-      </Id>
-      <ProjectileAmmoData RateOfFire="600" ShootSoundName="WepPlayRifleShot" />
-      <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
-      <DeviateShotAngle>0.3</DeviateShotAngle>
-      <ReleaseTimeAfterFire>100</ReleaseTimeAfterFire>
-      <MuzzleFlashLifeSpan>40</MuzzleFlashLifeSpan>
-      <DamageMultiplier>0.5</DamageMultiplier>
-      <RangeMultiplier>0.5</RangeMultiplier>
-      <UseRandomizedRange>false</UseRandomizedRange>
-      <AmmoMagazines>
-        <AmmoMagazine Subtype="NATO_5p56x45mm" />
-      </AmmoMagazines>
-      <Effects>
-        <Effect Action="Shoot" Dummy="muzzle_projectile" Particle="Muzzle_Flash" Loop="true" InstantStop="true" />
-        <Effect Action="Shoot" Dummy="Shell_Casings" Particle="Shell_Casings" InstantStop="false" />
-      </Effects>
-    </Weapon>
-    <Weapon>
-      <Id>
-        <TypeId>WeaponDefinition</TypeId>
-        <SubtypeId>PreciseAutomaticRifleGun</SubtypeId>
-      </Id>
-      <ProjectileAmmoData RateOfFire="300" ShootSoundName="WepPlayRifleShot" />
-      <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
-      <DeviateShotAngle>0.1</DeviateShotAngle>
-      <ReleaseTimeAfterFire>100</ReleaseTimeAfterFire>
-      <MuzzleFlashLifeSpan>40</MuzzleFlashLifeSpan>
-      <DamageMultiplier>0.7</DamageMultiplier>
-      <RangeMultiplier>0.875</RangeMultiplier>
-      <UseRandomizedRange>false</UseRandomizedRange>
-      <AmmoMagazines>
-        <AmmoMagazine Subtype="NATO_5p56x45mm" />
-      </AmmoMagazines>
-      <Effects>
-        <Effect Action="Shoot" Dummy="muzzle_projectile" Particle="Muzzle_Flash" Loop="true" InstantStop="true" />
-        <Effect Action="Shoot" Dummy="Shell_Casings" Particle="Shell_Casings" InstantStop="false" />
-      </Effects>
-    </Weapon>
-    <Weapon>
-      <Id>
-        <TypeId>WeaponDefinition</TypeId>
-        <SubtypeId>RapidFireAutomaticRifleGun</SubtypeId>
-      </Id>
-      <ProjectileAmmoData RateOfFire="1000" ShootSoundName="WepPlayRifleShot" />
-      <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
-      <DeviateShotAngle>1</DeviateShotAngle>
-      <ReleaseTimeAfterFire>100</ReleaseTimeAfterFire>
-      <MuzzleFlashLifeSpan>10</MuzzleFlashLifeSpan>
-      <DamageMultiplier>0.35</DamageMultiplier>
-      <RangeMultiplier>0.375</RangeMultiplier>
-      <UseRandomizedRange>false</UseRandomizedRange>
-      <AmmoMagazines>
-        <AmmoMagazine Subtype="NATO_5p56x45mm" />
-      </AmmoMagazines>
-      <Effects>
-        <Effect Action="Shoot" Dummy="muzzle_projectile" Particle="Muzzle_Flash" Loop="true" InstantStop="true" />
-        <Effect Action="Shoot" Dummy="Shell_Casings" Particle="Shell_Casings" InstantStop="false" />
-      </Effects>
-    </Weapon>
-    <Weapon>
-      <Id>
-        <TypeId>WeaponDefinition</TypeId>
-        <SubtypeId>UltimateAutomaticRifleGun</SubtypeId>
-      </Id>
-      <ProjectileAmmoData RateOfFire="1000" ShootSoundName="WepPlayRifleShot" />
-      <NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
-      <DeviateShotAngle>0.2</DeviateShotAngle>
-      <ReleaseTimeAfterFire>100</ReleaseTimeAfterFire>
-      <MuzzleFlashLifeSpan>40</MuzzleFlashLifeSpan>
-      <DamageMultiplier>1</DamageMultiplier>
-      <RangeMultiplier>0.625</RangeMultiplier>
-      <UseRandomizedRange>false</UseRandomizedRange>
-      <AmmoMagazines>
-        <AmmoMagazine Subtype="NATO_5p56x45mm" />
-      </AmmoMagazines>
-      <Effects>
-        <Effect Action="Shoot" Dummy="muzzle_projectile" Particle="Muzzle_Flash" Loop="true" InstantStop="true" />
-        <Effect Action="Shoot" Dummy="Shell_Casings" Particle="Shell_Casings" InstantStop="false" />
-      </Effects>
     </Weapon>
   </Weapons>
 </Definitions>
