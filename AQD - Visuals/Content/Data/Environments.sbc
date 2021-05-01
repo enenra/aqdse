@@ -15,5 +15,15 @@
     <ContourHighlightThickness>6.5</ContourHighlightThickness>
     <HighlightPulseInSeconds>3</HighlightPulseInSeconds>
 
+    <!-- Disables vignette effect -->
+    <PostProcessSettings>
+      <ChromaticIterations>1</ChromaticIterations>
+      <Data>
+        <ChromaticFactor>0.003</ChromaticFactor>
+        <VignetteStart>0.84</VignetteStart>
+        <VignetteLength>2.5</VignetteLength>
+      </Data>
+    </PostProcessSettings>
+
   </Definition>
 </Definitions>
