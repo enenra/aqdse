@@ -9,10 +9,12 @@
       <Description>Description_AQD_BannerLCD</Description>
       <Blocks>
         <Block Type="TextPanel" Subtype="AQD_LG_BannerLCD" />
+        <Block Type="TextPanel" Subtype="AQD_LG_BannerLCDHalf" />
         <Block Type="TextPanel" Subtype="AQD_LG_BannerLCD1x4" />
         <Block Type="TextPanel" Subtype="AQD_LG_BannerLCD2x2" />
         <Block Type="TextPanel" Subtype="AQD_LG_BannerLCD4x4" />
         <Block Type="TextPanel" Subtype="AQD_SG_BannerLCD" />
+        <Block Type="TextPanel" Subtype="AQD_SG_BannerLCDHalf" />
         <Block Type="TextPanel" Subtype="AQD_SG_BannerLCD1x4" />
         <Block Type="TextPanel" Subtype="AQD_SG_BannerLCD2x2" />
         <Block Type="TextPanel" Subtype="AQD_SG_BannerLCD4x4" />

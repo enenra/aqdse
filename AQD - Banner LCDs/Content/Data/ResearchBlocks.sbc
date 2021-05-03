@@ -9,6 +9,12 @@
       </UnlockedByGroups>
     </ResearchBlock>
     <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="TextPanel" Subtype="AQD_LG_BannerLCDHalf" />
+      <UnlockedByGroups>
+        <GroupSubtype>3</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
       <Id Type="TextPanel" Subtype="AQD_LG_BannerLCD1x4" />
       <UnlockedByGroups>
         <GroupSubtype>3</GroupSubtype>
@@ -29,6 +35,12 @@
 
     <ResearchBlock xsi:type="ResearchBlock">
       <Id Type="TextPanel" Subtype="AQD_SG_BannerLCD" />
+      <UnlockedByGroups>
+        <GroupSubtype>3</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="TextPanel" Subtype="AQD_SG_BannerLCDHalf" />
       <UnlockedByGroups>
         <GroupSubtype>3</GroupSubtype>
       </UnlockedByGroups>

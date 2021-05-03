@@ -5,39 +5,37 @@
     <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
       <Id>
         <TypeId>TextPanel</TypeId>
-        <SubtypeId>AQD_LG_BannerLCD1x4</SubtypeId>
+        <SubtypeId>AQD_LG_BannerLCDHalf</SubtypeId>
       </Id>
-      <DisplayName>{LOC:DisplayName_AQD_BannerLCD1x4}</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_BannerLCD1x4.dds</Icon>
+      <DisplayName>{LOC:DisplayName_AQD_BannerLCDHalf}</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_BannerLCDHalf.dds</Icon>
       <Description>{LOC:Description_AQD_BannerLCD}</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="4" y="1" z="1" />
+      <Size x="1" y="1" z="1" />
       <GuiVisible>false</GuiVisible>
-      <Model>Models\Cubes\Large\AQD_LG_BannerLCD1x4.mwm</Model>
+      <Model>Models\Cubes\Large\AQD_LG_BannerLCDHalf.mwm</Model>
       <ModelOffset x="0" y="0" z="0" />
       <Components>
-        <Component Subtype="Display" Count="40" />
+        <Component Subtype="Display" Count="5" />
         <Component Subtype="Computer" Count="1" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="4" EndY="1" Default="true" />
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
       </MountPoints>
-      <BlockPairName>AQD_BannerLCD1x4</BlockPairName>
+      <BlockPairName>AQD_BannerLCDHalf</BlockPairName>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\AQD_LG_BannerLCD1x4.mwm" />
+        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Large\AQD_LG_BannerLCDHalf.mwm" />
       </BuildProgressModels>
-      <MirroringZ>Y</MirroringZ>
-      <MirroringY>Z</MirroringY>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
       <HasInventory>false</HasInventory>
       <BuildTimeSeconds>1</BuildTimeSeconds>
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
       <RequiredPowerInput>0</RequiredPowerInput>
-      <TextureResolution>2048</TextureResolution>
-      <ScreenWidth>4</ScreenWidth>
-      <ScreenHeight>1</ScreenHeight>
+      <TextureResolution>512</TextureResolution>
       <PanelMaterialName>TransparentScreenArea</PanelMaterialName>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>
@@ -48,39 +46,37 @@
     <Definition xsi:type="MyObjectBuilder_TextPanelDefinition">
       <Id>
         <TypeId>TextPanel</TypeId>
-        <SubtypeId>AQD_SG_BannerLCD1x4</SubtypeId>
+        <SubtypeId>AQD_SG_BannerLCDHalf</SubtypeId>
       </Id>
-      <DisplayName>{LOC:DisplayName_AQD_BannerLCD1x4}</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_BannerLCD1x4.dds</Icon>
+      <DisplayName>{LOC:DisplayName_AQD_BannerLCDHalf}</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_BannerLCDHalf.dds</Icon>
       <Description>{LOC:Description_AQD_BannerLCD}</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="4" y="1" z="1" />
+      <Size x="1" y="1" z="1" />
       <GuiVisible>false</GuiVisible>
-      <Model>Models\Cubes\Small\AQD_SG_BannerLCD1x4.mwm</Model>
+      <Model>Models\Cubes\Small\AQD_SG_BannerLCDHalf.mwm</Model>
       <ModelOffset x="0" y="0" z="0" />
       <Components>
-        <Component Subtype="Display" Count="8" />
+        <Component Subtype="Display" Count="1" />
         <Component Subtype="Computer" Count="1" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="4" EndY="1" Default="true" />
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
       </MountPoints>
-      <BlockPairName>AQD_BannerLCD1x4</BlockPairName>
+      <BlockPairName>AQD_BannerLCDHalf</BlockPairName>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\AQD_SG_BannerLCD1x4.mwm" />
+        <Model BuildPercentUpperBound="1.0" File="Models\Cubes\Small\AQD_SG_BannerLCDHalf.mwm" />
       </BuildProgressModels>
-      <MirroringZ>Y</MirroringZ>
-      <MirroringY>Z</MirroringY>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
       <HasInventory>false</HasInventory>
       <BuildTimeSeconds>1</BuildTimeSeconds>
       <ResourceSinkGroup>Utility</ResourceSinkGroup>
       <RequiredPowerInput>0</RequiredPowerInput>
-      <TextureResolution>2048</TextureResolution>
-      <ScreenWidth>4</ScreenWidth>
-      <ScreenHeight>1</ScreenHeight>
+      <TextureResolution>512</TextureResolution>
       <PanelMaterialName>TransparentScreenArea</PanelMaterialName>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <DamagedSound>ParticleElectrical</DamagedSound>

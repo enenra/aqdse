@@ -12,6 +12,7 @@
       <StrictSearch>true</StrictSearch>
       <ItemIds>
         <string>TextPanel/AQD_LG_BannerLCD</string>
+        <string>TextPanel/AQD_LG_BannerLCDHalf</string>
         <string>TextPanel/AQD_LG_BannerLCD1x4</string>
         <string>TextPanel/AQD_LG_BannerLCD2x2</string>
         <string>TextPanel/AQD_LG_BannerLCD4x4</string>
@@ -28,26 +29,7 @@
       <StrictSearch>true</StrictSearch>
       <ItemIds>
         <string>TextPanel/AQD_SG_BannerLCD</string>
-        <string>TextPanel/AQD_SG_BannerLCD1x4</string>
-        <string>TextPanel/AQD_SG_BannerLCD2x2</string>
-        <string>TextPanel/AQD_SG_BannerLCD4x4</string>
-      </ItemIds>
-    </Category>
-
-    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
-      <Id>
-        <TypeId>GuiBlockCategoryDefinition</TypeId>
-        <SubtypeId/>
-      </Id>
-      <DisplayName>DisplayName_DLC_DecorativeBlocks2</DisplayName>
-      <Name>DecorativeBlocks2</Name>
-      <StrictSearch>true</StrictSearch>
-      <ItemIds>
-        <string>TextPanel/AQD_LG_BannerLCD</string>
-        <string>TextPanel/AQD_LG_BannerLCD1x4</string>
-        <string>TextPanel/AQD_LG_BannerLCD2x2</string>
-        <string>TextPanel/AQD_LG_BannerLCD4x4</string>
-        <string>TextPanel/AQD_SG_BannerLCD</string>
+        <string>TextPanel/AQD_SG_BannerLCDHalf</string>
         <string>TextPanel/AQD_SG_BannerLCD1x4</string>
         <string>TextPanel/AQD_SG_BannerLCD2x2</string>
         <string>TextPanel/AQD_SG_BannerLCD4x4</string>

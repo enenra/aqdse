@@ -132,4 +132,7 @@
   <data name="DisplayName_AQD_BannerLCD4x4" xml:space="preserve">
     <value>Banner LCD 4x4</value>
   </data>
+  <data name="DisplayName_AQD_BannerLCDHalf" xml:space="preserve">
+    <value>Banner LCD Half</value>
+  </data>
 </root>
