@@ -22,7 +22,7 @@
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.50" EndX="1.00" EndY="1.00"/>
       </MountPoints>
       <BlockPairName>AQD_BannerLCDHalf</BlockPairName>
       <BuildProgressModels>
@@ -63,7 +63,7 @@
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.50" EndX="1.00" EndY="1.00"/>
       </MountPoints>
       <BlockPairName>AQD_BannerLCDHalf</BlockPairName>
       <BuildProgressModels>
