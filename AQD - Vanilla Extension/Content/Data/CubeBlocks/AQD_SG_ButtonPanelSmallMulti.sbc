@@ -9,9 +9,9 @@
         <TypeId>ButtonPanel</TypeId>
         <SubtypeId>AQD_SG_ButtonPanelSmallMulti</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_SG_ButtonPanelSmallMulti</DisplayName>
+      <DisplayName>{LOC:DisplayName_AQD_SG_ButtonPanelSmallMulti}</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\AQD_SG_MultiButton.dds</Icon>
-      <Description>Description_ButtonPanel</Description>      
+      <Description>{LOC:Description_ButtonPanel}</Description>      
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
