@@ -8,9 +8,9 @@
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>AQD_LG_Concrete_Block</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_LG_Concrete_Block</DisplayName>
+      <DisplayName>{LOC:DisplayName_AQD_LG_Concrete_Block}</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_Concrete_Block.png</Icon>
-      <Description>Description_AQD_Concrete_Block</Description>
+      <Description>{LOC:Description_AQD_Concrete_Block}</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -165,9 +165,9 @@
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>AQD_LG_Concrete_Slope</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_LG_Concrete_Slope</DisplayName>
+      <DisplayName>{LOC:DisplayName_AQD_LG_Concrete_Slope}</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_Concrete_Slope.png</Icon>
-      <Description>Description_AQD_Concrete_Block</Description>
+      <Description>{LOC:Description_AQD_Concrete_Block}</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -295,9 +295,9 @@
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>AQD_LG_Concrete_Corner</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_LG_Concrete_Corner</DisplayName>
+      <DisplayName>{LOC:DisplayName_AQD_LG_Concrete_Corner}</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_Concrete_Corner.png</Icon>
-      <Description>Description_AQD_Concrete_Block</Description>
+      <Description>{LOC:Description_AQD_Concrete_Block}</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -397,9 +397,9 @@
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>AQD_LG_Concrete_Corner_Inv</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_LG_Concrete_Corner_Inv</DisplayName>
+      <DisplayName>{LOC:DisplayName_AQD_LG_Concrete_Corner_Inv}</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_Concrete_Corner_Inv.png</Icon>
-      <Description>Description_AQD_Concrete_Block</Description>
+      <Description>{LOC:Description_AQD_Concrete_Block}</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -556,9 +556,9 @@
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>AQD_LG_Concrete_Half_Block</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_LG_Concrete_Half_Block</DisplayName>
+      <DisplayName>{LOC:DisplayName_AQD_LG_Concrete_Half_Block}</DisplayName>
       <Icon>Textures/GUI/Icons/Cubes/AQD_LG_Concrete_Half_Block.png</Icon>
-      <Description>Description_AQD_Concrete_Block</Description>
+      <Description>{LOC:Description_AQD_Concrete_Block}</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -723,9 +723,9 @@
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>AQD_LG_Concrete_Half_Block_Slope</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_LG_Concrete_Half_Block_Slope</DisplayName>
+      <DisplayName>{LOC:DisplayName_AQD_LG_Concrete_Half_Block_Slope}</DisplayName>
       <Icon>Textures/GUI/Icons/Cubes/AQD_LG_Concrete_Half_Block_Slope.png</Icon>
-      <Description>Description_AQD_Concrete_Half_Block</Description>
+      <Description>{LOC:Description_AQD_Concrete_Half_Block}</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
       <Size x="1" y="1" z="1" />

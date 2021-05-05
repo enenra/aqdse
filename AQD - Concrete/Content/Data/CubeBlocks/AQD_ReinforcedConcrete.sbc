@@ -8,9 +8,9 @@
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>AQD_LG_ReinforcedConcrete_Block</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_LG_ReinforcedConcrete_Block</DisplayName>
+      <DisplayName>{LOC:DisplayName_AQD_LG_ReinforcedConcrete_Block}</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinforcedConcrete_Block.png</Icon>
-      <Description>Description_AQD_ReinforcedConcrete_Block</Description>
+      <Description>{LOC:Description_AQD_ReinforcedConcrete_Block}</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -166,9 +166,9 @@
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>AQD_LG_ReinforcedConcrete_Slope</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_LG_ReinforcedConcrete_Slope</DisplayName>
+      <DisplayName>{LOC:DisplayName_AQD_LG_ReinforcedConcrete_Slope}</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinforcedConcrete_Slope.png</Icon>
-      <Description>Description_AQD_ReinforcedConcrete_Block</Description>
+      <Description>{LOC:Description_AQD_ReinforcedConcrete_Block}</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -297,9 +297,9 @@
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>AQD_LG_ReinforcedConcrete_Corner</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_LG_ReinforcedConcrete_Corner</DisplayName>
+      <DisplayName>{LOC:DisplayName_AQD_LG_ReinforcedConcrete_Corner}</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinforcedConcrete_Corner.png</Icon>
-      <Description>Description_AQD_ReinforcedConcrete_Block</Description>
+      <Description>{LOC:Description_AQD_ReinforcedConcrete_Block}</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -400,9 +400,9 @@
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>AQD_LG_ReinforcedConcrete_Corner_Inv</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_LG_ReinforcedConcrete_Corner_Inv</DisplayName>
+      <DisplayName>{LOC:DisplayName_AQD_LG_ReinforcedConcrete_Corner_Inv}</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinforcedConcrete_Corner_Inv.png</Icon>
-      <Description>Description_AQD_ReinforcedConcrete_Block</Description>
+      <Description>{LOC:Description_AQD_ReinforcedConcrete_Block}</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -560,9 +560,9 @@
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>AQD_LG_ReinforcedConcrete_Half_Block</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_LG_ReinforcedConcrete_Half_Block</DisplayName>
+      <DisplayName>{LOC:DisplayName_AQD_LG_ReinforcedConcrete_Half_Block}</DisplayName>
       <Icon>Textures/GUI/Icons/Cubes/AQD_LG_ReinforcedConcrete_Half_Block.png</Icon>
-      <Description>Description_AQD_ReinforcedConcrete_Block</Description>
+      <Description>{LOC:Description_AQD_ReinforcedConcrete_Block}</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -728,9 +728,9 @@
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>AQD_LG_ReinforcedConcrete_Half_Block_Slope</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_LG_ReinforcedConcrete_Half_Block_Slope</DisplayName>
+      <DisplayName>{LOC:DisplayName_AQD_LG_ReinforcedConcrete_Half_Block_Slope}</DisplayName>
       <Icon>Textures/GUI/Icons/Cubes/AQD_LG_ReinforcedConcrete_Half_Block_Slope.png</Icon>
-      <Description>Description_AQD_ReinforcedConcrete_Half_Block</Description>
+      <Description>{LOC:Description_AQD_ReinforcedConcrete_Half_Block}</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
       <Size x="1" y="1" z="1" />
