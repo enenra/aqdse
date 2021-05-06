@@ -7,7 +7,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T1_AQD_BP_LOC_A1</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T1_AQD_BP_LOC_A1</DisplayName>
+      <DisplayName>{LOC:DisplayName_T1_AQD_BP_LOC_A1}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_locomotion.dds</Icon>
       <Prerequisites>
         <Item Amount="10" TypeId="Component" SubtypeId="AQD_Comp_ResearchMaterial" />
@@ -22,7 +22,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T1_AQD_BP_LOC_A2</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T1_AQD_BP_LOC_A2</DisplayName>
+      <DisplayName>{LOC:DisplayName_T1_AQD_BP_LOC_A2}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_locomotion.dds</Icon>
       <Prerequisites>
         <Item Amount="20" TypeId="Component" SubtypeId="AQD_Comp_ResearchMaterial" />
@@ -38,7 +38,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T1_AQD_BP_LOC_B1</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T1_AQD_BP_LOC_B1</DisplayName>
+      <DisplayName>{LOC:DisplayName_T1_AQD_BP_LOC_B1}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_locomotion.dds</Icon>
       <Prerequisites>
         <Item Amount="40" TypeId="Component" SubtypeId="AQD_Comp_ResearchMaterial" />
@@ -53,7 +53,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T2_AQD_BP_LOC_B2</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T2_AQD_BP_LOC_B2</DisplayName>
+      <DisplayName>{LOC:DisplayName_T2_AQD_BP_LOC_B2}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_locomotion.dds</Icon>
       <Prerequisites>
         <Item Amount="80" TypeId="Component" SubtypeId="AQD_Comp_EnhancedResearchMaterial" />
@@ -69,7 +69,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T2_AQD_BP_LOC_C1</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T2_AQD_BP_LOC_C1</DisplayName>
+      <DisplayName>{LOC:DisplayName_T2_AQD_BP_LOC_C1}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_locomotion.dds</Icon>
       <Prerequisites>
         <Item Amount="80" TypeId="Component" SubtypeId="AQD_Comp_EnhancedResearchMaterial" />
@@ -85,7 +85,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T3_AQD_BP_LOC_C2</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T3_AQD_BP_LOC_C2</DisplayName>
+      <DisplayName>{LOC:DisplayName_T3_AQD_BP_LOC_C2}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_locomotion.dds</Icon>
       <Prerequisites>
         <Item Amount="40" TypeId="Component" SubtypeId="AQD_Comp_AdvancedResearchMaterial" />
@@ -101,7 +101,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T4_AQD_BP_LOC_D1</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T4_AQD_BP_LOC_D1</DisplayName>
+      <DisplayName>{LOC:DisplayName_T4_AQD_BP_LOC_D1}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_locomotion.dds</Icon>
       <Prerequisites>
         <Item Amount="20" TypeId="Component" SubtypeId="AQD_Comp_EliteResearchMaterial" />
@@ -117,7 +117,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T4_AQD_BP_LOC_D2</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T4_AQD_BP_LOC_D2</DisplayName>
+      <DisplayName>{LOC:DisplayName_T4_AQD_BP_LOC_D2}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_locomotion.dds</Icon>
       <Prerequisites>
         <Item Amount="40" TypeId="Component" SubtypeId="AQD_Comp_EliteResearchMaterial" />
@@ -133,7 +133,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T1_AQD_BP_PWR_A1</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T1_AQD_BP_PWR_A1</DisplayName>
+      <DisplayName>{LOC:DisplayName_T1_AQD_BP_PWR_A1}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_power.dds</Icon>
       <Prerequisites>
         <Item Amount="40" TypeId="Component" SubtypeId="AQD_Comp_ResearchMaterial" />
@@ -148,7 +148,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T3_AQD_BP_PWR_B1</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T3_AQD_BP_PWR_B1</DisplayName>
+      <DisplayName>{LOC:DisplayName_T3_AQD_BP_PWR_B1}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_power.dds</Icon>
       <Prerequisites>
         <Item Amount="20" TypeId="Component" SubtypeId="AQD_Comp_AdvancedResearchMaterial" />
@@ -164,7 +164,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T3_AQD_BP_PWR_B2</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T3_AQD_BP_PWR_B2</DisplayName>
+      <DisplayName>{LOC:DisplayName_T3_AQD_BP_PWR_B2}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_power.dds</Icon>
       <Prerequisites>
         <Item Amount="40" TypeId="Component" SubtypeId="AQD_Comp_AdvancedResearchMaterial" />
@@ -180,7 +180,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T1_AQD_BP_STOR_A1</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T1_AQD_BP_STOR_A1</DisplayName>
+      <DisplayName>{LOC:DisplayName_T1_AQD_BP_STOR_A1}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_storage.dds</Icon>
       <Prerequisites>
         <Item Amount="20" TypeId="Component" SubtypeId="AQD_Comp_ResearchMaterial" />
@@ -195,7 +195,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T1_AQD_BP_STOR_A2</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T1_AQD_BP_STOR_A2</DisplayName>
+      <DisplayName>{LOC:DisplayName_T1_AQD_BP_STOR_A2}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_storage.dds</Icon>
       <Prerequisites>
         <Item Amount="60" TypeId="Component" SubtypeId="AQD_Comp_ResearchMaterial" />
@@ -211,7 +211,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T1_AQD_BP_STOR_B1</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T1_AQD_BP_STOR_B1</DisplayName>
+      <DisplayName>{LOC:DisplayName_T1_AQD_BP_STOR_B1}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_storage.dds</Icon>
       <Prerequisites>
         <Item Amount="60" TypeId="Component" SubtypeId="AQD_Comp_ResearchMaterial" />
@@ -226,7 +226,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T1_AQD_BP_STOR_B2</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T1_AQD_BP_STOR_B2</DisplayName>
+      <DisplayName>{LOC:DisplayName_T1_AQD_BP_STOR_B2}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_storage.dds</Icon>
       <Prerequisites>
         <Item Amount="80" TypeId="Component" SubtypeId="AQD_Comp_ResearchMaterial" />
@@ -242,7 +242,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T1_AQD_BP_STOR_C1</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T1_AQD_BP_STOR_C1</DisplayName>
+      <DisplayName>{LOC:DisplayName_T1_AQD_BP_STOR_C1}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_storage.dds</Icon>
       <Prerequisites>
         <Item Amount="10" TypeId="Component" SubtypeId="AQD_Comp_ResearchMaterial" />
@@ -257,7 +257,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T1_AQD_BP_STOR_C2</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T1_AQD_BP_STOR_C2</DisplayName>
+      <DisplayName>{LOC:DisplayName_T1_AQD_BP_STOR_C2}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_storage.dds</Icon>
       <Prerequisites>
         <Item Amount="60" TypeId="Component" SubtypeId="AQD_Comp_ResearchMaterial" />
@@ -273,7 +273,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T1_AQD_BP_STOR_C3</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T1_AQD_BP_STOR_C3</DisplayName>
+      <DisplayName>{LOC:DisplayName_T1_AQD_BP_STOR_C3}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_storage.dds</Icon>
       <Prerequisites>
         <Item Amount="80" TypeId="Component" SubtypeId="AQD_Comp_ResearchMaterial" />
@@ -289,7 +289,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T2_AQD_BP_IND_A1</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T2_AQD_BP_IND_A1</DisplayName>
+      <DisplayName>{LOC:DisplayName_T2_AQD_BP_IND_A1}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_industry.dds</Icon>
       <Prerequisites>
         <Item Amount="20" TypeId="Component" SubtypeId="AQD_Comp_EnhancedResearchMaterial" />
@@ -304,7 +304,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T2_AQD_BP_IND_A2</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T2_AQD_BP_IND_A2</DisplayName>
+      <DisplayName>{LOC:DisplayName_T2_AQD_BP_IND_A2}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_industry.dds</Icon>
       <Prerequisites>
         <Item Amount="20" TypeId="Component" SubtypeId="AQD_Comp_EnhancedResearchMaterial" />
@@ -319,7 +319,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T2_AQD_BP_IND_A3</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T2_AQD_BP_IND_A3</DisplayName>
+      <DisplayName>{LOC:DisplayName_T2_AQD_BP_IND_A3}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_industry.dds</Icon>
       <Prerequisites>
         <Item Amount="20" TypeId="Component" SubtypeId="AQD_Comp_EnhancedResearchMaterial" />
@@ -334,7 +334,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T2_AQD_BP_IND_B1</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T2_AQD_BP_IND_B1</DisplayName>
+      <DisplayName>{LOC:DisplayName_T2_AQD_BP_IND_B1}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_industry.dds</Icon>
       <Prerequisites>
         <Item Amount="40" TypeId="Component" SubtypeId="AQD_Comp_EnhancedResearchMaterial" />
@@ -349,7 +349,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T2_AQD_BP_IND_B2</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T2_AQD_BP_IND_B2</DisplayName>
+      <DisplayName>{LOC:DisplayName_T2_AQD_BP_IND_B2}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_industry.dds</Icon>
       <Prerequisites>
         <Item Amount="60" TypeId="Component" SubtypeId="AQD_Comp_EnhancedResearchMaterial" />
@@ -365,7 +365,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T2_AQD_BP_IND_B3</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T2_AQD_BP_IND_B3</DisplayName>
+      <DisplayName>{LOC:DisplayName_T2_AQD_BP_IND_B3}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_industry.dds</Icon>
       <Prerequisites>
         <Item Amount="60" TypeId="Component" SubtypeId="AQD_Comp_EnhancedResearchMaterial" />
@@ -381,7 +381,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T3_AQD_BP_IND_B4</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T3_AQD_BP_IND_B4</DisplayName>
+      <DisplayName>{LOC:DisplayName_T3_AQD_BP_IND_B4}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_industry.dds</Icon>
       <Prerequisites>
         <Item Amount="80" TypeId="Component" SubtypeId="AQD_Comp_AdvancedResearchMaterial" />
@@ -397,7 +397,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T2_AQD_BP_AUT_A1</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T2_AQD_BP_AUT_A1</DisplayName>
+      <DisplayName>{LOC:DisplayName_T2_AQD_BP_AUT_A1}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_automation.dds</Icon>
       <Prerequisites>
         <Item Amount="40" TypeId="Component" SubtypeId="AQD_Comp_EnhancedResearchMaterial" />
@@ -412,7 +412,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T1_AQD_BP_AUT_B1</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T1_AQD_BP_AUT_B1</DisplayName>
+      <DisplayName>{LOC:DisplayName_T1_AQD_BP_AUT_B1}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_automation.dds</Icon>
       <Prerequisites>
         <Item Amount="20" TypeId="Component" SubtypeId="AQD_Comp_ResearchMaterial" />
@@ -427,7 +427,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T1_AQD_BP_AUT_B2</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T1_AQD_BP_AUT_B2</DisplayName>
+      <DisplayName>{LOC:DisplayName_T1_AQD_BP_AUT_B2}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_automation.dds</Icon>
       <Prerequisites>
         <Item Amount="20" TypeId="Component" SubtypeId="AQD_Comp_ResearchMaterial" />
@@ -443,7 +443,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T2_AQD_BP_AUT_B3</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T2_AQD_BP_AUT_B3</DisplayName>
+      <DisplayName>{LOC:DisplayName_T2_AQD_BP_AUT_B3}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_automation.dds</Icon>
       <Prerequisites>
         <Item Amount="40" TypeId="Component" SubtypeId="AQD_Comp_EnhancedResearchMaterial" />
@@ -459,7 +459,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T4_AQD_BP_DEF_A1</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T4_AQD_BP_DEF_A1</DisplayName>
+      <DisplayName>{LOC:DisplayName_T4_AQD_BP_DEF_A1}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_combat.dds</Icon>
       <Prerequisites>
         <Item Amount="60" TypeId="Component" SubtypeId="AQD_Comp_EliteResearchMaterial" />
@@ -474,7 +474,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T4_AQD_BP_DEF_A2</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T4_AQD_BP_DEF_A2</DisplayName>
+      <DisplayName>{LOC:DisplayName_T4_AQD_BP_DEF_A2}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_combat.dds</Icon>
       <Prerequisites>
         <Item Amount="80" TypeId="Component" SubtypeId="AQD_Comp_EliteResearchMaterial" />
@@ -490,7 +490,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T3_AQD_BP_DEF_B1</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T3_AQD_BP_DEF_B1</DisplayName>
+      <DisplayName>{LOC:DisplayName_T3_AQD_BP_DEF_B1}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_combat.dds</Icon>
       <Prerequisites>
         <Item Amount="20" TypeId="Component" SubtypeId="AQD_Comp_AdvancedResearchMaterial" />
@@ -505,7 +505,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T3_AQD_BP_DEF_B2</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T3_AQD_BP_DEF_B2</DisplayName>
+      <DisplayName>{LOC:DisplayName_T3_AQD_BP_DEF_B2}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_combat.dds</Icon>
       <Prerequisites>
         <Item Amount="60" TypeId="Component" SubtypeId="AQD_Comp_AdvancedResearchMaterial" />
@@ -521,7 +521,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T4_AQD_BP_DEF_C1</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T4_AQD_BP_DEF_C1</DisplayName>
+      <DisplayName>{LOC:DisplayName_T4_AQD_BP_DEF_C1}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_combat.dds</Icon>
       <Prerequisites>
         <Item Amount="80" TypeId="Component" SubtypeId="AQD_Comp_EliteResearchMaterial" />
@@ -536,7 +536,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T1_AQD_BP_DEF_D1</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T1_AQD_BP_DEF_D1</DisplayName>
+      <DisplayName>{LOC:DisplayName_T1_AQD_BP_DEF_D1}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_combat.dds</Icon>
       <Prerequisites>
         <Item Amount="20" TypeId="Component" SubtypeId="AQD_Comp_ResearchMaterial" />
@@ -551,7 +551,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T2_AQD_BP_DEF_D2</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T2_AQD_BP_DEF_D2</DisplayName>
+      <DisplayName>{LOC:DisplayName_T2_AQD_BP_DEF_D2}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_combat.dds</Icon>
       <Prerequisites>
         <Item Amount="40" TypeId="Component" SubtypeId="AQD_Comp_EnhancedResearchMaterial" />
@@ -567,7 +567,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T3_AQD_BP_DEF_D3</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T3_AQD_BP_DEF_D3</DisplayName>
+      <DisplayName>{LOC:DisplayName_T3_AQD_BP_DEF_D3}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_combat.dds</Icon>
       <Prerequisites>
         <Item Amount="40" TypeId="Component" SubtypeId="AQD_Comp_AdvancedResearchMaterial" />
@@ -583,7 +583,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T4_AQD_BP_DEF_D4</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T4_AQD_BP_DEF_D4</DisplayName>
+      <DisplayName>{LOC:DisplayName_T4_AQD_BP_DEF_D4}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_combat.dds</Icon>
       <Prerequisites>
         <Item Amount="20" TypeId="Component" SubtypeId="AQD_Comp_EliteResearchMaterial" />
@@ -599,7 +599,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T2_AQD_BP_UTIL_A1</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T2_AQD_BP_UTIL_A1</DisplayName>
+      <DisplayName>{LOC:DisplayName_T2_AQD_BP_UTIL_A1}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_utility.dds</Icon>
       <Prerequisites>
         <Item Amount="40" TypeId="Component" SubtypeId="AQD_Comp_EnhancedResearchMaterial" />
@@ -614,7 +614,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T2_AQD_BP_UTIL_A2</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T2_AQD_BP_UTIL_A2</DisplayName>
+      <DisplayName>{LOC:DisplayName_T2_AQD_BP_UTIL_A2}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_utility.dds</Icon>
       <Prerequisites>
         <Item Amount="60" TypeId="Component" SubtypeId="AQD_Comp_EnhancedResearchMaterial" />
@@ -630,7 +630,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T3_AQD_BP_UTIL_A3</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T3_AQD_BP_UTIL_A3</DisplayName>
+      <DisplayName>{LOC:DisplayName_T3_AQD_BP_UTIL_A3}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_utility.dds</Icon>
       <Prerequisites>
         <Item Amount="60" TypeId="Component" SubtypeId="AQD_Comp_AdvancedResearchMaterial" />
@@ -646,7 +646,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T2_AQD_BP_UTIL_B1</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T2_AQD_BP_UTIL_B1</DisplayName>
+      <DisplayName>{LOC:DisplayName_T2_AQD_BP_UTIL_B1}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_utility.dds</Icon>
       <Prerequisites>
         <Item Amount="20" TypeId="Component" SubtypeId="AQD_Comp_EnhancedResearchMaterial" />
@@ -661,7 +661,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T3_AQD_BP_UTIL_C1</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T3_AQD_BP_UTIL_C1</DisplayName>
+      <DisplayName>{LOC:DisplayName_T3_AQD_BP_UTIL_C1}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_utility.dds</Icon>
       <Prerequisites>
         <Item Amount="60" TypeId="Component" SubtypeId="AQD_Comp_AdvancedResearchMaterial" />
@@ -676,7 +676,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T2_AQD_BP_UTIL_D1</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T2_AQD_BP_UTIL_D1</DisplayName>
+      <DisplayName>{LOC:DisplayName_T2_AQD_BP_UTIL_D1}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_utility.dds</Icon>
       <Prerequisites>
         <Item Amount="40" TypeId="Component" SubtypeId="AQD_Comp_EnhancedResearchMaterial" />
@@ -691,7 +691,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T1_AQD_BP_UTIL_E1</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T1_AQD_BP_UTIL_E1</DisplayName>
+      <DisplayName>{LOC:DisplayName_T1_AQD_BP_UTIL_E1}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_utility.dds</Icon>
       <Prerequisites>
         <Item Amount="40" TypeId="Component" SubtypeId="AQD_Comp_ResearchMaterial" />
@@ -706,7 +706,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T2_AQD_BP_UTIL_E2</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T2_AQD_BP_UTIL_E2</DisplayName>
+      <DisplayName>{LOC:DisplayName_T2_AQD_BP_UTIL_E2}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_utility.dds</Icon>
       <Prerequisites>
         <Item Amount="40" TypeId="Component" SubtypeId="AQD_Comp_EnhancedResearchMaterial" />
@@ -721,7 +721,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T3_AQD_BP_UTIL_E3</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T3_AQD_BP_UTIL_E3</DisplayName>
+      <DisplayName>{LOC:DisplayName_T3_AQD_BP_UTIL_E3}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_utility.dds</Icon>
       <Prerequisites>
         <Item Amount="40" TypeId="Component" SubtypeId="AQD_Comp_AdvancedResearchMaterial" />
@@ -736,7 +736,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T1_AQD_BP_UTIL_F1</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T1_AQD_BP_UTIL_F1</DisplayName>
+      <DisplayName>{LOC:DisplayName_T1_AQD_BP_UTIL_F1}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_utility.dds</Icon>
       <Prerequisites>
         <Item Amount="20" TypeId="Component" SubtypeId="AQD_Comp_ResearchMaterial" />
@@ -751,7 +751,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T4_AQD_BP_UTIL_F2</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T4_AQD_BP_UTIL_F2</DisplayName>
+      <DisplayName>{LOC:DisplayName_T4_AQD_BP_UTIL_F2}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_utility.dds</Icon>
       <Prerequisites>
         <Item Amount="80" TypeId="Component" SubtypeId="AQD_Comp_EliteResearchMaterial" />
@@ -767,7 +767,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T2_AQD_BP_UTIL_G1</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T2_AQD_BP_UTIL_G1</DisplayName>
+      <DisplayName>{LOC:DisplayName_T2_AQD_BP_UTIL_G1}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_utility.dds</Icon>
       <Prerequisites>
         <Item Amount="40" TypeId="Component" SubtypeId="AQD_Comp_EnhancedResearchMaterial" />
@@ -782,7 +782,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T2_AQD_BP_UTIL_H1</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T2_AQD_BP_UTIL_H1</DisplayName>
+      <DisplayName>{LOC:DisplayName_T2_AQD_BP_UTIL_H1}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_utility.dds</Icon>
       <Prerequisites>
         <Item Amount="60" TypeId="Component" SubtypeId="AQD_Comp_EnhancedResearchMaterial" />
@@ -797,7 +797,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T1_AQD_BP_COM_A1</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T1_AQD_BP_COM_A1</DisplayName>
+      <DisplayName>{LOC:DisplayName_T1_AQD_BP_COM_A1}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_combat.dds</Icon>
       <Prerequisites>
         <Item Amount="20" TypeId="Component" SubtypeId="AQD_Comp_ResearchMaterial" />
@@ -812,7 +812,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T2_AQD_BP_COM_A2</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T2_AQD_BP_COM_A2</DisplayName>
+      <DisplayName>{LOC:DisplayName_T2_AQD_BP_COM_A2}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_combat.dds</Icon>
       <Prerequisites>
         <Item Amount="40" TypeId="Component" SubtypeId="AQD_Comp_EnhancedResearchMaterial" />
@@ -828,7 +828,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T2_AQD_BP_COM_A3</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T2_AQD_BP_COM_A3</DisplayName>
+      <DisplayName>{LOC:DisplayName_T2_AQD_BP_COM_A3}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_combat.dds</Icon>
       <Prerequisites>
         <Item Amount="80" TypeId="Component" SubtypeId="AQD_Comp_EnhancedResearchMaterial" />
@@ -844,7 +844,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T3_AQD_BP_COM_A4</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T3_AQD_BP_COM_A4</DisplayName>
+      <DisplayName>{LOC:DisplayName_T3_AQD_BP_COM_A4}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_combat.dds</Icon>
       <Prerequisites>
         <Item Amount="80" TypeId="Component" SubtypeId="AQD_Comp_AdvancedResearchMaterial" />
@@ -860,7 +860,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T2_AQD_BP_ARM_A1</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T2_AQD_BP_ARM_A1</DisplayName>
+      <DisplayName>{LOC:DisplayName_T2_AQD_BP_ARM_A1}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_armor.dds</Icon>
       <Prerequisites>
         <Item Amount="60" TypeId="Component" SubtypeId="AQD_Comp_EnhancedResearchMaterial" />
@@ -875,7 +875,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T3_AQD_BP_ARM_A2</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T3_AQD_BP_ARM_A2</DisplayName>
+      <DisplayName>{LOC:DisplayName_T3_AQD_BP_ARM_A2}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_armor.dds</Icon>
       <Prerequisites>
         <Item Amount="40" TypeId="Component" SubtypeId="AQD_Comp_AdvancedResearchMaterial" />
