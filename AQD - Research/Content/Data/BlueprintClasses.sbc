@@ -9,7 +9,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_ResearchLab_T1</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_BPC_ResearchLab_T1</DisplayName>
+      <DisplayName>{LOC:DisplayName_AQD_BPC_ResearchLab_T1}</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\research_blueprint_T1.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\research_blueprint_highlight_T1.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_research_blueprint.dds</InputConstraintIcon>
@@ -21,7 +21,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_ResearchLab_T2</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_BPC_ResearchLab_T2</DisplayName>
+      <DisplayName>{LOC:DisplayName_AQD_BPC_ResearchLab_T2}</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\research_blueprint_T2.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\research_blueprint_highlight_T2.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_research_blueprint.dds</InputConstraintIcon>
@@ -33,7 +33,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_ResearchLab_T3</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_BPC_ResearchLab_T3</DisplayName>
+      <DisplayName>{LOC:DisplayName_AQD_BPC_ResearchLab_T3}</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\research_blueprint_T3.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\research_blueprint_highlight_T3.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_research_blueprint.dds</InputConstraintIcon>
@@ -45,7 +45,7 @@
         <TypeId>BlueprintClassDefinition</TypeId>
         <SubtypeId>AQD_BPC_ResearchLab_T4</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_BPC_ResearchLab_T4</DisplayName>
+      <DisplayName>{LOC:DisplayName_AQD_BPC_ResearchLab_T4}</DisplayName>
       <Icon>Textures\GUI\Icons\buttons\research_blueprint_T4.dds</Icon>
       <HighlightIcon>Textures\GUI\Icons\buttons\research_blueprint_highlight_T4.dds</HighlightIcon>
       <InputConstraintIcon>Textures\GUI\Icons\filter_research_blueprint.dds</InputConstraintIcon>

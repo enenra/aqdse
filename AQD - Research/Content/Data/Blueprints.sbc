@@ -9,7 +9,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_ResearchMaterial</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_BP_ResearchMaterial</DisplayName>
+      <DisplayName>{LOC:DisplayName_AQD_BP_ResearchMaterial}</DisplayName>
       <Icon>Textures\GUI\Icons\component\AQD_ResearchMaterial.dds</Icon>
       <Prerequisites>
         <Item Amount="50" TypeId="Ingot" SubtypeId="Iron" />
@@ -27,7 +27,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_EnhancedResearchMaterial</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_BP_EnhancedResearchMaterial</DisplayName>
+      <DisplayName>{LOC:DisplayName_AQD_BP_EnhancedResearchMaterial}</DisplayName>
       <Icon>Textures\GUI\Icons\component\AQD_EnhancedResearchMaterial.dds</Icon>
       <Prerequisites>
         <Item Amount="50" TypeId="Ingot" SubtypeId="Silicon" />
@@ -45,7 +45,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_AdvancedResearchMaterial</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_BP_AdvancedResearchMaterial</DisplayName>
+      <DisplayName>{LOC:DisplayName_AQD_BP_AdvancedResearchMaterial}</DisplayName>
       <Icon>Textures\GUI\Icons\component\AQD_AdvancedResearchMaterial.dds</Icon>
       <Prerequisites>
         <Item Amount="50" TypeId="Ingot" SubtypeId="Magnesium" />
@@ -63,7 +63,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_EliteResearchMaterial</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_BP_EliteResearchMaterial</DisplayName>
+      <DisplayName>{LOC:DisplayName_AQD_BP_EliteResearchMaterial}</DisplayName>
       <Icon>Textures\GUI\Icons\component\AQD_EliteResearchMaterial.dds</Icon>
       <Prerequisites>
         <Item Amount="50" TypeId="Ingot" SubtypeId="Gold" />

@@ -9,7 +9,7 @@
         <TypeId>Component</TypeId>
         <SubtypeId>AQD_Comp_ResearchMaterial</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_Comp_ResearchMaterial</DisplayName>
+      <DisplayName>{LOC:DisplayName_AQD_Comp_ResearchMaterial}</DisplayName>
       <Icon>Textures\GUI\Icons\component\AQD_ResearchMaterial.dds</Icon>
       <Size>
         <X>0.2</X>
@@ -30,7 +30,7 @@
         <TypeId>Component</TypeId>
         <SubtypeId>AQD_Comp_EnhancedResearchMaterial</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_Comp_EnhancedResearchMaterial</DisplayName>
+      <DisplayName>{LOC:DisplayName_AQD_Comp_EnhancedResearchMaterial}</DisplayName>
       <Icon>Textures\GUI\Icons\component\AQD_EnhancedResearchMaterial.dds</Icon>
       <Size>
         <X>0.2</X>
@@ -51,7 +51,7 @@
         <TypeId>Component</TypeId>
         <SubtypeId>AQD_Comp_AdvancedResearchMaterial</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_Comp_AdvancedResearchMaterial</DisplayName>
+      <DisplayName>{LOC:DisplayName_AQD_Comp_AdvancedResearchMaterial}</DisplayName>
       <Icon>Textures\GUI\Icons\component\AQD_AdvancedResearchMaterial.dds</Icon>
       <Size>
         <X>0.2</X>
@@ -72,7 +72,7 @@
         <TypeId>Component</TypeId>
         <SubtypeId>AQD_Comp_EliteResearchMaterial</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_Comp_EliteResearchMaterial</DisplayName>
+      <DisplayName>{LOC:DisplayName_AQD_Comp_EliteResearchMaterial}</DisplayName>
       <Icon>Textures\GUI\Icons\component\AQD_EliteResearchMaterial.dds</Icon>
       <Size>
         <X>0.2</X>

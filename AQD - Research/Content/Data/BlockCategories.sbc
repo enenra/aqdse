@@ -7,7 +7,7 @@
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId/>
       </Id>
-      <DisplayName>DisplayName_Category_LargeBlocks</DisplayName>
+      <DisplayName>{LOC:DisplayName_Category_LargeBlocks}</DisplayName>
       <Name>LargeBlocks</Name>
       <ItemIds>
         <string>Assembler/AQD_LG_ResearchLab</string>
@@ -20,7 +20,7 @@
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId/>
       </Id>
-      <DisplayName>DisplayName_Category_Production</DisplayName>
+      <DisplayName>{LOC:DisplayName_Category_Production}</DisplayName>
       <Name>Production</Name>
       <ItemIds>
         <string>Assembler/AQD_LG_ResearchLab</string>
@@ -32,7 +32,7 @@
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId/>
       </Id>
-      <DisplayName>DisplayName_Category_ConveyorBlocks</DisplayName>
+      <DisplayName>{LOC:DisplayName_Category_ConveyorBlocks}</DisplayName>
       <Name>Conveyors</Name>
       <ItemIds>
         <string>CargoContainer/AQD_LG_DataStorage</string>
