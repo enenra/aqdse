@@ -8,7 +8,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>AQD_BP_StoneIngot_To_Concrete</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_Comp_Concrete</DisplayName>
+      <DisplayName>{LOC:DisplayName_AQD_Comp_Concrete}</DisplayName>
       <Icon>Textures\GUI\Icons\component\AQD_Comp_Concrete.dds</Icon>
       <Prerequisites>
         <Item Amount="20" TypeId="Ingot" SubtypeId="Stone" />

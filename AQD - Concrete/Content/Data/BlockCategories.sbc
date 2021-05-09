@@ -33,7 +33,7 @@
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId/>
       </Id>
-      <DisplayName>DisplayName_AQD_Cat_Concrete</DisplayName>
+      <DisplayName>{LOC:DisplayName_AQD_Cat_Concrete}</DisplayName>
       <Name>Concrete</Name>
       <ItemIds>
         <string>CubeBlock/AQD_LG_Concrete_Block</string>

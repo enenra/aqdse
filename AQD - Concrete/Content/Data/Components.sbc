@@ -8,7 +8,7 @@
         <TypeId>Component</TypeId>
         <SubtypeId>AQD_Comp_Concrete</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_Comp_Concrete</DisplayName>
+      <DisplayName>{LOC:DisplayName_AQD_Comp_Concrete}</DisplayName>
       <Icon>Textures\GUI\Icons\component\AQD_Comp_Concrete.dds</Icon>
       <Size>
         <X>0.072</X>
