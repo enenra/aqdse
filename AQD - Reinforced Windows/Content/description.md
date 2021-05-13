@@ -1,11 +1,11 @@
 [img]https://i.imgur.com/fVVaDCS.gif[/img]
 
-[h1]Current version: [b]1.2d[/b][/h1]
+[h1]Current version: [b]1.0[/b][/h1]
 [i]Please refer to the [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2298956701]changelog[/url] for patch notes.[/i]
 
 [img]https://i.imgur.com/cdhLXnQ.png[/img]
 [quote]
-This mod adds a selection of concrete and reinforced concrete blocks to the game. These use the Concrete Skin textures but are built with concrete, which is made from gravel. The blocks' textures are connected when placed next to each other, just like armor blocks. Furthermore, adding this mod to your savegame will disable the Concrete Skin as these blocks act as a replacement.
+This mod adds a set of reinforced windows in large and small grid (3x3) to the game. They are more durable than regular windows and are ideal for equipping on any cockpits or bridges.
 [/quote]
 
 [img]https://i.imgur.com/9ZYWMJY.jpg[/img]
@@ -16,29 +16,25 @@ This mod adds a selection of concrete and reinforced concrete blocks to the game
 
 [img]https://i.imgur.com/5nbiNLV.png[/img]
 
-[h1]12 New Concrete Blocks[/h1]
-Available only in large grid, concrete blocks are very cheap and durable but extremely heavy. All block shapes exist in two variations - Concrete and Reinforced Concrete:
+[h1]5 New Reinforced Window Blocks[/h1]
+Available in both large and small grid (but 3x3, not 1x1), reinforced windows are more durable than regular windows.
 [list]
-[*]Concrete Block
-[*]Concrete Slope
-[*]Concrete Corner
-[*]Concrete Inverted Corner
-[*]Concrete Half Block
-[*]Concrete Half Block Slope
+[*]Reinforced Window 1x1
+[*]Reinforced Window 1x1 Corner
+[*]Reinforced Window 1x1 Slope
+[*]Reinforced Window 1x2 Corner
+[*]Reinforced Window 1x2 Slope
 [/list]
-
-[h1]Integrated into the Game[/h1]
-These concrete blocks use Keen's armor system, meaning that their textures are connected across blocks placed next to each other. The concrete blocks also represent a much-needed sink for gravel, as the concrete component that the blocks are largely made of requires gravel to be produced. Furthermore, as these blocks would be rather pointless if the concrete skin could achieve the same look, this mod disables the Concrete Skin from being used.
 
 [url=https://discord.gg/QtyCsBr][img]https://i.imgur.com/l8exfyn.png[/img][/url]
 [url=https://github.com/enenra/aqdse][img]https://i.imgur.com/T7AtPhP.png[/img][/url]
 
 [img]https://i.imgur.com/7Yen2BR.png[/img]
 [list]
-[*]The amount of block shapes is highly unlikely to grow in the future. I might add one or two more blocks, but please do not send me requests for more additions.
+[*]I will likely not add any more window shapes to this mod. Please don't request them.
 [/list]
 
 [img]https://i.imgur.com/uUOBTpF.png[/img]
 [list]
-[*][b]Chipstix213[/b] - For kindly re-exporting the necessary models for me using 3DsMax, as Blender was refusing to cooperate.
+[*][b][/b] - 
 [/list]

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_LargeBlocks</DisplayName>
+      <Name>LargeBlocks</Name>
+      <StrictSearch>true</StrictSearch>
+      <ItemIds>
+        <string>CubeBlock/AQD_LG_ReinforcedWindow_1x1</string>
+        <string>CubeBlock/AQD_LG_ReinforcedWindow_1x1Corner</string>
+        <string>CubeBlock/AQD_LG_ReinforcedWindow_1x1Slope</string>
+        <string>CubeBlock/AQD_LG_ReinforcedWindow_1x2Corner</string>
+        <string>CubeBlock/AQD_LG_ReinforcedWindow_1x2Slope</string>
+      </ItemIds>
+    </Category>
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_SmallBlocks</DisplayName>
+      <Name>SmallBlocks</Name>
+      <StrictSearch>true</StrictSearch>
+      <ItemIds>
+        <string>CubeBlock/AQD_SG_ReinforcedWindow_1x1</string>
+        <string>CubeBlock/AQD_SG_ReinforcedWindow_1x1Corner</string>
+        <string>CubeBlock/AQD_SG_ReinforcedWindow_1x1Slope</string>
+        <string>CubeBlock/AQD_SG_ReinforcedWindow_1x2Corner</string>
+        <string>CubeBlock/AQD_SG_ReinforcedWindow_1x2Slope</string>
+      </ItemIds>
+    </Category>
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_WindowBlocks</DisplayName>
+      <Name>WindowBlocks</Name>
+      <IsShipCategory>true</IsShipCategory>
+      <ItemIds>
+        <string>CubeBlock/AQD_LG_ReinforcedWindow_1x1</string>
+        <string>CubeBlock/AQD_LG_ReinforcedWindow_1x1Corner</string>
+        <string>CubeBlock/AQD_LG_ReinforcedWindow_1x1Slope</string>
+        <string>CubeBlock/AQD_LG_ReinforcedWindow_1x2Corner</string>
+        <string>CubeBlock/AQD_LG_ReinforcedWindow_1x2Slope</string>
+        
+        <string>CubeBlock/AQD_SG_ReinforcedWindow_1x1</string>
+        <string>CubeBlock/AQD_SG_ReinforcedWindow_1x1Corner</string>
+        <string>CubeBlock/AQD_SG_ReinforcedWindow_1x1Slope</string>
+        <string>CubeBlock/AQD_SG_ReinforcedWindow_1x2Corner</string>
+        <string>CubeBlock/AQD_SG_ReinforcedWindow_1x2Slope</string>
+      </ItemIds>
+    </Category>
+
+  </CategoryClasses>
+</Definitions>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlockVariantGroups>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AQD_Group_ReinforcedWindows" />
+      <Icon>Textures\GUI\Icons\Cubes\AQD_ReinforcedWindow_1x1.png</Icon>
+      <DisplayName>{LOC:DisplayName_AQD_LG_ReinforcedWindow_1x1}</DisplayName>
+      <Description>{LOC:Description_AQD_ReinforcedWindows}</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedWindow_1x1" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedWindow_1x1Corner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedWindow_1x1Slope" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedWindow_1x2Corner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedWindow_1x2Slope" />
+        
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_ReinforcedWindow_1x1" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_ReinforcedWindow_1x1Corner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_ReinforcedWindow_1x1Slope" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_ReinforcedWindow_1x2Corner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_ReinforcedWindow_1x2Slope" />
+      </Blocks>
+    </BlockVariantGroup>
+
+  </BlockVariantGroups>
+</Definitions>

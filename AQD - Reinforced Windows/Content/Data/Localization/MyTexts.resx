@@ -123,13 +123,31 @@
   <data name="DisplayName_AQD_LG_ReinforcedWindow_1x1" xml:space="preserve">
     <value>Reinforced Window 1x1</value>
   </data>
+  <data name="DisplayName_AQD_LG_ReinforcedWindow_1x1Corner" xml:space="preserve">
+    <value>Reinforced Window 1x1 Corner</value>
+  </data>
   <data name="DisplayName_AQD_LG_ReinforcedWindow_1x1Slope" xml:space="preserve">
     <value>Reinforced Window 1x1 Slope</value>
+  </data>
+  <data name="DisplayName_AQD_LG_ReinforcedWindow_1x2Corner" xml:space="preserve">
+    <value>Reinforced Window 1x2 Corner</value>
+  </data>
+  <data name="DisplayName_AQD_LG_ReinforcedWindow_1x2Slope" xml:space="preserve">
+    <value>Reinforced Window 1x2 Slope</value>
   </data>
   <data name="DisplayName_AQD_SG_ReinforcedWindow_1x1" xml:space="preserve">
     <value>Small Reinforced Window 1x1</value>
   </data>
+  <data name="DisplayName_AQD_SG_ReinforcedWindow_1x1Corner" xml:space="preserve">
+    <value>Small Reinforced Window 1x1 Corner</value>
+  </data>
   <data name="DisplayName_AQD_SG_ReinforcedWindow_1x1Slope" xml:space="preserve">
     <value>Small Reinforced Window 1x1 Slope</value>
+  </data>
+  <data name="DisplayName_AQD_SG_ReinforcedWindow_1x2Corner" xml:space="preserve">
+    <value>Small Reinforced Window 1x2 Corner</value>
+  </data>
+  <data name="DisplayName_AQD_SG_ReinforcedWindow_1x2Slope" xml:space="preserve">
+    <value>Small Reinforced Window 1x2 Slope</value>
   </data>
 </root>
