@@ -14,8 +14,10 @@
       <ItemIds>
         <string>CubeBlock/AQD_LG_ReinforcedWindow_1x1</string>
         <string>CubeBlock/AQD_LG_ReinforcedWindow_1x1Corner</string>
+        <string>CubeBlock/AQD_LG_ReinforcedWindow_1x1CornerInv</string>
         <string>CubeBlock/AQD_LG_ReinforcedWindow_1x1Slope</string>
         <string>CubeBlock/AQD_LG_ReinforcedWindow_1x2Corner</string>
+        <string>CubeBlock/AQD_LG_ReinforcedWindow_1x2CornerInv</string>
         <string>CubeBlock/AQD_LG_ReinforcedWindow_1x2Slope</string>
       </ItemIds>
     </Category>
@@ -31,8 +33,10 @@
       <ItemIds>
         <string>CubeBlock/AQD_SG_ReinforcedWindow_1x1</string>
         <string>CubeBlock/AQD_SG_ReinforcedWindow_1x1Corner</string>
+        <string>CubeBlock/AQD_SG_ReinforcedWindow_1x1CornerInv</string>
         <string>CubeBlock/AQD_SG_ReinforcedWindow_1x1Slope</string>
         <string>CubeBlock/AQD_SG_ReinforcedWindow_1x2Corner</string>
+        <string>CubeBlock/AQD_SG_ReinforcedWindow_1x2CornerInv</string>
         <string>CubeBlock/AQD_SG_ReinforcedWindow_1x2Slope</string>
       </ItemIds>
     </Category>
@@ -48,14 +52,18 @@
       <ItemIds>
         <string>CubeBlock/AQD_LG_ReinforcedWindow_1x1</string>
         <string>CubeBlock/AQD_LG_ReinforcedWindow_1x1Corner</string>
+        <string>CubeBlock/AQD_LG_ReinforcedWindow_1x1CornerInv</string>
         <string>CubeBlock/AQD_LG_ReinforcedWindow_1x1Slope</string>
         <string>CubeBlock/AQD_LG_ReinforcedWindow_1x2Corner</string>
+        <string>CubeBlock/AQD_LG_ReinforcedWindow_1x2CornerInv</string>
         <string>CubeBlock/AQD_LG_ReinforcedWindow_1x2Slope</string>
         
         <string>CubeBlock/AQD_SG_ReinforcedWindow_1x1</string>
         <string>CubeBlock/AQD_SG_ReinforcedWindow_1x1Corner</string>
+        <string>CubeBlock/AQD_SG_ReinforcedWindow_1x1CornerInv</string>
         <string>CubeBlock/AQD_SG_ReinforcedWindow_1x1Slope</string>
         <string>CubeBlock/AQD_SG_ReinforcedWindow_1x2Corner</string>
+        <string>CubeBlock/AQD_SG_ReinforcedWindow_1x2CornerInv</string>
         <string>CubeBlock/AQD_SG_ReinforcedWindow_1x2Slope</string>
       </ItemIds>
     </Category>

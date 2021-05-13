@@ -11,14 +11,18 @@
       <Blocks>
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedWindow_1x1" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedWindow_1x1Corner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedWindow_1x1CornerInv" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedWindow_1x1Slope" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedWindow_1x2Corner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedWindow_1x2CornerInv" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedWindow_1x2Slope" />
         
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_ReinforcedWindow_1x1" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_ReinforcedWindow_1x1Corner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_ReinforcedWindow_1x1CornerInv" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_ReinforcedWindow_1x1Slope" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_ReinforcedWindow_1x2Corner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_ReinforcedWindow_1x2CornerInv" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_ReinforcedWindow_1x2Slope" />
       </Blocks>
     </BlockVariantGroup>
