@@ -567,7 +567,7 @@
               <ShowInInventory>true</ShowInInventory>
               <Enabled>true</Enabled>
               <AutoDeploy>true</AutoDeploy>
-              <DeployHeight>500</DeployHeight>
+              <DeployHeight>700</DeployHeight>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>SmallBlockArmorSlope2Base</SubtypeName>
