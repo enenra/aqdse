@@ -22,18 +22,18 @@
       </Components>
       <CriticalComponent Subtype="Construction" Index="0" />
 			<MountPoints>
-				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.05" i_Enabled="true"/>
-				<MountPoint Side="Front" StartX="0.90" StartY="0.05" EndX="1.00" EndY="0.85" i_Enabled="true"/>
-				<MountPoint Side="Front" StartX="0.00" StartY="0.85" EndX="1.00" EndY="1.00" i_Enabled="true"/>
-				<MountPoint Side="Front" StartX="0.00" StartY="0.05" EndX="0.10" EndY="0.85" i_Enabled="true"/>
-				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.05" i_Enabled="true"/>
-				<MountPoint Side="Back" StartX="0.00" StartY="0.05" EndX="0.10" EndY="0.85" i_Enabled="true"/>
-				<MountPoint Side="Back" StartX="0.90" StartY="0.05" EndX="1.00" EndY="0.85" i_Enabled="true"/>
-				<MountPoint Side="Back" StartX="0.00" StartY="0.85" EndX="1.00" EndY="1.00" i_Enabled="true"/>
-				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" i_Enabled="true"/>
-				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" i_Enabled="true"/>
-				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" i_Enabled="true"/>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" i_Enabled="true"/>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.05"/>
+				<MountPoint Side="Front" StartX="0.90" StartY="0.05" EndX="1.00" EndY="0.85"/>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.85" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.05" EndX="0.10" EndY="0.85"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.05"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.05" EndX="0.10" EndY="0.85"/>
+				<MountPoint Side="Back" StartX="0.90" StartY="0.05" EndX="1.00" EndY="0.85"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.85" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
 			</MountPoints>
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\AQD_LG_SleekCorridor_Straight_BS1.mwm"/>
@@ -67,18 +67,18 @@
       </Components>
       <CriticalComponent Subtype="Construction" Index="0" />
 			<MountPoints>
-				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.05" i_Enabled="true"/>
-				<MountPoint Side="Front" StartX="0.90" StartY="0.05" EndX="1.00" EndY="0.85" i_Enabled="true"/>
-				<MountPoint Side="Front" StartX="0.00" StartY="0.85" EndX="1.00" EndY="1.00" i_Enabled="true"/>
-				<MountPoint Side="Front" StartX="0.00" StartY="0.05" EndX="0.10" EndY="0.85" i_Enabled="true"/>
-				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.05" i_Enabled="true"/>
-				<MountPoint Side="Back" StartX="0.00" StartY="0.05" EndX="0.10" EndY="0.85" i_Enabled="true"/>
-				<MountPoint Side="Back" StartX="0.90" StartY="0.05" EndX="1.00" EndY="0.85" i_Enabled="true"/>
-				<MountPoint Side="Back" StartX="0.00" StartY="0.85" EndX="1.00" EndY="1.00" i_Enabled="true"/>
-				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" i_Enabled="true"/>
-				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" i_Enabled="true"/>
-				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" i_Enabled="true"/>
-				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" i_Enabled="true"/>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.05"/>
+				<MountPoint Side="Front" StartX="0.90" StartY="0.05" EndX="1.00" EndY="0.85"/>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.85" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.05" EndX="0.10" EndY="0.85"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.05"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.05" EndX="0.10" EndY="0.85"/>
+				<MountPoint Side="Back" StartX="0.90" StartY="0.05" EndX="1.00" EndY="0.85"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.85" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
 			</MountPoints>
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\AQD_LG_SleekCorridor_StraightLight_BS1.mwm"/>

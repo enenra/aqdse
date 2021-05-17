@@ -125,4 +125,12 @@
     <value>Sleek Corridor Straight</value>
     <comment/>
   </data>
+  <data name="DisplayName_AQD_LG_SleekCorridor_StraightLight" xml:space="preserve">
+    <value>Sleek Corridor Straight (Light)</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AQD_LG_SleekCorridor_X" xml:space="preserve">
+    <value>Sleek Corridor X</value>
+    <comment/>
+  </data>
 </root>
