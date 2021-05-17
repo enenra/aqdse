@@ -1,6 +1,7 @@
 <?xml version="1.0" ?>
 <Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<CubeBlocks>
+
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
@@ -41,6 +42,63 @@
 			</BuildProgressModels>
 			<BlockPairName>AQD_SleekCorridor_Straight</BlockPairName>
 			<MirroringY>Z</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>16</BuildTimeSeconds>
+      <PCU>1</PCU>
 		</Definition>
+
+		<Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+			<Id>
+				<TypeId>InteriorLight</TypeId>
+				<SubtypeId>AQD_LG_SleekCorridor_StraightLight</SubtypeId>
+			</Id>
+			<DisplayName>{LOC:DisplayName_AQD_LG_SleekCorridor_StraightLight}</DisplayName>
+			<Description>{LOC:Description_AQD_SleekCorridors}</Description>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_SleekCorridor_StraightLight.png</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\large\AQD_LG_SleekCorridor_StraightLight.mwm</Model>
+      <Components>
+          <Component Subtype="InteriorPlate" Count="74" />
+          <Component Subtype="Construction" Count="20" />
+          <Component Subtype="SmallTube" Count="48" />
+      </Components>
+      <CriticalComponent Subtype="Construction" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.05" i_Enabled="true"/>
+				<MountPoint Side="Front" StartX="0.90" StartY="0.05" EndX="1.00" EndY="0.85" i_Enabled="true"/>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.85" EndX="1.00" EndY="1.00" i_Enabled="true"/>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.05" EndX="0.10" EndY="0.85" i_Enabled="true"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.05" i_Enabled="true"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.05" EndX="0.10" EndY="0.85" i_Enabled="true"/>
+				<MountPoint Side="Back" StartX="0.90" StartY="0.05" EndX="1.00" EndY="0.85" i_Enabled="true"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.85" EndX="1.00" EndY="1.00" i_Enabled="true"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" i_Enabled="true"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" i_Enabled="true"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" i_Enabled="true"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" i_Enabled="true"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\AQD_LG_SleekCorridor_StraightLight_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\large\AQD_LG_SleekCorridor_StraightLight_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\AQD_LG_SleekCorridor_StraightLight_BS3.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>AQD_SleekCorridor_StraightLight</BlockPairName>
+			<MirroringY>Z</MirroringY>
+      <EdgeType>Light</EdgeType>
+      <LightRadius Min="1" Max="10" Default="3.6" />
+      <LightFalloff Min="0" Max="3" Default="1.3" />
+      <LightIntensity Min="0.5" Max="10" Default="5" />
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.00006</RequiredPowerInput>
+      <Flare></Flare>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <BuildTimeSeconds>16</BuildTimeSeconds>
+      <PCU>25</PCU>
+		</Definition>
+
 	</CubeBlocks>
 </Definitions>
