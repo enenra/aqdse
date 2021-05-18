@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Description_AQD_SleekCorridors" xml:space="preserve">
-    <value>Subnautica-style corridor.</value>
+    <value>Sleek Corridors provide your construct with that extra pizzazz you've been looking for. Design licensed from the Alterra Corporation.</value>
     <comment/>
   </data>
   <data name="DisplayName_AQD_LG_SleekCorridor_Straight" xml:space="preserve">
@@ -135,6 +135,10 @@
   </data>
   <data name="DisplayName_AQD_LG_SleekCorridor_T" xml:space="preserve">
     <value>Sleek Corridor T</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AQD_LG_SleekCorridor_Corner" xml:space="preserve">
+    <value>Sleek Corridor Corner</value>
     <comment/>
   </data>
 </root>
