@@ -133,4 +133,8 @@
     <value>Sleek Corridor X</value>
     <comment/>
   </data>
+  <data name="DisplayName_AQD_LG_SleekCorridor_T" xml:space="preserve">
+    <value>Sleek Corridor T</value>
+    <comment/>
+  </data>
 </root>
