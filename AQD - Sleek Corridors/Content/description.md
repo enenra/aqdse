@@ -1,7 +1,7 @@
 [img]https://i.imgur.com/fVVaDCS.gif[/img]
 
 [h1]Current version: [b]1.0[/b][/h1]
-[i]Please refer to the [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/]changelog[/url] for patch notes.[/i]
+[i]Please refer to the [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2492809392]changelog[/url] for patch notes.[/i]
 
 [img]https://i.imgur.com/cdhLXnQ.png[/img]
 [quote]
@@ -35,5 +35,6 @@ These blocks are large grid only (no plans to change this) and while they can be
 
 [img]https://i.imgur.com/uUOBTpF.png[/img]
 [list]
+[*][b]AryxErin[/b] - For the awesome screenshots on this mod page. (I made the crappy ones)
 [*][b]Unknown Worlds Entertainment[/b] - The makers of Subnautica and its recent standalone expansion Subnautica: Below Zero.
 [/list]
