@@ -1,2 +1,0 @@
-rmdir "%CD%\Textures"
-pause
