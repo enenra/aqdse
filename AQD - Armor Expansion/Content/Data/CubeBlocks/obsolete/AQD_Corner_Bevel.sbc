@@ -7,9 +7,9 @@
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>AQD_LG_LA_Corner_Bevel</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_LG_LA_Corner_Bevel</DisplayName>
+      <DisplayName>{LOC:DisplayName_AQD_LG_LA_Corner_Bevel}</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_LA_Corner_Bevel.dds</Icon>
-      <Description>Description_LightArmor</Description>
+      <Description>{LOC:Description_LightArmor}</Description>
       <CubeSize>Large</CubeSize>
       <Public>false</Public>
       <GUIVisible>false</GUIVisible>
@@ -48,9 +48,9 @@
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>AQD_SG_LA_Corner_Bevel</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_LG_LA_Corner_Bevel</DisplayName>
+      <DisplayName>{LOC:DisplayName_AQD_LG_LA_Corner_Bevel}</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_LA_Corner_Bevel.dds</Icon>
-      <Description>Description_LightArmor</Description>
+      <Description>{LOC:Description_LightArmor}</Description>
       <CubeSize>Small</CubeSize>
       <Public>false</Public>
       <GUIVisible>false</GUIVisible>
@@ -88,9 +88,9 @@
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>AQD_LG_HA_Corner_Bevel</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_LG_HA_Corner_Bevel</DisplayName>
+      <DisplayName>{LOC:DisplayName_AQD_LG_HA_Corner_Bevel}</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_HA_Corner_Bevel.dds</Icon>
-      <Description>Description_HeavyArmor</Description>
+      <Description>{LOC:Description_HeavyArmor}</Description>
       <CubeSize>Large</CubeSize>
       <Public>false</Public>
       <GUIVisible>false</GUIVisible>
@@ -130,9 +130,9 @@
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>AQD_SG_HA_Corner_Bevel</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_LG_HA_Corner_Bevel</DisplayName>
+      <DisplayName>{LOC:DisplayName_AQD_LG_HA_Corner_Bevel}</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_HA_Corner_Bevel.dds</Icon>
-      <Description>Description_HeavyArmor</Description>
+      <Description>{LOC:Description_HeavyArmor}</Description>
       <CubeSize>Small</CubeSize>
       <Public>false</Public>
       <GUIVisible>false</GUIVisible>

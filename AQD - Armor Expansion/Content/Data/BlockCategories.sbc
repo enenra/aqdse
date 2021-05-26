@@ -31,6 +31,7 @@
         <string>CubeBlock/AQD_LG_HA_Slope4x1_Corner</string>
         <string>CubeBlock/AQD_LG_HA_Slope4x1_InvCorner</string>
         <string>CubeBlock/AQD_LG_HA_Slab_RaisedCorner_Split</string>
+        <string>CubeBlock/AQD_LG_HA_Slab_RaisedCorner_Inset</string>
 
         <string>CubeBlock/AQD_LG_LA_Corner_Split_2x1x1_Base</string>
         <string>CubeBlock/AQD_LG_LA_Corner_Split_2x1x1_Tip</string>
@@ -53,6 +54,7 @@
         <string>CubeBlock/AQD_LG_LA_Slope4x1_Corner</string>
         <string>CubeBlock/AQD_LG_LA_Slope4x1_InvCorner</string>
         <string>CubeBlock/AQD_LG_LA_Slab_RaisedCorner_Split</string>
+        <string>CubeBlock/AQD_LG_LA_Slab_RaisedCorner_Inset</string>
       </ItemIds>
     </Category>
 
@@ -85,6 +87,7 @@
         <string>CubeBlock/AQD_SG_HA_Slope4x1_Corner</string>
         <string>CubeBlock/AQD_SG_HA_Slope4x1_InvCorner</string>
         <string>CubeBlock/AQD_SG_HA_Slab_RaisedCorner_Split</string>
+        <string>CubeBlock/AQD_SG_HA_Slab_RaisedCorner_Inset</string>
         
         <string>CubeBlock/AQD_SG_LA_Corner_Split_2x1x1_Base</string>
         <string>CubeBlock/AQD_SG_LA_Corner_Split_2x1x1_Tip</string>
@@ -107,6 +110,7 @@
         <string>CubeBlock/AQD_SG_LA_Slope4x1_Corner</string>
         <string>CubeBlock/AQD_SG_LA_Slope4x1_InvCorner</string>
         <string>CubeBlock/AQD_SG_LA_Slab_RaisedCorner_Split</string>
+        <string>CubeBlock/AQD_SG_LA_Slab_RaisedCorner_Inset</string>
       </ItemIds>
     </Category>
 
@@ -139,6 +143,7 @@
         <string>CubeBlock/AQD_LG_HA_Slope4x1_Corner</string>
         <string>CubeBlock/AQD_LG_HA_Slope4x1_InvCorner</string>
         <string>CubeBlock/AQD_LG_HA_Slab_RaisedCorner_Split</string>
+        <string>CubeBlock/AQD_LG_HA_Slab_RaisedCorner_Inset</string>
         
         <string>CubeBlock/AQD_LG_LA_Corner_Split_2x1x1_Base</string>
         <string>CubeBlock/AQD_LG_LA_Corner_Split_2x1x1_Tip</string>
@@ -161,6 +166,7 @@
         <string>CubeBlock/AQD_LG_LA_Slope4x1_Corner</string>
         <string>CubeBlock/AQD_LG_LA_Slope4x1_InvCorner</string>
         <string>CubeBlock/AQD_LG_LA_Slab_RaisedCorner_Split</string>
+        <string>CubeBlock/AQD_LG_LA_Slab_RaisedCorner_Inset</string>
       </ItemIds>
     </Category>
 

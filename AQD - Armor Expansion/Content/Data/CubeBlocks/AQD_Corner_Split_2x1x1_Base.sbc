@@ -7,9 +7,9 @@
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>AQD_LG_LA_Corner_Split_2x1x1_Base</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_LG_LA_Corner_Split_2x1x1_Base</DisplayName>
+      <DisplayName>{LOC:DisplayName_AQD_LG_LA_Corner_Split_2x1x1_Base}</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_LA_Corner_Split_2x1x1_Base.dds</Icon>
-      <Description>Description_LightArmor</Description>
+      <Description>{LOC:Description_LightArmor}</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -45,9 +45,9 @@
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>AQD_SG_LA_Corner_Split_2x1x1_Base</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_LG_LA_Corner_Split_2x1x1_Base</DisplayName>
+      <DisplayName>{LOC:DisplayName_AQD_LG_LA_Corner_Split_2x1x1_Base}</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_LA_Corner_Split_2x1x1_Base.dds</Icon>
-      <Description>Description_LightArmor</Description>
+      <Description>{LOC:Description_LightArmor}</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -82,9 +82,9 @@
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>AQD_LG_HA_Corner_Split_2x1x1_Base</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_LG_HA_Corner_Split_2x1x1_Base</DisplayName>
+      <DisplayName>{LOC:DisplayName_AQD_LG_HA_Corner_Split_2x1x1_Base}</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_HA_Corner_Split_2x1x1_Base.dds</Icon>
-      <Description>Description_HeavyArmor</Description>
+      <Description>{LOC:Description_HeavyArmor}</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
@@ -121,9 +121,9 @@
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>AQD_SG_HA_Corner_Split_2x1x1_Base</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_LG_HA_Corner_Split_2x1x1_Base</DisplayName>
+      <DisplayName>{LOC:DisplayName_AQD_LG_HA_Corner_Split_2x1x1_Base}</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_HA_Corner_Split_2x1x1_Base.dds</Icon>
-      <Description>Description_HeavyArmor</Description>
+      <Description>{LOC:Description_HeavyArmor}</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />

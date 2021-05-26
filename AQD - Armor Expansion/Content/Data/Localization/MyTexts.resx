@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!-- 
-    Microsoft ResX Schema 
-    
+  <!--
+    Microsoft ResX Schema
+
     Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
     associated with the data types.
-    
+
     Example:
-    
+
     ... ado.net/XML headers & schema ...
     <resheader name="resmimetype">text/microsoft-resx</resheader>
     <resheader name="version">2.0</resheader>
@@ -26,79 +26,79 @@
         <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
         <comment>This is a comment</comment>
     </data>
-                
-    There are any number of "resheader" rows that contain simple 
+
+    There are any number of "resheader" rows that contain simple
     name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
     mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
     extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
     read any of the formats listed below.
-    
+
     mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
+    value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
-    
+
     mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
+    value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
             : and then encoded with base64 encoding.
 
     mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
+    value   : The object must be serialized into a byte array
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
           <xsd:element name="metadata">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
               </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
             <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string" />
-              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="data">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-              <xsd:attribute ref="xml:space" />
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
             <xsd:complexType>
               <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
             </xsd:complexType>
           </xsd:element>
         </xsd:choice>
@@ -119,266 +119,362 @@
   </resheader>
   <data name="DisplayName_AQD_LG_HA_Corner_Bevel" xml:space="preserve">
     <value>Heavy Armor Bevelled Corner</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_HA_Corner_Split" xml:space="preserve">
     <value>Heavy Armor Corner Split</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_HA_Corner_Split_2x1x1_Base" xml:space="preserve">
     <value>Heavy Armor Corner Split 2x1x1 Base</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_HA_Corner_Split_2x1x1_Tip" xml:space="preserve">
     <value>Heavy Armor Corner Split 2x1x1 Tip</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_HA_HalfPlate" xml:space="preserve">
     <value>Heavy Armor Half Plate</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_HA_Half_Corner_Inv_Base" xml:space="preserve">
     <value>Heavy Armor Half Inverted Corner Base</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_HA_Half_Corner_Inv_BaseMirror" xml:space="preserve">
     <value>Heavy Armor Half Inverted Corner Base Mirrored</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_HA_Half_Corner_Inv_Tip" xml:space="preserve">
     <value>Heavy Armor Half Inverted Corner Tip</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_HA_Inv_Corner_Split" xml:space="preserve">
     <value>Heavy Armor Inverted Corner Split</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_HA_Plate_1x1" xml:space="preserve">
     <value>Heavy Armor Plate 1x1</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_HA_Plate_2x1Base" xml:space="preserve">
     <value>Heavy Armor Plate 2x1 Base</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_HA_Plate_2x1BaseMirror" xml:space="preserve">
     <value>Heavy Armor Plate 2x1 Base Mirrored</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_HA_Plate_2x1Tip" xml:space="preserve">
     <value>Heavy Armor Plate 2x1 Tip</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_HA_Plate_2x1TipMirror" xml:space="preserve">
     <value>Heavy Armor Plate 2x1 Tip Mirrored</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_HA_Plate_Slope" xml:space="preserve">
     <value>Heavy Armor Plate Slope</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_HA_Plate_Slope2x1" xml:space="preserve">
     <value>Heavy Armor Plate Slope 2x1</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_HA_Plate_Triangle" xml:space="preserve">
     <value>Heavy Armor Plate Triangle</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_HA_SlabSlope" xml:space="preserve">
     <value>Heavy Armor Slab Slope</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_HA_Slab_Corner" xml:space="preserve">
     <value>Heavy Armor Slab Corner</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_HA_Slab_Corner_Split" xml:space="preserve">
     <value>Heavy Armor Slab Corner Split</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_HA_Slab_Half_Corner" xml:space="preserve">
     <value>Heavy Armor Slab Half Corner</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_HA_Slab_Half_Corner_Split" xml:space="preserve">
     <value>Heavy Armor Slab Half Corner Split</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_HA_Slab_InvCorner" xml:space="preserve">
     <value>Heavy Armor Slab Inverted Corner</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_HA_Slab_InvCorner_Split" xml:space="preserve">
     <value>Heavy Armor Slab Inverted Corner Split</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_HA_Slab_RaisedCorner" xml:space="preserve">
     <value>Heavy Armor Slab Raised Corner</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_HA_Slab_RaisedCorner_Split" xml:space="preserve">
     <value>Heavy Armor Slab Raised Corner Split</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_HA_Slope3x1" xml:space="preserve">
     <value>Heavy Armor Slope 3x1</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_HA_Slope3x1_Corner" xml:space="preserve">
     <value>Heavy Armor Slope 3x1 Corner</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_HA_Slope3x1_InvCorner" xml:space="preserve">
     <value>Heavy Armor Slope 3x1 Inverted Corner</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_HA_Slope4x1" xml:space="preserve">
     <value>Heavy Armor Slope 4x1</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_HA_Slope4x1_Corner" xml:space="preserve">
     <value>Heavy Armor Slope 4x1 Corner</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_HA_Slope4x1_InvCorner" xml:space="preserve">
     <value>Heavy Armor Slope 4x1 Inverted Corner</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_LA_Corner_Bevel" xml:space="preserve">
     <value>Light Armor Bevelled Corner</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_LA_Corner_Split" xml:space="preserve">
     <value>Light Armor Corner Split</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_LA_Corner_Split_2x1x1_Base" xml:space="preserve">
     <value>Light Armor Corner Split 2x1x1 Base</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_LA_Corner_Split_2x1x1_Tip" xml:space="preserve">
     <value>Light Armor Corner Split 2x1x1 Tip</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_LA_HalfPlate" xml:space="preserve">
     <value>Light Armor Half Plate</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_LA_Half_Corner_Inv_Base" xml:space="preserve">
     <value>Light Armor Half Inverted Corner Base</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_LA_Half_Corner_Inv_BaseMirror" xml:space="preserve">
     <value>Light Armor Half Inverted Corner Base Mirrored</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_LA_Half_Corner_Inv_Tip" xml:space="preserve">
     <value>Light Armor Half Inverted Corner Tip</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_LA_Inv_Corner_Split" xml:space="preserve">
     <value>Light Armor Inverted Corner Split</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_LA_Plate_1x1" xml:space="preserve">
     <value>Light Armor Plate 1x1</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_LA_Plate_2x1Base" xml:space="preserve">
     <value>Light Armor Plate 2x1 Base</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_LA_Plate_2x1BaseMirror" xml:space="preserve">
     <value>Light Armor Plate 2x1 Base Mirrored</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_LA_Plate_2x1Tip" xml:space="preserve">
     <value>Light Armor Plate 2x1 Tip</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_LA_Plate_2x1TipMirror" xml:space="preserve">
     <value>Light Armor Plate 2x1 Tip Mirrored</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_LA_Plate_Slope" xml:space="preserve">
     <value>Light Armor Plate Slope</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_LA_Plate_Slope2x1" xml:space="preserve">
     <value>Light Armor Plate Slope 2x1</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_LA_Plate_Triangle" xml:space="preserve">
     <value>Light Armor Plate Triangle</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_LA_SlabSlope" xml:space="preserve">
     <value>Light Armor Slab Slope</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_LA_Slab_Corner" xml:space="preserve">
     <value>Light Armor Slab Corner</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_LA_Slab_Corner_Split" xml:space="preserve">
     <value>Light Armor Slab Corner Split</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_LA_Slab_Half_Corner" xml:space="preserve">
     <value>Light Armor Slab Half Corner</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_LA_Slab_Half_Corner_Split" xml:space="preserve">
     <value>Light Armor Slab Half Corner Split</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_LA_Slab_InvCorner" xml:space="preserve">
     <value>Light Armor Slab Inverted Corner</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_LA_Slab_InvCorner_Split" xml:space="preserve">
     <value>Light Armor Slab Inverted Corner Split</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_LA_Slab_RaisedCorner" xml:space="preserve">
     <value>Light Armor Slab Raised Corner</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_LA_Slab_RaisedCorner_Split" xml:space="preserve">
     <value>Light Armor Slab Raised Corner Split</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_LA_Slope3x1" xml:space="preserve">
     <value>Light Armor Slope 3x1</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_LA_Slope3x1_Corner" xml:space="preserve">
     <value>Light Armor Slope 3x1 Corner</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_LA_Slope3x1_InvCorner" xml:space="preserve">
     <value>Light Armor Slope 3x1 Inverted Corner</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_LA_Slope4x1" xml:space="preserve">
     <value>Light Armor Slope 4x1</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_LA_Slope4x1_Corner" xml:space="preserve">
     <value>Light Armor Slope 4x1 Corner</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_LG_LA_Slope4x1_InvCorner" xml:space="preserve">
     <value>Light Armor Slope 4x1 Inverted Corner</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_SG_HA_HalfPlate" xml:space="preserve">
     <value>Heavy Armor Half Plate</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_SG_HA_Slab_Half_Corner" xml:space="preserve">
     <value>Heavy Armor Slab Half Corner</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_SG_HA_Slab_Half_Corner_Split" xml:space="preserve">
     <value>Heavy Armor Slab Half Corner Split</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_SG_HA_Slab_RaisedCorner" xml:space="preserve">
     <value>Heavy Armor Slab Raised Corner</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_SG_HA_Slab_RaisedCorner_Split" xml:space="preserve">
     <value>Heavy Armor Slab Raised Corner Split</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_SG_HA_Slope3x1" xml:space="preserve">
     <value>Heavy Armor Slope 3x1</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_SG_HA_Slope3x1_Corner" xml:space="preserve">
     <value>Heavy Armor Slope 3x1 Corner</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_SG_HA_Slope3x1_InvCorner" xml:space="preserve">
     <value>Heavy Armor Slope 3x1 Inverted Corner</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_SG_HA_Slope4x1" xml:space="preserve">
     <value>Heavy Armor Slope 4x1</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_SG_HA_Slope4x1_Corner" xml:space="preserve">
     <value>Heavy Armor Slope 4x1 Corner</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_SG_HA_Slope4x1_InvCorner" xml:space="preserve">
     <value>Heavy Armor Slope 4x1 Inverted Corner</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_SG_LA_HalfPlate" xml:space="preserve">
     <value>Light Armor Half Plate</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_SG_LA_Slab_Half_Corner" xml:space="preserve">
     <value>Light Armor Slab Half Corner</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_SG_LA_Slab_Half_Corner_Split" xml:space="preserve">
     <value>Light Armor Slab Half Corner Split</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_SG_LA_Slab_RaisedCorner" xml:space="preserve">
     <value>Light Armor Slab Raised Corner</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_SG_LA_Slab_RaisedCorner_Split" xml:space="preserve">
     <value>Light Armor Slab Raised Corner Split</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_SG_LA_Slope3x1" xml:space="preserve">
     <value>Light Armor Slope 3x1</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_SG_LA_Slope3x1_Corner" xml:space="preserve">
     <value>Light Armor Slope 3x1 Corner</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_SG_LA_Slope3x1_InvCorner" xml:space="preserve">
     <value>Light Armor Slope 3x1 Inverted Corner</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_SG_LA_Slope4x1" xml:space="preserve">
     <value>Light Armor Slope 4x1</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_SG_LA_Slope4x1_Corner" xml:space="preserve">
     <value>Light Armor Slope 4x1 Corner</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_SG_LA_Slope4x1_InvCorner" xml:space="preserve">
     <value>Light Armor Slope 4x1 Inverted Corner</value>
+    <comment/>
   </data>
   <data name="DisplayName_AQD_Tech_ARM_A1" xml:space="preserve">
     <value>Reinforced Armor Schematic</value>
+    <comment/>
   </data>
   <data name="DisplayName_T2_AQD_BP_ARM_A1" xml:space="preserve">
     <value>Research Reinforced Armor</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AQD_LG_HA_Slab_RaisedCorner_Inset" xml:space="preserve">
+    <value>Heavy Armor Slab Raised Corner Inset</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AQD_LG_LA_Slab_RaisedCorner_Inset" xml:space="preserve">
+    <value>Light Armor Slab Raised Corner Inset</value>
+    <comment/>
   </data>
 </root>

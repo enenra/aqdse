@@ -7,7 +7,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T2_AQD_BP_ARM_A1</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T2_AQD_BP_ARM_A1</DisplayName>
+      <DisplayName>{LOC:DisplayName_T2_AQD_BP_ARM_A1}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_armor.dds</Icon>
       <Prerequisites>
         <Item Amount="60" TypeId="Component" SubtypeId="AQD_Comp_EnhancedResearchMaterial" />
