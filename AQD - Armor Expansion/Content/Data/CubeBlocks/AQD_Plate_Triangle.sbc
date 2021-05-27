@@ -19,11 +19,11 @@
         <Component Subtype="SteelPlate" Count="8" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
-      </MountPoints>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.05"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.05"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" Default="true"/>
+			</MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\armor\AQD_LG_LA_Plate_Triangle_BS1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\armor\AQD_LG_LA_Plate_Triangle_BS2.mwm" />
@@ -55,11 +55,11 @@
         <Component Subtype="SteelPlate" Count="1" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
-      </MountPoints>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.05"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.05"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" Default="true"/>
+			</MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\armor\AQD_SG_LA_Plate_Triangle_BS1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\armor\AQD_SG_LA_Plate_Triangle_BS2.mwm" />
@@ -93,11 +93,11 @@
         <Component Subtype="SteelPlate" Count="5" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
-      </MountPoints>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.05"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.05"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" Default="true"/>
+			</MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\armor\AQD_LG_LA_Plate_Triangle_BS1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\armor\AQD_LG_LA_Plate_Triangle_BS2.mwm" />
@@ -131,11 +131,11 @@
         <Component Subtype="SteelPlate" Count="1" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
-      </MountPoints>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.05"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.05"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" Default="true"/>
+			</MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\armor\AQD_SG_LA_Plate_Triangle_BS1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\armor\AQD_SG_LA_Plate_Triangle_BS2.mwm" />

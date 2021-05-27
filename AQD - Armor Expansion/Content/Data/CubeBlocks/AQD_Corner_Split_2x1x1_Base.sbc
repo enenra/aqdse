@@ -20,12 +20,12 @@
         <Component Subtype="SteelPlate" Count="4" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
-      </MountPoints>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="0.50" EndY="0.50"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" Default="true"/>
+			</MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\armor\AQD_LG_LA_Corner_Split_2x1x1_Base_BS1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\armor\AQD_LG_LA_Corner_Split_2x1x1_Base_BS2.mwm" />
@@ -57,12 +57,12 @@
         <Component Subtype="SteelPlate" Count="1" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
-      </MountPoints>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="0.50" EndY="0.50"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" Default="true"/>
+			</MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\armor\AQD_SG_LA_Corner_Split_2x1x1_Base_BS1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\armor\AQD_SG_LA_Corner_Split_2x1x1_Base_BS2.mwm" />
@@ -96,12 +96,12 @@
         <Component Subtype="SteelPlate" Count="12" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
-      </MountPoints>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="0.50" EndY="0.50"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" Default="true"/>
+			</MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\armor\AQD_LG_LA_Corner_Split_2x1x1_Base_BS1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\armor\AQD_LG_LA_Corner_Split_2x1x1_Base_BS2.mwm" />
@@ -135,12 +135,12 @@
         <Component Subtype="SteelPlate" Count="2" />
       </Components>
       <CriticalComponent Subtype="SteelPlate" Index="0" />
-      <MountPoints>
-        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
-        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
-      </MountPoints>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="0.50" EndY="0.50"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" Default="true"/>
+			</MountPoints>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\armor\AQD_SG_LA_Corner_Split_2x1x1_Base_BS1.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\armor\AQD_SG_LA_Corner_Split_2x1x1_Base_BS2.mwm" />
