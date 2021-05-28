@@ -7,7 +7,7 @@
         <TypeId>BlueprintDefinition</TypeId>
         <SubtypeId>T2_AQD_BP_STOR_D1_CE</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_T2_AQD_BP_STOR_D1_CE</DisplayName>
+      <DisplayName>{LOC:DisplayName_T2_AQD_BP_STOR_D1_CE}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_storage.dds</Icon>
       <Prerequisites>
         <Item Amount="40" TypeId="Component" SubtypeId="AQD_Comp_EnhancedResearchMaterial" />

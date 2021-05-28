@@ -7,7 +7,7 @@
         <TypeId>Component</TypeId>
         <SubtypeId>AQD_Tech_STOR_D1_CE</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_Tech_STOR_D1_CE</DisplayName>
+      <DisplayName>{LOC:DisplayName_AQD_Tech_STOR_D1_CE}</DisplayName>
       <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
       <Size>
         <X>0.1</X>
