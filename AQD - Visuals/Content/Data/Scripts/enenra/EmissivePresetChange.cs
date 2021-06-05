@@ -6,8 +6,8 @@ using VRage.Utils;
 
 namespace enenra
 {
-	[MySessionComponentDescriptor(MyUpdateOrder.BeforeSimulation)]
-    public class EmissivePresetChange : MySessionComponentBase
+    [MySessionComponentDescriptor(MyUpdateOrder.NoUpdate)]
+    public class ArmorBalance : MySessionComponentBase
     { 
         private bool isInit = false;
 
@@ -58,24 +58,14 @@ namespace enenra
             }
         }
         
-        public override bool UpdatedBeforeInit()
-        {
-            DoWork();
-            return true;
-        }
-
         public override void Init(MyObjectBuilder_SessionComponent sessionComponent)
         {
-            DoWork();
+
         }
 
-        public override void UpdateBeforeSimulation()
+        public override void LoadData()
         {
-            if (!isInit && MyAPIGateway.Session == null)
-            {
-                DoWork();
-                isInit = true;
-            }
+            DoWork();  
         }
     }
 }
