@@ -6,7 +6,7 @@ using VRage.Game.Components;
 // Code is based on Gauge's Balanced Deformation code, but heavily modified for more control. 
 namespace enenra.ArmorBalance
 {
-	[MySessionComponentDescriptor(MyUpdateOrder.BeforeSimulation)]
+    [MySessionComponentDescriptor(MyUpdateOrder.NoUpdate)]
     public class ArmorBalance : MySessionComponentBase
     {
         public const float lightArmorLargeDamageMod = 0.5f;
@@ -63,24 +63,14 @@ namespace enenra.ArmorBalance
             }
         }
         
-        public override bool UpdatedBeforeInit()
-        {
-            DoWork();
-            return true;
-        }
-
         public override void Init(MyObjectBuilder_SessionComponent sessionComponent)
         {
-            DoWork();
+
         }
 
-        public override void UpdateBeforeSimulation()
+        public override void LoadData()
         {
-            if (!isInit && MyAPIGateway.Session == null)
-            {
-                DoWork();
-                isInit = true;
-            }
+            DoWork();  
         }
     }
 }
