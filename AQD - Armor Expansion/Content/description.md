@@ -1,11 +1,11 @@
 [img]https://i.imgur.com/fVVaDCS.gif[/img]
 
-[h1]Current version: [b]1.6c[/b][/h1]
+[h1]Current version: [b]1.7[/b][/h1]
 [i]Please refer to the [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/1939935505]changelog[/url] for patch notes.[/i]
 
 [img]https://i.imgur.com/cdhLXnQ.png[/img]
 [quote]
-This mod adds a number of new armor blocks and armor plates to the game. They are all available in light / heavy and large / small variation and have full armor skin support.
+This mod adds a number of new armor blocks to the game. They are all available in light / heavy and large / small variation and have full armor skin support.
 [/quote]
 
 [h1][b]AQD - A Quantum of Depth[/b] is a project of mine, encompassing multiple small and larger mods aimed at improving the gameplay experience and eventually overhauling larger parts of the game:[/h1]
@@ -30,18 +30,6 @@ Available in large and small, as well as heavy and light variations. The blocks 
 [*]Slope 4x1
 [*]Slope 4x1 Corner
 [*]Slope 4x1 Inverted Corner
-[/list]
-
-[h1]7 New Armor Plates[/h1]
-Also available in large, small, heavy and light variations.
-[list]
-[*]Plate 1x1
-[*]Half Plate
-[*]Plate 2x1 Base
-[*]Plate 2x1 Tip
-[*]Plate Slope
-[*]Plate Slope 2x1
-[*]Plate Triangle
 [/list]
 
 [h1]Full Skin Support[/h1]

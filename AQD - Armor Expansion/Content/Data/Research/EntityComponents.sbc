@@ -15,7 +15,6 @@
             [Item Type="MyObjectBuilder_Component" SubtypeId="AQD_Tech_ARM_A1" /]
             [BlockDefinitons]
               [OverwriteOthers]false[/OverwriteOthers]
-              [Id Type="MyObjectBuilder_CubeBlock" SubtypeId="AQD_LG_HA_Plate_1x1" UseBlockVariantsGroup="true" /]
               [Id Type="MyObjectBuilder_CubeBlock" SubtypeId="AQD_LG_HA_Slope3x1" UseBlockVariantsGroup="true" /]
             [/BlockDefinitons]
           [/ResearchGroup]

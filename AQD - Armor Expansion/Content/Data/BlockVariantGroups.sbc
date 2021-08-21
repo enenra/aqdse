@@ -199,52 +199,6 @@
     </BlockVariantGroup>
 
     <BlockVariantGroup>
-      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="LightArmorPlateGroup" />
-      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_LA_Plate_1x1.dds</Icon>
-      <DisplayName>DisplayName_AQD_LG_LA_Plate_1x1</DisplayName>
-      <Description>Description_LightArmor</Description>
-      <Blocks>
-        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_LA_Plate_1x1" />
-        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_LA_HalfPlate" />
-        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_LA_Plate_Triangle" />
-        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_LA_Plate_2x1Base" />
-        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_LA_Plate_2x1Tip" />
-        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_LA_Plate_Slope" />
-        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_LA_Plate_Slope2x1" />
-        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_LA_Plate_1x1" />
-        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_LA_HalfPlate" />
-        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_LA_Plate_Triangle" />
-        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_LA_Plate_2x1Base" />
-        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_LA_Plate_2x1Tip" />
-        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_LA_Plate_Slope" />
-        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_LA_Plate_Slope2x1" />
-      </Blocks>
-    </BlockVariantGroup>
-
-    <BlockVariantGroup>
-      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="HeavyArmorPlateGroup" />
-      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_HA_Plate_1x1.dds</Icon>
-      <DisplayName>DisplayName_AQD_LG_HA_Plate_1x1</DisplayName>
-      <Description>Description_HeavyArmor</Description>
-      <Blocks>
-        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_HA_Plate_1x1" />
-        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_HA_HalfPlate" />
-        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_HA_Plate_Triangle" />
-        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_HA_Plate_2x1Base" />
-        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_HA_Plate_2x1Tip" />
-        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_HA_Plate_Slope" />
-        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_HA_Plate_Slope2x1" />
-        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_HA_Plate_1x1" />
-        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_HA_HalfPlate" />
-        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_HA_Plate_Triangle" />
-        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_HA_Plate_2x1Base" />
-        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_HA_Plate_2x1Tip" />
-        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_HA_Plate_Slope" />
-        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_HA_Plate_Slope2x1" />
-      </Blocks>
-    </BlockVariantGroup>
-
-    <BlockVariantGroup>
       <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ArmorLightSlopedCorners" />
       <Icon>Textures\GUI\Icons\Cubes\SlopedCornerTip.dds</Icon>
       <DisplayName>DisplayName_BlockGroup_LightArmorSlopedCorners</DisplayName>
