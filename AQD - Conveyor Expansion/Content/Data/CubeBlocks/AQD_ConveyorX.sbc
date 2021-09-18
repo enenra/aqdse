@@ -56,7 +56,7 @@
       <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
       <DestroySound>PoofExplosionCat3</DestroySound>
       <PCU>20</PCU>
-      <IsAirTight>true</IsAirTight>      
+      <IsAirTight>false</IsAirTight>      
     </Definition>
 
     <!-- Armored -->
