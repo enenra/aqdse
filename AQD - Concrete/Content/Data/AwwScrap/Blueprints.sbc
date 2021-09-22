@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>AQD_Comp_ConcreteScrapToIngot</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_AQD_Comp_ConcreteScrap}</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_Comp_ConcreteScrap.dds</Icon>
+      <Prerequisites>
+        <Item Amount="1" TypeId="Ore" SubtypeId="AQD_Comp_ConcreteScrap" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Stone" />
+      </Results>
+      <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+  </Blueprints>
+</Definitions>
