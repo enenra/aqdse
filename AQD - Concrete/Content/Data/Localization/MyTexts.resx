@@ -181,4 +181,8 @@
     <value>Reinforced Concrete Half Block Slope</value>
     <comment/>
   </data>
+  <data name="DisplayName_AQD_Comp_ConcreteScrap" xml:space="preserve">
+    <value>Concrete Rubble</value>
+    <comment/>
+  </data>
 </root>

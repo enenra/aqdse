@@ -31,5 +31,34 @@
       <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
     </Component>
 
+    <!-- AwwScrap compatibility -->
+    <Component>
+      <Id>
+        <TypeId>Ore</TypeId>
+        <SubtypeId>AQD_Comp_ConcreteScrap</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_AQD_Comp_ConcreteScrap}</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_Comp_ConcreteScrap.dds</Icon>
+      <Size>
+        <X>0.072</X>
+        <Y>0.072</Y>
+        <Z>0.072</Z>
+      </Size>
+      <Mass>200</Mass>
+      <Volume>0.37</Volume>
+      <Model>Models\Ingots\stone_ingot.mwm</Model>
+      <PhysicalMaterial>Stone</PhysicalMaterial>
+      <MaxIntegrity>100</MaxIntegrity>
+      <DropProbability>1</DropProbability>
+      <Health>100</Health>
+      <MinimumOfferAmount>250</MinimumOfferAmount>
+      <MaximumOfferAmount>2500</MaximumOfferAmount>
+      <MinimumOrderAmount>100</MinimumOrderAmount>
+      <MaximumOrderAmount>1000</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+      <MinimumAcquisitionAmount>100</MinimumAcquisitionAmount>
+      <MaximumAcquisitionAmount>1000</MaximumAcquisitionAmount>
+    </Component>
+
   </Components>
 </Definitions>
