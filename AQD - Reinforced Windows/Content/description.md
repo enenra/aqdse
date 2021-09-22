@@ -34,3 +34,4 @@ Available in both large and small grid (but 3x3, not 1x1), reinforced windows ar
 [*][b]Shadestuff[/b] - He made the models that I based the shape of my blocks on.
 [*][b]pilfit, Consty, Purrfect-Blinky, V0ID and AryxErin[/b] - For testing the mod and providing the awesome screenshots for the modpage.
 [/list]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2486269122][img]https://i.imgur.com/cNuGTwv.jpg[/img][/url][url=https://spaceengineers.mod.io/aqd-reinforced-windows][img]https://i.imgur.com/mcZscI7.jpg[/img][/url]
