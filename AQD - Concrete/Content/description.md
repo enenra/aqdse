@@ -1,6 +1,6 @@
 [img]https://i.imgur.com/fVVaDCS.gif[/img]
 
-[h1]Current version: [b]1.2d[/b][/h1]
+[h1]Current version: [b]1.3[/b][/h1]
 [i]Please refer to the [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2298956701]changelog[/url] for patch notes.[/i]
 
 [img]https://i.imgur.com/cdhLXnQ.png[/img]
@@ -42,3 +42,4 @@ These concrete blocks use Keen's armor system, meaning that their textures are c
 [list]
 [*][b]Chipstix213[/b] - For kindly re-exporting the necessary models for me using 3DsMax, as Blender was refusing to cooperate.
 [/list]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2298956701][img]https://i.imgur.com/cNuGTwv.jpg[/img][/url][url=https://spaceengineers.mod.io/aqd-concrete][img]https://i.imgur.com/mcZscI7.jpg[/img][/url]

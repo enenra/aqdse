@@ -1,4 +1,3 @@
-[h1]Patch 1.2d[/h1]
-[list][*]More DisplayName fixes.
+[h1]Patch 1.3[/h1]
+[list][*]Added compatibility with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1542310718]AwwScrap[/url]: If installed, Concrete blocks will grind down to Concrete Rubble, which can be "smelted" back into Gravel.
 [/list]
-https://github.com/enenra/aqdse/commit/f19a37c21cc5a7a78622fbad0612a10a0ec66841
