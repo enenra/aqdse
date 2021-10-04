@@ -1,43 +1,52 @@
 <?xml version="1.0" ?>
-<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<CubeBlocks>
-		<Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
-			<Id>
-				<TypeId>UpgradeModule</TypeId>
-				<SubtypeId>AQD_LG_GyroUpgrade</SubtypeId>
-			</Id>
-			<DisplayName>DisplayName_AQD_LG_GyroUpgrade</DisplayName>
-			<Description>Description_AQD_LG_GyroUpgrade</Description>
-			<Icon>Textures\GUI\Icons\AstronautBackpack.dds</Icon>
-			<CubeSize>Large</CubeSize>
-			<BlockTopology>TriangleMesh</BlockTopology>
-			<Size x="3" y="3" z="1"/>
-			<ModelOffset x="0" y="0" z="0"/>
-			<Model>Models\Cubes\large\AQD_LG_GyroUpgrade.mwm</Model>
-			<Components>
-				<Component Count="10" Subtype="SteelPlate"/>
-			</Components>
-			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CubeBlocks>
+
+    <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
+      <Id>
+        <TypeId>UpgradeModule</TypeId>
+        <SubtypeId>AQD_LG_GyroUpgrade</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_AQD_LG_GyroUpgrade</DisplayName>
+      <Description>Description_AQD_LG_GyroUpgrade</Description>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_GyroUpgrade.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="1"/>
+      <ModelOffset x="0" y="0" z="0"/>
+      <Model>Models\Cubes\large\AQD_LG_GyroUpgrade.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="2000" />
+        <Component Subtype="Construction" Count="160" />
+        <Component Subtype="LargeTube" Count="16" />
+        <Component Subtype="MetalGrid" Count="200" />
+        <Component Subtype="Motor" Count="16" />
+        <Component Subtype="Computer" Count="20" />
+        <Component Subtype="SteelPlate" Count="400" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
 			<MountPoints>
-				<MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="3.0" EndY="3.0"/>
+				<MountPoint Side="Back" StartX="1.00" StartY="1.00" EndX="2.00" EndY="2.00"/>
 			</MountPoints>
-			<BlockPairName>AQD_LG_GyroUpgrade</BlockPairName>
-            <EdgeType>Light</EdgeType>
-			<Upgrades>
-				<MyUpgradeModuleInfo>
-					<UpgradeType>GyroBoost</UpgradeType>
-					<Modifier>0.5</Modifier>
-					<ModifierType>Additive</ModifierType>
-				</MyUpgradeModuleInfo>
-			</Upgrades>
-            <PrimarySound>BlockModuleProductivity</PrimarySound>
-            <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
-            <DamagedSound>ParticleElectrical</DamagedSound>
-            <EmissiveColorPreset>Extended</EmissiveColorPreset>
-            <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-            <DestroySound>WepSmallWarheadExpl</DestroySound>
-            <PCU>1</PCU>
-            <IsAirTight>false</IsAirTight>
-		</Definition>
-	</CubeBlocks>
+      <BlockPairName>AQD_GyroUpgrade</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <Upgrades>
+        <MyUpgradeModuleInfo>
+          <UpgradeType>GyroUpgrade</UpgradeType>
+          <Modifier>1.4</Modifier>
+          <ModifierType>Additive</ModifierType>
+        </MyUpgradeModuleInfo>
+      </Upgrades>
+      <PrimarySound>BlockModuleProductivity</PrimarySound>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
+  </CubeBlocks>
 </Definitions>

@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CubeBlocks>
 
     <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
@@ -8,13 +9,13 @@
         <SubtypeId>AQD_LG_GyroBooster</SubtypeId>
       </Id>
       <DisplayName>DisplayName_AQD_LG_GyroBooster</DisplayName>
-			<Description>Description_AQD_LG_GyroBooster</Description>
-      <Icon>Textures\GUI\Icons\AstronautBackpack.dds</Icon>
+      <Description>Description_AQD_LG_GyroBooster</Description>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_GyroBooster.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="2" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\large\GyroUpgrade_Large.mwm</Model>
+      <Model>Models\Cubes\large\AQD_LG_GyroBooster.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="1000" />
         <Component Subtype="Construction" Count="80" />
@@ -34,11 +35,11 @@
         <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\GyroUpgrade_Large_Constr1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\GyroUpgrade_Large_Constr2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\GyroUpgrade_Large_Constr3.mwm" />
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\AQD_LG_GyroBooster_BS1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\AQD_LG_GyroBooster_BS2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\AQD_LG_GyroBooster_BS3.mwm" />
       </BuildProgressModels>
-      <BlockPairName>AQD_LG_GyroUpgrade</BlockPairName>
+      <BlockPairName>AQD_GyroBooster</BlockPairName>
       <MirroringX>Z</MirroringX>
       <MirroringZ>X</MirroringZ>
       <EdgeType>Light</EdgeType>
@@ -46,11 +47,68 @@
       <Upgrades>
         <MyUpgradeModuleInfo>
           <UpgradeType>GyroBoost</UpgradeType>
-          <Modifier>3.0</Modifier>
+          <Modifier>2.0</Modifier>
           <ModifierType>Additive</ModifierType>
         </MyUpgradeModuleInfo>
       </Upgrades>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <PrimarySound>BlockGyroscope</PrimarySound>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
 
+    <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
+      <Id>
+        <TypeId>UpgradeModule</TypeId>
+        <SubtypeId>AQD_SG_GyroBooster</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_AQD_SG_GyroBooster</DisplayName>
+      <Description>Description_AQD_LG_GyroBooster</Description>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_GyroBooster.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\large\AQD_SG_GyroBooster.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="100" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="LargeTube" Count="2" />
+        <Component Subtype="MetalGrid" Count="20" />
+        <Component Subtype="Motor" Count="2" />
+        <Component Subtype="Computer" Count="10" />
+        <Component Subtype="SteelPlate" Count="50" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00" />
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="2.00" EndY="1.00" />
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" />
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00" />
+        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\AQD_SG_GyroBooster_BS1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\AQD_SG_GyroBooster_BS2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\AQD_SG_GyroBooster_BS3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AQD_GyroBooster</BlockPairName>
+      <MirroringX>Z</MirroringX>
+      <MirroringZ>X</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>25</BuildTimeSeconds>
+      <Upgrades>
+        <MyUpgradeModuleInfo>
+          <UpgradeType>GyroBoost</UpgradeType>
+          <Modifier>2.0</Modifier>
+          <ModifierType>Additive</ModifierType>
+        </MyUpgradeModuleInfo>
+      </Upgrades>
       <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
       <PrimarySound>BlockGyroscope</PrimarySound>
       <DamagedSound>ParticleElectrical</DamagedSound>

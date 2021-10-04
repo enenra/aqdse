@@ -17,32 +17,36 @@ namespace GyroUpgrade
     public class MyGyroUpgradeLogic : MyGameLogicComponent
     {
         private IMyGyro m_gyro;
-        private IMyCubeBlock m_parent;
-        private MyObjectBuilder_EntityBase m_objectBuilder = null;
 
         public override void Init(MyObjectBuilder_EntityBase objectBuilder)
         {
             base.Init(objectBuilder);
 
             m_gyro = Entity as IMyGyro;
-            m_parent = Entity as IMyCubeBlock;
 
-            m_parent.AddUpgradeValue("GyroBoost", 0f);
+            if (m_gyro.BlockDefinition.SubtypeName == "AQD_LG_LargeGyro")
+            {
+                m_gyro.AddUpgradeValue("GyroUpgrade", 1f);
+                m_gyro.OnUpgradeValuesChanged += OnUpgradeValuesChangedUpgrade;
+            }
+            else
+            {
+                m_gyro.AddUpgradeValue("GyroBoost", 1f);
+                m_gyro.OnUpgradeValuesChanged += OnUpgradeValuesChangedBooster;
+            }
 
-            m_objectBuilder = objectBuilder;
-
-            m_parent.OnUpgradeValuesChanged += OnUpgradeValuesChanged;
         }
 
-        public override MyObjectBuilder_EntityBase GetObjectBuilder(bool copy = false)
+        private void OnUpgradeValuesChangedUpgrade()
         {
-            return m_objectBuilder;
+            m_gyro.GyroStrengthMultiplier = m_gyro.UpgradeValues["GyroUpgrade"];
+            m_gyro.PowerConsumptionMultiplier = m_gyro.UpgradeValues["GyroUpgrade"];
         }
 
-        private void OnUpgradeValuesChanged()
+        private void OnUpgradeValuesChangedBooster()
         {
-            m_gyro.GyroStrengthMultiplier = m_parent.UpgradeValues["GyroBoost"] + 1f;
-            m_gyro.PowerConsumptionMultiplier = m_parent.UpgradeValues["GyroBoost"] + 2f;
+            m_gyro.GyroStrengthMultiplier = m_gyro.UpgradeValues["GyroBoost"];
+            m_gyro.PowerConsumptionMultiplier = m_gyro.UpgradeValues["GyroBoost"];
         }
     }
 }

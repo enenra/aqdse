@@ -1,47 +1,59 @@
 <?xml version="1.0" ?>
-<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<CubeBlocks>
-		<Definition xsi:type="MyObjectBuilder_GyroDefinition">
-			<Id>
-				<TypeId>Gyro</TypeId>
-				<SubtypeId>AQD_LG_LargeGyro</SubtypeId>
-			</Id>
-			<DisplayName>DisplayName_AQD_LG_LargeGyro</DisplayName>
-			<Description>Description_AQD_LG_LargeGyro</Description>
-			<Icon>Textures\GUI\Icons\AstronautBackpack.dds</Icon>
-			<CubeSize>Large</CubeSize>
-			<BlockTopology>TriangleMesh</BlockTopology>
-			<Size x="3" y="3" z="3"/>
-			<ModelOffset x="0" y="0" z="0"/>
-			<Model>Models\Cubes\large\AQD_LG_LargeGyro.mwm</Model>
-			<Components>
-				<Component Count="10" Subtype="SteelPlate"/>
-			</Components>
-			<CriticalComponent Index="0" Subtype="SteelPlate"/>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CubeBlocks>
+    
+    <Definition xsi:type="MyObjectBuilder_GyroDefinition">
+      <Id>
+        <TypeId>Gyro</TypeId>
+        <SubtypeId>AQD_LG_LargeGyro</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_AQD_LG_LargeGyro</DisplayName>
+      <Description>Description_AQD_LG_LargeGyro</Description>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_LargeGyro.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="3"/>
+      <ModelOffset x="0" y="0" z="0"/>
+      <Model>Models\Cubes\large\AQD_LG_LargeGyro.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="8000" />
+        <Component Subtype="Construction" Count="1080" />
+        <Component Subtype="LargeTube" Count="108" />
+        <Component Subtype="MetalGrid" Count="1350" />
+        <Component Subtype="Motor" Count="108" />
+        <Component Subtype="Computer" Count="135" />
+        <Component Subtype="SteelPlate" Count="2700" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
 			<MountPoints>
-				<MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="3.0" EndY="3.0"/>
-				<MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="3.0" EndY="3.0"/>
-				<MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="3.0" EndY="3.0"/>
-				<MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="3.0" EndY="3.0"/>
-				<MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="3.0" EndY="3.0"/>
-				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="3.0" EndY="3.0"/>
+				<MountPoint Side="Front" StartX="1.05" StartY="1.05" EndX="1.95" EndY="1.95"/>
+				<MountPoint Side="Back" StartX="1.05" StartY="1.05" EndX="1.95" EndY="1.95"/>
+				<MountPoint Side="Left" StartX="1.05" StartY="1.05" EndX="1.95" EndY="1.95"/>
+				<MountPoint Side="Right" StartX="1.05" StartY="1.05" EndX="1.95" EndY="1.95"/>
+				<MountPoint Side="Top" StartX="1.05" StartY="1.05" EndX="1.95" EndY="1.95"/>
+				<MountPoint Side="Bottom" StartX="1.05" StartY="1.05" EndX="1.95" EndY="1.95"/>
 			</MountPoints>
-			<BlockPairName>AQD_LG_LargeGyro</BlockPairName>
-			<EdgeType>Light</EdgeType>
-			<BuildTimeSeconds>40</BuildTimeSeconds>
-			<PrimarySound>BlockGyroscope</PrimarySound>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\AQD_LG_LargeGyro_BS1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\AQD_LG_LargeGyro_BS2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\AQD_LG_LargeGyro_BS3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AQD_LG_LargeGyro</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>400</BuildTimeSeconds>
+      <PrimarySound>BlockGyroscope</PrimarySound>
+      <ResourceSinkGroup>Gyro</ResourceSinkGroup>
+      <ForceMagnitude>100.00E+07</ForceMagnitude>
+      <RequiredPowerInput>0.25</RequiredPowerInput>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>50</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
 
-			<ResourceSinkGroup>Gyro</ResourceSinkGroup>
-			<ForceMagnitude>3.36E+07</ForceMagnitude>
-			<RequiredPowerInput>0.01</RequiredPowerInput>
-
-			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-			<DamagedSound>ParticleHeavyMech</DamagedSound>
-			<EmissiveColorPreset>Extended</EmissiveColorPreset>
-			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-			<DestroySound>WepSmallWarheadExpl</DestroySound>
-			<PCU>50</PCU>
-			<IsAirTight>false</IsAirTight>
-		</Definition>
-	</CubeBlocks>
+  </CubeBlocks>
 </Definitions>
