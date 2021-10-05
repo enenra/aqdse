@@ -2,14 +2,14 @@
 <Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CubeBlocks>
-    
+
     <Definition xsi:type="MyObjectBuilder_GyroDefinition">
       <Id>
         <TypeId>Gyro</TypeId>
         <SubtypeId>AQD_LG_LargeGyro</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_LG_LargeGyro</DisplayName>
-      <Description>Description_AQD_LG_LargeGyro</Description>
+      <DisplayName>{LOC:DisplayName_AQD_LG_LargeGyro}</DisplayName>
+      <Description>{LOC:Description_AQD_LG_LargeGyro}</Description>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_LargeGyro.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>

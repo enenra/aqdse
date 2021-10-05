@@ -8,8 +8,8 @@
         <TypeId>UpgradeModule</TypeId>
         <SubtypeId>AQD_LG_GyroBooster</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_LG_GyroBooster</DisplayName>
-      <Description>Description_AQD_LG_GyroBooster</Description>
+      <DisplayName>{LOC:DisplayName_AQD_LG_GyroBooster}</DisplayName>
+      <Description>{LOC:Description_AQD_LG_GyroBooster}</Description>
       <Icon>Textures\GUI\Icons\Cubes\AQD_GyroBooster.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -66,14 +66,14 @@
         <TypeId>UpgradeModule</TypeId>
         <SubtypeId>AQD_SG_GyroBooster</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_SG_GyroBooster</DisplayName>
-      <Description>Description_AQD_LG_GyroBooster</Description>
+      <DisplayName>{LOC:DisplayName_AQD_SG_GyroBooster}</DisplayName>
+      <Description>{LOC:Description_AQD_LG_GyroBooster}</Description>
       <Icon>Textures\GUI\Icons\Cubes\AQD_GyroBooster.dds</Icon>
-      <CubeSize>Large</CubeSize>
+      <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="2" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\large\AQD_SG_GyroBooster.mwm</Model>
+      <Model>Models\Cubes\small\AQD_SG_GyroBooster.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="100" />
         <Component Subtype="Construction" Count="20" />
@@ -93,9 +93,8 @@
         <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="2.00" />
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\AQD_SG_GyroBooster_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\large\AQD_SG_GyroBooster_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\AQD_SG_GyroBooster_BS3.mwm" />
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\small\AQD_SG_GyroBooster_BS1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\AQD_SG_GyroBooster_BS2.mwm" />
       </BuildProgressModels>
       <BlockPairName>AQD_GyroBooster</BlockPairName>
       <MirroringX>Z</MirroringX>

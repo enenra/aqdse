@@ -8,8 +8,8 @@
         <TypeId>UpgradeModule</TypeId>
         <SubtypeId>AQD_LG_GyroUpgrade</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_AQD_LG_GyroUpgrade</DisplayName>
-      <Description>Description_AQD_LG_GyroUpgrade</Description>
+      <DisplayName>{LOC:DisplayName_AQD_LG_GyroUpgrade}</DisplayName>
+      <Description>{LOC:Description_AQD_LG_GyroUpgrade}</Description>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_GyroUpgrade.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>

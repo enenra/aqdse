@@ -15,7 +15,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Large\gyroscope.mwm</Model>
+      <Model>Models\Cubes\Large\AQD_LG_Gyroscope.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="500" />
         <Component Subtype="Construction" Count="40" />
@@ -64,7 +64,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\gyroscope.mwm</Model>
+      <Model>Models\Cubes\Small\AQD_SG_Gyroscope.mwm</Model>
       <SilenceableByShipSoundSystem>true</SilenceableByShipSoundSystem>
       <Components>
         <Component Subtype="SteelPlate" Count="15" />
