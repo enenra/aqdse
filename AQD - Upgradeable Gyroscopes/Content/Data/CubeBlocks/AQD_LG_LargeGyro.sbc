@@ -17,7 +17,7 @@
       <ModelOffset x="0" y="0" z="0"/>
       <Model>Models\Cubes\large\AQD_LG_LargeGyro.mwm</Model>
       <Components>
-        <Component Subtype="SteelPlate" Count="8000" />
+        <Component Subtype="SteelPlate" Count="10000" />
         <Component Subtype="Construction" Count="1080" />
         <Component Subtype="LargeTube" Count="108" />
         <Component Subtype="MetalGrid" Count="1350" />

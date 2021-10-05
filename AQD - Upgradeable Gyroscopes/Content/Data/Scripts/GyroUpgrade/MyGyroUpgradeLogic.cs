@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace GyroUpgrade
 {
-    [MyEntityComponentDescriptor(typeof(MyObjectBuilder_Gyro))]
+    [MyEntityComponentDescriptor(typeof(MyObjectBuilder_Gyro), false)]
     public class MyGyroUpgradeLogic : MyGameLogicComponent
     {
         private IMyGyro m_gyro;
