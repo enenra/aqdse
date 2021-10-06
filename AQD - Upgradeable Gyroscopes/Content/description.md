@@ -33,5 +33,5 @@ The Gyro Booster features four mounting points for the existing gyroscopes. If p
 
 [img]https://i.imgur.com/uUOBTpF.png[/img]
 [list]
-[*][b][url=https://steamcommunity.com/id/AryxERIN/myworkshopfiles/?appid=244850]AryxErin[/url][/b] - Comissioned to create the models for this mod, and did a stellar job at it. You should definitely check out her other mods!
+[*][b]AryxErin[/b] - Comissioned to create the models for this mod, and did a stellar job at it. You should definitely [url=https://steamcommunity.com/id/AryxERIN/myworkshopfiles/?appid=244850]check out her other mods![/url]
 [/list]
