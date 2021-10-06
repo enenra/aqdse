@@ -1,0 +1,54 @@
+<?xml version="1.0"?><!-- Created by AQD ResearchGroups Editor on: 2021-10-06 15:00 -->
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlueprintClassEntries>
+    <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_AQD_BP_UTIL_G1" />
+    <Entry Class="AQD_BPC_ResearchLab_T4" BlueprintSubtypeId="T4_AQD_BP_UTIL_G2" />
+  </BlueprintClassEntries>
+  <BlueprintClasses>
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_BPC_ResearchLab_T1</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_AQD_BPC_ResearchLab_T1</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\research_blueprint_T1.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\research_blueprint_highlight_T1.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_research_blueprint.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_research_blueprint.dds</OutputConstraintIcon>
+    </Class>
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_BPC_ResearchLab_T2</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_AQD_BPC_ResearchLab_T2</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\research_blueprint_T2.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\research_blueprint_highlight_T2.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_research_blueprint.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_research_blueprint.dds</OutputConstraintIcon>
+    </Class>
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_BPC_ResearchLab_T3</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_AQD_BPC_ResearchLab_T3</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\research_blueprint_T3.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\research_blueprint_highlight_T3.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_research_blueprint.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_research_blueprint.dds</OutputConstraintIcon>
+    </Class>
+    <Class>
+      <Id>
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>AQD_BPC_ResearchLab_T4</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_AQD_BPC_ResearchLab_T4</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\research_blueprint_T4.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\research_blueprint_highlight_T4.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_research_blueprint.dds</InputConstraintIcon>
+      <OutputConstraintIcon>Textures\GUI\Icons\filter_research_blueprint.dds</OutputConstraintIcon>
+    </Class>
+  </BlueprintClasses>
+</Definitions>

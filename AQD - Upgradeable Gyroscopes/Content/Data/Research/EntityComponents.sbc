@@ -1,0 +1,35 @@
+<?xml version="1.0"?><!-- Created by AQD ResearchGroups Editor on: 2021-10-06 15:00 -->
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>ProgressionFramework_AQD_Upgradeable_Gyroscopes</SubtypeId>
+      </Id>
+      <Description>
+        [?xml version="1.0" encoding="utf-16"?]
+        [ResearchGroups xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns:xsd="http://www.w3.org/2001/XMLSchema"]
+          [ResearchGroup]
+            [Item Type="MyObjectBuilder_Component" SubtypeId="AQD_Tech_UTIL_G1" /]
+            [BlockDefinitons]
+              [OverwriteOthers]false[/OverwriteOthers]
+              [Id Type="MyObjectBuilder_Gyro" SubtypeId="LargeBlockGyro" UseBlockVariantsGroup="false" /]
+              [Id Type="UpgradeModule" SubtypeId="AQD_LG_GyroBooster" UseBlockVariantsGroup="false" /]
+              [Id Type="UpgradeModule" SubtypeId="AQD_SG_GyroBooster" UseBlockVariantsGroup="false" /]
+            [/BlockDefinitons]
+          [/ResearchGroup]
+          [ResearchGroup]
+            [Item Type="MyObjectBuilder_Component" SubtypeId="AQD_Tech_UTIL_G2" /]
+            [BlockDefinitons]
+              [OverwriteOthers]false[/OverwriteOthers]
+              [Id Type="Gyro" SubtypeId="AQD_LG_LargeGyro" UseBlockVariantsGroup="false" /]
+              [Id Type="UpgradeModule" SubtypeId="AQD_LG_GyroUpgrade" UseBlockVariantsGroup="false" /]
+            [/BlockDefinitons]
+          [/ResearchGroup]
+        [/ResearchGroups]
+      </Description>
+    </EntityComponent>
+  </EntityComponents>
+</Definitions>

@@ -1,0 +1,36 @@
+<?xml version="1.0"?><!-- Created by AQD ResearchGroups Editor on: 2021-10-06 15:00 -->
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T2_AQD_BP_UTIL_G1</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_T2_AQD_BP_UTIL_G1}</DisplayName>
+      <Icon>Textures\GUI\Icons\AQD_research_utility.dds</Icon>
+      <Prerequisites>
+        <Item Amount="40" TypeId="Component" SubtypeId="AQD_Comp_EnhancedResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_UTIL_G1" />
+      </Results>
+      <BaseProductionTimeInSeconds>1200</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>T4_AQD_BP_UTIL_G2</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_T4_AQD_BP_UTIL_G2}</DisplayName>
+      <Icon>Textures\GUI\Icons\AQD_research_utility.dds</Icon>
+      <Prerequisites>
+        <Item Amount="60" TypeId="Component" SubtypeId="AQD_Comp_EliteResearchMaterial" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_UTIL_G2" />
+      </Results>
+      <BaseProductionTimeInSeconds>1800</BaseProductionTimeInSeconds>
+    </Blueprint>
+  </Blueprints>
+</Definitions>
