@@ -10,21 +10,21 @@
     </ResearchBlock>
 
     <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="Gyro" Subtype="AQD_LG_GyroBooster" />
+      <Id Type="UpgradeModule" Subtype="AQD_LG_GyroBooster" />
       <UnlockedByGroups>
         <GroupSubtype>16</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
 
     <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="Gyro" Subtype="AQD_SG_GyroBooster" />
+      <Id Type="UpgradeModule" Subtype="AQD_SG_GyroBooster" />
       <UnlockedByGroups>
         <GroupSubtype>16</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
 
     <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="Gyro" Subtype="AQD_LG_GyroUpgrade" />
+      <Id Type="UpgradeModule" Subtype="AQD_LG_GyroUpgrade" />
       <UnlockedByGroups>
         <GroupSubtype>16</GroupSubtype>
       </UnlockedByGroups>
