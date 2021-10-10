@@ -5,6 +5,13 @@
     <!-- Conveyors -->
 
     <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="Conveyor" Subtype="AQD_LG_ConveyorJunctionTubes" />
+      <UnlockedByGroups>
+        <GroupSubtype>24</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
       <Id Type="Conveyor" Subtype="AQD_LG_ConveyorT" />
       <UnlockedByGroups>
         <GroupSubtype>24</GroupSubtype>

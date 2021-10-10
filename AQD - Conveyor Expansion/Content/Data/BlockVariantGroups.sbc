@@ -27,7 +27,7 @@
         <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeCurved" />
         <Block Type="MyObjectBuilder_Conveyor" Subtype="AQD_LG_ConveyorT" />
         <Block Type="MyObjectBuilder_Conveyor" Subtype="AQD_LG_ConveyorX" />
-        <Block Type="MyObjectBuilder_Conveyor" Subtype="LargeBlockConveyor" />
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="AQD_LG_ConveyorJunctionTubes" />
         <Block Type="MyObjectBuilder_Conveyor" Subtype="SmallShipConveyorHub" />
         <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="LargeBlockConveyorSorter" />
         <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="MediumBlockConveyorSorter" />

@@ -89,7 +89,6 @@
         <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\AQD_LG_ConveyorXArmored_BS2.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AQD_LG_ConveyorXArmored_BS3.mwm" />
       </BuildProgressModels>
-
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>7</BuildTimeSeconds>
       <MirroringX>Y</MirroringX>
