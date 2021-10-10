@@ -161,4 +161,8 @@
     <value>Conveyor Tube Junction</value>
     <comment/>
   </data>
+  <data name="DisplayName_AQD_LG_ConveyorVent" xml:space="preserve">
+    <value>Conveyor Air Vent</value>
+    <comment/>
+  </data>
 </root>

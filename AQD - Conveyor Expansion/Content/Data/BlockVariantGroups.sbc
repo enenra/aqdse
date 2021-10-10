@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <BlockVariantGroups>
 
     <BlockVariantGroup>
@@ -51,6 +52,18 @@
         <Block Type="MyObjectBuilder_Conveyor" Subtype="SmallShipConveyorHub" />
         <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="LargeBlockConveyorSorter" />
         <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="MediumBlockConveyorSorter" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AirVentGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\AirVent.dds</Icon>
+      <DisplayName>DisplayName_Block_AirVent</DisplayName>
+      <Description>Description_AirVent</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_AirVent" Subtype="" />
+        <Block Type="MyObjectBuilder_AirVent" Subtype="SmallAirVent" />
+        <Block Type="MyObjectBuilder_AirVent" Subtype="AQD_LG_ConveyorVent" />
       </Blocks>
     </BlockVariantGroup>
 

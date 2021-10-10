@@ -18,6 +18,7 @@
         <string>Conveyor/AQD_LG_ConveyorTArmored</string>
         <string>Conveyor/AQD_LG_ConveyorXArmored</string>
         <string>CargoContainer/AQD_LG_ConveyorAccess</string>
+        <string>CargoContainer/AQD_LG_ConveyorVent</string>
       </ItemIds>
     </Category>
 

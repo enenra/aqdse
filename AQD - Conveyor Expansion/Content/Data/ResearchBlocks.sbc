@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ResearchBlocks>
 
     <!-- Conveyors -->
@@ -50,6 +51,13 @@
       <Id Type="Conveyor" Subtype="AQD_LG_ConveyorXArmored" />
       <UnlockedByGroups>
         <GroupSubtype>24</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_AirVent" Subtype="AQD_LG_ConveyorVent" />
+      <UnlockedByGroups>
+        <GroupSubtype>15</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
 
