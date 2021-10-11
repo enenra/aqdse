@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <Definition>
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>AQD_SG_ConveyorAdapter</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_AQD_SG_ConveyorAdapter}</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_SG_ConveyorAdapter.dds</Icon>
+      <Description>Description_ConveyorTube</Description>
+      <GuiVisible>true</GuiVisible>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\small\AQD_SG_ConveyorAdapter.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="7" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="SmallTube" Count="8" />
+        <Component Subtype="Motor" Count="2" />
+        <Component Subtype="Construction" Count="3" />
+        <Component Subtype="InteriorPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="3.0" EndY="1.0" Default="true" />
+        <MountPoint Side="Front" StartX="0.75" StartY="0.75" EndX="2.25" EndY="2.25" />
+        <MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="3.0" EndY="3.0" />
+        <MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="1.0" EndY="3.0" />
+        <MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="1.0" EndY="3.0" />
+        <MountPoint Side="Top" StartX="0.0" StartY="0.0" EndX="3.0" EndY="1.0" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\small\AQD_SG_ConveyorAdapter_BS1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\AQD_SG_ConveyorAdapter_BS2.mwm" />
+      </BuildProgressModels>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <BlockPairName>AQD_ConveyorAdapter</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>7</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <IsAirTight>false</IsAirTight>
+      <PCU>25</PCU>
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>

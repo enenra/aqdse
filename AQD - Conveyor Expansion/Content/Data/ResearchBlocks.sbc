@@ -75,5 +75,12 @@
       </UnlockedByGroups>
     </ResearchBlock>
 
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="Conveyor" Subtype="AQD_SG_ConveyorAdapter" />
+      <UnlockedByGroups>
+        <GroupSubtype>24</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
   </ResearchBlocks>
 </Definitions>

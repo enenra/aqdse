@@ -12,5 +12,6 @@
 		<Entry Class="LargeBlocks" BlueprintSubtypeId="AirVent/AQD_LG_ConveyorVent"/>
 		<Entry Class="LargeBlocks" BlueprintSubtypeId="Conveyor/AQD_LG_ConveyorX"/>
 		<Entry Class="LargeBlocks" BlueprintSubtypeId="Conveyor/AQD_LG_ConveyorXArmored"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/AQD_SG_ConveyorAdapter"/>
 	</BlueprintClassEntries>
 </Definitions>

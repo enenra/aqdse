@@ -35,6 +35,7 @@
         <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="MediumBlockConveyorSorter" />
         <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeMedium" />
         <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorFrameMedium" />
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="AQD_SG_ConveyorAdapter" />
         <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeCurvedMedium" />
       </Blocks>
     </BlockVariantGroup>

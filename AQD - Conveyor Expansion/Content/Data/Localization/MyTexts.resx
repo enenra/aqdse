@@ -173,4 +173,8 @@
     <value>Conveyor Tube 5x1</value>
     <comment/>
   </data>
+  <data name="DisplayName_AQD_SG_ConveyorAdapter" xml:space="preserve">
+    <value>Conveyor Adapter</value>
+    <comment/>
+  </data>
 </root>
