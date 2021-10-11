@@ -1,4 +1,4 @@
-[h1]Current version: [b]1.1[/b][/h1]
+[h1]Current version: [b]2.0[/b][/h1]
 [i]Please refer to the [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/1864380341]changelog[/url] for patch notes.[/i]
 
 [img]https://i.imgur.com/cdhLXnQ.png[/img]
@@ -17,6 +17,10 @@ The mod currently adds the following new conveyor shapes:
 [list]
 [*]Conveyor T Junction
 [*]Conveyor X Junction
+[*]Conveyor Tube Junction
+[*]Conveyor Endcap
+[*]Conveyor Tube 5x1
+[*]Conveyor Adapter (Small Grid)
 [/list]
 [h1]Armored Conveyors[/h1]
 Furthermore, the mod contains armored versions of all conveyor tube shapes:
@@ -27,7 +31,10 @@ Furthermore, the mod contains armored versions of all conveyor tube shapes:
 [*]Conveyor X Junction
 [/list]
 [h1]Miscellaneous Conveyor Blocks[/h1]
-The mod also currently contains one additional block: The Conveyor Access block. It allows for easy access of the conveyor system without having to place a cargo container and only taking up a half block's space.
+[list]
+[*]Conveyor Access - It allows for easy access of the conveyor system without having to place a cargo container and only taking up a half block's space.
+[*]Conveyor Air Vent - Same functionality as the vanilla air vent but mounted onto a full conveyor junction block.
+[/list]
 
 [url=https://discord.gg/QtyCsBr][img]https://i.imgur.com/l8exfyn.png[/img][/url]
 [url=https://github.com/enenra/aqdse][img]https://i.imgur.com/T7AtPhP.png[/img][/url]
@@ -45,3 +52,12 @@ The mod also currently contains one additional block: The Conveyor Access block.
 [list]
 [*]Please do not upload any alternative version of this mod without receiving permission from me first.
 [/list]
+
+
+[img]https://i.imgur.com/uUOBTpF.png[/img]
+
+[list]
+[*][b]Archan79[/b] - For fixing the mess that was my initial tube junction model.
+[/list]
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1864380341][img]https://i.imgur.com/cNuGTwv.jpg[/img][/url][url=https://spaceengineers.mod.io/aqd-conveyor-expansion][img]https://i.imgur.com/mcZscI7.jpg[/img][/url]
