@@ -50,6 +50,52 @@
       <IsAirTight>false</IsAirTight>      
     </Definition>
 
+    <Definition>
+      <Id>
+        <TypeId>ConveyorConnector</TypeId>
+        <SubtypeId>AQD_LG_ConveyorStraight5x1</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_AQD_LG_ConveyorStraight5x1}</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_ConveyorStraight5x1.dds</Icon>
+      <Description>Description_ConveyorTube</Description>
+      <GuiVisible>true</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="5" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\AQD_LG_ConveyorStraight5x1.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="50" />
+        <Component Subtype="Construction" Count="100" />
+        <Component Subtype="SmallTube" Count="60" />
+        <Component Subtype="Motor" Count="30" />
+        <Component Subtype="InteriorPlate" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\AQD_LG_ConveyorStraight5x1_BS1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AQD_LG_ConveyorStraight5x1_BS2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AQD_ConveyorStraight5x1</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>7</BuildTimeSeconds>
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.3" Default="true"/>
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.7" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Bottom" StartX="0.2" StartY="0.3" EndX="0.3" EndY="0.7" />
+        <MountPoint Side="Bottom" StartX="0.7" StartY="0.3" EndX="0.8" EndY="0.7" />
+        <MountPoint Side="Top" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.3" />
+        <MountPoint Side="Top" StartX="0.2" StartY="0.7" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Top" StartX="0.2" StartY="0.3" EndX="0.3" EndY="0.7" />
+        <MountPoint Side="Top" StartX="0.7" StartY="0.3" EndX="0.8" EndY="0.7" />
+      </MountPoints>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>false</IsAirTight>      
+    </Definition>
+
     <!-- Armored -->
 
     <Definition>

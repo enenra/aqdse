@@ -34,6 +34,13 @@
     </ResearchBlock>
 
     <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="ConveyorConnector" Subtype="AQD_LG_ConveyorStraight5x1" />
+      <UnlockedByGroups>
+        <GroupSubtype>24</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
       <Id Type="ConveyorConnector" Subtype="AQD_LG_ConveyorStraightArmored" />
       <UnlockedByGroups>
         <GroupSubtype>24</GroupSubtype>

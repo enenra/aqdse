@@ -169,4 +169,8 @@
     <value>Conveyor Endcap</value>
     <comment/>
   </data>
+  <data name="DisplayName_AQD_LG_ConveyorStraight5x1" xml:space="preserve">
+    <value>Conveyor Tube 5x1</value>
+    <comment/>
+  </data>
 </root>
