@@ -17,6 +17,7 @@
         <string>ConveyorConnector/AQD_LG_ConveyorCornerArmored</string>
         <string>Conveyor/AQD_LG_ConveyorTArmored</string>
         <string>Conveyor/AQD_LG_ConveyorXArmored</string>
+        <string>Conveyor/AQD_LG_ConveyorEndcap</string>
         <string>CargoContainer/AQD_LG_ConveyorAccess</string>
         <string>CargoContainer/AQD_LG_ConveyorVent</string>
       </ItemIds>
@@ -37,6 +38,7 @@
         <string>ConveyorConnector/AQD_LG_ConveyorCornerArmored</string>
         <string>Conveyor/AQD_LG_ConveyorTArmored</string>
         <string>Conveyor/AQD_LG_ConveyorXArmored</string>
+        <string>Conveyor/AQD_LG_ConveyorEndcap</string>
         <string>CargoContainer/AQD_LG_ConveyorAccess</string>
       </ItemIds>
     </Category>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <Definition>
+      <Id>
+        <TypeId>Conveyor</TypeId>
+        <SubtypeId>AQD_LG_ConveyorEndcap</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_AQD_LG_ConveyorEndcap}</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_ConveyorEndcap.dds</Icon>
+      <Description>Description_ConveyorTube</Description>
+      <GuiVisible>false</GuiVisible>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\AQD_LG_ConveyorEndcap.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="2" />
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="SmallTube" Count="5" />
+        <Component Subtype="Motor" Count="2" />
+        <Component Subtype="Construction" Count="2" />
+        <Component Subtype="InteriorPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="Motor" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\AQD_LG_ConveyorEndcap_BS1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AQD_LG_ConveyorEndcap_BS2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AQD_ConveyorEndcap</BlockPairName>
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0.2" StartY="0.2" EndX="0.8" EndY="0.3" />
+        <MountPoint Side="Back" StartX="0.2" StartY="0.7" EndX="0.8" EndY="0.8" />
+        <MountPoint Side="Back" StartX="0.2" StartY="0.3" EndX="0.3" EndY="0.7" />
+        <MountPoint Side="Back" StartX="0.7" StartY="0.3" EndX="0.8" EndY="0.7" />
+      </MountPoints>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>15</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <EmissiveColorPreset>Default</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+      <DestroySound>PoofExplosionCat3</DestroySound>
+      <PCU>30</PCU>
+      <IsAirTight>false</IsAirTight>      
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>

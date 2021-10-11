@@ -165,4 +165,8 @@
     <value>Conveyor Air Vent</value>
     <comment/>
   </data>
+  <data name="DisplayName_AQD_LG_ConveyorEndcap" xml:space="preserve">
+    <value>Conveyor Endcap</value>
+    <comment/>
+  </data>
 </root>
