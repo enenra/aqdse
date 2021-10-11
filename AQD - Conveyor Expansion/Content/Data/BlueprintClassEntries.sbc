@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<BlueprintClassEntries>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CargoContainer/AQD_LG_ConveyorAccess"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="ConveyorConnector/AQD_LG_ConveyorCornerArmored"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="Conveyor/AQD_LG_ConveyorEndcap"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="Conveyor/AQD_LG_ConveyorJunctionTubes"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="ConveyorConnector/AQD_LG_ConveyorStraightArmored"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="Conveyor/AQD_LG_ConveyorT"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="Conveyor/AQD_LG_ConveyorTArmored"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="AirVent/AQD_LG_ConveyorVent"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="Conveyor/AQD_LG_ConveyorX"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="Conveyor/AQD_LG_ConveyorXArmored"/>
+	</BlueprintClassEntries>
+</Definitions>
