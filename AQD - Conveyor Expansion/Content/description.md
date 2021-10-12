@@ -20,7 +20,7 @@ The mod currently adds the following new conveyor shapes:
 [*]Conveyor Tube Junction
 [*]Conveyor Endcap
 [*]Conveyor Tube 5x1
-[*]Conveyor Adapter (Small Grid)
+[*]Conveyor Adapter (Small Grid: Medium to Small Conveyors)
 [/list]
 [h1]Armored Conveyors[/h1]
 Furthermore, the mod contains armored versions of all conveyor tube shapes:
