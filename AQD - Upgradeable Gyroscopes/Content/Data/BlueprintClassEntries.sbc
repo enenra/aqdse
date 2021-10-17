@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<BlueprintClassEntries>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="UpgradeModule/AQD_LG_GyroBooster"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="UpgradeModule/AQD_SG_GyroBooster"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="UpgradeModule/AQD_LG_GyroUpgrade"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="Gyro/AQD_LG_LargeGyro"/>
+	</BlueprintClassEntries>
+</Definitions>
