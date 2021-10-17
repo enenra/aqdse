@@ -14,7 +14,7 @@ This mod adds a selection of passage blocks / corridor blocks to the game that a
 
 [img]https://i.imgur.com/5nbiNLV.png[/img]
 
-[h1]5 Sleek Corridor Blocks[/h1]
+[h1]6 Sleek Corridor Blocks[/h1]
 These blocks are large grid only (no plans to change this) and while they can be painted, they do not support skins. This is not a matter of being able to or not, but a conscious choice by me: I do not like the way skins look on the block. As such, I do not plan to change this either.
 [list]
 [*]Sleek Corridor Straight
