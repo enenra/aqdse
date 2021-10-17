@@ -14,7 +14,7 @@ This mod adds a number of new armor blocks to the game. They are all available i
 
 [img]https://i.imgur.com/5nbiNLV.png[/img]
 
-[h1]13 New Armor Blocks[/h1]
+[h1]16 New Armor Blocks[/h1]
 Available in large and small, as well as heavy and light variations. The blocks have been partially integrated into existing G-menu block groups where it made sense, or been added as part of new ones.
 [list]
 [*]Corner Split 2x1x1 Base
@@ -24,6 +24,9 @@ Available in large and small, as well as heavy and light variations. The blocks 
 [*]Slab Raised Corner Split
 [*]Slab Raised Corner Inset
 [*]Half Slab Corner Split
+[*]Slope Transition
+[*]Half Slope Transition
+[*]Slab Slope Transition
 [*]Slope 3x1
 [*]Slope 3x1 Corner
 [*]Slope 3x1 Inverted Corner
@@ -42,5 +45,4 @@ To my knowledge, most other armor block mods don't currently support armor skins
 [list]
 [*]I am [b]NOT[/b] taking requests for more armor shapes. There will always be more to add - and I will add more in the future - but I will never be able to add all of them. I'd rather focus on a small amount that is of high quality and as universally applicable as possible.
 [*]As it is not possible to add new deformation shapes to the game, and using the existing ones would not yield good results for some of these shapes, these blocks unfortunately do not support deformation.
-[*]Klime made an [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2129594594]Armor Replacer[/url] mod, which allows the easy change from AQD blocks to their new vanilla counterparts.
 [/list]
