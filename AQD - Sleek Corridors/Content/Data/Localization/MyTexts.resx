@@ -141,4 +141,8 @@
     <value>Sleek Corridor Corner</value>
     <comment/>
   </data>
+  <data name="DisplayName_AQD_LG_SleekCorridor_StraightWindow" xml:space="preserve">
+    <value>Sleek Corridor Straight (Window)</value>
+    <comment/>
+  </data>
 </root>

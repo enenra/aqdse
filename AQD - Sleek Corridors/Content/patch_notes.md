@@ -1,2 +1,5 @@
-[h1]Initial Release 1.0[/h1]
-https://github.com/enenra/aqdse/tree/master/AQD%20-%20Sleek%20Corridors/Content
+[h1]Patch 1.1[/h1]
+[list]
+[*]Added Sleek Corridor Straight (Window) block.
+[*]Fixed some reference issues with Sleek Corridor Straight (Light).
+[/list]

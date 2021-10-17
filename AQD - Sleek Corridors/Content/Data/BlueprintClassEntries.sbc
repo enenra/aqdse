@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<BlueprintClassEntries>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_SleekCorridor_Corner"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_SleekCorridor_Straight"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="InteriorLight/AQD_LG_SleekCorridor_StraightLight"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_SleekCorridor_StraightWindow"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_SleekCorridor_T"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_SleekCorridor_X"/>
+	</BlueprintClassEntries>
+</Definitions>

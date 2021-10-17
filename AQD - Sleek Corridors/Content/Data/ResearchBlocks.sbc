@@ -11,7 +11,14 @@
     </ResearchBlock>
 
     <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_LG_SleekCorridor_StraightLight" />
+      <Id Type="InteriorLight" Subtype="AQD_LG_SleekCorridor_StraightLight" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="CubeBlock" Subtype="AQD_LG_SleekCorridor_StraightWindow" />
       <UnlockedByGroups>
         <GroupSubtype>5</GroupSubtype>
       </UnlockedByGroups>

@@ -13,7 +13,8 @@
       <StrictSearch>true</StrictSearch>
       <ItemIds>
         <string>CubeBlock/AQD_LG_SleekCorridor_Straight</string>
-        <string>CubeBlock/AQD_LG_SleekCorridor_StraightLight</string>
+        <string>InteriorLight/AQD_LG_SleekCorridor_StraightLight</string>
+        <string>CubeBlock/AQD_LG_SleekCorridor_StraightWindow</string>
         <string>CubeBlock/AQD_LG_SleekCorridor_Corner</string>
         <string>CubeBlock/AQD_LG_SleekCorridor_T</string>
         <string>CubeBlock/AQD_LG_SleekCorridor_X</string>

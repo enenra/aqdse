@@ -1,6 +1,6 @@
 [img]https://i.imgur.com/fVVaDCS.gif[/img]
 
-[h1]Current version: [b]1.0[/b][/h1]
+[h1]Current version: [b]1.1[/b][/h1]
 [i]Please refer to the [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2492809392]changelog[/url] for patch notes.[/i]
 
 [img]https://i.imgur.com/cdhLXnQ.png[/img]
@@ -19,6 +19,7 @@ These blocks are large grid only (no plans to change this) and while they can be
 [list]
 [*]Sleek Corridor Straight
 [*]Sleek Corridor Straight (Light)
+[*]Sleek Corridor Straight (Window)
 [*]Sleek Corridor Corner
 [*]Sleek Corridor T
 [*]Sleek Corridor X

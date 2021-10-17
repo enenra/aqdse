@@ -11,6 +11,7 @@
       <Blocks>
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_SleekCorridor_Straight" />
         <Block Type="MyObjectBuilder_InteriorLight" Subtype="AQD_LG_SleekCorridor_StraightLight" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_SleekCorridor_StraightWindow" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_SleekCorridor_Corner" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_SleekCorridor_T" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_SleekCorridor_X" />
