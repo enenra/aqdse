@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>AQD_LG_LA_Slab_SlopeTransition</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_AQD_LG_LA_Slab_SlopeTransition}</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_LA_Slab_SlopeTransition.dds</Icon>
+      <Description>Description_LightArmor</Description>
+      <CubeSize>Large</CubeSize>
+      <Public>true</Public>
+      <GUIVisible>false</GUIVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\armor\AQD_LG_LA_Slab_SlopeTransition.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="16" />
+        <Component Subtype="SteelPlate" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Left" StartX="0.5" StartY="0.5" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\armor\AQD_LG_LA_Slab_SlopeTransition_BS1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\armor\AQD_LG_LA_Slab_SlopeTransition_BS2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AQD_LA_Slab_SlopeTransition</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringBlock>AQD_LG_LA_Slab_SlopeTransitionMirror</MirroringBlock>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>7</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <PCU>1</PCU>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>AQD_SG_LA_Slab_SlopeTransition</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_AQD_LG_LA_Slab_SlopeTransition}</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_LA_Slab_SlopeTransition.dds</Icon>
+      <Description>Description_LightArmor</Description>
+      <CubeSize>Small</CubeSize>
+      <Public>true</Public>
+      <GUIVisible>false</GUIVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\armor\AQD_SG_LA_Slab_SlopeTransition.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Left" StartX="0.5" StartY="0.5" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\armor\AQD_SG_LA_Slab_SlopeTransition_BS1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\armor\AQD_SG_LA_Slab_SlopeTransition_BS2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AQD_LA_Slab_SlopeTransition</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringBlock>AQD_SG_LA_Slab_SlopeTransitionMirror</MirroringBlock>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <PCU>1</PCU>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>AQD_LG_HA_Slab_SlopeTransition</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_AQD_LG_HA_Slab_SlopeTransition}</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_HA_Slab_SlopeTransition.dds</Icon>
+      <Description>{LOC:Description_HeavyArmor}</Description>
+      <CubeSize>Large</CubeSize>
+      <Public>true</Public>
+      <GUIVisible>false</GUIVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\armor\AQD_LG_HA_Slab_SlopeTransition.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="110" />
+        <Component Subtype="MetalGrid" Count="50" />
+        <Component Subtype="SteelPlate" Count="15" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Left" StartX="0.5" StartY="0.5" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\armor\AQD_LG_LA_Slab_SlopeTransition_BS1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\armor\AQD_LG_LA_Slab_SlopeTransition_BS2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AQD_HA_Slab_SlopeTransition</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringBlock>AQD_LG_HA_Slab_SlopeTransitionMirror</MirroringBlock>
+      <EdgeType>Heavy</EdgeType>
+      <BuildTimeSeconds>16</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <PCU>1</PCU>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>AQD_SG_HA_Slab_SlopeTransition</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_AQD_LG_HA_Slab_SlopeTransition}</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_HA_Slab_SlopeTransition.dds</Icon>
+      <Description>{LOC:Description_HeavyArmor}</Description>
+      <CubeSize>Small</CubeSize>
+      <Public>true</Public>
+      <GUIVisible>false</GUIVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\armor\AQD_SG_HA_Slab_SlopeTransition.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="2" />
+        <Component Subtype="MetalGrid" Count="1" />
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Left" StartX="0.5" StartY="0.5" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\armor\AQD_SG_LA_Slab_SlopeTransition_BS1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\armor\AQD_SG_LA_Slab_SlopeTransition_BS2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AQD_HA_Slab_SlopeTransition</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringBlock>AQD_SG_HA_Slab_SlopeTransitionMirror</MirroringBlock>
+      <EdgeType>Heavy</EdgeType>
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <PCU>1</PCU>
+    </Definition>
+
+
+    <!-- Mirrored -->
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>AQD_LG_LA_Slab_SlopeTransitionMirror</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_AQD_LG_LA_Slab_SlopeTransitionMirror}</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_LA_Slab_SlopeTransitionMirror.dds</Icon>
+      <Description>Description_LightArmor</Description>
+      <CubeSize>Large</CubeSize>
+      <Public>true</Public>
+      <GUIVisible>false</GUIVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\armor\AQD_LG_LA_Slab_SlopeTransitionMirror.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="16" />
+        <Component Subtype="SteelPlate" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Left" StartX="0.5" StartY="0.5" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\armor\AQD_LG_LA_Slab_SlopeTransitionMirror_BS1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\armor\AQD_LG_LA_Slab_SlopeTransitionMirror_BS2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AQD_LA_Slab_SlopeTransitionMirror</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringBlock>AQD_LG_LA_Slab_SlopeTransition</MirroringBlock>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>7</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <PCU>1</PCU>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>AQD_SG_LA_Slab_SlopeTransitionMirror</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_AQD_LG_LA_Slab_SlopeTransitionMirror}</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_LA_Slab_SlopeTransitionMirror.dds</Icon>
+      <Description>Description_LightArmor</Description>
+      <CubeSize>Small</CubeSize>
+      <Public>true</Public>
+      <GUIVisible>false</GUIVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\armor\AQD_SG_LA_Slab_SlopeTransitionMirror.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Left" StartX="0.5" StartY="0.5" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\armor\AQD_SG_LA_Slab_SlopeTransitionMirror_BS1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\armor\AQD_SG_LA_Slab_SlopeTransitionMirror_BS2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AQD_LA_Slab_SlopeTransitionMirror</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringBlock>AQD_SG_LA_Slab_SlopeTransition</MirroringBlock>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <PCU>1</PCU>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>AQD_LG_HA_Slab_SlopeTransitionMirror</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_AQD_LG_HA_Slab_SlopeTransitionMirror}</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_HA_Slab_SlopeTransitionMirror.dds</Icon>
+      <Description>{LOC:Description_HeavyArmor}</Description>
+      <CubeSize>Large</CubeSize>
+      <Public>true</Public>
+      <GUIVisible>false</GUIVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\armor\AQD_LG_HA_Slab_SlopeTransitionMirror.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="110" />
+        <Component Subtype="MetalGrid" Count="50" />
+        <Component Subtype="SteelPlate" Count="15" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Left" StartX="0.5" StartY="0.5" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\armor\AQD_LG_LA_Slab_SlopeTransitionMirror_BS1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\armor\AQD_LG_LA_Slab_SlopeTransitionMirror_BS2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AQD_HA_Slab_SlopeTransitionMirror</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringBlock>AQD_LG_HA_Slab_SlopeTransition</MirroringBlock>
+      <EdgeType>Heavy</EdgeType>
+      <BuildTimeSeconds>16</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <PCU>1</PCU>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>AQD_SG_HA_Slab_SlopeTransitionMirror</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_AQD_LG_HA_Slab_SlopeTransitionMirror}</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_HA_Slab_SlopeTransitionMirror.dds</Icon>
+      <Description>{LOC:Description_HeavyArmor}</Description>
+      <CubeSize>Small</CubeSize>
+      <Public>true</Public>
+      <GUIVisible>false</GUIVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\armor\AQD_SG_HA_Slab_SlopeTransitionMirror.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="2" />
+        <Component Subtype="MetalGrid" Count="1" />
+        <Component Subtype="SteelPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Left" StartX="0.5" StartY="0.5" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.5" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\armor\AQD_SG_LA_Slab_SlopeTransitionMirror_BS1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\armor\AQD_SG_LA_Slab_SlopeTransitionMirror_BS2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AQD_HA_Slab_SlopeTransitionMirror</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <MirroringBlock>AQD_SG_HA_Slab_SlopeTransition</MirroringBlock>
+      <EdgeType>Heavy</EdgeType>
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <PCU>1</PCU>
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>

@@ -26,7 +26,10 @@ namespace WeaponThread
                 "AQD_LG_LA_Slope3x1_InvCorner", 
                 "AQD_LG_LA_Slope4x1", 
                 "AQD_LG_LA_Slope4x1_Corner", 
-                "AQD_LG_LA_Slope4x1_InvCorner"
+                "AQD_LG_LA_Slope4x1_InvCorner",
+                "AQD_LG_LA_HalfSlopeTransition",
+                "AQD_LG_LA_Slab_SlopeTransition",
+                "AQD_LG_LA_SlopeTransition"
                 );
             // SG
             LightArmorSubtypes(
@@ -49,7 +52,10 @@ namespace WeaponThread
                 "AQD_SG_LA_Slope3x1_InvCorner", 
                 "AQD_SG_LA_Slope4x1", 
                 "AQD_SG_LA_Slope4x1_Corner", 
-                "AQD_SG_LA_Slope4x1_InvCorner"
+                "AQD_SG_LA_Slope4x1_InvCorner",
+                "AQD_SG_LA_HalfSlopeTransition",
+                "AQD_SG_LA_Slab_SlopeTransition",
+                "AQD_SG_LA_SlopeTransition"
                 );
 
             // LG
@@ -73,7 +79,10 @@ namespace WeaponThread
                 "AQD_LG_HA_Slope3x1_InvCorner", 
                 "AQD_LG_HA_Slope4x1", 
                 "AQD_LG_HA_Slope4x1_Corner", 
-                "AQD_LG_HA_Slope4x1_InvCorner"
+                "AQD_LG_HA_Slope4x1_InvCorner",
+                "AQD_LG_HA_HalfSlopeTransition",
+                "AQD_LG_HA_Slab_SlopeTransition",
+                "AQD_LG_HA_SlopeTransition"
                 );
             // SG
             HeavyArmorSubtypes(
@@ -96,7 +105,10 @@ namespace WeaponThread
                 "AQD_SG_HA_Slope3x1_InvCorner", 
                 "AQD_SG_HA_Slope4x1", 
                 "AQD_SG_HA_Slope4x1_Corner", 
-                "AQD_SG_HA_Slope4x1_InvCorner"
+                "AQD_SG_HA_Slope4x1_InvCorner",
+                "AQD_SG_HA_HalfSlopeTransition",
+                "AQD_SG_HA_Slab_SlopeTransition",
+                "AQD_SG_HA_SlopeTransition"
                 );
         }
     }

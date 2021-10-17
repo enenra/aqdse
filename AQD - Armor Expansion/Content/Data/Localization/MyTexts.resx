@@ -477,4 +477,52 @@
     <value>Light Armor Slab Raised Corner Inset</value>
     <comment/>
   </data>
+  <data name="DisplayName_AQD_LG_LA_HalfSlopeTransition" xml:space="preserve">
+    <value>Light Armor Half Slope Transition</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AQD_LG_HA_HalfSlopeTransition" xml:space="preserve">
+    <value>Heavy Armor Half Slope Transition</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AQD_LG_LA_HalfSlopeTransitionMirror" xml:space="preserve">
+    <value>Light Armor Half Slope Transition Mirrored</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AQD_LG_HA_HalfSlopeTransitionMirror" xml:space="preserve">
+    <value>Heavy Armor Half Slope Transition Mirrored</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AQD_LG_LA_Slab_SlopeTransition" xml:space="preserve">
+    <value>Light Armor Slab Slope Transition</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AQD_LG_HA_Slab_SlopeTransition" xml:space="preserve">
+    <value>Heavy Armor Slab Slope Transition</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AQD_LG_LA_Slab_SlopeTransitionMirror" xml:space="preserve">
+    <value>Light Armor Slab Slope Transition Mirrored</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AQD_LG_HA_Slab_SlopeTransitionMirror" xml:space="preserve">
+    <value>Heavy Armor Slab Slope Transition Mirrored</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AQD_LG_LA_SlopeTransition" xml:space="preserve">
+    <value>Light Armor Slope Transition</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AQD_LG_HA_SlopeTransition" xml:space="preserve">
+    <value>Heavy Armor Slope Transition</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AQD_LG_LA_SlopeTransitionMirror" xml:space="preserve">
+    <value>Light Armor Slope Transition Mirrored</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AQD_LG_HA_SlopeTransitionMirror" xml:space="preserve">
+    <value>Heavy Armor Slope Transition Mirrored</value>
+    <comment/>
+  </data>
 </root>

@@ -12,9 +12,13 @@
       <ItemIds>
         <string>CubeBlock/AQD_LG_HA_Corner_Split_2x1x1_Base</string>
         <string>CubeBlock/AQD_LG_HA_Corner_Split_2x1x1_Tip</string>
+        <string>CubeBlock/AQD_LG_HA_HalfSlopeTransition</string>
+        <string>CubeBlock/AQD_LG_HA_HalfSlopeTransitionMirror</string>
         <string>CubeBlock/AQD_LG_HA_Slab_Corner_Split</string>
         <string>CubeBlock/AQD_LG_HA_Slab_InvCorner_Split</string>
         <string>CubeBlock/AQD_LG_HA_Slab_Half_Corner_Split</string>
+        <string>CubeBlock/AQD_LG_HA_Slab_SlopeTransition</string>
+        <string>CubeBlock/AQD_LG_HA_Slab_SlopeTransitionMirror</string>
         <string>CubeBlock/AQD_LG_HA_Slope3x1</string>
         <string>CubeBlock/AQD_LG_HA_Slope3x1_Corner</string>
         <string>CubeBlock/AQD_LG_HA_Slope3x1_InvCorner</string>
@@ -23,12 +27,18 @@
         <string>CubeBlock/AQD_LG_HA_Slope4x1_InvCorner</string>
         <string>CubeBlock/AQD_LG_HA_Slab_RaisedCorner_Split</string>
         <string>CubeBlock/AQD_LG_HA_Slab_RaisedCorner_Inset</string>
+        <string>CubeBlock/AQD_LG_HA_SlopeTransition</string>
+        <string>CubeBlock/AQD_LG_HA_SlopeTransitionMirror</string>
 
         <string>CubeBlock/AQD_LG_LA_Corner_Split_2x1x1_Base</string>
         <string>CubeBlock/AQD_LG_LA_Corner_Split_2x1x1_Tip</string>
+        <string>CubeBlock/AQD_LG_LA_HalfSlopeTransition</string>
+        <string>CubeBlock/AQD_LG_LA_HalfSlopeTransitionMirror</string>
         <string>CubeBlock/AQD_LG_LA_Slab_Corner_Split</string>
         <string>CubeBlock/AQD_LG_LA_Slab_InvCorner_Split</string>
         <string>CubeBlock/AQD_LG_LA_Slab_Half_Corner_Split</string>
+        <string>CubeBlock/AQD_LG_LA_Slab_SlopeTransition</string>
+        <string>CubeBlock/AQD_LG_LA_Slab_SlopeTransitionMirror</string>
         <string>CubeBlock/AQD_LG_LA_Slope3x1</string>
         <string>CubeBlock/AQD_LG_LA_Slope3x1_Corner</string>
         <string>CubeBlock/AQD_LG_LA_Slope3x1_InvCorner</string>
@@ -37,6 +47,8 @@
         <string>CubeBlock/AQD_LG_LA_Slope4x1_InvCorner</string>
         <string>CubeBlock/AQD_LG_LA_Slab_RaisedCorner_Split</string>
         <string>CubeBlock/AQD_LG_LA_Slab_RaisedCorner_Inset</string>
+        <string>CubeBlock/AQD_LG_LA_SlopeTransition</string>
+        <string>CubeBlock/AQD_LG_LA_SlopeTransitionMirror</string>
       </ItemIds>
     </Category>
 
@@ -50,9 +62,13 @@
       <ItemIds>
         <string>CubeBlock/AQD_SG_HA_Corner_Split_2x1x1_Base</string>
         <string>CubeBlock/AQD_SG_HA_Corner_Split_2x1x1_Tip</string>
+        <string>CubeBlock/AQD_SG_HA_HalfSlopeTransition</string>
+        <string>CubeBlock/AQD_SG_HA_HalfSlopeTransitionMirror</string>
         <string>CubeBlock/AQD_SG_HA_Slab_Corner_Split</string>
         <string>CubeBlock/AQD_SG_HA_Slab_InvCorner_Split</string>
         <string>CubeBlock/AQD_SG_HA_Slab_Half_Corner_Split</string>
+        <string>CubeBlock/AQD_SG_HA_Slab_SlopeTransition</string>
+        <string>CubeBlock/AQD_SG_HA_Slab_SlopeTransitionMirror</string>
         <string>CubeBlock/AQD_SG_HA_Slope3x1</string>
         <string>CubeBlock/AQD_SG_HA_Slope3x1_Corner</string>
         <string>CubeBlock/AQD_SG_HA_Slope3x1_InvCorner</string>
@@ -61,12 +77,18 @@
         <string>CubeBlock/AQD_SG_HA_Slope4x1_InvCorner</string>
         <string>CubeBlock/AQD_SG_HA_Slab_RaisedCorner_Split</string>
         <string>CubeBlock/AQD_SG_HA_Slab_RaisedCorner_Inset</string>
+        <string>CubeBlock/AQD_SG_HA_SlopeTransition</string>
+        <string>CubeBlock/AQD_SG_HA_SlopeTransitionMirror</string>
         
         <string>CubeBlock/AQD_SG_LA_Corner_Split_2x1x1_Base</string>
         <string>CubeBlock/AQD_SG_LA_Corner_Split_2x1x1_Tip</string>
+        <string>CubeBlock/AQD_SG_LA_HalfSlopeTransition</string>
+        <string>CubeBlock/AQD_SG_LA_HalfSlopeTransitionMirror</string>
         <string>CubeBlock/AQD_SG_LA_Slab_Corner_Split</string>
         <string>CubeBlock/AQD_SG_LA_Slab_InvCorner_Split</string>
         <string>CubeBlock/AQD_SG_LA_Slab_Half_Corner_Split</string>
+        <string>CubeBlock/AQD_SG_LA_Slab_SlopeTransition</string>
+        <string>CubeBlock/AQD_SG_LA_Slab_SlopeTransitionMirror</string>
         <string>CubeBlock/AQD_SG_LA_Slope3x1</string>
         <string>CubeBlock/AQD_SG_LA_Slope3x1_Corner</string>
         <string>CubeBlock/AQD_SG_LA_Slope3x1_InvCorner</string>
@@ -75,6 +97,8 @@
         <string>CubeBlock/AQD_SG_LA_Slope4x1_InvCorner</string>
         <string>CubeBlock/AQD_SG_LA_Slab_RaisedCorner_Split</string>
         <string>CubeBlock/AQD_SG_LA_Slab_RaisedCorner_Inset</string>
+        <string>CubeBlock/AQD_SG_LA_SlopeTransition</string>
+        <string>CubeBlock/AQD_SG_LA_SlopeTransitionMirror</string>
       </ItemIds>
     </Category>
 
@@ -88,9 +112,13 @@
       <ItemIds>
         <string>CubeBlock/AQD_LG_HA_Corner_Split_2x1x1_Base</string>
         <string>CubeBlock/AQD_LG_HA_Corner_Split_2x1x1_Tip</string>
+        <string>CubeBlock/AQD_LG_HA_HalfSlopeTransition</string>
+        <string>CubeBlock/AQD_LG_HA_HalfSlopeTransitionMirror</string>
         <string>CubeBlock/AQD_LG_HA_Slab_Corner_Split</string>
         <string>CubeBlock/AQD_LG_HA_Slab_InvCorner_Split</string>
         <string>CubeBlock/AQD_LG_HA_Slab_Half_Corner_Split</string>
+        <string>CubeBlock/AQD_LG_HA_Slab_SlopeTransition</string>
+        <string>CubeBlock/AQD_LG_HA_Slab_SlopeTransitionMirror</string>
         <string>CubeBlock/AQD_LG_HA_Slope3x1</string>
         <string>CubeBlock/AQD_LG_HA_Slope3x1_Corner</string>
         <string>CubeBlock/AQD_LG_HA_Slope3x1_InvCorner</string>
@@ -99,12 +127,18 @@
         <string>CubeBlock/AQD_LG_HA_Slope4x1_InvCorner</string>
         <string>CubeBlock/AQD_LG_HA_Slab_RaisedCorner_Split</string>
         <string>CubeBlock/AQD_LG_HA_Slab_RaisedCorner_Inset</string>
+        <string>CubeBlock/AQD_LG_HA_SlopeTransition</string>
+        <string>CubeBlock/AQD_LG_HA_SlopeTransitionMirror</string>
         
         <string>CubeBlock/AQD_LG_LA_Corner_Split_2x1x1_Base</string>
         <string>CubeBlock/AQD_LG_LA_Corner_Split_2x1x1_Tip</string>
+        <string>CubeBlock/AQD_LG_LA_HalfSlopeTransition</string>
+        <string>CubeBlock/AQD_LG_LA_HalfSlopeTransitionMirror</string>
         <string>CubeBlock/AQD_LG_LA_Slab_Corner_Split</string>
         <string>CubeBlock/AQD_LG_LA_Slab_InvCorner_Split</string>
         <string>CubeBlock/AQD_LG_LA_Slab_Half_Corner_Split</string>
+        <string>CubeBlock/AQD_LG_LA_Slab_SlopeTransition</string>
+        <string>CubeBlock/AQD_LG_LA_Slab_SlopeTransitionMirror</string>
         <string>CubeBlock/AQD_LG_LA_Slope3x1</string>
         <string>CubeBlock/AQD_LG_LA_Slope3x1_Corner</string>
         <string>CubeBlock/AQD_LG_LA_Slope3x1_InvCorner</string>
@@ -113,6 +147,8 @@
         <string>CubeBlock/AQD_LG_LA_Slope4x1_InvCorner</string>
         <string>CubeBlock/AQD_LG_LA_Slab_RaisedCorner_Split</string>
         <string>CubeBlock/AQD_LG_LA_Slab_RaisedCorner_Inset</string>
+        <string>CubeBlock/AQD_LG_LA_SlopeTransition</string>
+        <string>CubeBlock/AQD_LG_LA_SlopeTransitionMirror</string>
       </ItemIds>
     </Category>
 
