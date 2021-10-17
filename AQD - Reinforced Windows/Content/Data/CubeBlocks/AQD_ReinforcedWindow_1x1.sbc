@@ -15,7 +15,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1"/>
       <ModelOffset x="0" y="0" z="0"/>
-      <Model>Models\Cube\large\AQD_LG_ReinforcedWindow_1x1.mwm</Model>
+      <Model>Models\Cubes\large\AQD_LG_ReinforcedWindow_1x1.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="20" />
         <Component Subtype="Girder" Count="10" />
@@ -30,9 +30,9 @@
         <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" Default="true"/>
       </MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cube\large\AQD_LG_ReinforcedWindow_1x1_BS1.mwm"/>
-        <Model BuildPercentUpperBound="0.67" File="Models\Cube\large\AQD_LG_ReinforcedWindow_1x1_BS2.mwm"/>
-        <Model BuildPercentUpperBound="1.00" File="Models\Cube\large\AQD_LG_ReinforcedWindow_1x1_BS3.mwm"/>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\AQD_LG_ReinforcedWindow_1x1_BS1.mwm"/>
+        <Model BuildPercentUpperBound="0.67" File="Models\Cubes\large\AQD_LG_ReinforcedWindow_1x1_BS2.mwm"/>
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\AQD_LG_ReinforcedWindow_1x1_BS3.mwm"/>
       </BuildProgressModels>
       <BlockPairName>AQD_ReinforcedWindow_1x1</BlockPairName>
       <MirroringY>X</MirroringY>
@@ -53,7 +53,7 @@
       <BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="3" z="3"/>
       <ModelOffset x="0" y="0" z="0"/>
-      <Model>Models\Cube\small\AQD_SG_ReinforcedWindow_1x1.mwm</Model>
+      <Model>Models\Cubes\small\AQD_SG_ReinforcedWindow_1x1.mwm</Model>
       <Components>
         <Component Subtype="SteelPlate" Count="12" />
         <Component Subtype="Girder" Count="6" />
@@ -68,9 +68,9 @@
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00" Default="true"/>
 			</MountPoints>
       <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cube\small\AQD_SG_ReinforcedWindow_1x1_BS1.mwm"/>
-        <Model BuildPercentUpperBound="0.67" File="Models\Cube\small\AQD_SG_ReinforcedWindow_1x1_BS2.mwm"/>
-        <Model BuildPercentUpperBound="1.00" File="Models\Cube\small\AQD_SG_ReinforcedWindow_1x1_BS3.mwm"/>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\small\AQD_SG_ReinforcedWindow_1x1_BS1.mwm"/>
+        <Model BuildPercentUpperBound="0.67" File="Models\Cubes\small\AQD_SG_ReinforcedWindow_1x1_BS2.mwm"/>
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\AQD_SG_ReinforcedWindow_1x1_BS3.mwm"/>
       </BuildProgressModels>
       <BlockPairName>AQD_ReinforcedWindow_1x1</BlockPairName>
       <MirroringY>X</MirroringY>
