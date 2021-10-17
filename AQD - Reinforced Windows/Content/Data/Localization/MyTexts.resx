@@ -177,4 +177,12 @@
     <value>Small Reinforced Window 1x2 Corner Inverted</value>
     <comment/>
   </data>
+  <data name="DisplayName_AQD_LG_ReinforcedWindow_1x1Triangle" xml:space="preserve">
+    <value>Reinforced Window 1x1 Triangle</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AQD_SG_ReinforcedWindow_1x1Triangle" xml:space="preserve">
+    <value>Small Reinforced Window 1x1 Triangle</value>
+    <comment/>
+  </data>
 </root>
