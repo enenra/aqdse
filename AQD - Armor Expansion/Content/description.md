@@ -46,3 +46,5 @@ To my knowledge, most other armor block mods don't currently support armor skins
 [*]I am [b]NOT[/b] taking requests for more armor shapes. There will always be more to add - and I will add more in the future - but I will never be able to add all of them. I'd rather focus on a small amount that is of high quality and as universally applicable as possible.
 [*]As it is not possible to add new deformation shapes to the game, and using the existing ones would not yield good results for some of these shapes, these blocks unfortunately do not support deformation.
 [/list]
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1808547374][img]https://i.imgur.com/cNuGTwv.jpg[/img][/url][url=https://spaceengineers.mod.io/aqd-armor-expansion][img]https://i.imgur.com/mcZscI7.jpg[/img][/url]
