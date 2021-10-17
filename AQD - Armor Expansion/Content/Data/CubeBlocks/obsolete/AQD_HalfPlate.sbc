@@ -11,6 +11,7 @@
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_LA_HalfPlate.png</Icon>
       <Description>{LOC:Description_LightArmor}</Description>
       <CubeSize>Large</CubeSize>
+      <Public>false</Public>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
@@ -47,6 +48,7 @@
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_LA_HalfPlate.png</Icon>
       <Description>{LOC:Description_LightArmor}</Description>
       <CubeSize>Small</CubeSize>
+      <Public>false</Public>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
@@ -83,6 +85,7 @@
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_HA_HalfPlate.png</Icon>
       <Description>{LOC:Description_HeavyArmor}</Description>
       <CubeSize>Large</CubeSize>
+      <Public>false</Public>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
@@ -121,6 +124,7 @@
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_HA_HalfPlate.png</Icon>
       <Description>{LOC:Description_HeavyArmor}</Description>
       <CubeSize>Small</CubeSize>
+      <Public>false</Public>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
