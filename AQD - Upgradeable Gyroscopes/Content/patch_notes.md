@@ -2,4 +2,5 @@
 [list]
 [*]All Gyroscopes now spin in accordance with the grid's movement. (Thanks to Ash Like Snow for the amazing script!)
 [*]Added new blocks to Assembler for easy queueing.
+[*]Added mountpoint to the front of the Gyro Upgrade Module.
 [/list]

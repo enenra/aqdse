@@ -27,7 +27,8 @@
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
 			<MountPoints>
-				<MountPoint Side="Back" StartX="1.00" StartY="1.00" EndX="2.00" EndY="2.00"/>
+				<MountPoint Side="Front" StartX="1.00" StartY="1.00" EndX="2.00" EndY="2.00" />
+				<MountPoint Side="Back" StartX="1.00" StartY="1.00" EndX="2.00" EndY="2.00" Default="true" />
 			</MountPoints>
       <BlockPairName>AQD_GyroUpgrade</BlockPairName>
       <EdgeType>Light</EdgeType>
