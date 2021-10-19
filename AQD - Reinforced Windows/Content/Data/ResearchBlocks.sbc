@@ -18,6 +18,13 @@
     </ResearchBlock>
 
     <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="CubeBlock" Subtype="AQD_LG_ReinforcedWindow_1x1TriangleOffset" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
       <Id Type="CubeBlock" Subtype="AQD_LG_ReinforcedWindow_1x1Corner" />
       <UnlockedByGroups>
         <GroupSubtype>5</GroupSubtype>
@@ -69,6 +76,13 @@
 
     <ResearchBlock xsi:type="ResearchBlock">
       <Id Type="CubeBlock" Subtype="AQD_SG_ReinforcedWindow_1x1Triangle" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="CubeBlock" Subtype="AQD_SG_ReinforcedWindow_1x1TriangleOffset" />
       <UnlockedByGroups>
         <GroupSubtype>5</GroupSubtype>
       </UnlockedByGroups>

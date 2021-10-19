@@ -10,6 +10,8 @@ namespace Scripts {
                 "AQD_SG_ReinforcedWindow_1x1",
                 "AQD_LG_ReinforcedWindow_1x1Triangle",
                 "AQD_SG_ReinforcedWindow_1x1Triangle",
+                "AQD_LG_ReinforcedWindow_1x1TriangleOffset",
+                "AQD_SG_ReinforcedWindow_1x1TriangleOffset",
                 "AQD_LG_ReinforcedWindow_1x1Corner",
                 "AQD_SG_ReinforcedWindow_1x1Corner",
                 "AQD_LG_ReinforcedWindow_1x1CornerInv",

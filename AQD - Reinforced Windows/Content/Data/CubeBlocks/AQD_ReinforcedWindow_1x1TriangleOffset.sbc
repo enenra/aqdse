@@ -1,0 +1,83 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CubeBlocks>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>AQD_LG_ReinforcedWindow_1x1TriangleOffset</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_AQD_LG_ReinforcedWindow_1x1TriangleOffset}</DisplayName>
+      <Description>{LOC:Description_AQD_ReinforcedWindows}</Description>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_ReinforcedWindow_1x1Triangle.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\OffsetSymbolOverlay.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1"/>
+      <ModelOffset x="0" y="0" z="0"/>
+      <Model>Models\Cubes\large\AQD_LG_ReinforcedWindow_1x1TriangleOffset.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="15" />
+        <Component Subtype="Girder" Count="5" />
+        <Component Subtype="BulletproofGlass" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.00" StartY="0.98" EndX="1.00" EndY="1.00" Default="true"/>
+        <MountPoint Side="Left" StartX="0.00" StartY="0.98" EndX="1.00" EndY="1.00"/>
+      </MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\AQD_LG_ReinforcedWindow_1x1TriangleOffset_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\large\AQD_LG_ReinforcedWindow_1x1TriangleOffset_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\AQD_LG_ReinforcedWindow_1x1TriangleOffset_BS3.mwm"/>
+			</BuildProgressModels>
+      <BlockPairName>AQD_ReinforcedWindow_1x1TriangleOffset</BlockPairName>
+      <MirroringX>HalfY</MirroringX>
+      <MirroringY>XHalfY</MirroringY>
+      <MirroringZ>MinusHalfY</MirroringZ>
+      <BuildTimeSeconds>7.5</BuildTimeSeconds>
+      <PhysicalMaterial>Glass</PhysicalMaterial>
+      <PCU>1</PCU>
+    </Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>AQD_SG_ReinforcedWindow_1x1TriangleOffset</SubtypeId>
+			</Id>
+			<DisplayName>{LOC:DisplayName_AQD_SG_ReinforcedWindow_1x1TriangleOffset}</DisplayName>
+			<Description>{LOC:Description_AQD_ReinforcedWindows}</Description>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_ReinforcedWindow_1x1Triangle.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\OffsetSymbolOverlay.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="3" z="3"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\AQD_SG_ReinforcedWindow_1x1TriangleOffset.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="10" />
+        <Component Subtype="Girder" Count="3" />
+        <Component Subtype="BulletproofGlass" Count="6" />
+      </Components>
+      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.00" StartY="0.98" EndX="1.00" EndY="1.00" Default="true"/>
+        <MountPoint Side="Left" StartX="0.00" StartY="0.98" EndX="1.00" EndY="1.00"/>
+      </MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\small\AQD_SG_ReinforcedWindow_1x1TriangleOffset_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\small\AQD_SG_ReinforcedWindow_1x1TriangleOffset_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\AQD_SG_ReinforcedWindow_1x1TriangleOffset_BS3.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>AQD_ReinforcedWindow_1x1TriangleOffset</BlockPairName>
+      <MirroringX>HalfY</MirroringX>
+      <MirroringY>XHalfY</MirroringY>
+      <MirroringZ>MinusHalfY</MirroringZ>
+      <BuildTimeSeconds>4.5</BuildTimeSeconds>
+      <PhysicalMaterial>Glass</PhysicalMaterial>
+      <PCU>1</PCU>
+		</Definition>
+
+  </CubeBlocks>
+</Definitions>

@@ -14,6 +14,7 @@
       <ItemIds>
         <string>CubeBlock/AQD_LG_ReinforcedWindow_1x1</string>
         <string>CubeBlock/AQD_LG_ReinforcedWindow_1x1Triangle</string>
+        <string>CubeBlock/AQD_LG_ReinforcedWindow_1x1TriangleOffset</string>
         <string>CubeBlock/AQD_LG_ReinforcedWindow_1x1Corner</string>
         <string>CubeBlock/AQD_LG_ReinforcedWindow_1x1CornerInv</string>
         <string>CubeBlock/AQD_LG_ReinforcedWindow_1x1Slope</string>
@@ -34,6 +35,7 @@
       <ItemIds>
         <string>CubeBlock/AQD_SG_ReinforcedWindow_1x1</string>
         <string>CubeBlock/AQD_SG_ReinforcedWindow_1x1Triangle</string>
+        <string>CubeBlock/AQD_SG_ReinforcedWindow_1x1TriangleOffset</string>
         <string>CubeBlock/AQD_SG_ReinforcedWindow_1x1Corner</string>
         <string>CubeBlock/AQD_SG_ReinforcedWindow_1x1CornerInv</string>
         <string>CubeBlock/AQD_SG_ReinforcedWindow_1x1Slope</string>
@@ -54,6 +56,7 @@
       <ItemIds>
         <string>CubeBlock/AQD_LG_ReinforcedWindow_1x1</string>
         <string>CubeBlock/AQD_LG_ReinforcedWindow_1x1Triangle</string>
+        <string>CubeBlock/AQD_LG_ReinforcedWindow_1x1TriangleOffset</string>
         <string>CubeBlock/AQD_LG_ReinforcedWindow_1x1Corner</string>
         <string>CubeBlock/AQD_LG_ReinforcedWindow_1x1CornerInv</string>
         <string>CubeBlock/AQD_LG_ReinforcedWindow_1x1Slope</string>
@@ -63,6 +66,7 @@
         
         <string>CubeBlock/AQD_SG_ReinforcedWindow_1x1</string>
         <string>CubeBlock/AQD_SG_ReinforcedWindow_1x1Triangle</string>
+        <string>CubeBlock/AQD_SG_ReinforcedWindow_1x1TriangleOffset</string>
         <string>CubeBlock/AQD_SG_ReinforcedWindow_1x1Corner</string>
         <string>CubeBlock/AQD_SG_ReinforcedWindow_1x1CornerInv</string>
         <string>CubeBlock/AQD_SG_ReinforcedWindow_1x1Slope</string>
