@@ -193,4 +193,16 @@
     <value>Small Reinforced Window 1x1 Triangle Offset</value>
     <comment/>
   </data>
+  <data name="DisplayName_AQD_LG_ReinforcedWindow_1x2Triangle" xml:space="preserve">
+    <value>Reinforced Window 1x2 Triangle</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AQD_SG_ReinforcedWindow_1x2Triangle" xml:space="preserve">
+    <value>Small Reinforced Window 1x2 Triangle Mirrored</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AQD_LG_ReinforcedWindow_1x2TriangleMirror" xml:space="preserve">
+    <value>Reinforced Window 1x2 Triangle Mirrored</value>
+    <comment/>
+  </data>
 </root>
