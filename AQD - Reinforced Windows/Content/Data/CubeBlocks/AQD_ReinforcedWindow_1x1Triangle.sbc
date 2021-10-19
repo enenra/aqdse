@@ -61,9 +61,9 @@
       </Components>
       <CriticalComponent Subtype="BulletproofGlass" Index="0" />
       <MountPoints>
-        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.02"/>
-        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.02"/>
-        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" Default="true"/>
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="3.00" EndY="0.06"/>
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="0.06"/>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00" Default="true"/>
       </MountPoints>
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\small\AQD_SG_ReinforcedWindow_1x1Triangle_BS1.mwm"/>
