@@ -1,6 +1,6 @@
 [img]https://i.imgur.com/fVVaDCS.gif[/img]
 
-[h1]Current version: [b]1.0[/b][/h1]
+[h1]Current version: [b]1.1[/b][/h1]
 [i]Please refer to the [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2486269122]changelog[/url] for patch notes.[/i]
 
 [img]https://i.imgur.com/cdhLXnQ.png[/img]
@@ -14,16 +14,20 @@ This mod adds a set of reinforced windows in large and small grid (3x3) to the g
 
 [img]https://i.imgur.com/5nbiNLV.png[/img]
 
-[h1]7 New Reinforced Window Blocks[/h1]
+[h1]11 New Reinforced Window Blocks[/h1]
 Available in both large and small grid (but 3x3, not 1x1), reinforced windows are more durable than regular windows.
 [list]
 [*]Reinforced Window 1x1
+[*]Reinforced Window 1x1 Triangle
+[*]Reinforced Window 1x1 Triangle Offset
 [*]Reinforced Window 1x1 Corner
 [*]Reinforced Window 1x1 Corner Inverted
 [*]Reinforced Window 1x1 Slope
 [*]Reinforced Window 1x2 Corner
 [*]Reinforced Window 1x2 Corner Inverted
 [*]Reinforced Window 1x2 Slope
+[*]Reinforced Window 1x2 Triangle
+[*]Reinforced Window 1x2 Triangle Offset
 [/list]
 
 [url=https://discord.gg/QtyCsBr][img]https://i.imgur.com/l8exfyn.png[/img][/url]
@@ -34,4 +38,5 @@ Available in both large and small grid (but 3x3, not 1x1), reinforced windows ar
 [*][b]Shadestuff[/b] - He made the models that I based the shape of my blocks on.
 [*][b]pilfit, Consty, Purrfect-Blinky, V0ID and AryxErin[/b] - For testing the mod and providing the awesome screenshots for the modpage.
 [/list]
+
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2486269122][img]https://i.imgur.com/cNuGTwv.jpg[/img][/url][url=https://spaceengineers.mod.io/aqd-reinforced-windows][img]https://i.imgur.com/mcZscI7.jpg[/img][/url]
