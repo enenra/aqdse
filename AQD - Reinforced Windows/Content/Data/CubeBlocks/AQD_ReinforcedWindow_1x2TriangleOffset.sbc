@@ -1,0 +1,163 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CubeBlocks>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>AQD_LG_ReinforcedWindow_1x2TriangleOffset</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_AQD_LG_ReinforcedWindow_1x2TriangleOffset}</DisplayName>
+      <Description>{LOC:Description_AQD_ReinforcedWindows}</Description>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_ReinforcedWindow_1x2Triangle.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Offset_Single.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2"/>
+      <ModelOffset x="0" y="0" z="0"/>
+      <Model>Models\Cubes\large\AQD_LG_ReinforcedWindow_1x2TriangleOffset.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="32" />
+        <Component Subtype="Girder" Count="16" />
+        <Component Subtype="BulletproofGlass" Count="28" />
+      </Components>
+      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.00" StartY="0.98" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Left" StartX="0.00" StartY="0.98" EndX="2.00" EndY="1.00"/>
+      </MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\AQD_LG_ReinforcedWindow_1x2TriangleOffset_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\large\AQD_LG_ReinforcedWindow_1x2TriangleOffset_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\AQD_LG_ReinforcedWindow_1x2TriangleOffset_BS3.mwm"/>
+			</BuildProgressModels>
+      <BlockPairName>AQD_ReinforcedWindow_1x2TriangleOffset</BlockPairName>
+      <MirroringX>Y</MirroringX>
+      <MirroringY>X</MirroringY>
+      <MirroringBlock>AQD_LG_ReinforcedWindow_1x2TriangleOffsetMirror</MirroringBlock>
+      <BuildTimeSeconds>12.5</BuildTimeSeconds>
+      <PhysicalMaterial>Glass</PhysicalMaterial>
+      <PCU>1</PCU>
+    </Definition>
+    
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>AQD_SG_ReinforcedWindow_1x2TriangleOffset</SubtypeId>
+			</Id>
+			<DisplayName>{LOC:DisplayName_AQD_SG_ReinforcedWindow_1x2TriangleOffset}</DisplayName>
+      <Description>{LOC:Description_AQD_ReinforcedWindows}</Description>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_ReinforcedWindow_1x2Triangle.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Offset_Single.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="3" z="6"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\AQD_SG_ReinforcedWindow_1x2TriangleOffset.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="20" />
+        <Component Subtype="Girder" Count="10" />
+        <Component Subtype="BulletproofGlass" Count="16" />
+      </Components>
+      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.00" StartY="2.94" EndX="3.00" EndY="3.00"/>
+        <MountPoint Side="Left" StartX="0.00" StartY="2.94" EndX="6.00" EndY="3.00"/>
+      </MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\small\AQD_SG_ReinforcedWindow_1x2TriangleOffset_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\small\AQD_SG_ReinforcedWindow_1x2TriangleOffset_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\AQD_SG_ReinforcedWindow_1x2TriangleOffset_BS3.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>AQD_ReinforcedWindow_1x2TriangleOffset</BlockPairName>
+      <MirroringX>Y</MirroringX>
+      <MirroringY>X</MirroringY>
+      <MirroringBlock>AQD_SG_ReinforcedWindow_1x2TriangleOffsetMirror</MirroringBlock>
+      <BuildTimeSeconds>7.5</BuildTimeSeconds>
+      <PhysicalMaterial>Glass</PhysicalMaterial>
+      <PCU>1</PCU>
+		</Definition>
+
+    <!-- Mirrored -->
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>AQD_LG_ReinforcedWindow_1x2TriangleOffsetMirror</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_AQD_LG_ReinforcedWindow_1x2TriangleOffsetMirror}</DisplayName>
+      <Description>{LOC:Description_AQD_ReinforcedWindows}</Description>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_ReinforcedWindow_1x2Triangle.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Offset_Single.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Mirror_Dual.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2"/>
+      <ModelOffset x="0" y="0" z="0"/>
+      <Model>Models\Cubes\large\AQD_LG_ReinforcedWindow_1x2TriangleOffsetMirror.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="32" />
+        <Component Subtype="Girder" Count="16" />
+        <Component Subtype="BulletproofGlass" Count="28" />
+      </Components>
+      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0.00" StartY="0.98" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Left" StartX="0.00" StartY="0.98" EndX="2.00" EndY="1.00"/>
+      </MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\AQD_LG_ReinforcedWindow_1x2TriangleOffsetMirror_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\large\AQD_LG_ReinforcedWindow_1x2TriangleOffsetMirror_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\AQD_LG_ReinforcedWindow_1x2TriangleOffsetMirror_BS3.mwm"/>
+			</BuildProgressModels>
+      <BlockPairName>AQD_ReinforcedWindow_1x2TriangleOffsetMirror</BlockPairName>
+      <MirroringX>Y</MirroringX>
+      <MirroringY>X</MirroringY>
+      <MirroringBlock>AQD_LG_ReinforcedWindow_1x2TriangleOffset</MirroringBlock>
+      <BuildTimeSeconds>12.5</BuildTimeSeconds>
+      <PhysicalMaterial>Glass</PhysicalMaterial>
+      <PCU>1</PCU>
+    </Definition>
+    
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>AQD_SG_ReinforcedWindow_1x2TriangleOffsetMirror</SubtypeId>
+			</Id>
+			<DisplayName>{LOC:DisplayName_AQD_SG_ReinforcedWindow_1x2TriangleOffsetMirror}</DisplayName>
+      <Description>{LOC:Description_AQD_ReinforcedWindows}</Description>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_ReinforcedWindow_1x2Triangle.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Offset_Single.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Mirror_Dual.dds</Icon>
+			<CubeSize>Small</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="3" z="6"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\small\AQD_SG_ReinforcedWindow_1x2TriangleOffsetMirror.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="20" />
+        <Component Subtype="Girder" Count="10" />
+        <Component Subtype="BulletproofGlass" Count="16" />
+      </Components>
+      <CriticalComponent Subtype="BulletproofGlass" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0.00" StartY="2.94" EndX="3.00" EndY="3.00"/>
+        <MountPoint Side="Left" StartX="0.00" StartY="2.94" EndX="6.00" EndY="3.00"/>
+      </MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\small\AQD_SG_ReinforcedWindow_1x2TriangleOffsetMirror_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\small\AQD_SG_ReinforcedWindow_1x2TriangleOffsetMirror_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\AQD_SG_ReinforcedWindow_1x2TriangleOffsetMirror_BS3.mwm"/>
+			</BuildProgressModels>
+			<BlockPairName>AQD_ReinforcedWindow_1x2TriangleOffsetMirror</BlockPairName>
+      <MirroringX>Y</MirroringX>
+      <MirroringY>X</MirroringY>
+      <MirroringBlock>AQD_SG_ReinforcedWindow_1x2TriangleOffset</MirroringBlock>
+      <BuildTimeSeconds>7.5</BuildTimeSeconds>
+      <PhysicalMaterial>Glass</PhysicalMaterial>
+      <PCU>1</PCU>
+		</Definition>
+
+  </CubeBlocks>
+</Definitions>

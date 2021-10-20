@@ -20,6 +20,8 @@
         <string>CubeBlock/AQD_LG_ReinforcedWindow_1x1Slope</string>
         <string>CubeBlock/AQD_LG_ReinforcedWindow_1x2Triangle</string>
         <string>CubeBlock/AQD_LG_ReinforcedWindow_1x2TriangleMirror</string>
+        <string>CubeBlock/AQD_LG_ReinforcedWindow_1x2TriangleOffset</string>
+        <string>CubeBlock/AQD_LG_ReinforcedWindow_1x2TriangleOffsetMirror</string>
         <string>CubeBlock/AQD_LG_ReinforcedWindow_1x2Corner</string>
         <string>CubeBlock/AQD_LG_ReinforcedWindow_1x2CornerInv</string>
         <string>CubeBlock/AQD_LG_ReinforcedWindow_1x2Slope</string>
@@ -43,6 +45,8 @@
         <string>CubeBlock/AQD_SG_ReinforcedWindow_1x1Slope</string>
         <string>CubeBlock/AQD_SG_ReinforcedWindow_1x2Triangle</string>
         <string>CubeBlock/AQD_SG_ReinforcedWindow_1x2TriangleMirror</string>
+        <string>CubeBlock/AQD_SG_ReinforcedWindow_1x2TriangleOffset</string>
+        <string>CubeBlock/AQD_SG_ReinforcedWindow_1x2TriangleOffsetMirror</string>
         <string>CubeBlock/AQD_SG_ReinforcedWindow_1x2Corner</string>
         <string>CubeBlock/AQD_SG_ReinforcedWindow_1x2CornerInv</string>
         <string>CubeBlock/AQD_SG_ReinforcedWindow_1x2Slope</string>
@@ -66,6 +70,8 @@
         <string>CubeBlock/AQD_LG_ReinforcedWindow_1x1Slope</string>
         <string>CubeBlock/AQD_LG_ReinforcedWindow_1x2Triangle</string>
         <string>CubeBlock/AQD_LG_ReinforcedWindow_1x2TriangleMirror</string>
+        <string>CubeBlock/AQD_LG_ReinforcedWindow_1x2TriangleOffset</string>
+        <string>CubeBlock/AQD_LG_ReinforcedWindow_1x2TriangleOffsetMirror</string>
         <string>CubeBlock/AQD_LG_ReinforcedWindow_1x2Corner</string>
         <string>CubeBlock/AQD_LG_ReinforcedWindow_1x2CornerInv</string>
         <string>CubeBlock/AQD_LG_ReinforcedWindow_1x2Slope</string>
@@ -78,6 +84,8 @@
         <string>CubeBlock/AQD_SG_ReinforcedWindow_1x1Slope</string>
         <string>CubeBlock/AQD_SG_ReinforcedWindow_1x2Triangle</string>
         <string>CubeBlock/AQD_SG_ReinforcedWindow_1x2TriangleMirror</string>
+        <string>CubeBlock/AQD_SG_ReinforcedWindow_1x2TriangleOffset</string>
+        <string>CubeBlock/AQD_SG_ReinforcedWindow_1x2TriangleOffsetMirror</string>
         <string>CubeBlock/AQD_SG_ReinforcedWindow_1x2Corner</string>
         <string>CubeBlock/AQD_SG_ReinforcedWindow_1x2CornerInv</string>
         <string>CubeBlock/AQD_SG_ReinforcedWindow_1x2Slope</string>

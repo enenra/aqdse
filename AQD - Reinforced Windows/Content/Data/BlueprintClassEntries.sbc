@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<BlueprintClassEntries>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_ReinforcedWindow_1x1"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/AQD_SG_ReinforcedWindow_1x1"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_ReinforcedWindow_1x1Corner"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/AQD_SG_ReinforcedWindow_1x1Corner"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_ReinforcedWindow_1x1CornerInv"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/AQD_SG_ReinforcedWindow_1x1CornerInv"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_ReinforcedWindow_1x1Slope"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/AQD_SG_ReinforcedWindow_1x1Slope"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_ReinforcedWindow_1x1Triangle"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/AQD_SG_ReinforcedWindow_1x1Triangle"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_ReinforcedWindow_1x1TriangleOffset"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/AQD_SG_ReinforcedWindow_1x1TriangleOffset"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_ReinforcedWindow_1x2Corner"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/AQD_SG_ReinforcedWindow_1x2Corner"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_ReinforcedWindow_1x2CornerInv"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/AQD_SG_ReinforcedWindow_1x2CornerInv"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_ReinforcedWindow_1x2Slope"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/AQD_SG_ReinforcedWindow_1x2Slope"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_ReinforcedWindow_1x2Triangle"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/AQD_SG_ReinforcedWindow_1x2Triangle"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_ReinforcedWindow_1x2TriangleMirror"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/AQD_SG_ReinforcedWindow_1x2TriangleMirror"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_ReinforcedWindow_1x2TriangleOffset"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/AQD_SG_ReinforcedWindow_1x2TriangleOffset"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_ReinforcedWindow_1x2TriangleOffsetMirror"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/AQD_SG_ReinforcedWindow_1x2TriangleOffsetMirror"/>
+	</BlueprintClassEntries>
+</Definitions>
