@@ -176,7 +176,8 @@
         <SubtypeId>AQD_LG_LA_SlopeTransitionMirror</SubtypeId>
       </Id>
       <DisplayName>{LOC:DisplayName_AQD_LG_LA_SlopeTransitionMirror}</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_LA_SlopeTransitionMirror.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_LA_SlopeTransition.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Mirror_Single.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <Public>true</Public>
@@ -217,7 +218,8 @@
         <SubtypeId>AQD_SG_LA_SlopeTransitionMirror</SubtypeId>
       </Id>
       <DisplayName>{LOC:DisplayName_AQD_LG_LA_SlopeTransitionMirror}</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_LA_SlopeTransitionMirror.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_LA_SlopeTransition.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Mirror_Single.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <Public>true</Public>
@@ -257,7 +259,8 @@
         <SubtypeId>AQD_LG_HA_SlopeTransitionMirror</SubtypeId>
       </Id>
       <DisplayName>{LOC:DisplayName_AQD_LG_HA_SlopeTransitionMirror}</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_HA_SlopeTransitionMirror.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_HA_SlopeTransition.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Mirror_Single.dds</Icon>
       <Description>{LOC:Description_HeavyArmor}</Description>
       <CubeSize>Large</CubeSize>
       <Public>true</Public>
@@ -299,7 +302,8 @@
         <SubtypeId>AQD_SG_HA_SlopeTransitionMirror</SubtypeId>
       </Id>
       <DisplayName>{LOC:DisplayName_AQD_LG_HA_SlopeTransitionMirror}</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_HA_SlopeTransitionMirror.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_HA_SlopeTransition.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Mirror_Single.dds</Icon>
       <Description>{LOC:Description_HeavyArmor}</Description>
       <CubeSize>Small</CubeSize>
       <Public>true</Public>

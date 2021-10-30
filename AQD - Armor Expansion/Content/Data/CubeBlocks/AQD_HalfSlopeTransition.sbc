@@ -172,7 +172,8 @@
         <SubtypeId>AQD_LG_LA_HalfSlopeTransitionMirror</SubtypeId>
       </Id>
       <DisplayName>{LOC:DisplayName_AQD_LG_LA_HalfSlopeTransitionMirror}</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_LA_HalfSlopeTransitionMirror.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_LA_HalfSlopeTransition.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Mirror_Single.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Large</CubeSize>
       <Public>true</Public>
@@ -212,7 +213,8 @@
         <SubtypeId>AQD_SG_LA_HalfSlopeTransitionMirror</SubtypeId>
       </Id>
       <DisplayName>{LOC:DisplayName_AQD_LG_LA_HalfSlopeTransitionMirror}</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_LA_HalfSlopeTransitionMirror.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_LA_HalfSlopeTransition.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Mirror_Single.dds</Icon>
       <Description>Description_LightArmor</Description>
       <CubeSize>Small</CubeSize>
       <Public>true</Public>
@@ -251,7 +253,8 @@
         <SubtypeId>AQD_LG_HA_HalfSlopeTransitionMirror</SubtypeId>
       </Id>
       <DisplayName>{LOC:DisplayName_AQD_LG_HA_HalfSlopeTransitionMirror}</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_HA_HalfSlopeTransitionMirror.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_HA_HalfSlopeTransition.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Mirror_Single.dds</Icon>
       <Description>{LOC:Description_HeavyArmor}</Description>
       <CubeSize>Large</CubeSize>
       <Public>true</Public>
@@ -292,7 +295,8 @@
         <SubtypeId>AQD_SG_HA_HalfSlopeTransitionMirror</SubtypeId>
       </Id>
       <DisplayName>{LOC:DisplayName_AQD_LG_HA_HalfSlopeTransitionMirror}</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_HA_HalfSlopeTransitionMirror.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_HA_HalfSlopeTransition.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Mirror_Single.dds</Icon>
       <Description>{LOC:Description_HeavyArmor}</Description>
       <CubeSize>Small</CubeSize>
       <Public>true</Public>
