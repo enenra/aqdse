@@ -11,6 +11,9 @@
         },
         {
             "path": ".."
+        },
+        {
+            "path": "..\\..\\..\\..\\..\\..\\..\\Program Files (x86)\\Steam\\steamapps\\common\\SpaceEngineers\\Content\\Shaders"
         }
     ],
 	"settings": {}
