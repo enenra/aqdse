@@ -14,6 +14,7 @@
         <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockSmallContainer" />
         <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockMediumContainer" />
         <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockLargeContainer" />
+        <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeIndustrialContainer" />
         <Block Type="MyObjectBuilder_CargoContainer" Subtype="AQD_LG_ConveyorAccess" />
       </Blocks>
     </BlockVariantGroup>
