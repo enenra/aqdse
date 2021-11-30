@@ -10,6 +10,7 @@
       </Id>
       <DisplayName>{LOC:DisplayName_AQD_LG_Concrete_Block}</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_Concrete_Block.png</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <Description>{LOC:Description_AQD_Concrete_Block}</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -167,6 +168,7 @@
       </Id>
       <DisplayName>{LOC:DisplayName_AQD_LG_Concrete_Slope}</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_Concrete_Slope.png</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <Description>{LOC:Description_AQD_Concrete_Block}</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
@@ -297,6 +299,7 @@
       </Id>
       <DisplayName>{LOC:DisplayName_AQD_LG_Concrete_Corner}</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_Concrete_Corner.png</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <Description>{LOC:Description_AQD_Concrete_Block}</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
@@ -399,6 +402,7 @@
       </Id>
       <DisplayName>{LOC:DisplayName_AQD_LG_Concrete_Corner_Inv}</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_Concrete_Corner_Inv.png</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <Description>{LOC:Description_AQD_Concrete_Block}</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
@@ -558,6 +562,7 @@
       </Id>
       <DisplayName>{LOC:DisplayName_AQD_LG_Concrete_Half_Block}</DisplayName>
       <Icon>Textures/GUI/Icons/Cubes/AQD_LG_Concrete_Half_Block.png</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <Description>{LOC:Description_AQD_Concrete_Block}</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
@@ -725,6 +730,7 @@
       </Id>
       <DisplayName>{LOC:DisplayName_AQD_LG_Concrete_Half_Block_Slope}</DisplayName>
       <Icon>Textures/GUI/Icons/Cubes/AQD_LG_Concrete_Half_Block_Slope.png</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <Description>{LOC:Description_AQD_Concrete_Half_Block}</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>Cube</BlockTopology>
