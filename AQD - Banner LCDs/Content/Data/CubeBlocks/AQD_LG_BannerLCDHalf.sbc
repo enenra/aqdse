@@ -9,6 +9,7 @@
       </Id>
       <DisplayName>{LOC:DisplayName_AQD_BannerLCDHalf}</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_BannerLCDHalf.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <Description>{LOC:Description_AQD_BannerLCD}</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -50,6 +51,7 @@
       </Id>
       <DisplayName>{LOC:DisplayName_AQD_BannerLCDHalf}</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_BannerLCDHalf.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <Description>{LOC:Description_AQD_BannerLCD}</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
