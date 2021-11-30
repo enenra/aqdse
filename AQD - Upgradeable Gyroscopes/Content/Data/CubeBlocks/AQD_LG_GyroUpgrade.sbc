@@ -11,6 +11,7 @@
       <DisplayName>{LOC:DisplayName_AQD_LG_GyroUpgrade}</DisplayName>
       <Description>{LOC:Description_AQD_LG_GyroUpgrade}</Description>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_GyroUpgrade.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="3" y="3" z="1"/>

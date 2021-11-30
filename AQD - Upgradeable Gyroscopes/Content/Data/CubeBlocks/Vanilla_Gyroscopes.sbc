@@ -10,6 +10,7 @@
       </Id>
       <DisplayName>DisplayName_Block_Gyroscope</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\gyro.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <Description>Description_Gyroscope</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -59,6 +60,7 @@
       </Id>
       <DisplayName>DisplayName_Block_Gyroscope</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\gyro.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <Description>Description_Gyroscope</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
