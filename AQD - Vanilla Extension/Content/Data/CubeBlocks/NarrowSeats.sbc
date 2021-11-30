@@ -10,8 +10,11 @@
       </Id>
       <DisplayName>DisplayName_Block_PassengerSeatNarrow</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\PassengerSeat.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <Description>Description_PassengerSeat</Description>
       <CubeSize>Small</CubeSize>
+      <Public>false</Public>
+      <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="2" y="3" z="3" />
       <ModelOffset x="0" y="0" z="0" />
@@ -68,9 +71,9 @@
       </Id>
       <DisplayName>DisplayName_Block_OpenCockpitSmallNarrow</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\OpenCockpitSmall.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <Description>Description_OpenCockpitSmall</Description>
       <CubeSize>Small</CubeSize>
-      <GuiVisible>false</GuiVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="2" y="3" z="3" />
       <Model>Models\Cubes\Small\OpenCockpitSmall.mwm</Model>

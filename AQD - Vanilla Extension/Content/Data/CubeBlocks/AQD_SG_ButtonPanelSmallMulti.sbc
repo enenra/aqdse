@@ -11,6 +11,7 @@
       </Id>
       <DisplayName>{LOC:DisplayName_AQD_SG_ButtonPanelSmallMulti}</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\AQD_SG_MultiButton.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <Description>{LOC:Description_ButtonPanel}</Description>      
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
