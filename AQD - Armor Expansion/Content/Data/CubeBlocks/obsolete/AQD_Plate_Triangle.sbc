@@ -9,6 +9,7 @@
       </Id>
       <DisplayName>{LOC:DisplayName_AQD_LG_LA_Plate_Triangle}</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_LA_Plate_Triangle.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <Description>{LOC:Description_LightArmor}</Description>
       <CubeSize>Large</CubeSize>
       <Public>false</Public>
@@ -46,6 +47,7 @@
       </Id>
       <DisplayName>{LOC:DisplayName_AQD_LG_LA_Plate_Triangle}</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_LA_Plate_Triangle.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <Description>{LOC:Description_LightArmor}</Description>
       <CubeSize>Small</CubeSize>
       <Public>false</Public>
@@ -83,6 +85,7 @@
       </Id>
       <DisplayName>{LOC:DisplayName_AQD_LG_HA_Plate_Triangle}</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_HA_Plate_Triangle.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <Description>{LOC:Description_HeavyArmor}</Description>
       <CubeSize>Large</CubeSize>
       <Public>false</Public>
@@ -122,6 +125,7 @@
       </Id>
       <DisplayName>{LOC:DisplayName_AQD_LG_HA_Plate_Triangle}</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_HA_Plate_Triangle.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <Description>{LOC:Description_HeavyArmor}</Description>
       <CubeSize>Small</CubeSize>
       <Public>false</Public>

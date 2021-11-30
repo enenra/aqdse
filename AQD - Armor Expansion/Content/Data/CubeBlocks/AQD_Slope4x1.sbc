@@ -9,6 +9,7 @@
       </Id>
       <DisplayName>{LOC:DisplayName_AQD_LG_LA_Slope4x1}</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_LA_Slope4x1.png</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <Description>{LOC:Description_LightArmor}</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -45,6 +46,7 @@
       </Id>
       <DisplayName>{LOC:DisplayName_AQD_LG_LA_Slope4x1}</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_LA_Slope4x1.png</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <Description>{LOC:Description_LightArmor}</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -81,6 +83,7 @@
       </Id>
       <DisplayName>{LOC:DisplayName_AQD_LG_HA_Slope4x1}</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_HA_Slope4x1.png</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <Description>{LOC:Description_HeavyArmor}</Description>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -119,6 +122,7 @@
       </Id>
       <DisplayName>{LOC:DisplayName_AQD_LG_HA_Slope4x1}</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_HA_Slope4x1.png</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <Description>{LOC:Description_HeavyArmor}</Description>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
