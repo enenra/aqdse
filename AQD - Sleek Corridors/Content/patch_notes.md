@@ -1,5 +1,4 @@
-[h1]Patch 1.1[/h1]
+[h1]Patch 1.1a[/h1]
 [list]
-[*]Added Sleek Corridor Straight (Window) block.
-[*]Fixed some reference issues with Sleek Corridor Straight (Light).
+[*]Added AQD logo to all block icons.
 [/list]
