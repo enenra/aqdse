@@ -1,4 +1,4 @@
-[h1]Patch 2.0a[/h1]
+[h1]Patch 2.0b[/h1]
 [list]
-[*]Fix for broken conveyor port on Conveyor X Armored.
+[*]Added AQD logo to block icons.
 [/list]

@@ -11,6 +11,7 @@
       </Id>
       <DisplayName>DisplayName_Block_Conveyor</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\conveyor.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <Description>Description_ConveyorTube</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
@@ -55,6 +56,7 @@
       </Id>
       <DisplayName>{LOC:DisplayName_AQD_LG_ConveyorJunctionTubes}</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_ConveyorJunctionTubes.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <Description>Description_ConveyorTube</Description>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>

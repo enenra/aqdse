@@ -10,6 +10,7 @@
       </Id>
       <DisplayName>{LOC:DisplayName_AQD_SG_ConveyorAdapter}</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\AQD_SG_ConveyorAdapter.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <Description>Description_ConveyorTube</Description>
       <GuiVisible>true</GuiVisible>
       <CubeSize>Small</CubeSize>
