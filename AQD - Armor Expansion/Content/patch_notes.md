@@ -1,5 +1,6 @@
-[h1]Patch 1.7b[/h1]
+[h1]Patch 1.7c[/h1]
 [list]
-[*]Updated Armor Definitions to CoreParts-scheme.
-[*]Added mirror symbol to all mirrored blocks to make them more easily legible.
+[*]Fixed armor definitions for CoreParts (heavy armor blocks were classified as light).
+[*]Added AQD logo to all blocks.
+[*]Added some missing mirror indicators to block icons.
 [/list]
