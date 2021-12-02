@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlockVariantGroups>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ThrusterIonGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\thrust_large.dds</Icon>
+      <DisplayName>DisplayName_Block_LargeThrust</DisplayName>
+      <Description>Description_IonThrust</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeThrust" />
+        <Block Type="MyObjectBuilder_Thrust" Subtype="AQD_LG_IonThrusterL_Armored" />
+        <Block Type="MyObjectBuilder_Thrust" Subtype="AQD_LG_IonThrusterL_ArmoredSlope" />
+
+        <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallThrust" />
+        <Block Type="MyObjectBuilder_Thrust" Subtype="AQD_LG_IonThrusterS_Armored" />
+        <Block Type="MyObjectBuilder_Thrust" Subtype="AQD_LG_IonThrusterS_ArmoredSlope" />
+
+        <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeThrust" />
+        <Block Type="MyObjectBuilder_Thrust" Subtype="AQD_SG_IonThrusterL_Armored" />
+        <Block Type="MyObjectBuilder_Thrust" Subtype="AQD_SG_IonThrusterL_ArmoredSlope" />
+
+        <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallThrust" />
+        <Block Type="MyObjectBuilder_Thrust" Subtype="AQD_SG_IonThrusterS_Armored" />
+        <Block Type="MyObjectBuilder_Thrust" Subtype="AQD_SG_IonThrusterS_ArmoredSlope" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ThrusterHydroGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\HydrogenThrusterLarge.dds</Icon>
+      <DisplayName>DisplayName_Block_LargeHydrogenThrust</DisplayName>
+      <Description>Description_HydrogenThrust</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeHydrogenThrust" />
+        <Block Type="MyObjectBuilder_Thrust" Subtype="AQD_LG_HydroThrusterL_Armored" />
+        <Block Type="MyObjectBuilder_Thrust" Subtype="AQD_LG_HydroThrusterL_ArmoredSlope" />
+
+        <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallHydrogenThrust" />
+        <Block Type="MyObjectBuilder_Thrust" Subtype="AQD_LG_HydroThrusterS_Armored" />
+        <Block Type="MyObjectBuilder_Thrust" Subtype="AQD_LG_HydroThrusterS_ArmoredSlope" />
+
+        <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeHydrogenThrust" />
+        <Block Type="MyObjectBuilder_Thrust" Subtype="AQD_SG_HydroThrusterL_Armored" />
+        <Block Type="MyObjectBuilder_Thrust" Subtype="AQD_SG_HydroThrusterL_ArmoredSlope" />
+
+        <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallHydrogenThrust" />
+        <Block Type="MyObjectBuilder_Thrust" Subtype="AQD_SG_HydroThrusterS_Armored" />
+        <Block Type="MyObjectBuilder_Thrust" Subtype="AQD_SG_HydroThrusterS_ArmoredSlope" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ThrusterAtmoGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\AtmosphericThrusterLargeLarge.dds</Icon>
+      <DisplayName>DisplayName_Block_LargeAtmoThrust</DisplayName>
+      <Description>Description_AtmosphericThrust</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockLargeAtmosphericThrust" />
+        <Block Type="MyObjectBuilder_Thrust" Subtype="AQD_LG_AtmoThrusterL_Armored" />
+        <Block Type="MyObjectBuilder_Thrust" Subtype="AQD_LG_AtmoThrusterL_ArmoredSlope" />
+        <Block Type="MyObjectBuilder_Thrust" Subtype="AQD_LG_AtmoThrusterL_ArmoredSlopeRev" />
+
+        <Block Type="MyObjectBuilder_Thrust" Subtype="LargeBlockSmallAtmosphericThrust" />
+        <Block Type="MyObjectBuilder_Thrust" Subtype="AQD_LG_AtmoThrusterS_Armored" />
+        <Block Type="MyObjectBuilder_Thrust" Subtype="AQD_LG_AtmoThrusterS_ArmoredSlope" />
+        <Block Type="MyObjectBuilder_Thrust" Subtype="AQD_LG_AtmoThrusterS_ArmoredSlopeRev" />
+
+        <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockLargeAtmosphericThrust" />
+        <Block Type="MyObjectBuilder_Thrust" Subtype="AQD_SG_AtmoThrusterL_Armored" />
+        <Block Type="MyObjectBuilder_Thrust" Subtype="AQD_SG_AtmoThrusterL_ArmoredSlope" />
+        <Block Type="MyObjectBuilder_Thrust" Subtype="AQD_SG_AtmoThrusterL_ArmoredSlopeRev" />
+
+        <Block Type="MyObjectBuilder_Thrust" Subtype="SmallBlockSmallAtmosphericThrust" />
+        <Block Type="MyObjectBuilder_Thrust" Subtype="AQD_SG_AtmoThrusterS_Armored" />
+        <Block Type="MyObjectBuilder_Thrust" Subtype="AQD_SG_AtmoThrusterS_ArmoredSlope" />
+        <Block Type="MyObjectBuilder_Thrust" Subtype="AQD_SG_AtmoThrusterS_ArmoredSlopeRev" />
+      </Blocks>
+    </BlockVariantGroup>
+
+  </BlockVariantGroups>
+</Definitions>
