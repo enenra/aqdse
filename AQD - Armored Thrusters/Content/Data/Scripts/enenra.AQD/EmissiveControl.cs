@@ -67,8 +67,12 @@ namespace enenra.EmissiveControl
 
     public override void Close()
     {
-      m_block.IsWorkingChanged -= OnIsWorkingChanged;
-      m_block = null;
+      if (m_block != null)
+      {
+        m_block.IsWorkingChanged -= OnIsWorkingChanged;
+        m_block = null;
+      }
+
       base.Close();
     }
 
