@@ -1,3 +1,3 @@
-[h1]Patch 1.3a[/h1]
-[list][*]Added AQD logo to all block icons.
+[h1]Patch 1.x[/h1]
+[list]
 [/list]
