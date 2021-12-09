@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<BlueprintClassEntries>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/AQD_LG_AtmoThrusterL_Armored"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/AQD_LG_AtmoThrusterL_ArmoredSlope"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/AQD_LG_AtmoThrusterL_ArmoredSlopeRev"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/AQD_SG_AtmoThrusterL_Armored"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/AQD_SG_AtmoThrusterL_ArmoredSlope"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/AQD_SG_AtmoThrusterL_ArmoredSlopeRev"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/AQD_LG_AtmoThrusterS_Armored"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/AQD_LG_AtmoThrusterS_ArmoredSlope"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/AQD_LG_AtmoThrusterS_ArmoredSlopeRev"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/AQD_SG_AtmoThrusterS_Armored"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/AQD_SG_AtmoThrusterS_ArmoredSlope"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/AQD_SG_AtmoThrusterS_ArmoredSlopeRev"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/AQD_LG_HydroThrusterL_Armored"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/AQD_LG_HydroThrusterL_ArmoredSlope"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/AQD_SG_HydroThrusterL_Armored"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/AQD_SG_HydroThrusterL_ArmoredSlope"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/AQD_LG_HydroThrusterS_Armored"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/AQD_LG_HydroThrusterS_ArmoredSlope"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/AQD_SG_HydroThrusterS_Armored"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/AQD_SG_HydroThrusterS_ArmoredSlope"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/AQD_LG_IonThrusterL_Armored"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/AQD_LG_IonThrusterL_ArmoredSlope"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/AQD_SG_IonThrusterL_Armored"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/AQD_SG_IonThrusterL_ArmoredSlope"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/AQD_LG_IonThrusterS_Armored"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="Thrust/AQD_LG_IonThrusterS_ArmoredSlope"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/AQD_SG_IonThrusterS_Armored"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="Thrust/AQD_SG_IonThrusterS_ArmoredSlope"/>
+	</BlueprintClassEntries>
+</Definitions>
