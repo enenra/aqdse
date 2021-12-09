@@ -1,0 +1,65 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CubeBlocks>
+
+    <Definition xsi:type="MyObjectBuilder_JumpDriveDefinition">
+      <Id>
+        <TypeId>JumpDrive</TypeId>
+        <SubtypeId>AQD_SG_Jumpdrive</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_JumpDrive</DisplayName>
+      <Description>Description_JumpDrive</Description>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_SG_Jumpdrive.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="2" /> <!-- Adjust -->
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\AQD_SG_Jumpdrive.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="40" /> <!-- Adjust -->
+        <Component Subtype="MetalGrid" Count="50" />
+        <Component Subtype="GravityGenerator" Count="20" />
+        <Component Subtype="Detector" Count="20" />
+        <Component Subtype="PowerCell" Count="120" />
+        <Component Subtype="Superconductor" Count="1000" />
+        <Component Subtype="Computer" Count="300" />
+        <Component Subtype="Construction" Count="40" />
+        <Component Subtype="SteelPlate" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints> <!-- Adjust -->
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="3" EndY="2" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="2" EndY="3" />
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="3" EndY="3" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="2" EndY="3" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="2" Default="true" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\AQD_SG_Jumpdrive_BS1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\AQD_SG_Jumpdrive_BS2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AQD_SG_Jumpdrive_BS3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>JumpDrive</BlockPairName>
+      <MirroringY>Z</MirroringY> <!-- Adjust -->
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>120</BuildTimeSeconds> <!-- Adjust -->
+      <ResourceSinkGroup>Charging</ResourceSinkGroup>
+      <RequiredPowerInput>32</RequiredPowerInput> <!-- Adjust -->
+      <PowerNeededForJump>3</PowerNeededForJump>
+      <MaxJumpDistance>2000000</MaxJumpDistance>
+      <MaxJumpMass>1250000</MaxJumpMass>
+      <EmissiveColorPreset>Extended</EmissiveColorPreset>
+      <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+      <DamagedSound>ParticleWeapExpl</DamagedSound>
+      <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+      <DestroySound>WepLrgWarheadExpl</DestroySound>
+      <PCU>100</PCU>
+      <IsAirTight>true</IsAirTight> <!-- Adjust -->
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>

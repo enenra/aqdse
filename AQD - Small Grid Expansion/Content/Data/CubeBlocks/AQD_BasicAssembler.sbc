@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CubeBlocks>
+
+    <Definition xsi:type="MyObjectBuilder_AssemblerDefinition">
+      <Id>
+        <TypeId>Assembler</TypeId>
+        <SubtypeId>AQD_SG_BasicAssembler</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_BasicAssembler</DisplayName>
+      <Description>Description_AssemblerBasic</Description>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_SG_BasicAssembler.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <GuiVisible>false</GuiVisible>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\AQD_SG_BasicAssembler.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="30" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="Motor" Count="5" />
+        <Component Subtype="Display" Count="2" />
+        <Component Subtype="Computer" Count="40" />
+        <Component Subtype="SteelPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <MountPoints> <!-- Adjust -->
+        <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\AQD_SG_BasicAssembler_BS1.mwm" />
+        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\AQD_SG_BasicAssembler_BS2.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AQD_SG_BasicAssembler_BS3.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>BasicAssembler</BlockPairName>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <ResourceSinkGroup>Factory</ResourceSinkGroup>
+      <InventoryMaxVolume>2</InventoryMaxVolume> <!-- Look at inventory again -->
+      <InventorySize>
+        <X>1</X>
+        <Y>1</Y>
+        <Z>1</Z>
+      </InventorySize>
+      <StandbyPowerConsumption>0.001</StandbyPowerConsumption>
+      <OperationalPowerConsumption>0.14</OperationalPowerConsumption>
+      <BlueprintClasses>
+        <Class>SimpleComponents</Class>
+        <Class>Tools</Class>
+        <Class>Consumables</Class>
+      </BlueprintClasses>
+      <AssemblySpeed>0.35</AssemblySpeed> <!-- Copy Mirroring info -->
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <PrimarySound>BlockAssembler</PrimarySound>
+      <ActionSound>BlockAssemblerProcess</ActionSound>
+      <DestroyEffect>Explosion_Missile</DestroyEffect>
+      <DestroySound>WepSmallMissileExpl</DestroySound>
+      <PCU>40</PCU>
+      <TieredUpdateTimes>
+        <unsignedInt>60</unsignedInt>
+        <unsignedInt>120</unsignedInt>
+        <unsignedInt>240</unsignedInt>
+      </TieredUpdateTimes>
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>

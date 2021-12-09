@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_SmallBlocks</DisplayName>
+      <Name>SmallBlocks</Name>
+      <StrictSearch>true</StrictSearch>
+      <ItemIds>
+        <string>Assembler/AQD_SG_BasicAssembler</string>
+        <string>Refinery/AQD_SG_BasicRefinery</string>
+        <string>ShipConnector/AQD_SG_ConnectorSmall</string>
+        <string>GravityGenerator/AQD_SG_GravityGenerator</string>
+        <string>JumpDrive/AQD_SG_Jumpdrive</string>
+      </ItemIds>
+    </Category>
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_Production</DisplayName>
+      <Name>Production</Name>
+      <StrictSearch>true</StrictSearch>
+      <ItemIds>
+        <string>Assembler/AQD_SG_BasicAssembler</string>
+        <string>Refinery/AQD_SG_BasicRefinery</string>
+      </ItemIds>
+    </Category>
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_ConveyorBlocks</DisplayName>
+      <Name>Conveyors</Name>
+      <ItemIds>
+        <string>ShipConnector/AQD_SG_ConnectorSmall</string>
+      </ItemIds>
+    </Category>
+
+  </CategoryClasses>
+</Definitions>

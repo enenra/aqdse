@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<BlueprintClassEntries>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="Assembler/AQD_SG_BasicAssembler"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="Refinery/AQD_SG_BasicRefinery"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="ShipConnector/AQD_SG_ConnectorSmall"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="GravityGenerator/AQD_SG_GravityGenerator"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="JumpDrive/AQD_SG_Jumpdrive"/>
+	</BlueprintClassEntries>
+</Definitions>
