@@ -11,6 +11,7 @@
 				<DisplayName>{LOC:DisplayName_AQD_SG_ConnectorSmall}</DisplayName>
 				<Description>Description_Connector</Description>
 				<Icon>Textures\GUI\Icons\Cubes\AQD_SG_ConnectorSmall.dds</Icon>
+				<Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
 				<CubeSize>Small</CubeSize>
 				<GuiVisible>false</GuiVisible>
 				<BlockTopology>TriangleMesh</BlockTopology>
@@ -35,7 +36,7 @@
 				<EdgeType>Light</EdgeType>
 				<BuildTimeSeconds>10</BuildTimeSeconds>
 				<MountPoints>
-					<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+					<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" Defaullt="true"/>
 					<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="0.50" EndY="1.00"/>
 					<MountPoint Side="Right" StartX="0.50" StartY="0.00" EndX="1.00" EndY="1.00"/>
 					<MountPoint Side="Top" StartX="0.00" StartY="0.50" EndX="1.00" EndY="1.00"/>
