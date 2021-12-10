@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
 <Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  
 		<CubeBlocks>
+
 			<Definition xsi:type="MyObjectBuilder_ShipConnectorDefinition">
 				<Id>
 					<TypeId>ShipConnector</TypeId>
@@ -57,6 +57,6 @@
 					<unsignedInt>320</unsignedInt>
 				</TieredUpdateTimes>
 			</Definition>
-
+      
 		</CubeBlocks>
 	</Definitions>

@@ -1,60 +1,65 @@
 <?xml version="1.0" ?>
 <Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <CubeBlocks>
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+		<CubeBlocks>
 
-    <Definition xsi:type="MyObjectBuilder_GravityGeneratorDefinition">
-      <Id>
-        <TypeId>GravityGenerator</TypeId>
-        <SubtypeId>AQD_SG_GravityGenerator</SubtypeId>
-      </Id>
-      <DisplayName>DisplayName_Block_GravityGenerator</DisplayName>
-      <Description>Description_GravityGenerator</Description>
-      <Icon>Textures\GUI\Icons\Cubes\AQD_SG_GravityGenerator.dds</Icon>
-      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
-      <CubeSize>Small</CubeSize>
-      <BlockTopology>TriangleMesh</BlockTopology>
-      <Size x="3" y="1" z="3" /> <!-- Review -->
-      <ModelOffset x="0" y="0" z="0" />
-      <Model>Models\Cubes\Small\GravityGenerator.mwm</Model>
-      <Components>
-        <Component Subtype="SteelPlate" Count="20" />
-        <Component Subtype="GravityGenerator" Count="2" />
-        <Component Subtype="Construction" Count="20" />
-        <Component Subtype="SteelPlate" Count="18" />
-        <Component Subtype="LargeTube" Count="2" />
-        <Component Subtype="Motor" Count="2" />
-        <Component Subtype="Computer" Count="15" />
-        <Component Subtype="SteelPlate" Count="15" />
-      </Components>
-      <CriticalComponent Subtype="Computer" Index="0" />
-      <MountPoints> <!-- Adjust -->
-        <MountPoint Side="Bottom" StartX="0.25" StartY="0.25" EndX="0.75" EndY="0.75" />
-      </MountPoints>
-      <BuildProgressModels>
-        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\AQD_SG_GravityGenerator_BS1.mwm" />
-        <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Small\AQD_SG_GravityGenerator_BS2.mwm" />
-        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AQD_SG_GravityGenerator_BS3.mwm" />
-      </BuildProgressModels>
-      <BlockPairName>GravityGenerator</BlockPairName>
-      <MirroringY>Z</MirroringY> <!-- Adjust -->
-      <MirroringZ>Y</MirroringZ>
-      <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>16</BuildTimeSeconds>
-      <ResourceSinkGroup>Utility</ResourceSinkGroup>
-      <MinFieldSize x="1" y="1" z="1"/> <!-- Review -->
-      <MaxFieldSize x="50" y="50" z="50"/>
-      <MinGravityAcceleration>-9.81</MinGravityAcceleration>
-      <MaxGravityAcceleration>9.81</MaxGravityAcceleration>
-      <RequiredPowerInput>0.189</RequiredPowerInput>
-      <EmissiveColorPreset>Default</EmissiveColorPreset>
-      <Sound>BlockGravityGen</Sound>
-      <DamageEffectName>Damage_GravGen_Damaged</DamageEffectName>
-      <DamagedSound>ParticleElectrical</DamagedSound>
-      <DestroySound>WepSmallWarheadExpl</DestroySound>
-      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-      <PCU>185</PCU>
-    </Definition>
+			<Definition xsi:type="MyObjectBuilder_GravityGeneratorDefinition">
+				<Id>
+					<TypeId>GravityGenerator</TypeId>
+					<SubtypeId>AQD_SG_GravityGenerator</SubtypeId>
+				</Id>
+				<DisplayName>DisplayName_Block_GravityGenerator</DisplayName>
+				<Description>Description_GravityGenerator</Description>
+				<Icon>Textures\GUI\Icons\Cubes\AQD_SG_GravityGenerator.dds</Icon>
+				<Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
+				<CubeSize>Small</CubeSize>
+				<BlockTopology>TriangleMesh</BlockTopology>
+				<Size x="3" y="1" z="3" />
+				<ModelOffset x="0" y="0" z="0" />
+				<Model>Models\Cubes\Small\AQD_SG_GravityGenerator.mwm</Model>
+				<Components>
+					<Component Subtype="SteelPlate" Count="20" />
+					<Component Subtype="GravityGenerator" Count="2" />
+					<Component Subtype="Construction" Count="20" />
+					<Component Subtype="SteelPlate" Count="18" />
+					<Component Subtype="LargeTube" Count="2" />
+					<Component Subtype="Motor" Count="2" />
+					<Component Subtype="Computer" Count="15" />
+					<Component Subtype="SteelPlate" Count="15" />
+				</Components>
+				<CriticalComponent Subtype="Computer" Index="0" />
+				<MountPoints>
+					<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
+					<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
+					<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
+					<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
+					<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00"/>
+					<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="3.00" EndY="3.00"/>
+				</MountPoints>
+				<BuildProgressModels>
+					<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Small\AQD_SG_GravityGenerator_BS1.mwm"/>
+					<Model BuildPercentUpperBound="0.67" File="Models\Cubes\Small\AQD_SG_GravityGenerator_BS2.mwm"/>
+					<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AQD_SG_GravityGenerator_BS3.mwm"/>
+				</BuildProgressModels>
+				<BlockPairName>GravityGenerator</BlockPairName>
+				<MirroringY>Z</MirroringY>
+				<MirroringZ>Y</MirroringZ>
+				<EdgeType>Light</EdgeType>
+				<BuildTimeSeconds>16</BuildTimeSeconds>
+				<ResourceSinkGroup>Utility</ResourceSinkGroup>
+				<MinFieldSize x="1" y="1" z="1"/> <!-- Review -->
+				<MaxFieldSize x="50" y="50" z="50"/>
+				<MinGravityAcceleration>-9.81</MinGravityAcceleration>
+				<MaxGravityAcceleration>9.81</MaxGravityAcceleration>
+				<RequiredPowerInput>0.189</RequiredPowerInput>
+				<EmissiveColorPreset>Default</EmissiveColorPreset>
+				<Sound>BlockGravityGen</Sound>
+				<DamageEffectName>Damage_GravGen_Damaged</DamageEffectName>
+				<DamagedSound>ParticleElectrical</DamagedSound>
+				<DestroySound>WepSmallWarheadExpl</DestroySound>
+				<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+				<PCU>185</PCU>
+			</Definition>
 
-  </CubeBlocks>
-</Definitions>
+		</CubeBlocks>
+	</Definitions>
