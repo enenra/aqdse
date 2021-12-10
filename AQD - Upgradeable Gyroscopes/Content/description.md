@@ -29,8 +29,7 @@ The Gyro Booster increases the output of any vanilla Gyro mounted to it by 2x wh
 
 [img]https://i.imgur.com/7Yen2BR.png[/img]
 [list]
-[*]In the future, we want to animate the gyroscopes to spin in accordance with ship movement. Unfortunately neither of us currently have the necessary skill to write the script needed for it.
-[*]Similarly, unfortunately the gyro performance increase through Gyro Upgrade Modules and Gyro Boosters is currently not listed in the terminal beyond its Max Required Power being increased. This also requires additional scripting.
+[*]The gyro performance increase through Gyro Upgrade Modules and Gyro Boosters is currently not listed in the terminal beyond its Max Required Power being increased. This will require additional scripting.
 [*]I do not intend to add a small grid version of the large gyroscope or its upgrade modules.
 [*]I've included compatibility with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2307652535]AQD - Vanilla Tech Tree[/url], so it should integrate seamlessly.
 [/list]
