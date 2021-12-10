@@ -45,11 +45,11 @@
 				<EdgeType>Light</EdgeType>
 				<BuildTimeSeconds>10</BuildTimeSeconds>
 				<ResourceSinkGroup>Factory</ResourceSinkGroup>
-				<InventoryMaxVolume>4</InventoryMaxVolume> <!-- Review -->
+				<InventoryMaxVolume>0.5</InventoryMaxVolume>
 				<InventorySize>
-					<X>2</X>
-					<Y>2</Y>
-					<Z>2</Z>
+					<X>1</X>
+					<Y>1</Y>
+					<Z>1</Z>
 				</InventorySize>
 				<InventoryFillFactorMin>0.3</InventoryFillFactorMin>
 				<InventoryFillFactorMax>0.6</InventoryFillFactorMax>
@@ -58,7 +58,7 @@
 				<BlueprintClasses>
 					<Class>CommonMetals</Class>
 				</BlueprintClasses>
-				<RefineSpeed>0.1625</RefineSpeed> <!-- Review -->
+				<RefineSpeed>0.1625</RefineSpeed>
 				<MaterialEfficiency>0.5</MaterialEfficiency>
 				<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
 				<DamagedSound>ParticleHeavyMech</DamagedSound>
@@ -67,7 +67,7 @@
 				<EmissiveColorPreset>Default</EmissiveColorPreset>
 				<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
 				<DestroySound>WepSmallWarheadExpl</DestroySound>
-				<OreAmountPerPullRequest>1000</OreAmountPerPullRequest>
+				<OreAmountPerPullRequest>500</OreAmountPerPullRequest>
 				<PCU>75</PCU>
 				<TieredUpdateTimes>
 					<unsignedInt>60</unsignedInt>

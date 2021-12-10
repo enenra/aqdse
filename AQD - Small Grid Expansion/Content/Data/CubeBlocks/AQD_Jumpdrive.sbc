@@ -18,7 +18,7 @@
 				<ModelOffset x="0" y="0" z="0" />
 				<Model>Models\Cubes\Small\AQD_SG_Jumpdrive.mwm</Model>
 				<Components>
-					<Component Subtype="SteelPlate" Count="10" /> <!-- Adjust -->
+					<Component Subtype="SteelPlate" Count="10" />
 					<Component Subtype="MetalGrid" Count="10" />
 					<Component Subtype="GravityGenerator" Count="10" />
 					<Component Subtype="Detector" Count="10" />
@@ -48,10 +48,10 @@
 				<EdgeType>Light</EdgeType>
 				<BuildTimeSeconds>40</BuildTimeSeconds>
 				<ResourceSinkGroup>Charging</ResourceSinkGroup>
-				<RequiredPowerInput>32</RequiredPowerInput> <!-- Adjust -->
+				<RequiredPowerInput>16</RequiredPowerInput>
 				<PowerNeededForJump>3</PowerNeededForJump>
-				<MaxJumpDistance>2000000</MaxJumpDistance>
-				<MaxJumpMass>1250000</MaxJumpMass>
+				<MaxJumpDistance>1000000</MaxJumpDistance>
+				<MaxJumpMass>125000</MaxJumpMass>
 				<EmissiveColorPreset>Extended</EmissiveColorPreset>
 				<DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
 				<DamagedSound>ParticleWeapExpl</DamagedSound>

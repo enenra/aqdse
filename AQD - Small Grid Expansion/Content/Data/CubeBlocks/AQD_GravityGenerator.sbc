@@ -47,8 +47,8 @@
 				<EdgeType>Light</EdgeType>
 				<BuildTimeSeconds>16</BuildTimeSeconds>
 				<ResourceSinkGroup>Utility</ResourceSinkGroup>
-				<MinFieldSize x="1" y="1" z="1"/> <!-- Review -->
-				<MaxFieldSize x="50" y="50" z="50"/>
+				<MinFieldSize x="1" y="1" z="1"/>
+				<MaxFieldSize x="25" y="25" z="25"/>
 				<MinGravityAcceleration>-9.81</MinGravityAcceleration>
 				<MaxGravityAcceleration>9.81</MaxGravityAcceleration>
 				<RequiredPowerInput>0.189</RequiredPowerInput>

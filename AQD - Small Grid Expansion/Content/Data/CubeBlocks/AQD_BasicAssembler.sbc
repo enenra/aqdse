@@ -43,7 +43,7 @@
 				<EdgeType>Light</EdgeType>
 				<BuildTimeSeconds>20</BuildTimeSeconds>
 				<ResourceSinkGroup>Factory</ResourceSinkGroup>
-				<InventoryMaxVolume>2</InventoryMaxVolume> <!-- Look at inventory again -->
+				<InventoryMaxVolume>0.5</InventoryMaxVolume>
 				<InventorySize>
 					<X>1</X>
 					<Y>1</Y>
