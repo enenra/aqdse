@@ -1,6 +1,6 @@
 [img]https://i.imgur.com/fVVaDCS.gif[/img]
 
-[h1]Current version: [b]1.0[/b][/h1]
+[h1]Current version: [b]1.0a[/b][/h1]
 [i]Please refer to the [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2678657382]changelog[/url] for patch notes.[/i]
 
 [img]https://i.imgur.com/cdhLXnQ.png[/img]
@@ -30,6 +30,7 @@ More blocks might be added in the future but as always I'll be carefully conside
 [img]https://i.imgur.com/7Yen2BR.png[/img]
 [list]
 [*]The Small Connector is currently able to connect to the normal size connectors. We hope to change this in the future with a custom script to prevent them from connecting.
+[*]Note that there might be compatibility issues with any other mod adding small grid versions of the above blocks. The mod order in your savegame will determine which takes precendence and thus appears as a pair with each of their large grid equivalents but all of them should be listed if you use the search in the G menu.
 [*]I've included compatibility with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2307652535]AQD - Vanilla Tech Tree[/url], so it should integrate seamlessly.
 [/list]
 
