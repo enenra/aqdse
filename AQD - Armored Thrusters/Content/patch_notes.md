@@ -1,6 +1,6 @@
-[h1]Patch 0.8a[/h1]
+[h1]Patch 0.8b[/h1]
 [list]
-[*]Large rework of internal files & update to latest systems.
-[*]Added AQD logo to all block icons.
-[*]Fixed crash bug.
+[*]Added compatibility with Vanilla Tech Tree.
+[*]Fixed thrusters being displayed in unintended places in the G menu.
+[*]Fixed Large Hydrogen Thruster Names not being displayed correctly.
 [/list]
