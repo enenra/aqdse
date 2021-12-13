@@ -1,0 +1,60 @@
+<?xml version="1.0"?><!-- Created by AQD ResearchGroups Editor on: 2021-10-06 15:00 -->
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>ProgressionFramework_AQD_Armored_Thrusters</SubtypeId>
+      </Id>
+      <Description>
+        [?xml version="1.0" encoding="utf-16"?]
+        [ResearchGroups xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns:xsd="http://www.w3.org/2001/XMLSchema"]
+          [ResearchGroup]
+            [Item Type="MyObjectBuilder_Component" SubtypeId="AQD_Tech_LOC_B1" /]
+            [BlockDefinitons]
+              [OverwriteOthers]false[/OverwriteOthers]
+              [Id Type="MyObjectBuilder_Thrust" SubtypeId="AQD_SG_AtmoThrusterL_Armored" UseBlockVariantsGroup="true" /]
+            [/BlockDefinitons]
+          [/ResearchGroup]
+          [ResearchGroup]
+            [Item Type="MyObjectBuilder_Component" SubtypeId="AQD_Tech_LOC_B2" /]
+            [BlockDefinitons]
+              [OverwriteOthers]false[/OverwriteOthers]
+              [Id Type="MyObjectBuilder_Thrust" SubtypeId="AQD_LG_AtmoThrusterL_Armored" UseBlockVariantsGroup="true" /]
+            [/BlockDefinitons]
+          [/ResearchGroup]
+          [ResearchGroup]
+            [Item Type="MyObjectBuilder_Component" SubtypeId="AQD_Tech_LOC_C1" /]
+            [BlockDefinitons]
+              [OverwriteOthers]false[/OverwriteOthers]
+              [Id Type="MyObjectBuilder_Thrust" SubtypeId="AQD_SG_HydroThrusterL_Armored" UseBlockVariantsGroup="true" /]
+            [/BlockDefinitons]
+          [/ResearchGroup]
+          [ResearchGroup]
+            [Item Type="MyObjectBuilder_Component" SubtypeId="AQD_Tech_LOC_C2" /]
+            [BlockDefinitons]
+              [OverwriteOthers]false[/OverwriteOthers]
+              [Id Type="MyObjectBuilder_Thrust" SubtypeId="AQD_LG_HydroThrusterL_Armored" UseBlockVariantsGroup="true" /]
+            [/BlockDefinitons]
+          [/ResearchGroup]
+          [ResearchGroup]
+            [Item Type="MyObjectBuilder_Component" SubtypeId="AQD_Tech_LOC_D1" /]
+            [BlockDefinitons]
+              [OverwriteOthers]false[/OverwriteOthers]
+              [Id Type="MyObjectBuilder_Thrust" SubtypeId="AQD_SG_IonThrusterL_Armored" UseBlockVariantsGroup="true" /]
+            [/BlockDefinitons]
+          [/ResearchGroup]
+          [ResearchGroup]
+            [Item Type="MyObjectBuilder_Component" SubtypeId="AQD_Tech_LOC_D2" /]
+            [BlockDefinitons]
+              [OverwriteOthers]false[/OverwriteOthers]
+              [Id Type="MyObjectBuilder_Thrust" SubtypeId="AQD_LG_IonThrusterL_Armored" UseBlockVariantsGroup="true" /]
+            [/BlockDefinitons]
+          [/ResearchGroup]
+        [/ResearchGroups]
+      </Description>
+    </EntityComponent>
+  </EntityComponents>
+</Definitions>
