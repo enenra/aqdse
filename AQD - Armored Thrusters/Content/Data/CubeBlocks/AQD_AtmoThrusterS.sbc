@@ -112,7 +112,6 @@
       <PrimarySound>LrgShipSmJetAtmo</PrimarySound>
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
-      <Public>true</Public>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>15</PCU>
@@ -218,7 +217,6 @@
       <PrimarySound>LrgShipSmJetAtmo</PrimarySound>
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
-      <Public>true</Public>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>15</PCU>
@@ -324,7 +322,6 @@
       <PrimarySound>LrgShipSmJetAtmo</PrimarySound>
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
-      <Public>true</Public>
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>15</PCU>
@@ -446,7 +443,6 @@
       <PrimarySound>SmShipSmJetAtmo</PrimarySound>
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
-      <Public>true</Public>
       <DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>15</PCU>
@@ -554,7 +550,6 @@
       <PrimarySound>SmShipSmJetAtmo</PrimarySound>
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
-      <Public>true</Public>
       <DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>15</PCU>
@@ -662,7 +657,6 @@
       <PrimarySound>SmShipSmJetAtmo</PrimarySound>
       <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
       <DamagedSound>ParticleWeapExpl</DamagedSound>
-      <Public>true</Public>
       <DestroyEffect>BlockDestroyedExplosion_Tiny</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>15</PCU>
