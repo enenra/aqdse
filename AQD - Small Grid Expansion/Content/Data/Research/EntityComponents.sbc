@@ -5,7 +5,7 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>ProgressionFramework_AQD_Upgradeable_Gyroscopes</SubtypeId>
+        <SubtypeId>ProgressionFramework_AQD_Small_Grid_Expansion</SubtypeId>
       </Id>
       <Description>
         [?xml version="1.0" encoding="utf-16"?]
@@ -14,17 +14,21 @@
           [ResearchGroup]
             [Item Type="MyObjectBuilder_Component" SubtypeId="AQD_Tech_STOR_C2" /]
             [BlockDefinitons]
-              [OverwriteOthers]true[/OverwriteOthers]
-              [Id Type="MyObjectBuilder_ShipConnector" SubtypeId="Connector" UseBlockVariantsGroup="false" /]
-              [Id Type="MyObjectBuilder_ShipConnector" SubtypeId="ConnectorMedium" UseBlockVariantsGroup="false" /]
+              [OverwriteOthers]false[/OverwriteOthers]
               [Id Type="MyObjectBuilder_ShipConnector" SubtypeId="AQD_SG_ConnectorSmall" UseBlockVariantsGroup="false" /]
+            [/BlockDefinitons]
+          [/ResearchGroup]
+          [ResearchGroup]
+            [Item Type="MyObjectBuilder_Component" SubtypeId="AQD_Tech_DEF_A2" /]
+            [BlockDefinitons]
+              [OverwriteOthers]false[/OverwriteOthers]
+              [Id Type="MyObjectBuilder_GravityGenerator" SubtypeId="AQD_SG_GravityGenerator" UseBlockVariantsGroup="false" /]
             [/BlockDefinitons]
           [/ResearchGroup]
           [ResearchGroup]
             [Item Type="MyObjectBuilder_Component" SubtypeId="AQD_Tech_DEF_B2" /]
             [BlockDefinitons]
-              [OverwriteOthers]true[/OverwriteOthers]
-              [Id Type="MyObjectBuilder_JumpDrive" SubtypeId="LargeJumpDrive" UseBlockVariantsGroup="false" /]
+              [OverwriteOthers]false[/OverwriteOthers]
               [Id Type="MyObjectBuilder_JumpDrive" SubtypeId="AQD_SG_Jumpdrive" UseBlockVariantsGroup="false" /]
             [/BlockDefinitons]
           [/ResearchGroup]
