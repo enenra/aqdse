@@ -1,4 +1,4 @@
-<?xml version="1.0"?><!-- Created by AQD ResearchGroups Editor on: 2020-11-30 23:46 -->
+<?xml version="1.0"?><!-- Created by AQD ResearchGroups Editor on: 2021-12-14 12:19 -->
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <BlueprintClassEntries>
@@ -72,7 +72,6 @@
       <InputConstraintIcon>Textures\GUI\Icons\filter_research_blueprint.dds</InputConstraintIcon>
       <OutputConstraintIcon>Textures\GUI\Icons\filter_research_blueprint.dds</OutputConstraintIcon>
     </Class>
-    
     <Class>
       <Id>
         <TypeId>BlueprintClassDefinition</TypeId>
@@ -84,7 +83,6 @@
       <InputConstraintIcon>Textures\GUI\Icons\filter_research_blueprint.dds</InputConstraintIcon>
       <OutputConstraintIcon>Textures\GUI\Icons\filter_research_blueprint.dds</OutputConstraintIcon>
     </Class>
-    
     <Class>
       <Id>
         <TypeId>BlueprintClassDefinition</TypeId>
@@ -96,7 +94,6 @@
       <InputConstraintIcon>Textures\GUI\Icons\filter_research_blueprint.dds</InputConstraintIcon>
       <OutputConstraintIcon>Textures\GUI\Icons\filter_research_blueprint.dds</OutputConstraintIcon>
     </Class>
-
     <Class>
       <Id>
         <TypeId>BlueprintClassDefinition</TypeId>
@@ -108,6 +105,5 @@
       <InputConstraintIcon>Textures\GUI\Icons\filter_research_blueprint.dds</InputConstraintIcon>
       <OutputConstraintIcon>Textures\GUI\Icons\filter_research_blueprint.dds</OutputConstraintIcon>
     </Class>
-
   </BlueprintClasses>
 </Definitions>
