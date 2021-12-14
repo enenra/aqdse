@@ -1,0 +1,25 @@
+<?xml version="1.0"?><!-- Created by AQD ResearchGroups Editor on: 2020-12-03 13:11 -->
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>ProgressionFramework_AQD_Reinforced_Windows</SubtypeId>
+      </Id>
+      <Description>
+        [?xml version="1.0" encoding="utf-16"?]
+        [ResearchGroups xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xmlns:xsd="http://www.w3.org/2001/XMLSchema"]
+          [ResearchGroup]
+            [Item Type="MyObjectBuilder_Component" SubtypeId="AQD_Tech_ARM_A1" /]
+            [BlockDefinitons]
+              [OverwriteOthers]false[/OverwriteOthers]
+              [Id Type="MyObjectBuilder_CubeBlock" SubtypeId="AQD_LG_ReinforcedWindow_1x1" UseBlockVariantsGroup="true" /]
+            [/BlockDefinitons]
+          [/ResearchGroup]
+        [/ResearchGroups]
+      </Description>
+    </EntityComponent>
+  </EntityComponents>
+</Definitions>

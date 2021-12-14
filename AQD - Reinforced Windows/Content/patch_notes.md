@@ -1,4 +1,4 @@
-[h1]Patch 1.1a[/h1]
+[h1]Patch 1.1b[/h1]
 [list]
-[*]Added AQD logo to all block icons.
+[*]Added compatibility with Vanilla Tech Tree.
 [/list]
