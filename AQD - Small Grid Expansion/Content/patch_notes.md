@@ -1,4 +1,5 @@
-[h1]Patch 1.0a[/h1]
+[h1]Patch 1.0b[/h1]
 [list]
-[*]Fix for Vanilla Tech Tree compatibility.
+[*]Buff for Basic Assembler and Basic Refinery speeds.
+[*]Fix for Jumpdrive emissive status indicators.
 [/list]
