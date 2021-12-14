@@ -56,7 +56,7 @@
 					<Class>Tools</Class>
 					<Class>Consumables</Class>
 				</BlueprintClasses>
-				<AssemblySpeed>0.35</AssemblySpeed>
+				<AssemblySpeed>0.5</AssemblySpeed>
 				<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
 				<DamagedSound>ParticleHeavyMech</DamagedSound>
 				<PrimarySound>BlockAssembler</PrimarySound>
