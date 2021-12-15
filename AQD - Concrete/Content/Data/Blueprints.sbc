@@ -11,7 +11,7 @@
       <DisplayName>{LOC:DisplayName_AQD_Comp_Concrete}</DisplayName>
       <Icon>Textures\GUI\Icons\component\AQD_Comp_Concrete.dds</Icon>
       <Prerequisites>
-        <Item Amount="20" TypeId="Ingot" SubtypeId="Stone" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Stone" />
       </Prerequisites>
       <Results>
         <Item Amount="1" TypeId="Component" SubtypeId="AQD_Comp_Concrete" />
