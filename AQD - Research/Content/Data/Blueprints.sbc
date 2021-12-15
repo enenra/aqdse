@@ -12,14 +12,14 @@
       <DisplayName>{LOC:DisplayName_AQD_BP_ResearchMaterial}</DisplayName>
       <Icon>Textures\GUI\Icons\component\AQD_ResearchMaterial.dds</Icon>
       <Prerequisites>
-        <Item Amount="50" TypeId="Ingot" SubtypeId="Iron" />
-        <Item Amount="30" TypeId="Ingot" SubtypeId="Nickel" />
-        <Item Amount="20" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="20" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Nickel" />
       </Prerequisites>
       <Results>
         <Item Amount="1" TypeId="Component" SubtypeId="AQD_Comp_ResearchMaterial" />
       </Results>
-      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>5</BaseProductionTimeInSeconds>
     </Blueprint>
 
     <Blueprint>
@@ -30,14 +30,14 @@
       <DisplayName>{LOC:DisplayName_AQD_BP_EnhancedResearchMaterial}</DisplayName>
       <Icon>Textures\GUI\Icons\component\AQD_EnhancedResearchMaterial.dds</Icon>
       <Prerequisites>
-        <Item Amount="50" TypeId="Ingot" SubtypeId="Silicon" />
-        <Item Amount="30" TypeId="Ingot" SubtypeId="Cobalt" />
-        <Item Amount="20" TypeId="Ingot" SubtypeId="Magnesium" />
+        <Item Amount="20" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Cobalt" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Magnesium" />
       </Prerequisites>
       <Results>
         <Item Amount="1" TypeId="Component" SubtypeId="AQD_Comp_EnhancedResearchMaterial" />
       </Results>
-      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
     </Blueprint>
 
     <Blueprint>
@@ -48,14 +48,14 @@
       <DisplayName>{LOC:DisplayName_AQD_BP_AdvancedResearchMaterial}</DisplayName>
       <Icon>Textures\GUI\Icons\component\AQD_AdvancedResearchMaterial.dds</Icon>
       <Prerequisites>
-        <Item Amount="50" TypeId="Ingot" SubtypeId="Magnesium" />
-        <Item Amount="30" TypeId="Ingot" SubtypeId="Silver" />
-        <Item Amount="20" TypeId="Ingot" SubtypeId="Gold" />
+        <Item Amount="20" TypeId="Ingot" SubtypeId="Silver" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Magnesium" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Gold" />
       </Prerequisites>
       <Results>
         <Item Amount="1" TypeId="Component" SubtypeId="AQD_Comp_AdvancedResearchMaterial" />
       </Results>
-      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>20</BaseProductionTimeInSeconds>
     </Blueprint>
 
     <Blueprint>
@@ -66,14 +66,14 @@
       <DisplayName>{LOC:DisplayName_AQD_BP_EliteResearchMaterial}</DisplayName>
       <Icon>Textures\GUI\Icons\component\AQD_EliteResearchMaterial.dds</Icon>
       <Prerequisites>
-        <Item Amount="50" TypeId="Ingot" SubtypeId="Gold" />
-        <Item Amount="30" TypeId="Ingot" SubtypeId="Uranium" />
-        <Item Amount="20" TypeId="Ingot" SubtypeId="Platinum" />
+        <Item Amount="20" TypeId="Ingot" SubtypeId="Gold" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Uranium" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Platinum" />
       </Prerequisites>
       <Results>
         <Item Amount="1" TypeId="Component" SubtypeId="AQD_Comp_EliteResearchMaterial" />
       </Results>
-      <BaseProductionTimeInSeconds>40</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>30</BaseProductionTimeInSeconds>
     </Blueprint>
 
   </Blueprints>
