@@ -1,4 +1,4 @@
-<?xml version="1.0"?><!-- Created by AQD ResearchGroups Editor on: 2021-12-18 10:51 -->
+<?xml version="1.0"?><!-- Created by AQD ResearchGroups Editor on: 2021-12-18 11:30 -->
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Blueprints>
@@ -460,7 +460,7 @@
         <SubtypeId>T4_AQD_BP_DEF_A1</SubtypeId>
       </Id>
       <DisplayName>{LOC:DisplayName_T4_AQD_BP_DEF_A1}</DisplayName>
-      <Icon>Textures\GUI\Icons\AQD_research_combat.dds</Icon>
+      <Icon>Textures\GUI\Icons\AQD_research_default.dds</Icon>
       <Prerequisites>
         <Item Amount="60" TypeId="Component" SubtypeId="AQD_Comp_EliteResearchMaterial" />
       </Prerequisites>
@@ -475,7 +475,7 @@
         <SubtypeId>T4_AQD_BP_DEF_A2</SubtypeId>
       </Id>
       <DisplayName>{LOC:DisplayName_T4_AQD_BP_DEF_A2}</DisplayName>
-      <Icon>Textures\GUI\Icons\AQD_research_combat.dds</Icon>
+      <Icon>Textures\GUI\Icons\AQD_research_default.dds</Icon>
       <Prerequisites>
         <Item Amount="80" TypeId="Component" SubtypeId="AQD_Comp_EliteResearchMaterial" />
         <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_DEF_A1" />
@@ -491,7 +491,7 @@
         <SubtypeId>T3_AQD_BP_DEF_B1</SubtypeId>
       </Id>
       <DisplayName>{LOC:DisplayName_T3_AQD_BP_DEF_B1}</DisplayName>
-      <Icon>Textures\GUI\Icons\AQD_research_combat.dds</Icon>
+      <Icon>Textures\GUI\Icons\AQD_research_default.dds</Icon>
       <Prerequisites>
         <Item Amount="20" TypeId="Component" SubtypeId="AQD_Comp_AdvancedResearchMaterial" />
       </Prerequisites>
@@ -506,7 +506,7 @@
         <SubtypeId>T3_AQD_BP_DEF_B2</SubtypeId>
       </Id>
       <DisplayName>{LOC:DisplayName_T3_AQD_BP_DEF_B2}</DisplayName>
-      <Icon>Textures\GUI\Icons\AQD_research_combat.dds</Icon>
+      <Icon>Textures\GUI\Icons\AQD_research_default.dds</Icon>
       <Prerequisites>
         <Item Amount="60" TypeId="Component" SubtypeId="AQD_Comp_AdvancedResearchMaterial" />
         <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_DEF_B1" />
@@ -522,7 +522,7 @@
         <SubtypeId>T4_AQD_BP_DEF_C1</SubtypeId>
       </Id>
       <DisplayName>{LOC:DisplayName_T4_AQD_BP_DEF_C1}</DisplayName>
-      <Icon>Textures\GUI\Icons\AQD_research_combat.dds</Icon>
+      <Icon>Textures\GUI\Icons\AQD_research_default.dds</Icon>
       <Prerequisites>
         <Item Amount="80" TypeId="Component" SubtypeId="AQD_Comp_EliteResearchMaterial" />
       </Prerequisites>
@@ -537,7 +537,7 @@
         <SubtypeId>T1_AQD_BP_DEF_D1</SubtypeId>
       </Id>
       <DisplayName>{LOC:DisplayName_T1_AQD_BP_DEF_D1}</DisplayName>
-      <Icon>Textures\GUI\Icons\AQD_research_combat.dds</Icon>
+      <Icon>Textures\GUI\Icons\AQD_research_default.dds</Icon>
       <Prerequisites>
         <Item Amount="20" TypeId="Component" SubtypeId="AQD_Comp_ResearchMaterial" />
       </Prerequisites>
@@ -552,7 +552,7 @@
         <SubtypeId>T2_AQD_BP_DEF_D2</SubtypeId>
       </Id>
       <DisplayName>{LOC:DisplayName_T2_AQD_BP_DEF_D2}</DisplayName>
-      <Icon>Textures\GUI\Icons\AQD_research_combat.dds</Icon>
+      <Icon>Textures\GUI\Icons\AQD_research_default.dds</Icon>
       <Prerequisites>
         <Item Amount="40" TypeId="Component" SubtypeId="AQD_Comp_EnhancedResearchMaterial" />
         <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_DEF_D1" />
@@ -568,7 +568,7 @@
         <SubtypeId>T3_AQD_BP_DEF_D3</SubtypeId>
       </Id>
       <DisplayName>{LOC:DisplayName_T3_AQD_BP_DEF_D3}</DisplayName>
-      <Icon>Textures\GUI\Icons\AQD_research_combat.dds</Icon>
+      <Icon>Textures\GUI\Icons\AQD_research_default.dds</Icon>
       <Prerequisites>
         <Item Amount="40" TypeId="Component" SubtypeId="AQD_Comp_AdvancedResearchMaterial" />
         <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_DEF_D2" />
@@ -584,7 +584,7 @@
         <SubtypeId>T4_AQD_BP_DEF_D4</SubtypeId>
       </Id>
       <DisplayName>{LOC:DisplayName_T4_AQD_BP_DEF_D4}</DisplayName>
-      <Icon>Textures\GUI\Icons\AQD_research_combat.dds</Icon>
+      <Icon>Textures\GUI\Icons\AQD_research_default.dds</Icon>
       <Prerequisites>
         <Item Amount="20" TypeId="Component" SubtypeId="AQD_Comp_EliteResearchMaterial" />
         <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_DEF_D1" />
