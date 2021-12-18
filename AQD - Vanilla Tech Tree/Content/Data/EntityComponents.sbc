@@ -1,4 +1,4 @@
-<?xml version="1.0"?><!-- Created by AQD ResearchGroups Editor on: 2021-12-14 12:19 -->
+<?xml version="1.0"?><!-- Created by AQD ResearchGroups Editor on: 2021-12-18 17:02 -->
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <EntityComponents>
@@ -164,19 +164,19 @@
             [Item Type="MyObjectBuilder_Component" SubtypeId="AQD_Tech_STOR_C2" /]
             [BlockDefinitons]
               [OverwriteOthers]false[/OverwriteOthers]
-              [Id Type="MyObjectBuilder_ShipConnector" SubtypeId="Connector" UseBlockVariantsGroup="false" /]
-              [Id Type="MyObjectBuilder_ShipConnector" SubtypeId="ConnectorMedium" UseBlockVariantsGroup="false" /]
+              [Id Type="MyObjectBuilder_ExtendedPistonBase" SubtypeId="LargePistonBase" UseBlockVariantsGroup="false" /]
+              [Id Type="MyObjectBuilder_PistonTop" SubtypeId="LargePistonTop" UseBlockVariantsGroup="false" /]
+              [Id Type="MyObjectBuilder_ExtendedPistonBase" SubtypeId="SmallPistonBase" UseBlockVariantsGroup="false" /]
+              [Id Type="MyObjectBuilder_PistonTop" SubtypeId="SmallPistonTop" UseBlockVariantsGroup="false" /]
+              [Id Type="MyObjectBuilder_MotorAdvancedStator" SubtypeId="LargeHinge" UseBlockVariantsGroup="true" /]
             [/BlockDefinitons]
           [/ResearchGroup]
           [ResearchGroup]
             [Item Type="MyObjectBuilder_Component" SubtypeId="AQD_Tech_STOR_C3" /]
             [BlockDefinitons]
               [OverwriteOthers]false[/OverwriteOthers]
-              [Id Type="MyObjectBuilder_ExtendedPistonBase" SubtypeId="LargePistonBase" UseBlockVariantsGroup="false" /]
-              [Id Type="MyObjectBuilder_PistonTop" SubtypeId="LargePistonTop" UseBlockVariantsGroup="false" /]
-              [Id Type="MyObjectBuilder_ExtendedPistonBase" SubtypeId="SmallPistonBase" UseBlockVariantsGroup="false" /]
-              [Id Type="MyObjectBuilder_PistonTop" SubtypeId="SmallPistonTop" UseBlockVariantsGroup="false" /]
-              [Id Type="MyObjectBuilder_MotorAdvancedStator" SubtypeId="LargeHinge" UseBlockVariantsGroup="true" /]
+              [Id Type="MyObjectBuilder_ShipConnector" SubtypeId="Connector" UseBlockVariantsGroup="false" /]
+              [Id Type="MyObjectBuilder_ShipConnector" SubtypeId="ConnectorMedium" UseBlockVariantsGroup="false" /]
             [/BlockDefinitons]
           [/ResearchGroup]
           [ResearchGroup]
@@ -487,7 +487,6 @@
             [BlockDefinitons]
               [OverwriteOthers]false[/OverwriteOthers]
               [Id Type="MyObjectBuilder_CubeBlock" SubtypeId="ArmorCenter" UseBlockVariantsGroup="true" /]
-              [Id Type="MyObjectBuilder_CubeBlock" SubtypeId="LargeBlockHeavyArmorSlopedCornerTip" UseBlockVariantsGroup="true" /]
             [/BlockDefinitons]
           [/ResearchGroup]
         [/ResearchGroups]

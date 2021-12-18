@@ -244,10 +244,10 @@
     <value>Item Transfer Schematic</value>
   </data>
   <data name="DisplayName_AQD_Tech_STOR_C2" xml:space="preserve">
-    <value>Advanced Item Transfer Schematic</value>
+    <value>Flexible Item Transfer Schematic</value>
   </data>
   <data name="DisplayName_AQD_Tech_STOR_C3" xml:space="preserve">
-    <value>Flexible Item Transfer Schematic</value>
+    <value>Advanced Item Transfer Schematic</value>
   </data>
   <data name="DisplayName_AQD_Tech_UTIL_A1" xml:space="preserve">
     <value>Positional Markers Schematic</value>
@@ -331,10 +331,10 @@
     <value>Research Item Transfer</value>
   </data>
   <data name="DisplayName_T1_AQD_BP_STOR_C2" xml:space="preserve">
-    <value>Research Advanced Item Transfer</value>
+    <value>Research Flexible Item Transfer</value>
   </data>
   <data name="DisplayName_T1_AQD_BP_STOR_C3" xml:space="preserve">
-    <value>Research Flexible Item Transfer</value>
+    <value>Research Advanced Item Transfer</value>
   </data>
   <data name="DisplayName_T1_AQD_BP_UTIL_E1" xml:space="preserve">
     <value>Research Enclosed Cockpits</value>
