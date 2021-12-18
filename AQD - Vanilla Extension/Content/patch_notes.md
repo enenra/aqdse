@@ -1,3 +1,4 @@
-[h1]Patch 1.2d[/h1]
-[list][*]Added AQD logo to all block icons.
+[h1]Patch 1.2e[/h1]
+[list]
+[*]Fix for names of Narrow seat variations.
 [/list]

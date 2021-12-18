@@ -1,4 +1,4 @@
-[h1]Current version: [b]1.2d[/b][/h1]
+[h1]Current version: [b]1.2e[/b][/h1]
 [i]Please refer to the [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/1944116766]changelog[/url] for patch notes.[/i]
 
 This is the core mod of the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1944116766]AQD - Vanilla Extension[/url] modpack.
