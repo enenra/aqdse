@@ -8,7 +8,7 @@
         <TypeId>Cockpit</TypeId>
         <SubtypeId>PassengerSeatSmallNarrow</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Block_PassengerSeatNarrow</DisplayName>
+      <DisplayName>{LOC:DisplayName_Block_PassengerSeatNarrow}</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\PassengerSeat.dds</Icon>
       <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <Description>Description_PassengerSeat</Description>
@@ -69,7 +69,7 @@
         <TypeId>Cockpit</TypeId>
         <SubtypeId>OpenCockpitSmallNarrow</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Block_OpenCockpitSmallNarrow</DisplayName>
+      <DisplayName>{LOC:DisplayName_Block_OpenCockpitSmallNarrow}</DisplayName>
       <Icon>Textures\GUI\Icons\Cubes\OpenCockpitSmall.dds</Icon>
       <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <Description>Description_OpenCockpitSmall</Description>
