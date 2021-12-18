@@ -10,12 +10,12 @@
       <DisplayName>{LOC:DisplayName_T2_AQD_BP_STOR_D1_CE}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_storage.dds</Icon>
       <Prerequisites>
-        <Item Amount="40" TypeId="Component" SubtypeId="AQD_Comp_EnhancedResearchMaterial" />
+        <Item Amount="20" TypeId="Component" SubtypeId="AQD_Comp_EnhancedResearchMaterial" />
       </Prerequisites>
       <Results>
         <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_STOR_D1_CE" />
       </Results>
-      <BaseProductionTimeInSeconds>1200</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>600</BaseProductionTimeInSeconds>
     </Blueprint>
   </Blueprints>
 </Definitions>
