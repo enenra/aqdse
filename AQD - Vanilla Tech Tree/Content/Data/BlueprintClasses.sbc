@@ -1,4 +1,4 @@
-<?xml version="1.0"?><!-- Created by AQD ResearchGroups Editor on: 2021-12-14 12:19 -->
+<?xml version="1.0"?><!-- Created by AQD ResearchGroups Editor on: 2021-12-18 10:51 -->
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <BlueprintClassEntries>
@@ -23,7 +23,7 @@
     <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_AQD_BP_IND_A1" />
     <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_AQD_BP_IND_A2" />
     <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_AQD_BP_IND_A3" />
-    <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_AQD_BP_IND_B1" />
+    <Entry Class="AQD_BPC_ResearchLab_T1" BlueprintSubtypeId="T1_AQD_BP_IND_B1" />
     <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_AQD_BP_IND_B2" />
     <Entry Class="AQD_BPC_ResearchLab_T2" BlueprintSubtypeId="T2_AQD_BP_IND_B3" />
     <Entry Class="AQD_BPC_ResearchLab_T3" BlueprintSubtypeId="T3_AQD_BP_IND_B4" />

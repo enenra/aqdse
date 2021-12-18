@@ -1,4 +1,4 @@
-<?xml version="1.0"?><!-- Created by AQD ResearchGroups Editor on: 2021-12-14 12:19 -->
+<?xml version="1.0"?><!-- Created by AQD ResearchGroups Editor on: 2021-12-18 10:51 -->
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Blueprints>
@@ -332,12 +332,12 @@
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>T2_AQD_BP_IND_B1</SubtypeId>
+        <SubtypeId>T1_AQD_BP_IND_B1</SubtypeId>
       </Id>
-      <DisplayName>{LOC:DisplayName_T2_AQD_BP_IND_B1}</DisplayName>
+      <DisplayName>{LOC:DisplayName_T1_AQD_BP_IND_B1}</DisplayName>
       <Icon>Textures\GUI\Icons\AQD_research_industry.dds</Icon>
       <Prerequisites>
-        <Item Amount="40" TypeId="Component" SubtypeId="AQD_Comp_EnhancedResearchMaterial" />
+        <Item Amount="40" TypeId="Component" SubtypeId="AQD_Comp_ResearchMaterial" />
       </Prerequisites>
       <Results>
         <Item Amount="1" TypeId="Component" SubtypeId="AQD_Tech_IND_B1" />

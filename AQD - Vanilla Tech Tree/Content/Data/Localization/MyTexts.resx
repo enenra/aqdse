@@ -300,6 +300,9 @@
   <data name="DisplayName_T1_AQD_BP_DEF_D1" xml:space="preserve">
     <value>Research Nonviolent Contact Machinery</value>
   </data>
+  <data name="DisplayName_T1_AQD_BP_IND_B1" xml:space="preserve">
+    <value>Research Upscaled Refining</value>
+  </data>
   <data name="DisplayName_T1_AQD_BP_LOC_A1" xml:space="preserve">
     <value>Research Upscaled Wheels</value>
   </data>
@@ -365,9 +368,6 @@
   </data>
   <data name="DisplayName_T2_AQD_BP_IND_A3" xml:space="preserve">
     <value>Research Upscaled Welders</value>
-  </data>
-  <data name="DisplayName_T2_AQD_BP_IND_B1" xml:space="preserve">
-    <value>Research Upscaled Refining</value>
   </data>
   <data name="DisplayName_T2_AQD_BP_IND_B2" xml:space="preserve">
     <value>Research Energy Saving</value>
