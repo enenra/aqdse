@@ -1,4 +1,4 @@
-[h1]Current version: [b]0.8b[/b][/h1]
+[h1]Current version: [b]0.8c[/b][/h1]
 [i]Please refer to the [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/1810920525]changelog[/url] for patch notes.[/i]
 
 [img]https://i.imgur.com/cdhLXnQ.png[/img]
