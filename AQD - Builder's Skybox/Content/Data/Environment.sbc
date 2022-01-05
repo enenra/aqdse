@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Environment>
+    <Id>
+      <TypeId>EnvironmentDefinition</TypeId>
+      <SubtypeId>Default</SubtypeId>
+    </Id>
+    <EnvironmentTexture>Textures\BackgroundCube\Final\grid.dds</EnvironmentTexture>
+    <EnvironmentOrientation Yaw="0" Pitch="0" Roll="0" />
+
+    <SunProperties>
+      <SunIntensity>0</SunIntensity>
+      <EnvironmentLight>
+        <SkyboxBrightness>1.0</SkyboxBrightness>
+        <EnvSkyboxBrightness>20.0</EnvSkyboxBrightness>
+        <AmbientDiffuseFactor>2.5</AmbientDiffuseFactor>
+        <AmbientSpecularFactor>1.4</AmbientSpecularFactor>
+      </EnvironmentLight>
+    </SunProperties>
+
+  </Environment>
+</Definitions>
