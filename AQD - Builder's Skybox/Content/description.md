@@ -19,3 +19,8 @@ This skybox features a grid as a background, with axi denoted by label and color
 
 [url=https://discord.gg/QtyCsBr][img]https://i.imgur.com/l8exfyn.png[/img][/url]
 [url=https://github.com/enenra/aqdse][img]https://i.imgur.com/T7AtPhP.png[/img][/url]
+
+[img]https://i.imgur.com/7Yen2BR.png[/img]
+[list]
+[*]The skybox does not work on / near planets as this mod replaces the sun with ambient light. On planets / in their vicinity, this ambient light is disabled in favour of separate planet-based settings. However, there is no ambient light equivalent on planets. The result is total darkness.
+[/list]
