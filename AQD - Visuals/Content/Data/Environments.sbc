@@ -22,9 +22,6 @@
         <ChromaticFactor>0.003</ChromaticFactor>
         <VignetteStart>0.84</VignetteStart>
         <VignetteLength>2.5</VignetteLength>
-        
-        <BloomMult>0.06</BloomMult>
-        <BloomEmissiveness>200</BloomEmissiveness>
       </Data>
     </PostProcessSettings>
 
