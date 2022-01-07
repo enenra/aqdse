@@ -55,7 +55,7 @@ namespace enenra.EmissiveControl
 
         if (mod.PublishedFileId == 2244563617) // AQD - Visuals
           aqdVisualsPresent = true;
-        else if (mod.PublishedFileId == 2212516940) // Emissive Colors - Red / Green Color Vision Deficiency
+        else if (mod.PublishedFileId == 2711430394) // Emissive Colors - Red / Green Color Vision Deficiency
           emissiveColorsPresent = true;
       }
 

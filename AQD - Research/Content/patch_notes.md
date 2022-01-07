@@ -1,4 +1,4 @@
-[h1]Patch 1.1d[/h1]
+[h1]Patch 1.1e[/h1]
 [list]
-[*]Further reduced Magnesium amount required for Research Materials.
+[*]Update for compatibility with AQD - Emissive Colors.
 [/list]
