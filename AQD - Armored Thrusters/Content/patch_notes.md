@@ -1,4 +1,4 @@
-[h1]Patch 0.8c[/h1]
+[h1]Patch 0.8d[/h1]
 [list]
-[*]Fixed Vanilla Tech Tree integration.
+[*]Update for compatibility with AQD - Emissive Colors.
 [/list]
