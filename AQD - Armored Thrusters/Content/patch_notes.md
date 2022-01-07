@@ -1,4 +1,4 @@
-[h1]Patch 0.8d[/h1]
+[h1]Patch xx[/h1]
 [list]
-[*]Update for compatibility with AQD - Emissive Colors.
+[*]Added armor definitions for CoreParts / WeaponCore.
 [/list]
