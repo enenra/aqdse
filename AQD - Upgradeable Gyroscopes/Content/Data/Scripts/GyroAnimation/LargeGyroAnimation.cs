@@ -26,6 +26,7 @@ namespace GyroAnimations
         private MyEntitySubpart SubpartCore;
 
         private bool Override;
+        private bool Visible;
 
         public override void Init(MyObjectBuilder_EntityBase ob)
         {
@@ -40,20 +41,23 @@ namespace GyroAnimations
             
             if (Gyro?.CubeGrid?.Physics == null) return;
 
+            if (TryGetSubparts())
+            {
+                SubpartOuter.NeedsWorldMatrix = true;
+                SubpartInner.NeedsWorldMatrix = true;
+                SubpartCore.NeedsWorldMatrix = true;
+            }
+
             Gyro.IsWorkingChanged += SetEmissiveColor;
 
             SetEmissiveColor(Gyro);
 
-            NeedsUpdate = MyEntityUpdateEnum.EACH_FRAME;
+            NeedsUpdate |= MyEntityUpdateEnum.EACH_FRAME | MyEntityUpdateEnum.EACH_100TH_FRAME;
         }
 
         public override void UpdateAfterSimulation()
         {
-            if (!Gyro.IsFunctional || Gyro.MarkedForClose) return;
-
-            var camPos = MyAPIGateway.Session?.Camera?.WorldMatrix.Translation; // local machine camera position
-            if (camPos == null || Vector3D.DistanceSquared((Vector3D)camPos, Entity.GetPosition()) > 90000)
-                return;
+            if (!Visible || !Gyro.IsFunctional || Gyro.MarkedForClose) return;
 
             if (SubpartOuter == null || SubpartInner == null || SubpartCore == null)
             {
@@ -75,6 +79,13 @@ namespace GyroAnimations
             if (!Vector3.IsZero(Gyro.CubeGrid.Physics.AngularVelocity))
                 RotateSubparts();
         }
+
+        public override void UpdateAfterSimulation100()
+        {
+            var camPos = MyAPIGateway.Session?.Camera?.Position;
+            Visible = camPos != null && Vector3D.DistanceSquared((Vector3D)camPos, Gyro.PositionComp.WorldMatrixRef.Translation) < 90000;
+        }
+
 
         public override void Close()
         {
