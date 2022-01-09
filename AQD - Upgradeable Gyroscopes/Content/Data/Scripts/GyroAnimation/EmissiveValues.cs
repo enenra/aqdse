@@ -25,7 +25,7 @@ namespace GyroAnimations
 
             foreach (var mod in MyAPIGateway.Session.Mods)
             {
-                if (mod.PublishedFileId == 2244563617) // AQD - Visuals
+                if (mod.PublishedFileId == 2711430394) // AQD - Emissive Colors
                     aqdVisualsPresent = true;
                 else if (mod.PublishedFileId == 2212516940) // Emissive Colors - Red / Green Color Vision Deficiency
                     emissiveColorsPresent = true;
