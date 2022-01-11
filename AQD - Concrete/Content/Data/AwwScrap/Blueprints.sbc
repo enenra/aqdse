@@ -14,7 +14,7 @@
         <Item Amount="1" TypeId="Ore" SubtypeId="AQD_Comp_ConcreteScrap" />
       </Prerequisites>
       <Results>
-        <Item Amount="10" TypeId="Ingot" SubtypeId="Stone" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Stone" />
       </Results>
       <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
     </Blueprint>

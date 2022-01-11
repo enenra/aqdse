@@ -1,4 +1,4 @@
-[h1]Patch 1.3a[/h1]
+[h1]Patch 1.3b[/h1]
 [list]
-[*]Reduced Stone needed to produce Concrete from 20 to 10.
+[*]Update for AwwScrap scrap return values.
 [/list]
