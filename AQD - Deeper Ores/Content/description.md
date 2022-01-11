@@ -1,7 +1,7 @@
 [img]https://i.imgur.com/fVVaDCS.gif[/img]
 
 [h1]Current version: [b]1.0[/b][/h1]
-[i]Please refer to the [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/]changelog[/url] for patch notes.[/i]
+[i]Please refer to the [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2715847084]changelog[/url] for patch notes.[/i]
 
 [img]https://i.imgur.com/cdhLXnQ.png[/img]
 [quote]
@@ -29,5 +29,5 @@ All ore veins are moved deeper into the planets. How deep depends on the type of
 [img]https://i.imgur.com/uUOBTpF.png[/img]
 [list]
 [*][b]Ghost722nd[/b] - Maker of the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1540170706]original Deep Ores mod[/url].
-[*][b]Meridius_IX / Lucas[/b] - For writing the base script, with which the ore remapping is implemented.[/url]
+[*][b]Meridius_IX / Lucas[/b] - For writing the base script, with which the ore remapping is implemented.
 [/list]
