@@ -253,7 +253,7 @@
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_HA_Slab_InvCorner_Split" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_HA_SlopeTransition" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_HA_HalfSlopeTransition" />
-        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_HA_Slab_SlopeTransition" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_HA_Slab_SlopeTransition" />
       </Blocks>
     </BlockVariantGroup>
 
