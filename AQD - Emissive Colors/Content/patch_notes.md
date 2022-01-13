@@ -1,1 +1,4 @@
-[h1]Initial Release 1.0[/h1]
+[h1]Patch 1.0a[/h1]
+[list]
+[*]Removed bloom increase as it had unintended side effects.
+[/list]
