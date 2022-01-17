@@ -550,10 +550,8 @@ namespace enenra.OreRemapping
 
                 var voxelMaterial = def as MyVoxelMaterialDefinition;
 
-                if (voxelMaterial.Id.SubtypeName == "Nickel_01") { voxelMaterial.SpawnsInAsteroids = false; }
                 if (voxelMaterial.Id.SubtypeName == "Cobalt_01") { voxelMaterial.SpawnsInAsteroids = false; }
                 if (voxelMaterial.Id.SubtypeName == "Magnesium_01") { voxelMaterial.SpawnsInAsteroids = false; }
-                if (voxelMaterial.Id.SubtypeName == "Silicon_01") { voxelMaterial.SpawnsInAsteroids = false; }
                 if (voxelMaterial.Id.SubtypeName == "Gold_01") { voxelMaterial.SpawnsInAsteroids = false; }
                 if (voxelMaterial.Id.SubtypeName == "Platinum_01") { voxelMaterial.SpawnsInAsteroids = false; }
                 if (voxelMaterial.Id.SubtypeName == "Uraninite_01") { voxelMaterial.SpawnsInAsteroids = false; }

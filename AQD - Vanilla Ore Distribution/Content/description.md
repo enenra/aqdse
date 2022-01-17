@@ -1,0 +1,155 @@
+[h1]Current version: [b]1.3[/b][/h1]
+[i]Please refer to the [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/1845977557]changelog[/url] for patch notes.[/i]
+
+[img]https://i.imgur.com/cdhLXnQ.png[/img]
+[quote]
+This mod changes ore deposits on planets to be further below the surface but also much larger. It further also changes ore distribution: Now certain ores can only be found on specific planets, and what resources can be found in asteroids is greatly reduced.
+[/quote]
+
+[h1][b]AQD - A Quantum of Depth[/b] is a project of mine, encompassing multiple small and larger mods aimed at improving the gameplay experience and eventually overhauling larger parts of the game:[/h1]
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1808547374][img]https://raw.githubusercontent.com/enenra/aqdse/master/collection.jpg[/img][/url]
+
+
+[img]https://i.imgur.com/5nbiNLV.png[/img]
+
+[h1]Planet ore deposits[/h1]
+Ore deposits on planets have been altered. They are much, much larger than in vanilla but have also largely been moved further down into the ground. As a result, it is much more worth to build permanent mining outposts.
+
+Ore depth is determined by their "tier":
+[list]
+[*][b]Tier 1[/b]: Iron, Nickel, Silicon - 50-300m
+[*][b]Tier 2[/b]: Cobalt, Magnesium, Silver - 200-800m
+[*][b]Tier 3[/b]: Gold, Platinum, Uranium - 400-1000m
+[/list]
+Lower tier ores may still appear at lower depths, however.
+
+[h1]Ore distribution[/h1]
+Ore distribution has been altered significantly. The goal is to add a reason to visit all planets, which is achieved by distributing ores over the different planets. The distribution is designed with a start on the earthlike planet in mind, but with the economy update you may be able to make any planet work - or even a space start.
+
+[table]
+    [tr]
+        [td][h1]Ore[/h1][/td]
+        [td][h1]Earthlike, Triton, Pertram[/h1][/td]
+        [td][h1]Moon[/h1][/td]
+        [td][h1]Mars[/h1][/td]
+        [td][h1]Europa[/h1][/td]
+        [td][h1]Alien[/h1][/td]
+        [td][h1]Titan[/h1][/td]
+        [td][h1]Asteroids[/h1][/td]
+    [/tr]
+    [tr]
+        [td][b]Iron[/b][/td]
+        [td]✔[/td]
+        [td]✔[/td]
+        [td]✔[/td]
+        [td]✔[/td]
+        [td]✔[/td]
+        [td]✔[/td]
+        [td]✔[/td]
+    [/tr]
+    [tr]
+        [td][b]Nickel[/b][/td]
+        [td]✔[/td]
+        [td]✔[/td]
+        [td]✔[/td]
+        [td]✔[/td]
+        [td]✔[/td]
+        [td]✔[/td]
+        [td]✔[/td]
+    [/tr]
+    [tr]
+        [td][b]Silicon[/b][/td]
+        [td]✔[/td]
+        [td]✔[/td]
+        [td]✔[/td]
+        [td]✔[/td]
+        [td]✔[/td]
+        [td]✔[/td]
+        [td]✔[/td]
+    [/tr]
+    [tr]
+        [td][b]Cobalt[/b][/td]
+        [td]✔[/td]
+        [td][/td]
+        [td][/td]
+        [td][/td]
+        [td][/td]
+        [td][/td]
+        [td][/td]
+    [/tr]
+    [tr]
+        [td][b]Magnesium[/b][/td]
+        [td]✔[/td]
+        [td][/td]
+        [td][/td]
+        [td]✔[/td]
+        [td][/td]
+        [td]✔[/td]
+        [td][/td]
+    [/tr]
+    [tr]
+        [td][b]Silver[/b][/td]
+        [td][/td]
+        [td]✔[/td]
+        [td][/td]
+        [td]✔[/td]
+        [td][/td]
+        [td]✔[/td]
+        [td]✔[/td]
+    [/tr]
+    [tr]
+        [td][b]Gold[/b][/td]
+        [td][/td]
+        [td]✔[/td]
+        [td][/td]
+        [td]✔[/td]
+        [td][/td]
+        [td]✔[/td]
+        [td][/td]
+    [/tr]
+    [tr]
+        [td][b]Uranium[/b][/td]
+        [td][/td]
+        [td][/td]
+        [td][/td]
+        [td][/td]
+        [td]✔[/td]
+        [td][/td]
+        [td][/td]
+    [/tr]
+    [tr]
+        [td][b]Platinum[/b][/td]
+        [td][/td]
+        [td][/td]
+        [td]✔[/td]
+        [td][/td]
+        [td][/td]
+        [td][/td]
+        [td][/td]
+    [/tr]
+[/table]
+
+[url=https://discord.gg/QtyCsBr][img]https://i.imgur.com/l8exfyn.png[/img][/url]
+[url=https://github.com/enenra/aqdse][img]https://i.imgur.com/T7AtPhP.png[/img][/url]
+
+[img]https://i.imgur.com/7Yen2BR.png[/img]
+[list]
+[*]I recommend using [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1814735276]AQD - Planetary Respawn Rovers[/url] together with this mod. It will allow you to more easily start out in a good spot close to the now harder to reach ore deposits.
+[*]As of patch 1.1 this mod does not directly edit the vanilla planets anymore. As a result, it is compatible with other mods changing the vanilla planets.
+[/list]
+
+[img]https://i.imgur.com/uUOBTpF.png[/img]
+[list]
+[*]This mod is inspired by [b]Chrido[/b]'s ([url=https://steamcommunity.com/sharedfiles/filedetails/?id=831739660]Scarce Resources[/url]) as well as [b]Ghost722nd[/b]'s ([url=https://steamcommunity.com/sharedfiles/filedetails/?id=1540170706]DeepOres[/url]) mods. I really liked their ideas but wanted to make some changes that better suited my vision for how it should be set up. Hence this mod.
+[*][b]Meridius_IX / Lucas[/b] - For writing the base script, with which the ore remapping is implemented.
+[/list]
+
+[h1]Endorsements[/h1]
+[i]9 out of 10 dentists recommend you use [b]AQD - Vanilla Ore Distribution[/b] in your savegame
+
+"I was playing with unmodded ore distribution like a dummy but then I discovered [b]AQD - Vanilla Ore Distribution[/b] and it changed my life!"[/i]
+
+Read how one user experienced gameplay in this mod designed to force players to start out on Earth and then progress through planets and find all the ores:
+
+[img]https://i.imgur.com/DhY15zO.png[/img]
