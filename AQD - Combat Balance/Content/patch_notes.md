@@ -1,4 +1,5 @@
-[h1]Patch 1.0b[/h1]
-[list][*]Fixed fairly severe performance issue.
-[*]Reduced heavy armor resistance from 0.25x to 0.5x. (now takes more damage)
+[h1]Patch 1.1[/h1]
+With Warfare 2 now released, I'm removing all my changes to weapons temporarily until I can rework everything with WeaponCore integration.
+[list]
+[*]Removed Weapon changes pending a complete rework using WeaponCore.
 [/list]
