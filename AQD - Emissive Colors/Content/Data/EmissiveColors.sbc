@@ -96,7 +96,7 @@
     <EmissiveColorStatePreset>
       <Id>
         <TypeId>MyObjectBuilder_EmissiveColorStatePresetDefinition</TypeId>
-        <SubtypeId>AQD_UnpoweAQD_RedOccupancy</SubtypeId>
+        <SubtypeId>AQD_UnpoweredOccupancy</SubtypeId>
       </Id>
       <EmissiveStates>
         <EmissiveState StateName="Damaged" EmissiveColorName="Black" DisplayColorName="Black" Emissivity="0" />
