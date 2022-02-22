@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ResearchGroups>
+
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="0" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Assembler" Subtype="BasicAssembler" />
+        <BlockId Type="MyObjectBuilder_Assembler" Subtype="AQD_SG_BasicAssembler" />
+      </Members>
+    </ResearchGroup>
+
+    <ResearchGroup xsi:type="ResearchGroup">
+      <Id Type="MyObjectBuilder_ResearchGroupDefinition" Subtype="9" />
+      <Members>
+        <BlockId Type="MyObjectBuilder_Refinery" Subtype="Blast Furnace" />
+        <BlockId Type="MyObjectBuilder_Refinery" Subtype="AQD_SG_BasicRefinery" />
+      </Members>
+    </ResearchGroup>
+
+  </ResearchGroups>
+</Definitions>

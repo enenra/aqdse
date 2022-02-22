@@ -1,5 +1,4 @@
-[h1]Patch 1.0b[/h1]
+[h1]Patch 1.0c[/h1]
 [list]
-[*]Buff for Basic Assembler and Basic Refinery speeds.
-[*]Fix for Jumpdrive emissive status indicators.
+[*]Fix for Basic Assembler and Basic Refinery not unlocking blocks when progression was enabled.
 [/list]
