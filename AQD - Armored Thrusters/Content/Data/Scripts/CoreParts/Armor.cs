@@ -3,7 +3,7 @@ using static Scripts.Structure.ArmorDefinition.ArmorType;
 namespace Scripts {   
     partial class Parts {
         // Don't edit above this line
-        ArmorDefinition AQD_ConveyorExpansion_ArmoredConveyors => new ArmorDefinition
+        ArmorDefinition AQD_ArmoredThrusters_ArmoredThrusters => new ArmorDefinition
         {
             SubtypeIds = new[] {
                 "AQD_LG_AtmoThrusterL_Armored",
