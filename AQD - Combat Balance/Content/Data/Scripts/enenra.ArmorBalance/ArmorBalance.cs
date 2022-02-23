@@ -29,7 +29,15 @@ namespace enenra.ArmorBalance
 
                 if (blockDef == null) continue;
 
-                if (blockDef.BlockTopology == MyBlockTopology.TriangleMesh && !(blockDef.Id.SubtypeName.StartsWith("AQD_LG_LA_") || blockDef.Id.SubtypeName.StartsWith("AQD_SG_LA_") || blockDef.Id.SubtypeName.StartsWith("AQD_LG_HA_") || blockDef.Id.SubtypeName.StartsWith("AQD_SG_HA_"))) continue;
+                if (blockDef.BlockTopology == MyBlockTopology.TriangleMesh &&
+                    !(
+                        blockDef.Id.SubtypeName.StartsWith("AQD_LG_LA_") ||
+                        blockDef.Id.SubtypeName.StartsWith("AQD_SG_LA_") ||
+                        blockDef.Id.SubtypeName.StartsWith("AQD_LG_HA_") ||
+                        blockDef.Id.SubtypeName.StartsWith("AQD_SG_HA_") ||
+                        blockDef.Id.SubtypeName.StartsWith("LargeArmor") && (blockDef.Id.SubtypeName.Contains("PanelLight") || blockDef.Id.SubtypeName.Contains("PanelHeavy")) ||
+                        blockDef.Id.SubtypeName.StartsWith("SmallArmor") && (blockDef.Id.SubtypeName.Contains("PanelLight") || blockDef.Id.SubtypeName.Contains("PanelHeavy"))
+                    )) continue;
 
                 if (blockDef.EdgeType == "Light")
                 {
@@ -62,7 +70,7 @@ namespace enenra.ArmorBalance
                 }
             }
         }
-        
+
         public override void Init(MyObjectBuilder_SessionComponent sessionComponent)
         {
 
@@ -70,7 +78,7 @@ namespace enenra.ArmorBalance
 
         public override void LoadData()
         {
-            DoWork();  
+            DoWork();
         }
     }
 }
