@@ -1,4 +1,4 @@
-[h1]Current version: [b]2.0c[/b][/h1]
+[h1]Current version: [b]2.0d[/b][/h1]
 [i]Please refer to the [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/1864380341]changelog[/url] for patch notes.[/i]
 
 [img]https://i.imgur.com/cdhLXnQ.png[/img]

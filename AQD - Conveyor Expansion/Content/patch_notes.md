@@ -1,4 +1,4 @@
-[h1]Patch 2.0c[/h1]
+[h1]Patch 2.0d[/h1]
 [list]
-[*]Reduced cost of Vanilla Tech Tree research and increased speed.
+[*]Fixed Conveyor Access not being airtight on its backside.
 [/list]

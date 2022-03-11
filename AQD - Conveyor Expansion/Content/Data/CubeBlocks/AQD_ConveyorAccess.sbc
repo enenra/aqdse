@@ -47,8 +47,7 @@
       <BuildTimeSeconds>7</BuildTimeSeconds>
       <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
       <DestroySound>PoofExplosionCat3</DestroySound>
-      <PCU>10</PCU>
-      <IsAirTight>false</IsAirTight>      
+      <PCU>10</PCU>    
     </Definition>
 
   </CubeBlocks>
