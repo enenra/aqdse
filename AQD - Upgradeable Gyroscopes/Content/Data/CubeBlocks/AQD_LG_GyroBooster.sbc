@@ -59,7 +59,7 @@
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>10</PCU>
-      <IsAirTight>false</IsAirTight>
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
@@ -117,7 +117,7 @@
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>10</PCU>
-      <IsAirTight>false</IsAirTight>
+      <IsAirTight>true</IsAirTight>
     </Definition>
 
   </CubeBlocks>
