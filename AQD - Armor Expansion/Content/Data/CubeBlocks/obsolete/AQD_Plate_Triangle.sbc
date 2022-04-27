@@ -13,6 +13,7 @@
       <Description>{LOC:Description_LightArmor}</Description>
       <CubeSize>Large</CubeSize>
       <Public>false</Public>
+      <GUIVisible>false</GUIVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
@@ -51,6 +52,7 @@
       <Description>{LOC:Description_LightArmor}</Description>
       <CubeSize>Small</CubeSize>
       <Public>false</Public>
+      <GUIVisible>false</GUIVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
@@ -89,6 +91,7 @@
       <Description>{LOC:Description_HeavyArmor}</Description>
       <CubeSize>Large</CubeSize>
       <Public>false</Public>
+      <GUIVisible>false</GUIVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />
@@ -129,6 +132,7 @@
       <Description>{LOC:Description_HeavyArmor}</Description>
       <CubeSize>Small</CubeSize>
       <Public>false</Public>
+      <GUIVisible>false</GUIVisible>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1" />
       <ModelOffset x="0" y="0" z="0" />

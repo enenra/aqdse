@@ -20,35 +20,7 @@
     </ResearchBlock>
 
     <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_LG_LA_HalfSlopeTransition" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_LG_LA_Slab_Corner_Split" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_LG_LA_Slab_InvCorner_Split" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
       <Id Type="CubeBlock" Subtype="AQD_LG_LA_Slab_Half_Corner_Split" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_LG_LA_Slab_SlopeTransition" />
       <UnlockedByGroups>
         <GroupSubtype>1</GroupSubtype>
       </UnlockedByGroups>
@@ -96,27 +68,6 @@
       </UnlockedByGroups>
     </ResearchBlock>
 
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_LG_LA_Slab_RaisedCorner_Split" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_LG_LA_Slab_RaisedCorner_Inset" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_LG_LA_SlopeTransition" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
     <!-- HA -->
 
     <ResearchBlock xsi:type="ResearchBlock">
@@ -134,35 +85,7 @@
     </ResearchBlock>
 
     <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_LG_HA_HalfSlopeTransition" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_LG_HA_Slab_Corner_Split" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_LG_HA_Slab_InvCorner_Split" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
       <Id Type="CubeBlock" Subtype="AQD_LG_HA_Slab_Half_Corner_Split" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_LG_HA_Slab_SlopeTransition" />
       <UnlockedByGroups>
         <GroupSubtype>1</GroupSubtype>
       </UnlockedByGroups>
@@ -210,27 +133,6 @@
       </UnlockedByGroups>
     </ResearchBlock>
 
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_LG_HA_Slab_RaisedCorner_Split" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_LG_HA_Slab_RaisedCorner_Inset" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_LG_HA_SlopeTransition" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
     <!-- SG -->
     <!-- LA -->
 
@@ -249,35 +151,7 @@
     </ResearchBlock>
 
     <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_SG_LA_HalfSlopeTransition" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_SG_LA_Slab_Corner_Split" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_SG_LA_Slab_InvCorner_Split" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
       <Id Type="CubeBlock" Subtype="AQD_SG_LA_Slab_Half_Corner_Split" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_SG_LA_Slab_SlopeTransition" />
       <UnlockedByGroups>
         <GroupSubtype>1</GroupSubtype>
       </UnlockedByGroups>
@@ -325,27 +199,6 @@
       </UnlockedByGroups>
     </ResearchBlock>
 
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_SG_LA_Slab_RaisedCorner_Split" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_SG_LA_Slab_RaisedCorner_Inset" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_SG_LA_SlopeTransition" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
     <!-- HA -->
 
     <ResearchBlock xsi:type="ResearchBlock">
@@ -363,35 +216,7 @@
     </ResearchBlock>
 
     <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_SG_HA_HalfSlopeTransition" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_SG_HA_Slab_Corner_Split" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_SG_HA_Slab_InvCorner_Split" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
       <Id Type="CubeBlock" Subtype="AQD_SG_HA_Slab_Half_Corner_Split" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_SG_HA_Slab_SlopeTransition" />
       <UnlockedByGroups>
         <GroupSubtype>1</GroupSubtype>
       </UnlockedByGroups>
@@ -434,27 +259,6 @@
 
     <ResearchBlock xsi:type="ResearchBlock">
       <Id Type="CubeBlock" Subtype="AQD_SG_HA_Slope4x1_InvCorner" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_SG_HA_Slab_RaisedCorner_Split" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_SG_HA_Slab_RaisedCorner_Inset" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_SG_HA_SlopeTransition" />
       <UnlockedByGroups>
         <GroupSubtype>1</GroupSubtype>
       </UnlockedByGroups>
