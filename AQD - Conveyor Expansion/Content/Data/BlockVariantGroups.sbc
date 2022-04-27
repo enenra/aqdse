@@ -27,23 +27,39 @@
       <Blocks>
         <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTube" />
         <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeCurved" />
-        <Block Type="MyObjectBuilder_Conveyor" Subtype="AQD_LG_ConveyorT" />
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="ConveyorTubeT" />
         <Block Type="MyObjectBuilder_Conveyor" Subtype="AQD_LG_ConveyorX" />
         <Block Type="MyObjectBuilder_Conveyor" Subtype="AQD_LG_ConveyorJunctionTubes" />
-        <Block Type="MyObjectBuilder_Conveyor" Subtype="SmallShipConveyorHub" />
         <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="LargeBlockConveyorSorter" />
         <Block Type="MyObjectBuilder_Conveyor" Subtype="AQD_LG_ConveyorEndcap" />
-        <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="MediumBlockConveyorSorter" />
+
         <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeMedium" />
-        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorFrameMedium" />
-        <Block Type="MyObjectBuilder_Conveyor" Subtype="AQD_SG_ConveyorAdapter" />
         <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeCurvedMedium" />
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="SmallShipConveyorHub" />
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorFrameMedium" />
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="SmallBlockConveyorConverter" />
+        <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="MediumBlockConveyorSorter" />
       </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+        <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ConveyorThinGroup" />
+        <Icon>Textures\GUI\Icons\Cubes\ConveyorSmall.dds</Icon>
+        <DisplayName>DisplayName_Block_ConveyorTubeSmall</DisplayName>
+        <Description>Description_ConveyorTube</Description>
+        <Blocks>
+            <Block Type="MyObjectBuilder_Conveyor" Subtype="SmallBlockConveyor" />
+            <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeSmall" />
+            <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeSmallCurved" />
+            <Block Type="MyObjectBuilder_Conveyor" Subtype="ConveyorTubeSmallT" />
+            <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="SmallBlockConveyorSorter" />
+        </Blocks>
     </BlockVariantGroup>
 
     <BlockVariantGroup>
       <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ConveyorArmoredGroup" />
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_ConveyorStraightArmored.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <DisplayName>DisplayName_AQD_LG_ConveyorStraightArmored</DisplayName>
       <Description>Description_ConveyorTube</Description>
       <Blocks>
@@ -52,9 +68,26 @@
         <Block Type="MyObjectBuilder_Conveyor" Subtype="AQD_LG_ConveyorTArmored" />
         <Block Type="MyObjectBuilder_Conveyor" Subtype="AQD_LG_ConveyorXArmored" />
         <Block Type="MyObjectBuilder_Conveyor" Subtype="LargeBlockConveyor" />
-        <Block Type="MyObjectBuilder_Conveyor" Subtype="SmallShipConveyorHub" />
         <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="LargeBlockConveyorSorter" />
+
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="SmallShipConveyorHub" />
         <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="MediumBlockConveyorSorter" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ConveyorReinforcedGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\ConveyorDuct.dds</Icon>
+      <DisplayName>DisplayName_ConveyorTubeDuct</DisplayName>
+      <Description>Description_ConveyorTubeDuct</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeDuct" />
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeDuctCurved" />
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="ConveyorTubeDuctT" />
+        
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeDuctSmall" />
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeDuctSmallCurved" />
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="ConveyorTubeDuctSmallT" />
       </Blocks>
     </BlockVariantGroup>
 

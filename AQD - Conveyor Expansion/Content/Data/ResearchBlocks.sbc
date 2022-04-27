@@ -13,13 +13,6 @@
     </ResearchBlock>
 
     <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="Conveyor" Subtype="AQD_LG_ConveyorT" />
-      <UnlockedByGroups>
-        <GroupSubtype>24</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
       <Id Type="Conveyor" Subtype="AQD_LG_ConveyorX" />
       <UnlockedByGroups>
         <GroupSubtype>24</GroupSubtype>
@@ -72,13 +65,6 @@
       <Id Type="MyObjectBuilder_AirVent" Subtype="AQD_LG_ConveyorVent" />
       <UnlockedByGroups>
         <GroupSubtype>15</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="Conveyor" Subtype="AQD_SG_ConveyorAdapter" />
-      <UnlockedByGroups>
-        <GroupSubtype>24</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
 

@@ -1,4 +1,4 @@
-[h1]Current version: [b]2.0d[/b][/h1]
+[h1]Current version: [b]2.1[/b][/h1]
 [i]Please refer to the [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/1864380341]changelog[/url] for patch notes.[/i]
 
 [img]https://i.imgur.com/cdhLXnQ.png[/img]
@@ -15,12 +15,10 @@ This mod adds several new conveyor tube shapes, as well as armored versions of a
 [h1]New Conveyor Shapes[/h1]
 The mod currently adds the following new conveyor shapes:
 [list]
-[*]Conveyor T Junction
 [*]Conveyor X Junction
 [*]Conveyor Tube Junction
 [*]Conveyor Endcap
 [*]Conveyor Tube 5x1
-[*]Conveyor Adapter (Small Grid: Medium to Small Conveyors)
 [/list]
 [h1]Armored Conveyors[/h1]
 Furthermore, the mod contains armored versions of all conveyor tube shapes:

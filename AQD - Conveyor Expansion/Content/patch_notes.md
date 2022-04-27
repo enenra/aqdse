@@ -1,4 +1,4 @@
-[h1]Patch 2.0d[/h1]
+[h1]Patch 2.1[/h1]
 [list]
-[*]Fixed Conveyor Access not being airtight on its backside.
+[*]Marked all blocks of this mod that Keen added with update 1.201 as obsolete - they still exist (no blueprints will be affected) but will no longer be displayed in the G menu.
 [/list]

@@ -7,11 +7,9 @@
 		<Entry Class="LargeBlocks" BlueprintSubtypeId="Conveyor/AQD_LG_ConveyorJunctionTubes"/>
 		<Entry Class="LargeBlocks" BlueprintSubtypeId="ConveyorConnector/AQD_LG_ConveyorStraightArmored"/>
 		<Entry Class="LargeBlocks" BlueprintSubtypeId="ConveyorConnector/AQD_LG_ConveyorStraight5x1"/>
-		<Entry Class="LargeBlocks" BlueprintSubtypeId="Conveyor/AQD_LG_ConveyorT"/>
 		<Entry Class="LargeBlocks" BlueprintSubtypeId="Conveyor/AQD_LG_ConveyorTArmored"/>
 		<Entry Class="LargeBlocks" BlueprintSubtypeId="AirVent/AQD_LG_ConveyorVent"/>
 		<Entry Class="LargeBlocks" BlueprintSubtypeId="Conveyor/AQD_LG_ConveyorX"/>
 		<Entry Class="LargeBlocks" BlueprintSubtypeId="Conveyor/AQD_LG_ConveyorXArmored"/>
-		<Entry Class="SmallBlocks" BlueprintSubtypeId="Conveyor/AQD_SG_ConveyorAdapter"/>
 	</BlueprintClassEntries>
 </Definitions>
