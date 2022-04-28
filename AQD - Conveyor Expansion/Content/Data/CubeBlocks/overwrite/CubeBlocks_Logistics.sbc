@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CubeBlocks>
+        
+        <Definition>
+            <Id>
+                <TypeId>ConveyorConnector</TypeId>
+                <SubtypeId>ConveyorTubeDuct</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_ConveyorTubeDuct</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\ConveyorDuct.dds</Icon>
+            <Description>Description_ConveyorTube</Description>
+            <GuiVisible>true</GuiVisible>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\ConveyorDuct.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="15" />
+                <Component Subtype="InteriorPlate" Count="10" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="SmallTube" Count="12" />
+                <Component Subtype="Motor" Count="6" />
+                <Component Subtype="InteriorPlate" Count="4" />
+                <Component Subtype="SteelPlate" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="Motor" Index="0" />
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\ConveyorDuctConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ConveyorDuctConstruction_2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ConveyorTubeDuct</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>10</BuildTimeSeconds>
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0.7" StartY="0" EndX="1" EndY="1.0" Default="true"/>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.05" EndY="1.0" />
+                <MountPoint Side="Right" StartX="0.5" StartY="0" EndX="0.7" EndY="0.3" />
+                <MountPoint Side="Right" StartX="0.5" StartY="0.7" EndX="0.7" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.3" EndY="1.0" />
+                <MountPoint Side="Left" StartX="0.95" StartY="0" EndX="1" EndY="1.0" />
+                <MountPoint Side="Left" StartX="0.3" StartY="0" EndX="0.5" EndY="0.3" />
+                <MountPoint Side="Left" StartX="0.3" StartY="0.7" EndX="0.5" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.15" />
+                <MountPoint Side="Back" StartX="0" StartY="0.85" EndX="1" EndY="1.0" />
+                <MountPoint Side="Back" StartX="0.45" StartY="0.45" EndX="0.55" EndY="0.55" />
+            </MountPoints>
+            <AutorotateMode>OppositeDirections</AutorotateMode>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>10</PCU>
+        </Definition>
+        
+        <Definition>
+            <Id>
+                <TypeId>ConveyorConnector</TypeId>
+                <SubtypeId>ConveyorTubeDuctCurved</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_ConveyorTubeDuctCurved</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\ConveyorDuctCurved.dds</Icon>
+            <Description>Description_ConveyorTube</Description>
+            <GuiVisible>true</GuiVisible>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\ConveyorDuctCurved.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="15" />
+                <Component Subtype="InteriorPlate" Count="10" />
+                <Component Subtype="Construction" Count="20" />
+                <Component Subtype="SmallTube" Count="12" />
+                <Component Subtype="Motor" Count="6" />
+                <Component Subtype="InteriorPlate" Count="4" />
+                <Component Subtype="SteelPlate" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="Motor" Index="0" />
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\ConveyorDuctCurvedConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ConveyorDuctCurvedConstruction_2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ConveyorTubeDuctCurved</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>10</BuildTimeSeconds>
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0.7" StartY="0" EndX="1" EndY="1.0" Default="true"/>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.05" EndY="1.0" />
+                <MountPoint Side="Right" StartX="0.5" StartY="0" EndX="0.7" EndY="0.3" />
+                <MountPoint Side="Right" StartX="0.5" StartY="0.7" EndX="0.7" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1.0" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="0.3" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0.3" EndX="0.3" EndY="0.5" />
+                <MountPoint Side="Bottom" StartX="0.7" StartY="0.3" EndX="1" EndY="0.5" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0.95" EndX="1" EndY="1.0" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.15" EndY="0.85" />
+                <MountPoint Side="Back" StartX="0" StartY="0.85" EndX="1" EndY="1.0" />
+                <MountPoint Side="Back" StartX="0.45" StartY="0.45" EndX="0.55" EndY="0.55" />
+                <MountPoint Side="Back" StartX="0.9" StartY="0" EndX="1" EndY="0.1" />
+            </MountPoints>
+            <MirroringX>HalfZ</MirroringX>
+            <MirroringY>ZHalfZ</MirroringY>
+            <MirroringZ>YHalfZ</MirroringZ>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>10</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>Conveyor</TypeId>
+                <SubtypeId>ConveyorTubeDuctT</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_ConveyorTubeDuctT</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\ConveyorDuctT.dds</Icon>
+            <Description>Description_ConveyorTube</Description>
+            <GuiVisible>true</GuiVisible>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Large\ConveyorDuctT.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="12" />
+                <Component Subtype="InteriorPlate" Count="10" />
+                <Component Subtype="Construction" Count="24" />
+                <Component Subtype="SmallTube" Count="14" />
+                <Component Subtype="Motor" Count="6" />
+                <Component Subtype="InteriorPlate" Count="6" />
+                <Component Subtype="SteelPlate" Count="10" />
+            </Components>
+            <CriticalComponent Subtype="Motor" Index="0" />
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Large\ConveyorDuctTConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\ConveyorDuctTConstruction_2.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ConveyorTubeDuctT</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>10</BuildTimeSeconds>
+            <MountPoints>
+                <MountPoint Side="Right" StartX="0.7" StartY="0" EndX="1" EndY="1.0" Default="true"/>
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.05" EndY="1.0" />
+                <MountPoint Side="Right" StartX="0.5" StartY="0" EndX="0.7" EndY="0.3" />
+                <MountPoint Side="Right" StartX="0.5" StartY="0.7" EndX="0.7" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.3" EndY="1.0" />
+                <MountPoint Side="Left" StartX="0.95" StartY="0" EndX="1" EndY="1.0" />
+                <MountPoint Side="Left" StartX="0.3" StartY="0" EndX="0.5" EndY="0.3" />
+                <MountPoint Side="Left" StartX="0.3" StartY="0.7" EndX="0.5" EndY="1" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="0.3" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0.3" EndX="0.3" EndY="0.5" />
+                <MountPoint Side="Bottom" StartX="0.7" StartY="0.3" EndX="1" EndY="0.5" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0.95" EndX="1" EndY="1.0" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="0.05" />
+                <MountPoint Side="Back" StartX="0" StartY="0.85" EndX="1" EndY="1.0" />
+                <MountPoint Side="Back" StartX="0.45" StartY="0.45" EndX="0.55" EndY="0.55" />
+            </MountPoints>
+            <MirroringY>Z</MirroringY>
+            <MirroringZ>Y</MirroringZ>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>10</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>ConveyorConnector</TypeId>
+                <SubtypeId>ConveyorTubeDuctSmall</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_ConveyorTubeDuctSmall</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\ConveyorDuctSmall.dds</Icon>
+            <Description>Description_ConveyorTube</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\ConveyorDuct.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+                <Component Subtype="InteriorPlate" Count="1" />
+                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="Construction" Count="1" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0.5" StartY="0" EndX="1" EndY="1.0" ExclusionMask="1" PropertiesMask="2" Default="true"/>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.05" EndY="1.0" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.5" EndY="1.0" ExclusionMask="1" PropertiesMask="2" />
+                <MountPoint Side="Front" StartX="0.95" StartY="0" EndX="1" EndY="1.0" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="0.15" />
+                <MountPoint Side="Left" StartX="0" StartY="0.85" EndX="1" EndY="1.0" />
+                <MountPoint Side="Left" StartX="0.45" StartY="0.45" EndX="0.55" EndY="0.55" />
+            </MountPoints>
+            <CriticalComponent Subtype="Construction" Index="0" />
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ConveyorDuctConstruction_1.mwm" />
+            </BuildProgressModels>
+            <MirroringX>Z</MirroringX>
+            <MirroringZ>X</MirroringZ>
+            <BlockPairName>ConveyorTubeDuct</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>4</BuildTimeSeconds>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+            <DestroySound>PoofExplosionCat1</DestroySound>
+            <PCU>10</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>ConveyorConnector</TypeId>
+                <SubtypeId>ConveyorTubeDuctSmallCurved</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_ConveyorTubeDuctSmallCurved</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\ConveyorDuctCurvedSmall.dds</Icon>
+            <Description>Description_ConveyorTube</Description>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\ConveyorDuctCurved.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+                <Component Subtype="InteriorPlate" Count="1" />
+                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="Construction" Count="1" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Back" StartX="0.5" StartY="0" EndX="1" EndY="1.0" ExclusionMask="1" PropertiesMask="2" Default="true"/>
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.05" EndY="1.0" />
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1.0" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0.5" StartY="0" EndX="1" EndY="1" ExclusionMask="1" PropertiesMask="2" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.05" EndY="1.0" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="0.15" EndY="0.85" />
+                <MountPoint Side="Left" StartX="0" StartY="0.85" EndX="1" EndY="1.0" />
+                <MountPoint Side="Left" StartX="0.45" StartY="0.45" EndX="0.55" EndY="0.55" />
+                <MountPoint Side="Left" StartX="0.9" StartY="0" EndX="1" EndY="0.1" />
+            </MountPoints>
+            <CriticalComponent Subtype="Construction" Index="0" />
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ConveyorDuctCurvedConstruction_1.mwm" />
+            </BuildProgressModels>
+            <MirroringX>YMinusHalfX</MirroringX>
+            <MirroringY>HalfX</MirroringY>
+            <MirroringZ>XHalfX</MirroringZ>
+            <BlockPairName>ConveyorTubeDuctCurved</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>4</BuildTimeSeconds>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+            <DestroySound>PoofExplosionCat1</DestroySound>
+            <PCU>10</PCU>
+        </Definition>
+
+        <Definition>
+            <Id>
+                <TypeId>Conveyor</TypeId>
+                <SubtypeId>ConveyorTubeDuctSmallT</SubtypeId>
+            </Id>
+            <DisplayName>DisplayName_Block_ConveyorTubeDuctSmallT</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\ConveyorDuctTSmall.dds</Icon>
+            <Description>Description_ConveyorTube</Description>
+            <GuiVisible>true</GuiVisible>
+            <CubeSize>Small</CubeSize>
+            <BlockTopology>TriangleMesh</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <Model>Models\Cubes\Small\ConveyorDuctT.mwm</Model>
+            <Components>
+                <Component Subtype="SteelPlate" Count="1" />
+                <Component Subtype="InteriorPlate" Count="2" />
+                <Component Subtype="Motor" Count="1" />
+                <Component Subtype="Construction" Count="2" />
+                <Component Subtype="SteelPlate" Count="1" />
+            </Components>
+            <CriticalComponent Subtype="Construction" Index="0" />
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\ConveyorDuctTConstruction_1.mwm" />
+            </BuildProgressModels>
+            <BlockPairName>ConveyorTubeDuctT</BlockPairName>
+            <EdgeType>Light</EdgeType>
+            <BuildTimeSeconds>4</BuildTimeSeconds>
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0.5" StartY="0" EndX="1" EndY="1.0" ExclusionMask="1" PropertiesMask="2" Default="true"/>
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="0.05" EndY="1.0" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="0.5" EndY="1.0" ExclusionMask="1" PropertiesMask="2" />
+                <MountPoint Side="Back" StartX="0.95" StartY="0" EndX="1" EndY="1.0" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="0.5" EndY="1" ExclusionMask="1" PropertiesMask="2" />
+                <MountPoint Side="Bottom" StartX="0.95" StartY="0" EndX="1" EndY="1.0" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="0.05" />
+                <MountPoint Side="Right" StartX="0" StartY="0.85" EndX="1" EndY="1.0" />
+                <MountPoint Side="Right" StartX="0.45" StartY="0.45" EndX="0.55" EndY="0.55" />
+            </MountPoints>
+            <MirroringY>X</MirroringY>
+            <MirroringX>Y</MirroringX>
+            <EmissiveColorPreset>Default</EmissiveColorPreset>
+            <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+            <DamagedSound>ParticleHeavyMech</DamagedSound>
+            <DestroyEffect>BlockDestroyed_Large</DestroyEffect>
+            <DestroySound>PoofExplosionCat3</DestroySound>
+            <PCU>10</PCU>
+        </Definition>
+
+    </CubeBlocks>
+</Definitions>
