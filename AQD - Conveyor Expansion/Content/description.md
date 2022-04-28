@@ -57,5 +57,3 @@ Furthermore, the mod contains armored versions of all conveyor tube shapes:
 [list]
 [*][b]Archan79[/b] - For fixing the mess that was my initial tube junction model.
 [/list]
-
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=1864380341][img]https://i.imgur.com/cNuGTwv.jpg[/img][/url][url=https://spaceengineers.mod.io/aqd-conveyor-expansion][img]https://i.imgur.com/mcZscI7.jpg[/img][/url]
