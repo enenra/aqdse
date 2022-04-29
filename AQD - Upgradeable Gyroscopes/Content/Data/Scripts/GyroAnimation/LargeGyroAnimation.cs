@@ -41,6 +41,7 @@ namespace GyroAnimations
             
             if (Gyro?.CubeGrid?.Physics == null) return;
 
+            Gyro.NeedsWorldMatrix = true;
             if (TryGetSubparts())
             {
                 SubpartOuter.NeedsWorldMatrix = true;
