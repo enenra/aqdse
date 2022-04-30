@@ -76,7 +76,7 @@
         <Component Subtype="SmallTube" Count="12" />
         <Component Subtype="Motor" Count="6" />
         <Component Subtype="InteriorPlate" Count="4" />
-        <Component Subtype="SteelPlate" Count="5" />
+        <Component Subtype="SteelPlate" Count="50" />
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
       <BuildProgressModels>
