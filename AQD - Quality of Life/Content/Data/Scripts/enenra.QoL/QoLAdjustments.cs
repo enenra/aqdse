@@ -37,7 +37,7 @@ namespace enenra.QoL
             foreach (MyCubeBlockDefinition myCubeBlockDefinition in MyDefinitionManager.Static.GetAllDefinitions().Select(myDefinitionBase => myDefinitionBase as MyCubeBlockDefinition).Where(myCubeBlockDefinition => myCubeBlockDefinition?.Components != null))
             {
                 // This ensures that LyleCorp's / Novar's docking cameras with their specific overlay don't get replaced.
-                if (myCubeBlockDefinition.Id.SubtypeId.String.Contains("DockingCamera"))
+                if (myCubeBlockDefinition.Id.SubtypeId.String.Contains("DockingCamera") || myCubeBlockDefinition.Id.SubtypeId.String.Contains("BinoScopeCamera"))
                 {
                     break;
                 }
