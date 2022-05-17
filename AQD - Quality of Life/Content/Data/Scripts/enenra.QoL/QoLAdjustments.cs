@@ -80,6 +80,14 @@ namespace enenra.QoL
                         caliberDef.ProjectileTrailColor.Z = 0.1f;
                         caliberDef.ProjectileTrailProbability = 1.0f;
                     }
+                    else if (caliberDef.Id.SubtypeName == "AutocannonShell")
+                    {
+                        caliberDef.ProjectileTrailScale = 0.75f;
+                        caliberDef.ProjectileTrailColor.X = 0.25f;
+                        caliberDef.ProjectileTrailColor.Y = 0.125f;
+                        caliberDef.ProjectileTrailColor.Z = 0.1f;
+                        caliberDef.ProjectileTrailProbability = 1.0f;
+                    }
                 }
             }
         }
