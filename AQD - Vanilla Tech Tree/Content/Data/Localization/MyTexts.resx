@@ -145,7 +145,16 @@
     <value>Automatic Reload Systems Schematic</value>
   </data>
   <data name="DisplayName_AQD_Tech_COM_A4" xml:space="preserve">
-    <value>Upscaled Missile Systems Schematic</value>
+    <value>Upscaled Weapon Systems Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_COM_B1" xml:space="preserve">
+    <value>Assault Weapons Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_COM_B2" xml:space="preserve">
+    <value>Artillery Systems Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_COM_B3" xml:space="preserve">
+    <value>Railgun Weaponry Schematic</value>
   </data>
   <data name="DisplayName_AQD_Tech_DEF_A1" xml:space="preserve">
     <value>Mass Generation Schematic</value>
@@ -248,6 +257,9 @@
   </data>
   <data name="DisplayName_AQD_Tech_STOR_C3" xml:space="preserve">
     <value>Advanced Item Transfer Schematic</value>
+  </data>
+  <data name="DisplayName_AQD_Tech_STOR_D1" xml:space="preserve">
+    <value>Reinforced Conveyors Schematic</value>
   </data>
   <data name="DisplayName_AQD_Tech_UTIL_A1" xml:space="preserve">
     <value>Positional Markers Schematic</value>
@@ -357,6 +369,9 @@
   <data name="DisplayName_T2_AQD_BP_COM_A3" xml:space="preserve">
     <value>Research Automatic Reload Systems</value>
   </data>
+  <data name="DisplayName_T2_AQD_BP_COM_B1" xml:space="preserve">
+    <value>Research Assault Weapons</value>
+  </data>
   <data name="DisplayName_T2_AQD_BP_DEF_D2" xml:space="preserve">
     <value>Research Upscaled Vending</value>
   </data>
@@ -381,6 +396,9 @@
   <data name="DisplayName_T2_AQD_BP_LOC_C1" xml:space="preserve">
     <value>Research Jet Engines</value>
   </data>
+  <data name="DisplayName_T2_AQD_BP_STOR_D1" xml:space="preserve">
+    <value>Research Reinforced Conveyors</value>
+  </data>
   <data name="DisplayName_T2_AQD_BP_UTIL_A1" xml:space="preserve">
     <value>Research Positional Markers</value>
   </data>
@@ -389,6 +407,9 @@
   </data>
   <data name="DisplayName_T2_AQD_BP_UTIL_B1" xml:space="preserve">
     <value>Research Upscaled Detectors</value>
+  </data>
+  <data name="DisplayName_T2_AQD_BP_UTIL_C1" xml:space="preserve">
+    <value>Research Holographic Projectors</value>
   </data>
   <data name="DisplayName_T2_AQD_BP_UTIL_D1" xml:space="preserve">
     <value>Research Upscaled Doors</value>
@@ -406,7 +427,10 @@
     <value>Research Blast Protection</value>
   </data>
   <data name="DisplayName_T3_AQD_BP_COM_A4" xml:space="preserve">
-    <value>Research Upscaled Missile Systems</value>
+    <value>Research Upscaled Weapon Systems</value>
+  </data>
+  <data name="DisplayName_T3_AQD_BP_COM_B2" xml:space="preserve">
+    <value>Research Artillery Systems</value>
   </data>
   <data name="DisplayName_T3_AQD_BP_DEF_B1" xml:space="preserve">
     <value>Research Cryo Sleep</value>
@@ -432,11 +456,11 @@
   <data name="DisplayName_T3_AQD_BP_UTIL_A3" xml:space="preserve">
     <value>Research Long-Range Communications</value>
   </data>
-  <data name="DisplayName_T3_AQD_BP_UTIL_C1" xml:space="preserve">
-    <value>Research Holographic Projectors</value>
-  </data>
   <data name="DisplayName_T3_AQD_BP_UTIL_E3" xml:space="preserve">
     <value>Research Upscaled Control Consoles</value>
+  </data>
+  <data name="DisplayName_T4_AQD_BP_COM_B3" xml:space="preserve">
+    <value>Research Railgun Weaponry</value>
   </data>
   <data name="DisplayName_T4_AQD_BP_DEF_A1" xml:space="preserve">
     <value>Research Mass Generation</value>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?><!-- Created by AQD ResearchGroups Editor on: 2021-12-14 12:19 -->
+<?xml version="1.0"?><!-- Created by AQD ResearchGroups Editor on: 2022-05-26 17:36 -->
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Components>
@@ -348,6 +348,26 @@
         <SubtypeId>AQD_Tech_STOR_C3</SubtypeId>
       </Id>
       <DisplayName>{LOC:DisplayName_AQD_Tech_STOR_C3}</DisplayName>
+      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\research_blueprint_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.25</DropProbability>
+      <Health>10</Health>
+    </Component>
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>AQD_Tech_STOR_D1</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_AQD_Tech_STOR_D1}</DisplayName>
       <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
       <Size>
         <X>0.1</X>
@@ -1088,6 +1108,66 @@
         <SubtypeId>AQD_Tech_COM_A4</SubtypeId>
       </Id>
       <DisplayName>{LOC:DisplayName_AQD_Tech_COM_A4}</DisplayName>
+      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\research_blueprint_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.25</DropProbability>
+      <Health>10</Health>
+    </Component>
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>AQD_Tech_COM_B1</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_AQD_Tech_COM_B1}</DisplayName>
+      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\research_blueprint_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.25</DropProbability>
+      <Health>10</Health>
+    </Component>
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>AQD_Tech_COM_B2</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_AQD_Tech_COM_B2}</DisplayName>
+      <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
+      <Size>
+        <X>0.1</X>
+        <Y>0.1</Y>
+        <Z>0.1</Z>
+      </Size>
+      <Mass>1</Mass>
+      <Volume>1</Volume>
+      <Model>Models\Components\research_blueprint_component.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>10</MaxIntegrity>
+      <DropProbability>0.25</DropProbability>
+      <Health>10</Health>
+    </Component>
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>AQD_Tech_COM_B3</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_AQD_Tech_COM_B3}</DisplayName>
       <Icon>Textures\GUI\Icons\component\research_blueprint_component.dds</Icon>
       <Size>
         <X>0.1</X>
