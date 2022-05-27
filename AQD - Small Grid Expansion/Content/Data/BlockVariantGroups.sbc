@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlockVariantGroups>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AQD_Freight_Containers" />
+      <Icon>Textures\GUI\Icons\Cubes\Freight_I.dds</Icon>
+      <DisplayName>DisplayName_Block_Freight1</DisplayName>
+      <Description>Description_Freight</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="Freight1" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="Freight2" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="Freight3" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_Freight_I" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_Freight_II" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_Freight_III" />
+      </Blocks>
+    </BlockVariantGroup>
+
+  </BlockVariantGroups>
+</Definitions>

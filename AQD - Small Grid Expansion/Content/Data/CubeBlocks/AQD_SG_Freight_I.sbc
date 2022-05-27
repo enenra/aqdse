@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>AQD_SG_Freight_I</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_Freight1</DisplayName>
+      <Description>Description_Freight</Description>
+      <Icon>Textures\GUI\Icons\Cubes\Freight_I.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="2" y="2" z="2"/>
+      <ModelOffset x="0" y="0" z="0"/>
+      <Model>Models\Cubes\small\AQD_SG_Freight_I.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="5" />
+        <Component Subtype="Construction" Count="8" />
+        <Component Subtype="InteriorPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="Construction" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="2.00" EndY="2.00"/>
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\AQD_SG_Freight_I_BS1.mwm"/>
+      </BuildProgressModels>
+      <BlockPairName>AQD_SG_Freight_I</BlockPairName>
+      <MirroringY>X</MirroringY>
+      <BuildTimeSeconds>8</BuildTimeSeconds>
+      <PCU>10</PCU>
+      <DLC>DecorativeBlocks2</DLC>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
+    <!-- Needed to define BlockPairName -->
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>Freight1</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_Freight1</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\Freight_I.dds</Icon>
+      <Description>Description_Freight</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <GuiVisible>false</GuiVisible>
+      <Model>Models\Cubes\Large\Freight_I.mwm</Model>
+      <ModelOffset x="0" y="0" z="0" />
+      <Components>
+        <Component Subtype="InteriorPlate" Count="5" />
+        <Component Subtype="Construction" Count="8" />
+        <Component Subtype="InteriorPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="Construction" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Bottom" StartX="0.7" StartY="0.7" EndX="1" EndY="1" Default="true" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.3" EndY="0.3" />
+        <MountPoint Side="Back" StartX="0.7" StartY="0" EndX="1" EndY="0.3" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Freight_I_Construction_1.mwm" />
+      </BuildProgressModels>
+      <VoxelPlacement>
+        <StaticMode>
+          <PlacementMode>Both</PlacementMode>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>Both</PlacementMode>
+        </DynamicMode>
+      </VoxelPlacement>
+      <BlockPairName>AQD_SG_Freight_I</BlockPairName>
+      <MirroringX>ZHalfX</MirroringX>
+      <MirroringY>HalfX</MirroringY>
+      <MirroringZ>XHalfX</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>8</BuildTimeSeconds>
+      <PCU>10</PCU>
+      <DLC>DecorativeBlocks2</DLC>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>

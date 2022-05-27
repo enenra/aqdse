@@ -1,6 +1,6 @@
 [img]https://i.imgur.com/fVVaDCS.gif[/img]
 
-[h1]Current version: [b]1.0c[/b][/h1]
+[h1]Current version: [b]1.1[/b][/h1]
 [i]Please refer to the [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2678657382]changelog[/url] for patch notes.[/i]
 
 [img]https://i.imgur.com/cdhLXnQ.png[/img]
@@ -22,6 +22,13 @@ More blocks might be added in the future but as always I'll be carefully conside
 [*]Small Grid Jumpdrive
 [*]Small Grid Gravity Generator
 [*]Small Grid Small Connector
+[/list]
+
+The mod also converts the following blocks to be available on small grid as well:
+[list]
+[*]Freight 1
+[*]Freight 2
+[*]Freight 3
 [/list]
 
 [url=https://discord.gg/QtyCsBr][img]https://i.imgur.com/l8exfyn.png[/img][/url]

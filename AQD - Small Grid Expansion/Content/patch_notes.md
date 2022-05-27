@@ -1,4 +1,4 @@
-[h1]Patch 1.0c[/h1]
+[h1]Patch 1.1[/h1]
 [list]
-[*]Fix for Basic Assembler and Basic Refinery not unlocking blocks when progression was enabled.
+[*]Made Freight 1, Freight 2 and Freight 3 available to be placed on small grid.
 [/list]
