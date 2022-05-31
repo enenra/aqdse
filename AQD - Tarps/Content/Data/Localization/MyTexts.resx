@@ -121,12 +121,16 @@
     <value>Tarp 3x3</value>
     <comment/>
   </data>
-  <data name="Description_AQD_LG_Tarp_3x3" xml:space="preserve">
+  <data name="Description_AQD_Tarp" xml:space="preserve">
     <value>Tarps are used to protect machinery, cargo and other equipment from the elements.</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_Tarp_3x3_Inv" xml:space="preserve">
-    <value>Tarp 3x3 Inverted</value>
+  <data name="DisplayName_AQD_LG_Tarp_3x3_Offset" xml:space="preserve">
+    <value>Tarp 3x3 Offset</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AQD_LG_Tarp_3x3_Slope" xml:space="preserve">
+    <value>Tarp 3x3 Slope</value>
     <comment/>
   </data>
 </root>
