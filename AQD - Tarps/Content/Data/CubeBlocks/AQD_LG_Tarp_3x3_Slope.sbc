@@ -38,10 +38,10 @@
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\AQD_LG_Tarp_3x3_Slope_BS1.mwm"/>
 			</BuildProgressModels>
-			<BlockPairName>AQD_LG_Tarp_3x3_Slope</BlockPairName>
+			<BlockPairName>AQD_Tarp_3x3_Slope</BlockPairName>
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
 		</Definition>
-    
+
 	</CubeBlocks>
 </Definitions>
