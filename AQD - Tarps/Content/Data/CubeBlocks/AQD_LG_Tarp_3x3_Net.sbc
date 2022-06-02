@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>AQD_LG_Tarp_3x3_Net</SubtypeId>
+			</Id>
+			<DisplayName>{LOC:DisplayName_AQD_LG_Tarp_3x3_Net}</DisplayName>
+			<Description>{LOC:Description_AQD_Tarp}</Description>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_Tarp_3x3_Net.dds</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="1" z="3"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\large\AQD_LG_Tarp_3x3_Net.mwm</Model>
+			<Components>
+				<Component Subtype="Canvas" Count="45"/>
+				<Component Subtype="Construction" Count="20"/>
+			</Components>
+			<CriticalComponent Subtype="Canvas" Index="0"/>
+			<BlockPairName>AQD_Tarp_3x3</BlockPairName>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="2.85" StartY="0.92" EndX="3.00" EndY="1.00"/>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.92" EndX="0.15" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="2.85" StartY="0.92" EndX="3.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.92" EndX="0.15" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="2.85" StartY="0.92" EndX="3.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.92" EndX="0.15" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="2.85" StartY="0.92" EndX="3.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.92" EndX="0.15" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="2.85" EndX="0.15" EndY="3.00" Default="true"/>
+				<MountPoint Side="Top" StartX="2.85" StartY="0.00" EndX="3.00" EndY="0.15"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="0.15" EndY="0.15"/>
+				<MountPoint Side="Top" StartX="2.85" StartY="2.85" EndX="3.00" EndY="3.00"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\AQD_LG_Tarp_3x3_Net_BS1.mwm"/>
+			</BuildProgressModels>
+		</Definition>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>AQD_LG_Tarp_3x3_Net_Offset</SubtypeId>
+			</Id>
+			<DisplayName>{LOC:DisplayName_AQD_LG_Tarp_3x3_Net_Offset}</DisplayName>
+			<Description>{LOC:Description_AQD_Tarp}</Description>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_Tarp_3x3_Net.dds</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_Offset_Single.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="3" y="1" z="3"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\large\AQD_LG_Tarp_3x3_Net_Offset.mwm</Model>
+			<Components>
+				<Component Subtype="Canvas" Count="45"/>
+				<Component Subtype="Construction" Count="20"/>
+			</Components>
+			<CriticalComponent Subtype="Canvas" Index="0"/>
+			<BlockPairName>AQD_Tarp_3x3_Offset</BlockPairName>
+			<MountPoints>
+				<MountPoint Side="Front" StartX="2.85" StartY="0.25" EndX="3.00" EndY="0.33"/>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.25" EndX="0.15" EndY="0.33"/>
+				<MountPoint Side="Back" StartX="2.85" StartY="0.25" EndX="3.00" EndY="0.33"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.25" EndX="0.15" EndY="0.33"/>
+				<MountPoint Side="Left" StartX="2.85" StartY="0.25" EndX="3.00" EndY="0.33"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.25" EndX="0.15" EndY="0.33"/>
+				<MountPoint Side="Right" StartX="2.85" StartY="0.25" EndX="3.00" EndY="0.33"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.25" EndX="0.15" EndY="0.33"/>
+			</MountPoints>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\AQD_LG_Tarp_3x3_Net_Offset_BS1.mwm"/>
+			</BuildProgressModels>
+		</Definition>
+
+	</CubeBlocks>
+</Definitions>
