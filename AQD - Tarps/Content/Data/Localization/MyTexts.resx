@@ -141,4 +141,8 @@
     <value>Cargo Net 3x3 Offset</value>
     <comment/>
   </data>
+  <data name="DisplayName_AQD_LG_Tarp_3x3_Triangle" xml:space="preserve">
+    <value>Tarp 3x3 Triangle</value>
+    <comment/>
+  </data>
 </root>

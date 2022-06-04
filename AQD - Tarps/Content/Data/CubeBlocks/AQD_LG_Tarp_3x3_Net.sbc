@@ -21,7 +21,6 @@
 				<Component Subtype="Construction" Count="20"/>
 			</Components>
 			<CriticalComponent Subtype="Canvas" Index="0"/>
-			<BlockPairName>AQD_Tarp_3x3</BlockPairName>
 			<MountPoints>
 				<MountPoint Side="Front" StartX="2.85" StartY="0.92" EndX="3.00" EndY="1.00"/>
 				<MountPoint Side="Front" StartX="0.00" StartY="0.92" EndX="0.15" EndY="1.00"/>
@@ -39,6 +38,10 @@
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\AQD_LG_Tarp_3x3_Net_BS1.mwm"/>
 			</BuildProgressModels>
+			<BlockPairName>AQD_Tarp_3x3</BlockPairName>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <PCU>1</PCU>
 		</Definition>
 
 		<Definition>
@@ -61,7 +64,6 @@
 				<Component Subtype="Construction" Count="20"/>
 			</Components>
 			<CriticalComponent Subtype="Canvas" Index="0"/>
-			<BlockPairName>AQD_Tarp_3x3_Offset</BlockPairName>
 			<MountPoints>
 				<MountPoint Side="Front" StartX="2.85" StartY="0.25" EndX="3.00" EndY="0.33"/>
 				<MountPoint Side="Front" StartX="0.00" StartY="0.25" EndX="0.15" EndY="0.33"/>
@@ -75,6 +77,10 @@
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\AQD_LG_Tarp_3x3_Net_Offset_BS1.mwm"/>
 			</BuildProgressModels>
+			<BlockPairName>AQD_Tarp_3x3_Offset</BlockPairName>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <PCU>1</PCU>
 		</Definition>
 
 	</CubeBlocks>
