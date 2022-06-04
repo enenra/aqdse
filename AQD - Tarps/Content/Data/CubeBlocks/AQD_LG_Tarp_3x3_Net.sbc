@@ -38,7 +38,8 @@
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\AQD_LG_Tarp_3x3_Net_BS1.mwm"/>
 			</BuildProgressModels>
-			<BlockPairName>AQD_Tarp_3x3</BlockPairName>
+			<BlockPairName>AQD_Tarp_3x3_Net</BlockPairName>
+			<MirroringY>X</MirroringY>
       <BuildTimeSeconds>10</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
       <PCU>1</PCU>
@@ -77,7 +78,8 @@
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\AQD_LG_Tarp_3x3_Net_Offset_BS1.mwm"/>
 			</BuildProgressModels>
-			<BlockPairName>AQD_Tarp_3x3_Offset</BlockPairName>
+			<BlockPairName>AQD_Tarp_3x3_Net_Offset</BlockPairName>
+			<MirroringY>X</MirroringY>
       <BuildTimeSeconds>10</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
       <PCU>1</PCU>

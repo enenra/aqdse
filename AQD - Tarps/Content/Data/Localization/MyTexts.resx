@@ -149,4 +149,8 @@
     <value>Cargo Net 3x3 Triangle</value>
     <comment/>
   </data>
+  <data name="DisplayName_AQD_LG_Tarp_3x3_Net_Slope" xml:space="preserve">
+    <value>Cargo Net 3x3 Slope</value>
+    <comment/>
+  </data>
 </root>
