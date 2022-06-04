@@ -5,17 +5,17 @@
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
-				<SubtypeId>AQD_LG_Tarp_3x3_Triangle</SubtypeId>
+				<SubtypeId>AQD_LG_Tarp_3x3_Net_Triangle</SubtypeId>
 			</Id>
-			<DisplayName>{LOC:DisplayName_AQD_LG_Tarp_3x3_Triangle}</DisplayName>
+			<DisplayName>{LOC:DisplayName_AQD_LG_Tarp_3x3_Net_Triangle}</DisplayName>
 			<Description>{LOC:Description_AQD_Tarp}</Description>
-			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_Tarp_3x3_Triangle.dds</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_Tarp_3x3_Net_Triangle.dds</Icon>
 			<Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="1" z="3"/>
 			<ModelOffset x="0" y="0" z="0"/>
-			<Model>Models\Cubes\large\AQD_LG_Tarp_3x3_Triangle.mwm</Model>
+			<Model>Models\Cubes\large\AQD_LG_Tarp_3x3_Net_Triangle.mwm</Model>
 			<Components>
 				<Component Subtype="Canvas" Count="25"/>
 				<Component Subtype="Construction" Count="10"/>
@@ -33,9 +33,9 @@
 				<MountPoint Side="Top" StartX="0.00" StartY="2.85" EndX="0.15" EndY="3.00" Default="true"/>
 			</MountPoints>
 			<BuildProgressModels>
-				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\AQD_LG_Tarp_3x3_Triangle_BS1.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\AQD_LG_Tarp_3x3_Net_Triangle_BS1.mwm"/>
 			</BuildProgressModels>
-			<BlockPairName>AQD_Tarp_3x3_Triangle</BlockPairName>
+			<BlockPairName>AQD_Tarp_3x3_Net_Triangle</BlockPairName>
 			<MirroringX>MinusHalfY</MirroringX>
 			<MirroringY>ZHalfY</MirroringY>
 			<MirroringZ>HalfY</MirroringZ>
