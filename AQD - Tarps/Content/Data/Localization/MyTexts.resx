@@ -153,4 +153,16 @@
     <value>Cargo Net 3x3 Slope</value>
     <comment/>
   </data>
+  <data name="DisplayName_AQD_LG_Pillar" xml:space="preserve">
+    <value>Corner Pillar</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AQD_LG_Pillar_Half" xml:space="preserve">
+    <value>Corner Half Pillar </value>
+    <comment/>
+  </data>
+  <data name="Description_AQD_LG_Pillar" xml:space="preserve">
+    <value>Pillars are used to keep tarps in place.</value>
+    <comment/>
+  </data>
 </root>
