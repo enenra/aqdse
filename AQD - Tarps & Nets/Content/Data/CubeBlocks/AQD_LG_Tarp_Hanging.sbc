@@ -14,7 +14,7 @@
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="2" z="1"/>
-			<Center x="0" y="0" z="1"/>
+			<Center x="0" y="1" z="0"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\large\AQD_LG_Tarp_Hanging.mwm</Model>
 			<Components>
@@ -30,7 +30,7 @@
 				<MountPoint Side="Top" StartX="0.85" StartY="0.00" EndX="1.00" EndY="0.10" Default="true"/>
 				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="0.15" EndY="0.10"/>
 			</MountPoints>
-			<BlockPairName>AQD_LG_Tarp_Hanging</BlockPairName>
+			<BlockPairName>AQD_Tarp_Hanging</BlockPairName>
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
       <BuildTimeSeconds>5</BuildTimeSeconds>
