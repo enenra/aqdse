@@ -8,7 +8,7 @@
 				<SubtypeId>AQD_LG_Pillar</SubtypeId>
 			</Id>
 			<DisplayName>{LOC:DisplayName_AQD_LG_Pillar}</DisplayName>
-			<Description>{LOC:Description_AQD_LG_Pillar}</Description>
+			<Description>{LOC:Description_AQD_Pillar}</Description>
 			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_Pillar.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -47,7 +47,7 @@
 				<SubtypeId>AQD_LG_Pillar_Half</SubtypeId>
 			</Id>
 			<DisplayName>{LOC:DisplayName_AQD_LG_Pillar_Half}</DisplayName>
-			<Description>{LOC:Description_AQD_LG_Pillar}</Description>
+			<Description>{LOC:Description_AQD_Pillar}</Description>
 			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_Pillar_Half.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>

@@ -161,8 +161,12 @@
     <value>Corner Half Pillar </value>
     <comment/>
   </data>
-  <data name="Description_AQD_LG_Pillar" xml:space="preserve">
+  <data name="Description_AQD_Pillar" xml:space="preserve">
     <value>Pillars are used to keep tarps in place.</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AQD_LG_Tarp_Hanging" xml:space="preserve">
+    <value>Hanging Tarp</value>
     <comment/>
   </data>
 </root>

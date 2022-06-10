@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>AQD_LG_Tarp_Hanging</SubtypeId>
+			</Id>
+			<DisplayName>{LOC:DisplayName_AQD_LG_Tarp_Hanging}</DisplayName>
+			<Description>{LOC:Description_AQD_Tarp}</Description>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_Tarp_Hanging.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="2" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\large\AQD_LG_Tarp_Hanging.mwm</Model>
+			<Components>
+				<Component Subtype="Canvas" Count="20"/>
+				<Component Subtype="Construction" Count="5"/>
+			</Components>
+			<CriticalComponent Subtype="Canvas" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.00" StartY="1.90" EndX="0.10" EndY="2.00"/>
+				<MountPoint Side="Back" StartX="0.90" StartY="1.90" EndX="1.00" EndY="2.00"/>
+				<MountPoint Side="Left" StartX="0.90" StartY="1.85" EndX="1.00" EndY="2.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="1.85" EndX="0.10" EndY="2.00"/>
+				<MountPoint Side="Top" StartX="0.85" StartY="0.00" EndX="1.00" EndY="0.10" Default="true"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="0.15" EndY="0.10"/>
+			</MountPoints>
+			<BlockPairName>AQD_LG_Tarp_Hanging</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<MirroringZ>Y</MirroringZ>
+      <BuildTimeSeconds>5</BuildTimeSeconds>
+      <DisassembleRatio>2</DisassembleRatio>
+      <PCU>1</PCU>
+		</Definition>
+    
+	</CubeBlocks>
+</Definitions>
