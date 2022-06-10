@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<BlueprintClassEntries>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_Pillar"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_Pillar_Half"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_Tarp_3x3"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_Tarp_3x3_Offset"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_Tarp_3x3_Net"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_Tarp_3x3_Net_Offset"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_Tarp_3x3_Net_Slope"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_Tarp_3x3_Net_Triangle"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_Tarp_3x3_Net_Triangle_Offset"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_Tarp_3x3_Slope"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_Tarp_3x3_Triangle_Offset"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_Tarp_3x3_Triangle_Offset"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_Tarp_Hanging"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/AQD_SG_Tarp_3x3"/>
+	</BlueprintClassEntries>
+</Definitions>
