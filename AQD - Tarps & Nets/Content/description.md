@@ -14,7 +14,7 @@ This mod adds a number of tarp and cargo net blocks to the game. They serve as g
 
 [img]https://i.imgur.com/5nbiNLV.png[/img]
 
-[h1]6 Tarp Blocks[/h1]
+[img]https://i.imgur.com/v8IhSnG.gif[/img]
 Tarp blocks can be painted and even support skins. They are also animated and will wave slightly - moreso if the weather is stormy.
 [list]
 [*]Tarp 3x3
@@ -25,7 +25,7 @@ Tarp blocks can be painted and even support skins. They are also animated and wi
 [*]Hanging Tarp
 [/list]
 
-[h1]5 Cargo Net Blocks[/h1]
+[img]https://i.imgur.com/b2ZCs1c.gif[/img]
 Cargo Net blocks can be painted but do not support skins. They also aren't animated.
 [list]
 [*]Cargo Net 3x3
@@ -35,7 +35,7 @@ Cargo Net blocks can be painted but do not support skins. They also aren't anima
 [*]Cargo Net 3x3 Triangle Offset
 [/list]
 
-[h1]2 Pillar Blocks[/h1]
+[img]https://i.imgur.com/5cFsxq5.gif[/img]
 The mod furthermore includes two pillar blocks - one full-sized and one half-sized, matching up to the points where the tarps and cargo nets are attached.
 
 [url=https://discord.gg/QtyCsBr][img]https://i.imgur.com/l8exfyn.png[/img][/url]
