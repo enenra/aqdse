@@ -14,6 +14,7 @@
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="1" z="3"/>
+			<Center x="0" y="0" z="0"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\large\AQD_LG_Tarp_3x3.mwm</Model>
 			<Components>
@@ -58,6 +59,7 @@
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="3" y="1" z="3"/>
+			<Center x="0" y="0" z="0"/>
 			<ModelOffset x="0" y="0" z="0"/>
 			<Model>Models\Cubes\large\AQD_LG_Tarp_3x3_Offset.mwm</Model>
 			<Components>
