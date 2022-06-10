@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_LargeBlocks</DisplayName>
+      <Name>LargeBlocks</Name>
+      <StrictSearch>true</StrictSearch>
+      <ItemIds>
+        <string>CubeBlock/AQD_LG_Tarp_3x3</string>
+        <string>CubeBlock/AQD_LG_Tarp_3x3_Offset</string>
+        <string>CubeBlock/AQD_LG_Tarp_3x3_Net</string>
+        <string>CubeBlock/AQD_LG_Tarp_3x3_Net_Offset</string>
+
+        <string>CubeBlock/AQD_LG_Tarp_3x3_Slope</string>
+        <string>CubeBlock/AQD_LG_Tarp_3x3_Net_Slope</string>
+
+        <string>CubeBlock/AQD_LG_Tarp_3x3_Triangle</string>
+        <string>CubeBlock/AQD_LG_Tarp_3x3_Net_Triangle</string>
+
+        <string>CubeBlock/AQD_LG_Tarp_Hanging</string>
+
+        <string>CubeBlock/AQD_LG_Pillar</string>
+        <string>CubeBlock/AQD_LG_Pillar_Half</string>
+      </ItemIds>
+    </Category>
+
+  </CategoryClasses>
+</Definitions>

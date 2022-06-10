@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlockVariantGroups>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AQD_Group_Tarps" />
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_Tarp_3x3.dds</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
+      <DisplayName>{LOC:DisplayName_AQD_LG_Tarp_3x3}</DisplayName>
+      <Description>{LOC:Description_AQD_Tarp}</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_Tarp_3x3" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_Tarp_3x3_Offset" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_Tarp_3x3_Net" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_Tarp_3x3_Net_Offset" />
+
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_Tarp_3x3_Slope" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_Tarp_3x3_Net_Slope" />
+
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_Tarp_3x3_Triangle" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_Tarp_3x3_Net_Triangle" />
+
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_Tarp_Hanging" />
+
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_Pillar" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_Pillar_Half" />
+      </Blocks>
+    </BlockVariantGroup>
+
+  </BlockVariantGroups>
+</Definitions>
