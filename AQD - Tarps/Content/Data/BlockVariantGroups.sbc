@@ -19,7 +19,9 @@
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_Tarp_3x3_Net_Slope" />
 
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_Tarp_3x3_Triangle" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_Tarp_3x3_Triangle_Offset" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_Tarp_3x3_Net_Triangle" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_Tarp_3x3_Net_Triangle_Offset" />
 
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_Tarp_Hanging" />
 

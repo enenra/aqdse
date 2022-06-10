@@ -169,4 +169,12 @@
     <value>Hanging Tarp</value>
     <comment/>
   </data>
+  <data name="DisplayName_AQD_LG_Tarp_3x3_Triangle_Offset" xml:space="preserve">
+    <value>Tarp 3x3 Triangle Offset</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AQD_LG_Tarp_3x3_Net_Triangle_Offset" xml:space="preserve">
+    <value>Cargo Net 3x3 Triangle Offset</value>
+    <comment/>
+  </data>
 </root>

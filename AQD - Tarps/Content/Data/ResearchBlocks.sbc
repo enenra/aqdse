@@ -53,7 +53,21 @@
     </ResearchBlock>
 
     <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="CubeBlock" Subtype="AQD_LG_Tarp_3x3_Triangle_Offset" />
+      <UnlockedByGroups>
+        <GroupSubtype>0</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
       <Id Type="CubeBlock" Subtype="AQD_LG_Tarp_3x3_Net_Triangle" />
+      <UnlockedByGroups>
+        <GroupSubtype>0</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="CubeBlock" Subtype="AQD_LG_Tarp_3x3_Net_Triangle_Offset" />
       <UnlockedByGroups>
         <GroupSubtype>0</GroupSubtype>
       </UnlockedByGroups>

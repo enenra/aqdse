@@ -21,7 +21,9 @@
         <string>CubeBlock/AQD_LG_Tarp_3x3_Net_Slope</string>
 
         <string>CubeBlock/AQD_LG_Tarp_3x3_Triangle</string>
+        <string>CubeBlock/AQD_LG_Tarp_3x3_Triangle_Offset</string>
         <string>CubeBlock/AQD_LG_Tarp_3x3_Net_Triangle</string>
+        <string>CubeBlock/AQD_LG_Tarp_3x3_Net_Triangle_Offset</string>
 
         <string>CubeBlock/AQD_LG_Tarp_Hanging</string>
 
