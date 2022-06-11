@@ -31,6 +31,7 @@
       </UnlockedByGroups>
     </ResearchBlock>
 
+    
     <ResearchBlock xsi:type="ResearchBlock">
       <Id Type="CubeBlock" Subtype="AQD_LG_Tarp_3x3_Slope" />
       <UnlockedByGroups>
@@ -44,6 +45,7 @@
         <GroupSubtype>0</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
+
 
     <ResearchBlock xsi:type="ResearchBlock">
       <Id Type="CubeBlock" Subtype="AQD_LG_Tarp_3x3_Triangle" />
@@ -73,12 +75,14 @@
       </UnlockedByGroups>
     </ResearchBlock>
 
+
     <ResearchBlock xsi:type="ResearchBlock">
       <Id Type="CubeBlock" Subtype="AQD_LG_Tarp_Hanging" />
       <UnlockedByGroups>
         <GroupSubtype>0</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
+
 
     <ResearchBlock xsi:type="ResearchBlock">
       <Id Type="CubeBlock" Subtype="AQD_LG_Pillar" />
