@@ -1,7 +1,7 @@
 [img]https://i.imgur.com/fVVaDCS.gif[/img]
 
 [h1]Current version: [b]1.0[/b][/h1]
-[i]Please refer to the [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2492809392]changelog[/url] for patch notes.[/i]
+[i]Please refer to the [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2819404116]changelog[/url] for patch notes.[/i]
 
 [img]https://i.imgur.com/cdhLXnQ.png[/img]
 [quote]
