@@ -4,13 +4,6 @@
   <ResearchBlocks>
 
     <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="ShipConnector" Subtype="AQD_SG_ConnectorSmall" />
-      <UnlockedByGroups>
-        <GroupSubtype>25</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
       <Id Type="GravityGenerator" Subtype="AQD_SG_GravityGenerator" />
       <UnlockedByGroups>
         <GroupSubtype>4</GroupSubtype>

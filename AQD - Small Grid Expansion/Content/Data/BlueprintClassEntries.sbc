@@ -3,7 +3,6 @@
 	<BlueprintClassEntries>
 		<Entry Class="SmallBlocks" BlueprintSubtypeId="Assembler/AQD_SG_BasicAssembler"/>
 		<Entry Class="SmallBlocks" BlueprintSubtypeId="Refinery/AQD_SG_BasicRefinery"/>
-		<Entry Class="SmallBlocks" BlueprintSubtypeId="ShipConnector/AQD_SG_ConnectorSmall"/>
 		<Entry Class="SmallBlocks" BlueprintSubtypeId="GravityGenerator/AQD_SG_GravityGenerator"/>
 		<Entry Class="SmallBlocks" BlueprintSubtypeId="JumpDrive/AQD_SG_Jumpdrive"/>
 		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/AQD_SG_Freight_I"/>

@@ -14,7 +14,6 @@
       <ItemIds>
         <string>Assembler/AQD_SG_BasicAssembler</string>
         <string>Refinery/AQD_SG_BasicRefinery</string>
-        <string>ShipConnector/AQD_SG_ConnectorSmall</string>
         <string>GravityGenerator/AQD_SG_GravityGenerator</string>
         <string>JumpDrive/AQD_SG_Jumpdrive</string>
       </ItemIds>
@@ -31,18 +30,6 @@
       <ItemIds>
         <string>Assembler/AQD_SG_BasicAssembler</string>
         <string>Refinery/AQD_SG_BasicRefinery</string>
-      </ItemIds>
-    </Category>
-
-    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
-      <Id>
-        <TypeId>GuiBlockCategoryDefinition</TypeId>
-        <SubtypeId/>
-      </Id>
-      <DisplayName>DisplayName_Category_ConveyorBlocks</DisplayName>
-      <Name>Conveyors</Name>
-      <ItemIds>
-        <string>ShipConnector/AQD_SG_ConnectorSmall</string>
       </ItemIds>
     </Category>
 

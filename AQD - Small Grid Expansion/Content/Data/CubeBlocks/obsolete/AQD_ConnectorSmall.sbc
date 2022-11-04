@@ -13,6 +13,7 @@
 				<Icon>Textures\GUI\Icons\Cubes\AQD_SG_ConnectorSmall.dds</Icon>
 				<Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
 				<CubeSize>Small</CubeSize>
+				<Public>false</Public>
 				<GuiVisible>false</GuiVisible>
 				<BlockTopology>TriangleMesh</BlockTopology>
 				<Size x="1" y="1" z="1" />
