@@ -17,5 +17,12 @@
       </UnlockedByGroups>
     </ResearchBlock>
 
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="CryoChamber" Subtype="AQD_SG_OpenBed" />
+      <UnlockedByGroups>
+        <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
   </ResearchBlocks>
 </Definitions>

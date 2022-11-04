@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <Definition xsi:type="MyObjectBuilder_CryoChamberDefinition">
+      <Id>
+        <TypeId>CryoChamber</TypeId>
+        <SubtypeId>AQD_SG_OpenBed</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Block_Bed</DisplayName>
+      <Description>Description_Bed</Description>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_SG_OpenBed.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="2" z="5"/>
+      <ModelOffset x="0" y="0" z="0"/>
+      <Model>Models\Cubes\Small\AQD_SG_OpenBed.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="10" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="SmallTube" Count="8" />
+        <Component Subtype="Construction" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="3.00" EndY="0.50"/>
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="3.00" EndY="0.50"/>
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="5.00" EndY="0.50"/>
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="5.00" EndY="0.50"/>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="3.00" EndY="5.00"/>
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AQD_SG_OpenBed_BS1.mwm"/>
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AQD_SG_OpenBed_BS2.mwm"/>
+      </BuildProgressModels>
+      <BlockPairName>Bed</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EnableFirstPerson>true</EnableFirstPerson>
+      <EnableShipControl>false</EnableShipControl>
+      <EnableBuilderCockpit>false</EnableBuilderCockpit>
+      <IsPressurized>false</IsPressurized>
+      <HasInventory>false</HasInventory>
+      <OxygenCapacity>1</OxygenCapacity>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <IdlePowerConsumption>0.00003</IdlePowerConsumption>
+      <EmissiveColorPreset>UnpoweredOccupancy</EmissiveColorPreset>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <CharacterAnimation>Bed_Laying_Pose</CharacterAnimation>
+      <PCU>15</PCU>
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>

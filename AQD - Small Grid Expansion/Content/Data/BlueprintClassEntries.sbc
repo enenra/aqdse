@@ -5,6 +5,7 @@
 		<Entry Class="SmallBlocks" BlueprintSubtypeId="Refinery/AQD_SG_BasicRefinery"/>
 		<Entry Class="SmallBlocks" BlueprintSubtypeId="GravityGenerator/AQD_SG_GravityGenerator"/>
 		<Entry Class="SmallBlocks" BlueprintSubtypeId="JumpDrive/AQD_SG_Jumpdrive"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CryoChamber/AQD_SG_OpenBed"/>
 		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/AQD_SG_Freight_I"/>
 		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/AQD_SG_Freight_II"/>
 		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/AQD_SG_Freight_III"/>

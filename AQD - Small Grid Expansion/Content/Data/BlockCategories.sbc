@@ -16,6 +16,7 @@
         <string>Refinery/AQD_SG_BasicRefinery</string>
         <string>GravityGenerator/AQD_SG_GravityGenerator</string>
         <string>JumpDrive/AQD_SG_Jumpdrive</string>
+        <string>CryoChamber/AQD_SG_OpenBed</string>
       </ItemIds>
     </Category>
 

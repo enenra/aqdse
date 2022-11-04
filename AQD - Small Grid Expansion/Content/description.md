@@ -21,6 +21,7 @@ More blocks might be added in the future but as always I'll be carefully conside
 [*]Small Grid Basic Refinery
 [*]Small Grid Jumpdrive
 [*]Small Grid Gravity Generator
+[*]Small Grid Bed
 [/list]
 
 The mod also converts the following blocks to be available on small grid as well:
