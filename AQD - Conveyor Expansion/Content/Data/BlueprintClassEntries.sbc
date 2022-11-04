@@ -3,7 +3,6 @@
 	<BlueprintClassEntries>
 		<Entry Class="LargeBlocks" BlueprintSubtypeId="CargoContainer/AQD_LG_ConveyorAccess"/>
 		<Entry Class="LargeBlocks" BlueprintSubtypeId="ConveyorConnector/AQD_LG_ConveyorCornerArmored"/>
-		<Entry Class="LargeBlocks" BlueprintSubtypeId="Conveyor/AQD_LG_ConveyorEndcap"/>
 		<Entry Class="LargeBlocks" BlueprintSubtypeId="Conveyor/AQD_LG_ConveyorJunctionTubes"/>
 		<Entry Class="LargeBlocks" BlueprintSubtypeId="ConveyorConnector/AQD_LG_ConveyorStraightArmored"/>
 		<Entry Class="LargeBlocks" BlueprintSubtypeId="ConveyorConnector/AQD_LG_ConveyorStraight5x1"/>

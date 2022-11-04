@@ -1,4 +1,4 @@
-[h1]Patch 2.1a[/h1]
+[h1]Patch 2.1b[/h1]
 [list]
-[*]Increased Steel Plate requirement to build armored conveyors to justify their existance in comparison to the new Reinforced Conveyors.
+[*]Removed Conveyor Endcap as it is now part of the base game.
 [/list]

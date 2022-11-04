@@ -1,4 +1,4 @@
-[h1]Current version: [b]2.1a[/b][/h1]
+[h1]Current version: [b]2.1b[/b][/h1]
 [i]Please refer to the [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/1864380341]changelog[/url] for patch notes.[/i]
 
 [img]https://i.imgur.com/cdhLXnQ.png[/img]
@@ -17,7 +17,6 @@ The mod currently adds the following new conveyor shapes:
 [list]
 [*]Conveyor X Junction
 [*]Conveyor Tube Junction
-[*]Conveyor Endcap
 [*]Conveyor Tube 5x1
 [/list]
 [h1]Armored Conveyors[/h1]
