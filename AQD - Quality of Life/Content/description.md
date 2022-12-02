@@ -26,6 +26,7 @@ This mod adds fixes and adjustments as well as some small additions in terms of 
 [list]
 [*]Added new camera and turret overlays to allow for more precise aiming.
 [*]Changed gatling and auto cannon tracers to be significantly more visible.
+[*]Reduced laser antenna power consumption significantly.
 [*]Ore detector ranges have been increased from 150 to 350 and 50 to 150.
 [*]Spotlights have had their ranges increased from 120 to 360 and 160 to 480.
 [*]Interior and corner lights have had their ranges increased from a max of 20 to a max of 40.
