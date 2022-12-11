@@ -1,0 +1,522 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AQD_Ore_Bauxite" xml:space="preserve">
+    <value>Bauxite</value>
+  </data>
+  <data name="AQD_Ore_BauxiteDense" xml:space="preserve">
+    <value>Dense Bauxite</value>
+  </data>
+  <data name="AQD_Ore_Bertrandite" xml:space="preserve">
+    <value>Bertrandite</value>
+  </data>
+  <data name="AQD_Ore_BertranditeDense" xml:space="preserve">
+    <value>Dense Bertrandite</value>
+  </data>
+  <data name="AQD_Ore_Borax" xml:space="preserve">
+    <value>Borax</value>
+  </data>
+  <data name="AQD_Ore_BoraxDense" xml:space="preserve">
+    <value>Dense Borax</value>
+  </data>
+  <data name="AQD_Ore_Carnotite" xml:space="preserve">
+    <value>Carnotite</value>
+  </data>
+  <data name="AQD_Ore_CarnotiteDense" xml:space="preserve">
+    <value>Dense Carnotite</value>
+  </data>
+  <data name="AQD_Ore_Cattierite" xml:space="preserve">
+    <value>Cattierite</value>
+  </data>
+  <data name="AQD_Ore_CattieriteDense" xml:space="preserve">
+    <value>Dense Cattierite</value>
+  </data>
+  <data name="AQD_Ore_Cobaltite" xml:space="preserve">
+    <value>Cobaltite</value>
+  </data>
+  <data name="AQD_Ore_CobaltiteDense" xml:space="preserve">
+    <value>Dense Cobaltite</value>
+  </data>
+  <data name="AQD_Ore_DirtyIce" xml:space="preserve">
+    <value>Dirty Ice</value>
+  </data>
+  <data name="AQD_Ore_DistilledIce" xml:space="preserve">
+    <value>Distilled Ice</value>
+  </data>
+  <data name="AQD_Ore_Electrum" xml:space="preserve">
+    <value>Electrum</value>
+  </data>
+  <data name="AQD_Ore_ElectrumDense" xml:space="preserve">
+    <value>Dense Electrum</value>
+  </data>
+  <data name="AQD_Ore_Garnierite" xml:space="preserve">
+    <value>Garnierite</value>
+  </data>
+  <data name="AQD_Ore_GarnieriteDense" xml:space="preserve">
+    <value>Dense Garnierite</value>
+  </data>
+  <data name="AQD_Ore_Graphite" xml:space="preserve">
+    <value>Graphite</value>
+  </data>
+  <data name="AQD_Ore_GraphiteDense" xml:space="preserve">
+    <value>Dense Graphite</value>
+  </data>
+  <data name="AQD_Ore_Hematite" xml:space="preserve">
+    <value>Hematite</value>
+  </data>
+  <data name="AQD_Ore_HematiteDense" xml:space="preserve">
+    <value>Dense Hematite</value>
+  </data>
+  <data name="AQD_Ore_Ilmenite" xml:space="preserve">
+    <value>Ilmenite</value>
+  </data>
+  <data name="AQD_Ore_IlmeniteDense" xml:space="preserve">
+    <value>Dense Ilmenite</value>
+  </data>
+  <data name="AQD_Ore_Magnesite" xml:space="preserve">
+    <value>Magnesite</value>
+  </data>
+  <data name="AQD_Ore_MagnesiteDense" xml:space="preserve">
+    <value>Dense Magnesite</value>
+  </data>
+  <data name="AQD_Ore_Malachite" xml:space="preserve">
+    <value>Malachite</value>
+  </data>
+  <data name="AQD_Ore_MalachiteDense" xml:space="preserve">
+    <value>Dense Malachite</value>
+  </data>
+  <data name="AQD_Ore_NativeGold" xml:space="preserve">
+    <value>Native Gold</value>
+  </data>
+  <data name="AQD_Ore_NativeGoldDense" xml:space="preserve">
+    <value>Dense Native Gold</value>
+  </data>
+  <data name="AQD_Ore_NativeSilver" xml:space="preserve">
+    <value>Native Silver</value>
+  </data>
+  <data name="AQD_Ore_NativeSilverDense" xml:space="preserve">
+    <value>Dense Native Silver</value>
+  </data>
+  <data name="AQD_Ore_NaturalThorium" xml:space="preserve">
+    <value>Natural Thorium</value>
+  </data>
+  <data name="AQD_Ore_NaturalThoriumDense" xml:space="preserve">
+    <value>Dense Natural Thorium</value>
+  </data>
+  <data name="AQD_Ore_Quartz" xml:space="preserve">
+    <value>Quartz</value>
+  </data>
+  <data name="AQD_Ore_QuartzDense" xml:space="preserve">
+    <value>Dense Quartz</value>
+  </data>
+  <data name="AQD_Ore_Regolith" xml:space="preserve">
+    <value>Regolith</value>
+  </data>
+  <data name="AQD_Ore_RegolithDense" xml:space="preserve">
+    <value>Dense Regolith</value>
+  </data>
+  <data name="AQD_Ore_RockyIce" xml:space="preserve">
+    <value>Rocky Ice</value>
+  </data>
+  <data name="AQD_Ore_Sperrylite" xml:space="preserve">
+    <value>Sperrylite</value>
+  </data>
+  <data name="AQD_Ore_SperryliteDense" xml:space="preserve">
+    <value>Dense Sperrylite</value>
+  </data>
+  <data name="AQD_Ore_Tetrahedrite" xml:space="preserve">
+    <value>Tetrahedrite</value>
+  </data>
+  <data name="AQD_Ore_TetrahedriteDense" xml:space="preserve">
+    <value>Dense Tetrahedrite</value>
+  </data>
+  <data name="DisplayName_AQD_Ingot_Aluminium" xml:space="preserve">
+    <value>Aluminium Ingot</value>
+  </data>
+  <data name="DisplayName_AQD_Ingot_Beryllium" xml:space="preserve">
+    <value>Beryllium Ingot</value>
+  </data>
+  <data name="DisplayName_AQD_Ingot_Boron" xml:space="preserve">
+    <value>Boron Powder</value>
+  </data>
+  <data name="DisplayName_AQD_Ingot_Carbon" xml:space="preserve">
+    <value>Carbon Block</value>
+  </data>
+  <data name="DisplayName_AQD_Ingot_Copper" xml:space="preserve">
+    <value>Copper Ingot</value>
+  </data>
+  <data name="DisplayName_AQD_Ingot_Helium-3" xml:space="preserve">
+    <value>Helium-3 Container</value>
+  </data>
+  <data name="DisplayName_AQD_Ingot_Thorium" xml:space="preserve">
+    <value>Thorium Ingot</value>
+  </data>
+  <data name="DisplayName_AQD_Ingot_Titanium" xml:space="preserve">
+    <value>Titanium Ingot</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_Bauxite" xml:space="preserve">
+    <value>Bauxite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_BauxiteCrushed" xml:space="preserve">
+    <value>Crushed Bauxite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_BauxiteDense" xml:space="preserve">
+    <value>Dense Bauxite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_BauxitePurified" xml:space="preserve">
+    <value>Purified Bauxite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_Bertrandite" xml:space="preserve">
+    <value>Bertrandite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_BertranditeCrushed" xml:space="preserve">
+    <value>Crushed Bertrandite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_BertranditeDense" xml:space="preserve">
+    <value>Dense Bertrandite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_BertranditePurified" xml:space="preserve">
+    <value>Purified Bertrandite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_Borax" xml:space="preserve">
+    <value>Borax</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_BoraxCrushed" xml:space="preserve">
+    <value>Crushed Borax</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_BoraxDense" xml:space="preserve">
+    <value>Dense Borax</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_BoraxPurified" xml:space="preserve">
+    <value>Purified Borax</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_Carnotite" xml:space="preserve">
+    <value>Carnotite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_CarnotiteCrushed" xml:space="preserve">
+    <value>Crushed Carnotite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_CarnotiteDense" xml:space="preserve">
+    <value>Dense Carnotite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_CarnotitePurified" xml:space="preserve">
+    <value>Purified Carnotite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_Cattierite" xml:space="preserve">
+    <value>Cattierite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_CattieriteCrushed" xml:space="preserve">
+    <value>Crushed Cattierite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_CattieriteDense" xml:space="preserve">
+    <value>Dense Cattierite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_CattieritePurified" xml:space="preserve">
+    <value>Purified Cattierite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_Cobaltite" xml:space="preserve">
+    <value>Cobaltite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_CobaltiteCrushed" xml:space="preserve">
+    <value>Crushed Cobaltite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_CobaltiteDense" xml:space="preserve">
+    <value>Dense Cobaltite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_CobaltitePurified" xml:space="preserve">
+    <value>Purified Cobaltite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_DirtyIce" xml:space="preserve">
+    <value>Dirty Ice</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_DistilledIce" xml:space="preserve">
+    <value>Distilled Ice</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_Electrum" xml:space="preserve">
+    <value>Electrum</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_ElectrumCrushed" xml:space="preserve">
+    <value>Crushed Electrum</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_ElectrumDense" xml:space="preserve">
+    <value>Dense Electrum</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_ElectrumPurified" xml:space="preserve">
+    <value>Purified Electrum</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_Garnierite" xml:space="preserve">
+    <value>Garnierite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_GarnieriteCrushed" xml:space="preserve">
+    <value>Crushed Garnierite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_GarnieriteDense" xml:space="preserve">
+    <value>Dense Garnierite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_GarnieritePurified" xml:space="preserve">
+    <value>Purified Garnierite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_Graphite" xml:space="preserve">
+    <value>Graphite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_GraphiteCrushed" xml:space="preserve">
+    <value>Crushed Graphite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_GraphiteDense" xml:space="preserve">
+    <value>Dense Graphite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_GraphitePurified" xml:space="preserve">
+    <value>Purified Graphite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_Hematite" xml:space="preserve">
+    <value>Hematite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_HematiteCrushed" xml:space="preserve">
+    <value>Crushed Hematite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_HematiteDense" xml:space="preserve">
+    <value>Dense Hematite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_HematitePurified" xml:space="preserve">
+    <value>Purified Hematite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_Ilmenite" xml:space="preserve">
+    <value>Ilmenite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_IlmeniteCrushed" xml:space="preserve">
+    <value>Crushed Ilmenite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_IlmeniteDense" xml:space="preserve">
+    <value>Dense Ilmenite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_IlmenitePurified" xml:space="preserve">
+    <value>Purified Ilmenite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_Magnesite" xml:space="preserve">
+    <value>Magnesite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_MagnesiteCrushed" xml:space="preserve">
+    <value>Crushed Magnesite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_MagnesiteDense" xml:space="preserve">
+    <value>Dense Magnesite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_MagnesitePurified" xml:space="preserve">
+    <value>Purified Magnesite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_Malachite" xml:space="preserve">
+    <value>Malachite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_MalachiteCrushed" xml:space="preserve">
+    <value>Crushed Malachite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_MalachiteDense" xml:space="preserve">
+    <value>Dense Malachite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_MalachitePurified" xml:space="preserve">
+    <value>Purified Malachite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_NativeGold" xml:space="preserve">
+    <value>Native Gold</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_NativeGoldCrushed" xml:space="preserve">
+    <value>Crushed Native Gold</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_NativeGoldDense" xml:space="preserve">
+    <value>Dense Native Gold</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_NativeGoldPurified" xml:space="preserve">
+    <value>Purified Native Gold</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_NativeSilver" xml:space="preserve">
+    <value>Native Silver</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_NativeSilverCrushed" xml:space="preserve">
+    <value>Crushed Native Silver</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_NativeSilverDense" xml:space="preserve">
+    <value>Dense Native Silver</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_NativeSilverPurified" xml:space="preserve">
+    <value>Purified Native Silver</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_NaturalThorium" xml:space="preserve">
+    <value>Natural Thorium</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_NaturalThoriumCrushed" xml:space="preserve">
+    <value>Crushed Natural Thorium</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_NaturalThoriumDense" xml:space="preserve">
+    <value>Dense Natural Thorium</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_NaturalThoriumPurified" xml:space="preserve">
+    <value>Purified Natural Thorium</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_Quartz" xml:space="preserve">
+    <value>Quartz</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_QuartzCrushed" xml:space="preserve">
+    <value>Crushed Quartz</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_QuartzDense" xml:space="preserve">
+    <value>Dense Quartz</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_QuartzPurified" xml:space="preserve">
+    <value>Purified Quartz</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_Regolith" xml:space="preserve">
+    <value>Regolith</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_RegolithCrushed" xml:space="preserve">
+    <value>Crushed Regolith</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_RegolithDense" xml:space="preserve">
+    <value>Dense Regolith</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_RegolithPurified" xml:space="preserve">
+    <value>Purified Regolith</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_RockyIce" xml:space="preserve">
+    <value>Rocky Ice</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_Sperrylite" xml:space="preserve">
+    <value>Sperrylite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_SperryliteCrushed" xml:space="preserve">
+    <value>Crushed Sperrylite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_SperryliteDense" xml:space="preserve">
+    <value>Dense Sperrylite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_SperrylitePurified" xml:space="preserve">
+    <value>Purified Sperrylite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_Tetrahedrite" xml:space="preserve">
+    <value>Tetrahedrite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_TetrahedriteCrushed" xml:space="preserve">
+    <value>Crushed Tetrahedrite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_TetrahedriteDense" xml:space="preserve">
+    <value>Dense Tetrahedrite</value>
+  </data>
+  <data name="DisplayName_AQD_Ore_TetrahedritePurified" xml:space="preserve">
+    <value>Purified Tetrahedrite</value>
+  </data>
+</root>
