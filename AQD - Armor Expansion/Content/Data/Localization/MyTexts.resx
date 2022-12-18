@@ -533,4 +533,12 @@
     <value>Light Armor Slope 3x1 Transition Mirrored</value>
     <comment/>
   </data>
+  <data name="DisplayName_AQD_LG_HA_Slope3x1_Transition" xml:space="preserve">
+    <value>Heavy Armor Slope 3x1 Transition</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AQD_LG_HA_Slope3x1_TransitionMirror" xml:space="preserve">
+    <value>Heavy Armor Slope 3x1 Transition Mirrored</value>
+    <comment/>
+  </data>
 </root>

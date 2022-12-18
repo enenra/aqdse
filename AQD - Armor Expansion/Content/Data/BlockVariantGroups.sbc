@@ -115,6 +115,7 @@
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_HA_Slope3x1" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_HA_Slope3x1_Corner" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_HA_Slope3x1_InvCorner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_HA_Slope3x1_Transition" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_HA_Slope4x1" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_HA_Slope4x1_Corner" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_HA_Slope4x1_InvCorner" />
@@ -122,6 +123,7 @@
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_HA_Slope3x1" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_HA_Slope3x1_Corner" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_HA_Slope3x1_InvCorner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_HA_Slope3x1_Transition" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_HA_Slope4x1" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_HA_Slope4x1_Corner" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_HA_Slope4x1_InvCorner" />
