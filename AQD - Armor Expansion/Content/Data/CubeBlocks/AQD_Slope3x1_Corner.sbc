@@ -34,7 +34,7 @@
 			<MirroringY>MinusHalfZ</MirroringY>
 			<MirroringZ>YHalfZ</MirroringZ>
       <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>4</BuildTimeSeconds>
+      <BuildTimeSeconds>14</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
       <PCU>1</PCU>
     </Definition>
@@ -71,7 +71,7 @@
 			<MirroringY>MinusHalfZ</MirroringY>
 			<MirroringZ>YHalfZ</MirroringZ>
       <EdgeType>Light</EdgeType>
-      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <BuildTimeSeconds>6</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
       <PCU>1</PCU>
     </Definition>
@@ -110,7 +110,7 @@
 			<MirroringY>MinusHalfZ</MirroringY>
 			<MirroringZ>YHalfZ</MirroringZ>
       <EdgeType>Heavy</EdgeType>
-      <BuildTimeSeconds>12</BuildTimeSeconds>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
       <PCU>1</PCU>
     </Definition>
@@ -149,7 +149,7 @@
 			<MirroringY>MinusHalfZ</MirroringY>
 			<MirroringZ>YHalfZ</MirroringZ>
       <EdgeType>Heavy</EdgeType>
-      <BuildTimeSeconds>4</BuildTimeSeconds>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
       <DisassembleRatio>2.5</DisassembleRatio>
       <PCU>1</PCU>
     </Definition>
