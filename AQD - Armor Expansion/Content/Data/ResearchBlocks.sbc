@@ -48,6 +48,13 @@
     </ResearchBlock>
 
     <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="CubeBlock" Subtype="AQD_LG_LA_Slope3x1_Transition" />
+      <UnlockedByGroups>
+        <GroupSubtype>1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
       <Id Type="CubeBlock" Subtype="AQD_LG_LA_Slope4x1" />
       <UnlockedByGroups>
         <GroupSubtype>1</GroupSubtype>
@@ -173,6 +180,13 @@
 
     <ResearchBlock xsi:type="ResearchBlock">
       <Id Type="CubeBlock" Subtype="AQD_SG_LA_Slope3x1_InvCorner" />
+      <UnlockedByGroups>
+        <GroupSubtype>1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="CubeBlock" Subtype="AQD_SG_LA_Slope3x1_Transition" />
       <UnlockedByGroups>
         <GroupSubtype>1</GroupSubtype>
       </UnlockedByGroups>
