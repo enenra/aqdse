@@ -8,7 +8,7 @@
 			</Id>
 			<DisplayName>{LOC:DisplayName_AQD_SG_SecureStorageBox}</DisplayName>
 			<Description>{LOC:Description_AQD_SG_SecureStorageBox}</Description>
-			<Icon>Textures\GUI\Icons\AstronautBackpack.dds</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_SG_SecureStorageBox.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="2"/>
