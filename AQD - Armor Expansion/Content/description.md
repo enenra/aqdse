@@ -14,7 +14,7 @@ This mod adds a number of new armor blocks to the game. They are all available i
 
 [img]https://i.imgur.com/5nbiNLV.png[/img]
 
-[h1]9 New Armor Blocks[/h1]
+[h1]11 New Armor Blocks[/h1]
 Available in large and small, as well as heavy and light variations. The blocks have been partially integrated into existing G-menu block groups where it made sense, or been added as part of new ones.
 [list]
 [*]Corner Split 2x1x1 Base
@@ -23,9 +23,11 @@ Available in large and small, as well as heavy and light variations. The blocks 
 [*]Slope 3x1
 [*]Slope 3x1 Corner
 [*]Slope 3x1 Inverted Corner
+[*]Slope 3x1 Transition
 [*]Slope 4x1
 [*]Slope 4x1 Corner
 [*]Slope 4x1 Inverted Corner
+[*]Slope 4x1 Transition
 [/list]
 
 [h1]Full Skin Support[/h1]

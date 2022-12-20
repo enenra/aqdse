@@ -82,6 +82,20 @@
       </UnlockedByGroups>
     </ResearchBlock>
 
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="CubeBlock" Subtype="AQD_LG_LA_Slope4x1_Transition" />
+      <UnlockedByGroups>
+        <GroupSubtype>1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="CubeBlock" Subtype="AQD_LG_LA_Slope4x1_TransitionMirror" />
+      <UnlockedByGroups>
+        <GroupSubtype>1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
     <!-- HA -->
 
     <ResearchBlock xsi:type="ResearchBlock">
@@ -156,6 +170,20 @@
 
     <ResearchBlock xsi:type="ResearchBlock">
       <Id Type="CubeBlock" Subtype="AQD_LG_HA_Slope4x1_InvCorner" />
+      <UnlockedByGroups>
+        <GroupSubtype>1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="CubeBlock" Subtype="AQD_LG_HA_Slope4x1_Transition" />
+      <UnlockedByGroups>
+        <GroupSubtype>1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="CubeBlock" Subtype="AQD_LG_HA_Slope4x1_TransitionMirror" />
       <UnlockedByGroups>
         <GroupSubtype>1</GroupSubtype>
       </UnlockedByGroups>
@@ -241,6 +269,20 @@
       </UnlockedByGroups>
     </ResearchBlock>
 
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="CubeBlock" Subtype="AQD_SG_LA_Slope4x1_Transition" />
+      <UnlockedByGroups>
+        <GroupSubtype>1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="CubeBlock" Subtype="AQD_SG_LA_Slope4x1_TransitionMirror" />
+      <UnlockedByGroups>
+        <GroupSubtype>1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
     <!-- HA -->
 
     <ResearchBlock xsi:type="ResearchBlock">
@@ -315,6 +357,20 @@
 
     <ResearchBlock xsi:type="ResearchBlock">
       <Id Type="CubeBlock" Subtype="AQD_SG_HA_Slope4x1_InvCorner" />
+      <UnlockedByGroups>
+        <GroupSubtype>1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="CubeBlock" Subtype="AQD_SG_HA_Slope4x1_Transition" />
+      <UnlockedByGroups>
+        <GroupSubtype>1</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="CubeBlock" Subtype="AQD_SG_HA_Slope4x1_TransitionMirror" />
       <UnlockedByGroups>
         <GroupSubtype>1</GroupSubtype>
       </UnlockedByGroups>

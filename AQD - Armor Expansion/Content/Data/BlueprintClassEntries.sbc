@@ -29,6 +29,10 @@
 		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/AQD_SG_LA_Slope3x1_Transition"/>
 		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_HA_Slope3x1_Transition"/>
 		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/AQD_SG_HA_Slope3x1_Transition"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_LA_Slope3x1_TransitionMirror"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/AQD_SG_LA_Slope3x1_TransitionMirror"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_HA_Slope3x1_TransitionMirror"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/AQD_SG_HA_Slope3x1_TransitionMirror"/>
 		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_LA_Slope4x1"/>
 		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/AQD_SG_LA_Slope4x1"/>
 		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_HA_Slope4x1"/>
@@ -41,5 +45,13 @@
 		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/AQD_SG_LA_Slope4x1_InvCorner"/>
 		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_HA_Slope4x1_InvCorner"/>
 		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/AQD_SG_HA_Slope4x1_InvCorner"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_LA_Slope4x1_Transition"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/AQD_SG_LA_Slope4x1_Transition"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_HA_Slope4x1_Transition"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/AQD_SG_HA_Slope4x1_Transition"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_LA_Slope4x1_TransitionMirror"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/AQD_SG_LA_Slope4x1_TransitionMirror"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_HA_Slope4x1_TransitionMirror"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/AQD_SG_HA_Slope4x1_TransitionMirror"/>
 	</BlueprintClassEntries>
 </Definitions>
