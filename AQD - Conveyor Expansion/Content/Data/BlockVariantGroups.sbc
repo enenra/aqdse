@@ -32,6 +32,7 @@
         <Block Type="MyObjectBuilder_Conveyor" Subtype="AQD_LG_ConveyorJunctionTubes" />
         <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="LargeBlockConveyorSorter" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockConveyorCap" />
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="AQD_LG_ConveyorEndcap" />
 
         <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeMedium" />
         <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeCurvedMedium" />
