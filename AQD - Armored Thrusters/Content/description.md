@@ -47,3 +47,5 @@ While this mod does not include tiered thrusters, if you would like to have some
 [list]
 [*][b]Klime[/b] - Rewriting the script to control the emissives on the thrusters.
 [/list]
+
+[url=https://steamcommunity.com/workshop/discussions/18446744073709551615/2793874853443195941/?appid=244850][img]https://raw.githubusercontent.com/enenra/aqdse/master/usage_guidelines.png[/img][/url]

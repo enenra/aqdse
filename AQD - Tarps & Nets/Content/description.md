@@ -46,3 +46,5 @@ The mod furthermore includes two pillar blocks - one full-sized and one half-siz
 [list]
 [*]I will likely add small grid versions of these blocks in the future.
 [/list]
+
+[url=https://steamcommunity.com/workshop/discussions/18446744073709551615/2793874853443195941/?appid=244850][img]https://raw.githubusercontent.com/enenra/aqdse/master/usage_guidelines.png[/img][/url]

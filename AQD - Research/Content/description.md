@@ -82,3 +82,5 @@ You can find an example mod structure [url=https://drive.google.com/file/d/1GpRl
 [list]
 [*][b]Chipstix213[/b] - For kindly re-exporting the Research Lab for me.
 [/list]
+
+[url=https://steamcommunity.com/workshop/discussions/18446744073709551615/2793874853443195941/?appid=244850][img]https://raw.githubusercontent.com/enenra/aqdse/master/usage_guidelines.png[/img][/url]

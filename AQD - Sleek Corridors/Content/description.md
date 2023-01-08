@@ -40,3 +40,5 @@ These blocks are large grid only (no plans to change this) and while they can be
 [/list]
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2492809392][img]https://i.imgur.com/cNuGTwv.jpg[/img][/url][url=https://spaceengineers.mod.io/aqd-sleek-corridors][img]https://i.imgur.com/mcZscI7.jpg[/img][/url]
+
+[url=https://steamcommunity.com/workshop/discussions/18446744073709551615/2793874853443195941/?appid=244850][img]https://raw.githubusercontent.com/enenra/aqdse/master/usage_guidelines.png[/img][/url]

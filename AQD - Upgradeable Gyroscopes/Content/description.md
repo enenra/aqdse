@@ -39,3 +39,5 @@ The Gyro Booster increases the output of any vanilla Gyro mounted to it by 2x wh
 [*][b]AryxErin[/b] - Comissioned to create the models for this mod, and did a stellar job at it. You should definitely [url=https://steamcommunity.com/id/AryxERIN/myworkshopfiles/?appid=244850]check out her other mods![/url]
 [*][b]Ash Like Snow[/b] - For creating the amazing script that makes the gyroscopes spin in accordance with grid movement!
 [/list]
+
+[url=https://steamcommunity.com/workshop/discussions/18446744073709551615/2793874853443195941/?appid=244850][img]https://raw.githubusercontent.com/enenra/aqdse/master/usage_guidelines.png[/img][/url]

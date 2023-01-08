@@ -34,3 +34,5 @@ Steel Plate and Interior Plate integrity doubled.
 [*][b]Gauge[/b] - Writing the original code for the script to adjust armor DamageMultiplier and DeformationMultiplier for his mod [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1321167725]Balanced Deformation[/url].
 [*][b]Klime[/b] - Fixing a performance issue with the way the script worked.
 [/list]
+
+[url=https://steamcommunity.com/workshop/discussions/18446744073709551615/2793874853443195941/?appid=244850][img]https://raw.githubusercontent.com/enenra/aqdse/master/usage_guidelines.png[/img][/url]

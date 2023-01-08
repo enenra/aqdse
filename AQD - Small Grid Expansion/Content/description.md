@@ -45,3 +45,5 @@ The mod also converts the following blocks to be available on small grid as well
 [list]
 [*][b]AryxErin[/b] - Comissioned to create the models for this mod, and did once again an amazing job. You should definitely [url=https://steamcommunity.com/id/AryxERIN/myworkshopfiles/?appid=244850]check out her other mods![/url]
 [/list]
+
+[url=https://steamcommunity.com/workshop/discussions/18446744073709551615/2793874853443195941/?appid=244850][img]https://raw.githubusercontent.com/enenra/aqdse/master/usage_guidelines.png[/img][/url]

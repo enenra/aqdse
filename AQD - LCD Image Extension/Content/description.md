@@ -37,3 +37,5 @@ From left to right and top to bottom:
 [*]The welder and grinder symbols are styled after the ingame ship tools. I tried using the hand tools at a base but didn't like the result. I may redo the drill one in line with the other two in the future.
 [*]I may extend the images available in the future. If you have any suggestions, you're very much welcome to post them for me to consider but the idea of this is a fairly limited mod. I'm not aiming to add dozens of images with this.
 [/list]
+
+[url=https://steamcommunity.com/workshop/discussions/18446744073709551615/2793874853443195941/?appid=244850][img]https://raw.githubusercontent.com/enenra/aqdse/master/usage_guidelines.png[/img][/url]

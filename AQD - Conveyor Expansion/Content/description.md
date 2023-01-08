@@ -42,7 +42,7 @@ Furthermore, the mod contains armored versions of all conveyor tube shapes:
 [h1]General notes[/h1]
 [list]
 [*]Green / Yellow indicators for connectivity are iffy. This is unfortunately a limitation within Keen's emissive code that only supports up to two connections for conveyor tubes.
-[*]I will add additional blocks to the pack but I'm as of now not comitting to adding additional conveyor shapes. I've got some ideas there but I think what I've got in now covers most use cases and at some point, adding too many shapes will make using all of them more annoying.
+[*]I will add additional blocks to the pack but I'm as of now not committing to adding additional conveyor shapes. I've got some ideas there but I think what I've got in now covers most use cases and at some point, adding too many shapes will make using all of them more annoying.
 [*]The conveyors are only for large grid. I don't currently have plans to make versions for small grid.
 [/list]
 [h1]Mod usage[/h1]
@@ -56,3 +56,5 @@ Furthermore, the mod contains armored versions of all conveyor tube shapes:
 [list]
 [*][b]Archan79[/b] - For fixing the mess that was my initial tube junction model.
 [/list]
+
+[url=https://steamcommunity.com/workshop/discussions/18446744073709551615/2793874853443195941/?appid=244850][img]https://raw.githubusercontent.com/enenra/aqdse/master/usage_guidelines.png[/img][/url]

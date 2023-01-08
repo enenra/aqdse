@@ -42,4 +42,5 @@ These concrete blocks use Keen's armor system, meaning that their textures are c
 [list]
 [*][b]Chipstix213[/b] - For kindly re-exporting the necessary models for me using 3DsMax, as Blender was refusing to cooperate.
 [/list]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2298956701][img]https://i.imgur.com/cNuGTwv.jpg[/img][/url][url=https://spaceengineers.mod.io/aqd-concrete][img]https://i.imgur.com/mcZscI7.jpg[/img][/url]
+
+[url=https://steamcommunity.com/workshop/discussions/18446744073709551615/2793874853443195941/?appid=244850][img]https://raw.githubusercontent.com/enenra/aqdse/master/usage_guidelines.png[/img][/url]

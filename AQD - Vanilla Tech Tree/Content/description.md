@@ -29,3 +29,5 @@ This mod adds a tech tree to the game which has been created by considering all 
 [list]
 [*]The amount of Research Material required to research a technology as well as the time it takes is still highly work in progress. I'm looking for feedback on these values and very much open to adjusting them.
 [/list]
+
+[url=https://steamcommunity.com/workshop/discussions/18446744073709551615/2793874853443195941/?appid=244850][img]https://raw.githubusercontent.com/enenra/aqdse/master/usage_guidelines.png[/img][/url]

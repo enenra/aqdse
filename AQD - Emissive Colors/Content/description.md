@@ -29,3 +29,5 @@ Emissive colors on all blocks have been altered to be less saturated.
 [list]
 [*][b]FridgeNOR[/b] - They created the original render, which inspired this mod. [url=https://www.reddit.com/r/spaceengineers/comments/f4flld/blender_vs_space_engineers/]Find the reddit post here.[/url]
 [/list]
+
+[url=https://steamcommunity.com/workshop/discussions/18446744073709551615/2793874853443195941/?appid=244850][img]https://raw.githubusercontent.com/enenra/aqdse/master/usage_guidelines.png[/img][/url]

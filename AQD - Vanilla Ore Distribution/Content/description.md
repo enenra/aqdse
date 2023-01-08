@@ -145,11 +145,4 @@ Ore distribution has been altered significantly. The goal is to add a reason to 
 [*][b]Meridius_IX / Lucas[/b] - For writing the base script, with which the ore remapping is implemented.
 [/list]
 
-[h1]Endorsements[/h1]
-[i]9 out of 10 dentists recommend you use [b]AQD - Vanilla Ore Distribution[/b] in your savegame
-
-"I was playing with unmodded ore distribution like a dummy but then I discovered [b]AQD - Vanilla Ore Distribution[/b] and it changed my life!"[/i]
-
-Read how one user experienced gameplay in this mod designed to force players to start out on Earth and then progress through planets and find all the ores:
-
-[img]https://i.imgur.com/DhY15zO.png[/img]
+[url=https://steamcommunity.com/workshop/discussions/18446744073709551615/2793874853443195941/?appid=244850][img]https://raw.githubusercontent.com/enenra/aqdse/master/usage_guidelines.png[/img][/url]

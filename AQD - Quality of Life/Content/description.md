@@ -40,3 +40,5 @@ This mod adds fixes and adjustments as well as some small additions in terms of 
 [*][b]Whiplash141[/b] - For kindly letting me use his [url=https://steamcommunity.com/workshop/filedetails/?id=704012607]Camera Overlay[/url] as a base for my own overlay.
 [*][b]Meridius_IX / Lucas, SISK & Thraxus[/b] - For helping me out a ton with scripts for the mod.
 [/list]
+
+[url=https://steamcommunity.com/workshop/discussions/18446744073709551615/2793874853443195941/?appid=244850][img]https://raw.githubusercontent.com/enenra/aqdse/master/usage_guidelines.png[/img][/url]

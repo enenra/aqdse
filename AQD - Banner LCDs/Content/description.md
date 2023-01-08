@@ -31,3 +31,5 @@ All blocks are available in large- and small-grid versions.
 [*]I strongly recommend you check out Whiplash141's [url=https://forum.keenswh.com/threads/tool-whips-image-to-lcd-converter.7393443/]Image To LCD Converter[/url]. This app allows the conversion of image files you have on your PC into code that can be pasted into LCD text fields. This will then make the LCDs show your image ingame. No mods required.
 [*]Also consider giving my [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1645942623]AQD - LCD Image Extension[/url] mod a try. It adds a number of additional images that can be displayed on LCDs, including banner LCDs.
 [/list]
+
+[url=https://steamcommunity.com/workshop/discussions/18446744073709551615/2793874853443195941/?appid=244850][img]https://raw.githubusercontent.com/enenra/aqdse/master/usage_guidelines.png[/img][/url]

@@ -31,3 +31,5 @@ All ore veins are moved deeper into the planets. How deep depends on the type of
 [*][b]Ghost722nd[/b] - Maker of the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1540170706]original Deep Ores mod[/url].
 [*][b]Meridius_IX / Lucas[/b] - For writing the base script, with which the ore remapping is implemented.
 [/list]
+
+[url=https://steamcommunity.com/workshop/discussions/18446744073709551615/2793874853443195941/?appid=244850][img]https://raw.githubusercontent.com/enenra/aqdse/master/usage_guidelines.png[/img][/url]

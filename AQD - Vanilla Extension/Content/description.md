@@ -13,3 +13,5 @@ This is the core mod of the [url=https://steamcommunity.com/sharedfiles/filedeta
 
 [url=https://discord.gg/QtyCsBr][img]https://i.imgur.com/l8exfyn.png[/img][/url]
 [url=https://github.com/enenra/aqdse][img]https://i.imgur.com/T7AtPhP.png[/img][/url]
+
+[url=https://steamcommunity.com/workshop/discussions/18446744073709551615/2793874853443195941/?appid=244850][img]https://raw.githubusercontent.com/enenra/aqdse/master/usage_guidelines.png[/img][/url]
