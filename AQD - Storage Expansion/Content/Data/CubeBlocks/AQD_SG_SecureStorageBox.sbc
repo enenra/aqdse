@@ -1,37 +1,55 @@
 <?xml version="1.0" ?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<CubeBlocks>
-		<Definition>
-			<Id>
-				<TypeId>CubeBlock</TypeId>
-				<SubtypeId>AQD_SG_SecureStorageBox</SubtypeId>
-			</Id>
-			<DisplayName>{LOC:DisplayName_AQD_SG_SecureStorageBox}</DisplayName>
-			<Description>{LOC:Description_AQD_SG_SecureStorageBox}</Description>
-			<Icon>Textures\GUI\Icons\Cubes\AQD_SG_SecureStorageBox.dds</Icon>
-			<CubeSize>Small</CubeSize>
-			<BlockTopology>TriangleMesh</BlockTopology>
-			<Size x="1" y="1" z="2"/>
-			<ModelOffset x="0" y="0" z="0"/>
-			<Model>Models\Cubes\small\AQD_SG_SecureStorageBox.mwm</Model>
-			<Components>
-				<Component Subtype="SteelPlate" Count="10"/>
-			</Components>
-			<CriticalComponent Subtype="SteelPlate" Index="0"/>
-			<MountPoints>
-				<MountPoint Side="Front" StartX="0.40" StartY="0.40" EndX="0.60" EndY="0.56"/>
-				<MountPoint Side="Back" StartX="0.40" StartY="0.40" EndX="0.60" EndY="0.56"/>
-				<MountPoint Side="Left" StartX="0.80" StartY="0.40" EndX="1.20" EndY="0.56"/>
-				<MountPoint Side="Right" StartX="0.80" StartY="0.40" EndX="1.20" EndY="0.56"/>
-				<MountPoint Side="Bottom" StartX="0.40" StartY="0.80" EndX="0.60" EndY="1.20" Default="true"/>
-			</MountPoints>
-			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.50" File="Models\Cubes\small\AQD_SG_SecureStorageBox_BS1.mwm"/>
-				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\AQD_SG_SecureStorageBox_BS2.mwm"/>
-			</BuildProgressModels>
-			<BlockPairName>AQD_SG_SecureStorageBox</BlockPairName>
-			<MirroringX>Y</MirroringX>
-			<MirroringY>X</MirroringY>
-		</Definition>
-	</CubeBlocks>
+  <CubeBlocks>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>AQD_SG_SecureStorageBox</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_AQD_SG_SecureStorageBox}</DisplayName>
+      <Description>{LOC:Description_AQD_SG_SecureStorageBox}</Description>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_SG_SecureStorageBox.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="2"/>
+      <ModelOffset x="0" y="0" z="0"/>
+      <Model>Models\Cubes\small\AQD_SG_SecureStorageBox.mwm</Model>
+      <Components>
+        <Component Subtype="InteriorPlate" Count="20" />
+        <Component Subtype="Construction" Count="20" />
+        <Component Subtype="MetalGrid" Count="10" />
+        <Component Subtype="InteriorPlate" Count="2" />
+      </Components>
+      <CriticalComponent Subtype="Construction" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.40" StartY="0.40" EndX="0.60" EndY="0.56"/>
+        <MountPoint Side="Back" StartX="0.40" StartY="0.40" EndX="0.60" EndY="0.56"/>
+        <MountPoint Side="Left" StartX="0.80" StartY="0.40" EndX="1.20" EndY="0.56"/>
+        <MountPoint Side="Right" StartX="0.80" StartY="0.40" EndX="1.20" EndY="0.56"/>
+        <MountPoint Side="Bottom" StartX="0.40" StartY="0.80" EndX="0.60" EndY="1.20" Default="true"/>
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\small\AQD_SG_SecureStorageBox_BS1.mwm"/>
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\AQD_SG_SecureStorageBox_BS2.mwm"/>
+      </BuildProgressModels>
+      <BlockPairName>AQD_SG_SecureStorageBox</BlockPairName>
+      <MirroringX>Y</MirroringX>
+      <MirroringY>X</MirroringY>
+      <VoxelPlacement>
+        <StaticMode>
+          <PlacementMode>Both</PlacementMode>
+        </StaticMode>
+        <DynamicMode>
+          <PlacementMode>Both</PlacementMode>
+        </DynamicMode>
+      </VoxelPlacement>
+      <EdgeType>Light</EdgeType>
+      <HasInventory>false</HasInventory>
+      <BuildTimeSeconds>20</BuildTimeSeconds>
+      <PCU>10</PCU>
+      <IsAirTight>false</IsAirTight>
+    </Definition>
+
+  </CubeBlocks>
 </Definitions>
