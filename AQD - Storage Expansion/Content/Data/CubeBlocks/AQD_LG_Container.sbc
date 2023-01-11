@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+
+		<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>AQD_LG_Container</SubtypeId>
+			</Id>
+			<DisplayName>{LOC:DisplayName_AQD_LG_Container}</DisplayName>
+			<Description>{LOC:Description_AQD_LG_Container}</Description>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_Container.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="3"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\large\AQD_LG_Container.mwm</Model>
+      <Components>
+          <Component Subtype="InteriorPlate" Count="60" />
+          <Component Subtype="Construction" Count="45" />
+          <Component Subtype="SmallTube" Count="30" />
+          <Component Subtype="Display" Count="2" />
+          <Component Subtype="Computer" Count="2" />
+          <Component Subtype="Construction" Count="10" />
+          <Component Subtype="InteriorPlate" Count="20" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+				<MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
+				<MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="3.00" EndY="1.00"/>
+				<MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00"/>
+				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="3.00"/>
+			</MountPoints>
+			<BlockPairName>AQD_Container</BlockPairName>
+			<MirroringY>Z</MirroringY>
+			<BuildProgressModels>
+				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\AQD_LG_Container_BS1.mwm"/>
+				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\large\AQD_LG_Container_BS2.mwm"/>
+				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\AQD_LG_Container_BS3.mwm"/>
+			</BuildProgressModels>
+      <BuildTimeSeconds>30</BuildTimeSeconds>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>10</PCU>
+      <IsAirTight>true</IsAirTight>
+		</Definition>
+
+	</CubeBlocks>
+</Definitions>

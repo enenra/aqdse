@@ -2,6 +2,14 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <EntityComponents>
 
+      <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+          <Id>
+              <TypeId>Inventory</TypeId>
+              <SubtypeId>AQD_LG_Container</SubtypeId>
+          </Id>
+          <Size x="2.5" y="7.5" z="2.5" />
+      </EntityComponent>
+
         <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
             <Id>
                 <TypeId>Inventory</TypeId>
