@@ -4,7 +4,7 @@
 
 		<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
 			<Id>
-				<TypeId>CubeBlock</TypeId>
+				<TypeId>CargoContainer</TypeId>
 				<SubtypeId>AQD_LG_Container</SubtypeId>
 			</Id>
 			<DisplayName>{LOC:DisplayName_AQD_LG_Container}</DisplayName>
@@ -51,7 +51,7 @@
 
 		<Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
 			<Id>
-				<TypeId>CubeBlock</TypeId>
+				<TypeId>CargoContainer</TypeId>
 				<SubtypeId>AQD_SG_Container</SubtypeId>
 			</Id>
 			<DisplayName>{LOC:DisplayName_AQD_LG_Container}</DisplayName>
