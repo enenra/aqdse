@@ -15,6 +15,16 @@
 
     <Container>
       <Id>
+        <TypeId>CargoContainer</TypeId>
+        <SubtypeId>AQD_SG_Container</SubtypeId>
+      </Id>
+      <DefaultComponents>
+        <Component BuilderType="MyObjectBuilder_Inventory"/>
+      </DefaultComponents>
+    </Container>
+
+    <Container>
+      <Id>
         <TypeId>CubeBlock</TypeId>
         <SubtypeId>AQD_SG_SecureStorageBox</SubtypeId>
       </Id>
