@@ -11,6 +11,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using Sandbox.ModAPI;
+using Sandbox.Common.ObjectBuilders;
+
 namespace GyroUpgrade
 {
     [MyEntityComponentDescriptor(typeof(MyObjectBuilder_Gyro), false)]
