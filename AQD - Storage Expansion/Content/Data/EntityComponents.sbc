@@ -21,6 +21,22 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
+        <SubtypeId>AQD_LG_Hopper</SubtypeId>
+      </Id>
+      <Size x="2.5" y="2.5" z="7.5" />
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AQD_SG_Hopper</SubtypeId>
+      </Id>
+      <Size x="2.5" y="2.5" z="7.5" />
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
         <SubtypeId>AQD_SG_SecureStorageBox</SubtypeId>
       </Id>
       <Size x="1" y="1" z="1" />

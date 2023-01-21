@@ -133,4 +133,28 @@
     <value>Description</value>
     <comment/>
   </data>
+  <data name="DisplayName_AQD_LG_Hopper" xml:space="preserve">
+    <value>Hopper</value>
+    <comment/>
+  </data>
+  <data name="Description_AQD_LG_Hopper" xml:space="preserve">
+    <value>Hoppers are designed for ore, stone and ice storage. They are cheap and can be extended with a collector and an ejector.</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AQD_LG_Hopper_Collector" xml:space="preserve">
+    <value>Hopper Collector</value>
+    <comment/>
+  </data>
+  <data name="Description_AQD_LG_Hopper_Collector" xml:space="preserve">
+    <value>Designed to fit on top of Hoppers and allow for the dropping of material directly into the container.</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AQD_LG_Hopper_Ejector" xml:space="preserve">
+    <value>Hopper Ejector</value>
+    <comment/>
+  </data>
+  <data name="Description_AQD_LG_Hopper_Ejector" xml:space="preserve">
+    <value>Designed to fit underneath Hoppers and allow for the quick extraction of material out of the container.</value>
+    <comment/>
+  </data>
 </root>
