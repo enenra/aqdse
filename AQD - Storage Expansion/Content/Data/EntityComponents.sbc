@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <EntityComponents>
 
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
@@ -24,6 +25,9 @@
         <SubtypeId>AQD_LG_Hopper</SubtypeId>
       </Id>
       <Size x="2.5" y="2.5" z="7.5" />
+      <InputConstraint Whitelist="true">
+        <Entry Type="Ore" />
+      </InputConstraint>
     </EntityComponent>
 
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
@@ -32,6 +36,9 @@
         <SubtypeId>AQD_SG_Hopper</SubtypeId>
       </Id>
       <Size x="2.5" y="2.5" z="7.5" />
+      <InputConstraint Whitelist="true">
+        <Entry Type="Ore" />
+      </InputConstraint>
     </EntityComponent>
 
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
