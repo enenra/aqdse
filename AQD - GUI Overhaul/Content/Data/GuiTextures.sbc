@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Definition xsi:type="MyObjectBuilder_GuiTextureAtlasDefinition">
+        <Id Type="MyObjectBuilder_GuiTextureAtlasDefinition" Subtype="Base"/>
+        
+        <Textures>
+          <Texture>
+              <SubtypeName>button_close_symbol_bcg</SubtypeName>
+              <Path>Textures\GUI\Controls\button_close_symbol_bcg.dds</Path>
+          </Texture>
+
+            <Texture>
+                <SubtypeName>button_default</SubtypeName>
+                <Path>Textures\GUI\Controls\button_default.dds</Path>
+            </Texture>
+
+            <Texture>
+                <SubtypeName>button_default_active</SubtypeName>
+                <Path>Textures\GUI\Controls\button_default_active.dds</Path>
+            </Texture>
+
+            <Texture>
+                <SubtypeName>button_default_focus</SubtypeName>
+                <Path>Textures\GUI\Controls\button_default_focus.dds</Path>
+            </Texture>
+
+            <Texture>
+                <SubtypeName>button_default_highlight</SubtypeName>
+                <Path>Textures\GUI\Controls\button_default_highlight.dds</Path>
+            </Texture>
+
+            <Texture>
+                <SubtypeName>button_default_outlineless</SubtypeName>
+                <Path>Textures\GUI\Controls\button_default_outlineless.dds</Path>
+            </Texture>
+
+            <Texture>
+                <SubtypeName>button_default_outlineless_active</SubtypeName>
+                <Path>Textures\GUI\Controls\button_default_outlineless_active.dds</Path>
+            </Texture>
+
+            <Texture>
+                <SubtypeName>button_default_outlineless_focus</SubtypeName>
+                <Path>Textures\GUI\Controls\button_default_outlineless_focus.dds</Path>
+            </Texture>
+            
+        </Textures>
+        <CompositeTextures>
+            <CompositeTexture>
+                <SubtypeName>ProgressBar</SubtypeName>
+                <LeftTop>ProgressBar_LeftTop</LeftTop>
+                <LeftCenter>ProgressBar_LeftCenter</LeftCenter>
+                <LeftBottom>ProgressBar_LeftBottom</LeftBottom>
+                <CenterTop>ProgressBar_CenterTop</CenterTop>
+                <Center>ProgressBar_Center</Center>
+                <CenterBottom>ProgressBar_CenterBottom</CenterBottom>
+                <RightTop>ProgressBar_RightTop</RightTop>
+                <RightCenter>ProgressBar_RightCenter</RightCenter>
+                <RightBottom>ProgressBar_RightBottom</RightBottom>
+            </CompositeTexture>
+            <CompositeTexture>
+                <SubtypeName>ToolBarTabs</SubtypeName>
+                <Center>Toolbar_tabs</Center>
+            </CompositeTexture>
+            <CompositeTexture>
+                <SubtypeName>ToolBarTabsHighlight</SubtypeName>
+                <Center>ToolbarTabsHighlight</Center>
+            </CompositeTexture>
+            <CompositeTexture>
+                <SubtypeName>ToolBarColorVariant</SubtypeName>
+                <Center>ToolbarColorVariant2</Center>
+            </CompositeTexture>
+        </CompositeTextures>
+    </Definition>
+</Definitions>
