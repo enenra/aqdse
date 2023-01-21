@@ -10,6 +10,7 @@
 			<DisplayName>{LOC:DisplayName_AQD_LG_Container}</DisplayName>
 			<Description>{LOC:Description_AQD_LG_Container}</Description>
 			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_Container.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="3"/>
@@ -57,6 +58,7 @@
 			<DisplayName>{LOC:DisplayName_AQD_LG_Container}</DisplayName>
 			<Description>{LOC:Description_AQD_LG_Container}</Description>
 			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_Container.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="5" y="5" z="15"/>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlockVariantGroups>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AQD_HopperGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\container_medium.dds</Icon>
+      <DisplayName>{LOC:DisplayName_AQD_LG_Hopper}</DisplayName>
+      <Description>{LOC:Description_AQD_LG_Hopper}</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_CargoContainer" Subtype="AQD_LG_Hopper" />
+        <Block Type="MyObjectBuilder_PoweredCargoContainerDefinition" Subtype="AQD_LG_Hopper_Collector" />
+        <Block Type="MyObjectBuilder_ShipConnectorDefinition" Subtype="AQD_LG_Hopper_Ejector" />
+      </Blocks>
+    </BlockVariantGroup>
+
+  </BlockVariantGroups>
+</Definitions>

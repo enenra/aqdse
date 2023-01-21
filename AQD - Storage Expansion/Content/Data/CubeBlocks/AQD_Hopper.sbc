@@ -11,19 +11,20 @@
       <DisplayName>{LOC:DisplayName_AQD_LG_Hopper}</DisplayName>
       <Description>{LOC:Description_AQD_LG_Hopper}</Description>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_Hopper.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="3"/>
       <ModelOffset x="0" y="0" z="0"/>
       <Model>Models\Cubes\large\AQD_LG_Hopper.mwm</Model>
       <Components>
-          <Component Subtype="InteriorPlate" Count="80" />
-          <Component Subtype="Construction" Count="25" />
-          <Component Subtype="SmallTube" Count="15" />
-          <Component Subtype="Display" Count="2" />
-          <Component Subtype="Computer" Count="2" />
-          <Component Subtype="Construction" Count="10" />
-          <Component Subtype="InteriorPlate" Count="20" />
+        <Component Subtype="InteriorPlate" Count="80" />
+        <Component Subtype="Construction" Count="25" />
+        <Component Subtype="SmallTube" Count="15" />
+        <Component Subtype="Display" Count="2" />
+        <Component Subtype="Computer" Count="2" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="InteriorPlate" Count="20" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -57,6 +58,7 @@
       <DisplayName>{LOC:DisplayName_AQD_LG_Hopper_Collector}</DisplayName>
       <Description>{LOC:Description_AQD_LG_Hopper_Collector}</Description>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_Hopper_Collector.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="3"/>
@@ -80,6 +82,11 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\large\AQD_LG_Hopper_Collector_BS1.mwm"/>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\AQD_LG_Hopper_Collector_BS2.mwm"/>
       </BuildProgressModels>
+      <InventorySize>
+        <X>2.5</X>
+        <Y>2.5</Y>
+        <Z>1</Z>
+      </InventorySize>
       <BuildTimeSeconds>5</BuildTimeSeconds>
       <ResourceSinkGroup>Conveyors</ResourceSinkGroup>
       <RequiredPowerInput>0.002</RequiredPowerInput>
@@ -99,6 +106,7 @@
       <DisplayName>{LOC:DisplayName_AQD_LG_Hopper_Ejector}</DisplayName>
       <Description>{LOC:Description_AQD_LG_Hopper_Ejector}</Description>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_Hopper_Ejector.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="1" y="1" z="1"/>
@@ -114,12 +122,11 @@
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
-        <MountPoint Side="Left" StartX="0.00" StartY="0.75" EndX="1.00" EndY="1.00"/>
-        <MountPoint Side="Right" StartX="0.00" StartY="0.75" EndX="1.00" EndY="1.00"/>
-        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" Default="true"/>
+        <MountPoint Side="Back" StartX="0.10" StartY="0.00" EndX="0.90" EndY="1.00" Default="true"/>
+        <MountPoint Side="Left" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.25" EndY="1.00"/>
       </MountPoints>
       <BlockPairName>AQD_Hopper_Ejector</BlockPairName>
-      <MirroringY>Z</MirroringY>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\AQD_LG_Hopper_Ejector_BS1.mwm"/>
         <Model BuildPercentUpperBound="0.67" File="Models\Cubes\large\AQD_LG_Hopper_Ejector_BS2.mwm"/>
@@ -135,10 +142,11 @@
       <AutoUnlockTime_Min>0</AutoUnlockTime_Min>
       <AutoUnlockTime_Max>3600</AutoUnlockTime_Max>
       <TieredUpdateTimes>
-          <unsignedInt>80</unsignedInt>
-          <unsignedInt>160</unsignedInt>
-          <unsignedInt>320</unsignedInt>
+        <unsignedInt>80</unsignedInt>
+        <unsignedInt>160</unsignedInt>
+        <unsignedInt>320</unsignedInt>
       </TieredUpdateTimes>
+      <MirroringZ>Y</MirroringZ>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_CargoContainerDefinition">
@@ -149,19 +157,20 @@
       <DisplayName>{LOC:DisplayName_AQD_LG_Hopper}</DisplayName>
       <Description>{LOC:Description_AQD_LG_Hopper}</Description>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_Hopper.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="5" y="5" z="15"/>
       <ModelOffset x="0" y="0" z="0"/>
       <Model>Models\Cubes\large\AQD_LG_Hopper.mwm</Model>
       <Components>
-          <Component Subtype="InteriorPlate" Count="80" />
-          <Component Subtype="Construction" Count="25" />
-          <Component Subtype="SmallTube" Count="15" />
-          <Component Subtype="Display" Count="2" />
-          <Component Subtype="Computer" Count="2" />
-          <Component Subtype="Construction" Count="10" />
-          <Component Subtype="InteriorPlate" Count="20" />
+        <Component Subtype="InteriorPlate" Count="80" />
+        <Component Subtype="Construction" Count="25" />
+        <Component Subtype="SmallTube" Count="15" />
+        <Component Subtype="Display" Count="2" />
+        <Component Subtype="Computer" Count="2" />
+        <Component Subtype="Construction" Count="10" />
+        <Component Subtype="InteriorPlate" Count="20" />
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
@@ -173,7 +182,6 @@
         <MountPoint Side="Bottom" StartX="0.08" StartY="0.00" EndX="0.92" EndY="3.00" Default="true"/>
       </MountPoints>
       <BlockPairName>AQD_Hopper</BlockPairName>
-      <MirroringY>Z</MirroringY>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\AQD_LG_Hopper_BS1.mwm"/>
         <Model BuildPercentUpperBound="0.67" File="Models\Cubes\large\AQD_LG_Hopper_BS2.mwm"/>
@@ -185,6 +193,7 @@
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>10</PCU>
+      <MirroringZ>Y</MirroringZ>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_PoweredCargoContainerDefinition">
@@ -195,6 +204,7 @@
       <DisplayName>{LOC:DisplayName_AQD_LG_Hopper_Collector}</DisplayName>
       <Description>{LOC:Description_AQD_LG_Hopper_Collector}</Description>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_Hopper_Collector.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="5" y="5" z="15"/>
@@ -213,11 +223,15 @@
         <MountPoint Side="Bottom" StartX="0.08" StartY="0.20" EndX="0.92" EndY="2.80" Default="true"/>
       </MountPoints>
       <BlockPairName>AQD_Hopper_Collector</BlockPairName>
-      <MirroringY>Z</MirroringY>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\large\AQD_LG_Hopper_Collector_BS1.mwm"/>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\AQD_LG_Hopper_Collector_BS2.mwm"/>
       </BuildProgressModels>
+      <InventorySize>
+        <X>2.5</X>
+        <Y>2.5</Y>
+        <Z>1</Z>
+      </InventorySize>
       <BuildTimeSeconds>5</BuildTimeSeconds>
       <ResourceSinkGroup>Conveyors</ResourceSinkGroup>
       <RequiredPowerInput>0.002</RequiredPowerInput>
@@ -227,6 +241,7 @@
       <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
       <DestroySound>WepSmallWarheadExpl</DestroySound>
       <PCU>25</PCU>
+      <MirroringZ>Y</MirroringZ>
     </Definition>
 
     <Definition xsi:type="MyObjectBuilder_ShipConnectorDefinition">
@@ -237,6 +252,7 @@
       <DisplayName>{LOC:DisplayName_AQD_LG_Hopper_Ejector}</DisplayName>
       <Description>{LOC:Description_AQD_LG_Hopper_Ejector}</Description>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_Hopper_Ejector.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
       <Size x="5" y="5" z="5"/>
@@ -252,12 +268,11 @@
       </Components>
       <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
-        <MountPoint Side="Left" StartX="0.00" StartY="0.75" EndX="1.00" EndY="1.00"/>
-        <MountPoint Side="Right" StartX="0.00" StartY="0.75" EndX="1.00" EndY="1.00"/>
-        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" Default="true"/>
+        <MountPoint Side="Back" StartX="0.10" StartY="0.00" EndX="0.90" EndY="1.00" Default="true"/>
+        <MountPoint Side="Left" StartX="0.75" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.25" EndY="1.00"/>
       </MountPoints>
       <BlockPairName>AQD_Hopper_Ejector</BlockPairName>
-      <MirroringY>Z</MirroringY>
       <BuildProgressModels>
         <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\AQD_LG_Hopper_Ejector_BS1.mwm"/>
         <Model BuildPercentUpperBound="0.67" File="Models\Cubes\large\AQD_LG_Hopper_Ejector_BS2.mwm"/>
@@ -273,10 +288,11 @@
       <AutoUnlockTime_Min>0</AutoUnlockTime_Min>
       <AutoUnlockTime_Max>3600</AutoUnlockTime_Max>
       <TieredUpdateTimes>
-          <unsignedInt>80</unsignedInt>
-          <unsignedInt>160</unsignedInt>
-          <unsignedInt>320</unsignedInt>
+        <unsignedInt>80</unsignedInt>
+        <unsignedInt>160</unsignedInt>
+        <unsignedInt>320</unsignedInt>
       </TieredUpdateTimes>
+      <MirroringZ>Y</MirroringZ>
     </Definition>
 
   </CubeBlocks>

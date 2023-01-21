@@ -13,6 +13,9 @@
       <StrictSearch>true</StrictSearch>
       <ItemIds>
         <string>CargoContainer/AQD_LG_Container</string>
+        <string>CargoContainer/AQD_LG_Hopper</string>
+        <string>CargoContainer/AQD_LG_Hopper_Collector</string>
+        <string>CargoContainer/AQD_LG_Hopper_Ejector</string>
       </ItemIds>
     </Category>
 
@@ -27,6 +30,9 @@
       <ItemIds>
         <string>CubeBlock/AQD_SG_SecureStorageBox</string>
         <string>CargoContainer/AQD_SG_Container</string>
+        <string>CargoContainer/AQD_SG_Hopper</string>
+        <string>CargoContainer/AQD_SG_Hopper_Collector</string>
+        <string>CargoContainer/AQD_SG_Hopper_Ejector</string>
       </ItemIds>
     </Category>
 
@@ -41,6 +47,9 @@
         <string>CubeBlock/AQD_SG_SecureStorageBox</string>
         
         <string>CargoContainer/AQD_LG_Container</string>
+        <string>CargoContainer/AQD_LG_Hopper</string>
+        <string>CargoContainer/AQD_LG_Hopper_Collector</string>
+        <string>CargoContainer/AQD_LG_Hopper_Ejector</string>
       </ItemIds>
     </Category>
 
