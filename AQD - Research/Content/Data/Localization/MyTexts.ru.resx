@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<root>
+    <xsd:schema xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+                id="root">
+        <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+        <xsd:element msdata:IsDataSet="true" name="root">
+            <xsd:complexType>
+                <xsd:choice maxOccurs="unbounded">
+                    <xsd:element name="metadata">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element minOccurs="0" name="value" type="xsd:string"/>
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" use="required"/>
+                            <xsd:attribute name="type" type="xsd:string"/>
+                            <xsd:attribute name="mimetype" type="xsd:string"/>
+                            <xsd:attribute ref="xml:space"/>
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="assembly">
+                        <xsd:complexType>
+                            <xsd:attribute name="alias" type="xsd:string"/>
+                            <xsd:attribute name="name" type="xsd:string"/>
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="data">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element minOccurs="0" msdata:Ordinal="1" name="value" type="xsd:string"/>
+                                <xsd:element minOccurs="0" msdata:Ordinal="2" name="comment" type="xsd:string"/>
+                            </xsd:sequence>
+                            <xsd:attribute msdata:Ordinal="1" name="name" type="xsd:string" use="required"/>
+                            <xsd:attribute msdata:Ordinal="3" name="type" type="xsd:string"/>
+                            <xsd:attribute msdata:Ordinal="4" name="mimetype" type="xsd:string"/>
+                            <xsd:attribute ref="xml:space"/>
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="resheader">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element minOccurs="0" msdata:Ordinal="1" name="value" type="xsd:string"/>
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" use="required"/>
+                        </xsd:complexType>
+                    </xsd:element>
+                </xsd:choice>
+            </xsd:complexType>
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>2.0</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <!--
+    Region - AQD - Research
+    -->
+  <data name="DisplayName_AQD_LG_ResearchLab" xml:space="preserve">
+    <value>Исследовательская лаборатория</value>
+  </data>
+  <data name="DisplayName_AQD_LG_DataStorage" xml:space="preserve">
+    <value>Хранилище данных</value>
+  </data>
+  <data name="Description_AQD_LG_ResearchLab" xml:space="preserve">
+    <value>Исследовательская лаборатория позволяет исследовать новые технологии, разблокировать блоки, рецепты сборщиков и перерабатывающих заводов, а также получить доступ к другим технологиям. Технологии исследуются путем внесения исследовательского материала требуемого уровня и выводятся в виде исследовательских чертежей, в которых хранится информация о технологии.</value>
+  </data>
+  <data name="Description_AQD_LG_DataStorage" xml:space="preserve">
+    <value>Хранилище данных для безопасного хранения исследовательских чертежей.</value>
+  </data>
+  <data name="DisplayName_AQD_Comp_ResearchMaterial" xml:space="preserve">
+    <value>Исслед. материал</value>
+  </data>
+  <data name="DisplayName_AQD_Comp_EnhancedResearchMaterial" xml:space="preserve">
+    <value>Улуч. исслед. материал</value>
+  </data>
+  <data name="DisplayName_AQD_Comp_AdvancedResearchMaterial" xml:space="preserve">
+    <value>Продв. исслед. материал</value>
+  </data>
+  <data name="DisplayName_AQD_Comp_EliteResearchMaterial" xml:space="preserve">
+    <value>Элитный исслед. материал</value>
+  </data>
+  <data name="DisplayName_AQD_BP_ResearchMaterial" xml:space="preserve">
+    <value>Производство исслед. материала</value>
+  </data>
+  <data name="DisplayName_AQD_BP_EnhancedResearchMaterial" xml:space="preserve">
+    <value>Производство улуч. исслед. материала</value>
+  </data>
+  <data name="DisplayName_AQD_BP_AdvancedResearchMaterial" xml:space="preserve">
+    <value>Производство продв. исслед. материала</value>
+  </data>
+  <data name="DisplayName_AQD_BP_EliteResearchMaterial" xml:space="preserve">
+    <value>Производство элитного исслед. материала</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_ResearchLab_T1" xml:space="preserve">
+    <value>Схемы 1 уровня</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_ResearchLab_T2" xml:space="preserve">
+    <value>Схемы 2 уровня</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_ResearchLab_T3" xml:space="preserve">
+    <value>Схемы 3 уровня</value>
+  </data>
+  <data name="DisplayName_AQD_BPC_ResearchLab_T4" xml:space="preserve">
+    <value>Схемы 4 уровня</value>
+  </data>
+</root>
