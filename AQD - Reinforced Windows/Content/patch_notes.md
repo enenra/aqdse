@@ -1,4 +1,4 @@
-[h1]Patch 1.1b[/h1]
+[h1]Patch 1.1c[/h1]
 [list]
-[*]Added compatibility with Vanilla Tech Tree.
+[*]Added missing AQD logo to block group.
 [/list]

@@ -6,6 +6,7 @@
     <BlockVariantGroup>
       <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AQD_Group_ReinforcedWindows" />
       <Icon>Textures\GUI\Icons\Cubes\AQD_ReinforcedWindow_1x1.png</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <DisplayName>{LOC:DisplayName_AQD_LG_ReinforcedWindow_1x1}</DisplayName>
       <Description>{LOC:Description_AQD_ReinforcedWindows}</Description>
       <Blocks>
