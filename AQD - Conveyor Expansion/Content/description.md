@@ -1,4 +1,4 @@
-[h1]Current version: [b]2.1a[/b][/h1]
+[h1]Current version: [b]2.1b[/b][/h1]
 [i]Please refer to the [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/1864380341]changelog[/url] for patch notes.[/i]
 
 [img]https://i.imgur.com/cdhLXnQ.png[/img]
@@ -31,7 +31,6 @@ Furthermore, the mod contains armored versions of all conveyor tube shapes:
 [h1]Miscellaneous Conveyor Blocks[/h1]
 [list]
 [*]Conveyor Access - It allows for easy access of the conveyor system without having to place a cargo container and only taking up a half block's space.
-[*]Conveyor Air Vent - Same functionality as the vanilla air vent but mounted onto a full conveyor junction block.
 [/list]
 
 [url=https://discord.gg/QtyCsBr][img]https://i.imgur.com/l8exfyn.png[/img][/url]
@@ -45,10 +44,6 @@ Furthermore, the mod contains armored versions of all conveyor tube shapes:
 [*]Green / Yellow indicators for connectivity are iffy. This is unfortunately a limitation within Keen's emissive code that only supports up to two connections for conveyor tubes.
 [*]I will add additional blocks to the pack but I'm as of now not committing to adding additional conveyor shapes. I've got some ideas there but I think what I've got in now covers most use cases and at some point, adding too many shapes will make using all of them more annoying.
 [*]The conveyors are only for large grid. I don't currently have plans to make versions for small grid.
-[/list]
-[h1]Mod usage[/h1]
-[list]
-[*]Please do not upload any alternative version of this mod without receiving permission from me first.
 [/list]
 
 

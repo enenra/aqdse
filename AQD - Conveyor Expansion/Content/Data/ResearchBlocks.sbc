@@ -60,13 +60,5 @@
         <GroupSubtype>24</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="MyObjectBuilder_AirVent" Subtype="AQD_LG_ConveyorVent" />
-      <UnlockedByGroups>
-        <GroupSubtype>15</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
   </ResearchBlocks>
 </Definitions>

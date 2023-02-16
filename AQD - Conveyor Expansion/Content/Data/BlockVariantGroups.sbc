@@ -93,17 +93,5 @@
       </Blocks>
     </BlockVariantGroup>
 
-    <BlockVariantGroup>
-      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AirVentGroup" />
-      <Icon>Textures\GUI\Icons\Cubes\AirVent.dds</Icon>
-      <DisplayName>DisplayName_Block_AirVent</DisplayName>
-      <Description>Description_AirVent</Description>
-      <Blocks>
-        <Block Type="MyObjectBuilder_AirVent" Subtype="" />
-        <Block Type="MyObjectBuilder_AirVent" Subtype="SmallAirVent" />
-        <Block Type="MyObjectBuilder_AirVent" Subtype="AQD_LG_ConveyorVent" />
-      </Blocks>
-    </BlockVariantGroup>
-
   </BlockVariantGroups>
 </Definitions>

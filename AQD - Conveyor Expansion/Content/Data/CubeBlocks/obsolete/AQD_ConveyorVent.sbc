@@ -12,6 +12,7 @@
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_ConveyorVent.dds</Icon>
       <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <Description>Description_AirVent</Description>
+      <Public>false</Public>
       <GuiVisible>false</GuiVisible>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
