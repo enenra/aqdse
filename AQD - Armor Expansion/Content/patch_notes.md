@@ -1,4 +1,4 @@
-[h1]Patch 1.9a[/h1]
+[h1]Patch 1.9b[/h1]
 [list]
-[*]Fixed missing creases in mirrored variations of the new transition blocks.
+[*]Fixed wrong mirroring pairs for new transition blocks.
 [/list]
