@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Model Name="Default">
+
+  <Parameter Name="Centered">false</Parameter>
+  <Parameter Name="RescaleFactor">1</Parameter>
+  <Parameter Name="RescaleToLengthInMeters">false</Parameter>
+
+  <MaterialRef Name="PaintedMetal_Colorable" />
+  <MaterialRef Name="PaintedMetalScratched_Colorable" />
+  <MaterialRef Name="PaintedMetal_Yellow" />
+  <MaterialRef Name="PaintedMetalScratched_Yellow" />
+  <MaterialRef Name="PaintedMetal_Darker" />
+  <MaterialRef Name="PaintedMetalScratched_Darker" />
+  <MaterialRef Name="PaintedMetal_VeryDark" />
+  <MaterialRef Name="PaintedMetalScratched_VeryDark" />
+  <MaterialRef Name="PanelingColorable" />
+  <MaterialRef Name="PanelingDarker" />
+  <MaterialRef Name="Metal_Dull" />
+  <MaterialRef Name="Metal_Shiny" />
+  <MaterialRef Name="TextAtlas" />
+  <MaterialRef Name="Terminal" />
+  <MaterialRef Name="Conveyor" />
+  <MaterialRef Name="Conveyor_Yellow" />
+  <MaterialRef Name="Doodads" />
+  <MaterialRef Name="Emissive4" />
+  <MaterialRef Name="EmissiveAtlas" />
+  <MaterialRef Name="Decals" />
+  <MaterialRef Name="Chrome" />
+  <MaterialRef Name="Rubber" />
+  <MaterialRef Name="Construction" />
+
+  <LOD Distance="25">
+    <Model>Models\Cubes\Small\AQD_SG_MultiButton_LOD1</Model>
+  </LOD>
+  <LOD Distance="50">
+    <Model>Models\Cubes\Small\AQD_SG_MultiButton_LOD2</Model>
+  </LOD>
+  
+</Model>

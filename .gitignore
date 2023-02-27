@@ -1,8 +1,17 @@
 # Ignore these file types
-*/OriginalContent/
+AQD - Armored Thrusters/OriginalContent/Models/Cubes/
+AQD - Banner LCDs/OriginalContent/Models/Cubes/
+AQD - Concrete/OriginalContent/Models/Cubes/
+AQD - Colorful Icons/OriginalContent/
+AQD - Conveyor Expansion/OriginalContent/Models/old/
+AQD - GUI Overhaul/OriginalContent/Textures/
+AQD - Research/OriginalContent/Models/
+AQD - Resources & Industry - Voxels & Items/OriginalContent/Models/
+AQD - Resources & Industry - Voxels & Items/OriginalContent/Textures/
+AQD - Resources & Industry/OriginalContent/Models/Cubes/
+AQD - Resources & Industry/OriginalContent/Textures/
 *.mod
 *.sbmi
-*.psd
 AQD_Collection.jpg
 plan.md
 contents.md
