@@ -19,16 +19,44 @@
     </BlockVariantGroup>
 
     <BlockVariantGroup>
-        <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CouchGroup" />
-        <Icon>Textures\GUI\Icons\Cubes\Couch.dds</Icon>
-        <DisplayName>DisplayName_Block_Couch</DisplayName>
-        <Description>Description_Couch</Description>
-        <Blocks>
-            <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCouch" />
-            <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCouchCorner" />
-            <Block Type="MyObjectBuilder_CryoChamber" Subtype="LargeBlockBed" />
-            <Block Type="MyObjectBuilder_CryoChamber" Subtype="AQD_SG_OpenBed" />
-        </Blocks>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CouchGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\Couch.dds</Icon>
+      <DisplayName>DisplayName_Block_Couch</DisplayName>
+      <Description>Description_Couch</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCouch" />
+        <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCouchCorner" />
+        <Block Type="MyObjectBuilder_CryoChamber" Subtype="LargeBlockBed" />
+        <Block Type="MyObjectBuilder_CryoChamber" Subtype="AQD_SG_OpenBed" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AssemblerGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\SurvivalKitLarge.dds</Icon>
+      <DisplayName>DisplayName_Block_Assembler</DisplayName>
+      <Description>Description_Assembler</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKitLarge" />
+        <Block Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKit" />
+        <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssembler" />
+        <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssemblerIndustrial" />
+        <Block Type="MyObjectBuilder_Assembler" Subtype="BasicAssembler" />
+        <Block Type="MyObjectBuilder_Assembler" Subtype="AQD_SG_BasicAssembler" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="RefineryGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\refinery.dds</Icon>
+      <DisplayName>DisplayName_Block_Refinery</DisplayName>
+      <Description>Description_Refinery</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_Refinery" Subtype="LargeRefinery" />
+        <Block Type="MyObjectBuilder_Refinery" Subtype="LargeRefineryIndustrial" />
+        <Block Type="MyObjectBuilder_Refinery" Subtype="Blast Furnace" />
+        <Block Type="MyObjectBuilder_Refinery" Subtype="AQD_SG_BasicRefinery" />
+      </Blocks>
     </BlockVariantGroup>
 
   </BlockVariantGroups>
