@@ -1,19 +1,28 @@
 {
 	"folders": [
         {
+            "name": "A Quantum of Depth",
             "path": "."
         },
         {
-            "path": "..\\..\\..\\..\\..\\..\\..\\Program Files (x86)\\Steam\\steamapps\\common\\SpaceEngineers\\Content\\Data"
+            "name": "A Galaxy Far Away",
+            "path": "../A Galaxy Far Away"
         },
         {
-            "path": "..\\..\\..\\..\\..\\..\\..\\Program Files (x86)\\Steam\\steamapps\\workshop\\content\\244850"
+            "name": "Data",
+            "path": "../../../../../../../Program Files (x86)/Steam/steamapps/common/SpaceEngineers/Content/Data"
         },
         {
+            "name": "Mods",
             "path": ".."
         },
         {
-            "path": "..\\..\\..\\..\\..\\..\\..\\Program Files (x86)\\Steam\\steamapps\\common\\SpaceEngineers\\Content\\Shaders"
+            "name": "Shaders",
+            "path": "../../../../../../../Program Files (x86)/Steam/steamapps/common/SpaceEngineers/Content/Shaders"
+        },
+        {
+            "name": "244850",
+            "path": "../../../../../../../Program Files (x86)/Steam/steamapps/workshop/content/244850"
         }
     ],
 	"settings": {}
