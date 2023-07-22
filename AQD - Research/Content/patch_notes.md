@@ -1,4 +1,4 @@
-[h1]Patch 1.1f[/h1]
+[h1]Patch 1.1g[/h1]
 [list]
-[*]Added Russian translation - thanks to [url=https://steamcommunity.com/profiles/76561198022074721]Ugga[/url]!
+[*]Fixed Russian translation also applying for other languages besides English.
 [/list]
