@@ -1,5 +1,4 @@
-[h1]Patch 1.1a[/h1]
+[h1]Patch 1.1b[/h1]
 [list]
-[*]Fixed missing BlockVariantGroup entries for small Basic Assembler and Basic Refinery.
-[*]Switched back to script-based localization because Keen has still not fixed the bug with their implementation.
+[*]Fixes for Decorative Pack 3 Block Variant Groups.
 [/list]

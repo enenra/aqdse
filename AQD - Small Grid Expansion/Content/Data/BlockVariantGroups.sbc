@@ -15,6 +15,7 @@
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_Freight_I" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_Freight_II" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_Freight_III" />
+        <Block Type="MyObjectBuilder_TerminalBlock" Subtype="LargeCrate" />
       </Blocks>
     </BlockVariantGroup>
 
@@ -26,8 +27,27 @@
       <Blocks>
         <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCouch" />
         <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCouchCorner" />
+        <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockInsetPlantCouch" />
         <Block Type="MyObjectBuilder_CryoChamber" Subtype="LargeBlockBed" />
+        <Block Type="MyObjectBuilder_CryoChamber" Subtype="LargeBlockHalfBed" />
+        <Block Type="MyObjectBuilder_CryoChamber" Subtype="LargeBlockHalfBedOffset" />
         <Block Type="MyObjectBuilder_CryoChamber" Subtype="AQD_SG_OpenBed" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DecorativeUtilityGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\Planters.dds</Icon>
+      <DisplayName>DisplayName_BlockGroup_DecorativeUtilityGroup</DisplayName>
+      <Description>Description_BlockGroup_DecorativeUtilityGroup</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_Planter" Subtype="LargeBlockPlanters" />
+        <Block Type="MyObjectBuilder_Kitchen" Subtype="LargeBlockKitchen" />
+        <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockInsetKitchen" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockBarCounter" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockBarCounterCorner" />
+        <Block Type="MyObjectBuilder_LCDPanelsBlock" Subtype="LabEquipment" />
+        <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockInsetAquarium" />
       </Blocks>
     </BlockVariantGroup>
 
