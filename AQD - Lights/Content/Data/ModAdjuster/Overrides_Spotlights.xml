@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <!-- LightRadius 3x, LightReflectorRadius 2x -->
+
+    <!-- Rotating Spotlight -->
+    <Definition xsi:type="MyObjectBuilder_ReflectorBlockDefinition">
+      <Id>
+        <TypeId>ReflectorLight</TypeId>
+        <SubtypeId>RotatingLightLarge</SubtypeId>
+      </Id>
+      <LightRadius Min="1" Max="15" Default="1" />
+      <LightReflectorRadius Min="10" Max="90" Default="20" />
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_ReflectorBlockDefinition">
+      <Id>
+        <TypeId>ReflectorLight</TypeId>
+        <SubtypeId>RotatingLightSmall</SubtypeId>
+      </Id>
+      <LightRadius Min="1" Max="15" Default="1" />
+      <LightReflectorRadius Min="10" Max="90" Default="20" />
+    </Definition>
+
+    <!-- Default Spotlight -->
+    <Definition xsi:type="MyObjectBuilder_ReflectorBlockDefinition">
+      <Id>
+        <TypeId>ReflectorLight</TypeId>
+        <SubtypeId>LargeBlockFrontLight</SubtypeId>
+      </Id>
+      <LightRadius Min="2" Max="30" Default="5" />
+      <LightReflectorRadius Min="10" Max="320" Default="120" />
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_ReflectorBlockDefinition">
+      <Id>
+        <TypeId>ReflectorLight</TypeId>
+        <SubtypeId>SmallBlockFrontLight</SubtypeId>
+      </Id>
+      <LightRadius Min="1" Max="15" Default="5" />
+      <LightReflectorRadius Min="10" Max="360" Default="120" />
+    </Definition>
+
+    <!-- Offset Spotlight -->
+    <Definition xsi:type="MyObjectBuilder_ReflectorBlockDefinition">
+      <Id>
+        <TypeId>ReflectorLight</TypeId>
+        <SubtypeId>OffsetSpotlight</SubtypeId>
+      </Id>
+      <LightRadius Min="1" Max="15" Default="5" />
+      <LightReflectorRadius Min="10" Max="180" Default="60" />
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>

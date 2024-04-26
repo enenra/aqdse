@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <!-- Light Panel -->
+    <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+      <Id>
+        <TypeId>InteriorLight</TypeId>
+        <SubtypeId>LargeLightPanel</SubtypeId>
+      </Id>
+      <LightRadius Min="1" Max="60" Default="3.6" />
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+      <Id>
+        <TypeId>InteriorLight</TypeId>
+        <SubtypeId>SmallLightPanel</SubtypeId>
+      </Id>
+      <LightRadius Min="1" Max="60" Default="3.6" />
+    </Definition>
+
+    <!-- Inset Light -->
+    <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+      <Id>
+        <TypeId>InteriorLight</TypeId>
+        <SubtypeId>LargeBlockInsetLight</SubtypeId>
+      </Id>
+      <LightRadius Min="1" Max="60" Default="3.6" />
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+      <Id>
+        <TypeId>InteriorLight</TypeId>
+        <SubtypeId>SmallBlockInsetLight</SubtypeId>
+      </Id>
+      <LightRadius Min="1" Max="60" Default="3.6" />
+    </Definition>
+
+    <!--  Interior Light -->
+    <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+      <Id>
+        <TypeId>InteriorLight</TypeId>
+        <SubtypeId>SmallLight</SubtypeId>
+      </Id>
+      <LightRadius Min="1" Max="60" Default="3.6" />
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+      <Id>
+        <TypeId>InteriorLight</TypeId>
+        <SubtypeId>SmallBlockSmallLight</SubtypeId>
+      </Id>
+      <LightRadius Min="1" Max="60" Default="3.6" />
+    </Definition>
+
+    <!-- Corner Lights -->
+    <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+      <Id>
+        <TypeId>InteriorLight</TypeId>
+        <SubtypeId>LargeBlockLight_1corner</SubtypeId>
+      </Id>
+      <LightRadius Min="0.1" Max="60" Default="2.0" />
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+      <Id>
+        <TypeId>InteriorLight</TypeId>
+        <SubtypeId>LargeBlockLight_2corner</SubtypeId>
+      </Id>
+      <LightRadius Min="0.1" Max="60" Default="2.0" />
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+      <Id>
+        <TypeId>InteriorLight</TypeId>
+        <SubtypeId>SmallBlockLight_1corner</SubtypeId>
+      </Id>
+      <LightRadius Min="0.1" Max="60" Default="2.0" />
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+      <Id>
+        <TypeId>InteriorLight</TypeId>
+        <SubtypeId>SmallBlockLight_2corner</SubtypeId>
+      </Id>
+      <LightRadius Min="0.1" Max="60" Default="2.0" />
+    </Definition>
+
+    <!-- Offset Light -->
+    <Definition xsi:type="MyObjectBuilder_LightingBlockDefinition">
+      <Id>
+        <TypeId>InteriorLight</TypeId>
+        <SubtypeId>OffsetLight</SubtypeId>
+      </Id>
+      <LightRadius Min="1" Max="60" Default="3.6" />
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>
