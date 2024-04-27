@@ -5,7 +5,7 @@
 
     <Definition>
       <Id>
-        <TypeId>TerminalBlock</TypeId>
+        <TypeId>CubeBlock</TypeId>
         <SubtypeId>AQD_LG_FakeLightPanel</SubtypeId>
       </Id>
       <DisplayName>DisplayName_AQD_FakeLightPanel</DisplayName>
@@ -55,7 +55,7 @@
 
     <Definition>
       <Id>
-        <TypeId>TerminalBlock</TypeId>
+        <TypeId>CubeBlock</TypeId>
         <SubtypeId>AQD_SG_FakeLightPanel</SubtypeId>
       </Id>
       <DisplayName>DisplayName_AQD_FakeLightPanel</DisplayName>

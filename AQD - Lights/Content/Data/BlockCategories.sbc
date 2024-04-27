@@ -11,7 +11,7 @@
       <DisplayName>DisplayName_Category_LargeBlocks</DisplayName>
       <Name>LargeBlocks</Name>
       <ItemIds>
-        <string>TerminalBlock/AQD_LG_FakeLightPanel</string>
+        <string>CubeBlock/AQD_LG_FakeLightPanel</string>
       </ItemIds>
     </Category>
 
@@ -23,7 +23,7 @@
       <DisplayName>DisplayName_Category_SmallBlocks</DisplayName>
       <Name>SmallBlocks</Name>
       <ItemIds>
-        <string>TerminalBlock/AQD_SG_FakeLightPanel</string>
+        <string>CubeBlock/AQD_SG_FakeLightPanel</string>
       </ItemIds>
     </Category>
 
