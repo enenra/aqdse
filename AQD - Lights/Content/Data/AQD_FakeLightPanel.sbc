@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <Definition>
+      <Id>
+        <TypeId>TerminalBlock</TypeId>
+        <SubtypeId>AQD_LG_FakeLightPanel</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_AQD_FakeLightPanel</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\LightPanel.dds</Icon>
+      <Description>Description_AQD_FakeLightPanel</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\LightPanel.mwm</Model>
+      <Components>
+        <Component Subtype="Construction" Count="5" />
+        <Component Subtype="InteriorPlate" Count="5" />
+        <Component Subtype="Construction" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="0.05" />
+        <MountPoint Side="Left" StartX="0.95" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.05" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0.95" EndX="1" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\LightPanelConstruction_1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AQD_FakeLightPanel</BlockPairName>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <PointLightEmissiveMaterial>LightPanel_Light</PointLightEmissiveMaterial>
+      <SpotLightEmissiveMaterial>EmissiveSpotlight</SpotLightEmissiveMaterial>
+      <BuildTimeSeconds>6</BuildTimeSeconds>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.00006</RequiredPowerInput>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+      <DestroyEffectOffset>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1.1</Z>
+      </DestroyEffectOffset>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>2</PCU>
+      <DLC>Warfare2</DLC>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>TerminalBlock</TypeId>
+        <SubtypeId>AQD_SG_FakeLightPanel</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_AQD_FakeLightPanel</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\LightPanel.dds</Icon>
+      <Description>Description_AQD_FakeLightPanel</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1" />
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\LightPanel.mwm</Model>
+      <Components>
+        <Component Subtype="Construction" Count="1" />
+        <Component Subtype="InteriorPlate" Count="1" />
+        <Component Subtype="Construction" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="InteriorPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="0.05" />
+        <MountPoint Side="Left" StartX="0.95" StartY="0" EndX="1" EndY="1" />
+        <MountPoint Side="Right" StartX="0" StartY="0" EndX="0.05" EndY="1" />
+        <MountPoint Side="Bottom" StartX="0" StartY="0.95" EndX="1" EndY="1" />
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\LightPanelConstruction_1.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AQD_FakeLightPanel</BlockPairName>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <PointLightEmissiveMaterial>LightPanel_Light</PointLightEmissiveMaterial>
+      <SpotLightEmissiveMaterial>EmissiveSpotlight</SpotLightEmissiveMaterial>
+      <BuildTimeSeconds>3</BuildTimeSeconds>
+      <ResourceSinkGroup>Utility</ResourceSinkGroup>
+      <RequiredPowerInput>0.00006</RequiredPowerInput>
+      <DamageEffectName>Damage_Electrical_Damaged</DamageEffectName>
+      <DamagedSound>ParticleElectrical</DamagedSound>
+      <DestroyEffect>BlockDestroyed_Small</DestroyEffect>
+      <DestroyEffectOffset>
+        <X>0</X>
+        <Y>0</Y>
+        <Z>1.1</Z>
+      </DestroyEffectOffset>
+      <DestroySound>PoofExplosionCat1</DestroySound>
+      <PCU>2</PCU>
+      <DLC>Warfare2</DLC>
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>
