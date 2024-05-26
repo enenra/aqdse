@@ -8,7 +8,7 @@
         <SubtypeId>AQD_LG_LA_Slope4x1_InvCorner</SubtypeId>
       </Id>
       <DisplayName>{LOC:DisplayName_AQD_LG_LA_Slope4x1_InvCorner}</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_LA_Slope4x1_InvCorner.png</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_LA_Slope4x1_InvCorner.dds</Icon>
       <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <Description>{LOC:Description_LightArmor}</Description>
       <CubeSize>Large</CubeSize>
@@ -48,7 +48,7 @@
         <SubtypeId>AQD_SG_LA_Slope4x1_InvCorner</SubtypeId>
       </Id>
       <DisplayName>{LOC:DisplayName_AQD_LG_LA_Slope4x1_InvCorner}</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_LA_Slope4x1_InvCorner.png</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_LA_Slope4x1_InvCorner.dds</Icon>
       <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <Description>{LOC:Description_LightArmor}</Description>
       <CubeSize>Small</CubeSize>
@@ -88,7 +88,7 @@
         <SubtypeId>AQD_LG_HA_Slope4x1_InvCorner</SubtypeId>
       </Id>
       <DisplayName>{LOC:DisplayName_AQD_LG_HA_Slope4x1_InvCorner}</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_HA_Slope4x1_InvCorner.png</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_HA_Slope4x1_InvCorner.dds</Icon>
       <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <Description>{LOC:Description_HeavyArmor}</Description>
       <CubeSize>Large</CubeSize>
@@ -130,7 +130,7 @@
         <SubtypeId>AQD_SG_HA_Slope4x1_InvCorner</SubtypeId>
       </Id>
       <DisplayName>{LOC:DisplayName_AQD_LG_HA_Slope4x1_InvCorner}</DisplayName>
-      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_HA_Slope4x1_InvCorner.png</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_HA_Slope4x1_InvCorner.dds</Icon>
       <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <Description>{LOC:Description_HeavyArmor}</Description>
       <CubeSize>Small</CubeSize>
