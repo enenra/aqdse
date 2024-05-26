@@ -30,7 +30,7 @@
 
     <BlockVariantGroup>
       <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ArmorLightLongRampGroup" />
-      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_LA_Slope3x1.png</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_LA_Slope3x1.dds</Icon>
       <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <DisplayName>DisplayName_AQD_LG_LA_Slope3x1</DisplayName>
       <Description>Description_LightArmor</Description>
@@ -109,7 +109,7 @@
 
     <BlockVariantGroup>
       <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ArmorHeavyLongRampGroup" />
-      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_HA_Slope3x1.png</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_HA_Slope3x1.dds</Icon>
       <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <DisplayName>DisplayName_AQD_LG_HA_Slope3x1</DisplayName>
       <Description>Description_HeavyArmor</Description>
