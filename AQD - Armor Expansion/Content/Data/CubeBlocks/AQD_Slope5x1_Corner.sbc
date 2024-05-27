@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>AQD_LG_LA_Slope5x1_Corner</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_AQD_LG_LA_Slope5x1_Corner}</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_LA_Slope5x1_Corner.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_5x1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
+      <Description>{LOC:Description_LightArmor}</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="5"/>
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\armor\AQD_LG_LA_Slope5x1_Corner.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="50" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0"/>
+				<MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="5.0" EndY="1.0"/>
+				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="5.0"/>
+			</MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\armor\AQD_LG_LA_Slope5x1_Corner_BS1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\armor\AQD_LG_LA_Slope5x1_Corner_BS2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AQD_LA_Slope5x1_Corner</BlockPairName>
+			<MirroringX>HalfZ</MirroringX>
+			<MirroringY>MinusHalfZ</MirroringY>
+			<MirroringZ>YHalfZ</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>22</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <PCU>5</PCU>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>AQD_SG_LA_Slope5x1_Corner</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_AQD_LG_LA_Slope5x1_Corner}</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_LA_Slope5x1_Corner.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_5x1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
+      <Description>{LOC:Description_LightArmor}</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="5"/>
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\armor\AQD_SG_LA_Slope5x1_Corner.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="4" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0"/>
+				<MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="5.0" EndY="1.0"/>
+				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="5.0"/>
+			</MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\armor\AQD_SG_LA_Slope5x1_Corner_BS1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\armor\AQD_SG_LA_Slope5x1_Corner_BS2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AQD_LA_Slope5x1_Corner</BlockPairName>
+			<MirroringX>HalfZ</MirroringX>
+			<MirroringY>MinusHalfZ</MirroringY>
+			<MirroringZ>YHalfZ</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>10</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <PCU>5</PCU>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>AQD_LG_HA_Slope5x1_Corner</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_AQD_LG_HA_Slope5x1_Corner}</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_HA_Slope5x1_Corner.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_5x1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
+      <Description>{LOC:Description_HeavyArmor}</Description>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="5"/>
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Large\armor\AQD_LG_HA_Slope5x1_Corner.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="250" />
+        <Component Subtype="MetalGrid" Count="100" />
+        <Component Subtype="SteelPlate" Count="25" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0"/>
+				<MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="5.0" EndY="1.0"/>
+				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="5.0"/>
+			</MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Large\armor\AQD_LG_LA_Slope5x1_Corner_BS1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\armor\AQD_LG_LA_Slope5x1_Corner_BS2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AQD_HA_Slope5x1_Corner</BlockPairName>
+			<MirroringX>HalfZ</MirroringX>
+			<MirroringY>MinusHalfZ</MirroringY>
+			<MirroringZ>YHalfZ</MirroringZ>
+      <EdgeType>Heavy</EdgeType>
+      <BuildTimeSeconds>60</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <PCU>5</PCU>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>AQD_SG_HA_Slope5x1_Corner</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_AQD_LG_HA_Slope5x1_Corner}</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_HA_Slope5x1_Corner.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_5x1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
+      <Description>{LOC:Description_HeavyArmor}</Description>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="5"/>
+      <ModelOffset x="0" y="0" z="0" />
+      <Model>Models\Cubes\Small\armor\AQD_SG_HA_Slope5x1_Corner.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="9" />
+        <Component Subtype="MetalGrid" Count="4" />
+        <Component Subtype="SteelPlate" Count="5" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0"/>
+				<MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="5.0" EndY="1.0"/>
+				<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="5.0"/>
+			</MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.5" File="Models\Cubes\Small\armor\AQD_SG_LA_Slope5x1_Corner_BS1.mwm" />
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\armor\AQD_SG_LA_Slope5x1_Corner_BS2.mwm" />
+      </BuildProgressModels>
+      <BlockPairName>AQD_HA_Slope5x1_Corner</BlockPairName>
+			<MirroringX>HalfZ</MirroringX>
+			<MirroringY>MinusHalfZ</MirroringY>
+			<MirroringZ>YHalfZ</MirroringZ>
+      <EdgeType>Heavy</EdgeType>
+      <BuildTimeSeconds>16</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <PCU>5</PCU>
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>

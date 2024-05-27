@@ -162,5 +162,45 @@
       </Blocks>
     </BlockVariantGroup>
 
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AQD_BVG_LA_Slope5x1" />
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_LA_Slope5x1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_5x1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
+      <DisplayName>DisplayName_AQD_LG_LA_Slope5x1</DisplayName>
+      <Description>Description_LightArmor</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_LA_Slope5x1" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_LA_Slope5x1_Corner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_LA_Slope5x1_InvCorner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_LA_Slope5x1_Transition" />
+
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_LA_Slope5x1" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_LA_Slope5x1_Corner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_LA_Slope5x1_InvCorner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_LA_Slope5x1_Transition" />
+      </Blocks>
+    </BlockVariantGroup>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AQD_BVG_HA_Slope5x1" />
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_HA_Slope5x1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_5x1.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
+      <DisplayName>DisplayName_AQD_LG_HA_Slope5x1</DisplayName>
+      <Description>Description_HeavyArmor</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_HA_Slope5x1" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_HA_Slope5x1_Corner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_HA_Slope5x1_InvCorner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_HA_Slope5x1_Transition" />
+
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_HA_Slope5x1" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_HA_Slope5x1_Corner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_HA_Slope5x1_InvCorner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_HA_Slope5x1_Transition" />
+      </Blocks>
+    </BlockVariantGroup>
+
   </BlockVariantGroups>
 </Definitions>

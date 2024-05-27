@@ -1,380 +1,437 @@
-<?xml version="1.0"?>
-<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <ResearchBlocks>
-
-    <!-- LG -->
-    <!-- LA -->
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_LG_LA_Corner_Split_2x1x1_Base" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_LG_LA_Corner_Split_2x1x1_Tip" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_LG_LA_Slab_Half_Corner_Split" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_LG_LA_Slope3x1" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_LG_LA_Slope3x1_Corner" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_LG_LA_Slope3x1_InvCorner" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_LG_LA_Slope3x1_Transition" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_LG_LA_Slope3x1_TransitionMirror" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_LG_LA_Slope4x1" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_LG_LA_Slope4x1_Corner" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_LG_LA_Slope4x1_InvCorner" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_LG_LA_Slope4x1_Transition" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_LG_LA_Slope4x1_TransitionMirror" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <!-- HA -->
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_LG_HA_Corner_Split_2x1x1_Base" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_LG_HA_Corner_Split_2x1x1_Tip" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_LG_HA_Slab_Half_Corner_Split" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_LG_HA_Slope3x1" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_LG_HA_Slope3x1_Corner" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_LG_HA_Slope3x1_InvCorner" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_LG_HA_Slope3x1_Transition" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_LG_HA_Slope3x1_TransitionMirror" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_LG_HA_Slope4x1" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_LG_HA_Slope4x1_Corner" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_LG_HA_Slope4x1_InvCorner" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_LG_HA_Slope4x1_Transition" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_LG_HA_Slope4x1_TransitionMirror" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <!-- SG -->
-    <!-- LA -->
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_SG_LA_Corner_Split_2x1x1_Base" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_SG_LA_Corner_Split_2x1x1_Tip" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_SG_LA_Slab_Half_Corner_Split" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_SG_LA_Slope3x1" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_SG_LA_Slope3x1_Corner" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_SG_LA_Slope3x1_InvCorner" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_SG_LA_Slope3x1_Transition" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_SG_LA_Slope3x1_TransitionMirror" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_SG_LA_Slope4x1" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_SG_LA_Slope4x1_Corner" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_SG_LA_Slope4x1_InvCorner" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_SG_LA_Slope4x1_Transition" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_SG_LA_Slope4x1_TransitionMirror" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <!-- HA -->
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_SG_HA_Corner_Split_2x1x1_Base" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_SG_HA_Corner_Split_2x1x1_Tip" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_SG_HA_Slab_Half_Corner_Split" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_SG_HA_Slope3x1" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_SG_HA_Slope3x1_Corner" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_SG_HA_Slope3x1_InvCorner" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_SG_HA_Slope3x1_Transition" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_SG_HA_Slope3x1_TransitionMirror" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_SG_HA_Slope4x1" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_SG_HA_Slope4x1_Corner" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_SG_HA_Slope4x1_InvCorner" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_SG_HA_Slope4x1_Transition" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-    <ResearchBlock xsi:type="ResearchBlock">
-      <Id Type="CubeBlock" Subtype="AQD_SG_HA_Slope4x1_TransitionMirror" />
-      <UnlockedByGroups>
-        <GroupSubtype>1</GroupSubtype>
-      </UnlockedByGroups>
-    </ResearchBlock>
-
-  </ResearchBlocks>
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<ResearchBlocks>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_LG_LA_Corner_Split_2x1x1_Base"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_SG_LA_Corner_Split_2x1x1_Base"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_LG_HA_Corner_Split_2x1x1_Base"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_SG_HA_Corner_Split_2x1x1_Base"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_LG_LA_Corner_Split_2x1x1_Tip"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_SG_LA_Corner_Split_2x1x1_Tip"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_LG_HA_Corner_Split_2x1x1_Tip"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_SG_HA_Corner_Split_2x1x1_Tip"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_LG_LA_Slab_Half_Corner_Split"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_SG_LA_Slab_Half_Corner_Split"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_LG_HA_Slab_Half_Corner_Split"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_SG_HA_Slab_Half_Corner_Split"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_LG_LA_Slope3x1"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_SG_LA_Slope3x1"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_LG_HA_Slope3x1"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_SG_HA_Slope3x1"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_LG_LA_Slope3x1_Corner"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_SG_LA_Slope3x1_Corner"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_LG_HA_Slope3x1_Corner"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_SG_HA_Slope3x1_Corner"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_LG_LA_Slope3x1_InvCorner"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_SG_LA_Slope3x1_InvCorner"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_LG_HA_Slope3x1_InvCorner"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_SG_HA_Slope3x1_InvCorner"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_LG_LA_Slope3x1_Transition"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_LG_LA_Slope3x1_TransitionMirror"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_SG_LA_Slope3x1_Transition"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_SG_LA_Slope3x1_TransitionMirror"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_LG_HA_Slope3x1_Transition"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_LG_HA_Slope3x1_TransitionMirror"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_SG_HA_Slope3x1_Transition"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_SG_HA_Slope3x1_TransitionMirror"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_LG_LA_Slope4x1"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_SG_LA_Slope4x1"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_LG_HA_Slope4x1"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_SG_HA_Slope4x1"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_LG_LA_Slope4x1_Corner"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_SG_LA_Slope4x1_Corner"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_LG_HA_Slope4x1_Corner"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_SG_HA_Slope4x1_Corner"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_LG_LA_Slope4x1_InvCorner"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_SG_LA_Slope4x1_InvCorner"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_LG_HA_Slope4x1_InvCorner"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_SG_HA_Slope4x1_InvCorner"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_LG_LA_Slope4x1_Transition"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_LG_LA_Slope4x1_TransitionMirror"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_SG_LA_Slope4x1_Transition"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_SG_LA_Slope4x1_TransitionMirror"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_LG_HA_Slope4x1_Transition"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_LG_HA_Slope4x1_TransitionMirror"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_SG_HA_Slope4x1_Transition"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_SG_HA_Slope4x1_TransitionMirror"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_LG_LA_Slope5x1"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_SG_LA_Slope5x1"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_LG_HA_Slope5x1"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_SG_HA_Slope5x1"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_LG_LA_Slope5x1_Corner"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_SG_LA_Slope5x1_Corner"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_LG_HA_Slope5x1_Corner"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_SG_HA_Slope5x1_Corner"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_LG_LA_Slope5x1_InvCorner"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_SG_LA_Slope5x1_InvCorner"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_LG_HA_Slope5x1_InvCorner"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_SG_HA_Slope5x1_InvCorner"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_LG_LA_Slope5x1_Transition"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_LG_LA_Slope5x1_TransitionMirror"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_SG_LA_Slope5x1_Transition"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_SG_LA_Slope5x1_TransitionMirror"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_LG_HA_Slope5x1_Transition"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_LG_HA_Slope5x1_TransitionMirror"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_SG_HA_Slope5x1_Transition"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_SG_HA_Slope5x1_TransitionMirror"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+	</ResearchBlocks>
 </Definitions>

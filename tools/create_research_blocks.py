@@ -12,7 +12,7 @@ def main():
 
     for r, d, f in os.walk(src):
         for file in f:
-            if '.sbc' in file:
+            if '.sbc' in file and "obsolete" not in r:
                 files.append(os.path.join(r, file))
 
     for filename in files:
