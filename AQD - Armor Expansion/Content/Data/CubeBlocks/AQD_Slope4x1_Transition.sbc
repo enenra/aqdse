@@ -10,6 +10,7 @@
       <DisplayName>{LOC:DisplayName_AQD_LG_LA_Slope4x1_Transition}</DisplayName>
       <Description>Description_LightArmor</Description>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_LA_Slope4x1_Transition.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_4x1.dds</Icon>
       <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -49,6 +50,7 @@
       <Description>Description_LightArmor</Description>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_LA_Slope4x1_Transition.dds</Icon>
       <Icon>Textures\GUI\Icons\Cubes\AQD_Mirror_Single.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_4x1.dds</Icon>
       <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -87,6 +89,7 @@
       <DisplayName>{LOC:DisplayName_AQD_LG_LA_Slope4x1_Transition}</DisplayName>
       <Description>Description_LightArmor</Description>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_LA_Slope4x1_Transition.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_4x1.dds</Icon>
       <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -125,6 +128,7 @@
       <DisplayName>{LOC:DisplayName_AQD_LG_LA_Slope4x1_TransitionMirror}</DisplayName>
       <Description>Description_LightArmor</Description>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_LA_Slope4x1_Transition.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_4x1.dds</Icon>
       <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -163,6 +167,7 @@
       <DisplayName>{LOC:DisplayName_AQD_LG_HA_Slope4x1_Transition}</DisplayName>
       <Description>Description_LightArmor</Description>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_HA_Slope4x1_Transition.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_4x1.dds</Icon>
       <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -204,6 +209,7 @@
       <Description>Description_LightArmor</Description>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_HA_Slope4x1_Transition.dds</Icon>
       <Icon>Textures\GUI\Icons\Cubes\AQD_Mirror_Single.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_4x1.dds</Icon>
       <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -244,6 +250,7 @@
       <DisplayName>{LOC:DisplayName_AQD_LG_HA_Slope4x1_Transition}</DisplayName>
       <Description>Description_LightArmor</Description>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_HA_Slope4x1_Transition.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_4x1.dds</Icon>
       <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -284,6 +291,7 @@
       <DisplayName>{LOC:DisplayName_AQD_LG_HA_Slope4x1_TransitionMirror}</DisplayName>
       <Description>Description_LightArmor</Description>
       <Icon>Textures\GUI\Icons\Cubes\AQD_LG_HA_Slope4x1_Transition.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_4x1.dds</Icon>
       <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <CubeSize>Small</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
