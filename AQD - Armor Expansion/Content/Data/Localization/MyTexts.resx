@@ -637,4 +637,20 @@
     <value>Heavy Armor Slope 5x1 Transition Mirrored</value>
     <comment/>
   </data>
+  <data name="DisplayName_AQD_LG_LA_HalfSlope_InvCorner" xml:space="preserve">
+    <value>Light Armor Half Slope Inverted Corner</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AQD_SG_LA_HalfSlope_InvCorner" xml:space="preserve">
+    <value>Small Light Armor Half Slope Inverted Corner</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AQD_LG_HA_HalfSlope_InvCorner" xml:space="preserve">
+    <value>Heavy Armor Half Slope Inverted Corner</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AQD_SG_HA_HalfSlope_InvCorner" xml:space="preserve">
+    <value>Small Heavy Armor Half Slope Inverted Corner</value>
+    <comment/>
+  </data>
 </root>

@@ -68,6 +68,7 @@
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorInvCorner2Tip" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorHalfSlopeCornerInverted" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorHalfSlopeInverted" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_LA_HalfSlope_InvCorner" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_LA_Corner_Split_2x1x1_Base" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_LA_Corner_Split_2x1x1_Tip" />
 
@@ -77,6 +78,7 @@
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorInvCorner2Tip" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorHalfSlopeCornerInverted" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockArmorHalfSlopeInverted" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_LA_HalfSlope_InvCorner" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_LA_Corner_Split_2x1x1_Base" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_LA_Corner_Split_2x1x1_Tip" />
       </Blocks>
@@ -148,6 +150,7 @@
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeHeavyBlockArmorInvCorner2Tip" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyArmorHalfSlopeCornerInverted" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockHeavyArmorHalfSlopeInverted" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_HA_HalfSlope_InvCorner" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_HA_Corner_Split_2x1x1_Base" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_HA_Corner_Split_2x1x1_Tip" />
 
@@ -157,6 +160,7 @@
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallHeavyBlockArmorInvCorner2Tip" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyArmorHalfSlopeCornerInverted" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="SmallBlockHeavyArmorHalfSlopeInverted" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_HA_HalfSlope_InvCorner" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_HA_Corner_Split_2x1x1_Base" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_HA_Corner_Split_2x1x1_Tip" />
       </Blocks>
