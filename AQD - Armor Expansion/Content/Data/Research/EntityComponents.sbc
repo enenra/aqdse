@@ -16,6 +16,7 @@
             [BlockDefinitons]
               [OverwriteOthers]false[/OverwriteOthers]
               [Id Type="MyObjectBuilder_CubeBlock" SubtypeId="AQD_LG_HA_Slope3x1" UseBlockVariantsGroup="true" /]
+              [Id Type="MyObjectBuilder_CubeBlock" SubtypeId="AQD_LG_HA_Slope5x1" UseBlockVariantsGroup="true" /]
             [/BlockDefinitons]
           [/ResearchGroup]
         [/ResearchGroups]
