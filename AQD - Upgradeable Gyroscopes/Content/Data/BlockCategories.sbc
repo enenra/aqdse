@@ -9,8 +9,11 @@
       </Id>
       <DisplayName>DisplayName_Category_LargeBlocks</DisplayName>
       <Name>Section1_Position1_LargeBlocks</Name>
+      <StrictSearch>true</StrictSearch>
       <ItemIds>
-        <string>CubeBlock/AQD_LG_FakeLightPanel</string>
+        <string>Gyro/AQD_LG_LargeGyro</string>
+        <string>UpgradeModule/AQD_LG_GyroBooster</string>
+        <string>UpgradeModule/AQD_LG_GyroUpgrade</string>
       </ItemIds>
     </Category>
 
@@ -19,10 +22,11 @@
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId/>
       </Id>
-      <DisplayName>DisplayName_Category_SmallBlocks</DisplayName>
+      <DisplayName>DisplayName_Category_LargeBlocks</DisplayName>
       <Name>Section1_Position1_SmallBlocks</Name>
+      <StrictSearch>true</StrictSearch>
       <ItemIds>
-        <string>CubeBlock/AQD_SG_FakeLightPanel</string>
+        <string>UpgradeModule/AQD_SG_GyroBooster</string>
       </ItemIds>
     </Category>
 
@@ -35,19 +39,27 @@
       <Name>Section1_Position2_Nonarmor</Name>
       <StrictSearch>true</StrictSearch>
       <ItemIds>
-        <string>CubeBlock/AQD_LG_FakeLightPanel</string>
+        <string>Gyro/AQD_LG_LargeGyro</string>
+        <string>UpgradeModule/AQD_LG_GyroBooster</string>
+        <string>UpgradeModule/AQD_LG_GyroUpgrade</string>
+
+        <string>UpgradeModule/AQD_SG_GyroBooster</string>
       </ItemIds>
     </Category>
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
-        <SubtypeId>Decorative</SubtypeId>
+        <SubtypeId>Propulsion</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Category_Decorative</DisplayName>
-      <Name>Section1_Position3_Decorative</Name>
+      <DisplayName>DisplayName_Category_Propulsion</DisplayName>
+      <Name>Section1_Position3_Propulsion</Name>
       <StrictSearch>true</StrictSearch>
       <ItemIds>
-        <string>CubeBlock/AQD_LG_FakeLightPanel</string>
+        <string>Gyro/AQD_LG_LargeGyro</string>
+        <string>UpgradeModule/AQD_LG_GyroBooster</string>
+        <string>UpgradeModule/AQD_LG_GyroUpgrade</string>
+
+        <string>UpgradeModule/AQD_SG_GyroBooster</string>
       </ItemIds>
     </Category>
 

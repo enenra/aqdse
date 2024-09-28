@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CategoryClasses>
 
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -9,7 +8,7 @@
         <SubtypeId/>
       </Id>
       <DisplayName>DisplayName_Category_SmallBlocks</DisplayName>
-      <Name>SmallBlocks</Name>
+      <Name>Section1_Position1_SmallBlocks</Name>
       <StrictSearch>true</StrictSearch>
       <ItemIds>
         <string>Assembler/AQD_SG_BasicAssembler</string>
@@ -23,14 +22,44 @@
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
-        <SubtypeId/>
+        <SubtypeId>Nonarmor</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Category_Production</DisplayName>
-      <Name>Production</Name>
+      <DisplayName>DisplayName_Category_Nonarmor</DisplayName>
+      <Name>Section1_Position2_Nonarmor</Name>
       <StrictSearch>true</StrictSearch>
       <ItemIds>
         <string>Assembler/AQD_SG_BasicAssembler</string>
         <string>Refinery/AQD_SG_BasicRefinery</string>
+        <string>GravityGenerator/AQD_SG_GravityGenerator</string>
+        <string>JumpDrive/AQD_SG_Jumpdrive</string>
+        <string>CryoChamber/AQD_SG_OpenBed</string>
+      </ItemIds>
+    </Category>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId>Production</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Category_Production</DisplayName>
+      <Name>Section1_Position3_Production</Name>
+      <StrictSearch>true</StrictSearch>
+      <ItemIds>
+        <string>Assembler/AQD_SG_BasicAssembler</string>
+        <string>Refinery/AQD_SG_BasicRefinery</string>
+      </ItemIds>
+    </Category>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId>Utility</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Category_Utility</DisplayName>
+      <Name>Section1_Position3_Utility</Name>
+      <StrictSearch>true</StrictSearch>
+      <ItemIds>
+        <string>GravityGenerator/AQD_SG_GravityGenerator</string>
+        <string>JumpDrive/AQD_SG_Jumpdrive</string>
+        <string>CryoChamber/AQD_SG_OpenBed</string>
       </ItemIds>
     </Category>
 

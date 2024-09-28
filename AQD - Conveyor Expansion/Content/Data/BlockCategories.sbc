@@ -8,7 +8,7 @@
         <SubtypeId/>
       </Id>
       <DisplayName>DisplayName_Category_LargeBlocks</DisplayName>
-      <Name>LargeBlocks</Name>
+      <Name>Section1_Position1_LargeBlocks</Name>
       <ItemIds>
         <string>Conveyor/AQD_LG_ConveyorJunctionTubes</string>
         <string>Conveyor/AQD_LG_ConveyorX</string>
@@ -25,10 +25,30 @@
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
-        <SubtypeId/>
+        <SubtypeId>Nonarmor</SubtypeId>
       </Id>
-      <DisplayName>DisplayName_Category_ConveyorBlocks</DisplayName>
-      <Name>Conveyors</Name>
+      <DisplayName>DisplayName_Category_Nonarmor</DisplayName>
+      <Name>Section1_Position2_Nonarmor</Name>
+      <StrictSearch>true</StrictSearch>
+      <ItemIds>
+        <string>Conveyor/AQD_LG_ConveyorJunctionTubes</string>
+        <string>Conveyor/AQD_LG_ConveyorX</string>
+        <string>ConveyorConnector/AQD_LG_ConveyorStraight5x1</string>
+        <string>ConveyorConnector/AQD_LG_ConveyorStraightArmored</string>
+        <string>ConveyorConnector/AQD_LG_ConveyorCornerArmored</string>
+        <string>Conveyor/AQD_LG_ConveyorTArmored</string>
+        <string>Conveyor/AQD_LG_ConveyorXArmored</string>
+        <string>Conveyor/AQD_LG_ConveyorEndcap</string>
+        <string>CargoContainer/AQD_LG_ConveyorAccess</string>
+      </ItemIds>
+    </Category>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId>Logistics</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Category_Logistics</DisplayName>
+      <Name>Section1_Position3_Logistics</Name>
       <ItemIds>
         <string>Conveyor/AQD_LG_ConveyorJunctionTubes</string>
         <string>Conveyor/AQD_LG_ConveyorX</string>

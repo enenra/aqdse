@@ -9,7 +9,42 @@
         <SubtypeId/>
       </Id>
       <DisplayName>DisplayName_Category_LargeBlocks</DisplayName>
-      <Name>LargeBlocks</Name>
+      <Name>Section1_Position1_LargeBlocks</Name>
+      <StrictSearch>true</StrictSearch>
+      <ItemIds>
+        <string>CubeBlock/AQD_LG_SleekCorridor_Straight</string>
+        <string>InteriorLight/AQD_LG_SleekCorridor_StraightLight</string>
+        <string>CubeBlock/AQD_LG_SleekCorridor_StraightWindow</string>
+        <string>CubeBlock/AQD_LG_SleekCorridor_Corner</string>
+        <string>CubeBlock/AQD_LG_SleekCorridor_T</string>
+        <string>CubeBlock/AQD_LG_SleekCorridor_X</string>
+      </ItemIds>
+    </Category>
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId>Nonarmor</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Category_Nonarmor</DisplayName>
+      <Name>Section1_Position2_Nonarmor</Name>
+      <StrictSearch>true</StrictSearch>
+      <ItemIds>
+        <string>CubeBlock/AQD_LG_SleekCorridor_Straight</string>
+        <string>InteriorLight/AQD_LG_SleekCorridor_StraightLight</string>
+        <string>CubeBlock/AQD_LG_SleekCorridor_StraightWindow</string>
+        <string>CubeBlock/AQD_LG_SleekCorridor_Corner</string>
+        <string>CubeBlock/AQD_LG_SleekCorridor_T</string>
+        <string>CubeBlock/AQD_LG_SleekCorridor_X</string>
+      </ItemIds>
+    </Category>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId>Structure</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Category_Structure</DisplayName>
+      <Name>Section1_Position3_ShipStructure</Name>
       <StrictSearch>true</StrictSearch>
       <ItemIds>
         <string>CubeBlock/AQD_LG_SleekCorridor_Straight</string>

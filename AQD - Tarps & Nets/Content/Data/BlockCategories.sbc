@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CategoryClasses>
 
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -9,7 +8,64 @@
         <SubtypeId/>
       </Id>
       <DisplayName>DisplayName_Category_LargeBlocks</DisplayName>
-      <Name>LargeBlocks</Name>
+      <Name>Section1_Position1_LargeBlocks</Name>
+      <StrictSearch>true</StrictSearch>
+      <ItemIds>
+        <string>CubeBlock/AQD_LG_Tarp_3x3</string>
+        <string>CubeBlock/AQD_LG_Tarp_3x3_Offset</string>
+        <string>CubeBlock/AQD_LG_Tarp_3x3_Net</string>
+        <string>CubeBlock/AQD_LG_Tarp_3x3_Net_Offset</string>
+
+        <string>CubeBlock/AQD_LG_Tarp_3x3_Slope</string>
+        <string>CubeBlock/AQD_LG_Tarp_3x3_Net_Slope</string>
+
+        <string>CubeBlock/AQD_LG_Tarp_3x3_Triangle</string>
+        <string>CubeBlock/AQD_LG_Tarp_3x3_Triangle_Offset</string>
+        <string>CubeBlock/AQD_LG_Tarp_3x3_Net_Triangle</string>
+        <string>CubeBlock/AQD_LG_Tarp_3x3_Net_Triangle_Offset</string>
+
+        <string>CubeBlock/AQD_LG_Tarp_Hanging</string>
+
+        <string>CubeBlock/AQD_LG_Pillar</string>
+        <string>CubeBlock/AQD_LG_Pillar_Half</string>
+      </ItemIds>
+    </Category>
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId>Nonarmor</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Category_Nonarmor</DisplayName>
+      <Name>Section1_Position2_Nonarmor</Name>
+      <StrictSearch>true</StrictSearch>
+      <ItemIds>
+        <string>CubeBlock/AQD_LG_Tarp_3x3</string>
+        <string>CubeBlock/AQD_LG_Tarp_3x3_Offset</string>
+        <string>CubeBlock/AQD_LG_Tarp_3x3_Net</string>
+        <string>CubeBlock/AQD_LG_Tarp_3x3_Net_Offset</string>
+
+        <string>CubeBlock/AQD_LG_Tarp_3x3_Slope</string>
+        <string>CubeBlock/AQD_LG_Tarp_3x3_Net_Slope</string>
+
+        <string>CubeBlock/AQD_LG_Tarp_3x3_Triangle</string>
+        <string>CubeBlock/AQD_LG_Tarp_3x3_Triangle_Offset</string>
+        <string>CubeBlock/AQD_LG_Tarp_3x3_Net_Triangle</string>
+        <string>CubeBlock/AQD_LG_Tarp_3x3_Net_Triangle_Offset</string>
+
+        <string>CubeBlock/AQD_LG_Tarp_Hanging</string>
+
+        <string>CubeBlock/AQD_LG_Pillar</string>
+        <string>CubeBlock/AQD_LG_Pillar_Half</string>
+      </ItemIds>
+    </Category>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId>Decorative</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Category_Decorative</DisplayName>
+      <Name>Section1_Position3_Decorative</Name>
       <StrictSearch>true</StrictSearch>
       <ItemIds>
         <string>CubeBlock/AQD_LG_Tarp_3x3</string>

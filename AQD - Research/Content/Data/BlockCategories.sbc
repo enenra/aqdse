@@ -1,14 +1,14 @@
-<?xml version="1.0"  encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CategoryClasses>
-    
+
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
         <SubtypeId/>
       </Id>
       <DisplayName>{LOC:DisplayName_Category_LargeBlocks}</DisplayName>
-      <Name>LargeBlocks</Name>
+      <Name>Section1_Position1_LargeBlocks</Name>
       <ItemIds>
         <string>Assembler/AQD_LG_ResearchLab</string>
         <string>CargoContainer/AQD_LG_DataStorage</string>
@@ -18,10 +18,24 @@
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
-        <SubtypeId/>
+        <SubtypeId>Nonarmor</SubtypeId>
       </Id>
-      <DisplayName>{LOC:DisplayName_Category_Production}</DisplayName>
-      <Name>Production</Name>
+      <DisplayName>DisplayName_Category_Nonarmor</DisplayName>
+      <Name>Section1_Position2_Nonarmor</Name>
+      <StrictSearch>true</StrictSearch>
+      <ItemIds>
+        <string>Assembler/AQD_LG_ResearchLab</string>
+        <string>CargoContainer/AQD_LG_DataStorage</string>
+      </ItemIds>
+    </Category>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId>Production</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Category_Production</DisplayName>
+      <Name>Section1_Position3_Production</Name>
+      <StrictSearch>true</StrictSearch>
       <ItemIds>
         <string>Assembler/AQD_LG_ResearchLab</string>
       </ItemIds>
@@ -30,10 +44,11 @@
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
-        <SubtypeId/>
+        <SubtypeId>Logistics</SubtypeId>
       </Id>
-      <DisplayName>{LOC:DisplayName_Category_ConveyorBlocks}</DisplayName>
-      <Name>Conveyors</Name>
+      <DisplayName>DisplayName_Category_Logistics</DisplayName>
+      <Name>Section1_Position3_Logistics</Name>
+      <StrictSearch>true</StrictSearch>
       <ItemIds>
         <string>CargoContainer/AQD_LG_DataStorage</string>
       </ItemIds>
