@@ -9,6 +9,7 @@
       </Id>
       <DisplayName>{LOC:DisplayName_Category_LargeBlocks}</DisplayName>
       <Name>Section1_Position1_LargeBlocks</Name>
+      <StrictSearch>true</StrictSearch>
       <ItemIds>
         <string>Assembler/AQD_LG_ResearchLab</string>
         <string>CargoContainer/AQD_LG_DataStorage</string>

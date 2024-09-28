@@ -9,6 +9,7 @@
       </Id>
       <DisplayName>DisplayName_Category_LargeBlocks</DisplayName>
       <Name>Section1_Position1_LargeBlocks</Name>
+      <StrictSearch>true</StrictSearch>
       <ItemIds>
         <string>CubeBlock/AQD_LG_FakeLightPanel</string>
       </ItemIds>
@@ -21,6 +22,7 @@
       </Id>
       <DisplayName>DisplayName_Category_SmallBlocks</DisplayName>
       <Name>Section1_Position1_SmallBlocks</Name>
+      <StrictSearch>true</StrictSearch>
       <ItemIds>
         <string>CubeBlock/AQD_SG_FakeLightPanel</string>
       </ItemIds>

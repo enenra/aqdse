@@ -1,4 +1,4 @@
-<?xml version="1.0"  encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CategoryClasses>
 
@@ -9,6 +9,7 @@
       </Id>
       <DisplayName>DisplayName_Category_LargeBlocks</DisplayName>
       <Name>Section1_Position1_LargeBlocks</Name>
+      <StrictSearch>true</StrictSearch>
       <ItemIds>
         <string>CubeBlock/AQD_LG_HA_Corner_Split_2x1x1_Base</string>
         <string>CubeBlock/AQD_LG_HA_Corner_Split_2x1x1_Tip</string>
@@ -64,6 +65,7 @@
       </Id>
       <DisplayName>DisplayName_Category_SmallBlocks</DisplayName>
       <Name>Section1_Position1_SmallBlocks</Name>
+      <StrictSearch>true</StrictSearch>
       <ItemIds>
         <string>CubeBlock/AQD_SG_HA_Corner_Split_2x1x1_Base</string>
         <string>CubeBlock/AQD_SG_HA_Corner_Split_2x1x1_Tip</string>
