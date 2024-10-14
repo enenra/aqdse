@@ -1,4 +1,4 @@
-[h1]Patch 1.4[/h1]
+[h1]Patch 1.4a[/h1]
 [list]
-[*]Changed the way the concrete block weight is achieved: Massive increase in block weight but also massive decrease in the weight of the Concrete component for easier transport.
+[*]SE 1.205 Contact Patch compatibility. (BlockCategories)
 [/list]

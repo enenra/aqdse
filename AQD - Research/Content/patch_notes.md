@@ -1,4 +1,4 @@
-[h1]Patch 1.1g[/h1]
+[h1]Patch 1.2[/h1]
 [list]
-[*]Fixed Russian translation also applying for other languages besides English.
+[*]SE 1.205 Contact Patch compatibility. (BlockCategories)
 [/list]
