@@ -1,4 +1,4 @@
-[h1]Patch 1.4a[/h1]
+[h1]Patch 1.4b[/h1]
 [list]
-[*]SE 1.205 Contact Patch compatibility. (BlockCategories)
+[*]Properly indented the Concrete category.
 [/list]
