@@ -1,4 +1,4 @@
-[h1]Patch 2.1c[/h1]
+[h1]Patch 2.1d[/h1]
 [list]
-[*]SE 1.205 Contact Patch compatibility. (BlockCategories)
+[*]Added the new caro container back into the block variant group.
 [/list]

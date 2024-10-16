@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <BlockVariantGroups>
 
     <BlockVariantGroup>
@@ -14,6 +13,7 @@
         <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockSmallContainer" />
         <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockMediumContainer" />
         <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockLargeContainer" />
+        <Block Type="MyObjectBuilder_CargoContainer" Subtype="SmallBlockModularContainer" />
         <Block Type="MyObjectBuilder_CargoContainer" Subtype="LargeBlockLargeIndustrialContainer" />
         <Block Type="MyObjectBuilder_CargoContainer" Subtype="AQD_LG_ConveyorAccess" />
       </Blocks>
@@ -45,17 +45,17 @@
     </BlockVariantGroup>
 
     <BlockVariantGroup>
-        <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ConveyorThinGroup" />
-        <Icon>Textures\GUI\Icons\Cubes\ConveyorSmall.dds</Icon>
-        <DisplayName>DisplayName_Block_ConveyorTubeSmall</DisplayName>
-        <Description>Description_ConveyorTube</Description>
-        <Blocks>
-            <Block Type="MyObjectBuilder_Conveyor" Subtype="SmallBlockConveyor" />
-            <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeSmall" />
-            <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeSmallCurved" />
-            <Block Type="MyObjectBuilder_Conveyor" Subtype="ConveyorTubeSmallT" />
-            <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="SmallBlockConveyorSorter" />
-        </Blocks>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="ConveyorThinGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\ConveyorSmall.dds</Icon>
+      <DisplayName>DisplayName_Block_ConveyorTubeSmall</DisplayName>
+      <Description>Description_ConveyorTube</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="SmallBlockConveyor" />
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeSmall" />
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeSmallCurved" />
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="ConveyorTubeSmallT" />
+        <Block Type="MyObjectBuilder_ConveyorSorter" Subtype="SmallBlockConveyorSorter" />
+      </Blocks>
     </BlockVariantGroup>
 
     <BlockVariantGroup>
@@ -86,7 +86,7 @@
         <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeDuct" />
         <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeDuctCurved" />
         <Block Type="MyObjectBuilder_Conveyor" Subtype="ConveyorTubeDuctT" />
-        
+
         <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeDuctSmall" />
         <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="ConveyorTubeDuctSmallCurved" />
         <Block Type="MyObjectBuilder_Conveyor" Subtype="ConveyorTubeDuctSmallT" />
