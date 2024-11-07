@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <BlockVariantGroups>
 
     <BlockVariantGroup>
-      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AQD_Freight_Containers" />
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DecorativeStorageGroup1" />
       <Icon>Textures\GUI\Icons\Cubes\Freight_I.dds</Icon>
       <DisplayName>DisplayName_Block_Freight1</DisplayName>
       <Description>Description_Freight</Description>
@@ -15,50 +14,30 @@
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_Freight_I" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_Freight_II" />
         <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_SG_Freight_III" />
-        <Block Type="MyObjectBuilder_TerminalBlock" Subtype="LargeCrate" />
       </Blocks>
     </BlockVariantGroup>
 
     <BlockVariantGroup>
-      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="CouchGroup" />
-      <Icon>Textures\GUI\Icons\Cubes\Couch.dds</Icon>
-      <DisplayName>DisplayName_Block_Couch</DisplayName>
-      <Description>Description_Couch</Description>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="BedGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\Bed.dds</Icon>
+      <DisplayName>DisplayName_Block_Bed</DisplayName>
+      <Description>Description_Bed</Description>
       <Blocks>
-        <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCouch" />
-        <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockCouchCorner" />
-        <Block Type="MyObjectBuilder_Cockpit" Subtype="LargeBlockInsetPlantCouch" />
         <Block Type="MyObjectBuilder_CryoChamber" Subtype="LargeBlockBed" />
         <Block Type="MyObjectBuilder_CryoChamber" Subtype="LargeBlockHalfBed" />
         <Block Type="MyObjectBuilder_CryoChamber" Subtype="LargeBlockHalfBedOffset" />
+        <Block Type="MyObjectBuilder_CryoChamber" Subtype="LargeBlockInsetBed" />
+        <Block Type="MyObjectBuilder_CryoChamber" Subtype="SmallBlockBunkBed" />
         <Block Type="MyObjectBuilder_CryoChamber" Subtype="AQD_SG_OpenBed" />
       </Blocks>
     </BlockVariantGroup>
 
     <BlockVariantGroup>
-      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="DecorativeUtilityGroup" />
-      <Icon>Textures\GUI\Icons\Cubes\Planters.dds</Icon>
-      <DisplayName>DisplayName_BlockGroup_DecorativeUtilityGroup</DisplayName>
-      <Description>Description_BlockGroup_DecorativeUtilityGroup</Description>
-      <Blocks>
-        <Block Type="MyObjectBuilder_Planter" Subtype="LargeBlockPlanters" />
-        <Block Type="MyObjectBuilder_Kitchen" Subtype="LargeBlockKitchen" />
-        <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockInsetKitchen" />
-        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockBarCounter" />
-        <Block Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockBarCounterCorner" />
-        <Block Type="MyObjectBuilder_LCDPanelsBlock" Subtype="LabEquipment" />
-        <Block Type="MyObjectBuilder_InteriorLight" Subtype="LargeBlockInsetAquarium" />
-      </Blocks>
-    </BlockVariantGroup>
-
-    <BlockVariantGroup>
       <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AssemblerGroup" />
-      <Icon>Textures\GUI\Icons\Cubes\SurvivalKitLarge.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\assembler.dds</Icon>
       <DisplayName>DisplayName_Block_Assembler</DisplayName>
       <Description>Description_Assembler</Description>
       <Blocks>
-        <Block Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKitLarge" />
-        <Block Type="MyObjectBuilder_SurvivalKit" Subtype="SurvivalKit" />
         <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssembler" />
         <Block Type="MyObjectBuilder_Assembler" Subtype="LargeAssemblerIndustrial" />
         <Block Type="MyObjectBuilder_Assembler" Subtype="BasicAssembler" />

@@ -35,7 +35,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\Small\AQD_SG_OpenBed_BS1.mwm"/>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Small\AQD_SG_OpenBed_BS2.mwm"/>
       </BuildProgressModels>
-      <BlockPairName>Bed</BlockPairName>
+      <BlockPairName>AQD_OpenBed</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <EnableFirstPerson>true</EnableFirstPerson>
