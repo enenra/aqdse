@@ -1,4 +1,4 @@
-[h1]Patch 1.1c[/h1]
+[h1]Patch 1.1d[/h1]
 [list]
-[*]SE 1.205 Contact Patch compatibility. (BlockCategories)
+[*]Fix for upgrade module mirroring.
 [/list]

@@ -1,6 +1,5 @@
 <?xml version="1.0" ?>
-<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CubeBlocks>
 
     <Definition xsi:type="MyObjectBuilder_UpgradeModuleDefinition">
@@ -27,11 +26,13 @@
         <Component Subtype="SteelPlate" Count="400" />
       </Components>
       <CriticalComponent Subtype="Motor" Index="0" />
-			<MountPoints>
-				<MountPoint Side="Front" StartX="1.00" StartY="1.00" EndX="2.00" EndY="2.00" />
-				<MountPoint Side="Back" StartX="1.00" StartY="1.00" EndX="2.00" EndY="2.00" Default="true" />
-			</MountPoints>
+      <MountPoints>
+        <MountPoint Side="Front" StartX="1.00" StartY="1.00" EndX="2.00" EndY="2.00" />
+        <MountPoint Side="Back" StartX="1.00" StartY="1.00" EndX="2.00" EndY="2.00" Default="true" />
+      </MountPoints>
       <BlockPairName>AQD_GyroUpgrade</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
       <EdgeType>Light</EdgeType>
       <Upgrades>
         <MyUpgradeModuleInfo>
