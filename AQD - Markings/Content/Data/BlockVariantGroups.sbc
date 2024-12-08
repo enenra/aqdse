@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlockVariantGroups>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AQD_BannerLCDGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_BannerLCD.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
+      <DisplayName>DisplayName_AQD_Markings</DisplayName>
+      <Description>Description_AQD_Markings</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_Marking_Line" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_Marking_LineAngle" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_Marking_LineCorner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_Marking_LineT" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_Marking_LineX" />
+
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_Marking_StripedLine" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_Marking_StripedLineAngle" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_Marking_StripedLineCorner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_Marking_StripedLineT" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_Marking_StripedLineX" />
+
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_Marking_WideLine" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_Marking_WideLineAngle" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_Marking_WideLineCorner" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_Marking_WideLineT" />
+        <Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_Marking_WideLineX" />
+      </Blocks>
+    </BlockVariantGroup>
+
+  </BlockVariantGroups>
+</Definitions>
