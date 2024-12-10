@@ -23,7 +23,9 @@
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" Default="true"/>
 			</MountPoints>
 			<BlockPairName>AQD_LG_Marking_StripedLineX</BlockPairName>
+			<MirroringY>Z</MirroringY>
 			<IsStandAlone>false</IsStandAlone>
+      <IsAirTight>false</IsAirTight>
 			<HasPhysics>false</HasPhysics>
 			<BuildTimeSeconds>1</BuildTimeSeconds>
 			<PCU>1</PCU>

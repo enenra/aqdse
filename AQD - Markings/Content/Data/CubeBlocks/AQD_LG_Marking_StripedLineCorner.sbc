@@ -23,7 +23,11 @@
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" Default="true"/>
 			</MountPoints>
 			<BlockPairName>AQD_LG_Marking_StripedLineCorner</BlockPairName>
+			<MirroringX>HalfY</MirroringX>
+			<MirroringY>XHalfY</MirroringY>
+			<MirroringZ>MinusHalfY</MirroringZ>
 			<IsStandAlone>false</IsStandAlone>
+      <IsAirTight>false</IsAirTight>
 			<HasPhysics>false</HasPhysics>
 			<BuildTimeSeconds>1</BuildTimeSeconds>
 			<PCU>1</PCU>

@@ -9,7 +9,7 @@
 			<DisplayName>{LOC:DisplayName_AQD_LG_Marking_LineAngle}</DisplayName>
 			<Description>{LOC:Description_AQD_Markings}</Description>
 			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_Marking_LineAngle.dds</Icon>
-      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
 			<Size x="1" y="1" z="1"/>
@@ -23,7 +23,11 @@
 				<MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00" Default="true"/>
 			</MountPoints>
 			<BlockPairName>AQD_LG_Marking_LineAngle</BlockPairName>
+			<MirroringX>HalfY</MirroringX>
+			<MirroringY>XHalfY</MirroringY>
+			<MirroringZ>MinusHalfY</MirroringZ>
 			<IsStandAlone>false</IsStandAlone>
+			<IsAirTight>false</IsAirTight>
 			<HasPhysics>false</HasPhysics>
 			<BuildTimeSeconds>1</BuildTimeSeconds>
 			<PCU>1</PCU>

@@ -4,7 +4,7 @@
 
     <BlockVariantGroup>
       <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AQD_BannerLCDGroup" />
-      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_BannerLCD.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_Marking_Line.dds</Icon>
       <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <DisplayName>DisplayName_AQD_Markings</DisplayName>
       <Description>Description_AQD_Markings</Description>
