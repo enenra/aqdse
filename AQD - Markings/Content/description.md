@@ -34,7 +34,7 @@ Markings are available in three variations - line, striped line and wide line. T
 
 [img]https://i.imgur.com/uUOBTpF.png[/img]
 [list]
-[*][b][url=https://steamcommunity.com/profiles/76561197970930329/myworkshopfiles/?appid=244850]Consty[/url][/b] - He made the world I took the screenshot in. He's also the author of some of the other mods used in the screenshots.
+[*][b][url=https://steamcommunity.com/profiles/76561197970930329/myworkshopfiles/?appid=244850]Consty[/url][/b] - He made the world I took the screenshot in. He's also the author of some of the other mods used in the screenshots. [url=https://steamcommunity.com/workshop/filedetails/?id=2012374054]Check out his Aviation Collection.[/url]
 [/list]
 
 [url=https://steamcommunity.com/workshop/discussions/18446744073709551615/2793874853443195941/?appid=244850][img]https://raw.githubusercontent.com/enenra/aqdse/master/usage_guidelines.png[/img][/url]
