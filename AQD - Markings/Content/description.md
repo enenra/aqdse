@@ -5,7 +5,7 @@
 
 [img]https://i.imgur.com/cdhLXnQ.png[/img]
 [quote]
-This mod adds three sets of markings to the game: Line, striped line and wide line. They are useful to delimit areas on floors and various other purposes. These blocks act like light blocks in the sense that they will disappear if the block they're attached to gets removed. They also have no collisions.
+This mod adds three sets of markings to the game: Line, striped line and wide line. They are useful to delimit areas on floors and various other purposes. These blocks act like light blocks in the sense that they will disappear if the block they're attached to gets removed. They have no collisions and are paintable as well as skinable.
 [/quote]
 
 [h1][b]AQD - A Quantum of Depth[/b] is a project of mine, encompassing multiple small and larger mods aimed at improving the gameplay experience and eventually overhauling larger parts of the game:[/h1]
