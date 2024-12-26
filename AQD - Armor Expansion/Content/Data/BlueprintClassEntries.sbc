@@ -9,10 +9,14 @@
 		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/AQD_SG_LA_Corner_Split_2x1x1_Tip"/>
 		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_HA_Corner_Split_2x1x1_Tip"/>
 		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/AQD_SG_HA_Corner_Split_2x1x1_Tip"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_LA_HalfSlab"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_HA_HalfSlab"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/AQD_SG_LA_HalfSlab"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/AQD_SG_HA_HalfSlab"/>
 		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_LA_HalfSlope_InvCorner"/>
-		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_SG_LA_HalfSlope_InvCorner"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/AQD_SG_LA_HalfSlope_InvCorner"/>
 		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_HA_HalfSlope_InvCorner"/>
-		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_SG_HA_HalfSlope_InvCorner"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/AQD_SG_HA_HalfSlope_InvCorner"/>
 		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_LA_Slab_Half_Corner_Split"/>
 		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/AQD_SG_LA_Slab_Half_Corner_Split"/>
 		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_HA_Slab_Half_Corner_Split"/>
@@ -77,5 +81,9 @@
 		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_HA_Slope5x1_TransitionMirror"/>
 		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/AQD_SG_HA_Slope5x1_Transition"/>
 		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/AQD_SG_HA_Slope5x1_TransitionMirror"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_LA_Stair"/>
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="CubeBlock/AQD_LG_HA_Stair"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/AQD_SG_LA_Stair"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/AQD_SG_HA_Stair"/>
 	</BlueprintClassEntries>
 </Definitions>

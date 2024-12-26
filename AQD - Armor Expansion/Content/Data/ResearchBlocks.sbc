@@ -50,6 +50,30 @@
 			</UnlockedByGroups>
 		</ResearchBlock>
 		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_LG_LA_HalfSlab"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_LG_HA_HalfSlab"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_SG_LA_HalfSlab"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_SG_HA_HalfSlab"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
 			<Id Type="CubeBlock" Subtype="AQD_LG_LA_HalfSlope_InvCorner"/>
 			<UnlockedByGroups>
 				<GroupSubtype>1</GroupSubtype>
@@ -453,6 +477,30 @@
 		</ResearchBlock>
 		<ResearchBlock xsi:type="ResearchBlock">
 			<Id Type="CubeBlock" Subtype="AQD_SG_HA_Slope5x1_TransitionMirror"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_LG_LA_Stair"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_LG_HA_Stair"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_SG_LA_Stair"/>
+			<UnlockedByGroups>
+				<GroupSubtype>1</GroupSubtype>
+			</UnlockedByGroups>
+		</ResearchBlock>
+		<ResearchBlock xsi:type="ResearchBlock">
+			<Id Type="CubeBlock" Subtype="AQD_SG_HA_Stair"/>
 			<UnlockedByGroups>
 				<GroupSubtype>1</GroupSubtype>
 			</UnlockedByGroups>

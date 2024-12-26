@@ -190,7 +190,7 @@
         <Model BuildPercentUpperBound="0.50" File="Models\Cubes\large\armor\AQD_LG_HA_Slope3x1_Transition_BS1.mwm"/>
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\armor\AQD_LG_HA_Slope3x1_Transition_BS2.mwm"/>
       </BuildProgressModels>
-      <BlockPairName>AQD_LG_HA_Slope3x1_Transition</BlockPairName>
+      <BlockPairName>AQD_HA_Slope3x1_Transition</BlockPairName>
       <MirroringY>Z</MirroringY>
       <MirroringZ>Y</MirroringZ>
       <MirroringBlock>AQD_LG_HA_Slope3x1_TransitionMirror</MirroringBlock>

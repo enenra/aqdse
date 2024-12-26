@@ -1,4 +1,7 @@
-[h1]Patch 2.0a[/h1]
+[h1]Patch 2.1[/h1]
 [list]
-[*]SE 1.205 Contact Patch compatibility. (BlockCategories)
+[*]Added Armor Stair block.
+[*]Added Armor Half Slab block.
+[*]Fixed Heavy Armor Slope 3x1 Transition block pair.
+[*]Fixed missing Half Slope Inverted Corner in WC armor configs.
 [/list]

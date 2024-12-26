@@ -653,4 +653,36 @@
     <value>Small Heavy Armor Half Slope Inverted Corner</value>
     <comment/>
   </data>
+  <data name="DisplayName_AQD_LG_LA_Stair" xml:space="preserve">
+    <value>Light Armor Stair</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AQD_SG_LA_Stair" xml:space="preserve">
+    <value>Small Light Armor Stair</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AQD_LG_HA_Stair" xml:space="preserve">
+    <value>Heavy Armor Stair</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AQD_SG_HA_Stair" xml:space="preserve">
+    <value>Small Heavy Armor Stair</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AQD_LG_LA_HalfSlab" xml:space="preserve">
+    <value>Light Armor Half Slab</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AQD_SG_LA_HalfSlab" xml:space="preserve">
+    <value>Small Light Armor Half Slab</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AQD_LG_HA_HalfSlab" xml:space="preserve">
+    <value>Heavy Armor Half Slab</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AQD_SG_HA_HalfSlab" xml:space="preserve">
+    <value>Small Heavy Armor Half Slab</value>
+    <comment/>
+  </data>
 </root>

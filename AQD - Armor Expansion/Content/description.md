@@ -1,6 +1,6 @@
 [img]https://i.imgur.com/fVVaDCS.gif[/img]
 
-[h1]Current version: [b]2.0a[/b][/h1]
+[h1]Current version: [b]2.1[/b][/h1]
 [i]Please refer to the [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/1939935505]changelog[/url] for patch notes.[/i]
 
 [img]https://i.imgur.com/cdhLXnQ.png[/img]
@@ -14,13 +14,15 @@ This mod adds a number of new armor blocks to the game. They are all available i
 
 [img]https://i.imgur.com/5nbiNLV.png[/img]
 
-[h1]16 New Armor Blocks[/h1]
+[h1]18 New Armor Blocks[/h1]
 Available in large and small, as well as heavy and light variations. The blocks have been partially integrated into existing G-menu block groups where it made sense, or been added as part of new ones.
 [list]
 [*]Corner Split 2x1x1 Base
 [*]Corner Split 2x1x1 Tip
 [*]Half Slab Corner Split
 [*]Half Slope Inverted Corner
+[*]Half Slab
+[*]Stair
 [*]Slope 3x1
 [*]Slope 3x1 Corner
 [*]Slope 3x1 Inverted Corner

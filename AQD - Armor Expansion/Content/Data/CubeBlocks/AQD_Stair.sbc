@@ -1,0 +1,175 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>AQD_LG_LA_Stair</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_AQD_LG_LA_Stair}</DisplayName>
+      <Description>Description_LightArmor</Description>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_LA_Stair.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1"/>
+      <ModelOffset x="0" y="0" z="0"/>
+      <Model>Models\Cubes\large\AQD_LG_LA_Stair.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="10" />
+        <Component Subtype="SteelPlate" Count="3" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.51"/>
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Left" StartX="0.50" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="0.50" EndY="0.50"/>
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.50" EndY="1.00"/>
+        <MountPoint Side="Right" StartX="0.50" StartY="0.00" EndX="1.00" EndY="0.52" Default="true"/>
+        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50"/>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\large\AQD_LG_LA_Stair_BS1.mwm"/>
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\AQD_LG_LA_Stair_BS2.mwm"/>
+      </BuildProgressModels>
+      <BlockPairName>AQD_LA_Stair</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>4</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <PCU>1</PCU>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>AQD_LG_HA_Stair</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_AQD_LG_HA_Stair}</DisplayName>
+      <Description>Description_HeavyArmor</Description>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_HA_Stair.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1"/>
+      <ModelOffset x="0" y="0" z="0"/>
+      <Model>Models\Cubes\large\AQD_LG_HA_Stair.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="65" />
+        <Component Subtype="MetalGrid" Count="25" />
+        <Component Subtype="SteelPlate" Count="10" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.51"/>
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Left" StartX="0.50" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="0.50" EndY="0.50"/>
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.50" EndY="1.00"/>
+        <MountPoint Side="Right" StartX="0.50" StartY="0.00" EndX="1.00" EndY="0.52" Default="true"/>
+        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50"/>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\large\AQD_LG_HA_Stair_BS1.mwm"/>
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\AQD_LG_HA_Stair_BS2.mwm"/>
+      </BuildProgressModels>
+      <BlockPairName>AQD_HA_Stair</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>15</BuildTimeSeconds>
+      <DisassembleRatio>3</DisassembleRatio>
+      <PCU>1</PCU>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>AQD_SG_LA_Stair</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_AQD_SG_LA_Stair}</DisplayName>
+      <Description>Description_LightArmor</Description>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_SG_LA_Stair.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1"/>
+      <ModelOffset x="0" y="0" z="0"/>
+      <Model>Models\Cubes\small\AQD_SG_LA_Stair.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="1"/>
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0"/>
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.51"/>
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Left" StartX="0.50" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="0.50" EndY="0.50"/>
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.50" EndY="1.00"/>
+        <MountPoint Side="Right" StartX="0.50" StartY="0.00" EndX="1.00" EndY="0.52" Default="true"/>
+        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50"/>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\small\AQD_SG_LA_Stair_BS1.mwm"/>
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\AQD_SG_LA_Stair_BS2.mwm"/>
+      </BuildProgressModels>
+      <BlockPairName>AQD_LA_Stair</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>2</BuildTimeSeconds>
+      <DisassembleRatio>2.5</DisassembleRatio>
+      <PCU>1</PCU>
+    </Definition>
+
+    <Definition>
+      <Id>
+        <TypeId>CubeBlock</TypeId>
+        <SubtypeId>AQD_SG_HA_Stair</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_AQD_SG_HA_Stair}</DisplayName>
+      <Description>Description_HeavyArmor</Description>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_SG_HA_Stair.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
+      <CubeSize>Small</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="1" y="1" z="1"/>
+      <ModelOffset x="0" y="0" z="0"/>
+      <Model>Models\Cubes\small\AQD_SG_HA_Stair.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="2" />
+        <Component Subtype="MetalGrid" Count="1" />
+        <Component Subtype="SteelPlate" Count="1" />
+      </Components>
+      <CriticalComponent Subtype="SteelPlate" Index="0" />
+      <MountPoints>
+        <MountPoint Side="Front" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.51"/>
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Left" StartX="0.50" StartY="0.00" EndX="1.00" EndY="1.00"/>
+        <MountPoint Side="Left" StartX="0.00" StartY="0.00" EndX="0.50" EndY="0.50"/>
+        <MountPoint Side="Right" StartX="0.00" StartY="0.00" EndX="0.50" EndY="1.00"/>
+        <MountPoint Side="Right" StartX="0.50" StartY="0.00" EndX="1.00" EndY="0.52" Default="true"/>
+        <MountPoint Side="Top" StartX="0.00" StartY="0.00" EndX="1.00" EndY="0.50"/>
+        <MountPoint Side="Bottom" StartX="0.00" StartY="0.00" EndX="1.00" EndY="1.00"/>
+      </MountPoints>
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.50" File="Models\Cubes\small\AQD_SG_HA_Stair_BS1.mwm"/>
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\small\AQD_SG_HA_Stair_BS2.mwm"/>
+      </BuildProgressModels>
+      <BlockPairName>AQD_HA_Stair</BlockPairName>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+      <EdgeType>Light</EdgeType>
+      <BuildTimeSeconds>4</BuildTimeSeconds>
+      <DisassembleRatio>3</DisassembleRatio>
+      <PCU>1</PCU>
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>
