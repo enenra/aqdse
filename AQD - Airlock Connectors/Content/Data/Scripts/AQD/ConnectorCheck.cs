@@ -37,7 +37,7 @@ namespace ConnectorCheck
             if (connector.Status == Sandbox.ModAPI.Ingame.MyShipConnectorStatus.Connectable)
             {
                 var otherSubtype = connector.OtherConnector.BlockDefinition.SubtypeId;
-                if (connector.BlockDefinition.SubtypeId == otherSubtype || (connector.BlockDefinition.SubtypeId.Contains("AirlockConnector_Flat") && otherSubtype.Contains("AirlockConnector_Flat")) )
+                if (!(connector.BlockDefinition.SubtypeId == otherSubtype || (connector.BlockDefinition.SubtypeId.Contains("AirlockConnector_Flat") && otherSubtype.Contains("AirlockConnector_Flat"))))
                 {
                     var ownGridCtrlEnt = connector.CubeGrid.ControlSystem?.CurrentShipController?.ControllerInfo?.ControllingIdentityId;
                     var otherGridCtrlEnt = connector.OtherConnector.CubeGrid.ControlSystem?.CurrentShipController?.ControllerInfo?.ControllingIdentityId;
