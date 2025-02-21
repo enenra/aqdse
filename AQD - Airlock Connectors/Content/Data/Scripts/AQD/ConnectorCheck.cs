@@ -20,6 +20,8 @@ namespace ConnectorCheck
             connector = (IMyShipConnector)Entity;            
             connector.AttachFinished += Connector_AttachFinished;
             connector.EnabledChanged += Connector_EnabledChanged;
+            if (connector.Status == Sandbox.ModAPI.Ingame.MyShipConnectorStatus.Connectable)
+                Connector_AttachFinished(connector);
         }
 
         public override void UpdateBeforeSimulation100()
