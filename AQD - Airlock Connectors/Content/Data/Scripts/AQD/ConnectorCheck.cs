@@ -1,91 +1,61 @@
 using Sandbox.ModAPI;
 using VRage.Game.Components;
 using Sandbox.Common.ObjectBuilders;
-using System.Collections.Generic;
 using VRage.ModAPI;
+using Sandbox.Game;
 
 namespace ConnectorCheck
 {
-    [MyEntityComponentDescriptor(typeof(MyObjectBuilder_ShipConnector), false, "Connector", "YourOtherConnectorSubtypes")] //List all of your subtypes here (and remove the vanilla "connector" one)
+    [MyEntityComponentDescriptor(typeof(MyObjectBuilder_ShipConnector), false, "AQD_LG_AirlockConnector_Flat", "AQD_SG_AirlockConnector_Flat", "AQD_LG_AirlockConnector_Large")]
     public class Connectors : MyGameLogicComponent
     {
-        private bool client;
-        private bool server;
         private IMyShipConnector connector;
-        private List<string> regularConnectors = new List<string>() { "Connector", "PermittedOtherConnectorSubtypeID", "PermittedOtherConnectorSubtypeID2" }; //Set up a list per compatible group
-        private List<string> someOtherConnectors = new List<string>() { "PermittedOtherConnectorSubtypeID3", "PermittedOtherConnectorSubtypeID4" }; //Set up a list per compatible group
-        private List<string> validSubtypes = new List<string>();
         private int disabledCount;
         private bool cooldown;
 
         public override void OnAddedToScene()
         {
-            connector = (IMyShipConnector)Entity;
-            client = !MyAPIGateway.Utilities.IsDedicated || !MyAPIGateway.Multiplayer.MultiplayerActive;
-            server = MyAPIGateway.Multiplayer.IsServer || !MyAPIGateway.Multiplayer.MultiplayerActive;
+            if (!MyAPIGateway.Multiplayer.IsServer)
+                return;
+            connector = (IMyShipConnector)Entity;            
             connector.AttachFinished += Connector_AttachFinished;
             connector.EnabledChanged += Connector_EnabledChanged;
-            NeedsUpdate = MyEntityUpdateEnum.NONE;
-            var type = connector.SlimBlock.BlockDefinition.Id.SubtypeId.ToString();
-            if (type == "Connector" || type == "YourOtherConnectorSubtypes") //This loads the compatible subtypes from pre-defined lists above
-                validSubtypes = regularConnectors;
-            else if (type == "SomeOtherConnector")
-                validSubtypes = someOtherConnectors;
-        }
-
-        private void Connector_EnabledChanged(IMyTerminalBlock obj)
-        {
-            if (cooldown && connector.Enabled) //Player flipped it back on
-            {
-                cooldown = false;
-                disabledCount = 0;
-            }
-        }
-
-        private void Connector_AttachFinished(IMyShipConnector obj)
-        {
-            if (connector.Status == Sandbox.ModAPI.Ingame.MyShipConnectorStatus.Connectable && connector.OtherConnector != null)
-            {
-                if (!validSubtypes.Contains(connector.OtherConnector.SlimBlock.BlockDefinition.Id.SubtypeId.ToString()))
-                {
-                    if (client && connector.Enabled)
-                        MyAPIGateway.Utilities.ShowNotification("Enenra sez:  My fancy connector isn't compatible with that one", 2000, "Red");
-                    if (server)
-                        Disable();
-                }
-            }
         }
 
         public override void UpdateBeforeSimulation100()
         {
-            if (!cooldown)
-                return;
-
-            if (disabledCount < 3) // Set how many 100 tick increments to stay off here
-                disabledCount++;
-            else
-                Enable();
+            if (disabledCount++ >= 3) Cycle(true);
         }
 
-        private void Disable()
+        private void Connector_EnabledChanged(IMyTerminalBlock obj)
         {
-            connector.Enabled = false;
-            cooldown = true;
-            NeedsUpdate = MyEntityUpdateEnum.EACH_100TH_FRAME;
+            if (cooldown && connector.Enabled) Cycle(true); //Player cycled it back on
         }
-        private void Enable()
+
+        private void Connector_AttachFinished(IMyShipConnector obj)
         {
-            cooldown = false;
-            connector.Enabled = true;
+            if (connector.Status == Sandbox.ModAPI.Ingame.MyShipConnectorStatus.Connectable)
+            {
+                var otherSubtype = connector.OtherConnector.BlockDefinition.SubtypeId;
+                if (connector.BlockDefinition.SubtypeId == otherSubtype || (connector.BlockDefinition.SubtypeId.Contains("AirlockConnector_Flat") && otherSubtype.Contains("AirlockConnector_Flat")) )
+                {
+                    var ownGridCtrlEnt = connector.CubeGrid.ControlSystem?.CurrentShipController?.ControllerInfo?.ControllingIdentityId;
+                    var otherGridCtrlEnt = connector.OtherConnector.CubeGrid.ControlSystem?.CurrentShipController?.ControllerInfo?.ControllingIdentityId;
+                    if (ownGridCtrlEnt != null)
+                        MyVisualScriptLogicProvider.ShowNotification("Connector Incompatible", 2000, "Red", (long)ownGridCtrlEnt);
+                    if (otherGridCtrlEnt != null)
+                        MyVisualScriptLogicProvider.ShowNotification("Connector Incompatible", 2000, "Red", (long)otherGridCtrlEnt);
+                    Cycle(false);
+                }
+            }
+        }
+
+        private void Cycle(bool pwr)
+        {
+            cooldown = !pwr;
+            connector.Enabled = pwr;
+            NeedsUpdate = pwr ? MyEntityUpdateEnum.NONE : MyEntityUpdateEnum.EACH_100TH_FRAME;
             disabledCount = 0;
-            NeedsUpdate = MyEntityUpdateEnum.NONE;
-        }
-
-        public override void OnRemovedFromScene()
-        {
-            validSubtypes.Clear();
-            connector.AttachFinished -= Connector_AttachFinished;
-            connector.EnabledChanged -= Connector_EnabledChanged;
         }
     }
 }
