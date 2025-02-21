@@ -122,7 +122,17 @@
     <value>Airlock Connector Flat</value>
     <comment/>
   </data>
-  <data name="Description_AQD_LG_AirlockConnector_Flat" xml:space="preserve">
+  <data name="DisplayName_AQD_SG_AirlockConnector_Flat" xml:space="preserve">
+    <value>Small Airlock Connector Flat</value>
+    <comment/>
+  </data>
+
+  <data name="DisplayName_AQD_LG_AirlockConnector_Large" xml:space="preserve">
+    <value>Large Airlock Connector</value>
+    <comment/>
+  </data>
+
+  <data name="Description_AQD_LG_AirlockConnector" xml:space="preserve">
     <value>Airlock Connectors serve to establish pressurized connections between two grids.</value>
     <comment/>
   </data>
