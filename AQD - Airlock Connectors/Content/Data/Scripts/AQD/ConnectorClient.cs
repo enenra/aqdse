@@ -21,7 +21,7 @@ namespace ConnectorCheck
         private bool controlInit;
         private bool client;
         private int tick;
-        public static List<string> allowedTypes = new List<string>() { "AQD_LG_AirlockConnector_Flat", "AQD_SG_AirlockConnector_Flat", "AQD_LG_AirlockConnector_Large" };
+        public static List<string> allowedTypes = new List<string>() { "AQD_LG_AirlockConnector_Flat", "AQD_SG_AirlockConnector_Flat", "AQD_LG_AirlockConnector_Large", "GFA_LG_TIEFighter_DockingTube", "GFA_SG_TIEFighter_Hatch"};
         public static IMyShipConnector displayConnector;
         private Dictionary<long, cComp> connectors = new Dictionary<long, cComp>();
         private readonly ConcurrentCachingList<IMyShipConnector> _startComps = new ConcurrentCachingList<IMyShipConnector>();
@@ -43,7 +43,7 @@ namespace ConnectorCheck
             tick++;
             if (!_startComps.IsEmpty && tick % 30 == 0)
                 StartComps();
-            if (client && displayConnector != null && displayConnector.OtherConnector != null)
+            if (client && displayConnector != null && displayConnector.OtherConnector != null && Session.Player?.Controller?.ControlledEntity is IMyCubeBlock)
             {
                 var show = tick % 10 == 0 && (connectors[displayConnector.EntityId].alignment || connectors[displayConnector.OtherConnector.EntityId].alignment);
                 if (show)
@@ -51,15 +51,15 @@ namespace ConnectorCheck
                     var dummies = new Dictionary<string, IMyModelDummy>();
                     displayConnector.Model.GetDummies(dummies);
                     var partMatrix = displayConnector.PositionComp.WorldMatrixRef;
-                    var worldDir = Vector3D.Normalize(Vector3D.TransformNormal(dummies["detector_Connector_001"].Matrix.Forward, ref partMatrix));
+                    var worldDir = Vector3D.Normalize(Vector3D.TransformNormal(dummies["detector_Connector_001"].Matrix.Up, ref partMatrix)); //Forward for vanilla, up for AQD??
 
                     var otherDummies = new Dictionary<string, IMyModelDummy>();
                     displayConnector.OtherConnector.Model.GetDummies(otherDummies);
                     var partMatrixOth = displayConnector.OtherConnector.PositionComp.WorldMatrixRef;
-                    var worldDirOth = Vector3D.Normalize(Vector3D.TransformNormal(otherDummies["detector_Connector_001"].Matrix.Forward, ref partMatrixOth));
+                    var worldDirOth = Vector3D.Normalize(Vector3D.TransformNormal(otherDummies["detector_Connector_001"].Matrix.Up, ref partMatrixOth));
 
                     var angle = MathHelper.ToDegrees(Math.Acos(Vector3D.Dot(worldDir, worldDirOth)));
-                    MyAPIGateway.Utilities.ShowNotification("Angular Error: " + angle.ToString("0.0"), 160);
+                    MyAPIGateway.Utilities.ShowNotification("Airlock Alignment Angle: " + angle.ToString("0.0") + "°", 160, angle > 0.5 ? "Red" : "Green");
                 }
             }
         }
@@ -168,11 +168,8 @@ namespace ConnectorCheck
             if (connector.Status == Sandbox.ModAPI.Ingame.MyShipConnectorStatus.Connectable)
             {
                 var otherSubtype = connector.OtherConnector.BlockDefinition.SubtypeId;
-                if (connector.BlockDefinition.SubtypeId == otherSubtype || (connector.BlockDefinition.SubtypeId.Contains("AirlockConnector_Flat") && otherSubtype.Contains("AirlockConnector_Flat")))
-                {
-                    MyAPIGateway.Utilities.ShowMessage("DBG", "Active");
+                if (connector.BlockDefinition.SubtypeId == otherSubtype || Session.allowedTypes.Contains(connector.BlockDefinition.SubtypeId) && Session.allowedTypes.Contains(otherSubtype))
                     Session.displayConnector = connector;
-                }
             }
         }
         internal void Close()

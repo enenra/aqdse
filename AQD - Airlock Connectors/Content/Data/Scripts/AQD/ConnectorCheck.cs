@@ -3,15 +3,17 @@ using VRage.Game.Components;
 using Sandbox.Common.ObjectBuilders;
 using VRage.ModAPI;
 using Sandbox.Game;
+using System.Collections.Generic;
 
 namespace ConnectorCheck
 {
-    [MyEntityComponentDescriptor(typeof(MyObjectBuilder_ShipConnector), false, "AQD_LG_AirlockConnector_Flat", "AQD_SG_AirlockConnector_Flat", "AQD_LG_AirlockConnector_Large")]
+    [MyEntityComponentDescriptor(typeof(MyObjectBuilder_ShipConnector), false, "AQD_LG_AirlockConnector_Flat", "AQD_SG_AirlockConnector_Flat", "AQD_LG_AirlockConnector_Large", "GFA_LG_TIEFighter_DockingTube", "GFA_SG_TIEFighter_Hatch")]
     public class Connectors : MyGameLogicComponent
     {
         private IMyShipConnector connector;
         private int disabledCount;
         private bool cooldown;
+        public static List<string> allowedTypes = new List<string>() { "AQD_LG_AirlockConnector_Flat", "AQD_SG_AirlockConnector_Flat", "AQD_LG_AirlockConnector_Large", "GFA_LG_TIEFighter_DockingTube", "GFA_SG_TIEFighter_Hatch" };
 
         public override void OnAddedToScene()
         {
@@ -39,7 +41,7 @@ namespace ConnectorCheck
             if (connector.Status == Sandbox.ModAPI.Ingame.MyShipConnectorStatus.Connectable)
             {
                 var otherSubtype = connector.OtherConnector.BlockDefinition.SubtypeId;
-                if (!(connector.BlockDefinition.SubtypeId == otherSubtype || (connector.BlockDefinition.SubtypeId.Contains("AirlockConnector_Flat") && otherSubtype.Contains("AirlockConnector_Flat"))))
+                if (!(connector.BlockDefinition.SubtypeId == otherSubtype || allowedTypes.Contains(connector.BlockDefinition.SubtypeId) && allowedTypes.Contains(otherSubtype)))
                 {
                     var ownGridCtrlEnt = connector.CubeGrid.ControlSystem?.CurrentShipController?.ControllerInfo?.ControllingIdentityId;
                     var otherGridCtrlEnt = connector.OtherConnector.CubeGrid.ControlSystem?.CurrentShipController?.ControllerInfo?.ControllingIdentityId;
@@ -61,3 +63,4 @@ namespace ConnectorCheck
         }
     }
 }
+
