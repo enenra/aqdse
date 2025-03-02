@@ -7,13 +7,13 @@ using System.Collections.Generic;
 
 namespace ConnectorCheck
 {
-    [MyEntityComponentDescriptor(typeof(MyObjectBuilder_ShipConnector), false, "AQD_LG_AirlockConnector_Flat", "AQD_SG_AirlockConnector_Flat", "AQD_LG_AirlockConnector_Large", "GFA_LG_TIEFighter_DockingTube", "GFA_SG_TIEFighter_Hatch")]
+    [MyEntityComponentDescriptor(typeof(MyObjectBuilder_ShipConnector), false, "AQD_LG_AirlockConnector_Flat", "AQD_SG_AirlockConnector_Flat", "AQD_LG_AirlockConnector_Large")]
     public class Connectors : MyGameLogicComponent
     {
         private IMyShipConnector connector;
         private int disabledCount;
         private bool cooldown;
-        public static List<string> allowedTypes = new List<string>() { "AQD_LG_AirlockConnector_Flat", "AQD_SG_AirlockConnector_Flat", "AQD_LG_AirlockConnector_Large", "GFA_LG_TIEFighter_DockingTube", "GFA_SG_TIEFighter_Hatch" };
+        public static List<string> allowedTypes = new List<string>() { "AQD_LG_AirlockConnector_Flat", "AQD_SG_AirlockConnector_Flat", "GFA_LG_TIEFighter_DockingTube", "GFA_SG_TIEFighter_Hatch" };
 
         public override void OnAddedToScene()
         {
