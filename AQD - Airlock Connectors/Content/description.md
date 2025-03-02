@@ -22,6 +22,8 @@ Airlock connectors are available in two sizes: 3x3 and 1x1 (5x5 for small grid):
 [*]Large Airlock Connector
 [/list]
 
+The mod furthermore includes a new option in the connector terminal, that will offer alignment guidance to match the rotation of connectors to each other.
+
 [url=https://discord.gg/QtyCsBr][img]https://i.imgur.com/l8exfyn.png[/img][/url]
 [url=https://github.com/enenra/aqdse][img]https://i.imgur.com/T7AtPhP.png[/img][/url]
 
@@ -34,7 +36,7 @@ Airlock connectors are available in two sizes: 3x3 and 1x1 (5x5 for small grid):
 
 [img]https://i.imgur.com/uUOBTpF.png[/img]
 [list]
-[*][b][url=https://steamcommunity.com/profiles/76561197982890102]BDCarillo[/url][/b] - He wrote the script to restrict arbitrary connectors from connecting to these blocks, and to offer alignment guidance.
+[*][b][url=https://steamcommunity.com/profiles/76561197982890102]BDCarrillo[/url][/b] - He wrote the script to restrict arbitrary connectors from connecting to these blocks, and to offer alignment guidance.
 [/list]
 
 [url=https://steamcommunity.com/workshop/discussions/18446744073709551615/2793874853443195941/?appid=244850][img]https://raw.githubusercontent.com/enenra/aqdse/master/usage_guidelines.png[/img][/url]

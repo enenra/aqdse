@@ -1,6 +1,7 @@
 <?xml version="1.0" ?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<CubeBlocks>
+
 		<Definition xsi:type="MyObjectBuilder_ShipConnectorDefinition">
 			<Id>
 				<TypeId>ShipConnector</TypeId>
@@ -19,6 +20,7 @@
 				<Component Subtype="SteelPlate" Count="250" />
 				<Component Subtype="Construction" Count="220" />
 				<Component Subtype="SmallTube" Count="40" />
+				<Component Subtype="MetalGrid" Count="100" />
 				<Component Subtype="Motor" Count="40" />
 				<Component Subtype="Computer" Count="50" />
 				<Component Subtype="SteelPlate" Count="100" />
@@ -59,5 +61,6 @@
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
 		</Definition>
+
 	</CubeBlocks>
 </Definitions>
