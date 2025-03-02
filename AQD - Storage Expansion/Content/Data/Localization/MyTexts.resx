@@ -130,7 +130,7 @@
     <comment/>
   </data>
   <data name="Description_AQD_SG_SecureStorageBox" xml:space="preserve">
-    <value>Description</value>
+    <value>A box to securely store cargo. It is heavily reinforced.</value>
     <comment/>
   </data>
   <data name="DisplayName_AQD_LG_Hopper" xml:space="preserve">
