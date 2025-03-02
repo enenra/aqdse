@@ -21,7 +21,7 @@ namespace ConnectorCheck
         private bool controlInit;
         private bool client;
         private int tick;
-        public static List<string> allowedTypes = new List<string>() { "AQD_LG_AirlockConnector_Flat", "AQD_SG_AirlockConnector_Flat", "AQD_LG_AirlockConnector_Large", "GFA_LG_TIEFighter_DockingTube", "GFA_SG_TIEFighter_Hatch"};
+        public static List<string> allowedTypes = new List<string>() { "AQD_LG_AirlockConnector_Flat", "AQD_SG_AirlockConnector_Flat", "AQD_LG_AirlockConnector_Large"};
         public static IMyShipConnector displayConnector;
         private Dictionary<long, cComp> connectors = new Dictionary<long, cComp>();
         private readonly ConcurrentCachingList<IMyShipConnector> _startComps = new ConcurrentCachingList<IMyShipConnector>();
