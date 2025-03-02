@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlockVariantGroups>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AQD_BVG_AirlockConnectors" />
+			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_AirlockConnector_Flat.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
+      <DisplayName>DisplayName_AQD_LG_AirlockConnector_Flat</DisplayName>
+      <Description>Description_AQD_AirlockConnector</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_ShipConnector" Subtype="AQD_LG_AirlockConnector_Flat" />
+        <Block Type="MyObjectBuilder_ShipConnector" Subtype="AQD_SG_AirlockConnector_Flat" />
+        <Block Type="MyObjectBuilder_ShipConnector" Subtype="AQD_LG_AirlockConnector_Large" />
+      </Blocks>
+    </BlockVariantGroup>
+
+  </BlockVariantGroups>
+</Definitions>

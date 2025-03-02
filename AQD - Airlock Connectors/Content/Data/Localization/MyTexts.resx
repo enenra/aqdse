@@ -132,7 +132,7 @@
     <comment/>
   </data>
 
-  <data name="Description_AQD_LG_AirlockConnector" xml:space="preserve">
+  <data name="Description_AQD_AirlockConnector" xml:space="preserve">
     <value>Airlock Connectors serve to establish pressurized connections between two grids.</value>
     <comment/>
   </data>

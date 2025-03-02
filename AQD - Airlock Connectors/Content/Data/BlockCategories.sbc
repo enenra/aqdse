@@ -12,6 +12,20 @@
       <StrictSearch>true</StrictSearch>
       <ItemIds>
         <string>ShipConnector/AQD_LG_AirlockConnector_Flat</string>
+        <string>ShipConnector/AQD_LG_AirlockConnector_Large</string>
+      </ItemIds>
+    </Category>
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_SmallBlocks</DisplayName>
+      <Name>Section1_Position1_SmallBlocks</Name>
+      <StrictSearch>true</StrictSearch>
+      <ItemIds>
+        <string>ShipConnector/AQD_SG_AirlockConnector_Flat</string>
       </ItemIds>
     </Category>
 
@@ -25,6 +39,8 @@
       <StrictSearch>true</StrictSearch>
       <ItemIds>
         <string>ShipConnector/AQD_LG_AirlockConnector_Flat</string>
+        <string>ShipConnector/AQD_SG_AirlockConnector_Flat</string>
+        <string>ShipConnector/AQD_LG_AirlockConnector_Large</string>
       </ItemIds>
     </Category>
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
@@ -36,6 +52,8 @@
       <Name>Section1_Position3_Logistics</Name>
       <ItemIds>
         <string>ShipConnector/AQD_LG_AirlockConnector_Flat</string>
+        <string>ShipConnector/AQD_SG_AirlockConnector_Flat</string>
+        <string>ShipConnector/AQD_LG_AirlockConnector_Large</string>
       </ItemIds>
     </Category>
 
