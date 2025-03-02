@@ -11,23 +11,23 @@
       <Name>Section1_Position1_LargeBlocks</Name>
       <StrictSearch>true</StrictSearch>
       <ItemIds>
-        <string>CubeBlock/DisplayName_AQD_LG_Marking_Line</string>
-        <string>CubeBlock/DisplayName_AQD_LG_Marking_LineAngle</string>
-        <string>CubeBlock/DisplayName_AQD_LG_Marking_LineCorner</string>
-        <string>CubeBlock/DisplayName_AQD_LG_Marking_LineT</string>
-        <string>CubeBlock/DisplayName_AQD_LG_Marking_LineX</string>
+        <string>CubeBlock/AQD_LG_Marking_Line</string>
+        <string>CubeBlock/AQD_LG_Marking_LineAngle</string>
+        <string>CubeBlock/AQD_LG_Marking_LineCorner</string>
+        <string>CubeBlock/AQD_LG_Marking_LineT</string>
+        <string>CubeBlock/AQD_LG_Marking_LineX</string>
 
-        <string>CubeBlock/DisplayName_AQD_LG_Marking_StripedLine</string>
-        <string>CubeBlock/DisplayName_AQD_LG_Marking_StripedLineAngle</string>
-        <string>CubeBlock/DisplayName_AQD_LG_Marking_StripedLineCorner</string>
-        <string>CubeBlock/DisplayName_AQD_LG_Marking_StripedLineT</string>
-        <string>CubeBlock/DisplayName_AQD_LG_Marking_StripedLineX</string>
+        <string>CubeBlock/AQD_LG_Marking_StripedLine</string>
+        <string>CubeBlock/AQD_LG_Marking_StripedLineAngle</string>
+        <string>CubeBlock/AQD_LG_Marking_StripedLineCorner</string>
+        <string>CubeBlock/AQD_LG_Marking_StripedLineT</string>
+        <string>CubeBlock/AQD_LG_Marking_StripedLineX</string>
 
-        <string>CubeBlock/DisplayName_AQD_LG_Marking_WideLine</string>
-        <string>CubeBlock/DisplayName_AQD_LG_Marking_WideLineAngle</string>
-        <string>CubeBlock/DisplayName_AQD_LG_Marking_WideLineCorner</string>
-        <string>CubeBlock/DisplayName_AQD_LG_Marking_WideLineT</string>
-        <string>CubeBlock/DisplayName_AQD_LG_Marking_WideLineX</string>
+        <string>CubeBlock/AQD_LG_Marking_WideLine</string>
+        <string>CubeBlock/AQD_LG_Marking_WideLineAngle</string>
+        <string>CubeBlock/AQD_LG_Marking_WideLineCorner</string>
+        <string>CubeBlock/AQD_LG_Marking_WideLineT</string>
+        <string>CubeBlock/AQD_LG_Marking_WideLineX</string>
       </ItemIds>
     </Category>
 
