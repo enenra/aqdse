@@ -160,9 +160,17 @@ namespace ConnectorCheck
         internal void Init()
         {
             connector.AttachFinished += Connector_AttachFinished;
+            connector.IsConnectedChanged += Connector_IsConnectedChanged;
             if (connector.Status == Sandbox.ModAPI.Ingame.MyShipConnectorStatus.Connectable)
                 Connector_AttachFinished(connector);
         }
+
+        private void Connector_IsConnectedChanged(IMyShipConnector connector)
+        {
+            if (connector.Status == Sandbox.ModAPI.Ingame.MyShipConnectorStatus.Connected && connector == Session.displayConnector)
+                Session.displayConnector = null;
+        }
+
         private void Connector_AttachFinished(IMyShipConnector obj)
         {
             if (connector.Status == Sandbox.ModAPI.Ingame.MyShipConnectorStatus.Connectable)
@@ -175,6 +183,7 @@ namespace ConnectorCheck
         internal void Close()
         {
             connector.AttachFinished -= Connector_AttachFinished;
+            connector.IsConnectedChanged -= Connector_IsConnectedChanged;
         }
     }
 }
