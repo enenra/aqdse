@@ -13,8 +13,6 @@ This mod adds airlock connectors in two sizes to the game. Airlock connectors ca
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1808547374][img]https://raw.githubusercontent.com/enenra/aqdse/master/collection.jpg[/img][/url]
 
 [img]https://i.imgur.com/5nbiNLV.png[/img]
-
-[img][/img]
 Airlock connectors are available in two sizes: 3x3 and 1x1 (5x5 for small grid):
 [list]
 [*]Airlock Connector Flat
