@@ -15,7 +15,7 @@ namespace ConnectorCheck
     {
         private bool controlInit;
         private bool client;
-        private int tick;
+        private int tick = -500;
         public static List<string> allowedTypes = new List<string>() { "AQD_LG_AirlockConnector_Flat", "AQD_SG_AirlockConnector_Flat", "AQD_LG_AirlockConnector_Large" };
         public static IMyShipConnector displayConnector;
         private Dictionary<long, cComp> connectors = new Dictionary<long, cComp>();
