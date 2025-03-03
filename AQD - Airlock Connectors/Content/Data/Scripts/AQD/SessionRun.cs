@@ -1,4 +1,5 @@
-﻿using Sandbox.Game.Entities;
+﻿using Sandbox.Game;
+using Sandbox.Game.Entities;
 using Sandbox.ModAPI;
 using System;
 using System.Collections.Generic;
@@ -15,11 +16,10 @@ namespace ConnectorCheck
     {
         private bool controlInit;
         private bool client;
-        private int tick = -500;
+        private int tick;
         public static List<string> allowedTypes = new List<string>() { "AQD_LG_AirlockConnector_Flat", "AQD_SG_AirlockConnector_Flat", "AQD_LG_AirlockConnector_Large" };
         public static IMyShipConnector displayConnector;
         private Dictionary<long, cComp> connectors = new Dictionary<long, cComp>();
-        public static List<IMyShipConnector> displayables = new List<IMyShipConnector>();
         private readonly ConcurrentCachingList<IMyShipConnector> _startComps = new ConcurrentCachingList<IMyShipConnector>();
         private bool registeredController;
         public static MyCubeGrid controlledGrid = null;
@@ -36,7 +36,6 @@ namespace ConnectorCheck
                 MyEntities.OnEntityCreate -= OnEntityCreate;
             if (registeredController)
                 MyAPIGateway.Session.Player.Controller.ControlledEntityChanged -= GridChange;
-            displayables.Clear();
             connectors.Clear();
         }
         public override void UpdateBeforeSimulation()
@@ -56,31 +55,20 @@ namespace ConnectorCheck
             }
             if (!_startComps.IsEmpty && tick % 30 == 0)
                 StartComps();
-            if (displayConnector != null)
+            if (displayConnector != null && displayConnector.OtherConnector != null && tick % 10 == 0)
             {
-                if(displayConnector.OtherConnector == null)
-                {
-                    displayConnector = null;
-                    displayables.Remove(displayConnector);
-                    return;
-                }
+                var dummies = new Dictionary<string, IMyModelDummy>();
+                displayConnector.Model.GetDummies(dummies);
+                var partMatrix = displayConnector.PositionComp.WorldMatrixRef;
+                var worldDir = Vector3D.Normalize(Vector3D.TransformNormal(dummies["detector_Connector_001"].Matrix.Forward, ref partMatrix)); //Forward for vanilla, up for AQD??
 
-                var show = tick % 10 == 0 && (connectors[displayConnector.EntityId].alignment || connectors[displayConnector.OtherConnector.EntityId].alignment);
-                if (show)
-                {
-                    var dummies = new Dictionary<string, IMyModelDummy>();
-                    displayConnector.Model.GetDummies(dummies);
-                    var partMatrix = displayConnector.PositionComp.WorldMatrixRef;
-                    var worldDir = Vector3D.Normalize(Vector3D.TransformNormal(dummies["detector_Connector_001"].Matrix.Forward, ref partMatrix)); //Forward for vanilla, up for AQD??
+                var otherDummies = new Dictionary<string, IMyModelDummy>();
+                displayConnector.OtherConnector.Model.GetDummies(otherDummies);
+                var partMatrixOth = displayConnector.OtherConnector.PositionComp.WorldMatrixRef;
+                var worldDirOth = Vector3D.Normalize(Vector3D.TransformNormal(otherDummies["detector_Connector_001"].Matrix.Forward, ref partMatrixOth));
 
-                    var otherDummies = new Dictionary<string, IMyModelDummy>();
-                    displayConnector.OtherConnector.Model.GetDummies(otherDummies);
-                    var partMatrixOth = displayConnector.OtherConnector.PositionComp.WorldMatrixRef;
-                    var worldDirOth = Vector3D.Normalize(Vector3D.TransformNormal(otherDummies["detector_Connector_001"].Matrix.Forward, ref partMatrixOth));
-
-                    var angle = MathHelper.ToDegrees(Math.Acos(Vector3D.Dot(worldDir, worldDirOth)));
-                    MyAPIGateway.Utilities.ShowNotification("Airlock Alignment Angle: " + angle.ToString("0.0") + "°", 160, angle > 0.5 ? "Red" : "Green");
-                }
+                var angle = MathHelper.ToDegrees(Math.Acos(Vector3D.Dot(worldDir, worldDirOth)));
+                MyAPIGateway.Utilities.ShowNotification("Airlock Alignment Angle: " + angle.ToString("0.0") + "°", 160, angle > 0.5 ? "Red" : "Green");
             }
         }
     }

@@ -14,10 +14,10 @@ namespace ConnectorCheck
             if (controlledGrid == null)
                 displayConnector = null;
             else
-                foreach (var connector in displayables)
-                    if (connector.CubeGrid == controlledGrid)
+                foreach (var connector in connectors)
+                    if (connector.Value.alignment && connector.Value.wasConnectable && connector.Value.connector.CubeGrid == controlledGrid)
                     {
-                        displayConnector = connector;
+                        displayConnector = connector.Value.connector;
                         break;
                     }
         }

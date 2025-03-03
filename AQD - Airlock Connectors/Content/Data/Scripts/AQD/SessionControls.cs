@@ -46,7 +46,7 @@ namespace ConnectorCheck
         {
             cComp comp;
             if (connectors.TryGetValue(block.EntityId, out comp))
-                comp.alignment = activated;
+                comp.Update(activated);
         }
         internal void ActionWriter(IMyTerminalBlock block, StringBuilder builder)
         {
@@ -58,7 +58,7 @@ namespace ConnectorCheck
         {
             cComp comp;
             if (connectors.TryGetValue(block.EntityId, out comp))
-                comp.alignment = !comp.alignment;
+                comp.Update(!comp.alignment);
         }
     }
 }
