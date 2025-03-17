@@ -1,66 +1,67 @@
 <?xml version="1.0" ?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<CubeBlocks>
+  <CubeBlocks>
 
-		<Definition xsi:type="MyObjectBuilder_ShipConnectorDefinition">
-			<Id>
-				<TypeId>ShipConnector</TypeId>
-				<SubtypeId>AQD_LG_AirlockConnector_Large</SubtypeId>
-			</Id>
-			<DisplayName>{LOC:DisplayName_AQD_LG_AirlockConnector_Large}</DisplayName>
-			<Description>{LOC:Description_AQD_AirlockConnector}</Description>
-			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_AirlockConnector_Large.dds</Icon>
-			<Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
-			<CubeSize>Large</CubeSize>
-			<BlockTopology>TriangleMesh</BlockTopology>
-			<Size x="3" y="3" z="2"/>
-			<ModelOffset x="0" y="0" z="0"/>
-			<Model>Models\Cubes\large\AQD_LG_AirlockConnector_Large.mwm</Model>
-			<Components>
-				<Component Subtype="SteelPlate" Count="250" />
-				<Component Subtype="Construction" Count="220" />
-				<Component Subtype="SmallTube" Count="40" />
-				<Component Subtype="MetalGrid" Count="100" />
-				<Component Subtype="Motor" Count="40" />
-				<Component Subtype="Computer" Count="50" />
-				<Component Subtype="SteelPlate" Count="100" />
-			</Components>
-			<CriticalComponent Subtype="Computer" Index="0" />
-			<BuildProgressModels>
-				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\AQD_LG_AirlockConnector_Large_BS1.mwm"/>
-				<Model BuildPercentUpperBound="0.67" File="Models\Cubes\large\AQD_LG_AirlockConnector_Large_BS2.mwm"/>
-				<Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\AQD_LG_AirlockConnector_Large_BS3.mwm"/>
-			</BuildProgressModels>
-			<MountPoints>
-				<MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.25" EndY="3.00"/>
-				<MountPoint Side="Back" StartX="2.75" StartY="0.00" EndX="3.00" EndY="3.00"/>
-				<MountPoint Side="Back" StartX="0.25" StartY="2.75" EndX="2.75" EndY="3.00"/>
-				<MountPoint Side="Back" StartX="0.25" StartY="0.00" EndX="2.75" EndY="0.25"/>
-				<MountPoint Side="Back" StartX="1.00" StartY="0.25" EndX="2.00" EndY="1.00" Default="true"/>
-				<MountPoint Side="Left" StartX="1.50" StartY="0.50" EndX="2.00" EndY="2.50"/>
-				<MountPoint Side="Right" StartX="0.00" StartY="0.50" EndX="0.50" EndY="2.50"/>
-				<MountPoint Side="Top" StartX="0.50" StartY="0.00" EndX="2.50" EndY="0.50"/>
-				<MountPoint Side="Bottom" StartX="0.50" StartY="1.50" EndX="2.50" EndY="2.00"/>
-			</MountPoints>
-			<BlockPairName>AQD_AirlockConnector_Large</BlockPairName>
-			<DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
-			<DamagedSound>ParticleHeavyMech</DamagedSound>
-			<ActionSound>BlockEject</ActionSound>
-			<EmissiveColorPreset>ConnectBlock</EmissiveColorPreset>
-			<DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
-			<DestroySound>WepSmallWarheadExpl</DestroySound>
-			<PCU>125</PCU>
-			<IsAirTight>true</IsAirTight>
-			<AutoUnlockTime_Min>0</AutoUnlockTime_Min>
-			<AutoUnlockTime_Max>3600</AutoUnlockTime_Max>
-			<TieredUpdateTimes>
-				<unsignedInt>80</unsignedInt>
-				<unsignedInt>160</unsignedInt>
-				<unsignedInt>320</unsignedInt>
-			</TieredUpdateTimes>
-			<MirroringY>Z</MirroringY>
-			<MirroringZ>Y</MirroringZ>
-		</Definition>
+    <Definition xsi:type="MyObjectBuilder_ShipConnectorDefinition">
+      <Id>
+        <TypeId>ShipConnector</TypeId>
+        <SubtypeId>AQD_LG_AirlockConnector_Large</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_AQD_LG_AirlockConnector_Large}</DisplayName>
+      <Description>{LOC:Description_AQD_AirlockConnector}</Description>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_LG_AirlockConnector_Large.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
+      <CubeSize>Large</CubeSize>
+      <BlockTopology>TriangleMesh</BlockTopology>
+      <Size x="3" y="3" z="2"/>
+      <ModelOffset x="0" y="0" z="0"/>
+      <Model>Models\Cubes\large\AQD_LG_AirlockConnector_Large.mwm</Model>
+      <Components>
+        <Component Subtype="SteelPlate" Count="250" />
+        <Component Subtype="Construction" Count="220" />
+        <Component Subtype="SmallTube" Count="40" />
+        <Component Subtype="MetalGrid" Count="100" />
+        <Component Subtype="Motor" Count="40" />
+        <Component Subtype="Computer" Count="50" />
+        <Component Subtype="SteelPlate" Count="100" />
+      </Components>
+      <CriticalComponent Subtype="Computer" Index="0" />
+      <BuildProgressModels>
+        <Model BuildPercentUpperBound="0.33" File="Models\Cubes\large\AQD_LG_AirlockConnector_Large_BS1.mwm"/>
+        <Model BuildPercentUpperBound="0.67" File="Models\Cubes\large\AQD_LG_AirlockConnector_Large_BS2.mwm"/>
+        <Model BuildPercentUpperBound="1.00" File="Models\Cubes\large\AQD_LG_AirlockConnector_Large_BS3.mwm"/>
+      </BuildProgressModels>
+      <MountPoints>
+        <MountPoint Side="Back" StartX="0.00" StartY="0.00" EndX="0.25" EndY="3.00"/>
+        <MountPoint Side="Back" StartX="2.75" StartY="0.00" EndX="3.00" EndY="3.00"/>
+        <MountPoint Side="Back" StartX="0.25" StartY="2.75" EndX="2.75" EndY="3.00"/>
+        <MountPoint Side="Back" StartX="0.25" StartY="0.00" EndX="2.75" EndY="0.25"/>
+        <MountPoint Side="Back" StartX="1.00" StartY="0.25" EndX="2.00" EndY="1.00" Default="true"/>
+        <MountPoint Side="Left" StartX="1.50" StartY="0.50" EndX="2.00" EndY="2.50"/>
+        <MountPoint Side="Right" StartX="0.00" StartY="0.50" EndX="0.50" EndY="2.50"/>
+        <MountPoint Side="Top" StartX="0.50" StartY="0.00" EndX="2.50" EndY="0.50"/>
+        <MountPoint Side="Bottom" StartX="0.50" StartY="1.50" EndX="2.50" EndY="2.00"/>
+      </MountPoints>
+      <BlockPairName>AQD_AirlockConnector_Large</BlockPairName>
+      <DamageEffectName>Damage_HeavyMech_Damaged</DamageEffectName>
+      <DamagedSound>ParticleHeavyMech</DamagedSound>
+      <ActionSound>BlockEject</ActionSound>
+      <EmissiveColorPreset>ConnectBlock</EmissiveColorPreset>
+      <DestroyEffect>BlockDestroyedExplosion_Large</DestroyEffect>
+      <DestroySound>WepSmallWarheadExpl</DestroySound>
+      <PCU>125</PCU>
+      <GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+      <IsAirTight>true</IsAirTight>
+      <AutoUnlockTime_Min>0</AutoUnlockTime_Min>
+      <AutoUnlockTime_Max>3600</AutoUnlockTime_Max>
+      <TieredUpdateTimes>
+        <unsignedInt>80</unsignedInt>
+        <unsignedInt>160</unsignedInt>
+        <unsignedInt>320</unsignedInt>
+      </TieredUpdateTimes>
+      <MirroringY>Z</MirroringY>
+      <MirroringZ>Y</MirroringZ>
+    </Definition>
 
-	</CubeBlocks>
+  </CubeBlocks>
 </Definitions>
