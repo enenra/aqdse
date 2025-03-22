@@ -9,29 +9,31 @@
             "path": "../A Galaxy Far Away"
         },
         {
-            "name": "MES Shared Behaviors",
-            "path": "../MES Shared Behaviors"
+            "name": "mes-shared-behaviors",
+            "path": "../mes-shared-behaviors"
         },
         {
             "name": "Data",
-            "path": "../../../../../../../Program Files (x86)/Steam/steamapps/common/SpaceEngineers/Content/Data"
+            "path": "../../Program Files (x86)/Steam/steamapps/common/SpaceEngineers/Content/Data"
         },
         {
             "name": "Mods",
-            "path": ".."
+            "path": "../../Users/enenra/AppData/Roaming/SpaceEngineers/Mods"
         },
         {
             "name": "Shaders",
-            "path": "../../../../../../../Program Files (x86)/Steam/steamapps/common/SpaceEngineers/Content/Shaders"
+            "path": "../../Program Files (x86)/Steam/steamapps/common/SpaceEngineers/Content/Shaders"
         },
         {
             "name": "244850",
-            "path": "../../../../../../../Program Files (x86)/Steam/steamapps/workshop/content/244850"
+            "path": "../../Program Files (x86)/Steam/steamapps/workshop/content/244850"
         },
         {
+            "name": "Export",
             "path": "../../Export"
         },
         {
+            "name": "local",
             "path": "../../Blueprints/local"
         }
     ],
