@@ -13,6 +13,10 @@
             "path": "../mes-shared-behaviors"
         },
         {
+            "name": "Modular-Encounters-Systems",
+            "path": "../Modular-Encounters-Systems"
+        },
+        {
             "name": "Data",
             "path": "../../Program Files (x86)/Steam/steamapps/common/SpaceEngineers/Content/Data"
         },
