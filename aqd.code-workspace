@@ -13,6 +13,10 @@
             "path": "../mes-shared-behaviors"
         },
         {
+            "name": "Ares-at-War",
+            "path": "../Ares-at-War"
+        },
+        {
             "name": "Modular-Encounters-Systems",
             "path": "../Modular-Encounters-Systems"
         },
