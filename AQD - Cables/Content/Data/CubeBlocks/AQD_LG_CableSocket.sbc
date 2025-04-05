@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition>
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>AQD_LG_CableSocket</SubtypeId>
+			</Id>
+			<DisplayName>{LOC:DisplayName_AQD_LG_CableSocket}</DisplayName>
+			<Description>{LOC:Description_AQD_LG_CableSocket}</Description>
+			<Icon>Textures\GUI\Icons\AstronautBackpack.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Cubes\large\AQD_LG_CableSocket.mwm</Model>
+			<Components>
+				<Component Subtype="SteelPlate" Count="10"/>
+			</Components>
+			<CriticalComponent Subtype="SteelPlate" Index="0"/>
+			<MountPoints>
+				<MountPoint Side="Back" StartX="0.40" StartY="0.40" EndX="0.60" EndY="0.60" Default="true"/>
+			</MountPoints>
+			<BlockPairName>AQD_LG_CableSocket</BlockPairName>
+		</Definition>
+	</CubeBlocks>
+</Definitions>
