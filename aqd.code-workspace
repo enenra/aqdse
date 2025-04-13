@@ -39,11 +39,9 @@
         {
             "name": "Export",
             "path": "../../Export"
-        },
-        {
-            "name": "local",
-            "path": "../../Blueprints/local"
         }
     ],
-	"settings": {}
+    "settings": {
+        "git.repositoryScanIgnoredFolders": []
+    }
 }
