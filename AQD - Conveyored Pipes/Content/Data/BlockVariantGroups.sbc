@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <BlockVariantGroups>
+
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="PipesBlockGroup" />
+      <Icon>Textures\GUI\Icons\Cubes\PipesStraight1.dds</Icon>
+      <DisplayName>DisplayName_Block_PipesStraight1</DisplayName>
+      <Description>Description_Pipes</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="LargeBlockPipesStraight1" />
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="LargeBlockPipesStraight2" />
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="LargeBlockPipesEnd" />
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="LargeBlockPipesCorner" />
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="LargeBlockPipesCornerInner" />
+        <Block Type="MyObjectBuilder_ConveyorConnector" Subtype="LargeBlockPipesCornerOuter" />
+        <Block Type="MyObjectBuilder_Conveyor" Subtype="LargeBlockPipesJunction" />
+      </Blocks>
+    </BlockVariantGroup>
+
+  </BlockVariantGroups>
+</Definitions>

@@ -39,6 +39,9 @@
         {
             "name": "Export",
             "path": "../../Export"
+        },
+        {
+            "path": "../../Users/enenra/AppData/Roaming/SpaceEngineers/Blueprints/local"
         }
     ],
     "settings": {
