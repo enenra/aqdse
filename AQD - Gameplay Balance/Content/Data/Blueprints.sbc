@@ -32,10 +32,10 @@
         <Item Amount="100" TypeId="Ore" SubtypeId="Stone" />
       </Prerequisites>
       <Results>
-        <Item Amount="3" TypeId="Ingot" SubtypeId="Stone" />
-        <Item Amount="6" TypeId="Ingot" SubtypeId="Iron" />
-        <Item Amount="0.6" TypeId="Ingot" SubtypeId="Nickel" />
-        <Item Amount="0.8" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="6" TypeId="Ingot" SubtypeId="Stone" />
+        <Item Amount="12" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="1.2" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="1.6" TypeId="Ingot" SubtypeId="Silicon" />
       </Results>
       <Priority>1000</Priority>
       <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
