@@ -67,7 +67,6 @@ def main():
 
 
 def make_cubedef_adjustments(entries, hvy):
-
     id = "Concrete"
     if hvy:
         id = "ReinforcedConcrete"
@@ -103,7 +102,7 @@ def make_cubedef_adjustments(entries, hvy):
         while get_subelement(sides, "Side") != -1:
             side = sides[sides.find("<Side "):sides.find("/>")+2]
             plate = side[side.find("\\Armor\\") + len("\\Armor\\"):side.find(".mwm")]
-            sides_n += "\t\t\t\t\t" + side.replace(plate, f"AQD_{id}_{plate.replace("Heavy", "")}") + "\n"
+            sides_n += "\t\t\t\t\t" + side.replace(plate, f"AQD_{id}_{plate.replace("Heavy", "").replace("LightArmor", "")}") + "\n"
             sides = sides[sides.find("/>") + len("/>"):]
         sides_n += "\t\t\t</Sides>"
         v_n = v_n.replace(sides_copy, sides_n)
