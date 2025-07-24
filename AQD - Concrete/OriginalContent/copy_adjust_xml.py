@@ -88,6 +88,8 @@ def copy_adjust_xmls(xmls):
             lines = f.read()
             f.close()
 
+        # TODO: Adjust this to merge with xmls exported from SEUT
+
         lines = lines.replace("\n</Model>", '\n\t<Material Name="Concrete_Armor">\n\t\t<Parameter Name="Technique">MESH</Parameter>\n\t\t<Parameter Name="ColorMetalTexture">Textures\\Models\\Cubes\\armor\\Skins\\Concrete\\large_square_plate_cm.dds</Parameter>\n\t\t<Parameter Name="NormalGlossTexture">Textures\\Models\\Cubes\\armor\\Skins\Concrete\\large_square_plate_ng.dds</Parameter>\n\t\t<Parameter Name="AddMapsTexture">Textures\Models\\Cubes\\armor\\Skins\\Concrete\\large_square_plate_add.dds</Parameter>\n\t</Material>\n</Model>')
 
         while "<LOD " in lines:

@@ -1,0 +1,1364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<CubeBlocks>
+		<Definition>
+	  <Id>
+		<TypeId>CubeBlock</TypeId>
+		<SubtypeId>AQD_LG_ReinforcedConcrete_RaisedSlopedCorner</SubtypeId>
+	  </Id>
+	  <DisplayName>DisplayName_AQD_LG_ReinforcedConcrete_RaisedSlopedCorner</DisplayName>
+	  <Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinforcedConcrete_RaisedSlopedCorner.dds</Icon>
+	  <Description>Description_AQD_ReinforcedConcrete_Block</Description>
+	  <CubeSize>Large</CubeSize>
+	  <BlockTopology>Cube</BlockTopology>
+	  <DeformationRatio>0.0</DeformationRatio>
+	  <Size x="1" y="1" z="1" />
+	  <ModelOffset x="0" y="0" z="0" />
+	  <CubeDefinition>
+		<CubeTopology>RaisedSlopedCorner</CubeTopology>
+		<ShowEdges>true</ShowEdges>
+		<Sides>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_HalfSlopedCornerBaseTop.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_HalfSlopedCornerTop.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlateSlope2BaseFront.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlateSlope2BaseFront.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlateSlope2BaseLeft.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlateSlope2BaseRight.mwm" PatternWidth ="4" PatternHeight="2"/>
+			</Sides>
+	  </CubeDefinition>
+	  <Skeleton><!--RaisedSlopedCorner-->
+		<BoneInfo>
+		  <BonePosition x="2" y="1" z="2" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="1" z="2" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="1" z="2" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="2" y="1" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="1" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="2" y="1" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="2" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="1" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="1" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="2" y="0" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="2" y="0" z="2" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="0" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="0" z="2" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="0" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="0" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="0" z="2" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="0" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="2" y="0" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="1" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+	  </Skeleton>
+	  <BuildProgressModels>
+		<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\LightArmorRaisedSlopedCornerConstruction_1.mwm" />
+		<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\LightArmorRaisedSlopedCornerConstruction_2.mwm" />
+		<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\LightArmorRaisedSlopedCornerConstruction_3.mwm" />
+	  </BuildProgressModels>
+		<MountPoints>
+			<MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.5" />
+			<MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.5" />
+			<MountPoint Side="Left" StartX="0.2" StartY="0.5" EndX="0.8" EndY="0.8" />
+			<MountPoint Side="Left" StartX="0.0" StartY="0.5" EndX="0.2" EndY="1.0" />
+			<MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.5" />
+			<MountPoint Side="Front" StartX="0.2" StartY="0.5" EndX="0.8" EndY="0.8" />
+			<MountPoint Side="Front" StartX="0.8" StartY="0.5" EndX="1.0" EndY="1.0" />
+			<MountPoint Side="Bottom" StartX="1.0" StartY="1.0" EndX="0.0" EndY="0.0" />
+			<MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.5" />
+		</MountPoints>
+	  <Components>
+		<Component Subtype="AQD_Comp_Concrete" Count="80" />
+		<Component Subtype="MetalGrid" Count="30" />
+		<Component Subtype="AQD_Comp_Concrete" Count="20" />
+	  </Components>
+	  <CriticalComponent Subtype="AQD_Comp_Concrete" Index="0" />
+	  <Variants>
+		<Variant Color="Red" Suffix="_red" />
+		<Variant Color="Yellow" Suffix="_yellow" />
+		<Variant Color="Blue" Suffix="_blue" />
+		<Variant Color="Green" Suffix="_green" />
+		<Variant Color="Black" Suffix="_black" />
+		<Variant Color="White" Suffix="_white" />
+	  </Variants>
+	  <BlockPairName>AQD_ReinforcedConcrete_RaisedSlopedCorner</BlockPairName>
+	  <PhysicsOption>Convex</PhysicsOption>
+	  <EdgeType>Heavy</EdgeType>
+	  <BuildTimeSeconds>15</BuildTimeSeconds>
+	  <DisassembleRatio>2.5</DisassembleRatio>
+	  <NavigationDefinition>Default</NavigationDefinition>
+	  <PCU>1</PCU>
+	  <MirroringX>YHalfY</MirroringX>
+	  <MirroringY>XHalfY</MirroringY>
+	  <MirroringZ>MinusHalfY</MirroringZ>
+	  <PCUConsole>2</PCUConsole>
+			<PhysicalMaterial>Rock</PhysicalMaterial>
+	</Definition>
+		<Definition>
+	  <Id>
+		<TypeId>CubeBlock</TypeId>
+		<SubtypeId>AQD_LG_ReinforcedConcrete_SlopeTransition</SubtypeId>
+	  </Id>
+	  <DisplayName>DisplayName_AQD_LG_ReinforcedConcrete_SlopeTransition</DisplayName>
+	  <Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinforcedConcrete_SlopeTransition.dds</Icon>
+	  <Description>Description_AQD_ReinforcedConcrete_Block</Description>
+	  <CubeSize>Large</CubeSize>
+	  <BlockTopology>Cube</BlockTopology>
+	  <DeformationRatio>0.0</DeformationRatio>
+	  <Size x="1" y="1" z="1" />
+	  <ModelOffset x="0" y="0" z="0" />
+	  <CubeDefinition>
+		<CubeTopology>SlopeTransition</CubeTopology>
+		<ShowEdges>true</ShowEdges>
+		<Sides>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_CornerSquareINVRight.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_CornerTriangleLeftPlate.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_CornerTriangleRightPlateCorner2TipRight.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_ArmorSlopeTransitionTriangleTop.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlateSlope2BaseRight.mwm" PatternWidth ="4" PatternHeight="2"/>
+			</Sides>
+	  </CubeDefinition>
+	  <Skeleton><!--SlopeTransition-->
+		<BoneInfo>
+		  <BonePosition x="1" y="1" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="1" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="2" y="0" z="2" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="0" z="2" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="0" z="2" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="2" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="1" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="0" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="0" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="2" y="1" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="2" y="0" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="2" y="0" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="1" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="0" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="0" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+	  </Skeleton>
+	  <BuildProgressModels>
+		<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionConstruction_1.mwm" />
+		<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionConstruction_2.mwm" />
+		<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionConstruction_3.mwm" />
+	  </BuildProgressModels>
+		<MountPoints>
+			<MountPoint EndX="0.0" EndY="0.0" Side="Bottom" StartX="1.0" StartY="1.0"/>
+			<MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="0.2" EndY="0.1" />
+			<MountPoint Side="Right" StartX="0.2" StartY="0.0" EndX="0.8" EndY="0.4" />
+			<MountPoint Side="Right" StartX="0.8" StartY="0.0" EndX="1.0" EndY="0.5" />
+			<MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="0.5" EndY="0.5" />
+			<MountPoint Side="Front" StartX="0.5" StartY="0.0" EndX="1.0" EndY="1.0" />
+			<MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="0.5" EndY="1.0" />
+			<MountPoint Side="Left" StartX="0.5" StartY="0.0" EndX="1.0" EndY="0.5" />
+		</MountPoints>  
+	  <Components>
+		<Component Subtype="AQD_Comp_Concrete" Count="48" />
+		<Component Subtype="MetalGrid" Count="18" />
+		<Component Subtype="AQD_Comp_Concrete" Count="12" />
+	  </Components>
+	  <CriticalComponent Subtype="AQD_Comp_Concrete" Index="0" />
+	  <Variants>
+		<Variant Color="Red" Suffix="_red" />
+		<Variant Color="Yellow" Suffix="_yellow" />
+		<Variant Color="Blue" Suffix="_blue" />
+		<Variant Color="Green" Suffix="_green" />
+		<Variant Color="Black" Suffix="_black" />
+		<Variant Color="White" Suffix="_white" />
+	  </Variants>
+	  <BlockPairName>AQD_ReinforcedConcrete_SlopeTransition</BlockPairName>
+	  <PhysicsOption>Convex</PhysicsOption>
+	  <EdgeType>Heavy</EdgeType>
+	  <BuildTimeSeconds>10</BuildTimeSeconds>
+	  <DisassembleRatio>2.5</DisassembleRatio>
+	  <NavigationDefinition>Default</NavigationDefinition>
+	  <PCU>1</PCU>
+		<MirroringX>Y</MirroringX>
+		<MirroringY>X</MirroringY>
+	  <MirroringBlock>AQD_LG_ReinforcedConcrete_SlopeTransitionMirrored</MirroringBlock>
+	  <PCUConsole>2</PCUConsole>
+			<PhysicalMaterial>Rock</PhysicalMaterial>
+	</Definition>
+		<Definition>
+	  <Id>
+		<TypeId>CubeBlock</TypeId>
+		<SubtypeId>AQD_LG_ReinforcedConcrete_SlopeTransitionBase</SubtypeId>
+	  </Id>
+	  <DisplayName>DisplayName_AQD_LG_ReinforcedConcrete_SlopeTransitionBase</DisplayName>
+	  <Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinforcedConcrete_SlopeTransitionBase.dds</Icon>
+	  <Description>Description_AQD_ReinforcedConcrete_Block</Description>
+	  <CubeSize>Large</CubeSize>
+	  <BlockTopology>Cube</BlockTopology>
+	  <DeformationRatio>0.0</DeformationRatio>
+	  <Size x="1" y="1" z="1" />
+	  <ModelOffset x="0" y="0" z="0" />
+	  <CubeDefinition>
+		<CubeTopology>SlopeTransitionBase</CubeTopology>
+		<ShowEdges>true</ShowEdges>
+		<Sides>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_CornerTriangleLeftPlateCorner2TipBottom.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_CornerTriangleRightPlate.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_ArmorSlopeTransitionBaseTriangle.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_ArmorSlopeTransitionBaseTriangleTop.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlateSlope2BaseLeft.mwm" PatternWidth ="4" PatternHeight="2"/>
+			</Sides>
+	  </CubeDefinition>
+	  <Skeleton><!--SlopeTransitionBase-->
+		<BoneInfo>
+		  <BonePosition x="0" y="0" z="2" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="1" z="2" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="0" z="2" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="2" y="0" z="2" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="2" y="2" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="2" y="1" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="2" y="0" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="2" y="1" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="2" y="0" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="1" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="2" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="2" y="1" z="2" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="2" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="2" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="1" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="0" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="0" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="0" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="0" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="1" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="1" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+	  </Skeleton>
+	  <BuildProgressModels>
+		<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionBaseConstruction_1.mwm" />
+		<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionBaseConstruction_2.mwm" />
+		<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionBaseConstruction_3.mwm" />
+	  </BuildProgressModels>
+		<MountPoints>
+			<MountPoint EndX="0.0" EndY="0.0" Side="Bottom" StartX="1.0" StartY="1.0"/>
+			<MountPoint EndX="0.2" EndY="0.5" Side="Back" StartX="0.0" StartY="0.0"/>
+			<MountPoint EndX="0.8" EndY="0.4" Side="Back" StartX="0.2" StartY="0.0"/>
+			<MountPoint EndX="1.0" EndY="0.1" Side="Back" StartX="0.8" StartY="0.0"/>
+			<MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0" />
+			<MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="0.5" EndY="0.5" />
+			<MountPoint Side="Right" StartX="0.5" StartY="0.0" EndX="1.0" EndY="1.0" />
+			<MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="0.5" EndY="1.0" />
+			<MountPoint Side="Left" StartX="0.5" StartY="0.0" EndX="1.0" EndY="0.5" />
+		</MountPoints> 
+	  <Components>
+		<Component Subtype="AQD_Comp_Concrete" Count="75" />
+		<Component Subtype="MetalGrid" Count="35" />
+		<Component Subtype="AQD_Comp_Concrete" Count="20" />
+	  </Components>
+	  <CriticalComponent Subtype="AQD_Comp_Concrete" Index="0" />
+	  <Variants>
+		<Variant Color="Red" Suffix="_red" />
+		<Variant Color="Yellow" Suffix="_yellow" />
+		<Variant Color="Blue" Suffix="_blue" />
+		<Variant Color="Green" Suffix="_green" />
+		<Variant Color="Black" Suffix="_black" />
+		<Variant Color="White" Suffix="_white" />
+	  </Variants>
+	  <BlockPairName>AQD_ReinforcedConcrete_SlopeTransitionBase</BlockPairName>
+	  <PhysicsOption>Convex</PhysicsOption>
+	  <EdgeType>Heavy</EdgeType>
+	  <BuildTimeSeconds>15</BuildTimeSeconds>
+	  <DisassembleRatio>2.5</DisassembleRatio>
+	  <NavigationDefinition>Default</NavigationDefinition>
+	  <PCU>1</PCU>
+		<MirroringX>Y</MirroringX>
+		<MirroringY>X</MirroringY>
+		<MirroringBlock>AQD_LG_ReinforcedConcrete_SlopeTransitionBaseMirrored</MirroringBlock>
+	  <PCUConsole>2</PCUConsole>
+			<PhysicalMaterial>Rock</PhysicalMaterial>
+	</Definition>
+		<Definition>
+	  <Id>
+		<TypeId>CubeBlock</TypeId>
+		<SubtypeId>AQD_LG_ReinforcedConcrete_SlopeTransitionBaseMirrored</SubtypeId>
+	  </Id>
+	  <DisplayName>DisplayName_AQD_LG_ReinforcedConcrete_SlopeTransitionBaseMirrored</DisplayName>
+	  <Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinforcedConcrete_SlopeTransitionBaseMirrored.dds</Icon>
+	  <Description>Description_AQD_ReinforcedConcrete_Block</Description>
+	  <CubeSize>Large</CubeSize>
+	  <BlockTopology>Cube</BlockTopology>
+	  <Size x="1" y="1" z="1" />
+	  <DeformationRatio>0.0</DeformationRatio>
+	  <ModelOffset x="0" y="0" z="0" />
+	  <CubeDefinition>
+		<CubeTopology>SlopeTransitionBaseMirrored</CubeTopology>
+		<ShowEdges>true</ShowEdges>
+		<Sides>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_CornerTriangleLeftPlate.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_CornerTriangleRightPlateCorner2TipRight.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_ArmorSlopeTransitionBaseMirroredTriangle.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_ArmorSlopeTransitionBaseMirroredTriangleTop.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlateSlope2BaseRight.mwm" PatternWidth ="4" PatternHeight="2"/>
+			</Sides>
+	  </CubeDefinition>
+	  <Skeleton><!--SlopeTransitionBaseMirrored-->
+		<BoneInfo>
+		  <BonePosition x="0" y="1" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="0" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="1" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="2" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="0" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="0" z="2" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="2" y="1" z="2" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="2" y="0" z="2" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="0" z="2" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="1" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="2" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="1" z="2" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="2" y="2" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="2" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="2" y="1" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="2" y="0" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="0" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="0" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="2" y="0" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="1" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="2" y="1" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+	  </Skeleton>
+	  <BuildProgressModels>
+		<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionBaseMirroredConstruction_1.mwm" />
+		<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionBaseMirroredConstruction_2.mwm" />
+		<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionBaseMirroredConstruction_3.mwm" />
+	  </BuildProgressModels>
+		<MountPoints>
+			<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0" />
+			<MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.5" />
+			<MountPoint Side="Right" StartX="0.0" StartY="0.5" EndX="0.5" EndY="1.0" />
+			<MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0" />
+			<MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="0.2" EndY="0.1" />
+			<MountPoint Side="Front" StartX="0.2" StartY="0.0" EndX="0.8" EndY="0.4" />
+			<MountPoint Side="Front" StartX="0.8" StartY="0.0" EndX="1.0" EndY="0.5" />
+			<MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.5" />
+			<MountPoint Side="Left" StartX="0.5" StartY="0.5" EndX="1.0" EndY="1.0" />
+		</MountPoints>  
+	  <Components>
+		<Component Subtype="AQD_Comp_Concrete" Count="75" />
+		<Component Subtype="MetalGrid" Count="35" />
+		<Component Subtype="AQD_Comp_Concrete" Count="20" />
+	  </Components>
+	  <CriticalComponent Subtype="AQD_Comp_Concrete" Index="0" />
+	  <Variants>
+		<Variant Color="Red" Suffix="_red" />
+		<Variant Color="Yellow" Suffix="_yellow" />
+		<Variant Color="Blue" Suffix="_blue" />
+		<Variant Color="Green" Suffix="_green" />
+		<Variant Color="Black" Suffix="_black" />
+		<Variant Color="White" Suffix="_white" />
+	  </Variants>
+	  <BlockPairName>AQD_ReinforcedConcrete_SlopeTransitionBaseMirrored</BlockPairName>
+	  <PhysicsOption>Convex</PhysicsOption>
+	  <EdgeType>Heavy</EdgeType>
+	  <BuildTimeSeconds>15</BuildTimeSeconds>
+	  <DisassembleRatio>2.5</DisassembleRatio>
+	  <NavigationDefinition>Default</NavigationDefinition>
+	  <PCU>1</PCU>
+		<MirroringX>Y</MirroringX>
+		<MirroringY>X</MirroringY>
+	  <MirroringBlock>LargeBlockHeavyArmorSlopeTransitionBase</MirroringBlock>
+	  <PCUConsole>2</PCUConsole>
+			<PhysicalMaterial>Rock</PhysicalMaterial>
+	</Definition>
+		<Definition>
+	  <Id>
+		<TypeId>CubeBlock</TypeId>
+		<SubtypeId>AQD_LG_ReinforcedConcrete_SlopeTransitionMirrored</SubtypeId>
+	  </Id>
+	  <DisplayName>DisplayName_AQD_LG_ReinforcedConcrete_SlopeTransitionMirrored</DisplayName>
+	  <Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinforcedConcrete_SlopeTransitionMirrored.dds</Icon>
+	  <Description>Description_AQD_ReinforcedConcrete_Block</Description>
+	  <CubeSize>Large</CubeSize>
+	  <BlockTopology>Cube</BlockTopology>
+	  <DeformationRatio>0.0</DeformationRatio>
+	  <Size x="1" y="1" z="1" />
+	  <ModelOffset x="0" y="0" z="0" />
+	  <CubeDefinition>
+		<CubeTopology>SlopeTransitionMirrored</CubeTopology>
+		<ShowEdges>true</ShowEdges>
+		<Sides>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_CornerSquareINVLeft.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_CornerTriangleLeftPlateCorner2TipBottom.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_CornerTriangleRightPlate.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_ArmorSlopeTransitionMirroredTop.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlateSlope2BaseLeft.mwm" PatternWidth ="4" PatternHeight="2"/>
+			</Sides>
+	  </CubeDefinition>
+	  <Skeleton><!--SlopeTransitionMirrored-->
+		<BoneInfo>
+		  <BonePosition x="1" y="1" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="0" z="2" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="2" y="1" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="0" z="2" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="2" y="2" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="2" y="0" z="2" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="0" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="1" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="0" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="2" y="1" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="2" y="0" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="2" y="0" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="1" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="0" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="0" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+	  </Skeleton>
+	  <BuildProgressModels>
+		<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionMirroredConstruction_1.mwm" />
+		<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionMirroredConstruction_2.mwm" />
+		<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionMirroredConstruction_3.mwm" />
+	  </BuildProgressModels>
+		<MountPoints>
+			<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="1.0" EndY="1.0" />
+			<MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.5" />
+			<MountPoint Side="Back" StartX="0.0" StartY="0.5" EndX="0.5" EndY="1.0" />
+			<MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="0.2" EndY="0.5" />
+			<MountPoint Side="Right" StartX="0.2" StartY="0.0" EndX="0.8" EndY="0.4" />
+			<MountPoint Side="Right" StartX="0.8" StartY="0.0" EndX="1.0" EndY="0.1" />
+			<MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.5" />
+			<MountPoint Side="Left" StartX="0.5" StartY="0.5" EndX="1.0" EndY="1.0" />
+		</MountPoints>  
+	  <Components>
+		<Component Subtype="AQD_Comp_Concrete" Count="48" />
+		<Component Subtype="MetalGrid" Count="18" />
+		<Component Subtype="AQD_Comp_Concrete" Count="12" />
+	  </Components>
+	  <CriticalComponent Subtype="AQD_Comp_Concrete" Index="0" />
+	  <Variants>
+		<Variant Color="Red" Suffix="_red" />
+		<Variant Color="Yellow" Suffix="_yellow" />
+		<Variant Color="Blue" Suffix="_blue" />
+		<Variant Color="Green" Suffix="_green" />
+		<Variant Color="Black" Suffix="_black" />
+		<Variant Color="White" Suffix="_white" />
+	  </Variants>
+	  <BlockPairName>AQD_ReinforcedConcrete_SlopeTransitionMirrored</BlockPairName>
+	  <PhysicsOption>Convex</PhysicsOption>
+	  <EdgeType>Heavy</EdgeType>
+	  <BuildTimeSeconds>10</BuildTimeSeconds>
+	  <DisassembleRatio>2.5</DisassembleRatio>
+	  <NavigationDefinition>Default</NavigationDefinition>
+	  <PCU>1</PCU>
+		<MirroringX>Y</MirroringX>
+		<MirroringY>X</MirroringY>
+		<MirroringBlock>LargeBlockHeavyArmorSlopeTransition</MirroringBlock>
+	  <PCUConsole>2</PCUConsole>
+			<PhysicalMaterial>Rock</PhysicalMaterial>
+	</Definition>
+		<Definition>
+	  <Id>
+		<TypeId>CubeBlock</TypeId>
+		<SubtypeId>AQD_LG_ReinforcedConcrete_SlopeTransitionTip</SubtypeId>
+	  </Id>
+	  <DisplayName>DisplayName_AQD_LG_ReinforcedConcrete_SlopeTransitionTip</DisplayName>
+	  <Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinforcedConcrete_SlopeTransitionTip.dds</Icon>
+	  <Description>Description_AQD_ReinforcedConcrete_Block</Description>
+	  <CubeSize>Large</CubeSize>
+	  <BlockTopology>Cube</BlockTopology>
+	  <DeformationRatio>0.0</DeformationRatio>
+	  <Size x="1" y="1" z="1" />
+	  <ModelOffset x="0" y="0" z="0" />
+	  <CubeDefinition>
+		<CubeTopology>SlopeTransitionTip</CubeTopology>
+		<ShowEdges>true</ShowEdges>
+		<Sides>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_CornerTriangleLeftPlateCorner2TipBottom.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_CornerTriangleRightPlateCorner2Base.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_ArmorSlopeTransitionTipTriangleFront.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_ArmorSlopeTransitionTipTriangleTop.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlateSlope2BaseFront.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlateSlope2BaseLeft.mwm" PatternWidth ="4" PatternHeight="2"/>
+			</Sides>
+	  </CubeDefinition>
+	  <Skeleton><!--SlopeTransitionTip-->
+		<BoneInfo>
+		  <BonePosition x="0" y="0" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="1" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="0" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="0" z="2" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="2" y="1" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="2" y="0" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="2" y="0" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="2" y="1" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="1" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="0" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="1" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="0" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+	  </Skeleton>
+	  <BuildProgressModels>
+		<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionTipConstruction_1.mwm" />
+		<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionTipConstruction_2.mwm" />
+		<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionTipConstruction_3.mwm" />
+	  </BuildProgressModels>
+		<MountPoints>
+			<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="0.5" EndY="1.0" />
+			<MountPoint Side="Bottom" StartX="0.5" StartY="0.0" EndX="1.0" EndY="0.5" />
+			<MountPoint Side="Right" StartX="0.5" StartY="0.0" EndX="1.0" EndY="0.5" />
+			<MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.5" />
+			<MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="0.2" EndY="0.5" />
+			<MountPoint Side="Left" StartX="0.2" StartY="0.0" EndX="0.8" EndY="0.4" />
+			<MountPoint Side="Left" StartX="0.8" StartY="0.0" EndX="1.0" EndY="0.1" />
+		</MountPoints>  
+	  <Components>
+		<Component Subtype="AQD_Comp_Concrete" Count="25" />
+		<Component Subtype="MetalGrid" Count="9" />
+		<Component Subtype="AQD_Comp_Concrete" Count="5" />
+	  </Components>
+	  <CriticalComponent Subtype="AQD_Comp_Concrete" Index="0" />
+	  <Variants>
+		<Variant Color="Red" Suffix="_red" />
+		<Variant Color="Yellow" Suffix="_yellow" />
+		<Variant Color="Blue" Suffix="_blue" />
+		<Variant Color="Green" Suffix="_green" />
+		<Variant Color="Black" Suffix="_black" />
+		<Variant Color="White" Suffix="_white" />
+	  </Variants>
+	  <BlockPairName>AQD_ReinforcedConcrete_SlopeTransitionTip</BlockPairName>
+	  <PhysicsOption>Convex</PhysicsOption>
+	  <EdgeType>Heavy</EdgeType>
+	  <BuildTimeSeconds>5</BuildTimeSeconds>
+	  <DisassembleRatio>2.5</DisassembleRatio>
+	  <NavigationDefinition>Default</NavigationDefinition>
+	  <PCU>1</PCU>
+		<MirroringBlock>AQD_LG_ReinforcedConcrete_SlopeTransitionTipMirrored</MirroringBlock>
+		<MirroringX>Y</MirroringX>
+		<MirroringY>X</MirroringY>
+	  <PCUConsole>2</PCUConsole>
+			<PhysicalMaterial>Rock</PhysicalMaterial>
+	  <IsAirTight>false</IsAirTight>
+	</Definition>
+		<Definition>
+	  <Id>
+		<TypeId>CubeBlock</TypeId>
+		<SubtypeId>AQD_LG_ReinforcedConcrete_SlopeTransitionTipMirrored</SubtypeId>
+	  </Id>
+	  <DisplayName>DisplayName_AQD_LG_ReinforcedConcrete_SlopeTransitionTipMirrored</DisplayName>
+	  <Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinforcedConcrete_SlopeTransitionTipMirrored.dds</Icon>
+	  <Description>Description_AQD_ReinforcedConcrete_Block</Description>
+	  <CubeSize>Large</CubeSize>
+	  <BlockTopology>Cube</BlockTopology>
+	  <DeformationRatio>0.0</DeformationRatio>
+	  <Size x="1" y="1" z="1" />
+	  <ModelOffset x="0" y="0" z="0" />
+	  <CubeDefinition>
+		<CubeTopology>SlopeTransitionTipMirrored</CubeTopology>
+		<ShowEdges>true</ShowEdges>
+		<Sides>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_CornerTriangleLeftPlateCorner2TipFront.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_CornerTriangleRightPlateCorner2TipRight.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_ArmorSlopeTransitionTipMirroredTriangleFront.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_ArmorSlopeTransitionTipMirroredTriangleTop.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlateSlope2BaseFront.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlateSlope2BaseRight.mwm" PatternWidth ="4" PatternHeight="2"/>
+			</Sides>
+	  </CubeDefinition>
+	  <Skeleton><!--SlopeTransitionTipMirrored-->
+		<BoneInfo>
+		  <BonePosition x="0" y="0" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="1" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="0" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="1" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="2" y="1" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="2" y="0" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="2" y="0" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="2" y="0" z="2" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="1" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="0" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="1" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="0" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+	  </Skeleton>
+	  <BuildProgressModels>
+		<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionTipMirroredConstruction_1.mwm" />
+		<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionTipMirroredConstruction_2.mwm" />
+		<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\LightArmorSlopeTransitionTipMirroredConstruction_3.mwm" />
+	  </BuildProgressModels>
+		<MountPoints>
+			<MountPoint Side="Bottom" StartX="0.0" StartY="0.0" EndX="0.5" EndY="0.5" />
+			<MountPoint Side="Bottom" StartX="0.0" StartY="0.5" EndX="1.0" EndY="1.0" />
+			<MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="0.5" EndY="0.5" />
+			<MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.5" />
+			<MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="0.2" EndY="0.1" />
+			<MountPoint Side="Left" StartX="0.2" StartY="0.0" EndX="0.8" EndY="0.4" />
+			<MountPoint Side="Left" StartX="0.8" StartY="0.0" EndX="1.0" EndY="0.5" />
+		</MountPoints>	
+	  <Components>
+		<Component Subtype="AQD_Comp_Concrete" Count="25" />
+		<Component Subtype="MetalGrid" Count="9" />
+		<Component Subtype="AQD_Comp_Concrete" Count="5" />
+	  </Components>
+	  <CriticalComponent Subtype="AQD_Comp_Concrete" Index="0" />
+	  <Variants>
+		<Variant Color="Red" Suffix="_red" />
+		<Variant Color="Yellow" Suffix="_yellow" />
+		<Variant Color="Blue" Suffix="_blue" />
+		<Variant Color="Green" Suffix="_green" />
+		<Variant Color="Black" Suffix="_black" />
+		<Variant Color="White" Suffix="_white" />
+	  </Variants>
+	  <BlockPairName>AQD_ReinforcedConcrete_SlopeTransitionTipMirrored</BlockPairName>
+	  <PhysicsOption>Convex</PhysicsOption>
+	  <EdgeType>Heavy</EdgeType>
+	  <BuildTimeSeconds>5</BuildTimeSeconds>
+	  <DisassembleRatio>2.5</DisassembleRatio>
+	  <NavigationDefinition>Default</NavigationDefinition>
+	  <PCU>1</PCU>
+		<MirroringBlock>LargeBlockHeavyArmorSlopeTransitionTip</MirroringBlock>
+		<MirroringX>Y</MirroringX>
+		<MirroringY>X</MirroringY>
+	  <PCUConsole>2</PCUConsole>
+			<PhysicalMaterial>Rock</PhysicalMaterial>
+	  <IsAirTight>false</IsAirTight>
+	</Definition>
+		<Definition>
+	  <Id>
+		<TypeId>CubeBlock</TypeId>
+		<SubtypeId>AQD_LG_ReinforcedConcrete_SquareSlopedCornerBase</SubtypeId>
+	  </Id>
+	  <DisplayName>DisplayName_AQD_LG_ReinforcedConcrete_SquareSlopedCornerBase</DisplayName>
+	  <Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinforcedConcrete_SquareSlopedCornerBase.dds</Icon>
+	  <Description>Description_AQD_ReinforcedConcrete_Block</Description>
+	  <CubeSize>Large</CubeSize>
+	  <BlockTopology>Cube</BlockTopology>
+	  <DeformationRatio>0.0</DeformationRatio>
+	  <Size x="1" y="1" z="1" />
+	  <ModelOffset x="0" y="0" z="0" />
+	  <CubeDefinition>
+		<CubeTopology>SquareSlopedCornerBase</CubeTopology>
+		<ShowEdges>true</ShowEdges>
+		<Sides>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_ArmorSquareSlopedCornerBaseTop.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_ArmorSquareSlopedCornerBaseTopRight.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlateSlope2BaseFront.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlateSlope2BaseFront.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlateSlope2BaseLeft.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlateSlope2BaseRight.mwm" PatternWidth ="4" PatternHeight="2"/>
+			</Sides>
+	  </CubeDefinition>
+	  <Skeleton><!--SquareSlopedCornerBase-->
+		<BoneInfo>
+		  <BonePosition x="2" y="1" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="2" y="1" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="2" y="1" z="2" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="2" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="1" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="1" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="2" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="1" z="2" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="1" z="2" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="1" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="2" y="0" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="2" y="0" z="2" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="0" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="0" z="2" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="0" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="0" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="0" z="2" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="0" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="2" y="0" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="1" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+	  </Skeleton>
+	  <BuildProgressModels>
+		<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\LightArmorSquareSlopedCornerBaseConstruction_1.mwm" />
+		<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\LightArmorSquareSlopedCornerBaseConstruction_2.mwm" />
+		<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\LightArmorSquareSlopedCornerBaseConstruction_3.mwm" />
+	  </BuildProgressModels>
+		<MountPoints>
+			<MountPoint Side="Right" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.5" />
+			<MountPoint Side="Left" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.5" />
+			<MountPoint Side="Left" StartX="0.2" StartY="0.5" EndX="0.8" EndY="0.8" />
+			<MountPoint Side="Left" StartX="0.0" StartY="0.5" EndX="0.2" EndY="1.0" />
+			<MountPoint Side="Front" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.5" />
+			<MountPoint Side="Front" StartX="0.2" StartY="0.5" EndX="0.8" EndY="0.8" />
+			<MountPoint Side="Front" StartX="0.8" StartY="0.5" EndX="1.0" EndY="1.0" />
+			<MountPoint Side="Bottom" StartX="1.0" StartY="1.0" EndX="0.0" EndY="0.0" />
+			<MountPoint Side="Back" StartX="0.0" StartY="0.0" EndX="1.0" EndY="0.5" />
+		</MountPoints>
+	  <Components>
+		<Component Subtype="AQD_Comp_Concrete" Count="85" />
+		<Component Subtype="MetalGrid" Count="35" />
+		<Component Subtype="AQD_Comp_Concrete" Count="20" />
+	  </Components>
+	  <CriticalComponent Subtype="AQD_Comp_Concrete" Index="0" />
+	  <Variants>
+		<Variant Color="Red" Suffix="_red" />
+		<Variant Color="Yellow" Suffix="_yellow" />
+		<Variant Color="Blue" Suffix="_blue" />
+		<Variant Color="Green" Suffix="_green" />
+		<Variant Color="Black" Suffix="_black" />
+		<Variant Color="White" Suffix="_white" />
+	  </Variants>
+	  <BlockPairName>AQD_ReinforcedConcrete_SquareSlopedCornerBase</BlockPairName>
+	  <PhysicsOption>Convex</PhysicsOption>
+	  <EdgeType>Heavy</EdgeType>
+	  <BuildTimeSeconds>15</BuildTimeSeconds>
+	  <DisassembleRatio>2.5</DisassembleRatio>
+	  <NavigationDefinition>Default</NavigationDefinition>
+	  <PCU>1</PCU>
+	  <MirroringX>YHalfY</MirroringX>
+	  <MirroringY>XHalfY</MirroringY>
+	  <MirroringZ>MinusHalfY</MirroringZ>
+	  <PCUConsole>2</PCUConsole>
+			<PhysicalMaterial>Rock</PhysicalMaterial>
+	</Definition>
+		<Definition>
+	  <Id>
+		<TypeId>CubeBlock</TypeId>
+		<SubtypeId>AQD_LG_ReinforcedConcrete_SquareSlopedCornerTip</SubtypeId>
+	  </Id>
+	  <DisplayName>DisplayName_AQD_LG_ReinforcedConcrete_SquareSlopedCornerTip</DisplayName>
+	  <Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinforcedConcrete_SquareSlopedCornerTip.dds</Icon>
+	  <Description>Description_AQD_ReinforcedConcrete_Block</Description>
+	  <CubeSize>Large</CubeSize>
+	  <BlockTopology>Cube</BlockTopology>
+	  <DeformationRatio>0.0</DeformationRatio>
+	  <Size x="1" y="1" z="1" />
+	  <ModelOffset x="0" y="0" z="0" />
+	  <CubeDefinition>
+		<CubeTopology>SquareSlopedCornerTip</CubeTopology>
+		<ShowEdges>true</ShowEdges>
+		<Sides>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_ArmorSquareSlopedCornerTipTop.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_ArmorSquareSlopedCornerTipTopRight.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SlopedCornerTipLeft.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SlopedCornerTipRight.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/>
+			</Sides>
+	  </CubeDefinition>
+	  <Skeleton><!--SquareSlopedCornerTip-->
+		<BoneInfo>
+		  <BonePosition x="1" y="0" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="2" y="0" z="2" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="1" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="1" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="1" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="2" y="0" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="2" y="0" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="0" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="1" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="0" z="2" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="0" z="2" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="0" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="0" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+	  </Skeleton>
+	  <BuildProgressModels>
+		<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\LightArmorSquareSlopedCornerTipConstruction_1.mwm" />
+		<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\LightArmorSquareSlopedCornerTipConstruction_2.mwm" />
+		<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\LightArmorSquareSlopedCornerTipConstruction_3.mwm" />
+	  </BuildProgressModels>
+		<MountPoints>
+			<MountPoint EndX="0.0" EndY="0.0" Side="Bottom" StartX="1.0" StartY="1.0"/>
+			<MountPoint EndX="0.2" EndY="0.5" Side="Left" StartX="0.0" StartY="0.0"/>
+			<MountPoint EndX="0.8" EndY="0.4" Side="Left" StartX="0.2" StartY="0.0"/>
+			<MountPoint EndX="1.0" EndY="0.1" Side="Left" StartX="0.8" StartY="0.0"/>
+			<MountPoint EndX="0.2" EndY="0.1" Side="Front" StartX="0.0" StartY="0.0"/>
+			<MountPoint EndX="0.8" EndY="0.4" Side="Front" StartX="0.2" StartY="0.0"/>
+			<MountPoint EndX="1.0" EndY="0.5" Side="Front" StartX="0.8" StartY="0.0"/>
+		</MountPoints>	
+	  <Components>
+		<Component Subtype="AQD_Comp_Concrete" Count="25" />
+		<Component Subtype="MetalGrid" Count="9" />
+		<Component Subtype="AQD_Comp_Concrete" Count="5" />
+	  </Components>
+	  <CriticalComponent Subtype="AQD_Comp_Concrete" Index="0" />
+	  <Variants>
+		<Variant Color="Red" Suffix="_red" />
+		<Variant Color="Yellow" Suffix="_yellow" />
+		<Variant Color="Blue" Suffix="_blue" />
+		<Variant Color="Green" Suffix="_green" />
+		<Variant Color="Black" Suffix="_black" />
+		<Variant Color="White" Suffix="_white" />
+	  </Variants>
+	  <BlockPairName>AQD_ReinforcedConcrete_SquareSlopedCornerTip</BlockPairName>
+	  <PhysicsOption>Convex</PhysicsOption>
+	  <EdgeType>Heavy</EdgeType>
+	  <BuildTimeSeconds>5</BuildTimeSeconds>
+	  <DisassembleRatio>2.5</DisassembleRatio>
+	  <NavigationDefinition>Default</NavigationDefinition>
+	  <PCU>1</PCU>
+	  <MirroringX>YHalfY</MirroringX>
+	  <MirroringY>XHalfY</MirroringY>
+	  <MirroringZ>MinusHalfY</MirroringZ>
+	  <PCUConsole>2</PCUConsole>
+			<PhysicalMaterial>Rock</PhysicalMaterial>
+	</Definition>
+		<Definition>
+	  <Id>
+		<TypeId>CubeBlock</TypeId>
+		<SubtypeId>AQD_LG_ReinforcedConcrete_SquareSlopedCornerTipInv</SubtypeId>
+	  </Id>
+	  <DisplayName>DisplayName_AQD_LG_ReinforcedConcrete_SquareSlopedCornerTipInv</DisplayName>
+	  <Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinforcedConcrete_SquareSlopedCornerTipInv.dds</Icon>
+	  <Description>Description_AQD_ReinforcedConcrete_Block</Description>
+	  <CubeSize>Large</CubeSize>
+	  <BlockTopology>Cube</BlockTopology>
+	  <DeformationRatio>0.0</DeformationRatio>
+	  <Size x="1" y="1" z="1" />
+	  <ModelOffset x="0" y="0" z="0" />
+	  <CubeDefinition>
+		<CubeTopology>SquareSlopedCornerTipInv</CubeTopology>
+		<ShowEdges>true</ShowEdges>
+		<Sides>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_ArmorSquareSlopedCornerTipInvTop.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_ArmorSquareSlopedCornerTipInvTopRight.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SlopedCornerTipLeft.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SlopedCornerTipRight.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlateSlope2BaseFront.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlateSlope2BaseFront.mwm" PatternWidth ="4" PatternHeight="2"/>
+			</Sides>
+	  </CubeDefinition>
+	  <Skeleton><!--SquareSlopedCornerTipInv-->
+		<BoneInfo>
+		  <BonePosition x="2" y="0" z="2" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="2" y="0" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="1" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="2" y="1" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="1" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="1" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="2" y="1" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="0" z="2" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="1" z="2" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="1" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="1" z="2" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="0" z="2" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="2" y="0" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="0" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="0" z="0" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="1" y="0" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+		<BoneInfo>
+		  <BonePosition x="0" y="0" z="1" />
+		  <BoneOffset x="127" y="127" z="127" />
+		</BoneInfo>
+	  </Skeleton>
+	  <BuildProgressModels>
+		<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\LightArmorSquareSlopedCornerTipInvConstruction_1.mwm" />
+		<Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\LightArmorSquareSlopedCornerTipInvConstruction_2.mwm" />
+		<Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\LightArmorSquareSlopedCornerTipInvConstruction_3.mwm" />
+	  </BuildProgressModels>
+		<MountPoints>
+			<MountPoint EndX="0.0" EndY="0.0" Side="Bottom" StartX="1.0" StartY="1.0"/>
+			<MountPoint EndX="0.2" EndY="0.5" Side="Back" StartX="0.0" StartY="0.0"/>
+			<MountPoint EndX="0.8" EndY="0.4" Side="Back" StartX="0.2" StartY="0.0"/>
+			<MountPoint EndX="1.0" EndY="0.1" Side="Back" StartX="0.8" StartY="0.0"/>
+			<MountPoint EndX="0.2" EndY="0.1" Side="Right" StartX="0.0" StartY="0.0"/>
+			<MountPoint EndX="0.8" EndY="0.4" Side="Right" StartX="0.2" StartY="0.0"/>
+			<MountPoint EndX="1.0" EndY="0.5" Side="Right" StartX="0.8" StartY="0.0"/>
+			<MountPoint EndX="1.0" EndY="0.5" Side="Front" StartX="0.0" StartY="0.0"/>
+			<MountPoint EndX="1.0" EndY="0.5" Side="Left" StartX="0.0" StartY="0.0"/>
+		</MountPoints>
+	  <Components>
+		<Component Subtype="AQD_Comp_Concrete" Count="45" />
+		<Component Subtype="MetalGrid" Count="18" />
+		<Component Subtype="AQD_Comp_Concrete" Count="10" />
+	  </Components>
+	  <CriticalComponent Subtype="AQD_Comp_Concrete" Index="0" />
+	  <Variants>
+		<Variant Color="Red" Suffix="_red" />
+		<Variant Color="Yellow" Suffix="_yellow" />
+		<Variant Color="Blue" Suffix="_blue" />
+		<Variant Color="Green" Suffix="_green" />
+		<Variant Color="Black" Suffix="_black" />
+		<Variant Color="White" Suffix="_white" />
+	  </Variants>
+	  <BlockPairName>AQD_ReinforcedConcrete_SquareSlopedCornerTipInv</BlockPairName>
+	  <PhysicsOption>Convex</PhysicsOption>
+	  <EdgeType>Heavy</EdgeType>
+	  <BuildTimeSeconds>8</BuildTimeSeconds>
+	  <DisassembleRatio>2.5</DisassembleRatio>
+	  <NavigationDefinition>Default</NavigationDefinition>
+	  <PCU>1</PCU>
+	  <MirroringX>YHalfY</MirroringX>
+	  <MirroringY>XHalfY</MirroringY>
+	  <MirroringZ>MinusHalfY</MirroringZ>
+	  <PCUConsole>2</PCUConsole>
+			<PhysicalMaterial>Rock</PhysicalMaterial>
+	</Definition>
+		
+	</CubeBlocks>
+</Definitions>

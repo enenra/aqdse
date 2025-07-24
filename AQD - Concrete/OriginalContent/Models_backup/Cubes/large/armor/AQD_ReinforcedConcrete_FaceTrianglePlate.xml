@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<Model Name="AQD_Concrete_FaceTrianglePlate">
+	<BoneGridSize>2.5</BoneGridSize>
+	<BoneMapping>
+		<Bone X="0" Y="0" Z="0" />
+		<Bone X="2" Y="2" Z="0" />
+		<Bone X="2" Y="0" Z="2" />
+		<Bone X="1" Y="0" Z="1" />
+		<Bone X="1" Y="1" Z="0" />
+		<Bone X="2" Y="1" Z="1" />
+	</BoneMapping>
+  <Parameter Name="Centered">False</Parameter>
+  <Parameter Name="RotationY">0</Parameter>
+  <Parameter Name="RescaleFactor">0.001</Parameter>
+  <Parameter Name="RescaleToLengthInMeters">False</Parameter>
+  <Parameter Name="LengthInMeters">1.8</Parameter>
+	<Material Name="Concrete_Armor">
+		<Parameter Name="Technique">MESH</Parameter>
+		<Parameter Name="ColorMetalTexture">Textures\Models\Cubes\armor\Skins\Concrete\large_heavy_square_plate_cm.dds</Parameter>
+		<Parameter Name="NormalGlossTexture">Textures\Models\Cubes\armor\Skins\Concrete\large_heavy_square_plate_ng.dds</Parameter>
+		<Parameter Name="AddMapsTexture">Textures\Models\Cubes\armor\Skins\Concrete\large_heavy_square_plate_add.dds</Parameter>
+	</Material>
+</Model>
