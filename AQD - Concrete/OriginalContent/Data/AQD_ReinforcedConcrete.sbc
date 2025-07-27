@@ -17,12 +17,12 @@
 				<CubeTopology>Box</CubeTopology>
 				<ShowEdges>true</ShowEdges>
 				<Sides>
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
 			</Sides>
 			</CubeDefinition>
 			<Components>
@@ -182,11 +182,11 @@
 				<CubeTopology>Slope</CubeTopology>
 				<ShowEdges>true</ShowEdges>
 				<Sides>
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SlopePlate.mwm" ScaleTileV = "3" PatternWidth="4" PatternHeight="4" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_CornerLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_CornerRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\RC_SlopePlate.mwm" ScaleTileV = "3" PatternWidth="4" PatternHeight="4" />
+					<Side Model="Models\Cubes\Large\Armor\RC_CornerLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_CornerRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
 			</Sides>
 			</CubeDefinition>
 			<Components>
@@ -311,10 +311,10 @@
 				<CubeTopology>Corner</CubeTopology>
 				<ShowEdges>true</ShowEdges>
 				<Sides>
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_CornerLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_CornerRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_FacePlate.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_CornerLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_CornerLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_CornerRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_FacePlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_CornerLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
 			</Sides>
 			</CubeDefinition>
 			<Components>
@@ -409,13 +409,13 @@
 				<CubeTopology>InvCorner</CubeTopology>
 				<ShowEdges>true</ShowEdges>
 				<Sides>
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_InvFacePlate.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_CornerRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_CornerLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_CornerLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\RC_InvFacePlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_CornerRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_CornerLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_CornerLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
 			</Sides>
 			</CubeDefinition>
 			<Components>
@@ -563,12 +563,12 @@
 				<CubeTopology>HalfBox</CubeTopology>
 				<ShowEdges>true</ShowEdges>
 				<Sides>
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlateSlope2BaseFront.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlateCenter.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlateSlope2BaseFront.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlateSlope2BaseFront.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlateSlope2BaseFront.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlateSlope2BaseFront.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlateCenter.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlateSlope2BaseFront.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlateSlope2BaseFront.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlateSlope2BaseFront.mwm" PatternWidth="1" PatternHeight="1" />
 			</Sides>
 			</CubeDefinition>
 			<GuiVisible>false</GuiVisible>
@@ -729,11 +729,11 @@
 				<CubeTopology>HalfSlopeBox</CubeTopology>
 				<ShowEdges>true</ShowEdges>
 				<Sides>
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlateSlope2BaseFront.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SlopePlateSlab.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_CornerTriangleLeftPlateCorner2TipFront.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlateSlope2BaseFront.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_CornerTriangleLeftPlateCorner2TipFront.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlateSlope2BaseFront.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_SlopePlateSlab.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_CorTriLeftPlateCorner2TipFront.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlateSlope2BaseFront.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_CorTriLeftPlateCorner2TipFront.mwm" PatternWidth="1" PatternHeight="1" />
 			</Sides>
 			</CubeDefinition>
 			<GuiVisible>false</GuiVisible>
@@ -894,11 +894,11 @@
 				<CubeTopology>RoundSlope</CubeTopology>
 				<ShowEdges>true</ShowEdges>
 				<Sides>
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SlopeRoundPlate.mwm" PatternWidth="16" PatternHeight="8" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_CornerRoundTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_CornerRoundTriangleRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\RC_SlopeRoundPlate.mwm" PatternWidth="16" PatternHeight="8" />
+					<Side Model="Models\Cubes\Large\Armor\RC_CornerRoundTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_CornerRoundTriangleRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
 			</Sides>
 			</CubeDefinition>
 			<Components>
@@ -1023,10 +1023,10 @@
 				<CubeTopology>RoundCorner</CubeTopology>
 				<ShowEdges>true</ShowEdges>
 				<Sides>
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_CornerRoundTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_CornerRoundTriangleRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_FaceRoundTrianglePlate.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_CornerRoundTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_CornerRoundTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_CornerRoundTriangleRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_FaceRoundTrianglePlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_CornerRoundTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
 			</Sides>
 			</CubeDefinition>
 			<Components>
@@ -1121,13 +1121,13 @@
 				<CubeTopology>RoundInvCorner</CubeTopology>
 				<ShowEdges>true</ShowEdges>
 				<Sides>
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_CornerRoundTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_CornerRoundTriangleRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_CornerRoundTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_InvFaceRoundTrianglePlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_CornerRoundTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_CornerRoundTriangleRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_CornerRoundTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\RC_InvFaceRoundTrianglePlate.mwm" PatternWidth="1" PatternHeight="1" />
 			</Sides>
 			</CubeDefinition>
 			<Components>
@@ -1275,12 +1275,12 @@
 				<CubeTopology>Slope2Base</CubeTopology>
 				<ShowEdges>true</ShowEdges>
 				<Sides>
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlateSlope2BaseTop.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlateSlope2BaseFront.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlateSlope2BaseRight.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlateSlope2BaseLeft.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlateSlope2BaseTop.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlateSlope2BaseFront.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlateSlope2BaseRight.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlateSlope2BaseLeft.mwm" PatternWidth="1" PatternHeight="1" />
 			</Sides>
 			</CubeDefinition>
 			<Components>
@@ -1442,11 +1442,11 @@
 				<CubeTopology>Slope2Tip</CubeTopology>
 				<ShowEdges>true</ShowEdges>
 				<Sides>
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SlopePlateSlope2Tip.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_CornerTriangleLeftPlateSlope2Tip.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_CornerTriangleRightPlateSlope2Tip.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlateSlope2TipBack.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_SlopePlateSlope2Tip.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\RC_CorTriLeftPlateSlope2Tip.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_CorTriRightPlateSlope2Tip.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlateSlope2TipBack.mwm" PatternWidth="1" PatternHeight="1" />
 			</Sides>
 			</CubeDefinition>
 			<Components>
@@ -1572,11 +1572,11 @@
 				<CubeTopology>Corner2Base</CubeTopology>
 				<ShowEdges>true</ShowEdges>
 				<Sides>
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SlopePlateCorner2BaseTop.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_CornerLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_CornerTriangleRightPlateCorner2Base.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlateCorner2BaseBottom.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlateCorner2BaseBack.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\RC_SlopePlateCorner2BaseTop.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\RC_CornerLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_CorTriRightPlateCorner2Base.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlateCorner2BaseBottom.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlateCorner2BaseBack.mwm" PatternWidth="4" PatternHeight="2" />
 			</Sides>
 			</CubeDefinition>
 			<Components>
@@ -1704,10 +1704,10 @@
 				<CubeTopology>Corner2Tip</CubeTopology>
 				<ShowEdges>true</ShowEdges>
 				<Sides>
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_CornerTriangleLeftPlateCorner2TipFront.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_CornerTriangleRightPlateCorner2TipRight.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_FaceTrianglePlateCorner2Tip.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_CornerTriangleLeftPlateCorner2TipBottom.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_CorTriLeftPlateCorner2TipFront.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_CorTriRightPlateCorner2TipRight.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_FaceTrianglePlateCorner2Tip.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_CorTriLeftPlateCorner2TipBottom.mwm" PatternWidth="1" PatternHeight="1" />
 			</Sides>
 			</CubeDefinition>
 			<Components>
@@ -1802,13 +1802,13 @@
 				<CubeTopology>InvCorner2Base</CubeTopology>
 				<ShowEdges>true</ShowEdges>
 				<Sides>
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_InvFaceTrianglePlateInvCorner2Base.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_CornerTriangleRightPlateInvCorner2BaseRight.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_CornerTriangleLeftPlateInvCorner2BaseFront.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_CornerTriangleLeftPlateInvCorner2BaseBottom.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\RC_InvFaceTrianglePlateInvCorner2Base.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_CorTriRightPlateInvCorner2BaseRight.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_CorTriLeftPlateInvCorner2BaseFront.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_CorTriLeftPlateInvCorner2BaseBottom.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
 			</Sides>
 			</CubeDefinition>
 			<Components>
@@ -1958,13 +1958,13 @@
 				<CubeTopology>InvCorner2Tip</CubeTopology>
 				<ShowEdges>true</ShowEdges>
 				<Sides>
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_InvFaceTrianglePlateInvCorner2Tip.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_CornerTriangleRightPlateInvCorner2TipRight.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_CornerTriangleLeftPlateInvCorner2TipFront.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_CornerTriangleLeftPlateInvCorner2TipBottom.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_ReinforcedConcrete_SquarePlateInvCorner2TipBack.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\RC_InvFaceTrianglePlateInvCorner2Tip.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_CorTriRightPlateInvCorner2TipRight.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_CorTriLeftPlateInvCorner2TipFront.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_CorTriLeftPlateInvCorner2TipBottom.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlateInvCorner2TipBack.mwm" PatternWidth="4" PatternHeight="2" />
 			</Sides>
 			</CubeDefinition>
 			<Components>

@@ -17,12 +17,12 @@
 				<CubeTopology>Box</CubeTopology>
 				<ShowEdges>true</ShowEdges>
 				<Sides>
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\C_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\C_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\C_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\C_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\C_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\C_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
 			</Sides>
 			</CubeDefinition>
 			<Components>
@@ -173,11 +173,11 @@
 				<CubeTopology>Slope</CubeTopology>
 				<ShowEdges>true</ShowEdges>
 				<Sides>
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_SlopePlate.mwm" ScaleTileV = "3" PatternWidth="4" PatternHeight="4" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_CornerTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_CornerTriangleRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\C_SlopePlate.mwm" ScaleTileV = "3" PatternWidth="4" PatternHeight="4" />
+					<Side Model="Models\Cubes\Large\Armor\C_CorTriLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\C_CorTriRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\C_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\C_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
 			</Sides>
 			</CubeDefinition>
 			<Components>
@@ -301,10 +301,10 @@
 				<CubeTopology>Corner</CubeTopology>
 				<ShowEdges>true</ShowEdges>
 				<Sides>
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_CornerTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_CornerTriangleRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_FaceTrianglePlate.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_CornerTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\C_CorTriLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\C_CorTriRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\C_FaceTrianglePlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\C_CorTriLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
 			</Sides>
 			</CubeDefinition>
 			<Components>
@@ -398,13 +398,13 @@
 				<CubeTopology>InvCorner</CubeTopology>
 				<ShowEdges>true</ShowEdges>
 				<Sides>
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_InvFaceTrianglePlate.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_CornerTriangleRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_CornerTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_CornerTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\C_InvFaceTrianglePlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\C_CorTriRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\C_CorTriLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\C_CorTriLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\C_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\C_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\C_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
 			</Sides>
 			</CubeDefinition>
 			<Components>
@@ -551,12 +551,12 @@
 				<CubeTopology>HalfBox</CubeTopology>
 				<ShowEdges>true</ShowEdges>
 				<Sides>
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_SquarePlateSlope2BaseFront.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_SquarePlateCenter.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_SquarePlateSlope2BaseFront.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_SquarePlateSlope2BaseFront.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_SquarePlateSlope2BaseFront.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\C_SquarePlateSlope2BaseFront.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\C_SquarePlateCenter.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\C_SquarePlateSlope2BaseFront.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\C_SquarePlateSlope2BaseFront.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\C_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\C_SquarePlateSlope2BaseFront.mwm" PatternWidth="1" PatternHeight="1" />
 			</Sides>
 			</CubeDefinition>
 			<GuiVisible>false</GuiVisible>
@@ -716,11 +716,11 @@
 				<CubeTopology>HalfSlopeBox</CubeTopology>
 				<ShowEdges>true</ShowEdges>
 				<Sides>
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_SquarePlateSlope2BaseFront.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_SlopePlateSlab.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_CornerTriangleLeftPlateCorner2TipFront.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_SquarePlateSlope2BaseFront.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_CornerTriangleLeftPlateCorner2TipFront.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\C_SquarePlateSlope2BaseFront.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\C_SlopePlateSlab.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\C_CorTriLeftPlateCorner2TipFront.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\C_SquarePlateSlope2BaseFront.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\C_CorTriLeftPlateCorner2TipFront.mwm" PatternWidth="1" PatternHeight="1" />
 			</Sides>
 			</CubeDefinition>
 			<GuiVisible>false</GuiVisible>
@@ -880,11 +880,11 @@
 				<CubeTopology>RoundSlope</CubeTopology>
 				<ShowEdges>true</ShowEdges>
 				<Sides>
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_SlopeRoundPlate.mwm" PatternWidth="16" PatternHeight="8" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_CornerRoundTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_CornerRoundTriangleRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\C_SlopeRoundPlate.mwm" PatternWidth="16" PatternHeight="8" />
+					<Side Model="Models\Cubes\Large\Armor\C_CornerRoundTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\C_CornerRoundTriangleRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\C_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\C_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
 			</Sides>
 			</CubeDefinition>
 			<Components>
@@ -1008,10 +1008,10 @@
 				<CubeTopology>RoundCorner</CubeTopology>
 				<ShowEdges>true</ShowEdges>
 				<Sides>
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_CornerRoundTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_CornerRoundTriangleRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_FaceRoundTrianglePlate.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_CornerRoundTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\C_CornerRoundTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\C_CornerRoundTriangleRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\C_FaceRoundTrianglePlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\C_CornerRoundTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
 			</Sides>
 			</CubeDefinition>
 			<Components>
@@ -1105,13 +1105,13 @@
 				<CubeTopology>RoundInvCorner</CubeTopology>
 				<ShowEdges>true</ShowEdges>
 				<Sides>
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_CornerRoundTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_CornerRoundTriangleRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_CornerRoundTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_InvFaceRoundTrianglePlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\C_CornerRoundTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\C_CornerRoundTriangleRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\C_CornerRoundTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\C_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\C_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\C_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\C_InvFaceRoundTrianglePlate.mwm" PatternWidth="1" PatternHeight="1" />
 			</Sides>
 			</CubeDefinition>
 			<Components>
@@ -1258,12 +1258,12 @@
 				<CubeTopology>Slope2Base</CubeTopology>
 				<ShowEdges>true</ShowEdges>
 				<Sides>
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_SquarePlateSlope2BaseTop.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_SquarePlateSlope2BaseFront.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_SquarePlateSlope2BaseRight.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_SquarePlateSlope2BaseLeft.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\C_SquarePlateSlope2BaseTop.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\C_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\C_SquarePlateSlope2BaseFront.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\C_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\C_SquarePlateSlope2BaseRight.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\C_SquarePlateSlope2BaseLeft.mwm" PatternWidth="1" PatternHeight="1" />
 			</Sides>
 			</CubeDefinition>
 			<Components>
@@ -1424,11 +1424,11 @@
 				<CubeTopology>Slope2Tip</CubeTopology>
 				<ShowEdges>true</ShowEdges>
 				<Sides>
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_SlopePlateSlope2Tip.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_CornerTriangleLeftPlateSlope2Tip.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_CornerTriangleRightPlateSlope2Tip.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_SquarePlateSlope2TipBack.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\C_SlopePlateSlope2Tip.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\C_CorTriLeftPlateSlope2Tip.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\C_CorTriRightPlateSlope2Tip.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\C_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\C_SquarePlateSlope2TipBack.mwm" PatternWidth="1" PatternHeight="1" />
 			</Sides>
 			</CubeDefinition>
 			<Components>
@@ -1553,11 +1553,11 @@
 				<CubeTopology>Corner2Base</CubeTopology>
 				<ShowEdges>true</ShowEdges>
 				<Sides>
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_SlopePlateCorner2BaseTop.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_CornerTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_CornerTriangleRightPlateCorner2Base.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_SquarePlateCorner2BaseBottom.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_SquarePlateCorner2BaseBack.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\C_SlopePlateCorner2BaseTop.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\C_CorTriLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\C_CorTriRightPlateCorner2Base.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\C_SquarePlateCorner2BaseBottom.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\C_SquarePlateCorner2BaseBack.mwm" PatternWidth="4" PatternHeight="2" />
 			</Sides>
 			</CubeDefinition>
 			<Components>
@@ -1684,10 +1684,10 @@
 				<CubeTopology>Corner2Tip</CubeTopology>
 				<ShowEdges>true</ShowEdges>
 				<Sides>
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_CornerTriangleLeftPlateCorner2TipFront.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_CornerTriangleRightPlateCorner2TipRight.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_FaceTrianglePlateCorner2Tip.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_CornerTriangleLeftPlateCorner2TipBottom.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\C_CorTriLeftPlateCorner2TipFront.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\C_CorTriRightPlateCorner2TipRight.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\C_FaceTrianglePlateCorner2Tip.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\C_CorTriLeftPlateCorner2TipBottom.mwm" PatternWidth="1" PatternHeight="1" />
 			</Sides>
 			</CubeDefinition>
 			<Components>
@@ -1781,13 +1781,13 @@
 				<CubeTopology>InvCorner2Base</CubeTopology>
 				<ShowEdges>true</ShowEdges>
 				<Sides>
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_InvFaceTrianglePlateInvCorner2Base.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_CornerTriangleRightPlateInvCorner2BaseRight.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_CornerTriangleLeftPlateInvCorner2BaseFront.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_CornerTriangleLeftPlateInvCorner2BaseBottom.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\C_InvFaceTrianglePlateInvCorner2Base.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\C_CorTriRightPlateInvCorner2BaseRight.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\C_CorTriLeftPlateInvCorner2BaseFront.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\C_CorTriLeftPlateInvCorner2BaseBottom.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\C_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\C_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\C_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
 			</Sides>
 			</CubeDefinition>
 			<Components>
@@ -1936,13 +1936,13 @@
 				<CubeTopology>InvCorner2Tip</CubeTopology>
 				<ShowEdges>true</ShowEdges>
 				<Sides>
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_InvFaceTrianglePlateInvCorner2Tip.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_CornerTriangleRightPlateInvCorner2TipRight.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_CornerTriangleLeftPlateInvCorner2TipFront.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_CornerTriangleLeftPlateInvCorner2TipBottom.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\AQD_Concrete_SquarePlateInvCorner2TipBack.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\C_InvFaceTrianglePlateInvCorner2Tip.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\C_CorTriRightPlateInvCorner2TipRight.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\C_CorTriLeftPlateInvCorner2TipFront.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\C_CorTriLeftPlateInvCorner2TipBottom.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\C_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\C_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+					<Side Model="Models\Cubes\Large\Armor\C_SquarePlateInvCorner2TipBack.mwm" PatternWidth="4" PatternHeight="2" />
 			</Sides>
 			</CubeDefinition>
 			<Components>
