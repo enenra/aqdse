@@ -171,7 +171,7 @@
 					<Side Model="Models\Cubes\Large\Armor\RC_CornerSquareINVRight.mwm" PatternWidth ="4" PatternHeight="2"/>
 					<Side Model="Models\Cubes\Large\Armor\RC_CorTriLeftPlate.mwm" PatternWidth ="4" PatternHeight="2"/>
 					<Side Model="Models\Cubes\Large\Armor\RC_CorTriRightPlateCorner2TipRight.mwm" PatternWidth ="4" PatternHeight="2"/>
-					<Side Model="Models\Cubes\Large\Armor\RC_ArmorSlopeTransitionTriangleTop.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\RC_SlopeTransitionTriangleTop.mwm" PatternWidth ="4" PatternHeight="2"/>
 					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/>
 					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlateSlope2BaseRight.mwm" PatternWidth ="4" PatternHeight="2"/>
 				</Sides>
@@ -301,8 +301,8 @@
 		<Sides>
 					<Side Model="Models\Cubes\Large\Armor\RC_CorTriLeftPlateCorner2TipBottom.mwm" PatternWidth ="4" PatternHeight="2"/>
 					<Side Model="Models\Cubes\Large\Armor\RC_CorTriRightPlate.mwm" PatternWidth ="4" PatternHeight="2"/>
-					<Side Model="Models\Cubes\Large\Armor\RC_ArmorSlopeTransitionBaseTriangle.mwm" PatternWidth ="4" PatternHeight="2"/>
-					<Side Model="Models\Cubes\Large\Armor\RC_ArmorSlopeTransitionBaseTriangleTop.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\RC_SlopeTransitionBaseTriangle.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\RC_SlopeTransitionBaseTriangleTop.mwm" PatternWidth ="4" PatternHeight="2"/>
 					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/>
 					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/>
 					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlateSlope2BaseLeft.mwm" PatternWidth ="4" PatternHeight="2"/>
@@ -458,8 +458,8 @@
 		<Sides>
 					<Side Model="Models\Cubes\Large\Armor\RC_CorTriLeftPlate.mwm" PatternWidth ="4" PatternHeight="2"/>
 					<Side Model="Models\Cubes\Large\Armor\RC_CorTriRightPlateCorner2TipRight.mwm" PatternWidth ="4" PatternHeight="2"/>
-					<Side Model="Models\Cubes\Large\Armor\RC_ArmorSlopeTransitionBaseMirroredTriangle.mwm" PatternWidth ="4" PatternHeight="2"/>
-					<Side Model="Models\Cubes\Large\Armor\RC_ArmorSlopeTransitionBaseMirroredTriangleTop.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\RC_SlopeTransitionBaseMirroredTriangle.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\RC_SlopeTransitionBaseMirroredTriangleTop.mwm" PatternWidth ="4" PatternHeight="2"/>
 					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/>
 					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/>
 					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlateSlope2BaseRight.mwm" PatternWidth ="4" PatternHeight="2"/>
@@ -616,7 +616,7 @@
 					<Side Model="Models\Cubes\Large\Armor\RC_CornerSquareINVLeft.mwm" PatternWidth ="4" PatternHeight="2"/>
 					<Side Model="Models\Cubes\Large\Armor\RC_CorTriLeftPlateCorner2TipBottom.mwm" PatternWidth ="4" PatternHeight="2"/>
 					<Side Model="Models\Cubes\Large\Armor\RC_CorTriRightPlate.mwm" PatternWidth ="4" PatternHeight="2"/>
-					<Side Model="Models\Cubes\Large\Armor\RC_ArmorSlopeTransitionMirroredTop.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\RC_SlopeTransitionMirroredTop.mwm" PatternWidth ="4" PatternHeight="2"/>
 					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/>
 					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlateSlope2BaseLeft.mwm" PatternWidth ="4" PatternHeight="2"/>
 				</Sides>
@@ -746,8 +746,8 @@
 		<Sides>
 					<Side Model="Models\Cubes\Large\Armor\RC_CorTriLeftPlateCorner2TipBottom.mwm" PatternWidth ="4" PatternHeight="2"/>
 					<Side Model="Models\Cubes\Large\Armor\RC_CorTriRightPlateCorner2Base.mwm" PatternWidth ="4" PatternHeight="2"/>
-					<Side Model="Models\Cubes\Large\Armor\RC_ArmorSlopeTransitionTipTriangleFront.mwm" PatternWidth ="4" PatternHeight="2"/>
-					<Side Model="Models\Cubes\Large\Armor\RC_ArmorSlopeTransitionTipTriangleTop.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\RC_SlopeTransitionTipTriangleFront.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\RC_SlopeTransitionTipTriangleTop.mwm" PatternWidth ="4" PatternHeight="2"/>
 					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlateSlope2BaseFront.mwm" PatternWidth ="4" PatternHeight="2"/>
 					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlateSlope2BaseLeft.mwm" PatternWidth ="4" PatternHeight="2"/>
 				</Sides>
@@ -865,8 +865,8 @@
 		<Sides>
 					<Side Model="Models\Cubes\Large\Armor\RC_CorTriLeftPlateCorner2TipFront.mwm" PatternWidth ="4" PatternHeight="2"/>
 					<Side Model="Models\Cubes\Large\Armor\RC_CorTriRightPlateCorner2TipRight.mwm" PatternWidth ="4" PatternHeight="2"/>
-					<Side Model="Models\Cubes\Large\Armor\RC_ArmorSlopeTransitionTipMirroredTriangleFront.mwm" PatternWidth ="4" PatternHeight="2"/>
-					<Side Model="Models\Cubes\Large\Armor\RC_ArmorSlopeTransitionTipMirroredTriangleTop.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\RC_SlopeTransitionTipMirroredTriangleFront.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\RC_SlopeTransitionTipMirroredTriangleTop.mwm" PatternWidth ="4" PatternHeight="2"/>
 					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlateSlope2BaseFront.mwm" PatternWidth ="4" PatternHeight="2"/>
 					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlateSlope2BaseRight.mwm" PatternWidth ="4" PatternHeight="2"/>
 				</Sides>
@@ -982,8 +982,8 @@
 		<CubeTopology>SquareSlopedCornerBase</CubeTopology>
 		<ShowEdges>true</ShowEdges>
 		<Sides>
-					<Side Model="Models\Cubes\Large\Armor\RC_ArmorSquareSlopedCornerBaseTop.mwm" PatternWidth ="4" PatternHeight="2"/>
-					<Side Model="Models\Cubes\Large\Armor\RC_ArmorSquareSlopedCornerBaseTopRight.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\RC_SquareSlopedCornerBaseTop.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\RC_SquareSlopedCornerBaseTopRight.mwm" PatternWidth ="4" PatternHeight="2"/>
 					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/>
 					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlateSlope2BaseFront.mwm" PatternWidth ="4" PatternHeight="2"/>
 					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlateSlope2BaseFront.mwm" PatternWidth ="4" PatternHeight="2"/>
@@ -1135,8 +1135,8 @@
 		<CubeTopology>SquareSlopedCornerTip</CubeTopology>
 		<ShowEdges>true</ShowEdges>
 		<Sides>
-					<Side Model="Models\Cubes\Large\Armor\RC_ArmorSquareSlopedCornerTipTop.mwm" PatternWidth ="4" PatternHeight="2"/>
-					<Side Model="Models\Cubes\Large\Armor\RC_ArmorSquareSlopedCornerTipTopRight.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\RC_SquareSlopedCornerTipTop.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\RC_SquareSlopedCornerTipTopRight.mwm" PatternWidth ="4" PatternHeight="2"/>
 					<Side Model="Models\Cubes\Large\Armor\RC_SlopedCornerTipLeft.mwm" PatternWidth ="4" PatternHeight="2"/>
 					<Side Model="Models\Cubes\Large\Armor\RC_SlopedCornerTipRight.mwm" PatternWidth ="4" PatternHeight="2"/>
 					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/>
@@ -1256,8 +1256,8 @@
 		<CubeTopology>SquareSlopedCornerTipInv</CubeTopology>
 		<ShowEdges>true</ShowEdges>
 		<Sides>
-					<Side Model="Models\Cubes\Large\Armor\RC_ArmorSquareSlopedCornerTipInvTop.mwm" PatternWidth ="4" PatternHeight="2"/>
-					<Side Model="Models\Cubes\Large\Armor\RC_ArmorSquareSlopedCornerTipInvTopRight.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\RC_SquareSlopedCornerTipInvTop.mwm" PatternWidth ="4" PatternHeight="2"/>
+					<Side Model="Models\Cubes\Large\Armor\RC_SquareSlopedCornerTipInvTopRight.mwm" PatternWidth ="4" PatternHeight="2"/>
 					<Side Model="Models\Cubes\Large\Armor\RC_SlopedCornerTipLeft.mwm" PatternWidth ="4" PatternHeight="2"/>
 					<Side Model="Models\Cubes\Large\Armor\RC_SlopedCornerTipRight.mwm" PatternWidth ="4" PatternHeight="2"/>
 					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlate.mwm" PatternWidth ="4" PatternHeight="2"/>

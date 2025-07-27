@@ -127,7 +127,7 @@ def create_bvgs():
     # ReinforcedConcrete
     target_file = os.path.join(MOD_PATH, 'Data', "BlockVariantGroups_ReinforcedConcrete.sbc")
     exported_xml = open(target_file, "w")
-    xml_formatted = xml_formatted.replace("_Conc_", "_ReinfConc_")
+    xml_formatted = xml_formatted.replace("_Conc_", "_ReinfConc_").replace("_BVG_Concrete_", "_BVG_ReinforcedConcrete_")
 
     icons = []
     lines = xml_formatted

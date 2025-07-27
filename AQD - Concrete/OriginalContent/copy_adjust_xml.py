@@ -103,9 +103,13 @@ def copy_adjust_xmls(game_xmls):
             lines_mod = f.read()
             f.close()
 
+        lines = lines.replace('<Parameter Name="RescaleFactor">0.01</Parameter>', '<Parameter Name="RescaleFactor">1.0</Parameter>')
+
         material = get_subelement(lines_mod, "Material")
 
-        lines = remove_between(lines, "<MaterialRef ", " />\n")
+        while "<MaterialRef " in lines:
+            lines = remove_between(lines, "<MaterialRef ", " />\n")
+
         lines = remove_between(lines, "<Material ", "</Material>\n")
 
         lines = lines.replace("</Model>", f'{material}\n</Model>')

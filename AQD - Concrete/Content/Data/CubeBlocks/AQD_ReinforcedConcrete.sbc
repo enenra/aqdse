@@ -186,8 +186,8 @@
 				<ShowEdges>true</ShowEdges>
 				<Sides>
 					<Side Model="Models\Cubes\Large\Armor\RC_SlopePlate.mwm" ScaleTileV = "3" PatternWidth="4" PatternHeight="4" />
-					<Side Model="Models\Cubes\Large\Armor\RC_CornerLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\RC_CornerRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_CorTriLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_CorTriRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
 					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
 					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
 				</Sides>
@@ -316,10 +316,10 @@
 				<CubeTopology>Corner</CubeTopology>
 				<ShowEdges>true</ShowEdges>
 				<Sides>
-					<Side Model="Models\Cubes\Large\Armor\RC_CornerLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\RC_CornerRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\RC_FacePlate.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\RC_CornerLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_CorTriLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_CorTriRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_FaceTrianglePlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_CorTriLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
 				</Sides>
 			</CubeDefinition>
 			<Components>
@@ -416,10 +416,10 @@
 				<CubeTopology>InvCorner</CubeTopology>
 				<ShowEdges>true</ShowEdges>
 				<Sides>
-					<Side Model="Models\Cubes\Large\Armor\RC_InvFacePlate.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\RC_CornerRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\RC_CornerLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
-					<Side Model="Models\Cubes\Large\Armor\RC_CornerLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_InvFaceTrianglePlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_CorTriRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_CorTriLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_CorTriLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
 					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
 					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
 					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
@@ -1596,7 +1596,7 @@
 				<ShowEdges>true</ShowEdges>
 				<Sides>
 					<Side Model="Models\Cubes\Large\Armor\RC_SlopePlateCorner2BaseTop.mwm" PatternWidth="4" PatternHeight="2" />
-					<Side Model="Models\Cubes\Large\Armor\RC_CornerLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
+					<Side Model="Models\Cubes\Large\Armor\RC_CorTriLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
 					<Side Model="Models\Cubes\Large\Armor\RC_CorTriRightPlateCorner2Base.mwm" PatternWidth="1" PatternHeight="1" />
 					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlateCorner2BaseBottom.mwm" PatternWidth="4" PatternHeight="2" />
 					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlateCorner2BaseBack.mwm" PatternWidth="4" PatternHeight="2" />
