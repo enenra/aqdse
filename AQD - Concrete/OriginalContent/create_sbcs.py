@@ -29,7 +29,11 @@ def main():
                     print(f"{progress} / {count}" )
                     print(subtypeid)
 
-                    if subtypeid.startswith("Small") or get_subelement(lines, "CubeSize") == "<CubeSize>Small</CubeSize>":
+                    public = ""
+                    if get_subelement(entry, "Public") != -1:
+                        public = get_subelement(entry, "Public").replace("<Public>", "").replace("</Public>", "")
+
+                    if subtypeid.startswith("Small") or get_subelement(lines, "CubeSize") == "<CubeSize>Small</CubeSize>" or public == "false":
                         print("skipping...")
                     elif "Heavy" in subtypeid:
                         print("adding to hvy...")
@@ -99,10 +103,15 @@ def make_cubedef_adjustments(entries, hvy):
 
         sides_copy = sides
         sides_n = "<Sides>\n"
+
+        side_id = "C"
+        if id == "ReinforcedConcrete":
+            side_id = "RC"
+
         while get_subelement(sides, "Side") != -1:
             side = sides[sides.find("<Side "):sides.find("/>")+2]
             plate = side[side.find("\\Armor\\") + len("\\Armor\\"):side.find(".mwm")]
-            sides_n += "\t\t\t\t\t" + side.replace(plate, f"AQD_{id}_{plate.replace("Heavy", "").replace("LightArmor", "")}") + "\n"
+            sides_n += "\t\t\t\t\t" + side.replace(plate, f"{side_id}_{plate.replace("Heavy", "").replace("LightArmor", "").replace("CornerTriangle", "CorTri")}") + "\n"
             sides = sides[sides.find("/>") + len("/>"):]
         sides_n += "\t\t\t</Sides>"
         v_n = v_n.replace(sides_copy, sides_n)

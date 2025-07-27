@@ -32,6 +32,11 @@ def get_subelement(lines: str, name: str, attrib: str = None):
         end = start + lines[start:].find(f"</{name}>") + len(f"</{name}>")
         return lines[start:end]
 
+    elif f"<{name} " in lines and f"</{name}>" in lines:
+        start = lines.find(f"<{name} ")
+        end = start + lines[start:].find(f'</{name}>') + len(f"</{name}>")
+        return lines[start:end]
+
     elif f"<{name} " in lines:
         start = lines.find(f"<{name} ")
         end = start + lines[start:].find('/>') + 2
@@ -54,7 +59,11 @@ def find_plates():
                         entry = get_subelement(lines, "Definition")
                         subtypeid = get_subelement(entry, "SubtypeId").replace("<SubtypeId>", "").replace("</SubtypeId>", "")
 
-                        if subtypeid.startswith("Small") or get_subelement(lines, "CubeSize") == "<CubeSize>Small</CubeSize>" or get_subelement(lines, "EdgeType") == "<EdgeType>Heavy</EdgeType>":
+                        public = ""
+                        if get_subelement(entry, "Public") != -1:
+                            public = get_subelement(entry, "Public").replace("<Public>", "").replace("</Public>", "")
+
+                        if subtypeid.startswith("Small") or get_subelement(lines, "CubeSize") == "<CubeSize>Small</CubeSize>" or get_subelement(lines, "EdgeType") == "<EdgeType>Heavy</EdgeType>" or public == "false":
                             lines = lines[lines.find("</Definition>") + len("</Definition>"):]
                             continue
 
@@ -82,38 +91,51 @@ def find_plate_xmls(plates):
     return xmls
 
 
-def copy_adjust_xmls(xmls):
-    for xml in xmls:
+def copy_adjust_xmls(game_xmls):
+    for xml in game_xmls:
         with open(xml, 'r') as f:
             lines = f.read()
             f.close()
 
-        # TODO: Adjust this to merge with xmls exported from SEUT
+        # Concrete
+        mod_xml = os.path.join(DESTINATION, "Models", "Cubes", "large", "armor", "C_" + os.path.basename(xml).replace("LightArmor", "").replace("CornerTriangle", "CorTri"))
+        with open(mod_xml, 'r') as f:
+            lines_mod = f.read()
+            f.close()
 
-        lines = lines.replace("\n</Model>", '\n\t<Material Name="Concrete_Armor">\n\t\t<Parameter Name="Technique">MESH</Parameter>\n\t\t<Parameter Name="ColorMetalTexture">Textures\\Models\\Cubes\\armor\\Skins\\Concrete\\large_square_plate_cm.dds</Parameter>\n\t\t<Parameter Name="NormalGlossTexture">Textures\\Models\\Cubes\\armor\\Skins\Concrete\\large_square_plate_ng.dds</Parameter>\n\t\t<Parameter Name="AddMapsTexture">Textures\Models\\Cubes\\armor\\Skins\\Concrete\\large_square_plate_add.dds</Parameter>\n\t</Material>\n</Model>')
+        material = get_subelement(lines_mod, "Material")
+
+        lines = remove_between(lines, "<MaterialRef ", " />\n")
+        lines = remove_between(lines, "<Material ", "</Material>\n")
+
+        lines = lines.replace("</Model>", f'{material}\n</Model>')
 
         while "<LOD " in lines:
             lines = remove_between(lines, "<LOD ", "</LOD>\n")
 
         filename = os.path.basename(xml)
-        filename = "AQD_Concrete_" + filename.replace("LightArmor", "")
+        filename = "C_" + filename.replace("LightArmor", "").replace("CornerTriangle", "CorTri")
 
         dst = os.path.join(DESTINATION, 'Models', 'Cubes', 'large', 'armor')
         target_file = os.path.join(dst, filename)
         exported_xml = open(target_file, "w")
         exported_xml.write(lines)
 
-        # Reinforced versions
-        lines = lines.replace("AQD_Concrete_", "AQD_ReinforcedConcrete_")
-        lines = lines.replace("Concrete_Armor", "ReinforcedConcrete_Armor")
+        # Reinforced Concrete
+        mod_xml = os.path.join(DESTINATION, "Models", "Cubes", "large", "armor", "RC_" + os.path.basename(xml).replace("LightArmor", "").replace("CornerTriangle", "CorTri"))
+        with open(mod_xml, 'r') as f:
+            lines_mod_hvy = f.read()
+            f.close()
 
-        target_file = os.path.join(dst, filename.replace("AQD_Concrete_", "AQD_ReinforcedConcrete_"))
+        lines = lines.replace("C_", "RC_")
+        lines = lines.replace(get_subelement(lines, "Material"), get_subelement(lines_mod_hvy, "Material"))
+
+        target_file = os.path.join(dst, filename.replace("C_", "RC_"))
         exported_xml = open(target_file, "w")
         exported_xml.write(lines)
 
 
-
 plates = find_plates()
 
-xmls = find_plate_xmls(plates)
-copy_adjust_xmls(xmls)
+game_xmls = find_plate_xmls(plates)
+copy_adjust_xmls(game_xmls)
