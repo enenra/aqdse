@@ -60,10 +60,12 @@ def create_bcs():
             if file.endswith(".sbc"):
                 with open(os.path.join(src, file), 'r') as wf:
                     lines = wf.read()
-                    while get_subelement(lines, "Definition") != -1:
-                        blocks.append(get_subelement(get_subelement(lines, "Definition"), "SubtypeId").replace("<SubtypeId>", "").replace("</SubtypeId>", ""))
-                        lines = lines[lines.find("</Definition>") + len("</Definition>"):]
                     wf.close()
+                while get_subelement(lines, "Definition") != -1:
+                    subtype = get_subelement(get_subelement(lines, "Definition"), "SubtypeId").replace("<SubtypeId>", "").replace("</SubtypeId>", "")
+                    blocks.append(subtype)
+                    lines = lines[lines.find("</Definition>") + len("</Definition>"):]
+        break
 
     defs = ET.Element('Definitions')
     defs.set('xmlns:xsi', 'http://www.w3.org/2001/XMLSchema-instance')
