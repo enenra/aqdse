@@ -65,6 +65,9 @@ def main():
                 lines_hvy += "\n\t</CubeBlocks>\n</Definitions>"
                 lines_hvy = lines_hvy.replace("    ", "\t")
 
+                icon = get_subelement(lines_hvy, "Icon")
+                lines_hvy = lines_hvy.replace(icon, icon.replace("_ReinfConc_", "_Conc_").replace("</Icon>", f"</Icon>\n\t\t\t<Icon>Textures\\GUI\\Icons\\Cubes\\AQD_ReinforcedConcrete.dds</Icon>"))
+
                 target_file = os.path.join(dst, file.replace("CubeBlocks_Armor", "AQD_ReinforcedConcrete"))
                 exported_xml = open(target_file, "w")
                 exported_xml.write(lines_hvy)
@@ -115,7 +118,7 @@ def make_cubedef_adjustments(entries, hvy):
             plate = side[side.find("\\Armor\\") + len("\\Armor\\"):side.find(".mwm")]
             sides_n += "\t\t\t\t\t" + side.replace(plate, f"{side_id}_{plate.replace("Heavy", "").replace("LightArmor", "").replace("CornerTriangle", "CorTri")}") + "\n"
             sides = sides[sides.find("/>") + len("/>"):]
-        sides_n += "\t\t\t</Sides>"
+        sides_n += "\t\t\t\t</Sides>"
         v_n = v_n.replace(sides_copy, sides_n)
 
         # Change component cost
