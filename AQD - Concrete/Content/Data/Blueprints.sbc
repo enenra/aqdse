@@ -16,7 +16,7 @@
       <Results>
         <Item Amount="1" TypeId="Component" SubtypeId="AQD_Comp_Concrete" />
       </Results>
-      <BaseProductionTimeInSeconds>2.5</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>1.5</BaseProductionTimeInSeconds>
     </Blueprint>
 
   </Blueprints>
