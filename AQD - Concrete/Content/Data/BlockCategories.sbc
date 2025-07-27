@@ -6,7 +6,7 @@
 				<TypeId>GuiBlockCategoryDefinition</TypeId>
 				<SubtypeId/>
 			</Id>
-			<Displayname>DisplayName_Category_LargeBlocks</Displayname>
+			<DisplayName>DisplayName_Category_LargeBlocks</DisplayName>
 			<Name>Section1_Position1_LargeBlocks</Name>
 			<StrictSearch>true</StrictSearch>
 			<ItemIds>
@@ -89,7 +89,7 @@
 				<TypeId>GuiBlockCategoryDefinition</TypeId>
 				<SubtypeId>Nonarmor</SubtypeId>
 			</Id>
-			<Displayname>DisplayName_Category_Nonarmor</Displayname>
+			<DisplayName>DisplayName_Category_Nonarmor</DisplayName>
 			<Name>Section1_Position2_Nonarmor</Name>
 			<StrictSearch>true</StrictSearch>
 			<ItemIds>
@@ -172,7 +172,7 @@
 				<TypeId>GuiBlockCategoryDefinition</TypeId>
 				<SubtypeId/>
 			</Id>
-			<Displayname>{LOC:DisplayName_AQD_Cat_Concrete}</Displayname>
+			<DisplayName>{LOC:DisplayName_AQD_Cat_Concrete}</DisplayName>
 			<Name>Section1_Position3_Concrete</Name>
 			<StrictSearch>true</StrictSearch>
 			<ItemIds>

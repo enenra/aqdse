@@ -38,7 +38,7 @@ def create_bc_hdr(bcs, aspects):
     if aspects[0] is not None:
         subtype_id.text = aspects[0]
 
-    dpname = ET.SubElement(bc, 'Displayname')
+    dpname = ET.SubElement(bc, 'DisplayName')
     dpname.text = aspects[1]
 
     name = ET.SubElement(bc, 'Name')
