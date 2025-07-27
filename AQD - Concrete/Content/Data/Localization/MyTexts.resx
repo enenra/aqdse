@@ -117,34 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="DisplayName_AQD_LG_Concrete_Block" xml:space="preserve">
-    <value>Concrete Block</value>
-    <comment/>
-  </data>
-  <data name="Description_AQD_Concrete_Block" xml:space="preserve">
-    <value>Concrete blocks are cheap and durable, but very heavy.</value>
-    <comment/>
-  </data>
-  <data name="DisplayName_AQD_LG_Concrete_Slope" xml:space="preserve">
-    <value>Concrete Slope</value>
-    <comment/>
-  </data>
-  <data name="DisplayName_AQD_LG_Concrete_Corner" xml:space="preserve">
-    <value>Concrete Corner</value>
-    <comment/>
-  </data>
-  <data name="DisplayName_AQD_LG_Concrete_Corner_Inv" xml:space="preserve">
-    <value>Concrete Inverted Corner</value>
-    <comment/>
-  </data>
-  <data name="DisplayName_AQD_LG_Concrete_Half_Block" xml:space="preserve">
-    <value>Concrete Half Block</value>
-    <comment/>
-  </data>
-  <data name="DisplayName_AQD_LG_Concrete_Half_Block_Slope" xml:space="preserve">
-    <value>Concrete Half Block Slope</value>
-    <comment/>
-  </data>
+
   <data name="DisplayName_AQD_Comp_Concrete" xml:space="preserve">
     <value>Concrete</value>
     <comment/>
@@ -153,36 +126,14 @@
     <value>   Concrete</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_ReinforcedConcrete_Block" xml:space="preserve">
-    <value>Reinforced Concrete Block</value>
-    <comment/>
-  </data>
-  <data name="DisplayName_AQD_LG_ReinforcedConcrete_Slope" xml:space="preserve">
-    <value>Reinforced Concrete Slope</value>
+
+  <data name="Description_AQD_Concrete_Block" xml:space="preserve">
+    <value>Concrete blocks are cheap and durable, but very heavy.</value>
     <comment/>
   </data>
   <data name="Description_AQD_ReinforcedConcrete_Block" xml:space="preserve">
     <value>Reinforced Concrete blocks are more durable than their concrete counterparts.</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_ReinforcedConcrete_Corner" xml:space="preserve">
-    <value>Reinforced Concrete Corner</value>
-    <comment/>
-  </data>
-  <data name="DisplayName_AQD_LG_ReinforcedConcrete_Corner_Inv" xml:space="preserve">
-    <value>Reinforced Concrete Inverted Corner</value>
-    <comment/>
-  </data>
-  <data name="DisplayName_AQD_LG_ReinforcedConcrete_Half_Block" xml:space="preserve">
-    <value>Reinforced Concrete Half Block</value>
-    <comment/>
-  </data>
-  <data name="DisplayName_AQD_LG_ReinforcedConcrete_Half_Block_Slope" xml:space="preserve">
-    <value>Reinforced Concrete Half Block Slope</value>
-    <comment/>
-  </data>
-  <data name="DisplayName_AQD_Comp_ConcreteScrap" xml:space="preserve">
-    <value>Concrete Rubble</value>
-    <comment/>
-  </data>
+
 </root>
