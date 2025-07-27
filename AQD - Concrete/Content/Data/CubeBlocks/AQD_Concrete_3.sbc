@@ -579,7 +579,7 @@
 	  <PCU>1</PCU>
 		<MirroringX>Y</MirroringX>
 		<MirroringY>X</MirroringY>
-	  <MirroringBlock>LargeBlockArmorSlopeTransitionBase</MirroringBlock>
+	  <MirroringBlock>AQD_LG_Concrete_SlopeTransitionBase</MirroringBlock>
 	  <PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
 	</Definition>
@@ -707,7 +707,7 @@
 	  <PCU>1</PCU>
 		<MirroringX>Y</MirroringX>
 		<MirroringY>X</MirroringY>
-		<MirroringBlock>LargeBlockArmorSlopeTransition</MirroringBlock>
+		<MirroringBlock>AQD_LG_Concrete_SlopeTransition</MirroringBlock>
 	  <PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
 	</Definition>
@@ -936,7 +936,7 @@
 	  <DisassembleRatio>2.5</DisassembleRatio>
 	  <NavigationDefinition>Default</NavigationDefinition>
 	  <PCU>1</PCU>
-		<MirroringBlock>LargeBlockArmorSlopeTransitionTip</MirroringBlock>
+		<MirroringBlock>AQD_LG_Concrete_SlopeTransitionTip</MirroringBlock>
 		<MirroringX>Y</MirroringX>
 		<MirroringY>X</MirroringY>
 	  <PCUConsole>2</PCUConsole>

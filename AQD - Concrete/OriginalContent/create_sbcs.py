@@ -7,7 +7,7 @@ GAME_DATA_DIR = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\SpaceEnginee
 
 def main():
     src = os.path.join(GAME_DATA_DIR, 'CubeBlocks')
-    dst = os.path.join(MOD_PATH, 'Data')
+    dst = os.path.join(MOD_PATH, 'Data', 'CubeBlocks')
 
     for r, d, f in os.walk(src):
         for file in f:
@@ -131,18 +131,19 @@ def make_cubedef_adjustments(entries, hvy):
 
         # Change MirroringBlock
         mb = get_subelement(v_n, "MirroringBlock")
-        mb_id = mb.split(">")[1].split("<")[0]
+        if mb != -1:
+            mb_id = mb.split(">")[1].split("<")[0]
 
-        if mb_id.startswith("LargeHeavyBlockArmor"):
-            mb_id = mb_id.replace("LargeHeavyBlockArmor", f"AQD_LG_{id}_")
-        elif mb_id.startswith("LargeBlockHeavyArmor"):
-            mb_id = mb_id.replace("LargeBlockHeavyArmor", f"AQD_LG_{id}_")
-        elif mb_id.startswith("LargeBlockArmor"):
-            mb_id = mb_id.replace("LargeBlockArmor", f"AQD_LG_{id}_")
-        else:
-            mb_id = mb_id.replace("Large", f"AQD_LG_{id}_")
+            if mb_id.startswith("LargeHeavyBlockArmor"):
+                mb_id = mb_id.replace("LargeHeavyBlockArmor", f"AQD_LG_{id}_")
+            elif mb_id.startswith("LargeBlockHeavyArmor"):
+                mb_id = mb_id.replace("LargeBlockHeavyArmor", f"AQD_LG_{id}_")
+            elif mb_id.startswith("LargeBlockArmor"):
+                mb_id = mb_id.replace("LargeBlockArmor", f"AQD_LG_{id}_")
+            else:
+                mb_id = mb_id.replace("Large", f"AQD_LG_{id}_")
 
-        v_n = v_n.replace(mb, f"<MirroringBlock>{mb_id}</MirroringBlock>")
+            v_n = v_n.replace(mb, f"<MirroringBlock>{mb_id}</MirroringBlock>")
 
         # Add PhysicalMaterial & DeformationRatio
         v_n = v_n.replace("</PCUConsole>", "</PCUConsole>\n\t\t\t<PhysicalMaterial>Rock</PhysicalMaterial>")
