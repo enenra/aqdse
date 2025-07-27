@@ -46,9 +46,6 @@ def generate_resx():
         game_resx = wf.read()
         wf.close()
 
-    total_count = 0
-    countdown = 0
-    count = 0
     src = os.path.join(GAME_DATA_DIR, "CubeBlocks")
     for r, d, f in os.walk(src):
         for file in f:
@@ -56,8 +53,6 @@ def generate_resx():
                 with open(os.path.join(src, file), 'r') as wf:
                     lines = wf.read()
                     wf.close()
-
-                total_count += lines.count("<Definition>")
 
                 while get_subelement(lines, "Definition") != -1:
                     entry = get_subelement(lines, "Definition")
@@ -69,7 +64,6 @@ def generate_resx():
 
                     if subtype.startswith("Small") or get_subelement(lines, "CubeSize") == "<CubeSize>Small</CubeSize>" or "Heavy" in subtype or public == "false":
                         lines = lines[lines.find("</Definition>") + len("</Definition>"):]
-                        countdown -= 1
                         continue
 
                     dpname = get_subelement(get_subelement(lines, "Definition"), "DisplayName").replace("<DisplayName>", "").replace("</DisplayName>", "")
@@ -85,28 +79,16 @@ def generate_resx():
                         subtype = f"AQD_LG_{id}_" + subtype
 
                     resx_entries[subtype] = dpname_text.replace("Light Armor", "Concrete")
-                    count += 1
 
                     lines = lines[lines.find("</Definition>") + len("</Definition>"):]
-                    countdown -= 1
 
-    print(len(resx_entries), resx_entries)
-    print(total_count + countdown, count)
-    return
+        break
 
     defs = ET.Element('root')
 
-    for b in blocks:
-
-
-        character = b[b.rfind('_') + 1:]
-
-        if b.endswith(tuple(numbers)):
-            create_resx_entry(defs, b, f"Number {character}")
-        elif b.endswith(tuple(symbols)):
-            create_resx_entry(defs, b, f"{character}")
-        else:
-            create_resx_entry(defs, b, f"Letter {character}")
+    for k, v in resx_entries.items():
+        create_resx_entry(defs, k, v)
+        create_resx_entry(defs, k.replace("_Concrete_", "_ReinforcedConcrete_"), v.replace("Concrete", "Reinf. Concrete"))
 
     temp_string = ET.tostring(defs, 'utf-8')
     temp_string.decode('ascii')
@@ -114,5 +96,18 @@ def generate_resx():
     xml_formatted = xml_string.toprettyxml()
 
     print(xml_formatted)
+
+    return
+
+    resx_file = os.path.join(MOD_PATH, "Data", "Localization", "MyTexts.resx")
+    with open(resx_file, 'r') as f:
+        lines_resx = f.read()
+        f.close()
+
+    lines_resx
+
+    exported_xml = open(resx_file, "w")
+    exported_xml.write(lines_resx)
+
 
 generate_resx()
