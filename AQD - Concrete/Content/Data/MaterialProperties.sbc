@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <MaterialProperties>
+
+    <Properties>
+      <Id>
+        <TypeId>PhysicalMaterialDefinition</TypeId>
+        <SubtypeId>Grinder</SubtypeId>
+      </Id>
+      <ContactProperties>
+        <ContactProperty>
+          <Type>Start</Type>
+          <Material>Rock</Material>
+          <ParticleEffect>AngleGrinder</ParticleEffect>
+          <SoundCue>ToolPlayGrindMetal</SoundCue>
+        </ContactProperty>
+      </ContactProperties>
+    </Properties>
+
+  </MaterialProperties>
+</Definitions>
