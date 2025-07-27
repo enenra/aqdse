@@ -127,6 +127,15 @@
     <comment/>
   </data>
 
+  <data name="Description_AQD_Conc_Block" xml:space="preserve">
+    <value>Concrete blocks are cheap and durable, but very heavy.</value>
+    <comment/>
+  </data>
+  <data name="Description_AQD_ReinfConc_Block" xml:space="preserve">
+    <value>Reinforced Concrete blocks are more durable than their concrete counterparts.</value>
+    <comment/>
+  </data>
+
   <data name="Description_AQD_Concrete_Block" xml:space="preserve">
     <value>Concrete blocks are cheap and durable, but very heavy.</value>
     <comment/>
@@ -239,27 +248,27 @@
     <comment/>
   </data>
   <data name="DisplayName_AQD_LG_Conc_RoundSlope" xml:space="preserve">
-    <value>Round Armor Slope</value>
+    <value>Round Concrete Slope</value>
     <comment/>
   </data>
   <data name="DisplayName_AQD_LG_ReinfConc_RoundSlope" xml:space="preserve">
-    <value>Round Armor Slope</value>
+    <value>Round Reinf. Concrete Slope</value>
     <comment/>
   </data>
   <data name="DisplayName_AQD_LG_Conc_RoundCorner" xml:space="preserve">
-    <value>Round Armor Corner</value>
+    <value>Round Concrete Corner</value>
     <comment/>
   </data>
   <data name="DisplayName_AQD_LG_ReinfConc_RoundCorner" xml:space="preserve">
-    <value>Round Armor Corner</value>
+    <value>Round Reinf. Concrete Corner</value>
     <comment/>
   </data>
   <data name="DisplayName_AQD_LG_Conc_RoundCornerInv" xml:space="preserve">
-    <value>Round Armor Inv. Corner</value>
+    <value>Round Concrete Inv. Corner</value>
     <comment/>
   </data>
   <data name="DisplayName_AQD_LG_ReinfConc_RoundCornerInv" xml:space="preserve">
-    <value>Round Armor Inv. Corner</value>
+    <value>Round Reinf. Concrete Inv. Corner</value>
     <comment/>
   </data>
   <data name="DisplayName_AQD_LG_Conc_Slope2Base" xml:space="preserve">

@@ -78,7 +78,7 @@ def generate_resx():
                     if f"AQD_LG_{id}_" not in subtype:
                         subtype = f"AQD_LG_{id}_" + subtype
 
-                    resx_entries[subtype] = dpname_text.replace("Light Armor", "Concrete")
+                    resx_entries[subtype] = dpname_text.replace("Light Armor", "Concrete").replace("Armor", "Concrete")
 
                     lines = lines[lines.find("</Definition>") + len("</Definition>"):]
 
