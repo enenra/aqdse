@@ -140,287 +140,341 @@
     <value>Concrete Block</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_ReinforcedConcrete_Block" xml:space="preserve">
-    <value>Reinf. Concrete Block</value>
-    <comment/>
-  </data>
   <data name="DisplayName_AQD_LG_Concrete_Slope" xml:space="preserve">
     <value>Concrete Slope</value>
-    <comment/>
-  </data>
-  <data name="DisplayName_AQD_LG_ReinforcedConcrete_Slope" xml:space="preserve">
-    <value>Reinf. Concrete Slope</value>
     <comment/>
   </data>
   <data name="DisplayName_AQD_LG_Concrete_Corner" xml:space="preserve">
     <value>Concrete Corner</value>
     <comment/>
   </data>
+  <data name="DisplayName_AQD_LG_Concrete_Corner_Inv" xml:space="preserve">
+    <value>Concrete Inverted Corner</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AQD_LG_Concrete_Half_Block" xml:space="preserve">
+    <value>Concrete Half Block</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AQD_LG_Concrete_Half_Block_Slope" xml:space="preserve">
+    <value>Concrete Half Block Slope</value>
+    <comment/>
+  </data>
+
+  <data name="DisplayName_AQD_LG_ReinforcedConcrete_Block" xml:space="preserve">
+    <value>Reinforced Concrete Block</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AQD_LG_ReinforcedConcrete_Slope" xml:space="preserve">
+    <value>Reinforced Concrete Slope</value>
+    <comment/>
+  </data>
   <data name="DisplayName_AQD_LG_ReinforcedConcrete_Corner" xml:space="preserve">
+    <value>Reinforced Concrete Corner</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AQD_LG_ReinforcedConcrete_Corner_Inv" xml:space="preserve">
+    <value>Reinforced Concrete Inverted Corner</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AQD_LG_ReinforcedConcrete_Half_Block" xml:space="preserve">
+    <value>Reinforced Concrete Half Block</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AQD_LG_ReinforcedConcrete_Half_Block_Slope" xml:space="preserve">
+    <value>Reinforced Concrete Half Block Slope</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AQD_Comp_ConcreteScrap" xml:space="preserve">
+    <value>Concrete Rubble</value>
+    <comment/>
+  </data>
+
+  <data name="DisplayName_AQD_LG_Conc_Block" xml:space="preserve">
+    <value>Concrete Block</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AQD_LG_ReinfConc_Block" xml:space="preserve">
+    <value>Reinf. Concrete Block</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AQD_LG_Conc_Slope" xml:space="preserve">
+    <value>Concrete Slope</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AQD_LG_ReinfConc_Slope" xml:space="preserve">
+    <value>Reinf. Concrete Slope</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AQD_LG_Conc_Corner" xml:space="preserve">
+    <value>Concrete Corner</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AQD_LG_ReinfConc_Corner" xml:space="preserve">
     <value>Reinf. Concrete Corner</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_Concrete_CornerInv" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_Conc_CornerInv" xml:space="preserve">
     <value>Concrete Inv. Corner</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_ReinforcedConcrete_CornerInv" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_ReinfConc_CornerInv" xml:space="preserve">
     <value>Reinf. Concrete Inv. Corner</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_Concrete_HalfArmorBlock" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_Conc_HalfArmorBlock" xml:space="preserve">
     <value>Half Concrete Block</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_ReinforcedConcrete_HalfArmorBlock" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_ReinfConc_HalfArmorBlock" xml:space="preserve">
     <value>Half Reinf. Concrete Block</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_Concrete_HalfSlopeArmorBlock" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_Conc_HalfSlopeArmorBlock" xml:space="preserve">
     <value>Half Slope Concrete Block</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_ReinforcedConcrete_HalfSlopeArmorBlock" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_ReinfConc_HalfSlopeArmorBlock" xml:space="preserve">
     <value>Half Slope Reinf. Concrete Block</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_Concrete_RoundSlope" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_Conc_RoundSlope" xml:space="preserve">
     <value>Round Armor Slope</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_ReinforcedConcrete_RoundSlope" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_ReinfConc_RoundSlope" xml:space="preserve">
     <value>Round Armor Slope</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_Concrete_RoundCorner" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_Conc_RoundCorner" xml:space="preserve">
     <value>Round Armor Corner</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_ReinforcedConcrete_RoundCorner" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_ReinfConc_RoundCorner" xml:space="preserve">
     <value>Round Armor Corner</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_Concrete_RoundCornerInv" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_Conc_RoundCornerInv" xml:space="preserve">
     <value>Round Armor Inv. Corner</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_ReinforcedConcrete_RoundCornerInv" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_ReinfConc_RoundCornerInv" xml:space="preserve">
     <value>Round Armor Inv. Corner</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_Concrete_Slope2Base" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_Conc_Slope2Base" xml:space="preserve">
     <value>Concrete Slope 2x1x1 Base</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_ReinforcedConcrete_Slope2Base" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_ReinfConc_Slope2Base" xml:space="preserve">
     <value>Reinf. Concrete Slope 2x1x1 Base</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_Concrete_Slope2Tip" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_Conc_Slope2Tip" xml:space="preserve">
     <value>Concrete Slope 2x1x1 Tip</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_ReinforcedConcrete_Slope2Tip" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_ReinfConc_Slope2Tip" xml:space="preserve">
     <value>Reinf. Concrete Slope 2x1x1 Tip</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_Concrete_Corner2Base" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_Conc_Corner2Base" xml:space="preserve">
     <value>Concrete Corner 2x1x1 Base</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_ReinforcedConcrete_Corner2Base" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_ReinfConc_Corner2Base" xml:space="preserve">
     <value>Reinf. Concrete Corner 2x1x1 Base</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_Concrete_Corner2Tip" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_Conc_Corner2Tip" xml:space="preserve">
     <value>Concrete Corner 2x1x1 Tip</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_ReinforcedConcrete_Corner2Tip" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_ReinfConc_Corner2Tip" xml:space="preserve">
     <value>Reinf. Concrete Corner 2x1x1 Tip</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_Concrete_InvCorner2Base" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_Conc_InvCorner2Base" xml:space="preserve">
     <value>Concrete Inv. Corner 2x1x1 Base</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_ReinforcedConcrete_InvCorner2Base" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_ReinfConc_InvCorner2Base" xml:space="preserve">
     <value>Reinf. Concrete Inv. Corner 2x1x1 Base</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_Concrete_InvCorner2Tip" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_Conc_InvCorner2Tip" xml:space="preserve">
     <value>Concrete Inv. Corner 2x1x1 Tip</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_ReinforcedConcrete_InvCorner2Tip" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_ReinfConc_InvCorner2Tip" xml:space="preserve">
     <value>Reinf. Concrete Inv. Corner 2x1x1 Tip</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_Concrete_CornerSquare" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_Conc_CornerSquare" xml:space="preserve">
     <value>Concrete Corner Square Block</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_ReinforcedConcrete_CornerSquare" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_ReinfConc_CornerSquare" xml:space="preserve">
     <value>Reinf. Concrete Corner Square Block</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_Concrete_CornerSquareInverted" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_Conc_CornerSquareInverted" xml:space="preserve">
     <value>Concrete Corner Square Inv. Block</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_ReinforcedConcrete_CornerSquareInverted" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_ReinfConc_CornerSquareInverted" xml:space="preserve">
     <value>Reinf. Concrete Corner Square Inv. Block</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_Concrete_HalfCorner" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_Conc_HalfCorner" xml:space="preserve">
     <value>Concrete Half Corner Block</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_ReinforcedConcrete_HalfCorner" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_ReinfConc_HalfCorner" xml:space="preserve">
     <value>Reinf. Concrete Half Corner Block</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_Concrete_HalfSlopeCorner" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_Conc_HalfSlopeCorner" xml:space="preserve">
     <value>Half Slope Corner Concrete</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_ReinforcedConcrete_HalfSlopeCorner" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_ReinfConc_HalfSlopeCorner" xml:space="preserve">
     <value>Half Slope Corner Reinf. Concrete</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_Concrete_HalfSlopeCornerInverted" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_Conc_HalfSlopeCornerInverted" xml:space="preserve">
     <value>Half Slope Corner Inv. Concrete</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_ReinforcedConcrete_HalfSlopeCornerInverted" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_ReinfConc_HalfSlopeCornerInverted" xml:space="preserve">
     <value>Half Slope Corner Inv. Reinf. Concrete</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_Concrete_HalfSlopedCorner" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_Conc_HalfSlopedCorner" xml:space="preserve">
     <value>Concrete Half Sloped Corner</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_ReinforcedConcrete_HalfSlopedCorner" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_ReinfConc_HalfSlopedCorner" xml:space="preserve">
     <value>Reinf. Concrete Half Sloped Corner</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_Concrete_HalfSlopedCornerBase" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_Conc_HalfSlopedCornerBase" xml:space="preserve">
     <value>Concrete Half Sloped Corner Base</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_ReinforcedConcrete_HalfSlopedCornerBase" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_ReinfConc_HalfSlopedCornerBase" xml:space="preserve">
     <value>Reinf. Concrete Half Sloped Corner Base</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_Concrete_HalfSlopeInverted" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_Conc_HalfSlopeInverted" xml:space="preserve">
     <value>Half Slope Inv. Concrete</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_ReinforcedConcrete_HalfSlopeInverted" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_ReinfConc_HalfSlopeInverted" xml:space="preserve">
     <value>Half Slope Inv. Reinf. Concrete</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_Concrete_SlopedCorner" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_Conc_SlopedCorner" xml:space="preserve">
     <value>Concrete Sloped Corner</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_ReinforcedConcrete_SlopedCorner" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_ReinfConc_SlopedCorner" xml:space="preserve">
     <value>Reinf. Concrete Sloped Corner</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_Concrete_SlopedCornerBase" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_Conc_SlopedCornerBase" xml:space="preserve">
     <value>Concrete Sloped Corner Base</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_ReinforcedConcrete_SlopedCornerBase" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_ReinfConc_SlopedCornerBase" xml:space="preserve">
     <value>Reinf. Concrete Sloped Corner Base</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_Concrete_SlopedCornerTip" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_Conc_SlopedCornerTip" xml:space="preserve">
     <value>Sloped Corner Concrete Tip</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_ReinforcedConcrete_SlopedCornerTip" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_ReinfConc_SlopedCornerTip" xml:space="preserve">
     <value>Sloped Corner Reinf. Concrete Tip</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_Concrete_RaisedSlopedCorner" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_Conc_RaisedSlopedCorner" xml:space="preserve">
     <value>Concrete Raised Sloped Corner</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_ReinforcedConcrete_RaisedSlopedCorner" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_ReinfConc_RaisedSlopedCorner" xml:space="preserve">
     <value>Reinf. Concrete Raised Sloped Corner</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_Concrete_SlopeTransition" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_Conc_SlopeTransition" xml:space="preserve">
     <value>Concrete Slope Transition</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_ReinforcedConcrete_SlopeTransition" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_ReinfConc_SlopeTransition" xml:space="preserve">
     <value>Reinf. Concrete Slope Transition</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_Concrete_SlopeTransitionBase" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_Conc_SlopeTransitionBase" xml:space="preserve">
     <value>Concrete Slope Transition Base</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_ReinforcedConcrete_SlopeTransitionBase" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_ReinfConc_SlopeTransitionBase" xml:space="preserve">
     <value>Reinf. Concrete Slope Transition Base</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_Concrete_SlopeTransitionBaseMirrored" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_Conc_SlopeTransitionBaseMirrored" xml:space="preserve">
     <value>Concrete Slope Transition Base Mirrored</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_ReinforcedConcrete_SlopeTransitionBaseMirrored" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_ReinfConc_SlopeTransitionBaseMirrored" xml:space="preserve">
     <value>Reinf. Concrete Slope Transition Base Mirrored</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_Concrete_SlopeTransitionMirrored" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_Conc_SlopeTransitionMirrored" xml:space="preserve">
     <value>Concrete Slope Transition Mirrored</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_ReinforcedConcrete_SlopeTransitionMirrored" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_ReinfConc_SlopeTransitionMirrored" xml:space="preserve">
     <value>Reinf. Concrete Slope Transition Mirrored</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_Concrete_SlopeTransitionTip" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_Conc_SlopeTransitionTip" xml:space="preserve">
     <value>Concrete Slope Transition Tip</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_ReinforcedConcrete_SlopeTransitionTip" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_ReinfConc_SlopeTransitionTip" xml:space="preserve">
     <value>Reinf. Concrete Slope Transition Tip</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_Concrete_SlopeTransitionTipMirrored" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_Conc_SlopeTransitionTipMirrored" xml:space="preserve">
     <value>Concrete Slope Transition Tip Mirrored</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_ReinforcedConcrete_SlopeTransitionTipMirrored" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_ReinfConc_SlopeTransitionTipMirrored" xml:space="preserve">
     <value>Reinf. Concrete Slope Transition Tip Mirrored</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_Concrete_SquareSlopedCornerBase" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_Conc_SquareSlopedCornerBase" xml:space="preserve">
     <value>Concrete Square Sloped Corner Base</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_ReinforcedConcrete_SquareSlopedCornerBase" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_ReinfConc_SquareSlopedCornerBase" xml:space="preserve">
     <value>Reinf. Concrete Square Sloped Corner Base</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_Concrete_SquareSlopedCornerTip" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_Conc_SquareSlopedCornerTip" xml:space="preserve">
     <value>Concrete Square Sloped Corner Tip</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_ReinforcedConcrete_SquareSlopedCornerTip" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_ReinfConc_SquareSlopedCornerTip" xml:space="preserve">
     <value>Reinf. Concrete Square Sloped Corner Tip</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_Concrete_SquareSlopedCornerTipInv" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_Conc_SquareSlopedCornerTipInv" xml:space="preserve">
     <value>Concrete Square Sloped Corner Tip Inv.</value>
     <comment/>
   </data>
-  <data name="DisplayName_AQD_LG_ReinforcedConcrete_SquareSlopedCornerTipInv" xml:space="preserve">
+  <data name="DisplayName_AQD_LG_ReinfConc_SquareSlopedCornerTipInv" xml:space="preserve">
     <value>Reinf. Concrete Square Sloped Corner Tip Inv.</value>
     <comment/>
   </data>

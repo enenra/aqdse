@@ -4,11 +4,11 @@
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
-				<SubtypeId>AQD_LG_ReinforcedConcrete_CornerSquare</SubtypeId>
+				<SubtypeId>AQD_LG_ReinfConc_CornerSquare</SubtypeId>
 			</Id>
-			<DisplayName>DisplayName_AQD_LG_ReinforcedConcrete_CornerSquare</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinforcedConcrete_CornerSquare.dds</Icon>
-			<Description>Description_AQD_ReinforcedConcrete_Block</Description>
+			<DisplayName>DisplayName_AQD_LG_ReinfConc_CornerSquare</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinfConc_CornerSquare.dds</Icon>
+			<Description>Description_AQD_ReinfConc_Block</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>Cube</BlockTopology>
 			<Size x="1" y="1" z="1"/>
@@ -97,7 +97,7 @@
 					<BoneOffset x="127" y="127" z="127" />
 				</BoneInfo>
 			</Skeleton>
-			<BlockPairName>AQD_ReinforcedConcrete_CornerSquare</BlockPairName>
+			<BlockPairName>AQD_ReinfConc_CornerSquare</BlockPairName>
 			<PhysicsOption>Convex</PhysicsOption>
 			<EdgeType>Heavy</EdgeType>
 			<BuildTimeSeconds>8.0</BuildTimeSeconds>
@@ -125,11 +125,11 @@
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
-				<SubtypeId>AQD_LG_ReinforcedConcrete_CornerSquareInverted</SubtypeId>
+				<SubtypeId>AQD_LG_ReinfConc_CornerSquareInverted</SubtypeId>
 			</Id>
-			<DisplayName>DisplayName_AQD_LG_ReinforcedConcrete_CornerSquareInverted</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinforcedConcrete_CornerSquareInverted.dds</Icon>
-			<Description>Description_AQD_ReinforcedConcrete_Block</Description>
+			<DisplayName>DisplayName_AQD_LG_ReinfConc_CornerSquareInverted</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinfConc_CornerSquareInverted.dds</Icon>
+			<Description>Description_AQD_ReinfConc_Block</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>Cube</BlockTopology>
 			<Size x="1" y="1" z="1"/>
@@ -222,7 +222,7 @@
 					<BoneOffset x="127" y="127" z="127" />
 				</BoneInfo>
 			</Skeleton>
-			<BlockPairName>AQD_ReinforcedConcrete_CornerSquareInverted</BlockPairName>
+			<BlockPairName>AQD_ReinfConc_CornerSquareInverted</BlockPairName>
 			<PhysicsOption>Convex</PhysicsOption>
 			<EdgeType>Heavy</EdgeType>
 			<BuildTimeSeconds>16.0</BuildTimeSeconds>
@@ -250,11 +250,11 @@
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
-				<SubtypeId>AQD_LG_ReinforcedConcrete_HalfCorner</SubtypeId>
+				<SubtypeId>AQD_LG_ReinfConc_HalfCorner</SubtypeId>
 			</Id>
-			<DisplayName>DisplayName_AQD_LG_ReinforcedConcrete_HalfCorner</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinforcedConcrete_HalfCorner.dds</Icon>
-			<Description>Description_AQD_ReinforcedConcrete_Block</Description>
+			<DisplayName>DisplayName_AQD_LG_ReinfConc_HalfCorner</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinfConc_HalfCorner.dds</Icon>
+			<Description>Description_AQD_ReinfConc_Block</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>Cube</BlockTopology>
 			<Size x="1" y="1" z="1"/>
@@ -334,7 +334,7 @@
 					<BoneOffset x="127" y="127" z="127" />
 				</BoneInfo>
 			</Skeleton>
-			<BlockPairName>AQD_ReinforcedConcrete_HalfCorner</BlockPairName>
+			<BlockPairName>AQD_ReinfConc_HalfCorner</BlockPairName>
 			<PhysicsOption>Convex</PhysicsOption>
 			<EdgeType>Heavy</EdgeType>
 			<BuildTimeSeconds>5.0</BuildTimeSeconds>
@@ -363,11 +363,11 @@
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
-				<SubtypeId>AQD_LG_ReinforcedConcrete_HalfSlopeCorner</SubtypeId>
+				<SubtypeId>AQD_LG_ReinfConc_HalfSlopeCorner</SubtypeId>
 			</Id>
-			<DisplayName>DisplayName_AQD_LG_ReinforcedConcrete_HalfSlopeCorner</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinforcedConcrete_HalfSlopeCorner.dds</Icon>
-			<Description>Description_AQD_ReinforcedConcrete_Block</Description>
+			<DisplayName>DisplayName_AQD_LG_ReinfConc_HalfSlopeCorner</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinfConc_HalfSlopeCorner.dds</Icon>
+			<Description>Description_AQD_ReinfConc_Block</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>Cube</BlockTopology>
 			<Size x="1" y="1" z="1"/>
@@ -425,7 +425,7 @@
 					<BoneOffset x="127" y="127" z="127" />
 				</BoneInfo>
 			</Skeleton>
-			<BlockPairName>AQD_ReinforcedConcrete_HalfSlopeCorner</BlockPairName>
+			<BlockPairName>AQD_ReinfConc_HalfSlopeCorner</BlockPairName>
 			<PhysicsOption>Convex</PhysicsOption>
 			<EdgeType>Heavy</EdgeType>
 			<BuildTimeSeconds>5.0</BuildTimeSeconds>
@@ -454,11 +454,11 @@
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
-				<SubtypeId>AQD_LG_ReinforcedConcrete_HalfSlopeCornerInverted</SubtypeId>
+				<SubtypeId>AQD_LG_ReinfConc_HalfSlopeCornerInverted</SubtypeId>
 			</Id>
-			<DisplayName>DisplayName_AQD_LG_ReinforcedConcrete_HalfSlopeCornerInverted</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinforcedConcrete_HalfSlopeCornerInverted.dds</Icon>
-			<Description>Description_AQD_ReinforcedConcrete_Block</Description>
+			<DisplayName>DisplayName_AQD_LG_ReinfConc_HalfSlopeCornerInverted</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinfConc_HalfSlopeCornerInverted.dds</Icon>
+			<Description>Description_AQD_ReinfConc_Block</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>Cube</BlockTopology>
 			<Size x="1" y="1" z="1"/>
@@ -604,7 +604,7 @@
 					<BoneOffset x="127" y="127" z="127" />
 				</BoneInfo>
 			</Skeleton>
-			<BlockPairName>AQD_ReinforcedConcrete_HalfSlopeCornerInverted</BlockPairName>
+			<BlockPairName>AQD_ReinfConc_HalfSlopeCornerInverted</BlockPairName>
 			<PhysicsOption>Convex</PhysicsOption>
 			<EdgeType>Heavy</EdgeType>
 			<BuildTimeSeconds>20.0</BuildTimeSeconds>
@@ -632,11 +632,11 @@
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
-				<SubtypeId>AQD_LG_ReinforcedConcrete_HalfSlopedCorner</SubtypeId>
+				<SubtypeId>AQD_LG_ReinfConc_HalfSlopedCorner</SubtypeId>
 			</Id>
-			<DisplayName>DisplayName_AQD_LG_ReinforcedConcrete_HalfSlopedCorner</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinforcedConcrete_HalfSlopedCorner.dds</Icon>
-			<Description>Description_AQD_ReinforcedConcrete_Block</Description>
+			<DisplayName>DisplayName_AQD_LG_ReinfConc_HalfSlopedCorner</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinfConc_HalfSlopedCorner.dds</Icon>
+			<Description>Description_AQD_ReinfConc_Block</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>Cube</BlockTopology>
 			<Size x="1" y="1" z="1"/>
@@ -722,7 +722,7 @@
 					<BoneOffset x="127" y="127" z="127" />
 				</BoneInfo>
 			</Skeleton>
-			<BlockPairName>AQD_ReinforcedConcrete_HalfSlopedCorner</BlockPairName>
+			<BlockPairName>AQD_ReinfConc_HalfSlopedCorner</BlockPairName>
 			<PhysicsOption>Convex</PhysicsOption>
 			<EdgeType>Heavy</EdgeType>
 			<BuildTimeSeconds>8.0</BuildTimeSeconds>
@@ -750,11 +750,11 @@
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
-				<SubtypeId>AQD_LG_ReinforcedConcrete_HalfSlopedCornerBase</SubtypeId>
+				<SubtypeId>AQD_LG_ReinfConc_HalfSlopedCornerBase</SubtypeId>
 			</Id>
-			<DisplayName>DisplayName_AQD_LG_ReinforcedConcrete_HalfSlopedCornerBase</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinforcedConcrete_HalfSlopedCornerBase.dds</Icon>
-			<Description>Description_AQD_ReinforcedConcrete_Block</Description>
+			<DisplayName>DisplayName_AQD_LG_ReinfConc_HalfSlopedCornerBase</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinfConc_HalfSlopedCornerBase.dds</Icon>
+			<Description>Description_AQD_ReinfConc_Block</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>Cube</BlockTopology>
 			<Size x="1" y="1" z="1"/>
@@ -861,7 +861,7 @@
 					<BoneOffset x="127" y="127" z="127" />
 				</BoneInfo>
 			</Skeleton>
-			<BlockPairName>AQD_ReinforcedConcrete_HalfSlopedCornerBase</BlockPairName>
+			<BlockPairName>AQD_ReinfConc_HalfSlopedCornerBase</BlockPairName>
 			<PhysicsOption>Convex</PhysicsOption>
 			<EdgeType>Heavy</EdgeType>
 			<BuildTimeSeconds>10.0</BuildTimeSeconds>
@@ -889,11 +889,11 @@
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
-				<SubtypeId>AQD_LG_ReinforcedConcrete_HalfSlopeInverted</SubtypeId>
+				<SubtypeId>AQD_LG_ReinfConc_HalfSlopeInverted</SubtypeId>
 			</Id>
-			<DisplayName>DisplayName_AQD_LG_ReinforcedConcrete_HalfSlopeInverted</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinforcedConcrete_HalfSlopeInverted.dds</Icon>
-			<Description>Description_AQD_ReinforcedConcrete_Block</Description>
+			<DisplayName>DisplayName_AQD_LG_ReinfConc_HalfSlopeInverted</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinfConc_HalfSlopeInverted.dds</Icon>
+			<Description>Description_AQD_ReinfConc_Block</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>Cube</BlockTopology>
 			<Size x="1" y="1" z="1"/>
@@ -1025,7 +1025,7 @@
 					<BoneOffset x="127" y="127" z="127" />
 				</BoneInfo>
 			</Skeleton>
-			<BlockPairName>AQD_ReinforcedConcrete_HalfSlopeInverted</BlockPairName>
+			<BlockPairName>AQD_ReinfConc_HalfSlopeInverted</BlockPairName>
 			<PhysicsOption>Convex</PhysicsOption>
 			<EdgeType>Heavy</EdgeType>
 			<BuildTimeSeconds>20.0</BuildTimeSeconds>
@@ -1053,11 +1053,11 @@
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
-				<SubtypeId>AQD_LG_ReinforcedConcrete_SlopedCorner</SubtypeId>
+				<SubtypeId>AQD_LG_ReinfConc_SlopedCorner</SubtypeId>
 			</Id>
-			<DisplayName>DisplayName_AQD_LG_ReinforcedConcrete_SlopedCorner</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinforcedConcrete_SlopedCorner.dds</Icon>
-			<Description>Description_AQD_ReinforcedConcrete_Block</Description>
+			<DisplayName>DisplayName_AQD_LG_ReinfConc_SlopedCorner</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinfConc_SlopedCorner.dds</Icon>
+			<Description>Description_AQD_ReinfConc_Block</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>Cube</BlockTopology>
 			<Size x="1" y="1" z="1"/>
@@ -1161,7 +1161,7 @@
 					<BoneOffset x="127" y="127" z="127" />
 				</BoneInfo>
 			</Skeleton>
-			<BlockPairName>AQD_ReinforcedConcrete_SlopedCorner</BlockPairName>
+			<BlockPairName>AQD_ReinfConc_SlopedCorner</BlockPairName>
 			<PhysicsOption>Convex</PhysicsOption>
 			<EdgeType>Heavy</EdgeType>
 			<BuildTimeSeconds>10.0</BuildTimeSeconds>
@@ -1189,11 +1189,11 @@
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
-				<SubtypeId>AQD_LG_ReinforcedConcrete_SlopedCornerBase</SubtypeId>
+				<SubtypeId>AQD_LG_ReinfConc_SlopedCornerBase</SubtypeId>
 			</Id>
-			<DisplayName>DisplayName_AQD_LG_ReinforcedConcrete_SlopedCornerBase</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinforcedConcrete_SlopedCornerBase.dds</Icon>
-			<Description>Description_AQD_ReinforcedConcrete_Block</Description>
+			<DisplayName>DisplayName_AQD_LG_ReinfConc_SlopedCornerBase</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinfConc_SlopedCornerBase.dds</Icon>
+			<Description>Description_AQD_ReinfConc_Block</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>Cube</BlockTopology>
 			<Size x="1" y="1" z="1"/>
@@ -1324,7 +1324,7 @@
 					<BoneOffset x="127" y="127" z="127" />
 				</BoneInfo>
 			</Skeleton>
-			<BlockPairName>AQD_ReinforcedConcrete_SlopedCornerBase</BlockPairName>
+			<BlockPairName>AQD_ReinfConc_SlopedCornerBase</BlockPairName>
 			<PhysicsOption>Convex</PhysicsOption>
 			<EdgeType>Heavy</EdgeType>
 			<BuildTimeSeconds>16.0</BuildTimeSeconds>
@@ -1352,11 +1352,11 @@
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
-				<SubtypeId>AQD_LG_ReinforcedConcrete_SlopedCornerTip</SubtypeId>
+				<SubtypeId>AQD_LG_ReinfConc_SlopedCornerTip</SubtypeId>
 			</Id>
-			<DisplayName>DisplayName_AQD_LG_ReinforcedConcrete_SlopedCornerTip</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinforcedConcrete_SlopedCornerTip.dds</Icon>
-			<Description>Description_AQD_ReinforcedConcrete_Block</Description>
+			<DisplayName>DisplayName_AQD_LG_ReinfConc_SlopedCornerTip</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinfConc_SlopedCornerTip.dds</Icon>
+			<Description>Description_AQD_ReinfConc_Block</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>Cube</BlockTopology>
 			<Size x="1" y="1" z="1"/>
@@ -1427,7 +1427,7 @@
 					<BoneOffset x="127" y="127" z="127" />
 				</BoneInfo>
 			</Skeleton>
-			<BlockPairName>AQD_ReinforcedConcrete_SlopedCornerTip</BlockPairName>
+			<BlockPairName>AQD_ReinfConc_SlopedCornerTip</BlockPairName>
 			<PhysicsOption>Convex</PhysicsOption>
 			<EdgeType>Heavy</EdgeType>
 			<BuildTimeSeconds>5.0</BuildTimeSeconds>

@@ -63,7 +63,7 @@ def create_bvgs():
                             entry_block = entry_block.split('"')[3]
 
                             if not entry_block.startswith("Small"):
-                                id = "Concrete"
+                                id = "Conc"
                                 if entry_block.startswith("LargeHeavyBlockArmor"):
                                     entry_block = entry_block.replace("LargeHeavyBlockArmor", f"AQD_LG_{id}_")
                                 elif entry_block.startswith("LargeBlockHeavyArmor"):
@@ -76,7 +76,7 @@ def create_bvgs():
                                 if f"AQD_LG_{id}_" not in entry_block:
                                     entry_block = f"AQD_LG_{id}_" + entry_block
 
-                                assignments[new_subtype].append(entry_block.replace("LargeBlock", "AQD_Concrete_"))
+                                assignments[new_subtype].append(entry_block.replace("LargeBlock", "AQD_Conc_"))
 
                             entry = entry[entry.find(" />") + len(" />"):]
 
@@ -124,6 +124,6 @@ def create_bvgs():
     # ReinforcedConcrete
     target_file = os.path.join(MOD_PATH, 'Data', "BlockVariantGroups_ReinforcedConcrete.sbc")
     exported_xml = open(target_file, "w")
-    exported_xml.write(xml_formatted.replace("_Concrete_", "_ReinforcedConcrete_"))
+    exported_xml.write(xml_formatted.replace("_Conc_", "_ReinfConc_"))
 
 create_bvgs()

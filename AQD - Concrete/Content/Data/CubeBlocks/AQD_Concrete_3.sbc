@@ -4,11 +4,11 @@
 		<Definition>
 	  <Id>
 		<TypeId>CubeBlock</TypeId>
-		<SubtypeId>AQD_LG_Concrete_RaisedSlopedCorner</SubtypeId>
+		<SubtypeId>AQD_LG_Conc_RaisedSlopedCorner</SubtypeId>
 	  </Id>
-	  <DisplayName>DisplayName_AQD_LG_Concrete_RaisedSlopedCorner</DisplayName>
-	  <Icon>Textures\GUI\Icons\Cubes\AQD_LG_Concrete_RaisedSlopedCorner.dds</Icon>
-	  <Description>Description_AQD_Concrete_Block</Description>
+	  <DisplayName>DisplayName_AQD_LG_Conc_RaisedSlopedCorner</DisplayName>
+	  <Icon>Textures\GUI\Icons\Cubes\AQD_LG_Conc_RaisedSlopedCorner.dds</Icon>
+	  <Description>Description_AQD_Conc_Block</Description>
 	  <CubeSize>Large</CubeSize>
 	  <BlockTopology>Cube</BlockTopology>
 	  <DeformationRatio>0.0</DeformationRatio>
@@ -134,7 +134,7 @@
 		<Variant Color="Black" Suffix="_black" />
 		<Variant Color="White" Suffix="_white" />
 	  </Variants>
-	  <BlockPairName>AQD_Concrete_RaisedSlopedCorner</BlockPairName>
+	  <BlockPairName>AQD_Conc_RaisedSlopedCorner</BlockPairName>
 	  <PhysicsOption>Convex</PhysicsOption>
 	  <EdgeType>Light</EdgeType>
 	  <BuildTimeSeconds>7</BuildTimeSeconds>
@@ -150,11 +150,11 @@
 		<Definition>
 	  <Id>
 		<TypeId>CubeBlock</TypeId>
-		<SubtypeId>AQD_LG_Concrete_SlopeTransition</SubtypeId>
+		<SubtypeId>AQD_LG_Conc_SlopeTransition</SubtypeId>
 	  </Id>
-	  <DisplayName>DisplayName_AQD_LG_Concrete_SlopeTransition</DisplayName>
-	  <Icon>Textures\GUI\Icons\Cubes\AQD_LG_Concrete_SlopeTransition.dds</Icon>
-	  <Description>Description_AQD_Concrete_Block</Description>
+	  <DisplayName>DisplayName_AQD_LG_Conc_SlopeTransition</DisplayName>
+	  <Icon>Textures\GUI\Icons\Cubes\AQD_LG_Conc_SlopeTransition.dds</Icon>
+	  <Description>Description_AQD_Conc_Block</Description>
 	  <CubeSize>Large</CubeSize>
 	  <BlockTopology>Cube</BlockTopology>
 	  <DeformationRatio>0.0</DeformationRatio>
@@ -262,7 +262,7 @@
 		<Variant Color="Black" Suffix="_black" />
 		<Variant Color="White" Suffix="_white" />
 	  </Variants>
-	  <BlockPairName>AQD_Concrete_SlopeTransition</BlockPairName>
+	  <BlockPairName>AQD_Conc_SlopeTransition</BlockPairName>
 	  <PhysicsOption>Convex</PhysicsOption>
 	  <EdgeType>Light</EdgeType>
 	  <BuildTimeSeconds>4</BuildTimeSeconds>
@@ -271,18 +271,18 @@
 	  <PCU>1</PCU>
 	  <MirroringX>Y</MirroringX>
 	  <MirroringY>X</MirroringY>
-	  <MirroringBlock>AQD_LG_Concrete_SlopeTransitionMirrored</MirroringBlock>
+	  <MirroringBlock>AQD_LG_Conc_SlopeTransitionMirrored</MirroringBlock>
 	  <PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
 	</Definition>
 		<Definition>
 	  <Id>
 		<TypeId>CubeBlock</TypeId>
-		<SubtypeId>AQD_LG_Concrete_SlopeTransitionBase</SubtypeId>
+		<SubtypeId>AQD_LG_Conc_SlopeTransitionBase</SubtypeId>
 	  </Id>
-	  <DisplayName>DisplayName_AQD_LG_Concrete_SlopeTransitionBase</DisplayName>
-	  <Icon>Textures\GUI\Icons\Cubes\AQD_LG_Concrete_SlopeTransitionBase.dds</Icon>
-	  <Description>Description_AQD_Concrete_Block</Description>
+	  <DisplayName>DisplayName_AQD_LG_Conc_SlopeTransitionBase</DisplayName>
+	  <Icon>Textures\GUI\Icons\Cubes\AQD_LG_Conc_SlopeTransitionBase.dds</Icon>
+	  <Description>Description_AQD_Conc_Block</Description>
 	  <CubeSize>Large</CubeSize>
 	  <BlockTopology>Cube</BlockTopology>
 	  <DeformationRatio>0.0</DeformationRatio>
@@ -416,7 +416,7 @@
 		<Variant Color="Black" Suffix="_black" />
 		<Variant Color="White" Suffix="_white" />
 	  </Variants>
-	  <BlockPairName>AQD_Concrete_SlopeTransitionBase</BlockPairName>
+	  <BlockPairName>AQD_Conc_SlopeTransitionBase</BlockPairName>
 	  <PhysicsOption>Convex</PhysicsOption>
 	  <EdgeType>Light</EdgeType>
 	  <BuildTimeSeconds>6</BuildTimeSeconds>
@@ -425,18 +425,18 @@
 	  <PCU>1</PCU>
 		<MirroringX>Y</MirroringX>
 		<MirroringY>X</MirroringY>
-	  <MirroringBlock>AQD_LG_Concrete_SlopeTransitionBaseMirrored</MirroringBlock>
+	  <MirroringBlock>AQD_LG_Conc_SlopeTransitionBaseMirrored</MirroringBlock>
 	  <PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
 	</Definition>
 		<Definition>
 	  <Id>
 		<TypeId>CubeBlock</TypeId>
-		<SubtypeId>AQD_LG_Concrete_SlopeTransitionBaseMirrored</SubtypeId>
+		<SubtypeId>AQD_LG_Conc_SlopeTransitionBaseMirrored</SubtypeId>
 	  </Id>
-	  <DisplayName>DisplayName_AQD_LG_Concrete_SlopeTransitionBaseMirrored</DisplayName>
-	  <Icon>Textures\GUI\Icons\Cubes\AQD_LG_Concrete_SlopeTransitionBaseMirrored.dds</Icon>
-	  <Description>Description_AQD_Concrete_Block</Description>
+	  <DisplayName>DisplayName_AQD_LG_Conc_SlopeTransitionBaseMirrored</DisplayName>
+	  <Icon>Textures\GUI\Icons\Cubes\AQD_LG_Conc_SlopeTransitionBaseMirrored.dds</Icon>
+	  <Description>Description_AQD_Conc_Block</Description>
 	  <CubeSize>Large</CubeSize>
 	  <BlockTopology>Cube</BlockTopology>
 	  <Size x="1" y="1" z="1" />
@@ -570,7 +570,7 @@
 		<Variant Color="Black" Suffix="_black" />
 		<Variant Color="White" Suffix="_white" />
 	  </Variants>
-	  <BlockPairName>AQD_Concrete_SlopeTransitionBaseMirrored</BlockPairName>
+	  <BlockPairName>AQD_Conc_SlopeTransitionBaseMirrored</BlockPairName>
 	  <PhysicsOption>Convex</PhysicsOption>
 	  <EdgeType>Light</EdgeType>
 	  <BuildTimeSeconds>6</BuildTimeSeconds>
@@ -579,18 +579,18 @@
 	  <PCU>1</PCU>
 		<MirroringX>Y</MirroringX>
 		<MirroringY>X</MirroringY>
-	  <MirroringBlock>AQD_LG_Concrete_SlopeTransitionBase</MirroringBlock>
+	  <MirroringBlock>AQD_LG_Conc_SlopeTransitionBase</MirroringBlock>
 	  <PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
 	</Definition>
 		<Definition>
 	  <Id>
 		<TypeId>CubeBlock</TypeId>
-		<SubtypeId>AQD_LG_Concrete_SlopeTransitionMirrored</SubtypeId>
+		<SubtypeId>AQD_LG_Conc_SlopeTransitionMirrored</SubtypeId>
 	  </Id>
-	  <DisplayName>DisplayName_AQD_LG_Concrete_SlopeTransitionMirrored</DisplayName>
-	  <Icon>Textures\GUI\Icons\Cubes\AQD_LG_Concrete_SlopeTransitionMirrored.dds</Icon>
-	  <Description>Description_AQD_Concrete_Block</Description>
+	  <DisplayName>DisplayName_AQD_LG_Conc_SlopeTransitionMirrored</DisplayName>
+	  <Icon>Textures\GUI\Icons\Cubes\AQD_LG_Conc_SlopeTransitionMirrored.dds</Icon>
+	  <Description>Description_AQD_Conc_Block</Description>
 	  <CubeSize>Large</CubeSize>
 	  <BlockTopology>Cube</BlockTopology>
 	  <DeformationRatio>0.0</DeformationRatio>
@@ -698,7 +698,7 @@
 		<Variant Color="Black" Suffix="_black" />
 		<Variant Color="White" Suffix="_white" />
 	  </Variants>
-	  <BlockPairName>AQD_Concrete_SlopeTransitionMirrored</BlockPairName>
+	  <BlockPairName>AQD_Conc_SlopeTransitionMirrored</BlockPairName>
 	  <PhysicsOption>Convex</PhysicsOption>
 	  <EdgeType>Light</EdgeType>
 	  <BuildTimeSeconds>4</BuildTimeSeconds>
@@ -707,18 +707,18 @@
 	  <PCU>1</PCU>
 		<MirroringX>Y</MirroringX>
 		<MirroringY>X</MirroringY>
-		<MirroringBlock>AQD_LG_Concrete_SlopeTransition</MirroringBlock>
+		<MirroringBlock>AQD_LG_Conc_SlopeTransition</MirroringBlock>
 	  <PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
 	</Definition>
 		<Definition>
 	  <Id>
 		<TypeId>CubeBlock</TypeId>
-		<SubtypeId>AQD_LG_Concrete_SlopeTransitionTip</SubtypeId>
+		<SubtypeId>AQD_LG_Conc_SlopeTransitionTip</SubtypeId>
 	  </Id>
-	  <DisplayName>DisplayName_AQD_LG_Concrete_SlopeTransitionTip</DisplayName>
-	  <Icon>Textures\GUI\Icons\Cubes\AQD_LG_Concrete_SlopeTransitionTip.dds</Icon>
-	  <Description>Description_AQD_Concrete_Block</Description>
+	  <DisplayName>DisplayName_AQD_LG_Conc_SlopeTransitionTip</DisplayName>
+	  <Icon>Textures\GUI\Icons\Cubes\AQD_LG_Conc_SlopeTransitionTip.dds</Icon>
+	  <Description>Description_AQD_Conc_Block</Description>
 	  <CubeSize>Large</CubeSize>
 	  <BlockTopology>Cube</BlockTopology>
 	  <DeformationRatio>0.0</DeformationRatio>
@@ -813,14 +813,14 @@
 		<Variant Color="Black" Suffix="_black" />
 		<Variant Color="White" Suffix="_white" />
 	  </Variants>
-	  <BlockPairName>AQD_Concrete_SlopeTransitionTip</BlockPairName>
+	  <BlockPairName>AQD_Conc_SlopeTransitionTip</BlockPairName>
 	  <PhysicsOption>Convex</PhysicsOption>
 	  <EdgeType>Light</EdgeType>
 	  <BuildTimeSeconds>2</BuildTimeSeconds>
 	  <DisassembleRatio>2.5</DisassembleRatio>
 	  <NavigationDefinition>Default</NavigationDefinition>
 	  <PCU>1</PCU>
-		<MirroringBlock>AQD_LG_Concrete_SlopeTransitionTipMirrored</MirroringBlock>
+		<MirroringBlock>AQD_LG_Conc_SlopeTransitionTipMirrored</MirroringBlock>
 		<MirroringX>Y</MirroringX>
 		<MirroringY>X</MirroringY>
 	  <PCUConsole>2</PCUConsole>
@@ -830,11 +830,11 @@
 		<Definition>
 	  <Id>
 		<TypeId>CubeBlock</TypeId>
-		<SubtypeId>AQD_LG_Concrete_SlopeTransitionTipMirrored</SubtypeId>
+		<SubtypeId>AQD_LG_Conc_SlopeTransitionTipMirrored</SubtypeId>
 	  </Id>
-	  <DisplayName>DisplayName_AQD_LG_Concrete_SlopeTransitionTipMirrored</DisplayName>
-	  <Icon>Textures\GUI\Icons\Cubes\AQD_LG_Concrete_SlopeTransitionTipMirrored.dds</Icon>
-	  <Description>Description_AQD_Concrete_Block</Description>
+	  <DisplayName>DisplayName_AQD_LG_Conc_SlopeTransitionTipMirrored</DisplayName>
+	  <Icon>Textures\GUI\Icons\Cubes\AQD_LG_Conc_SlopeTransitionTipMirrored.dds</Icon>
+	  <Description>Description_AQD_Conc_Block</Description>
 	  <CubeSize>Large</CubeSize>
 	  <BlockTopology>Cube</BlockTopology>
 	  <DeformationRatio>0.0</DeformationRatio>
@@ -929,14 +929,14 @@
 		<Variant Color="Black" Suffix="_black" />
 		<Variant Color="White" Suffix="_white" />
 	  </Variants>
-	  <BlockPairName>AQD_Concrete_SlopeTransitionTipMirrored</BlockPairName>
+	  <BlockPairName>AQD_Conc_SlopeTransitionTipMirrored</BlockPairName>
 	  <PhysicsOption>Convex</PhysicsOption>
 	  <EdgeType>Light</EdgeType>
 	  <BuildTimeSeconds>2</BuildTimeSeconds>
 	  <DisassembleRatio>2.5</DisassembleRatio>
 	  <NavigationDefinition>Default</NavigationDefinition>
 	  <PCU>1</PCU>
-		<MirroringBlock>AQD_LG_Concrete_SlopeTransitionTip</MirroringBlock>
+		<MirroringBlock>AQD_LG_Conc_SlopeTransitionTip</MirroringBlock>
 		<MirroringX>Y</MirroringX>
 		<MirroringY>X</MirroringY>
 	  <PCUConsole>2</PCUConsole>
@@ -946,11 +946,11 @@
 		<Definition>
 	  <Id>
 		<TypeId>CubeBlock</TypeId>
-		<SubtypeId>AQD_LG_Concrete_SquareSlopedCornerBase</SubtypeId>
+		<SubtypeId>AQD_LG_Conc_SquareSlopedCornerBase</SubtypeId>
 	  </Id>
-	  <DisplayName>DisplayName_AQD_LG_Concrete_SquareSlopedCornerBase</DisplayName>
-	  <Icon>Textures\GUI\Icons\Cubes\AQD_LG_Concrete_SquareSlopedCornerBase.dds</Icon>
-	  <Description>Description_AQD_Concrete_Block</Description>
+	  <DisplayName>DisplayName_AQD_LG_Conc_SquareSlopedCornerBase</DisplayName>
+	  <Icon>Textures\GUI\Icons\Cubes\AQD_LG_Conc_SquareSlopedCornerBase.dds</Icon>
+	  <Description>Description_AQD_Conc_Block</Description>
 	  <CubeSize>Large</CubeSize>
 	  <BlockTopology>Cube</BlockTopology>
 	  <DeformationRatio>0.0</DeformationRatio>
@@ -1080,7 +1080,7 @@
 		<Variant Color="Black" Suffix="_black" />
 		<Variant Color="White" Suffix="_white" />
 	  </Variants>
-	  <BlockPairName>AQD_Concrete_SquareSlopedCornerBase</BlockPairName>
+	  <BlockPairName>AQD_Conc_SquareSlopedCornerBase</BlockPairName>
 	  <PhysicsOption>Convex</PhysicsOption>
 	  <EdgeType>Light</EdgeType>
 	  <BuildTimeSeconds>6</BuildTimeSeconds>
@@ -1096,11 +1096,11 @@
 		<Definition>
 	  <Id>
 		<TypeId>CubeBlock</TypeId>
-		<SubtypeId>AQD_LG_Concrete_SquareSlopedCornerTip</SubtypeId>
+		<SubtypeId>AQD_LG_Conc_SquareSlopedCornerTip</SubtypeId>
 	  </Id>
-	  <DisplayName>DisplayName_AQD_LG_Concrete_SquareSlopedCornerTip</DisplayName>
-	  <Icon>Textures\GUI\Icons\Cubes\AQD_LG_Concrete_SquareSlopedCornerTip.dds</Icon>
-	  <Description>Description_AQD_Concrete_Block</Description>
+	  <DisplayName>DisplayName_AQD_LG_Conc_SquareSlopedCornerTip</DisplayName>
+	  <Icon>Textures\GUI\Icons\Cubes\AQD_LG_Conc_SquareSlopedCornerTip.dds</Icon>
+	  <Description>Description_AQD_Conc_Block</Description>
 	  <CubeSize>Large</CubeSize>
 	  <BlockTopology>Cube</BlockTopology>
 	  <DeformationRatio>0.0</DeformationRatio>
@@ -1198,7 +1198,7 @@
 		<Variant Color="Black" Suffix="_black" />
 		<Variant Color="White" Suffix="_white" />
 	  </Variants>
-	  <BlockPairName>AQD_Concrete_SquareSlopedCornerTip</BlockPairName>
+	  <BlockPairName>AQD_Conc_SquareSlopedCornerTip</BlockPairName>
 	  <PhysicsOption>Convex</PhysicsOption>
 	  <EdgeType>Light</EdgeType>
 	  <BuildTimeSeconds>2</BuildTimeSeconds>
@@ -1214,11 +1214,11 @@
 		<Definition>
 	  <Id>
 		<TypeId>CubeBlock</TypeId>
-		<SubtypeId>AQD_LG_Concrete_SquareSlopedCornerTipInv</SubtypeId>
+		<SubtypeId>AQD_LG_Conc_SquareSlopedCornerTipInv</SubtypeId>
 	  </Id>
-	  <DisplayName>DisplayName_AQD_LG_Concrete_SquareSlopedCornerTipInv</DisplayName>
-	  <Icon>Textures\GUI\Icons\Cubes\AQD_LG_Concrete_SquareSlopedCornerTipInv.dds</Icon>
-	  <Description>Description_AQD_Concrete_Block</Description>
+	  <DisplayName>DisplayName_AQD_LG_Conc_SquareSlopedCornerTipInv</DisplayName>
+	  <Icon>Textures\GUI\Icons\Cubes\AQD_LG_Conc_SquareSlopedCornerTipInv.dds</Icon>
+	  <Description>Description_AQD_Conc_Block</Description>
 	  <CubeSize>Large</CubeSize>
 	  <BlockTopology>Cube</BlockTopology>
 	  <DeformationRatio>0.0</DeformationRatio>
@@ -1336,7 +1336,7 @@
 		<Variant Color="Black" Suffix="_black" />
 		<Variant Color="White" Suffix="_white" />
 	  </Variants>
-	  <BlockPairName>AQD_Concrete_SquareSlopedCornerTipInv</BlockPairName>
+	  <BlockPairName>AQD_Conc_SquareSlopedCornerTipInv</BlockPairName>
 	  <PhysicsOption>Convex</PhysicsOption>
 	  <EdgeType>Light</EdgeType>
 	  <BuildTimeSeconds>4</BuildTimeSeconds>

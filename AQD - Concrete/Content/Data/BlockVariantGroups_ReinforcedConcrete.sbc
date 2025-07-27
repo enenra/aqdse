@@ -2,95 +2,95 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<BlockVariantGroups>
 		<BlockVariantGroup>
-			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AQD_BVG_ReinforcedConcrete_CubeGroup"/>
-			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinforcedConcrete_Block.dds</Icon>
-			<DisplayName>DisplayName_AQD_LG_ReinforcedConcrete_Block</DisplayName>
-			<Description>Description_AQD_ReinforcedConcrete_Block</Description>
+			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AQD_BVG_Concrete_CubeGroup"/>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinfConc_Block.dds</Icon>
+			<DisplayName>DisplayName_AQD_LG_ReinfConc_Block</DisplayName>
+			<Description>Description_AQD_Concrete_Block</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedConcrete_Block"/>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedConcrete_Block"/>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedConcrete_Slope"/>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedConcrete_Corner"/>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedConcrete_CornerInv"/>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedConcrete_CornerSquare"/>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedConcrete_CornerSquareInverted"/>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_Block"/>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_Block"/>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_Slope"/>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_Corner"/>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_CornerInv"/>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_CornerSquare"/>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_CornerSquareInverted"/>
 			</Blocks>
 		</BlockVariantGroup>
 		<BlockVariantGroup>
-			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AQD_BVG_ReinforcedConcrete_RampGroup"/>
-			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinforcedConcrete_Slope2Base.dds</Icon>
-			<DisplayName>DisplayName_AQD_LG_ReinforcedConcrete_Slope2Base</DisplayName>
-			<Description>Description_AQD_ReinforcedConcrete_Block</Description>
+			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AQD_BVG_Concrete_RampGroup"/>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinfConc_Slope2Base.dds</Icon>
+			<DisplayName>DisplayName_AQD_LG_ReinfConc_Slope2Base</DisplayName>
+			<Description>Description_AQD_Concrete_Block</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedConcrete_Slope2Base"/>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedConcrete_Slope2Base"/>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedConcrete_Slope2Tip"/>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedConcrete_HalfArmorBlock"/>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedConcrete_HalfSlopeArmorBlock"/>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedConcrete_HalfSlopeCorner"/>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedConcrete_HalfCorner"/>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedConcrete_HalfSlopedCorner"/>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedConcrete_HalfArmorBlock"/>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedConcrete_HalfSlopeArmorBlock"/>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_Slope2Base"/>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_Slope2Base"/>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_Slope2Tip"/>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_HalfArmorBlock"/>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_HalfSlopeArmorBlock"/>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_HalfSlopeCorner"/>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_HalfCorner"/>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_HalfSlopedCorner"/>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_HalfArmorBlock"/>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_HalfSlopeArmorBlock"/>
 			</Blocks>
 		</BlockVariantGroup>
 		<BlockVariantGroup>
-			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AQD_BVG_ReinforcedConcrete_RampCornerGroup"/>
-			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinforcedConcrete_Corner2Base.dds</Icon>
-			<DisplayName>DisplayName_AQD_LG_ReinforcedConcrete_Corner2Base</DisplayName>
-			<Description>Description_AQD_ReinforcedConcrete_Block</Description>
+			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AQD_BVG_Concrete_RampCornerGroup"/>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinfConc_Corner2Base.dds</Icon>
+			<DisplayName>DisplayName_AQD_LG_ReinfConc_Corner2Base</DisplayName>
+			<Description>Description_AQD_Concrete_Block</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedConcrete_Corner2Base"/>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedConcrete_Corner2Base"/>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedConcrete_Corner2Tip"/>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedConcrete_InvCorner2Base"/>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedConcrete_InvCorner2Tip"/>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedConcrete_HalfSlopeCornerInverted"/>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedConcrete_HalfSlopeInverted"/>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_Corner2Base"/>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_Corner2Base"/>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_Corner2Tip"/>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_InvCorner2Base"/>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_InvCorner2Tip"/>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_HalfSlopeCornerInverted"/>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_HalfSlopeInverted"/>
 			</Blocks>
 		</BlockVariantGroup>
 		<BlockVariantGroup>
-			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AQD_BVG_ReinforcedConcrete_RoundGroup"/>
-			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinforcedConcrete_RoundSlope.dds</Icon>
-			<DisplayName>DisplayName_AQD_LG_ReinforcedConcrete_RoundSlope</DisplayName>
-			<Description>Description_AQD_ReinforcedConcrete_Block</Description>
+			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AQD_BVG_Concrete_RoundGroup"/>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinfConc_RoundSlope.dds</Icon>
+			<DisplayName>DisplayName_AQD_LG_ReinfConc_RoundSlope</DisplayName>
+			<Description>Description_AQD_Concrete_Block</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedConcrete_RoundSlope"/>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedConcrete_RoundSlope"/>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedConcrete_RoundCorner"/>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedConcrete_RoundCornerInv"/>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_RoundSlope"/>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_RoundSlope"/>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_RoundCorner"/>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_RoundCornerInv"/>
 			</Blocks>
 		</BlockVariantGroup>
 		<BlockVariantGroup>
-			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AQD_BVG_ReinforcedConcrete_SlopedCorners"/>
-			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinforcedConcrete_SlopedCornerTip.dds</Icon>
-			<DisplayName>DisplayName_AQD_LG_ReinforcedConcrete_SlopedCornerTip</DisplayName>
-			<Description>Description_AQD_ReinforcedConcrete_Block</Description>
+			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AQD_BVG_Concrete_SlopedCorners"/>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinfConc_SlopedCornerTip.dds</Icon>
+			<DisplayName>DisplayName_AQD_LG_ReinfConc_SlopedCornerTip</DisplayName>
+			<Description>Description_AQD_Concrete_Block</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedConcrete_SlopedCornerTip"/>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedConcrete_SlopedCornerTip"/>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedConcrete_RaisedSlopedCorner"/>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedConcrete_SquareSlopedCornerTip"/>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedConcrete_SquareSlopedCornerBase"/>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedConcrete_SquareSlopedCornerTipInv"/>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedConcrete_SlopedCornerBase"/>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedConcrete_SlopedCorner"/>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedConcrete_HalfSlopedCornerBase"/>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_SlopedCornerTip"/>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_SlopedCornerTip"/>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_RaisedSlopedCorner"/>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_SquareSlopedCornerTip"/>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_SquareSlopedCornerBase"/>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_SquareSlopedCornerTipInv"/>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_SlopedCornerBase"/>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_SlopedCorner"/>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_HalfSlopedCornerBase"/>
 			</Blocks>
 		</BlockVariantGroup>
 		<BlockVariantGroup>
-			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AQD_BVG_ReinforcedConcrete_TransitionBlocks"/>
-			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinforcedConcrete_SlopeTransitionBase.dds</Icon>
-			<DisplayName>DisplayName_AQD_LG_ReinforcedConcrete_SlopeTransitionBase</DisplayName>
-			<Description>Description_AQD_ReinforcedConcrete_Block</Description>
+			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AQD_BVG_Concrete_TransitionBlocks"/>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinfConc_SlopeTransitionBase.dds</Icon>
+			<DisplayName>DisplayName_AQD_LG_ReinfConc_SlopeTransitionBase</DisplayName>
+			<Description>Description_AQD_Concrete_Block</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedConcrete_SlopeTransitionBase"/>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedConcrete_SlopeTransitionBase"/>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedConcrete_SlopeTransition"/>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedConcrete_SlopeTransitionTip"/>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedConcrete_SlopeTransitionBaseMirrored"/>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedConcrete_SlopeTransitionMirrored"/>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinforcedConcrete_SlopeTransitionTipMirrored"/>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_SlopeTransitionBase"/>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_SlopeTransitionBase"/>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_SlopeTransition"/>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_SlopeTransitionTip"/>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_SlopeTransitionBaseMirrored"/>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_SlopeTransitionMirrored"/>
+				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_SlopeTransitionTipMirrored"/>
 			</Blocks>
 		</BlockVariantGroup>
 	</BlockVariantGroups>

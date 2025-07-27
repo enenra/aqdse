@@ -69,7 +69,7 @@ def generate_resx():
                     dpname = get_subelement(get_subelement(lines, "Definition"), "DisplayName").replace("<DisplayName>", "").replace("</DisplayName>", "")
                     dpname_text = get_subelement(game_resx, "data", dpname).split("<value>")[1].split("</value>")[0]
 
-                    id = "Concrete"
+                    id = "Conc"
                     if subtype.startswith("LargeBlockArmor"):
                         subtype = subtype.replace("LargeBlockArmor", f"AQD_LG_{id}_")
                     else:
@@ -88,7 +88,7 @@ def generate_resx():
 
     for k, v in resx_entries.items():
         create_resx_entry(defs, k, v)
-        create_resx_entry(defs, k.replace("_Concrete_", "_ReinforcedConcrete_"), v.replace("Concrete", "Reinf. Concrete"))
+        create_resx_entry(defs, k.replace("_Conc_", "_ReinfConc_"), v.replace("Concrete", "Reinf. Concrete"))
 
     temp_string = ET.tostring(defs, 'utf-8')
     temp_string.decode('ascii')

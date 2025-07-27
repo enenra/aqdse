@@ -73,9 +73,9 @@ def main():
 
 
 def make_cubedef_adjustments(entries, hvy):
-    id = "Concrete"
+    id = "Conc"
     if hvy:
-        id = "ReinforcedConcrete"
+        id = "ReinfConc"
 
     adjusted_subtypes = {}
     for k, v in entries.items():
@@ -107,7 +107,7 @@ def make_cubedef_adjustments(entries, hvy):
         sides_n = "<Sides>\n"
 
         side_id = "C"
-        if id == "ReinforcedConcrete":
+        if id == "ReinfConc":
             side_id = "RC"
 
         while get_subelement(sides, "Side") != -1:

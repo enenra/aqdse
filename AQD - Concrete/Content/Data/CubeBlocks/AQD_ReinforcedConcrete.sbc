@@ -4,11 +4,11 @@
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
-				<SubtypeId>AQD_LG_ReinforcedConcrete_Block</SubtypeId>
+				<SubtypeId>AQD_LG_ReinfConc_Block</SubtypeId>
 			</Id>
-			<DisplayName>DisplayName_AQD_LG_ReinforcedConcrete_Block</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinforcedConcrete_Block.dds</Icon>
-			<Description>Description_AQD_ReinforcedConcrete_Block</Description>
+			<DisplayName>DisplayName_AQD_LG_ReinfConc_Block</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinfConc_Block.dds</Icon>
+			<Description>Description_AQD_ReinfConc_Block</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>Cube</BlockTopology>
 			<Size x="1" y="1" z="1" />
@@ -154,7 +154,7 @@
 					<BoneOffset x="127" y="127" z="127" />
 				</BoneInfo>
 			</Skeleton>
-			<BlockPairName>AQD_ReinforcedConcrete_Block</BlockPairName>
+			<BlockPairName>AQD_ReinfConc_Block</BlockPairName>
 			<DeformationRatio>0.0</DeformationRatio>
 			<EdgeType>Heavy</EdgeType>
 			<BuildTimeSeconds>20</BuildTimeSeconds>
@@ -168,11 +168,11 @@
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
-				<SubtypeId>AQD_LG_ReinforcedConcrete_Slope</SubtypeId>
+				<SubtypeId>AQD_LG_ReinfConc_Slope</SubtypeId>
 			</Id>
-			<DisplayName>DisplayName_AQD_LG_ReinforcedConcrete_Slope</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinforcedConcrete_Slope.dds</Icon>
-			<Description>Description_AQD_ReinforcedConcrete_Block</Description>
+			<DisplayName>DisplayName_AQD_LG_ReinfConc_Slope</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinfConc_Slope.dds</Icon>
+			<Description>Description_AQD_ReinfConc_Block</Description>
 			<GuiVisible>false</GuiVisible>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>Cube</BlockTopology>
@@ -283,7 +283,7 @@
 					<BoneOffset x="127" y="127" z="127" />
 				</BoneInfo>
 			</Skeleton>
-			<BlockPairName>AQD_ReinforcedConcrete_Slope</BlockPairName>
+			<BlockPairName>AQD_ReinfConc_Slope</BlockPairName>
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
 			<DeformationRatio>0.0</DeformationRatio>
@@ -297,11 +297,11 @@
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
-				<SubtypeId>AQD_LG_ReinforcedConcrete_Corner</SubtypeId>
+				<SubtypeId>AQD_LG_ReinfConc_Corner</SubtypeId>
 			</Id>
-			<DisplayName>DisplayName_AQD_LG_ReinforcedConcrete_Corner</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinforcedConcrete_Corner.dds</Icon>
-			<Description>Description_AQD_ReinforcedConcrete_Block</Description>
+			<DisplayName>DisplayName_AQD_LG_ReinfConc_Corner</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinfConc_Corner.dds</Icon>
+			<Description>Description_AQD_ReinfConc_Block</Description>
 			<GuiVisible>false</GuiVisible>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>Cube</BlockTopology>
@@ -379,7 +379,7 @@
 					<BoneOffset x="127" y="127" z="127" />
 				</BoneInfo>
 			</Skeleton>
-			<BlockPairName>AQD_ReinforcedConcrete_Corner</BlockPairName>
+			<BlockPairName>AQD_ReinfConc_Corner</BlockPairName>
 			<MirroringX>YHalfX</MirroringX>
 			<MirroringY>ZHalfY</MirroringY>
 			<MirroringZ>YHalfY</MirroringZ>
@@ -395,11 +395,11 @@
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
-				<SubtypeId>AQD_LG_ReinforcedConcrete_CornerInv</SubtypeId>
+				<SubtypeId>AQD_LG_ReinfConc_CornerInv</SubtypeId>
 			</Id>
-			<DisplayName>DisplayName_AQD_LG_ReinforcedConcrete_CornerInv</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinforcedConcrete_CornerInv.dds</Icon>
-			<Description>Description_AQD_ReinforcedConcrete_Block</Description>
+			<DisplayName>DisplayName_AQD_LG_ReinfConc_CornerInv</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinfConc_CornerInv.dds</Icon>
+			<Description>Description_AQD_ReinfConc_Block</Description>
 			<GuiVisible>false</GuiVisible>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>Cube</BlockTopology>
@@ -535,7 +535,7 @@
 					<BoneOffset x="127" y="127" z="127" />
 				</BoneInfo>
 			</Skeleton>
-			<BlockPairName>AQD_ReinforcedConcrete_CornerInv</BlockPairName>
+			<BlockPairName>AQD_ReinfConc_CornerInv</BlockPairName>
 			<MirroringX>YHalfX</MirroringX>
 			<MirroringY>ZHalfY</MirroringY>
 			<MirroringZ>YHalfZ</MirroringZ>
@@ -550,11 +550,11 @@
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
-				<SubtypeId>AQD_LG_ReinforcedConcrete_HeavyHalfArmorBlock</SubtypeId>
+				<SubtypeId>AQD_LG_ReinfConc_HeavyHalfArmorBlock</SubtypeId>
 			</Id>
-			<DisplayName>DisplayName_AQD_LG_ReinforcedConcrete_HeavyHalfArmorBlock</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinforcedConcrete_HeavyHalfArmorBlock.dds</Icon>
-			<Description>Description_AQD_ReinforcedConcrete_Block</Description>
+			<DisplayName>DisplayName_AQD_LG_ReinfConc_HeavyHalfArmorBlock</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinfConc_HeavyHalfArmorBlock.dds</Icon>
+			<Description>Description_AQD_ReinfConc_Block</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>Cube</BlockTopology>
 			<Size x="1" y="1" z="1" />
@@ -705,7 +705,7 @@
 			<BuildTimeSeconds>10</BuildTimeSeconds>
 			<DisassembleRatio>2.5</DisassembleRatio>
 			<NavigationDefinition>Default</NavigationDefinition>
-			<BlockPairName>AQD_ReinforcedConcrete_HeavyHalfArmorBlock</BlockPairName>
+			<BlockPairName>AQD_ReinfConc_HeavyHalfArmorBlock</BlockPairName>
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
 			<PCU>1</PCU>
@@ -716,11 +716,11 @@
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
-				<SubtypeId>AQD_LG_ReinforcedConcrete_HeavyHalfSlopeArmorBlock</SubtypeId>
+				<SubtypeId>AQD_LG_ReinfConc_HeavyHalfSlopeArmorBlock</SubtypeId>
 			</Id>
-			<DisplayName>DisplayName_AQD_LG_ReinforcedConcrete_HeavyHalfSlopeArmorBlock</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinforcedConcrete_HeavyHalfSlopeArmorBlock.dds</Icon>
-			<Description>Description_AQD_ReinforcedConcrete_Block</Description>
+			<DisplayName>DisplayName_AQD_LG_ReinfConc_HeavyHalfSlopeArmorBlock</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinfConc_HeavyHalfSlopeArmorBlock.dds</Icon>
+			<Description>Description_AQD_ReinfConc_Block</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>Cube</BlockTopology>
 			<Size x="1" y="1" z="1" />
@@ -865,7 +865,7 @@
 				<MountPoint Side="Left" StartX="0" StartY="0" EndX="0.45" EndY="0.45" />
 				<MountPoint Side="Right" StartX="0.55" StartY="0" EndX="1.0" EndY="0.45" />
 			</MountPoints>
-			<BlockPairName>AQD_ReinforcedConcrete_HeavyHalfSlopeArmorBlock</BlockPairName>
+			<BlockPairName>AQD_ReinfConc_HeavyHalfSlopeArmorBlock</BlockPairName>
 			<EdgeType>Heavy</EdgeType>
 			<BuildTimeSeconds>5</BuildTimeSeconds>
 			<DisassembleRatio>2.5</DisassembleRatio>
@@ -881,11 +881,11 @@
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
-				<SubtypeId>AQD_LG_ReinforcedConcrete_RoundSlope</SubtypeId>
+				<SubtypeId>AQD_LG_ReinfConc_RoundSlope</SubtypeId>
 			</Id>
-			<DisplayName>DisplayName_AQD_LG_ReinforcedConcrete_RoundSlope</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinforcedConcrete_RoundSlope.dds</Icon>
-			<Description>Description_AQD_ReinforcedConcrete_Block</Description>
+			<DisplayName>DisplayName_AQD_LG_ReinfConc_RoundSlope</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinfConc_RoundSlope.dds</Icon>
+			<Description>Description_AQD_ReinfConc_Block</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>Cube</BlockTopology>
 			<Size x="1" y="1" z="1" />
@@ -995,7 +995,7 @@
 					<BoneOffset x="127" y="127" z="127" />
 				</BoneInfo>
 			</Skeleton>
-			<BlockPairName>AQD_ReinforcedConcrete_RoundSlope</BlockPairName>
+			<BlockPairName>AQD_ReinfConc_RoundSlope</BlockPairName>
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
 			<DeformationRatio>0.0</DeformationRatio>
@@ -1009,11 +1009,11 @@
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
-				<SubtypeId>AQD_LG_ReinforcedConcrete_RoundCorner</SubtypeId>
+				<SubtypeId>AQD_LG_ReinfConc_RoundCorner</SubtypeId>
 			</Id>
-			<DisplayName>DisplayName_AQD_LG_ReinforcedConcrete_RoundCorner</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinforcedConcrete_RoundCorner.dds</Icon>
-			<Description>Description_AQD_ReinforcedConcrete_Block</Description>
+			<DisplayName>DisplayName_AQD_LG_ReinfConc_RoundCorner</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinfConc_RoundCorner.dds</Icon>
+			<Description>Description_AQD_ReinfConc_Block</Description>
 			<GuiVisible>false</GuiVisible>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>Cube</BlockTopology>
@@ -1091,7 +1091,7 @@
 					<BoneOffset x="127" y="127" z="127" />
 				</BoneInfo>
 			</Skeleton>
-			<BlockPairName>AQD_ReinforcedConcrete_RoundCorner</BlockPairName>
+			<BlockPairName>AQD_ReinfConc_RoundCorner</BlockPairName>
 			<MirroringX>YHalfX</MirroringX>
 			<MirroringY>ZHalfY</MirroringY>
 			<MirroringZ>YHalfY</MirroringZ>
@@ -1107,11 +1107,11 @@
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
-				<SubtypeId>AQD_LG_ReinforcedConcrete_RoundCornerInv</SubtypeId>
+				<SubtypeId>AQD_LG_ReinfConc_RoundCornerInv</SubtypeId>
 			</Id>
-			<DisplayName>DisplayName_AQD_LG_ReinforcedConcrete_RoundCornerInv</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinforcedConcrete_RoundCornerInv.dds</Icon>
-			<Description>Description_AQD_ReinforcedConcrete_Block</Description>
+			<DisplayName>DisplayName_AQD_LG_ReinfConc_RoundCornerInv</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinfConc_RoundCornerInv.dds</Icon>
+			<Description>Description_AQD_ReinfConc_Block</Description>
 			<GuiVisible>false</GuiVisible>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>Cube</BlockTopology>
@@ -1247,7 +1247,7 @@
 					<BoneOffset x="127" y="127" z="127" />
 				</BoneInfo>
 			</Skeleton>
-			<BlockPairName>AQD_ReinforcedConcrete_RoundCornerInv</BlockPairName>
+			<BlockPairName>AQD_ReinfConc_RoundCornerInv</BlockPairName>
 			<MirroringX>MinusHalfY</MirroringX>
 			<MirroringY>ZHalfY</MirroringY>
 			<MirroringZ>HalfY</MirroringZ>
@@ -1262,11 +1262,11 @@
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
-				<SubtypeId>AQD_LG_ReinforcedConcrete_Slope2Base</SubtypeId>
+				<SubtypeId>AQD_LG_ReinfConc_Slope2Base</SubtypeId>
 			</Id>
-			<DisplayName>DisplayName_AQD_LG_ReinforcedConcrete_Slope2Base</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinforcedConcrete_Slope2Base.dds</Icon>
-			<Description>Description_AQD_ReinforcedConcrete_Block</Description>
+			<DisplayName>DisplayName_AQD_LG_ReinfConc_Slope2Base</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinfConc_Slope2Base.dds</Icon>
+			<Description>Description_AQD_ReinfConc_Block</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>Cube</BlockTopology>
 			<Size x="1" y="1" z="1" />
@@ -1414,7 +1414,7 @@
 				<MountPoint Side="Right" StartX="0.5" StartY="0" EndX="1" EndY="1" />
 			</MountPoints>
 			<PhysicsOption>Convex</PhysicsOption>
-			<BlockPairName>AQD_ReinforcedConcrete_Slope2Base</BlockPairName>
+			<BlockPairName>AQD_ReinfConc_Slope2Base</BlockPairName>
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
 			<EdgeType>Heavy</EdgeType>
@@ -1428,11 +1428,11 @@
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
-				<SubtypeId>AQD_LG_ReinforcedConcrete_Slope2Tip</SubtypeId>
+				<SubtypeId>AQD_LG_ReinfConc_Slope2Tip</SubtypeId>
 			</Id>
-			<DisplayName>DisplayName_AQD_LG_ReinforcedConcrete_Slope2Tip</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinforcedConcrete_Slope2Tip.dds</Icon>
-			<Description>Description_AQD_ReinforcedConcrete_Block</Description>
+			<DisplayName>DisplayName_AQD_LG_ReinfConc_Slope2Tip</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinfConc_Slope2Tip.dds</Icon>
+			<Description>Description_AQD_ReinfConc_Block</Description>
 			<GuiVisible>false</GuiVisible>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>Cube</BlockTopology>
@@ -1545,7 +1545,7 @@
 					<BoneOffset x="127" y="127" z="127" />
 				</BoneInfo>
 			</Skeleton>
-			<BlockPairName>AQD_ReinforcedConcrete_Slope2Tip</BlockPairName>
+			<BlockPairName>AQD_ReinfConc_Slope2Tip</BlockPairName>
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
 			<EdgeType>Heavy</EdgeType>
@@ -1559,11 +1559,11 @@
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
-				<SubtypeId>AQD_LG_ReinforcedConcrete_Corner2Base</SubtypeId>
+				<SubtypeId>AQD_LG_ReinfConc_Corner2Base</SubtypeId>
 			</Id>
-			<DisplayName>DisplayName_AQD_LG_ReinforcedConcrete_Corner2Base</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinforcedConcrete_Corner2Base.dds</Icon>
-			<Description>Description_AQD_ReinforcedConcrete_Block</Description>
+			<DisplayName>DisplayName_AQD_LG_ReinfConc_Corner2Base</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinfConc_Corner2Base.dds</Icon>
+			<Description>Description_AQD_ReinfConc_Block</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>Cube</BlockTopology>
 			<Size x="1" y="1" z="1" />
@@ -1674,7 +1674,7 @@
 					<BoneOffset x="127" y="127" z="127" />
 				</BoneInfo>
 			</Skeleton>
-			<BlockPairName>AQD_ReinforcedConcrete_Corner2Base</BlockPairName>
+			<BlockPairName>AQD_ReinfConc_Corner2Base</BlockPairName>
 			<MirroringX>YHalfX</MirroringX>
 			<MirroringY>MinusHalfX</MirroringY>
 			<MirroringZ>HalfX</MirroringZ>
@@ -1690,11 +1690,11 @@
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
-				<SubtypeId>AQD_LG_ReinforcedConcrete_Corner2Tip</SubtypeId>
+				<SubtypeId>AQD_LG_ReinfConc_Corner2Tip</SubtypeId>
 			</Id>
-			<DisplayName>DisplayName_AQD_LG_ReinforcedConcrete_Corner2Tip</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinforcedConcrete_Corner2Tip.dds</Icon>
-			<Description>Description_AQD_ReinforcedConcrete_Block</Description>
+			<DisplayName>DisplayName_AQD_LG_ReinfConc_Corner2Tip</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinfConc_Corner2Tip.dds</Icon>
+			<Description>Description_AQD_ReinfConc_Block</Description>
 			<GuiVisible>false</GuiVisible>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>Cube</BlockTopology>
@@ -1773,7 +1773,7 @@
 					<BoneOffset x="127" y="127" z="127" />
 				</BoneInfo>
 			</Skeleton>
-			<BlockPairName>AQD_ReinforcedConcrete_Corner2Tip</BlockPairName>
+			<BlockPairName>AQD_ReinfConc_Corner2Tip</BlockPairName>
 			<MirroringX>HalfZ</MirroringX>
 			<MirroringY>MinusHalfZ</MirroringY>
 			<MirroringZ>XMinusHalfZ</MirroringZ>
@@ -1789,11 +1789,11 @@
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
-				<SubtypeId>AQD_LG_ReinforcedConcrete_InvCorner2Base</SubtypeId>
+				<SubtypeId>AQD_LG_ReinfConc_InvCorner2Base</SubtypeId>
 			</Id>
-			<DisplayName>DisplayName_AQD_LG_ReinforcedConcrete_InvCorner2Base</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinforcedConcrete_InvCorner2Base.dds</Icon>
-			<Description>Description_AQD_ReinforcedConcrete_Block</Description>
+			<DisplayName>DisplayName_AQD_LG_ReinfConc_InvCorner2Base</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinfConc_InvCorner2Base.dds</Icon>
+			<Description>Description_AQD_ReinfConc_Block</Description>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>Cube</BlockTopology>
 			<Size x="1" y="1" z="1" />
@@ -1929,7 +1929,7 @@
 					<BoneOffset x="127" y="127" z="127" />
 				</BoneInfo>
 			</Skeleton>
-			<BlockPairName>AQD_ReinforcedConcrete_InvCorner2Base</BlockPairName>
+			<BlockPairName>AQD_ReinfConc_InvCorner2Base</BlockPairName>
 			<MirroringX>HalfZ</MirroringX>
 			<MirroringY>MinusHalfZ</MirroringY>
 			<MirroringZ>XMinusHalfZ</MirroringZ>
@@ -1944,11 +1944,11 @@
 		<Definition>
 			<Id>
 				<TypeId>CubeBlock</TypeId>
-				<SubtypeId>AQD_LG_ReinforcedConcrete_InvCorner2Tip</SubtypeId>
+				<SubtypeId>AQD_LG_ReinfConc_InvCorner2Tip</SubtypeId>
 			</Id>
-			<DisplayName>DisplayName_AQD_LG_ReinforcedConcrete_InvCorner2Tip</DisplayName>
-			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinforcedConcrete_InvCorner2Tip.dds</Icon>
-			<Description>Description_AQD_ReinforcedConcrete_Block</Description>
+			<DisplayName>DisplayName_AQD_LG_ReinfConc_InvCorner2Tip</DisplayName>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinfConc_InvCorner2Tip.dds</Icon>
+			<Description>Description_AQD_ReinfConc_Block</Description>
 			<GuiVisible>false</GuiVisible>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>Cube</BlockTopology>
@@ -2088,7 +2088,7 @@
 					<BoneOffset x="127" y="127" z="127" />
 				</BoneInfo>
 			</Skeleton>
-			<BlockPairName>AQD_ReinforcedConcrete_InvCorner2Tip</BlockPairName>
+			<BlockPairName>AQD_ReinfConc_InvCorner2Tip</BlockPairName>
 			<MirroringX>HalfZ</MirroringX>
 			<MirroringY>MinusHalfZ</MirroringY>
 			<MirroringZ>XMinusHalfZ</MirroringZ>
