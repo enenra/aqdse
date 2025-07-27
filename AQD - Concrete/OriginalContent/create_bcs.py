@@ -74,7 +74,7 @@ def create_bcs():
 
     lg_entries = create_bc_hdr(bcs, [None, "DisplayName_Category_LargeBlocks", "Section1_Position1_LargeBlocks"])
     nonarmor_entries = create_bc_hdr(bcs, ["Nonarmor", "DisplayName_Category_Nonarmor", "Section1_Position2_Nonarmor"])
-    conc_entries = create_bc_hdr(bcs, ["Concrete", "DisplayName_Category_AQD_Cat_Concrete", "Section1_Position3_Concrete"])
+    conc_entries = create_bc_hdr(bcs, [None, "{LOC:DisplayName_AQD_Cat_Concrete}", "Section1_Position3_Concrete"])
 
     for b in blocks:
         entry = ET.SubElement(lg_entries, 'string')

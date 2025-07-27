@@ -65,9 +65,6 @@ def main():
                 lines_hvy += "\n\t</CubeBlocks>\n</Definitions>"
                 lines_hvy = lines_hvy.replace("    ", "\t")
 
-                icon = get_subelement(lines_hvy, "Icon")
-                lines_hvy = lines_hvy.replace(icon, icon.replace("_ReinfConc_", "_Conc_").replace("</Icon>", f"</Icon>\n\t\t\t<Icon>Textures\\GUI\\Icons\\Cubes\\AQD_ReinforcedConcrete.dds</Icon>"))
-
                 target_file = os.path.join(dst, file.replace("CubeBlocks_Armor", "AQD_ReinforcedConcrete"))
                 exported_xml = open(target_file, "w")
                 exported_xml.write(lines_hvy)
@@ -88,6 +85,8 @@ def make_cubedef_adjustments(entries, hvy):
             k_n = k.replace("LargeBlockHeavyArmor", f"AQD_LG_{id}_")
         elif k.startswith("LargeBlockArmor"):
             k_n = k.replace("LargeBlockArmor", f"AQD_LG_{id}_")
+        elif k.startswith("LargeHeavy"):
+            k_n = k.replace("LargeHeavy", f"AQD_LG_{id}_")
         else:
             k_n = k.replace("Large", f"AQD_LG_{id}_")
 
@@ -102,6 +101,10 @@ def make_cubedef_adjustments(entries, hvy):
         # Change Icon
         icon = get_subelement(v_n, "Icon")
         v_n = v_n.replace(icon, f"<Icon>Textures\\GUI\\Icons\\Cubes\\{k_n}.dds</Icon>")
+
+        if hvy:
+            icon = get_subelement(v_n, "Icon")
+            v_n = v_n.replace(icon, icon.replace("_ReinfConc_", "_Conc_").replace("</Icon>", f"</Icon>\n\t\t\t<Icon>Textures\\GUI\\Icons\\Cubes\\AQD_ReinforcedConcrete.dds</Icon>"))
 
         # Change CubeDefinition paths
         sides = get_subelement(v_n, "Sides")
@@ -149,7 +152,7 @@ def make_cubedef_adjustments(entries, hvy):
             v_n = v_n.replace(mb, f"<MirroringBlock>{mb_id}</MirroringBlock>")
 
         # Add PhysicalMaterial & DeformationRatio
-        v_n = v_n.replace("</PCUConsole>", "</PCUConsole>\n\t\t\t<PhysicalMaterial>Rock</PhysicalMaterial>")
+        v_n = v_n.replace("</PCUConsole>", "</PCUConsole>\n\t\t\t<PhysicalMaterial>Rock</PhysicalMaterial>\n\t\t\t<DLC>ScrapRace</DLC>")
         if get_subelement(v_n, "DeformationRatio") == -1:
             v_n = v_n.replace("</PhysicalMaterial>", "</PhysicalMaterial>\n\t\t\t<DeformationRatio>0.0</DeformationRatio>")
         else:

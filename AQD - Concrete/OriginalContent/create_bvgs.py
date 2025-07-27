@@ -33,11 +33,13 @@ def create_bvgs():
     src = os.path.join(MOD_PATH, "Data", "CubeBlocks")
     for r, d, f in os.walk(src):
         for file in f:
-            if file.endswith(".sbc"):
+            if file.endswith(".sbc") and "obsolete" not in r:
                 with open(os.path.join(src, file), 'r') as wf:
                     lines = wf.read()
                     while get_subelement(lines, "Definition") != -1:
-                        blocks.append(get_subelement(get_subelement(lines, "Definition"), "SubtypeId").replace("<SubtypeId>", "").replace("</SubtypeId>", ""))
+                        subtype = get_subelement(get_subelement(lines, "Definition"), "SubtypeId").replace("<SubtypeId>", "").replace("</SubtypeId>", "")
+                        if subtype not in blocks:
+                            blocks.append(subtype)
                         lines = lines[lines.find("</Definition>") + len("</Definition>"):]
                     wf.close()
 
@@ -76,7 +78,8 @@ def create_bvgs():
                                 if f"AQD_LG_{id}_" not in entry_block:
                                     entry_block = f"AQD_LG_{id}_" + entry_block
 
-                                assignments[new_subtype].append(entry_block.replace("LargeBlock", "AQD_Conc_"))
+                                if entry_block.replace("LargeBlock", "AQD_Conc_") not in assignments[new_subtype]:
+                                    assignments[new_subtype].append(entry_block.replace("LargeBlock", "AQD_Conc_"))
 
                             entry = entry[entry.find(" />") + len(" />"):]
 
@@ -124,6 +127,17 @@ def create_bvgs():
     # ReinforcedConcrete
     target_file = os.path.join(MOD_PATH, 'Data', "BlockVariantGroups_ReinforcedConcrete.sbc")
     exported_xml = open(target_file, "w")
-    exported_xml.write(xml_formatted.replace("_Conc_", "_ReinfConc_"))
+    xml_formatted = xml_formatted.replace("_Conc_", "_ReinfConc_")
+
+    icons = []
+    lines = xml_formatted
+    while get_subelement(lines, "Icon") != -1:
+        icons.append(get_subelement(lines, "Icon").split('>')[1].split('<')[0])
+        lines = lines[lines.find("</Icon>") + len("</Icon>"):]
+
+    for i in icons:
+        xml_formatted = xml_formatted.replace(i, i.replace("_ReinfConc_", "_Conc_"))
+
+    exported_xml.write(xml_formatted)
 
 create_bvgs()

@@ -50,8 +50,8 @@
 				<string>CubeBlock/AQD_LG_ReinfConc_Slope</string>
 				<string>CubeBlock/AQD_LG_ReinfConc_Corner</string>
 				<string>CubeBlock/AQD_LG_ReinfConc_CornerInv</string>
-				<string>CubeBlock/AQD_LG_ReinfConc_HeavyHalfArmorBlock</string>
-				<string>CubeBlock/AQD_LG_ReinfConc_HeavyHalfSlopeArmorBlock</string>
+				<string>CubeBlock/AQD_LG_ReinfConc_HalfArmorBlock</string>
+				<string>CubeBlock/AQD_LG_ReinfConc_HalfSlopeArmorBlock</string>
 				<string>CubeBlock/AQD_LG_ReinfConc_RoundSlope</string>
 				<string>CubeBlock/AQD_LG_ReinfConc_RoundCorner</string>
 				<string>CubeBlock/AQD_LG_ReinfConc_RoundCornerInv</string>
@@ -133,8 +133,8 @@
 				<string>CubeBlock/AQD_LG_ReinfConc_Slope</string>
 				<string>CubeBlock/AQD_LG_ReinfConc_Corner</string>
 				<string>CubeBlock/AQD_LG_ReinfConc_CornerInv</string>
-				<string>CubeBlock/AQD_LG_ReinfConc_HeavyHalfArmorBlock</string>
-				<string>CubeBlock/AQD_LG_ReinfConc_HeavyHalfSlopeArmorBlock</string>
+				<string>CubeBlock/AQD_LG_ReinfConc_HalfArmorBlock</string>
+				<string>CubeBlock/AQD_LG_ReinfConc_HalfSlopeArmorBlock</string>
 				<string>CubeBlock/AQD_LG_ReinfConc_RoundSlope</string>
 				<string>CubeBlock/AQD_LG_ReinfConc_RoundCorner</string>
 				<string>CubeBlock/AQD_LG_ReinfConc_RoundCornerInv</string>
@@ -170,9 +170,9 @@
 		<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
 			<Id>
 				<TypeId>GuiBlockCategoryDefinition</TypeId>
-				<SubtypeId>Concrete</SubtypeId>
+				<SubtypeId/>
 			</Id>
-			<Displayname>DisplayName_Category_AQD_Cat_Concrete</Displayname>
+			<Displayname>{LOC:DisplayName_AQD_Cat_Concrete}</Displayname>
 			<Name>Section1_Position3_Concrete</Name>
 			<StrictSearch>true</StrictSearch>
 			<ItemIds>
@@ -216,8 +216,8 @@
 				<string>CubeBlock/AQD_LG_ReinfConc_Slope</string>
 				<string>CubeBlock/AQD_LG_ReinfConc_Corner</string>
 				<string>CubeBlock/AQD_LG_ReinfConc_CornerInv</string>
-				<string>CubeBlock/AQD_LG_ReinfConc_HeavyHalfArmorBlock</string>
-				<string>CubeBlock/AQD_LG_ReinfConc_HeavyHalfSlopeArmorBlock</string>
+				<string>CubeBlock/AQD_LG_ReinfConc_HalfArmorBlock</string>
+				<string>CubeBlock/AQD_LG_ReinfConc_HalfSlopeArmorBlock</string>
 				<string>CubeBlock/AQD_LG_ReinfConc_RoundSlope</string>
 				<string>CubeBlock/AQD_LG_ReinfConc_RoundCorner</string>
 				<string>CubeBlock/AQD_LG_ReinfConc_RoundCornerInv</string>

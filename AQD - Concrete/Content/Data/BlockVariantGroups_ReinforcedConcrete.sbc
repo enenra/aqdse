@@ -3,11 +3,10 @@
 	<BlockVariantGroups>
 		<BlockVariantGroup>
 			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AQD_BVG_Concrete_CubeGroup"/>
-			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinfConc_Block.dds</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_Conc_Block.dds</Icon>
 			<DisplayName>DisplayName_AQD_LG_ReinfConc_Block</DisplayName>
 			<Description>Description_AQD_Concrete_Block</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_Block"/>
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_Block"/>
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_Slope"/>
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_Corner"/>
@@ -18,11 +17,10 @@
 		</BlockVariantGroup>
 		<BlockVariantGroup>
 			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AQD_BVG_Concrete_RampGroup"/>
-			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinfConc_Slope2Base.dds</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_Conc_Slope2Base.dds</Icon>
 			<DisplayName>DisplayName_AQD_LG_ReinfConc_Slope2Base</DisplayName>
 			<Description>Description_AQD_Concrete_Block</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_Slope2Base"/>
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_Slope2Base"/>
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_Slope2Tip"/>
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_HalfArmorBlock"/>
@@ -30,17 +28,14 @@
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_HalfSlopeCorner"/>
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_HalfCorner"/>
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_HalfSlopedCorner"/>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_HalfArmorBlock"/>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_HalfSlopeArmorBlock"/>
 			</Blocks>
 		</BlockVariantGroup>
 		<BlockVariantGroup>
 			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AQD_BVG_Concrete_RampCornerGroup"/>
-			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinfConc_Corner2Base.dds</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_Conc_Corner2Base.dds</Icon>
 			<DisplayName>DisplayName_AQD_LG_ReinfConc_Corner2Base</DisplayName>
 			<Description>Description_AQD_Concrete_Block</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_Corner2Base"/>
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_Corner2Base"/>
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_Corner2Tip"/>
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_InvCorner2Base"/>
@@ -51,11 +46,10 @@
 		</BlockVariantGroup>
 		<BlockVariantGroup>
 			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AQD_BVG_Concrete_RoundGroup"/>
-			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinfConc_RoundSlope.dds</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_Conc_RoundSlope.dds</Icon>
 			<DisplayName>DisplayName_AQD_LG_ReinfConc_RoundSlope</DisplayName>
 			<Description>Description_AQD_Concrete_Block</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_RoundSlope"/>
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_RoundSlope"/>
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_RoundCorner"/>
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_RoundCornerInv"/>
@@ -63,11 +57,10 @@
 		</BlockVariantGroup>
 		<BlockVariantGroup>
 			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AQD_BVG_Concrete_SlopedCorners"/>
-			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinfConc_SlopedCornerTip.dds</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_Conc_SlopedCornerTip.dds</Icon>
 			<DisplayName>DisplayName_AQD_LG_ReinfConc_SlopedCornerTip</DisplayName>
 			<Description>Description_AQD_Concrete_Block</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_SlopedCornerTip"/>
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_SlopedCornerTip"/>
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_RaisedSlopedCorner"/>
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_SquareSlopedCornerTip"/>
@@ -80,11 +73,10 @@
 		</BlockVariantGroup>
 		<BlockVariantGroup>
 			<Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AQD_BVG_Concrete_TransitionBlocks"/>
-			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_ReinfConc_SlopeTransitionBase.dds</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_LG_Conc_SlopeTransitionBase.dds</Icon>
 			<DisplayName>DisplayName_AQD_LG_ReinfConc_SlopeTransitionBase</DisplayName>
 			<Description>Description_AQD_Concrete_Block</Description>
 			<Blocks>
-				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_SlopeTransitionBase"/>
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_SlopeTransitionBase"/>
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_SlopeTransition"/>
 				<Block Type="MyObjectBuilder_CubeBlock" Subtype="AQD_LG_ReinfConc_SlopeTransitionTip"/>
