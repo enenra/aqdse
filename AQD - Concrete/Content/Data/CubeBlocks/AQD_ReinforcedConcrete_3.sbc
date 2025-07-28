@@ -17,7 +17,7 @@
 	  <ModelOffset x="0" y="0" z="0" />
 	  <CubeDefinition>
 		<CubeTopology>RaisedSlopedCorner</CubeTopology>
-		<ShowEdges>true</ShowEdges>
+		<ShowEdges>false</ShowEdges>
 		<Sides>
 					<Side Model="Models\Cubes\Large\Armor\RC_HalfSlopedCornerBaseTop.mwm" PatternWidth ="4" PatternHeight="2"/>
 					<Side Model="Models\Cubes\Large\Armor\RC_HalfSlopedCornerTop.mwm" PatternWidth ="4" PatternHeight="2"/>
@@ -166,7 +166,7 @@
 	  <ModelOffset x="0" y="0" z="0" />
 	  <CubeDefinition>
 		<CubeTopology>SlopeTransition</CubeTopology>
-		<ShowEdges>true</ShowEdges>
+		<ShowEdges>false</ShowEdges>
 		<Sides>
 					<Side Model="Models\Cubes\Large\Armor\RC_CornerSquareINVRight.mwm" PatternWidth ="4" PatternHeight="2"/>
 					<Side Model="Models\Cubes\Large\Armor\RC_CorTriLeftPlate.mwm" PatternWidth ="4" PatternHeight="2"/>
@@ -297,7 +297,7 @@
 	  <ModelOffset x="0" y="0" z="0" />
 	  <CubeDefinition>
 		<CubeTopology>SlopeTransitionBase</CubeTopology>
-		<ShowEdges>true</ShowEdges>
+		<ShowEdges>false</ShowEdges>
 		<Sides>
 					<Side Model="Models\Cubes\Large\Armor\RC_CorTriLeftPlateCorner2TipBottom.mwm" PatternWidth ="4" PatternHeight="2"/>
 					<Side Model="Models\Cubes\Large\Armor\RC_CorTriRightPlate.mwm" PatternWidth ="4" PatternHeight="2"/>
@@ -454,7 +454,7 @@
 	  <ModelOffset x="0" y="0" z="0" />
 	  <CubeDefinition>
 		<CubeTopology>SlopeTransitionBaseMirrored</CubeTopology>
-		<ShowEdges>true</ShowEdges>
+		<ShowEdges>false</ShowEdges>
 		<Sides>
 					<Side Model="Models\Cubes\Large\Armor\RC_CorTriLeftPlate.mwm" PatternWidth ="4" PatternHeight="2"/>
 					<Side Model="Models\Cubes\Large\Armor\RC_CorTriRightPlateCorner2TipRight.mwm" PatternWidth ="4" PatternHeight="2"/>
@@ -611,7 +611,7 @@
 	  <ModelOffset x="0" y="0" z="0" />
 	  <CubeDefinition>
 		<CubeTopology>SlopeTransitionMirrored</CubeTopology>
-		<ShowEdges>true</ShowEdges>
+		<ShowEdges>false</ShowEdges>
 		<Sides>
 					<Side Model="Models\Cubes\Large\Armor\RC_CornerSquareINVLeft.mwm" PatternWidth ="4" PatternHeight="2"/>
 					<Side Model="Models\Cubes\Large\Armor\RC_CorTriLeftPlateCorner2TipBottom.mwm" PatternWidth ="4" PatternHeight="2"/>
@@ -742,7 +742,7 @@
 	  <ModelOffset x="0" y="0" z="0" />
 	  <CubeDefinition>
 		<CubeTopology>SlopeTransitionTip</CubeTopology>
-		<ShowEdges>true</ShowEdges>
+		<ShowEdges>false</ShowEdges>
 		<Sides>
 					<Side Model="Models\Cubes\Large\Armor\RC_CorTriLeftPlateCorner2TipBottom.mwm" PatternWidth ="4" PatternHeight="2"/>
 					<Side Model="Models\Cubes\Large\Armor\RC_CorTriRightPlateCorner2Base.mwm" PatternWidth ="4" PatternHeight="2"/>
@@ -861,7 +861,7 @@
 	  <ModelOffset x="0" y="0" z="0" />
 	  <CubeDefinition>
 		<CubeTopology>SlopeTransitionTipMirrored</CubeTopology>
-		<ShowEdges>true</ShowEdges>
+		<ShowEdges>false</ShowEdges>
 		<Sides>
 					<Side Model="Models\Cubes\Large\Armor\RC_CorTriLeftPlateCorner2TipFront.mwm" PatternWidth ="4" PatternHeight="2"/>
 					<Side Model="Models\Cubes\Large\Armor\RC_CorTriRightPlateCorner2TipRight.mwm" PatternWidth ="4" PatternHeight="2"/>
@@ -980,7 +980,7 @@
 	  <ModelOffset x="0" y="0" z="0" />
 	  <CubeDefinition>
 		<CubeTopology>SquareSlopedCornerBase</CubeTopology>
-		<ShowEdges>true</ShowEdges>
+		<ShowEdges>false</ShowEdges>
 		<Sides>
 					<Side Model="Models\Cubes\Large\Armor\RC_SquareSlopedCornerBaseTop.mwm" PatternWidth ="4" PatternHeight="2"/>
 					<Side Model="Models\Cubes\Large\Armor\RC_SquareSlopedCornerBaseTopRight.mwm" PatternWidth ="4" PatternHeight="2"/>
@@ -1133,7 +1133,7 @@
 	  <ModelOffset x="0" y="0" z="0" />
 	  <CubeDefinition>
 		<CubeTopology>SquareSlopedCornerTip</CubeTopology>
-		<ShowEdges>true</ShowEdges>
+		<ShowEdges>false</ShowEdges>
 		<Sides>
 					<Side Model="Models\Cubes\Large\Armor\RC_SquareSlopedCornerTipTop.mwm" PatternWidth ="4" PatternHeight="2"/>
 					<Side Model="Models\Cubes\Large\Armor\RC_SquareSlopedCornerTipTopRight.mwm" PatternWidth ="4" PatternHeight="2"/>
@@ -1254,7 +1254,7 @@
 	  <ModelOffset x="0" y="0" z="0" />
 	  <CubeDefinition>
 		<CubeTopology>SquareSlopedCornerTipInv</CubeTopology>
-		<ShowEdges>true</ShowEdges>
+		<ShowEdges>false</ShowEdges>
 		<Sides>
 					<Side Model="Models\Cubes\Large\Armor\RC_SquareSlopedCornerTipInvTop.mwm" PatternWidth ="4" PatternHeight="2"/>
 					<Side Model="Models\Cubes\Large\Armor\RC_SquareSlopedCornerTipInvTopRight.mwm" PatternWidth ="4" PatternHeight="2"/>

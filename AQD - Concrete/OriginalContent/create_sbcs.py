@@ -109,6 +109,10 @@ def make_cubedef_adjustments(entries, hvy, side_transfer: dict = None):
             icon = get_subelement(v_n, "Icon")
             v_n = v_n.replace(icon, icon.replace("_ReinfConc_", "_Conc_").replace("</Icon>", f"</Icon>\n\t\t\t<Icon>Textures\\GUI\\Icons\\Cubes\\AQD_ReinforcedConcrete.dds</Icon>"))
 
+        # Change Icon
+        showedges = get_subelement(v_n, "ShowEdges")
+        v_n = v_n.replace(showedges, f"<ShowEdges>false</ShowEdges>")
+
         # Change CubeDefinition paths
         sides = get_subelement(v_n, "Sides")
 

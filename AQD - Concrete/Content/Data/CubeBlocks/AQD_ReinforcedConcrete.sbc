@@ -16,7 +16,7 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<CubeDefinition>
 				<CubeTopology>Box</CubeTopology>
-				<ShowEdges>true</ShowEdges>
+				<ShowEdges>false</ShowEdges>
 				<Sides>
 					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
 					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
@@ -183,7 +183,7 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<CubeDefinition>
 				<CubeTopology>Slope</CubeTopology>
-				<ShowEdges>true</ShowEdges>
+				<ShowEdges>false</ShowEdges>
 				<Sides>
 					<Side Model="Models\Cubes\Large\Armor\RC_SlopePlate.mwm" ScaleTileV = "3" PatternWidth="4" PatternHeight="4" />
 					<Side Model="Models\Cubes\Large\Armor\RC_CorTriLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
@@ -314,7 +314,7 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<CubeDefinition>
 				<CubeTopology>Corner</CubeTopology>
-				<ShowEdges>true</ShowEdges>
+				<ShowEdges>false</ShowEdges>
 				<Sides>
 					<Side Model="Models\Cubes\Large\Armor\RC_CorTriLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
 					<Side Model="Models\Cubes\Large\Armor\RC_CorTriRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
@@ -414,7 +414,7 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<CubeDefinition>
 				<CubeTopology>InvCorner</CubeTopology>
-				<ShowEdges>true</ShowEdges>
+				<ShowEdges>false</ShowEdges>
 				<Sides>
 					<Side Model="Models\Cubes\Large\Armor\RC_InvFaceTrianglePlate.mwm" PatternWidth="1" PatternHeight="1" />
 					<Side Model="Models\Cubes\Large\Armor\RC_CorTriRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
@@ -570,7 +570,7 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<CubeDefinition>
 				<CubeTopology>HalfBox</CubeTopology>
-				<ShowEdges>true</ShowEdges>
+				<ShowEdges>false</ShowEdges>
 				<Sides>
 					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlateSlope2BaseFront.mwm" PatternWidth="1" PatternHeight="1" />
 					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlateCenter.mwm" PatternWidth="4" PatternHeight="2" />
@@ -738,7 +738,7 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<CubeDefinition>
 				<CubeTopology>HalfSlopeBox</CubeTopology>
-				<ShowEdges>true</ShowEdges>
+				<ShowEdges>false</ShowEdges>
 				<Sides>
 					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlateSlope2BaseFront.mwm" PatternWidth="1" PatternHeight="1" />
 					<Side Model="Models\Cubes\Large\Armor\RC_SlopePlateSlab.mwm" PatternWidth="1" PatternHeight="1" />
@@ -905,7 +905,7 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<CubeDefinition>
 				<CubeTopology>RoundSlope</CubeTopology>
-				<ShowEdges>true</ShowEdges>
+				<ShowEdges>false</ShowEdges>
 				<Sides>
 					<Side Model="Models\Cubes\Large\Armor\RC_SlopeRoundPlate.mwm" PatternWidth="16" PatternHeight="8" />
 					<Side Model="Models\Cubes\Large\Armor\RC_CornerRoundTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
@@ -1036,7 +1036,7 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<CubeDefinition>
 				<CubeTopology>RoundCorner</CubeTopology>
-				<ShowEdges>true</ShowEdges>
+				<ShowEdges>false</ShowEdges>
 				<Sides>
 					<Side Model="Models\Cubes\Large\Armor\RC_CornerRoundTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
 					<Side Model="Models\Cubes\Large\Armor\RC_CornerRoundTriangleRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
@@ -1136,7 +1136,7 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<CubeDefinition>
 				<CubeTopology>RoundInvCorner</CubeTopology>
-				<ShowEdges>true</ShowEdges>
+				<ShowEdges>false</ShowEdges>
 				<Sides>
 					<Side Model="Models\Cubes\Large\Armor\RC_CornerRoundTriangleLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
 					<Side Model="Models\Cubes\Large\Armor\RC_CornerRoundTriangleRightPlate.mwm" PatternWidth="1" PatternHeight="1" />
@@ -1292,7 +1292,7 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<CubeDefinition>
 				<CubeTopology>Slope2Base</CubeTopology>
-				<ShowEdges>true</ShowEdges>
+				<ShowEdges>false</ShowEdges>
 				<Sides>
 					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlateSlope2BaseTop.mwm" PatternWidth="4" PatternHeight="2" />
 					<Side Model="Models\Cubes\Large\Armor\RC_SquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
@@ -1461,7 +1461,7 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<CubeDefinition>
 				<CubeTopology>Slope2Tip</CubeTopology>
-				<ShowEdges>true</ShowEdges>
+				<ShowEdges>false</ShowEdges>
 				<Sides>
 					<Side Model="Models\Cubes\Large\Armor\RC_SlopePlateSlope2Tip.mwm" PatternWidth="4" PatternHeight="2" />
 					<Side Model="Models\Cubes\Large\Armor\RC_CorTriLeftPlateSlope2Tip.mwm" PatternWidth="1" PatternHeight="1" />
@@ -1593,7 +1593,7 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<CubeDefinition>
 				<CubeTopology>Corner2Base</CubeTopology>
-				<ShowEdges>true</ShowEdges>
+				<ShowEdges>false</ShowEdges>
 				<Sides>
 					<Side Model="Models\Cubes\Large\Armor\RC_SlopePlateCorner2BaseTop.mwm" PatternWidth="4" PatternHeight="2" />
 					<Side Model="Models\Cubes\Large\Armor\RC_CorTriLeftPlate.mwm" PatternWidth="1" PatternHeight="1" />
@@ -1727,7 +1727,7 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<CubeDefinition>
 				<CubeTopology>Corner2Tip</CubeTopology>
-				<ShowEdges>true</ShowEdges>
+				<ShowEdges>false</ShowEdges>
 				<Sides>
 					<Side Model="Models\Cubes\Large\Armor\RC_CorTriLeftPlateCorner2TipFront.mwm" PatternWidth="1" PatternHeight="1" />
 					<Side Model="Models\Cubes\Large\Armor\RC_CorTriRightPlateCorner2TipRight.mwm" PatternWidth="1" PatternHeight="1" />
@@ -1827,7 +1827,7 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<CubeDefinition>
 				<CubeTopology>InvCorner2Base</CubeTopology>
-				<ShowEdges>true</ShowEdges>
+				<ShowEdges>false</ShowEdges>
 				<Sides>
 					<Side Model="Models\Cubes\Large\Armor\RC_InvFaceTrianglePlateInvCorner2Base.mwm" PatternWidth="1" PatternHeight="1" />
 					<Side Model="Models\Cubes\Large\Armor\RC_CorTriRightPlateInvCorner2BaseRight.mwm" PatternWidth="1" PatternHeight="1" />
@@ -1985,7 +1985,7 @@
 			<ModelOffset x="0" y="0" z="0" />
 			<CubeDefinition>
 				<CubeTopology>InvCorner2Tip</CubeTopology>
-				<ShowEdges>true</ShowEdges>
+				<ShowEdges>false</ShowEdges>
 				<Sides>
 					<Side Model="Models\Cubes\Large\Armor\RC_InvFaceTrianglePlateInvCorner2Tip.mwm" PatternWidth="1" PatternHeight="1" />
 					<Side Model="Models\Cubes\Large\Armor\RC_CorTriRightPlateInvCorner2TipRight.mwm" PatternWidth="1" PatternHeight="1" />
