@@ -131,12 +131,11 @@ def create_bvgs():
 
     icons = []
     lines = xml_formatted
-    while get_subelement(lines, "Icon") != -1:
-        icons.append(get_subelement(lines, "Icon").split('>')[1].split('<')[0])
-        lines = lines[lines.find("</Icon>") + len("</Icon>"):]
-
-    for i in icons:
-        xml_formatted = xml_formatted.replace(i, i.replace("_ReinfConc_", "_Conc_"))
+    while get_subelement(lines, "BlockVariantGroup") != -1:
+        icon = get_subelement(get_subelement(lines, "BlockVariantGroup"), "Icon")
+        icon_n = icon.replace("_ReinfConc_", "_Conc_").replace("</Icon>", "</Icon>\n\t\t\t<Icon>Textures\\GUI\\Icons\\Cubes\\AQD_ReinforcedConcrete.dds</Icon>")
+        xml_formatted = xml_formatted.replace(icon, icon_n)
+        lines = lines[lines.find("</BlockVariantGroup>") + len("</BlockVariantGroup>"):]
 
     exported_xml.write(xml_formatted)
 
