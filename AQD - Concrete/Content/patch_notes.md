@@ -1,4 +1,4 @@
-[h1]Patch 2.0b[/h1]
+[h1]Patch 2.0c[/h1]
 [list]
-[*]Fixed missing "Reinf." icons on reinforced concrete block groups.
+[*]Reduced deformation further - unfortunately it's not possible to completely avoid.
 [/list]

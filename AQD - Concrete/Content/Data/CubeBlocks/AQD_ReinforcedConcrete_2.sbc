@@ -109,11 +109,12 @@
 			<MirroringZ>MinusHalfY</MirroringZ>
 			<PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
+			<UsesDeformation>false</UsesDeformation>
 			<DLC>ScrapRace</DLC>
 			<Public>true</Public>
 			<GuiVisible>false</GuiVisible>
 			<SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
-			<DeformationRatio>0.0</DeformationRatio>
+			<DeformationRatio>0.16</DeformationRatio>
 			<InventoryMaxVolume>1.0</InventoryMaxVolume>
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\CornerSquareConstruction_1.mwm"/>
@@ -236,11 +237,12 @@
 			<MirroringZ>MinusHalfY</MirroringZ>
 			<PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
+			<UsesDeformation>false</UsesDeformation>
 			<DLC>ScrapRace</DLC>
 			<Public>true</Public>
 			<GuiVisible>false</GuiVisible>
 			<SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
-			<DeformationRatio>0.0</DeformationRatio>
+			<DeformationRatio>0.32</DeformationRatio>
 			<InventoryMaxVolume>1.0</InventoryMaxVolume>
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\CornerSquareInvertedConstruction_1.mwm"/>
@@ -350,11 +352,12 @@
 			<MirroringZ>MinusHalfY</MirroringZ>
 			<PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
+			<UsesDeformation>false</UsesDeformation>
 			<DLC>ScrapRace</DLC>
 			<Public>true</Public>
 			<GuiVisible>false</GuiVisible>
 			<SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
-			<DeformationRatio>0.0</DeformationRatio>
+			<DeformationRatio>0.16</DeformationRatio>
 			<InventoryMaxVolume>1.0</InventoryMaxVolume>
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\HalfCornerConstruction_1.mwm"/>
@@ -443,7 +446,7 @@
 			<MirroringZ>MinusHalfY</MirroringZ>
 			<PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
-			<DeformationRatio>0.0</DeformationRatio>
+			<UsesDeformation>false</UsesDeformation>
 			<DLC>ScrapRace</DLC>
 			<Public>true</Public>
 			<GuiVisible>false</GuiVisible>
@@ -624,11 +627,12 @@
 			<MirroringZ>MinusHalfY</MirroringZ>
 			<PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
+			<UsesDeformation>false</UsesDeformation>
 			<DLC>ScrapRace</DLC>
 			<Public>true</Public>
 			<GuiVisible>false</GuiVisible>
 			<SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
-			<DeformationRatio>0.0</DeformationRatio>
+			<DeformationRatio>0.4</DeformationRatio>
 			<InventoryMaxVolume>1.0</InventoryMaxVolume>
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\HalfSlopeCornerInvertedConstruction_1.mwm"/>
@@ -744,11 +748,12 @@
 			<MirroringZ>MinusHalfY</MirroringZ>
 			<PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
+			<UsesDeformation>false</UsesDeformation>
 			<DLC>ScrapRace</DLC>
 			<Public>true</Public>
 			<GuiVisible>false</GuiVisible>
 			<SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
-			<DeformationRatio>0.0</DeformationRatio>
+			<DeformationRatio>0.16</DeformationRatio>
 			<InventoryMaxVolume>1.0</InventoryMaxVolume>
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\HalfSlopedCornerConstruction_1.mwm"/>
@@ -885,11 +890,12 @@
 			<MirroringZ>MinusHalfY</MirroringZ>
 			<PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
+			<UsesDeformation>false</UsesDeformation>
 			<DLC>ScrapRace</DLC>
 			<Public>true</Public>
 			<GuiVisible>false</GuiVisible>
 			<SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
-			<DeformationRatio>0.0</DeformationRatio>
+			<DeformationRatio>0.16</DeformationRatio>
 			<InventoryMaxVolume>1.0</InventoryMaxVolume>
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\HalfSlopedCornerBaseConstruction_1.mwm"/>
@@ -1051,11 +1057,12 @@
 			<MirroringZ>None</MirroringZ>
 			<PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
+			<UsesDeformation>false</UsesDeformation>
 			<DLC>ScrapRace</DLC>
 			<Public>true</Public>
 			<GuiVisible>false</GuiVisible>
 			<SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
-			<DeformationRatio>0.0</DeformationRatio>
+			<DeformationRatio>0.32</DeformationRatio>
 			<InventoryMaxVolume>1.0</InventoryMaxVolume>
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\HalfSlopeInvertedConstruction_1.mwm"/>
@@ -1189,11 +1196,12 @@
 			<MirroringZ>MinusHalfY</MirroringZ>
 			<PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
+			<UsesDeformation>false</UsesDeformation>
 			<DLC>ScrapRace</DLC>
 			<Public>true</Public>
 			<GuiVisible>false</GuiVisible>
 			<SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
-			<DeformationRatio>0.0</DeformationRatio>
+			<DeformationRatio>0.16</DeformationRatio>
 			<InventoryMaxVolume>1.0</InventoryMaxVolume>
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\SlopedCornerConstruction_1.mwm"/>
@@ -1354,11 +1362,12 @@
 			<MirroringZ>HalfY</MirroringZ>
 			<PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
+			<UsesDeformation>false</UsesDeformation>
 			<DLC>ScrapRace</DLC>
 			<Public>true</Public>
 			<GuiVisible>false</GuiVisible>
 			<SilenceableByShipSoundSystem>false</SilenceableByShipSoundSystem>
-			<DeformationRatio>0.0</DeformationRatio>
+			<DeformationRatio>0.4</DeformationRatio>
 			<InventoryMaxVolume>1.0</InventoryMaxVolume>
 			<BuildProgressModels>
 				<Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\SlopedCornerBaseConstruction_1.mwm"/>
@@ -1459,7 +1468,7 @@
 			<MirroringZ>HalfY</MirroringZ>
 			<PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
-			<DeformationRatio>0.0</DeformationRatio>
+			<UsesDeformation>false</UsesDeformation>
 			<DLC>ScrapRace</DLC>
 			<Public>true</Public>
 			<GuiVisible>false</GuiVisible>

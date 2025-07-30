@@ -12,7 +12,7 @@
 	  <Description>Description_AQD_ReinfConc_Block</Description>
 	  <CubeSize>Large</CubeSize>
 	  <BlockTopology>Cube</BlockTopology>
-	  <DeformationRatio>0.0</DeformationRatio>
+	  <DeformationRatio>0.32</DeformationRatio>
 	  <Size x="1" y="1" z="1" />
 	  <ModelOffset x="0" y="0" z="0" />
 	  <CubeDefinition>
@@ -148,6 +148,7 @@
 	  <MirroringZ>MinusHalfY</MirroringZ>
 	  <PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
+			<UsesDeformation>false</UsesDeformation>
 			<DLC>ScrapRace</DLC>
 	</Definition>
 		<Definition>
@@ -161,7 +162,7 @@
 	  <Description>Description_AQD_ReinfConc_Block</Description>
 	  <CubeSize>Large</CubeSize>
 	  <BlockTopology>Cube</BlockTopology>
-	  <DeformationRatio>0.0</DeformationRatio>
+	  <DeformationRatio>0.16</DeformationRatio>
 	  <Size x="1" y="1" z="1" />
 	  <ModelOffset x="0" y="0" z="0" />
 	  <CubeDefinition>
@@ -279,6 +280,7 @@
 	  <MirroringBlock>AQD_LG_ReinfConc_SlopeTransitionMirrored</MirroringBlock>
 	  <PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
+			<UsesDeformation>false</UsesDeformation>
 			<DLC>ScrapRace</DLC>
 	</Definition>
 		<Definition>
@@ -292,7 +294,7 @@
 	  <Description>Description_AQD_ReinfConc_Block</Description>
 	  <CubeSize>Large</CubeSize>
 	  <BlockTopology>Cube</BlockTopology>
-	  <DeformationRatio>0.0</DeformationRatio>
+	  <DeformationRatio>0.36</DeformationRatio>
 	  <Size x="1" y="1" z="1" />
 	  <ModelOffset x="0" y="0" z="0" />
 	  <CubeDefinition>
@@ -436,6 +438,7 @@
 		<MirroringBlock>AQD_LG_ReinfConc_SlopeTransitionBaseMirrored</MirroringBlock>
 	  <PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
+			<UsesDeformation>false</UsesDeformation>
 			<DLC>ScrapRace</DLC>
 	</Definition>
 		<Definition>
@@ -450,7 +453,7 @@
 	  <CubeSize>Large</CubeSize>
 	  <BlockTopology>Cube</BlockTopology>
 	  <Size x="1" y="1" z="1" />
-	  <DeformationRatio>0.0</DeformationRatio>
+	  <DeformationRatio>0.36</DeformationRatio>
 	  <ModelOffset x="0" y="0" z="0" />
 	  <CubeDefinition>
 		<CubeTopology>SlopeTransitionBaseMirrored</CubeTopology>
@@ -593,6 +596,7 @@
 	  <MirroringBlock>AQD_LG_ReinfConc_SlopeTransitionBase</MirroringBlock>
 	  <PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
+			<UsesDeformation>false</UsesDeformation>
 			<DLC>ScrapRace</DLC>
 	</Definition>
 		<Definition>
@@ -606,7 +610,7 @@
 	  <Description>Description_AQD_ReinfConc_Block</Description>
 	  <CubeSize>Large</CubeSize>
 	  <BlockTopology>Cube</BlockTopology>
-	  <DeformationRatio>0.0</DeformationRatio>
+	  <DeformationRatio>0.16</DeformationRatio>
 	  <Size x="1" y="1" z="1" />
 	  <ModelOffset x="0" y="0" z="0" />
 	  <CubeDefinition>
@@ -724,6 +728,7 @@
 		<MirroringBlock>AQD_LG_ReinfConc_SlopeTransition</MirroringBlock>
 	  <PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
+			<UsesDeformation>false</UsesDeformation>
 			<DLC>ScrapRace</DLC>
 	</Definition>
 		<Definition>
@@ -737,7 +742,7 @@
 	  <Description>Description_AQD_ReinfConc_Block</Description>
 	  <CubeSize>Large</CubeSize>
 	  <BlockTopology>Cube</BlockTopology>
-	  <DeformationRatio>0.0</DeformationRatio>
+	  <DeformationRatio>0.16</DeformationRatio>
 	  <Size x="1" y="1" z="1" />
 	  <ModelOffset x="0" y="0" z="0" />
 	  <CubeDefinition>
@@ -842,6 +847,7 @@
 		<MirroringY>X</MirroringY>
 	  <PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
+			<UsesDeformation>false</UsesDeformation>
 			<DLC>ScrapRace</DLC>
 	  <IsAirTight>false</IsAirTight>
 	</Definition>
@@ -856,7 +862,7 @@
 	  <Description>Description_AQD_ReinfConc_Block</Description>
 	  <CubeSize>Large</CubeSize>
 	  <BlockTopology>Cube</BlockTopology>
-	  <DeformationRatio>0.0</DeformationRatio>
+	  <DeformationRatio>0.16</DeformationRatio>
 	  <Size x="1" y="1" z="1" />
 	  <ModelOffset x="0" y="0" z="0" />
 	  <CubeDefinition>
@@ -961,6 +967,7 @@
 		<MirroringY>X</MirroringY>
 	  <PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
+			<UsesDeformation>false</UsesDeformation>
 			<DLC>ScrapRace</DLC>
 	  <IsAirTight>false</IsAirTight>
 	</Definition>
@@ -975,7 +982,7 @@
 	  <Description>Description_AQD_ReinfConc_Block</Description>
 	  <CubeSize>Large</CubeSize>
 	  <BlockTopology>Cube</BlockTopology>
-	  <DeformationRatio>0.0</DeformationRatio>
+	  <DeformationRatio>0.32</DeformationRatio>
 	  <Size x="1" y="1" z="1" />
 	  <ModelOffset x="0" y="0" z="0" />
 	  <CubeDefinition>
@@ -1115,6 +1122,7 @@
 	  <MirroringZ>MinusHalfY</MirroringZ>
 	  <PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
+			<UsesDeformation>false</UsesDeformation>
 			<DLC>ScrapRace</DLC>
 	</Definition>
 		<Definition>
@@ -1128,7 +1136,7 @@
 	  <Description>Description_AQD_ReinfConc_Block</Description>
 	  <CubeSize>Large</CubeSize>
 	  <BlockTopology>Cube</BlockTopology>
-	  <DeformationRatio>0.0</DeformationRatio>
+	  <DeformationRatio>0.16</DeformationRatio>
 	  <Size x="1" y="1" z="1" />
 	  <ModelOffset x="0" y="0" z="0" />
 	  <CubeDefinition>
@@ -1236,6 +1244,7 @@
 	  <MirroringZ>MinusHalfY</MirroringZ>
 	  <PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
+			<UsesDeformation>false</UsesDeformation>
 			<DLC>ScrapRace</DLC>
 	</Definition>
 		<Definition>
@@ -1249,7 +1258,7 @@
 	  <Description>Description_AQD_ReinfConc_Block</Description>
 	  <CubeSize>Large</CubeSize>
 	  <BlockTopology>Cube</BlockTopology>
-	  <DeformationRatio>0.0</DeformationRatio>
+	  <DeformationRatio>0.16</DeformationRatio>
 	  <Size x="1" y="1" z="1" />
 	  <ModelOffset x="0" y="0" z="0" />
 	  <CubeDefinition>
@@ -1377,6 +1386,7 @@
 	  <MirroringZ>MinusHalfY</MirroringZ>
 	  <PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
+			<UsesDeformation>false</UsesDeformation>
 			<DLC>ScrapRace</DLC>
 	</Definition>
 		

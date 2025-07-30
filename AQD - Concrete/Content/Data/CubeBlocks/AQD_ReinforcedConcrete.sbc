@@ -156,7 +156,7 @@
 				</BoneInfo>
 			</Skeleton>
 			<BlockPairName>AQD_ReinfConc_Block</BlockPairName>
-			<DeformationRatio>0.0</DeformationRatio>
+			<DeformationRatio>0.4</DeformationRatio>
 			<EdgeType>Heavy</EdgeType>
 			<BuildTimeSeconds>20</BuildTimeSeconds>
 			<DisassembleRatio>3</DisassembleRatio>
@@ -164,6 +164,7 @@
 			<PCU>1</PCU>
 			<PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
+			<UsesDeformation>false</UsesDeformation>
 			<DLC>ScrapRace</DLC>
 			<IsAirTight>true</IsAirTight>
 		</Definition>
@@ -289,13 +290,14 @@
 			<BlockPairName>AQD_ReinfConc_Slope</BlockPairName>
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
-			<DeformationRatio>0.0</DeformationRatio>
+			<DeformationRatio>0.4</DeformationRatio>
 			<EdgeType>Heavy</EdgeType>
 			<BuildTimeSeconds>15</BuildTimeSeconds>
 			<DisassembleRatio>3</DisassembleRatio>
 			<PCU>1</PCU>
 			<PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
+			<UsesDeformation>false</UsesDeformation>
 			<DLC>ScrapRace</DLC>
 		</Definition>
 		<Definition>
@@ -388,13 +390,14 @@
 			<MirroringX>YHalfX</MirroringX>
 			<MirroringY>ZHalfY</MirroringY>
 			<MirroringZ>YHalfY</MirroringZ>
-			<DeformationRatio>0.0</DeformationRatio>
+			<DeformationRatio>0.4</DeformationRatio>
 			<EdgeType>Heavy</EdgeType>
 			<BuildTimeSeconds>8</BuildTimeSeconds>
 			<DisassembleRatio>3</DisassembleRatio>
 			<PCU>1</PCU>
 			<PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
+			<UsesDeformation>false</UsesDeformation>
 			<DLC>ScrapRace</DLC>
 			<IsAirTight>false</IsAirTight>
 		</Definition>
@@ -546,13 +549,14 @@
 			<MirroringX>YHalfX</MirroringX>
 			<MirroringY>ZHalfY</MirroringY>
 			<MirroringZ>YHalfZ</MirroringZ>
-			<DeformationRatio>0.0</DeformationRatio>
+			<DeformationRatio>0.4</DeformationRatio>
 			<EdgeType>Heavy</EdgeType>
 			<BuildTimeSeconds>16</BuildTimeSeconds>
 			<DisassembleRatio>3</DisassembleRatio>
 			<PCU>1</PCU>
 			<PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
+			<UsesDeformation>false</UsesDeformation>
 			<DLC>ScrapRace</DLC>
 		</Definition>
 		<Definition>
@@ -720,7 +724,7 @@
 			<PCU>1</PCU>
 			<PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
-			<DeformationRatio>0.0</DeformationRatio>
+			<UsesDeformation>false</UsesDeformation>
 			<DLC>ScrapRace</DLC>
 		</Definition>
 		<Definition>
@@ -886,7 +890,7 @@
 			<PCU>1</PCU>
 			<PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
-			<DeformationRatio>0.0</DeformationRatio>
+			<UsesDeformation>false</UsesDeformation>
 			<DLC>ScrapRace</DLC>
 			<IsAirTight>false</IsAirTight>
 		</Definition>
@@ -1011,13 +1015,14 @@
 			<BlockPairName>AQD_ReinfConc_RoundSlope</BlockPairName>
 			<MirroringY>Z</MirroringY>
 			<MirroringZ>Y</MirroringZ>
-			<DeformationRatio>0.0</DeformationRatio>
+			<DeformationRatio>0.4</DeformationRatio>
 			<EdgeType>Heavy</EdgeType>
 			<BuildTimeSeconds>12</BuildTimeSeconds>
 			<DisassembleRatio>3</DisassembleRatio>
 			<PCU>1</PCU>
 			<PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
+			<UsesDeformation>false</UsesDeformation>
 			<DLC>ScrapRace</DLC>
 		</Definition>
 		<Definition>
@@ -1110,13 +1115,14 @@
 			<MirroringX>YHalfX</MirroringX>
 			<MirroringY>ZHalfY</MirroringY>
 			<MirroringZ>YHalfY</MirroringZ>
-			<DeformationRatio>0.0</DeformationRatio>
+			<DeformationRatio>0.4</DeformationRatio>
 			<EdgeType>Heavy</EdgeType>
 			<BuildTimeSeconds>8</BuildTimeSeconds>
 			<DisassembleRatio>3</DisassembleRatio>
 			<PCU>1</PCU>
 			<PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
+			<UsesDeformation>false</UsesDeformation>
 			<DLC>ScrapRace</DLC>
 			<IsAirTight>false</IsAirTight>
 		</Definition>
@@ -1268,13 +1274,14 @@
 			<MirroringX>MinusHalfY</MirroringX>
 			<MirroringY>ZHalfY</MirroringY>
 			<MirroringZ>HalfY</MirroringZ>
-			<DeformationRatio>0.0</DeformationRatio>
+			<DeformationRatio>0.4</DeformationRatio>
 			<EdgeType>Heavy</EdgeType>
 			<BuildTimeSeconds>20</BuildTimeSeconds>
 			<DisassembleRatio>3</DisassembleRatio>
 			<PCU>1</PCU>
 			<PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
+			<UsesDeformation>false</UsesDeformation>
 			<DLC>ScrapRace</DLC>
 		</Definition>
 		<Definition>
@@ -1442,7 +1449,7 @@
 			<PCU>1</PCU>
 			<PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
-			<DeformationRatio>0.0</DeformationRatio>
+			<UsesDeformation>false</UsesDeformation>
 			<DLC>ScrapRace</DLC>
 		</Definition>
 		<Definition>
@@ -1575,7 +1582,7 @@
 			<PCU>1</PCU>
 			<PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
-			<DeformationRatio>0.0</DeformationRatio>
+			<UsesDeformation>false</UsesDeformation>
 			<DLC>ScrapRace</DLC>
 		</Definition>
 		<Definition>
@@ -1707,7 +1714,7 @@
 			<PCU>1</PCU>
 			<PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
-			<DeformationRatio>0.0</DeformationRatio>
+			<UsesDeformation>false</UsesDeformation>
 			<DLC>ScrapRace</DLC>
 			<IsAirTight>false</IsAirTight>
 		</Definition>
@@ -1808,7 +1815,7 @@
 			<PCU>1</PCU>
 			<PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
-			<DeformationRatio>0.0</DeformationRatio>
+			<UsesDeformation>false</UsesDeformation>
 			<DLC>ScrapRace</DLC>
 			<IsAirTight>false</IsAirTight>
 		</Definition>
@@ -1966,7 +1973,7 @@
 			<PCU>1</PCU>
 			<PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
-			<DeformationRatio>0.0</DeformationRatio>
+			<UsesDeformation>false</UsesDeformation>
 			<DLC>ScrapRace</DLC>
 		</Definition>
 		<Definition>
@@ -2127,7 +2134,7 @@
 			<PCU>1</PCU>
 			<PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
-			<DeformationRatio>0.0</DeformationRatio>
+			<UsesDeformation>false</UsesDeformation>
 			<DLC>ScrapRace</DLC>
 		</Definition>
 		

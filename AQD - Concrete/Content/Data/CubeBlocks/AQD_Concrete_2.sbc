@@ -112,7 +112,7 @@
 			<MirroringZ>MinusHalfY</MirroringZ>
 			<PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
-			<DeformationRatio>0.0</DeformationRatio>
+			<UsesDeformation>false</UsesDeformation>
 			<DLC>ScrapRace</DLC>
 			<Public>true</Public>
 			<GuiVisible>false</GuiVisible>
@@ -237,7 +237,7 @@
 			<MirroringZ>MinusHalfY</MirroringZ>
 			<PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
-			<DeformationRatio>0.0</DeformationRatio>
+			<UsesDeformation>false</UsesDeformation>
 			<DLC>ScrapRace</DLC>
 			<Public>true</Public>
 			<GuiVisible>false</GuiVisible>
@@ -349,7 +349,7 @@
 			<MirroringZ>MinusHalfY</MirroringZ>
 			<PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
-			<DeformationRatio>0.0</DeformationRatio>
+			<UsesDeformation>false</UsesDeformation>
 			<DLC>ScrapRace</DLC>
 			<Public>true</Public>
 			<GuiVisible>false</GuiVisible>
@@ -440,7 +440,7 @@
 			<MirroringZ>MinusHalfY</MirroringZ>
 			<PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
-			<DeformationRatio>0.0</DeformationRatio>
+			<UsesDeformation>false</UsesDeformation>
 			<DLC>ScrapRace</DLC>
 			<Public>true</Public>
 			<GuiVisible>false</GuiVisible>
@@ -619,7 +619,7 @@
 			<MirroringZ>MinusHalfY</MirroringZ>
 			<PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
-			<DeformationRatio>0.0</DeformationRatio>
+			<UsesDeformation>false</UsesDeformation>
 			<DLC>ScrapRace</DLC>
 			<Public>true</Public>
 			<GuiVisible>false</GuiVisible>
@@ -737,7 +737,7 @@
 			<MirroringZ>MinusHalfY</MirroringZ>
 			<PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
-			<DeformationRatio>0.0</DeformationRatio>
+			<UsesDeformation>false</UsesDeformation>
 			<DLC>ScrapRace</DLC>
 			<Public>true</Public>
 			<GuiVisible>false</GuiVisible>
@@ -876,7 +876,7 @@
 			<MirroringZ>MinusHalfY</MirroringZ>
 			<PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
-			<DeformationRatio>0.0</DeformationRatio>
+			<UsesDeformation>false</UsesDeformation>
 			<DLC>ScrapRace</DLC>
 			<Public>true</Public>
 			<GuiVisible>false</GuiVisible>
@@ -1040,7 +1040,7 @@
 			<MirroringZ>None</MirroringZ>
 			<PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
-			<DeformationRatio>0.0</DeformationRatio>
+			<UsesDeformation>false</UsesDeformation>
 			<DLC>ScrapRace</DLC>
 			<Public>true</Public>
 			<GuiVisible>false</GuiVisible>
@@ -1176,7 +1176,7 @@
 			<MirroringZ>MinusHalfY</MirroringZ>
 			<PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
-			<DeformationRatio>0.0</DeformationRatio>
+			<UsesDeformation>false</UsesDeformation>
 			<DLC>ScrapRace</DLC>
 			<Public>true</Public>
 			<GuiVisible>false</GuiVisible>
@@ -1339,7 +1339,7 @@
 			<MirroringZ>HalfY</MirroringZ>
 			<PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
-			<DeformationRatio>0.0</DeformationRatio>
+			<UsesDeformation>false</UsesDeformation>
 			<DLC>ScrapRace</DLC>
 			<Public>true</Public>
 			<GuiVisible>false</GuiVisible>
@@ -1442,7 +1442,7 @@
 			<MirroringZ>HalfY</MirroringZ>
 			<PCUConsole>2</PCUConsole>
 			<PhysicalMaterial>Rock</PhysicalMaterial>
-			<DeformationRatio>0.0</DeformationRatio>
+			<UsesDeformation>false</UsesDeformation>
 			<DLC>ScrapRace</DLC>
 			<Public>true</Public>
 			<GuiVisible>false</GuiVisible>
