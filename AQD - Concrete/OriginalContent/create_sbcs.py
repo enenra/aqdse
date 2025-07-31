@@ -109,7 +109,7 @@ def make_cubedef_adjustments(entries, hvy, side_transfer: dict = None):
             icon = get_subelement(v_n, "Icon")
             v_n = v_n.replace(icon, icon.replace("_ReinfConc_", "_Conc_").replace("</Icon>", f"</Icon>\n\t\t\t<Icon>Textures\\GUI\\Icons\\Cubes\\AQD_ReinforcedConcrete.dds</Icon>"))
 
-        # Change Icon
+        # Change ShowEdges
         showedges = get_subelement(v_n, "ShowEdges")
         v_n = v_n.replace(showedges, f"<ShowEdges>false</ShowEdges>")
 
@@ -163,13 +163,9 @@ def make_cubedef_adjustments(entries, hvy, side_transfer: dict = None):
 
             v_n = v_n.replace(mb, f"<MirroringBlock>{mb_id}</MirroringBlock>")
 
-        # Add PhysicalMaterial & DeformationRatio
+        # Add PhysicalMaterial & UsesDeformation
         v_n = v_n.replace("</PCUConsole>", "</PCUConsole>\n\t\t\t<PhysicalMaterial>Rock</PhysicalMaterial>\n\t\t\t<DLC>ScrapRace</DLC>")
-        if get_subelement(v_n, "DeformationRatio") == -1:
-            v_n = v_n.replace("</PhysicalMaterial>", "</PhysicalMaterial>\n\t\t\t<DeformationRatio>0.0</DeformationRatio>")
-        else:
-            defrat = get_subelement(v_n, "DeformationRatio")
-            v_n = v_n.replace(defrat, f"<DeformationRatio>0.0</DeformationRatio>")
+        v_n = v_n.replace("</PhysicalMaterial>", "</PhysicalMaterial>\n\t\t\t<UsesDeformation>false</UsesDeformation>")
 
         v_n += "\n\t\t"
         adjusted_subtypes[k_n] = v_n
