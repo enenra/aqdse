@@ -1,209 +1,200 @@
 <?xml version="1.0" ?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <PlanetGeneratorDefinitions>
-    <PlanetGeneratorDefinition>
-      <Id>
-        <TypeId>PlanetGeneratorDefinition</TypeId>
-        <SubtypeId>CraterWaterWorld</SubtypeId>
-      </Id>
-
-      <PlanetMaps Material="true" Ores="true" Biome="true" Occlusion="true"/>
-
-      <MesherPostprocessing xsi:type="MyObjectBuilder_VoxelMesherComponentDefinition">
-        <PostprocessingSteps>
-          <Step xsi:type="MyObjectBuilder_VoxelPostprocessingDecimate" ForPhysics="true">
-            <LodSettings>
-              <Settings FromLod="0">
-                <FeatureAngle>15</FeatureAngle>
-                <EdgeThreshold>.04</EdgeThreshold>
-                <PlaneThreshold>.02</PlaneThreshold>
-              </Settings>
-              <Settings FromLod="1">
-                <FeatureAngle>15</FeatureAngle>
-                <EdgeThreshold>.04</EdgeThreshold>
-                <PlaneThreshold>.04</PlaneThreshold>
-              </Settings>
-              <Settings FromLod="2">
-                <FeatureAngle>15</FeatureAngle>
-                <EdgeThreshold>.06</EdgeThreshold>
-                <PlaneThreshold>.06</PlaneThreshold>
-              </Settings>
-            </LodSettings>
-          </Step>
-        </PostprocessingSteps>
-      </MesherPostprocessing>
-
-      <HillParams Min = "-0.05" Max ="0.05"/>
-      <DefaultSurfaceMaterial Material="DebugMaterial" MaxDepth="10"/>
-      <DefaultSubSurfaceMaterial Material="Snow"/>
-      <MaterialsMaxDepth Min="4000" Max="4000"/>
-      <MaterialsMinDepth Min="20" Max="20"/>
-      <MinimumSurfaceLayerDepth>1</MinimumSurfaceLayerDepth>
-
-      <SurfaceDetail>
-        <Texture>Data/PlanetDataFiles/Extra/material_detail_1</Texture>
-        <Size>300</Size>
-        <Scale>8</Scale>
-        <Slope Min="40" Max="80" />
-        <Transition>10</Transition>
-      </SurfaceDetail>
-
-      <ComplexMaterials>
-        <MaterialGroup Name="CraterRim" Value="100">
-          <Rule>
-            <Layers>
-              <Layer Material="Stone" Depth="10.0"/>
-            </Layers>
-            <Height Min="0.0" Max="1.0"/>
-            <Latitude Min="0.0" Max="90.0"/>
-            <Slope Min="0.0" Max="90.0"/>
-          </Rule>
-        </MaterialGroup>
-        <MaterialGroup Name="CraterOutside" Value="150">
-          <Rule>
-            <Layers>
-              <Layer Material="DesertRocks" Depth="10.0"/>
-            </Layers>
-            <Height Min="0.0" Max="1.0"/>
-            <Latitude Min="0.0" Max="90.0"/>
-            <Slope Min="0.0" Max="90.0"/>
-          </Rule>
-        </MaterialGroup>
-        <MaterialGroup Name="CraterInsideShelf" Value="50">
-          <Rule>
-            <Layers>
-              <Layer Material="Rocks_grass" Depth="5.0"/>
-            </Layers>
-            <Height Min="0.0" Max="1.0"/>
-            <Latitude Min="0.0" Max="90.0"/>
-            <Slope Min="0.0" Max="90.0"/>
-          </Rule>
-        </MaterialGroup>
-        <MaterialGroup Name="Flats" Value="200">
-          <Rule>
-            <Layers>
-              <Layer Material="Sand_02" Depth="5.0"/>
-            </Layers>
-            <Height Min="0.0" Max="1.0"/>
-            <Latitude Min="0.0" Max="90.0"/>
-            <Slope Min="0.0" Max="90.0"/>
-          </Rule>
-        </MaterialGroup>
-        <MaterialGroup Name="CraterCenter" Value="0">
-          <Rule>
-            <Layers>
-              <Layer Material="Woods_grass" Depth="5.0"/>
-            </Layers>
-            <Height Min="0.0" Max="1.0"/>
-            <Latitude Min="0.0" Max="90.0"/>
-            <Slope Min="0.0" Max="90.0"/>
-          </Rule>
-        </MaterialGroup>
-        <MaterialGroup Name="Canyons" Value="250">
-          <Rule>
-            <Layers>
-              <Layer Material="Stone_01" Depth="10.0"/>
-            </Layers>
-            <Height Min="0.0" Max="1.0"/>
-            <Latitude Min="0.0" Max="90.0"/>
-            <Slope Min="0.0" Max="90.0"/>
-          </Rule>
-        </MaterialGroup>
-      </ComplexMaterials>
-
-      <EnvironmentItems>
-        <Item>
-          <Biomes>
-            <Biome>0</Biome>
-          </Biomes>
-          <Materials/>
-          <Items/>
-          <Rule>
-            <Height Min="0.0" Max="1.0"/>
-            <Latitude Min="0.0" Max="90.0"/>
-            <Slope Min="0.0" Max="90.0"/>
-          </Rule>
-          <Rule>
-            <Height Min="0.0" Max="0.0"/>
-            <Latitude Min="0.0" Max="0.0"/>
-            <Slope Min="0.0" Max="0.0"/>
-          </Rule>
-        </Item>
-        <Item>
-          <Biomes>
-            <Biome>50</Biome>
-          </Biomes>
-          <Materials/>
-          <Items/>
-          <Rule>
-            <Height Min="0.0" Max="1.0"/>
-            <Latitude Min="0.0" Max="90.0"/>
-            <Slope Min="0.0" Max="90.0"/>
-          </Rule>
-        </Item>
-        <Item>
-          <Biomes>
-            <Biome>100</Biome>
-          </Biomes>
-          <Materials/>
-          <Items/>
-          <Rule>
-            <Height Min="0.0" Max="1.0"/>
-            <Latitude Min="0.0" Max="90.0"/>
-            <Slope Min="0.0" Max="90.0"/>
-          </Rule>
-        </Item>
-        <Item>
-          <Biomes>
-            <Biome>150</Biome>
-          </Biomes>
-          <Materials/>
-          <Items/>
-          <Rule>
-            <Height Min="0.0" Max="1.0"/>
-            <Latitude Min="0.0" Max="90.0"/>
-            <Slope Min="0.0" Max="90.0"/>
-          </Rule>
-        </Item>
-        <Item>
-          <Biomes>
-            <Biome>200</Biome>
-          </Biomes>
-          <Materials/>
-          <Items/>
-          <Rule>
-            <Height Min="0.0" Max="1.0"/>
-            <Latitude Min="0.0" Max="90.0"/>
-            <Slope Min="0.0" Max="90.0"/>
-          </Rule>
-        </Item>
-        <Item>
-          <Biomes>
-            <Biome>250</Biome>
-          </Biomes>
-          <Materials/>
-          <Items/>
-          <Rule>
-            <Height Min="0.0" Max="1.0"/>
-            <Latitude Min="0.0" Max="90.0"/>
-            <Slope Min="0.0" Max="90.0"/>
-          </Rule>
-        </Item>
-      </EnvironmentItems>
-
-      <MaximumOxygen>1.0</MaximumOxygen>
-      <SurfaceGravity>1.2</SurfaceGravity>
-      <HasAtmosphere>true</HasAtmosphere>
-
-      <Atmosphere>
-        <Breathable>true</Breathable>
-        <OxygenDensity>0.8</OxygenDensity>
-        <Density>1</Density>
-        <LimitAltitude>2</LimitAltitude>
-        <MaxWindSpeed>80</MaxWindSpeed>
-      </Atmosphere>
-
-    </PlanetGeneratorDefinition>
-  </PlanetGeneratorDefinitions>
-</Definitions>
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+		<PlanetGeneratorDefinitions>
+			<PlanetGeneratorDefinition>
+				<Id>
+					<TypeId>PlanetGeneratorDefinition</TypeId>
+					<SubtypeId>CraterWaterWorld</SubtypeId>
+				</Id>
+				<PlanetMaps Material="true" Ores="true" Biome="true" Occlusion="true"/>
+				<MesherPostprocessing xsi:type="MyObjectBuilder_VoxelMesherComponentDefinition">
+					<PostprocessingSteps>
+						<Step xsi:type="MyObjectBuilder_VoxelPostprocessingDecimate" ForPhysics="true">
+							<LodSettings>
+								<Settings FromLod="0">
+									<FeatureAngle>15</FeatureAngle>
+									<EdgeThreshold>.04</EdgeThreshold>
+									<PlaneThreshold>.02</PlaneThreshold>
+								</Settings>
+								<Settings FromLod="1">
+									<FeatureAngle>15</FeatureAngle>
+									<EdgeThreshold>.04</EdgeThreshold>
+									<PlaneThreshold>.04</PlaneThreshold>
+								</Settings>
+								<Settings FromLod="2">
+									<FeatureAngle>15</FeatureAngle>
+									<EdgeThreshold>.06</EdgeThreshold>
+									<PlaneThreshold>.06</PlaneThreshold>
+								</Settings>
+							</LodSettings>
+						</Step>
+					</PostprocessingSteps>
+				</MesherPostprocessing>
+				<HillParams Min = "-0.05" Max ="0.05"/>
+				<DefaultSurfaceMaterial Material="DebugMaterial" MaxDepth="10"/>
+				<DefaultSubSurfaceMaterial Material="DebugMaterial"/>
+				<MaterialsMaxDepth Min="4000" Max="4000"/>
+				<MaterialsMinDepth Min="20" Max="20"/>
+				<MinimumSurfaceLayerDepth>1</MinimumSurfaceLayerDepth>
+				<SurfaceDetail>
+					<Texture>Data\PlanetDataFiles\Extra\material_detail_4</Texture>
+					<Size>300</Size>
+					<Scale>8</Scale>
+					<Slope Min="40" Max="80" />
+					<Transition>10</Transition>
+				</SurfaceDetail>
+				<ComplexMaterials>
+					<MaterialGroup Name="CraterRim" Value="100">
+						<Rule>
+							<Layers>
+								<Layer Material="Sand_02" Depth="10.0"/>
+							</Layers>
+							<Height Min="0.0" Max="1.0"/>
+							<Latitude Min="0.0" Max="90.0"/>
+							<Slope Min="0.0" Max="90.0"/>
+						</Rule>
+					</MaterialGroup>
+					<MaterialGroup Name="CraterOutside" Value="150">
+						<Rule>
+							<Layers>
+								<Layer Material="PertamSand" Depth="10.0"/>
+							</Layers>
+							<Height Min="0.0" Max="1.0"/>
+							<Latitude Min="0.0" Max="90.0"/>
+							<Slope Min="0.0" Max="90.0"/>
+						</Rule>
+					</MaterialGroup>
+					<MaterialGroup Name="CraterInsideShelf" Value="50">
+						<Rule>
+							<Layers>
+								<Layer Material="AlienGreenGrass" Depth="5.0"/>
+							</Layers>
+							<Height Min="0.0" Max="1.0"/>
+							<Latitude Min="0.0" Max="90.0"/>
+							<Slope Min="0.0" Max="90.0"/>
+						</Rule>
+					</MaterialGroup>
+					<MaterialGroup Name="Flats" Value="200">
+						<Rule>
+							<Layers>
+								<Layer Material="AlienRockGrass" Depth="5.0"/>
+							</Layers>
+							<Height Min="0.0" Max="1.0"/>
+							<Latitude Min="0.0" Max="90.0"/>
+							<Slope Min="0.0" Max="90.0"/>
+						</Rule>
+					</MaterialGroup>
+					<MaterialGroup Name="CraterCenter" Value="0">
+						<Rule>
+							<Layers>
+								<Layer Material="AlienRockGrass" Depth="5.0"/>
+							</Layers>
+							<Height Min="0.0" Max="1.0"/>
+							<Latitude Min="0.0" Max="90.0"/>
+							<Slope Min="0.0" Max="90.0"/>
+						</Rule>
+					</MaterialGroup>
+					<MaterialGroup Name="Canyons" Value="250">
+						<Rule>
+							<Layers>
+								<Layer Material="AlienRockGrass" Depth="10.0"/>
+							</Layers>
+							<Height Min="0.0" Max="1.0"/>
+							<Latitude Min="0.0" Max="90.0"/>
+							<Slope Min="0.0" Max="90.0"/>
+						</Rule>
+					</MaterialGroup>
+				</ComplexMaterials>
+				<EnvironmentItems>
+					<Item>
+						<Biomes>
+							<Biome>0</Biome>
+						</Biomes>
+						<Materials/>
+						<Items/>
+						<Rule>
+							<Height Min="0.0" Max="1.0"/>
+							<Latitude Min="0.0" Max="90.0"/>
+							<Slope Min="0.0" Max="90.0"/>
+						</Rule>
+						<Rule>
+							<Height Min="0.0" Max="0.0"/>
+							<Latitude Min="0.0" Max="0.0"/>
+							<Slope Min="0.0" Max="0.0"/>
+						</Rule>
+					</Item>
+					<Item>
+						<Biomes>
+							<Biome>50</Biome>
+						</Biomes>
+						<Materials/>
+						<Items/>
+						<Rule>
+							<Height Min="0.0" Max="1.0"/>
+							<Latitude Min="0.0" Max="90.0"/>
+							<Slope Min="0.0" Max="90.0"/>
+						</Rule>
+					</Item>
+					<Item>
+						<Biomes>
+							<Biome>100</Biome>
+						</Biomes>
+						<Materials/>
+						<Items/>
+						<Rule>
+							<Height Min="0.0" Max="1.0"/>
+							<Latitude Min="0.0" Max="90.0"/>
+							<Slope Min="0.0" Max="90.0"/>
+						</Rule>
+					</Item>
+					<Item>
+						<Biomes>
+							<Biome>150</Biome>
+						</Biomes>
+						<Materials/>
+						<Items/>
+						<Rule>
+							<Height Min="0.0" Max="1.0"/>
+							<Latitude Min="0.0" Max="90.0"/>
+							<Slope Min="0.0" Max="90.0"/>
+						</Rule>
+					</Item>
+					<Item>
+						<Biomes>
+							<Biome>200</Biome>
+						</Biomes>
+						<Materials/>
+						<Items/>
+						<Rule>
+							<Height Min="0.0" Max="1.0"/>
+							<Latitude Min="0.0" Max="90.0"/>
+							<Slope Min="0.0" Max="90.0"/>
+						</Rule>
+					</Item>
+					<Item>
+						<Biomes>
+							<Biome>250</Biome>
+						</Biomes>
+						<Materials/>
+						<Items/>
+						<Rule>
+							<Height Min="0.0" Max="1.0"/>
+							<Latitude Min="0.0" Max="90.0"/>
+							<Slope Min="0.0" Max="90.0"/>
+						</Rule>
+					</Item>
+				</EnvironmentItems>
+				<MaximumOxygen>1.0</MaximumOxygen>
+				<SurfaceGravity>1.2</SurfaceGravity>
+				<HasAtmosphere>true</HasAtmosphere>
+				<Atmosphere>
+					<Breathable>true</Breathable>
+					<OxygenDensity>0.8</OxygenDensity>
+					<Density>1.0</Density>
+					<LimitAltitude>2.0</LimitAltitude>
+					<MaxWindSpeed>80.0</MaxWindSpeed>
+				</Atmosphere>
+			</PlanetGeneratorDefinition>
+		</PlanetGeneratorDefinitions>
+	</Definitions>
