@@ -31,9 +31,9 @@
 						</Step>
 					</PostprocessingSteps>
 				</MesherPostprocessing>
-				<HillParams Min = "-0.05" Max ="0.05"/>
-				<DefaultSurfaceMaterial Material="DebugMaterial" MaxDepth="10"/>
-				<DefaultSubSurfaceMaterial Material="DebugMaterial"/>
+				<HillParams Min="-0.08" Max="0.05"/>
+				<DefaultSurfaceMaterial Material="Sand_02" MaxDepth="1"/>
+				<DefaultSubSurfaceMaterial Material="Stone"/>
 				<MaterialsMaxDepth Min="4000" Max="4000"/>
 				<MaterialsMinDepth Min="20" Max="20"/>
 				<MinimumSurfaceLayerDepth>1</MinimumSurfaceLayerDepth>
@@ -41,68 +41,135 @@
 					<Texture>Data\PlanetDataFiles\Extra\material_detail_4</Texture>
 					<Size>300</Size>
 					<Scale>8</Scale>
-					<Slope Min="40" Max="80" />
-					<Transition>10</Transition>
+					<Slope Min="30" Max="90" />
+					<Transition>15</Transition>
 				</SurfaceDetail>
 				<ComplexMaterials>
 					<MaterialGroup Name="CraterRim" Value="100">
 						<Rule>
 							<Layers>
-								<Layer Material="Sand_02" Depth="10.0"/>
+								<Layer Material="Sand_02" Depth="2.0"/>
 							</Layers>
 							<Height Min="0.0" Max="1.0"/>
 							<Latitude Min="0.0" Max="90.0"/>
-							<Slope Min="0.0" Max="90.0"/>
+							<Slope Min="0.0" Max="30.0"/>
+						</Rule>
+						<Rule>
+							<Layers>
+								<Layer Material="Rocks_grass" Depth="2.0"/>
+							</Layers>
+							<Height Min="0.0" Max="1.0"/>
+							<Latitude Min="0.0" Max="90.0"/>
+							<Slope Min="30.0" Max="90.0"/>
 						</Rule>
 					</MaterialGroup>
 					<MaterialGroup Name="CraterOutside" Value="150">
 						<Rule>
 							<Layers>
-								<Layer Material="PertamSand" Depth="10.0"/>
+								<Layer Material="AlienSand" Depth="5.0"/>
 							</Layers>
 							<Height Min="0.0" Max="1.0"/>
 							<Latitude Min="0.0" Max="90.0"/>
-							<Slope Min="0.0" Max="90.0"/>
+							<Slope Min="0.0" Max="30.0"/>
+						</Rule>
+						<Rule>
+							<Layers>
+								<Layer Material="DesertRocks" Depth="5.0"/>
+							</Layers>
+							<Height Min="0.0" Max="1.0"/>
+							<Latitude Min="0.0" Max="90.0"/>
+							<Slope Min="30.0" Max="90.0"/>
 						</Rule>
 					</MaterialGroup>
 					<MaterialGroup Name="CraterInsideShelf" Value="50">
 						<Rule>
 							<Layers>
-								<Layer Material="AlienGreenGrass" Depth="5.0"/>
+								<Layer Material="AlienGreenGrass" Depth="1.0"/>
+								<Layer Material="AlienGreenGrass bare" Depth="4.0"/>
 							</Layers>
 							<Height Min="0.0" Max="1.0"/>
 							<Latitude Min="0.0" Max="90.0"/>
-							<Slope Min="0.0" Max="90.0"/>
+							<Slope Min="0.0" Max="30.0"/>
+						</Rule>
+						<Rule>
+							<Layers>
+								<Layer Material="AlienGreenGrass bare" Depth="5.0"/>
+							</Layers>
+							<Height Min="0.0" Max="1.0"/>
+							<Latitude Min="0.0" Max="90.0"/>
+							<Slope Min="30.0" Max="90.0"/>
 						</Rule>
 					</MaterialGroup>
 					<MaterialGroup Name="Flats" Value="200">
 						<Rule>
 							<Layers>
-								<Layer Material="AlienRockGrass" Depth="5.0"/>
+								<Layer Material="AlienSand" Depth="5.0"/>
 							</Layers>
 							<Height Min="0.0" Max="1.0"/>
 							<Latitude Min="0.0" Max="90.0"/>
-							<Slope Min="0.0" Max="90.0"/>
+							<Slope Min="0.0" Max="30.0"/>
+						</Rule>
+						<Rule>
+							<Layers>
+								<Layer Material="DustyRocks" Depth="10.0"/>
+							</Layers>
+							<Height Min="0.0" Max="1.0"/>
+							<Latitude Min="0.0" Max="90.0"/>
+							<Slope Min="30.0" Max="45.0"/>
+						</Rule>
+						<Rule>
+							<Layers>
+								<Layer Material="AlienRockyMountain" Depth="10.0"/>
+							</Layers>
+							<Height Min="0.0" Max="1.0"/>
+							<Latitude Min="0.0" Max="90.0"/>
+							<Slope Min="45.0" Max="90.0"/>
 						</Rule>
 					</MaterialGroup>
 					<MaterialGroup Name="CraterCenter" Value="0">
 						<Rule>
 							<Layers>
-								<Layer Material="AlienRockGrass" Depth="5.0"/>
+								<Layer Material="AlienOrangeGrass" Depth="1.0"/>
+								<Layer Material="AlienRockyTerrain" Depth="4.0"/>
 							</Layers>
 							<Height Min="0.0" Max="1.0"/>
 							<Latitude Min="0.0" Max="90.0"/>
-							<Slope Min="0.0" Max="90.0"/>
+							<Slope Min="0.0" Max="30.0"/>
+						</Rule>
+						<Rule>
+							<Layers>
+								<Layer Material="AlienRockyTerrain" Depth="5.0"/>
+							</Layers>
+							<Height Min="0.0" Max="1.0"/>
+							<Latitude Min="0.0" Max="90.0"/>
+							<Slope Min="30.0" Max="90.0"/>
 						</Rule>
 					</MaterialGroup>
 					<MaterialGroup Name="Canyons" Value="250">
 						<Rule>
 							<Layers>
-								<Layer Material="AlienRockGrass" Depth="10.0"/>
+								<Layer Material="AlienSoil" Depth="5.0"/>
+								<Layer Material="Stone" Depth="5.0"/>
+							</Layers>
+							<Height Min="0.0" Max="0.1"/>
+							<Latitude Min="0.0" Max="90.0"/>
+							<Slope Min="0.0" Max="30.0"/>
+						</Rule>
+						<Rule>
+							<Layers>
+								<Layer Material="Stone" Depth="5.0"/>
 							</Layers>
 							<Height Min="0.0" Max="1.0"/>
 							<Latitude Min="0.0" Max="90.0"/>
-							<Slope Min="0.0" Max="90.0"/>
+							<Slope Min="30.0" Max="90.0"/>
+						</Rule>
+						<Rule>
+							<Layers>
+								<Layer Material="AlienSand" Depth="10.0"/>
+							</Layers>
+							<Height Min="0.1" Max="1.0"/>
+							<Latitude Min="0.0" Max="90.0"/>
+							<Slope Min="0.0" Max="30.0"/>
 						</Rule>
 					</MaterialGroup>
 				</ComplexMaterials>
@@ -190,9 +257,9 @@
 				<HasAtmosphere>true</HasAtmosphere>
 				<Atmosphere>
 					<Breathable>true</Breathable>
-					<OxygenDensity>0.8</OxygenDensity>
+					<OxygenDensity>1.0</OxygenDensity>
 					<Density>1.0</Density>
-					<LimitAltitude>2.0</LimitAltitude>
+					<LimitAltitude>3.0</LimitAltitude>
 					<MaxWindSpeed>80.0</MaxWindSpeed>
 				</Atmosphere>
 			</PlanetGeneratorDefinition>
