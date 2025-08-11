@@ -259,7 +259,7 @@
 					<Breathable>true</Breathable>
 					<OxygenDensity>1.0</OxygenDensity>
 					<Density>1.0</Density>
-					<LimitAltitude>3.0</LimitAltitude>
+					<LimitAltitude>3.5</LimitAltitude>
 					<MaxWindSpeed>80.0</MaxWindSpeed>
 				</Atmosphere>
 			</PlanetGeneratorDefinition>
