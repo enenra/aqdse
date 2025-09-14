@@ -1,9 +1,7 @@
 <?xml version="1.0"?>
-<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Blueprints>
 
-    <!-- Prevents Refineries and Basic Refineries from producing ore from stone. -->
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
@@ -20,7 +18,6 @@
       <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
     </Blueprint>
 
-    <!-- Increases ore gain from stone for survivalkits. -->
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
@@ -29,16 +26,35 @@
       <DisplayName>DisplayName_BlueprintClass_Ingots</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
       <Prerequisites>
-        <Item Amount="100" TypeId="Ore" SubtypeId="Stone" />
+        <Item Amount="1" TypeId="Ore" SubtypeId="Stone" />
       </Prerequisites>
       <Results>
-        <Item Amount="6" TypeId="Ingot" SubtypeId="Stone" />
-        <Item Amount="12" TypeId="Ingot" SubtypeId="Iron" />
-        <Item Amount="1.2" TypeId="Ingot" SubtypeId="Nickel" />
-        <Item Amount="1.6" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="Stone" />
+      </Results>
+      <Priority>500</Priority>
+      <BaseProductionTimeInSeconds>0.1</BaseProductionTimeInSeconds>
+    </Blueprint>
+
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Position0010_AQD_BP_StoneOreToIngotAdvanced</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_AQD_BP_StoneOreToIngotAdvanced</DisplayName>
+      <Icon>Textures\GUI\Icons\ingot\ingot_class.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
+      <Prerequisites>
+        <Item Amount="100" TypeId="Ore" SubtypeId="Stone" />
+        <Item Amount="1" TypeId="Ingot" SubtypeId="AQD_Item_NanitePack" />
+      </Prerequisites>
+      <Results>
+        <Item Amount="14" TypeId="Ingot" SubtypeId="Stone" />
+        <Item Amount="1200" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="96" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="160" TypeId="Ingot" SubtypeId="Silicon" />
       </Results>
       <Priority>1000</Priority>
-      <BaseProductionTimeInSeconds>0.5</BaseProductionTimeInSeconds>
+      <BaseProductionTimeInSeconds>1.0</BaseProductionTimeInSeconds>
     </Blueprint>
 
   </Blueprints>

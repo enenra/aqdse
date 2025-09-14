@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PhysicalItems>
+
+    <PhysicalItem>
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>AQD_Item_NanitePack</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_AQD_Item_NanitePack}</DisplayName>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Item_NanitePack.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
+      <Size>
+				<X>0.15</X>
+				<Y>0.15</Y>
+				<Z>0.15</Z>
+      </Size>
+			<Mass>1.5</Mass>
+			<Volume>1.25</Volume>
+      <Model>Models\Items\AQD_Item_NanitePack.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>5</MaxIntegrity>
+      <DropProbability>1</DropProbability>
+      <Health>100</Health>
+
+      <MinimalPricePerUnit>500000</MinimalPricePerUnit>
+      <MinimumOfferAmount>50</MinimumOfferAmount>
+      <MaximumOfferAmount>100</MaximumOfferAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+    </PhysicalItem>
+
+  </PhysicalItems>
+</Definitions>
