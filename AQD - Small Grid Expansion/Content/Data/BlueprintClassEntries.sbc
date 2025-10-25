@@ -9,5 +9,7 @@
 		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/AQD_SG_Freight_I"/>
 		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/AQD_SG_Freight_II"/>
 		<Entry Class="SmallBlocks" BlueprintSubtypeId="CubeBlock/AQD_SG_Freight_III"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="Cockpit/AQD_SG_CompactControlSeat"/>
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="Cockpit/AQD_SG_CompactSeat"/>
 	</BlueprintClassEntries>
 </Definitions>

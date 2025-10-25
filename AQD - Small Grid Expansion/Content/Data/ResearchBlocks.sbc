@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
-<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ResearchBlocks>
 
     <ResearchBlock xsi:type="ResearchBlock">
@@ -21,6 +20,20 @@
       <Id Type="CryoChamber" Subtype="AQD_SG_OpenBed" />
       <UnlockedByGroups>
         <GroupSubtype>5</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Cockpit" Subtype="AQD_SG_CompactControlSeat" />
+      <UnlockedByGroups>
+        <GroupSubtype>14</GroupSubtype>
+      </UnlockedByGroups>
+    </ResearchBlock>
+
+    <ResearchBlock xsi:type="ResearchBlock">
+      <Id Type="MyObjectBuilder_Cockpit" Subtype="AQD_SG_CompactSeat" />
+      <UnlockedByGroups>
+        <GroupSubtype>14</GroupSubtype>
       </UnlockedByGroups>
     </ResearchBlock>
 

@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Animations>
+
+    <Animation>
+      <Id>
+        <TypeId>AnimationDefinition</TypeId>
+        <SubtypeId>AQD_SG_CompactControlSeat_Pose</SubtypeId>
+      </Id>
+      <DisplayName>AQD_SG_CompactControlSeat_Pose</DisplayName>
+      <Description>AQD_SG_CompactControlSeat_Pose</Description>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <AnimationModel>Models\Characters\Animations\AQD_SG_CompactControlSeat_Pose.mwm</AnimationModel>
+      <ClipIndex>0</ClipIndex>
+      <InfluenceArea>Body</InfluenceArea>
+      <Public>false</Public>
+    </Animation>
+
+    <Animation>
+      <Id>
+        <TypeId>AnimationDefinition</TypeId>
+        <SubtypeId>AQD_SG_CompactSeat_Pose</SubtypeId>
+      </Id>
+      <DisplayName>AQD_SG_CompactSeat_Pose</DisplayName>
+      <Description>AQD_SG_CompactSeat_Pose</Description>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <AnimationModel>Models\Characters\Animations\AQD_SG_CompactSeat_Pose.mwm</AnimationModel>
+      <ClipIndex>0</ClipIndex>
+      <InfluenceArea>Body</InfluenceArea>
+      <Public>false</Public>
+    </Animation>
+
+  </Animations>
+</Definitions>

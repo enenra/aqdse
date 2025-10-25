@@ -1,6 +1,6 @@
 [img]https://i.imgur.com/fVVaDCS.gif[/img]
 
-[h1]Current version: [b]1.1d[/b][/h1]
+[h1]Current version: [b]1.2[/b][/h1]
 [i]Please refer to the [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2678657382]changelog[/url] for patch notes.[/i]
 
 [img]https://i.imgur.com/cdhLXnQ.png[/img]
@@ -22,6 +22,8 @@ More blocks might be added in the future but as always I'll be carefully conside
 [*]Small Grid Jumpdrive
 [*]Small Grid Gravity Generator
 [*]Small Grid Bed
+[*]Compact Passenger Seat
+[*]Compact Pilot Seat
 [/list]
 
 The mod also converts the following blocks to be available on small grid as well:
@@ -43,7 +45,7 @@ The mod also converts the following blocks to be available on small grid as well
 
 [img]https://i.imgur.com/uUOBTpF.png[/img]
 [list]
-[*][b]AryxErin[/b] - Comissioned to create the models for this mod, and did once again an amazing job. You should definitely [url=https://steamcommunity.com/id/AryxERIN/myworkshopfiles/?appid=244850]check out her other mods![/url]
+[*][b]AryxErin[/b] - Comissioned to create most of the models for this mod, and did once again an amazing job. You should definitely [url=https://steamcommunity.com/id/AryxERIN/myworkshopfiles/?appid=244850]check out her other mods![/url]
 [/list]
 
 [url=https://steamcommunity.com/workshop/discussions/18446744073709551615/2793874853443195941/?appid=244850][img]https://raw.githubusercontent.com/enenra/aqdse/master/usage_guidelines.png[/img][/url]

@@ -1,4 +1,4 @@
-[h1]Patch 1.1d[/h1]
+[h1]Patch 1.2[/h1]
 [list]
-[*]Missed some stuff for 1.205 compatibility.
+[*]Added Compact Pilot Seat and Compact Passenger Seat.
 [/list]

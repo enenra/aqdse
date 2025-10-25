@@ -58,5 +58,17 @@
       </Blocks>
     </BlockVariantGroup>
 
+    <BlockVariantGroup>
+      <Id Type="MyObjectBuilder_BlockVariantGroup" Subtype="AQD_Group_CompactSeat" />
+      <Icon>Textures\GUI\Icons\Cubes\AQD_SG_CompactSeat.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
+      <DisplayName>{LOC:DisplayName_AQD_SG_CompactControlSeat}</DisplayName>
+      <Description>Description_OpenCockpitSmall</Description>
+      <Blocks>
+        <Block Type="MyObjectBuilder_Cockpit" Subtype="AQD_SG_CompactControlSeat" />
+        <Block Type="MyObjectBuilder_Cockpit" Subtype="AQD_SG_CompactSeat" />
+      </Blocks>
+    </BlockVariantGroup>
+
   </BlockVariantGroups>
 </Definitions>

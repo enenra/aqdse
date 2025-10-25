@@ -117,8 +117,18 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+
   <data name="DisplayName_AQD_SG_ConnectorSmall" xml:space="preserve">
     <value>Small Connector</value>
+    <comment/>
+  </data>
+
+  <data name="DisplayName_AQD_SG_CompactControlSeat" xml:space="preserve">
+    <value>Compact Pilot Seat</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AQD_SG_CompactSeat" xml:space="preserve">
+    <value>Compact Passenger Seat</value>
     <comment/>
   </data>
 </root>

@@ -16,6 +16,8 @@
         <string>GravityGenerator/AQD_SG_GravityGenerator</string>
         <string>JumpDrive/AQD_SG_Jumpdrive</string>
         <string>CryoChamber/AQD_SG_OpenBed</string>
+        <string>Cockpit/AQD_SG_CompactSeat</string>
+        <string>Cockpit/AQD_SG_CompactControlSeat</string>
       </ItemIds>
     </Category>
 
@@ -33,8 +35,11 @@
         <string>GravityGenerator/AQD_SG_GravityGenerator</string>
         <string>JumpDrive/AQD_SG_Jumpdrive</string>
         <string>CryoChamber/AQD_SG_OpenBed</string>
+        <string>Cockpit/AQD_SG_CompactSeat</string>
+        <string>Cockpit/AQD_SG_CompactControlSeat</string>
       </ItemIds>
     </Category>
+
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
@@ -48,6 +53,7 @@
         <string>Refinery/AQD_SG_BasicRefinery</string>
       </ItemIds>
     </Category>
+
     <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
       <Id>
         <TypeId>GuiBlockCategoryDefinition</TypeId>
@@ -60,6 +66,20 @@
         <string>GravityGenerator/AQD_SG_GravityGenerator</string>
         <string>JumpDrive/AQD_SG_Jumpdrive</string>
         <string>CryoChamber/AQD_SG_OpenBed</string>
+      </ItemIds>
+    </Category>
+
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId>Control</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Category_Control</DisplayName>
+      <Name>Section1_Position3_Control</Name>
+      <StrictSearch>true</StrictSearch>
+      <ItemIds>
+        <string>Cockpit/AQD_SG_CompactSeat</string>
+        <string>Cockpit/AQD_SG_CompactControlSeat</string>
       </ItemIds>
     </Category>
 
