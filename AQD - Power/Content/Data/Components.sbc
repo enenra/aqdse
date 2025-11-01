@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Components>
+
+    <Component>
+      <Id>
+        <TypeId>Component</TypeId>
+        <SubtypeId>AQD_Comp_AlkalineCell</SubtypeId>
+      </Id>
+      <DisplayName>{LOC:DisplayName_AQD_Comp_AlkalineCell}</DisplayName>
+      <Icon>Textures\GUI\Icons\component\AQD_Comp_AlkalineCell.dds</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
+      <Size>
+        <X>0.5</X>
+        <Y>0.3</Y>
+        <Z>0.3</Z>
+      </Size>
+      <Mass>25</Mass>
+      <Volume>40</Volume>
+      <Model>Models\Items\AQD_Comp_AlkalineCell.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <MaxIntegrity>50</MaxIntegrity>
+      <DropProbability>0.3</DropProbability>
+      <Health>14</Health>
+      <MinimumOfferAmount>100</MinimumOfferAmount>
+      <MaximumOfferAmount>500</MaximumOfferAmount>
+      <MinimumOrderAmount>50</MinimumOrderAmount>
+      <MaximumOrderAmount>100</MaximumOrderAmount>
+      <CanPlayerOrder>true</CanPlayerOrder>
+
+      <MinimumAcquisitionAmount>10</MinimumAcquisitionAmount>
+      <MaximumAcquisitionAmount>120</MaximumAcquisitionAmount>
+    </Component>
+
+  </Components>
+</Definitions>
