@@ -42,6 +42,9 @@
         },
         {
             "path": "../../Users/enenra/AppData/Roaming/SpaceEngineers/Blueprints/local"
+        },
+        {
+            "path": "../DefenseShields"
         }
     ],
     "settings": {
