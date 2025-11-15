@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+
+    <!-- Welders -->
+    <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
+      <Id>
+        <TypeId>ShipWelder</TypeId>
+        <SubtypeId>LargeShipWelder</SubtypeId>
+      </Id>
+      <SensorRadius>3</SensorRadius> <!-- Orig: 2.26 -->
+      <SensorOffset>0</SensorOffset> <!-- Orig: not defined -->
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
+      <Id>
+        <TypeId>ShipWelder</TypeId>
+        <SubtypeId>LargeShipWelderReskin</SubtypeId>
+      </Id>
+      <SensorRadius>3</SensorRadius> <!-- Orig: 2.26 -->
+      <SensorOffset>0</SensorOffset> <!-- Orig: not defined -->
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
+      <Id>
+        <TypeId>ShipWelder</TypeId>
+        <SubtypeId>SmallShipWelder</SubtypeId>
+      </Id>
+      <SensorRadius>2</SensorRadius> <!-- Orig: 1.3 -->
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_ShipWelderDefinition">
+      <Id>
+        <TypeId>ShipWelder</TypeId>
+        <SubtypeId>SmallShipWelderReskin</SubtypeId>
+      </Id>
+      <SensorRadius>2</SensorRadius> <!-- Orig: 1.3 -->
+    </Definition>
+
+    <!-- Grinders -->
+    <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
+      <Id>
+        <TypeId>ShipGrinder</TypeId>
+        <SubtypeId>LargeShipGrinder</SubtypeId>
+      </Id>
+      <SensorRadius>2</SensorRadius> <!-- Orig: 1.4 -->
+      <SensorOffset>-0.2</SensorOffset> <!-- Orig: not defined -->
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
+      <Id>
+        <TypeId>ShipGrinder</TypeId>
+        <SubtypeId>LargeShipGrinderReskin</SubtypeId>
+      </Id>
+      <SensorRadius>2</SensorRadius> <!-- Orig: 1.4 -->
+      <SensorOffset>-0.2</SensorOffset> <!-- Orig: not defined -->
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
+      <Id>
+        <TypeId>ShipGrinder</TypeId>
+        <SubtypeId>SmallShipGrinder</SubtypeId>
+      </Id>
+      <SensorRadius>1.5</SensorRadius> <!-- Orig: 1.3 -->
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_ShipGrinderDefinition">
+      <Id>
+        <TypeId>ShipGrinder</TypeId>
+        <SubtypeId>SmallShipGrinderReskin</SubtypeId>
+      </Id>
+      <SensorRadius>1.5</SensorRadius> <!-- Orig: 1.3 -->
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>
