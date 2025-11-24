@@ -14,6 +14,8 @@ UPLOAD_PN = True
 
 TAGS = ["Other", "Script", "AQD"]
 
+DRY_RUN = True
+
 def md_to_steam_bbcode(md: str) -> str:
     bbcode = []
 
@@ -136,7 +138,10 @@ def main():
     mod_dir = path_adjustments()
     os.chdir(mod_dir)
 
-    args = [SEWT, "push", "--compile", "--mods", mod_dir]
+    if DRY_RUN:
+        args = [SEWT, "push", "--dry-run", "--compile", "--mods", mod_dir]
+    else:
+        args = [SEWT, "push", "--compile", "--mods", mod_dir]
 
     if len(EXCLUDE_FILES) > 0:
         args.append("--exclude-ext")
@@ -168,7 +173,7 @@ def main():
     if UPLOAD_PN:
         pn_src_path = os.path.join(mod_dir, "patch_notes.md")
 
-        if os.path.exists(pn_path):
+        if os.path.exists(pn_src_path):
             args.append("--message")
             args.append("patch_notes_tmp.md")
 

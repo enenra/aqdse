@@ -4,15 +4,19 @@ import subprocess
 
 
 SEWT = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\SpaceEngineers\\Bin64\\SEWorkshopTool.exe"
-MODS_DIR = "C:\\Users\\enenra\\AppData\\Roaming\\SpaceEngineers\\Mods"
+MODS_DIR = "SpaceEngineers\\Mods"
 
-EXCLUDE_FILES = [".bat", ".psd", ".md", ".py", ".gitattributes", ".gitignore"]
-EXCLUDE_DIRS = ["bin", "obj", "WebWiki"]
+EXCLUDE_FILES = [".bat", ".psd", ".md", ".py", ".gitattributes", ".gitignore", ".sln", ".csproj", ".mod", ".sbmi"]
+EXCLUDE_DIRS = ["bin", "obj", "WebWiki", ".git"]
 
 UPLOAD_DESC = True
 UPLOAD_PN = True
 
 TAGS = ["Other", "Script", "AQD"]
+
+MOD_NAME_OVERRIDE = ""
+
+DRY_RUN = False
 
 def md_to_steam_bbcode(md: str) -> str:
     bbcode = []
@@ -121,13 +125,15 @@ def path_adjustments() -> str:
 
     if current_path.endswith("\\Content"):
         mod_name = current_path.split("\\")[-2]
-        new_path = os.path.join(MODS_DIR, mod_name)
     elif current_path.endswith("\\modpack"):
         mod_name = current_path.split("\\")[-2]
-        new_path = os.path.join(MODS_DIR, mod_name)
     else:
         mod_name = current_path.split("\\")[-1]
-        new_path = os.path.join(MODS_DIR, mod_name)
+
+    if MOD_NAME_OVERRIDE != "":
+        new_path = os.path.join(os.getenv('APPDATA'), MODS_DIR, MOD_NAME_OVERRIDE)
+    else:
+        new_path = os.path.join(os.getenv('APPDATA'), MODS_DIR, mod_name)
 
     return new_path
 
@@ -136,7 +142,10 @@ def main():
     mod_dir = path_adjustments()
     os.chdir(mod_dir)
 
-    args = [SEWT, "push", "--compile", "--mods", mod_dir]
+    if DRY_RUN:
+        args = [SEWT, "push", "--dry-run", "--compile", "--mods", mod_dir]
+    else:
+        args = [SEWT, "push", "--compile", "--mods", mod_dir]
 
     if len(EXCLUDE_FILES) > 0:
         args.append("--exclude-ext")
@@ -168,7 +177,7 @@ def main():
     if UPLOAD_PN:
         pn_src_path = os.path.join(mod_dir, "patch_notes.md")
 
-        if os.path.exists(pn_path):
+        if os.path.exists(pn_src_path):
             args.append("--message")
             args.append("patch_notes_tmp.md")
 
