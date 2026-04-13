@@ -1,0 +1,1 @@
+This is the Shared module for the Rich HUD Framework, contianing the UI library as well as interfaces and utilities common to the Master and Client modules. If you're looking to get started using this framework the see the readme for the [client](https://github.com/ZachHembree/RichHudFramework.Client).

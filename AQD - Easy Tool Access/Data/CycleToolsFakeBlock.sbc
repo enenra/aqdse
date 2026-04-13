@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!--Digi is a genius. Thank you for sharing all your hard work!-->
+	<CubeBlocks>
+		<Definition xsi:type="MyObjectBuilder_CubeBlockDefinition">
+			<Id>
+				<TypeId>CubeBlock</TypeId>
+				<SubtypeId>CycleToolsFakeBlock</SubtypeId>
+			</Id>
+			<DisplayName>{LOC:DisplayName_CycleTool}</DisplayName>
+			<Description>{LOC:Description_CycleTool}</Description>
+			<Icon>Textures\GUI\Icons\Toolbar\CycleTools.dds</Icon>
+			<CubeSize>Large</CubeSize>
+			<BlockTopology>TriangleMesh</BlockTopology>
+			<Size x="1" y="1" z="1"/>
+			<ModelOffset x="0" y="0" z="0"/>
+			<Model>Models\Debug\Error.mwm</Model>
+			<Components>
+				<Component Subtype="InteriorPlate" Count="1"/>
+			</Components>
+			<CriticalComponent Subtype="InteriorPlate" Index="0"/>
+            <MountPoints>
+                <!-- empty mountpoints get filled automatically so have to work around it -->
+                <MountPoint Enabled="false" Side="Front" StartX="0" StartY="0" EndX="0" EndY="0" />
+            </MountPoints>
+            <VoxelPlacement> <!-- don't allow placement even if script broke -->
+                <StaticMode>
+                    <PlacementMode>None</PlacementMode>
+                </StaticMode>
+                <DynamicMode>
+                    <PlacementMode>None</PlacementMode>
+                </DynamicMode>
+            </VoxelPlacement>
+            <BuildTimeSeconds>99999</BuildTimeSeconds>
+            <IsAirTight>false</IsAirTight>
+            <IsStandAlone>false</IsStandAlone>
+            <HasPhysics>false</HasPhysics>
+		</Definition>
+	</CubeBlocks>
+</Definitions>

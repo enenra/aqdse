@@ -1,0 +1,13 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = git@github.com:ZachHembree/RichHudFramework.Shared.git
+	branch = master
+	commit = 3c39617e9385d10f43d3b22a5ad2b175c4cfaf8b
+	method = merge
+	cmdver = 0.4.3
+	parent = 60f58a0530570cd723acb34b112fb56a1b7968a1
+
