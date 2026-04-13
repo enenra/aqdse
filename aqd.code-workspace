@@ -9,6 +9,10 @@
             "path": "../A Galaxy Far Away"
         },
         {
+            "name": "Deserts of Kharak Weapons",
+            "path": "../Deserts of Kharak Weapons"
+        },
+        {
             "name": "mes-shared-behaviors",
             "path": "../mes-shared-behaviors"
         },
@@ -41,10 +45,18 @@
             "path": "../../Export"
         },
         {
+            "name": "local",
             "path": "../../Users/enenra/AppData/Roaming/SpaceEngineers/Blueprints/local"
         },
         {
+            "name": "DefenseShields",
             "path": "../DefenseShields"
+        },
+        {
+            "path": "../Fish-at-War"
+        },
+        {
+            "path": "../SE-Water"
         }
     ],
     "settings": {
