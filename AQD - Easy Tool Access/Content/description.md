@@ -4,9 +4,9 @@
 
 ![img](https://raw.githubusercontent.com/enenra/aqdse/master/assets/Description.jpg)
 
-> asd
+> adasd
 
-[![](https://raw.githubusercontent.com/enenra/aqdse/master/collection.jpg)](https://steamcommunity.com/sharedfiles/filedetails/?id=1808547374)
+[![img](https://raw.githubusercontent.com/enenra/aqdse/master/collection.jpg)](https://steamcommunity.com/sharedfiles/filedetails/?id=1808547374)
 
 ![img](https://raw.githubusercontent.com/enenra/aqdse/master/assets/Features.jpg)
 asd

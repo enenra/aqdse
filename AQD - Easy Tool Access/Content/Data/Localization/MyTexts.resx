@@ -117,12 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="DisplayName_CycleTool" xml:space="preserve">
-    <value>Tool/Weapon Wheel</value>
+  <data name="DisplayName_AQD_LG_EasyToolAccessFakeBlock" xml:space="preserve">
+    <value>Tool/Weapon Access</value>
     <comment/>
   </data>
-  <data name="Description_CycleTool" xml:space="preserve">
-    <value>Opens the Tool/Weapon Wheel for easier access to tools and weapons</value>
+  <data name="Description_AQD_LG_EasyToolAccessFakeBlock" xml:space="preserve">
+    <value>Opens the Tool/Weapon Access wheel for quick access to tools and weapons.</value>
     <comment/>
   </data>
 </root>
