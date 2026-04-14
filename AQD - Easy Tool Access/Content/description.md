@@ -9,6 +9,8 @@
 [![img](https://raw.githubusercontent.com/enenra/aqdse/master/collection.jpg)](https://steamcommunity.com/sharedfiles/filedetails/?id=1808547374)
 
 ![img](https://raw.githubusercontent.com/enenra/aqdse/master/assets/Features.jpg)
+
+![img](http://raw.githubusercontent.com/enenra/aqdse/master/AQD%20-%20Easy%20Tool%20Access/OriginalContent/Promo/Wheel.gif)
 This mod adds the Tool/Weapon Access wheel. It allows for lightning-quick switching between tools and weapons - all on a single hotbar slot.
 
 * Switch between tools and weapons by holding the hotbar key of the wheel down, selecting a tool with your mouse, then letting go of the key.
