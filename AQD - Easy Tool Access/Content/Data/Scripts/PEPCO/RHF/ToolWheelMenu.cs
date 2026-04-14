@@ -50,6 +50,7 @@ namespace PEPCO
         private static readonly Material MatRifle    = new Material("RifleIcon",            new Vector2(256f, 256f));
         private static readonly Material MatLauncher = new Material("HandheldLauncherIcon", new Vector2(256f, 256f));
         private static readonly Material MatPaintGun = new Material("PaintGunIcon",         new Vector2(256f, 256f));
+        private static readonly Material MatHideTool = new Material("HideWeaponIcon",       new Vector2(256f, 256f));
 
         // Size constants for the per-slice icon/label layout (at the 512px base diameter).
         // Actual sizes and offsets are scaled by fontScale inside ToolEntry.Init.
@@ -161,6 +162,15 @@ namespace PEPCO
                 }
             }
 
+            public bool IsDummy { get; private set; }
+
+            public void MarkAsDummy()
+            {
+                IsDummy   = true;
+                Available = false;
+                // Leave _icon.Visible = true so the HideWeaponIcon is rendered at dimmed opacity.
+            }
+
             public void CycleVariant(int step)
             {
                 if (Variants == null || Variants.Count <= 1) return;
@@ -171,7 +181,12 @@ namespace PEPCO
             {
                 _isSelected = highlighted;
 
-                if (!Available)
+                if (IsDummy)
+                {
+                    _icon.Color = IconNormal;
+                    ApplySizeMode();
+                }
+                else if (!Available)
                 {
                     _icon.Color = IconDimmed;
                     ApplySizeMode();
@@ -330,6 +345,17 @@ namespace PEPCO
             _wheel.Add(rifleEntry);
             _wheel.Add(launcherEntry);
 
+            // Pad with invisible dummy entries so the wheel always has exactly 8 equally-spaced
+            // sectors (MaxEntryCount=8). Dummies are enabled so they occupy a sector slot but
+            // their icons are hidden and they are skipped by all selection/input logic.
+            while (_wheel.EntryList.Count < 8)
+            {
+                var dummy = new ToolEntry();
+                dummy.Init(EasyToolSwap_Session.EquippedToolType.Welder, "", false, fontScale, MatHideTool, _fmtLabel, _fmtSelected, _fmtDimmed);
+                dummy.MarkAsDummy();
+                _wheel.Add(dummy);
+            }
+
             // Centre label — large white text showing the selected entry name.
             _centreLabel = new Label(this)
             {
@@ -441,6 +467,8 @@ namespace PEPCO
             if (sel >= 0)
             {
                 var entry = _wheel.EntryList[sel] as ToolEntry;
+                if (entry != null && entry.IsDummy)
+                    entry = null;
                 if (entry != null && entry.Available)
                 {
                     MyDefinitionId? specificId = entry.SelectedVariant;
@@ -511,17 +539,22 @@ namespace PEPCO
             if (leftClicked && sel >= 0)
             {
                 var entry = _wheel.EntryList[sel] as ToolEntry;
-                if (entry != null && entry.Available)
+                if (entry != null && !entry.IsDummy && entry.Available)
                 {
                     MyDefinitionId? specificId = entry.SelectedVariant;
                     Close();
                     SelectionConfirmed?.Invoke(entry.ToolType, specificId);
                 }
-                else if (entry != null)
+                else if (entry != null && !entry.IsDummy)
                 {
                     string name = entry.BaseName;
                     Close();
                     SelectionUnavailable?.Invoke(name);
+                }
+                else if (entry != null && entry.IsDummy)
+                {
+                    Close();
+                    SelectionCancelled?.Invoke();
                 }
             }
             else if (rightClicked || escPressed)
@@ -540,6 +573,8 @@ namespace PEPCO
             }
 
             ToolEntry sel = _lastSelection >= 0 ? _wheel.EntryList[_lastSelection] as ToolEntry : null;
+            if (sel != null && sel.IsDummy)
+                sel = null;
 
             // Centre label: tool name always shown; append red UNAVAILABLE when not in inventory.
             if (sel != null && sel.Available)
@@ -553,11 +588,16 @@ namespace PEPCO
                 centreText.Add(new RichText("\nUNAVAILABLE", _fmtUnavailable));
                 _centreLabel.TextBoard.SetText(centreText);
             }
-            else
+            else if (_lastSelection < 0)
             {
                 _centreLabel.TextBoard.SetText(
                     HoldToKeepOpen ? "Hold to keep open" : "Click to confirm",
                     _fmtHeader);
+            }
+            else
+            {
+                // Dummy sector hovered — show placeholder title.
+                _centreLabel.TextBoard.SetText("Hide Tool", _fmtHeader);
             }
 
             // Sub label: dismiss/variant hints only — no "Move mouse to select" at any point.
@@ -566,7 +606,7 @@ namespace PEPCO
             bool hasMultipleVariants = hasSelection && sel.Variants != null && sel.Variants.Count > 1;
 
             string dismissHint = holdModeActive ? "Release to confirm\nRight-click to cancel"
-                                                : "Left-click to confirm\nRight-click to cancel";
+                                             : "Left-click to confirm\nRight-click to cancel";
             string variantHint = hasMultipleVariants ? "\nScroll to cycle variants" : "";
             _subLabel.TextBoard.SetText(dismissHint + variantHint, _fmtSub);
 

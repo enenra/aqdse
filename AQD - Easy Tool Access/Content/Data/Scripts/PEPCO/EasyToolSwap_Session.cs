@@ -34,7 +34,7 @@ namespace PEPCO
     public class EasyToolSwap_Session : MySessionComponentBase
     {
         // Replace "YourCustomBlockSubtypeId" with the actual SubtypeId from your SBC file
-        private readonly MyStringHash _targetSubtypeId = MyStringHash.GetOrCompute("CycleToolsFakeBlock");
+        private readonly MyStringHash _targetSubtypeId = MyStringHash.GetOrCompute("AQD_LG_EasyToolAccessFakeBlock");
 
         public enum EquippedToolType
         {
@@ -101,6 +101,10 @@ namespace PEPCO
 
         private bool _injectComplete = false; // Used to track if we've done our injection yet, to prevent multiple attempts
 
+        // Buffers log messages produced before BeforeStart() runs (e.g. LoadData, InjectIntoCharacterMenu),
+        // where RHF / Log may not yet be fully ready. Flushed and cleared in BeforeStart().
+        private readonly List<string> _earlyLogBuffer = new List<string>();
+
         // When true the wheel was opened by the fake block rather than the keybind.
         private bool _wheelOpenedViaBlock = false;
 
@@ -122,7 +126,7 @@ namespace PEPCO
         {
             // Expose this instance globally for other mod classes.
             Instance = this;
-            LogDebug("[Session] LoadData initialized.");
+            _earlyLogBuffer.Add("[Session] LoadData initialized.");
 
             if (!_injectComplete)
             {
@@ -133,6 +137,10 @@ namespace PEPCO
 
         public override void BeforeStart()
         {
+            foreach (var msg in _earlyLogBuffer)
+                LogDebug(msg);
+            _earlyLogBuffer.Clear();
+
             if (MyAPIGateway.Utilities.IsDedicated)
                 return;
 
@@ -759,6 +767,10 @@ namespace PEPCO
         {
             _wheelOpenedViaBlock = false;
             LogDebug("[Wheel] Cancelled.");
+
+            var character = MyAPIGateway.Session?.Player?.Character;
+            var controller = character as Sandbox.Game.Entities.IMyControllableEntity;
+            controller?.SwitchToWeapon(null);
         }
 
         private void OnToolWheelUnavailable(string toolName)
@@ -766,33 +778,44 @@ namespace PEPCO
             _wheelOpenedViaBlock = false;
             MyAPIGateway.Utilities.ShowNotification($"{toolName} is not in your inventory!", 2500, MyFontEnum.Red);
             LogDebug($"[Wheel] Unavailable selection: {toolName}");
+
+            var character = MyAPIGateway.Session?.Player?.Character;
+            var controller = character as Sandbox.Game.Entities.IMyControllableEntity;
+            controller?.SwitchToWeapon(null);
         }
 
         private void InjectIntoCharacterMenu()
         {
             // 1. Get our block definition and force the settings Digi uses
             MyCubeBlockDefinition ourBlockDef;
-            var blockDefId = new MyDefinitionId(typeof(MyObjectBuilder_CubeBlock), "CycleToolsFakeBlock");
+            var blockDefId = new MyDefinitionId(typeof(MyObjectBuilder_CubeBlock), "AQD_LG_EasyToolAccessFakeBlock");
 
             if (MyDefinitionManager.Static.TryGetCubeBlockDefinition(blockDefId, out ourBlockDef))
             {
                 ourBlockDef.Public = true;
                 ourBlockDef.GuiVisible = false; // Hides from normal tabs so it ONLY shows in tools
-                LogDebug("[Session] Found and configured CycleToolsFakeBlock definition.");
+                _earlyLogBuffer.Add("[Session] Found and configured AQD_LG_EasyToolAccessFakeBlock definition.");
             }
             else
             {
-                LogDebug("[Session] ERROR: Could not find CycleToolsFakeBlock in definition manager!");
+                _earlyLogBuffer.Add("[Session] ERROR: Could not find AQD_LG_EasyToolAccessFakeBlock in definition manager!");
                 return; // If it's not loaded, we can't inject it.
             }
 
             // 2. Fetch the categories using the exact internal keys Digi uses
             var categories = MyDefinitionManager.Static.GetCategories();
+            ////Debug log all category keys to verify the correct ones are present
+            //foreach (var key in categories.Keys)
+            //{
+            //    _earlyLogBuffer.Add("[Session] Category Key: " + key);
+            //}
+
+            var weaponCategory = categories.GetValueOrDefault("Section0_Position2_CharacterWeapons");
             var toolCategory = categories.GetValueOrDefault("Section0_Position2_CharacterTools");
             var itemCategory = categories.GetValueOrDefault("Section0_Position1_CharacterItems");
 
             // The exact string format required for this specific hybrid menu
-            string injectString = "CubeBlock/CycleToolsFakeBlock";
+            string injectString = "CubeBlock/AQD_LG_EasyToolAccessFakeBlock";
 
             // 3. Inject into Character Tools
             if (toolCategory != null)
@@ -801,12 +824,12 @@ namespace PEPCO
                 if (!toolCategory.ItemIds.Contains(injectString))
                 {
                     toolCategory.ItemIds.Add(injectString);
-                    LogDebug($"[Session] Successfully injected {injectString} into CharacterTools");
+                    _earlyLogBuffer.Add("[Session] Successfully injected " + injectString + " into CharacterTools");
                 }
             }
             else
             {
-                LogDebug("[Session] ERROR: Could not find Section0_Position2_CharacterTools.");
+                _earlyLogBuffer.Add("[Session] ERROR: Could not find Section0_Position2_CharacterTools.");
             }
 
             // 4. (Optional) Inject into Character Items, just like Digi does
@@ -816,9 +839,20 @@ namespace PEPCO
                 if (!itemCategory.ItemIds.Contains(injectString))
                 {
                     itemCategory.ItemIds.Add(injectString);
-                    LogDebug($"[Session] Successfully injected {injectString} into CharacterItems");
+                    _earlyLogBuffer.Add("[Session] Successfully injected " + injectString + " into CharacterItems");
                 }
             }
+
+            // 5. (Optional) Inject into Character Weapons, just like Enenra asked
+            if (weaponCategory != null)
+            {
+                weaponCategory.SearchBlocks = true;
+                if (!weaponCategory.ItemIds.Contains(injectString))
+                {
+                    weaponCategory.ItemIds.Add(injectString);
+                    _earlyLogBuffer.Add("[Session] Successfully injected " + injectString + " into CharacterWeapons");
+                }
+            }    
         }
     }
 }
