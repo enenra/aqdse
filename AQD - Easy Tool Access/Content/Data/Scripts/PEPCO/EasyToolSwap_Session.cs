@@ -332,7 +332,7 @@ namespace PEPCO
             var generalCategory = new ControlCategory()
             {
                 HeaderText = "General",
-                SubheaderText = "Behaviour settings for Easy Tool Swap",
+                SubheaderText = "Behaviour settings for Easy Tool Access",
             };
 
             var tile = new ControlTile();
