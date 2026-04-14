@@ -13,13 +13,13 @@ namespace PEPCO.Utilities
 {
     public class ModParameter
     {
-        public static readonly string MODNAME = "Easy Tool Swap";
+        public static readonly string MODNAME = "Easy Tool Access";
 
         /// <summary>
         /// Human-readable mod version string.
         /// Often replaced/injected by a build script; keep stable formatting for tooling.
         /// </summary>
-        public static readonly string PEPCOVERSION = "1775818624";
+        public static readonly string PEPCOVERSION = "1776193995";
 
         public static bool IsDebug()
         {
