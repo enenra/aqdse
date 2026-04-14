@@ -19,7 +19,7 @@ This mod adds the Tool/Weapon Access wheel. It allows for lightning-quick switch
 
 ![](https://raw.githubusercontent.com/enenra/aqdse/master/assets/Notes.jpg)
 
-* The Paint Gun is the only supported modded tool right now. This is due to limitations of how support for modded tools can be added, and due to its undeniable popularity.
+* The Paint Gun is the only supported modded tool right now. This is due to limitations of how support for modded tools can be added, and due to its undeniable popularity. More mod tool integrations are currently under consideration.
 
 ![](https://raw.githubusercontent.com/enenra/aqdse/master/assets/Credits.jpg)
 
