@@ -4,18 +4,22 @@
 
 ![img](https://raw.githubusercontent.com/enenra/aqdse/master/assets/Description.jpg)
 
-> adasd
+> This mod adds a new character tool to the game - the Tool/Weapon Access wheel. Equip it to a hotbar slot, press and hold the slot to bring up the wheel, and use your mouse to select a tool. Let go of the hotbar slot key to equip the tool. This allows for lightning-quick switching between tools and weapons - and everything on a single slot, saving you that precious hotbar space.
 
 [![img](https://raw.githubusercontent.com/enenra/aqdse/master/collection.jpg)](https://steamcommunity.com/sharedfiles/filedetails/?id=1808547374)
 
 ![img](https://raw.githubusercontent.com/enenra/aqdse/master/assets/Features.jpg)
-asd
+This mod adds the Tool/Weapon Access wheel. It allows for lightning-quick switching between tools and weapons - all on a single hotbar slot.
 
-* asd
+* Switch between tools and weapons by holding the hotbar key of the wheel down, selecting a tool with your mouse, then letting go of the key.
+* Supports Digi's [Paint Gun](https://steamcommunity.com/sharedfiles/filedetails/?id=500818376)!
+* While having a tool slot on the wheel selected, use your mouse's scroll wheel to switch between different tiers of the same tool.
+* Automatically recognizes all tools in your inventory.
+* Features a settings page (F2 to bring up the menu) where you can bind the wheel onto a dedicated hotkey (default: Ctrl + T), and change settings to adjust its behavior to your preferences.
 
 ![](https://raw.githubusercontent.com/enenra/aqdse/master/assets/Notes.jpg)
 
-* asd
+* The Paint Gun is the only supported modded tool right now. This is due to limitations of how support for modded tools can be added, and due to its undeniable popularity.
 
 ![](https://raw.githubusercontent.com/enenra/aqdse/master/assets/Credits.jpg)
 
