@@ -11,6 +11,41 @@ using VRageMath;
 namespace PEPCO
 {
     /// <summary>
+    /// Describes a single slot in the tool wheel.
+    /// Build a <c>List&lt;WeaponSelectionData&gt;</c> (max 8 entries) and pass it to
+    /// <see cref="ToolWheelMenu.Open"/> each time the wheel is opened.
+    /// </summary>
+    public struct WeaponSelectionData
+    {
+        /// <summary>Zero-based position index (0–7). Entries with Index &gt; 7 are ignored.</summary>
+        public int Index;
+
+        /// <summary>The logical tool/weapon category this slot represents.</summary>
+        public EasyToolSwap_Session.EquippedToolType ToolType;
+
+        /// <summary>Human-readable label shown in the centre area when this slot is highlighted.</summary>
+        public string DisplayLabel;
+
+        /// <summary>
+        /// True for weapons (Pistol/Rifle/Launcher) — preserves variant selection across opens.
+        /// False for tools (Welder/Grinder/Drill/PaintGun) — always resets to the highest tier.
+        /// </summary>
+        public bool IsWeapon;
+
+        /// <summary>Icon material rendered inside the slice.</summary>
+        public Material Icon;
+
+        /// <summary>
+        /// All matching <see cref="VRage.Game.MyDefinitionId"/> variants found in the player's
+        /// inventory, sorted highest-tier-first for tools or in discovery order for weapons.
+        /// </summary>
+        public List<MyDefinitionId> Variants;
+
+        /// <summary>True when at least one variant was found in the player's inventory.</summary>
+        public bool IsAvailable;
+    }
+
+    /// <summary>
     /// A scalable, radial selection wheel displayed on the HUD for picking a tool type.
     /// Mathematically identical to BuildVision 2.
     /// </summary>
@@ -43,14 +78,15 @@ namespace PEPCO
         private readonly GlyphFormat _fmtUnavailable;
 
         // Per-tool-type icon materials — each maps to its own texture SubtypeId.
-        private static readonly Material MatWelder   = new Material("WelderIcon",           new Vector2(256f, 256f));
-        private static readonly Material MatGrinder  = new Material("GrinderIcon",          new Vector2(256f, 256f));
-        private static readonly Material MatDrill    = new Material("DrillIcon",            new Vector2(256f, 256f));
-        private static readonly Material MatPistol   = new Material("PistolIcon",           new Vector2(256f, 256f));
-        private static readonly Material MatRifle    = new Material("RifleIcon",            new Vector2(256f, 256f));
-        private static readonly Material MatLauncher = new Material("HandheldLauncherIcon", new Vector2(256f, 256f));
-        private static readonly Material MatPaintGun = new Material("PaintGunIcon",         new Vector2(256f, 256f));
-        private static readonly Material MatHideTool = new Material("HideWeaponIcon",       new Vector2(256f, 256f));
+        // Exposed as internal so WeaponSelectionData instances built in the session can reference them.
+        internal static readonly Material MatWelder   = new Material("WelderIcon",           new Vector2(256f, 256f));
+        internal static readonly Material MatGrinder  = new Material("GrinderIcon",          new Vector2(256f, 256f));
+        internal static readonly Material MatDrill    = new Material("DrillIcon",            new Vector2(256f, 256f));
+        internal static readonly Material MatPistol   = new Material("PistolIcon",           new Vector2(256f, 256f));
+        internal static readonly Material MatRifle    = new Material("RifleIcon",            new Vector2(256f, 256f));
+        internal static readonly Material MatLauncher = new Material("HandheldLauncherIcon", new Vector2(256f, 256f));
+        internal static readonly Material MatPaintGun = new Material("PaintGunIcon",         new Vector2(256f, 256f));
+        internal static readonly Material MatHideTool = new Material("HideWeaponIcon",       new Vector2(256f, 256f));
 
         // Size constants for the per-slice icon/label layout (at the 512px base diameter).
         // Actual sizes and offsets are scaled by fontScale inside ToolEntry.Init.
@@ -120,6 +156,7 @@ namespace PEPCO
             {
                 ToolType     = toolType;
                 Available    = true;
+                IsDummy      = false;
                 IsWeapon     = isWeapon;
                 _baseName    = displayLabel;
                 _normalFmt   = normal;
@@ -322,38 +359,14 @@ namespace PEPCO
             // Target polyboard directly to avoid compiler errors on older RHF builds
             _wheel.polyBoard.InnerRadius = WheelInnerDiamScale;
 
-            // With MaxEntryCount=8 and up to 7 entries, slots spread around the wheel.
-            // Tools occupy the right half, weapons the left half, Welder defaults at top.
-            // Add order (counter-clockwise from lower-right): Drill, Grinder, Welder, PaintGun (optional), Pistol, Rifle, Launcher
-            var drillEntry    = new ToolEntry(); drillEntry.Init(EasyToolSwap_Session.EquippedToolType.Drill,     "Drill",      false, fontScale, MatDrill,    _fmtLabel, _fmtSelected, _fmtDimmed);
-            var grinderEntry  = new ToolEntry(); grinderEntry.Init(EasyToolSwap_Session.EquippedToolType.Grinder,  "Grinder",    false, fontScale, MatGrinder,  _fmtLabel, _fmtSelected, _fmtDimmed);
-            var welderEntry   = new ToolEntry(); welderEntry.Init(EasyToolSwap_Session.EquippedToolType.Welder,    "Welder",     false, fontScale, MatWelder,   _fmtLabel, _fmtSelected, _fmtDimmed);
-            var pistolEntry   = new ToolEntry(); pistolEntry.Init(EasyToolSwap_Session.EquippedToolType.Pistol,    "Pistol",     true,  fontScale, MatPistol,   _fmtLabel, _fmtSelected, _fmtDimmed);
-            var rifleEntry    = new ToolEntry(); rifleEntry.Init(EasyToolSwap_Session.EquippedToolType.Rifle,      "Rifle",      true,  fontScale, MatRifle,    _fmtLabel, _fmtSelected, _fmtDimmed);
-            var launcherEntry = new ToolEntry(); launcherEntry.Init(EasyToolSwap_Session.EquippedToolType.Launcher, "Launcher",  true,  fontScale, MatLauncher, _fmtLabel, _fmtSelected, _fmtDimmed);
-
-            _wheel.Add(grinderEntry);
-            _wheel.Add(welderEntry);
-            _wheel.Add(drillEntry);
-            if (EasyToolSwap_Session.IsPaintGunInstalled)
+            // Pre-allocate exactly 8 reusable ToolEntry slots (MaxEntryCount = 8).
+            // All slots start as dummies; Open() re-initialises them from a WeaponSelectionData list.
+            for (int i = 0; i < 8; i++)
             {
-                var paintGunEntry = new ToolEntry();
-                paintGunEntry.Init(EasyToolSwap_Session.EquippedToolType.PaintGun, "Paint Gun", false, fontScale, MatPaintGun, _fmtLabel, _fmtSelected, _fmtDimmed);
-                _wheel.Add(paintGunEntry);
-            }
-            _wheel.Add(pistolEntry);
-            _wheel.Add(rifleEntry);
-            _wheel.Add(launcherEntry);
-
-            // Pad with invisible dummy entries so the wheel always has exactly 8 equally-spaced
-            // sectors (MaxEntryCount=8). Dummies are enabled so they occupy a sector slot but
-            // their icons are hidden and they are skipped by all selection/input logic.
-            while (_wheel.EntryList.Count < 8)
-            {
-                var dummy = new ToolEntry();
-                dummy.Init(EasyToolSwap_Session.EquippedToolType.Welder, "", false, fontScale, MatHideTool, _fmtLabel, _fmtSelected, _fmtDimmed);
-                dummy.MarkAsDummy();
-                _wheel.Add(dummy);
+                var slot = new ToolEntry();
+                slot.Init(EasyToolSwap_Session.EquippedToolType.Welder, "", false, fontScale, MatHideTool, _fmtLabel, _fmtSelected, _fmtDimmed);
+                slot.MarkAsDummy();
+                _wheel.Add(slot);
             }
 
             // Centre label — large white text showing the selected entry name.
@@ -377,57 +390,50 @@ namespace PEPCO
             Visible = false;
         }
 
-        public void Open(
-            HashSet<EasyToolSwap_Session.EquippedToolType> availableTools,
-            List<MyDefinitionId> welderVariants,
-            List<MyDefinitionId> grinderVariants,
-            List<MyDefinitionId> drillVariants,
-            List<MyDefinitionId> pistolVariants,
-            List<MyDefinitionId> rifleVariants,
-            List<MyDefinitionId> launcherVariants,
-            List<MyDefinitionId> paintGunVariants)
+        /// <summary>
+        /// Opens the wheel using the supplied selection data.
+        /// Entries are mapped to wheel slots by <see cref="WeaponSelectionData.Index"/> (0–7).
+        /// Any entry whose Index is greater than 7 is silently ignored.
+        /// Slots not covered by <paramref name="selections"/> are shown as hidden dummy sectors.
+        /// </summary>
+        public void Open(List<WeaponSelectionData> selections)
         {
-            HudMain.EnableCursor = false; // Should stay false since the mouse only distracts.
+            HudMain.EnableCursor = false;
             BindManager.BlacklistMode = SeBlacklistModes.MouseAndCam;
             _wheel.IsInputEnabled = true;
 
-            // Apply best-tool display names, availability, and variants to each entry
+            float fontScale = MasterWheelDiameter / 512f;
+
+            // Reset all 8 slots to dummy state before applying new data.
             for (int i = 0; i < _wheel.EntryList.Count; i++)
             {
-                var entry = _wheel.EntryList[i] as ToolEntry;
-                if (entry == null) continue;
-
-                switch (entry.ToolType)
-                {
-                    case EasyToolSwap_Session.EquippedToolType.Welder:   entry.SetVariants(welderVariants);   break;
-                    case EasyToolSwap_Session.EquippedToolType.Grinder:  entry.SetVariants(grinderVariants);  break;
-                    case EasyToolSwap_Session.EquippedToolType.Drill:    entry.SetVariants(drillVariants);    break;
-                    case EasyToolSwap_Session.EquippedToolType.Pistol:   entry.SetVariants(pistolVariants);   break;
-                    case EasyToolSwap_Session.EquippedToolType.Rifle:    entry.SetVariants(rifleVariants);    break;
-                    case EasyToolSwap_Session.EquippedToolType.Launcher: entry.SetVariants(launcherVariants); break;
-                    case EasyToolSwap_Session.EquippedToolType.PaintGun: entry.SetVariants(paintGunVariants); break;
-                }
-
-                entry.SetAvailable(availableTools.Contains(entry.ToolType));
+                var slot = _wheel.EntryList[i] as ToolEntry;
+                if (slot == null) continue;
+                slot.Init(EasyToolSwap_Session.EquippedToolType.Welder, "", false, fontScale, MatHideTool, _fmtLabel, _fmtSelected, _fmtDimmed);
+                slot.MarkAsDummy();
             }
 
-            // Default to Welder (index 1) if available, otherwise first available entry
+            // Populate slots from the selection list (max 8; index > 7 is ignored).
             int defaultIndex = -1;
-            var welderEntry = _wheel.EntryList[1] as ToolEntry;
-            if (welderEntry != null && welderEntry.Available)
+            if (selections != null)
             {
-                defaultIndex = 1;
-            }
-            else
-            {
-                for (int i = 0; i < _wheel.EntryList.Count; i++)
+                for (int s = 0; s < selections.Count; s++)
                 {
-                    var entry = _wheel.EntryList[i] as ToolEntry;
-                    if (entry != null && entry.Available)
-                    {
-                        defaultIndex = i;
-                        break;
-                    }
+                    WeaponSelectionData data = selections[s];
+                    if (data.Index > 7) continue;
+
+                    var slot = _wheel.EntryList[data.Index] as ToolEntry;
+                    if (slot == null) continue;
+
+                    slot.Init(data.ToolType, data.DisplayLabel, data.IsWeapon, fontScale, data.Icon, _fmtLabel, _fmtSelected, _fmtDimmed);
+                    slot.SetVariants(data.Variants);
+                    slot.SetAvailable(data.IsAvailable);
+
+                    // Default highlight: first available Welder slot, then first available slot.
+                    if (defaultIndex < 0 && data.IsAvailable)
+                        defaultIndex = data.Index;
+                    if (data.ToolType == EasyToolSwap_Session.EquippedToolType.Welder && data.IsAvailable)
+                        defaultIndex = data.Index;
                 }
             }
 

@@ -283,7 +283,6 @@ namespace PEPCO
             Settings.UserConfigKeyBinds.AddArray(defaultKeyBinds);
 
             LoadUserConfigSettings();
-            SaveUserConfigSettings("InitOnce - after loading user settings");
 
             IsPaintGunInstalled = IsModDetected(500818376, "Paint Gun");
             LogDebug($"[Init] Paint Gun mod installed: {IsPaintGunInstalled}");
@@ -692,46 +691,67 @@ namespace PEPCO
             if (_toolWheel == null || _toolWheel.Visible) return;
 
             var inventory = character.GetInventory() as IMyInventory;
-            var available = new System.Collections.Generic.HashSet<EquippedToolType>();
-            var welderVariants    = new System.Collections.Generic.List<MyDefinitionId>();
-            var grinderVariants   = new System.Collections.Generic.List<MyDefinitionId>();
-            var drillVariants     = new System.Collections.Generic.List<MyDefinitionId>();
-            var pistolVariants    = new System.Collections.Generic.List<MyDefinitionId>();
-            var rifleVariants     = new System.Collections.Generic.List<MyDefinitionId>();
-            var launcherVariants  = new System.Collections.Generic.List<MyDefinitionId>();
-            var paintGunVariants  = new System.Collections.Generic.List<MyDefinitionId>();
 
-            if (inventory != null)
+            // ---------------------------------------------------------------
+            // Centralized selection list — defines every wheel slot in order.
+            // Index 0-7 maps directly to the 8 radial sectors (counter-clockwise
+            // from lower-right, matching the original layout).
+            // Any entry with Index > 7 is ignored by ToolWheelMenu.Open().
+            // ---------------------------------------------------------------
+            var selections = new System.Collections.Generic.List<WeaponSelectionData>
             {
-                FindAllVariantsInInventory(inventory, EquippedToolType.Welder,   welderVariants);
-                FindAllVariantsInInventory(inventory, EquippedToolType.Grinder,  grinderVariants);
-                FindAllVariantsInInventory(inventory, EquippedToolType.Drill,    drillVariants);
-                FindAllVariantsInInventory(inventory, EquippedToolType.Pistol,   pistolVariants);
-                FindAllVariantsInInventory(inventory, EquippedToolType.Rifle,    rifleVariants);
-                FindAllVariantsInInventory(inventory, EquippedToolType.Launcher, launcherVariants);
-                if (IsPaintGunInstalled)
-                    FindAllVariantsInInventory(inventory, EquippedToolType.PaintGun, paintGunVariants);
+                // Index 0 — Grinder (lower-right)
+                new WeaponSelectionData { Index = 0, ToolType = EquippedToolType.Grinder,  DisplayLabel = "Grinder",  IsWeapon = false, Icon = ToolWheelMenu.MatGrinder },
+                // Index 1 — Welder (top)
+                new WeaponSelectionData { Index = 1, ToolType = EquippedToolType.Welder,   DisplayLabel = "Welder",   IsWeapon = false, Icon = ToolWheelMenu.MatWelder  },
+                // Index 2 — Drill
+                new WeaponSelectionData { Index = 2, ToolType = EquippedToolType.Drill,    DisplayLabel = "Drill",    IsWeapon = false, Icon = ToolWheelMenu.MatDrill   },
+                // Index 3 — Paint Gun (only when mod is active; otherwise left as a dummy by skipping it)
+                // Index 4 — Pistol
+                new WeaponSelectionData { Index = 4, ToolType = EquippedToolType.Pistol,   DisplayLabel = "Pistol",   IsWeapon = true,  Icon = ToolWheelMenu.MatPistol  },
+                // Index 5 — Rifle
+                new WeaponSelectionData { Index = 5, ToolType = EquippedToolType.Rifle,    DisplayLabel = "Rifle",    IsWeapon = true,  Icon = ToolWheelMenu.MatRifle   },
+                // Index 6 — Launcher
+                new WeaponSelectionData { Index = 6, ToolType = EquippedToolType.Launcher, DisplayLabel = "Launcher", IsWeapon = true,  Icon = ToolWheelMenu.MatLauncher},
+            };
 
-                // Sort tool variants highest-tier-first so index 0 is always the best tool.
-                // Weapons are not sorted; the player's previous selection is preserved instead.
-                welderVariants.Sort((a, b)    => GetToolTier(b.SubtypeName).CompareTo(GetToolTier(a.SubtypeName)));
-                grinderVariants.Sort((a, b)   => GetToolTier(b.SubtypeName).CompareTo(GetToolTier(a.SubtypeName)));
-                drillVariants.Sort((a, b)     => GetToolTier(b.SubtypeName).CompareTo(GetToolTier(a.SubtypeName)));
-                paintGunVariants.Sort((a, b)  => GetToolTier(b.SubtypeName).CompareTo(GetToolTier(a.SubtypeName)));
-
-                if (welderVariants.Count    > 0) available.Add(EquippedToolType.Welder);
-                if (grinderVariants.Count   > 0) available.Add(EquippedToolType.Grinder);
-                if (drillVariants.Count     > 0) available.Add(EquippedToolType.Drill);
-                if (pistolVariants.Count    > 0) available.Add(EquippedToolType.Pistol);
-                if (rifleVariants.Count     > 0) available.Add(EquippedToolType.Rifle);
-                if (launcherVariants.Count  > 0) available.Add(EquippedToolType.Launcher);
-                if (paintGunVariants.Count  > 0) available.Add(EquippedToolType.PaintGun);
+            if (IsPaintGunInstalled)
+            {
+                selections.Add(new WeaponSelectionData
+                {
+                    Index        = 3,
+                    ToolType     = EquippedToolType.PaintGun,
+                    DisplayLabel = "Paint Gun",
+                    IsWeapon     = false,
+                    Icon         = ToolWheelMenu.MatPaintGun,
+                });
             }
 
-            _toolWheel.HoldToKeepOpen          = Settings.HoldToKeepOpen;
-            _toolWheel.OpenedViaBlock            = _wheelOpenedViaBlock;
-            _toolWheel.BlockTriggerKeyDetected   = _blockTriggerKey != MyKeys.None;
-            _toolWheel.Open(available, welderVariants, grinderVariants, drillVariants, pistolVariants, rifleVariants, launcherVariants, paintGunVariants);
+            // Populate variant lists and availability for each entry.
+            if (inventory != null)
+            {
+                for (int i = 0; i < selections.Count; i++)
+                {
+                    WeaponSelectionData data = selections[i];
+                    if (data.Index > 7) continue;
+
+                    var variants = new System.Collections.Generic.List<MyDefinitionId>();
+                    FindAllVariantsInInventory(inventory, data.ToolType, variants);
+
+                    // Sort tool variants highest-tier-first; preserve weapon order for variant memory.
+                    if (!data.IsWeapon)
+                        variants.Sort((a, b) => GetToolTier(b.SubtypeName).CompareTo(GetToolTier(a.SubtypeName)));
+
+                    data.Variants    = variants;
+                    data.IsAvailable = variants.Count > 0;
+                    selections[i]    = data;
+                }
+            }
+
+            _toolWheel.HoldToKeepOpen        = Settings.HoldToKeepOpen;
+            _toolWheel.OpenedViaBlock         = _wheelOpenedViaBlock;
+            _toolWheel.BlockTriggerKeyDetected = _blockTriggerKey != MyKeys.None;
+            _toolWheel.Open(selections);
         }
 
         private void OnToolWheelConfirmed(EasyToolSwap_Session.EquippedToolType chosenTool, MyDefinitionId? specificId)
