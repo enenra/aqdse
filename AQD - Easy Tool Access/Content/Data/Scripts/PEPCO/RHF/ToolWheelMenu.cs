@@ -43,6 +43,13 @@ namespace PEPCO
 
         /// <summary>True when at least one variant was found in the player's inventory.</summary>
         public bool IsAvailable;
+
+        /// <summary>
+        /// When true this slot is a page-navigation button (More... or Back...).
+        /// Clicking it fires <see cref="ToolWheelMenu.PageFlipRequested"/> instead of
+        /// <see cref="ToolWheelMenu.SelectionConfirmed"/>.
+        /// </summary>
+        public bool IsPageFlip;
     }
 
     /// <summary>
@@ -87,6 +94,8 @@ namespace PEPCO
         internal static readonly Material MatLauncher = new Material("HandheldLauncherIcon", new Vector2(256f, 256f));
         internal static readonly Material MatPaintGun = new Material("PaintGunIcon",         new Vector2(256f, 256f));
         internal static readonly Material MatHideTool = new Material("HideWeaponIcon",       new Vector2(256f, 256f));
+        internal static readonly Material MatNextPage  = new Material("NextPageIcon",         new Vector2(256f, 256f));
+        internal static readonly Material MatPrevPage  = new Material("PrevPageIcon",         new Vector2(256f, 256f));
 
         // Size constants for the per-slice icon/label layout (at the 512px base diameter).
         // Actual sizes and offsets are scaled by fontScale inside ToolEntry.Init.
@@ -157,6 +166,7 @@ namespace PEPCO
                 ToolType     = toolType;
                 Available    = true;
                 IsDummy      = false;
+                IsPageFlip   = false;
                 IsWeapon     = isWeapon;
                 _baseName    = displayLabel;
                 _normalFmt   = normal;
@@ -199,13 +209,22 @@ namespace PEPCO
                 }
             }
 
-            public bool IsDummy { get; private set; }
+            public bool IsDummy    { get; private set; }
+            public bool IsPageFlip { get; private set; }
 
             public void MarkAsDummy()
             {
-                IsDummy   = true;
-                Available = false;
+                IsDummy    = true;
+                IsPageFlip = false;
+                Available  = false;
                 // Leave _icon.Visible = true so the HideWeaponIcon is rendered at dimmed opacity.
+            }
+
+            public void MarkAsPageFlip()
+            {
+                IsPageFlip = true;
+                IsDummy    = false;
+                Available  = true;
             }
 
             public void CycleVariant(int step)
@@ -283,6 +302,16 @@ namespace PEPCO
 
         // --- State ---
         private int _lastSelection = -1;
+        private Vector2 _lastCursorPos;
+        private int _framesSinceOpen = 0;
+
+        /// <summary>
+        /// Squared pixel-distance the mouse must travel before the angle-based slot
+        /// selection registers a change. Lower = more responsive; higher = requires a
+        /// more deliberate movement. Set from <see cref="UserConfigSettings.CursorSensitivityLevel"/>:
+        /// Low = 144 (~12 px), Medium = 64 (~8 px), High = 25 (~5 px).
+        /// </summary>
+        public float AngleSelectionThreshold { get; set; } = 64f;
 
         /// <summary>
         /// When true (default), the wheel stays open until the player explicitly confirms or
@@ -290,6 +319,13 @@ namespace PEPCO
         /// Set by the session from <see cref="UserConfigSettings.HoldToKeepOpen"/>.
         /// </summary>
         public bool HoldToKeepOpen { get; set; } = true;
+
+        /// <summary>
+        /// Dictates how mouse input selects slices on the wheel.
+        /// DirectionalFlick uses custom angle-based delta math.
+        /// CursorTracking uses RichHudFramework's native position-based selection.
+        /// </summary>
+        public UserConfigSettings.WheelSelectionMode SelectionMode { get; set; } = UserConfigSettings.WheelSelectionMode.DirectionalFlick;
 
         /// <summary>
         /// When true the wheel was opened by the fake block rather than the keybind.
@@ -315,6 +351,32 @@ namespace PEPCO
         public event Action<EasyToolSwap_Session.EquippedToolType, VRage.Game.MyDefinitionId?> SelectionConfirmed;
         public event Action SelectionCancelled;
         public event Action<string> SelectionUnavailable;
+
+        /// <summary>
+        /// Fired when the player clicks a More... or Back... page-flip slot.
+        /// The session responds by calling <see cref="Open"/> again with the appropriate page.
+        /// </summary>
+        public event Action PageFlipRequested;
+
+        /// <summary>
+        /// Maps an <see cref="EasyToolSwap_Session.EquippedToolType"/> to its icon <see cref="Material"/>.
+        /// Called from the session to populate <see cref="WeaponSelectionData.Icon"/> without
+        /// requiring the session file to import RichHudFramework.UI.Rendering.
+        /// </summary>
+        internal static Material GetIconForType(EasyToolSwap_Session.EquippedToolType t)
+        {
+            switch (t)
+            {
+                case EasyToolSwap_Session.EquippedToolType.Welder:   return MatWelder;
+                case EasyToolSwap_Session.EquippedToolType.Grinder:  return MatGrinder;
+                case EasyToolSwap_Session.EquippedToolType.Drill:    return MatDrill;
+                case EasyToolSwap_Session.EquippedToolType.Pistol:   return MatPistol;
+                case EasyToolSwap_Session.EquippedToolType.Rifle:    return MatRifle;
+                case EasyToolSwap_Session.EquippedToolType.Launcher: return MatLauncher;
+                case EasyToolSwap_Session.EquippedToolType.PaintGun: return MatPaintGun;
+                default:                                              return MatHideTool;
+            }
+        }
 
         public ToolWheelMenu(HudParentBase parent = null) : base(parent)
         {
@@ -352,7 +414,7 @@ namespace PEPCO
                 // CRITICAL FIX: Set to 8 to prevent centroid math from pulling the text inward!
                 MaxEntryCount = 8,
                 CursorSensitivity = 0.4f,
-                IsInputEnabled = true,
+                IsInputEnabled = false,   // Selection is driven by angle in ToolWheelMenu.HandleInput.
                 Visible = true,
             };
 
@@ -400,7 +462,9 @@ namespace PEPCO
         {
             HudMain.EnableCursor = false;
             BindManager.BlacklistMode = SeBlacklistModes.MouseAndCam;
-            _wheel.IsInputEnabled = true;
+            _wheel.IsInputEnabled = (SelectionMode == UserConfigSettings.WheelSelectionMode.CursorTracking);
+            _lastCursorPos = Vector2.Zero;  // Reset so the first delta is not a huge stale offset.
+            _framesSinceOpen = 0;
 
             float fontScale = MasterWheelDiameter / 512f;
 
@@ -428,11 +492,14 @@ namespace PEPCO
                     slot.Init(data.ToolType, data.DisplayLabel, data.IsWeapon, fontScale, data.Icon, _fmtLabel, _fmtSelected, _fmtDimmed);
                     slot.SetVariants(data.Variants);
                     slot.SetAvailable(data.IsAvailable);
+                    if (data.IsPageFlip)
+                        slot.MarkAsPageFlip();
 
                     // Default highlight: first available Welder slot, then first available slot.
-                    if (defaultIndex < 0 && data.IsAvailable)
+                    // Never default-highlight a page-flip button.
+                    if (defaultIndex < 0 && data.IsAvailable && !data.IsPageFlip)
                         defaultIndex = data.Index;
-                    if (data.ToolType == EasyToolSwap_Session.EquippedToolType.Welder && data.IsAvailable)
+                    if (data.ToolType == EasyToolSwap_Session.EquippedToolType.Welder && data.IsAvailable && !data.IsPageFlip)
                         defaultIndex = data.Index;
                 }
             }
@@ -475,6 +542,9 @@ namespace PEPCO
                 var entry = _wheel.EntryList[sel] as ToolEntry;
                 if (entry != null && entry.IsDummy)
                     entry = null;
+                // Page-flip slots are never auto-confirmed by key release.
+                if (entry != null && entry.IsPageFlip)
+                    entry = null;
                 if (entry != null && entry.Available)
                 {
                     MyDefinitionId? specificId = entry.SelectedVariant;
@@ -499,6 +569,59 @@ namespace PEPCO
         protected override void HandleInput(Vector2 cursorPos)
         {
             if (!Visible) return;
+
+            if (SelectionMode == UserConfigSettings.WheelSelectionMode.DirectionalFlick)
+            {
+                _framesSinceOpen++;
+
+                // For the first 10 frames (~166ms), just track the cursor as the starting anchor
+                // to prevent accidental jitters on open from triggering a selection.
+                if (_framesSinceOpen <= 10)
+                {
+                    _lastCursorPos = cursorPos;
+                }
+                else
+                {
+                    // Calculate distance from the last known anchor point
+                    Vector2 delta = cursorPos - _lastCursorPos;
+
+                    if (delta.LengthSquared() > AngleSelectionThreshold)
+                    {
+                        float moveAngle = (float)Math.Atan2(delta.X, delta.Y);
+                        float bestDiff = float.MaxValue;
+                        int bestIndex = -1;
+
+                        for (int i = 0; i < _wheel.EntryList.Count; i++)
+                        {
+                            var entry = _wheel.EntryList[i] as ToolEntry;
+                            if (entry == null || !entry.Enabled) continue;
+
+                            Vector2 offset = entry.Element.Offset;
+                            if (offset.LengthSquared() < 1f) continue;  // un-positioned slot
+
+                            float slotAngle = (float)Math.Atan2(offset.X, offset.Y);
+
+                            // Absolute angular difference, wrapped to [0, π].
+                            float diff = Math.Abs(moveAngle - slotAngle);
+                            if (diff > (float)Math.PI)
+                                diff = 2f * (float)Math.PI - diff;
+
+                            if (diff < bestDiff)
+                            {
+                                bestDiff = diff;
+                                bestIndex = i;
+                            }
+                        }
+
+                        if (bestIndex >= 0)
+                            _wheel.SetSelectionAt(bestIndex);
+
+                        // CRITICAL FIX: Only reset the anchor after a successful distance is reached!
+                        // This allows slow mouse movements to accumulate over multiple frames.
+                        _lastCursorPos = cursorPos;
+                    }
+                }
+            }
 
             int sel = _wheel.SelectionIndex;
             if (sel != _lastSelection)
@@ -545,7 +668,12 @@ namespace PEPCO
             if (leftClicked && sel >= 0)
             {
                 var entry = _wheel.EntryList[sel] as ToolEntry;
-                if (entry != null && !entry.IsDummy && entry.Available)
+                if (entry != null && entry.IsPageFlip)
+                {
+                    // Do not close the wheel — the session will re-open it with the new page.
+                    PageFlipRequested?.Invoke();
+                }
+                else if (entry != null && !entry.IsDummy && entry.Available)
                 {
                     MyDefinitionId? specificId = entry.SelectedVariant;
                     Close();
@@ -579,6 +707,17 @@ namespace PEPCO
             }
 
             ToolEntry sel = _lastSelection >= 0 ? _wheel.EntryList[_lastSelection] as ToolEntry : null;
+
+            // Page-flip slots get their own centre display; treat them before the dummy check.
+            if (sel != null && sel.IsPageFlip)
+            {
+                _centreLabel.TextBoard.SetText(sel.BaseName, _fmtHeader);
+                _subLabel.TextBoard.SetText("Left-click to navigate", _fmtSub);
+                if (!SharedBinds.LeftButton.IsPressed)
+                    _centerBackground.Color = HighlightColor;
+                return;
+            }
+
             if (sel != null && sel.IsDummy)
                 sel = null;
 
@@ -602,8 +741,8 @@ namespace PEPCO
             }
             else
             {
-                // Dummy sector hovered — show placeholder title.
-                _centreLabel.TextBoard.SetText("Hide Tool", _fmtHeader);
+                // Empty dummy sector hovered.
+                _centreLabel.TextBoard.SetText("Empty tool", _fmtHeader);
             }
 
             // Sub label: dismiss/variant hints only — no "Move mouse to select" at any point.
