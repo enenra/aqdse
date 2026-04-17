@@ -6,7 +6,7 @@
 
 > This mod adds a new character tool to the game - the Tool/Weapon Access wheel. Equip it to a hotbar slot, press and hold the slot to bring up the wheel, and use your mouse to select a tool. Let go of the hotbar slot key to equip the tool. This allows for lightning-quick switching between tools and weapons - and everything on a single slot, saving you that precious hotbar space.
 
-[![img](https://raw.githubusercontent.com/enenra/aqdse/master/collection.jpg)](https://steamcommunity.com/sharedfiles/filedetails/?id=1808547374)
+[![](https://raw.githubusercontent.com/enenra/aqdse/master/collection.jpg)](https://steamcommunity.com/sharedfiles/filedetails/?id=1808547374)
 
 ![img](https://raw.githubusercontent.com/enenra/aqdse/master/assets/Features.jpg)
 
