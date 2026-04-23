@@ -38,17 +38,19 @@ namespace PEPCO
 
         public enum EquippedToolType
         {
-            None          = 0,
-            Welder        = 1,
-            Grinder       = 2,
-            Drill         = 3,
-            Pistol        = 4,
-            Rifle         = 5,
-            Launcher      = 6,
-            PaintGun      = 7,
-            ConcreteTool  = 8,
-            Binoculars    = 9,
-            HandScanner   = 10,
+            None = 0,
+            Welder = 1,
+            Grinder = 2,
+            Drill = 3,
+            Pistol = 4,
+            Rifle = 5,
+            Launcher = 6,
+            PaintGun = 7,
+            ConcreteTool = 8,
+            Binoculars = 9,
+            HandScanner = 10,
+            BuildInfoMultiTool = 11,
+            TerrainTool = 12,
         }
 
         // Tracks what is currently physically in the player's hands
@@ -81,6 +83,24 @@ namespace PEPCO
         /// </summary>
         public static bool IsPaintGunInstalled { get; private set; }
 
+        /// <summary>
+        /// True when the Concrete Tool mod (Workshop ID 396679430) is active in the current session.
+        /// Populated during <see cref="InitOnce"/>.
+        /// </summary>
+        public static bool IsConcreteToolInstalled { get; private set; }
+
+        /// <summary>
+        /// True when the Terrain Tool mod (Workshop ID 2820001381) is active in the current session.
+        /// Populated during <see cref="InitOnce"/>.
+        /// </summary>
+        public static bool IsTerrainToolInstalled { get; private set; }
+
+        /// <summary>
+        /// True when the Binoculars mod (Workshop ID 2777644246) is active in the current session.
+        /// Populated during <see cref="InitOnce"/>.
+        /// </summary>
+        public static bool IsBinocularsInstalled { get; private set; }
+
         // Mod metadata
         private readonly string USERCONFIGFILENAME = ModParameter.MODNAME + "_Config.xml";
         public readonly UserConfigSettings Settings = new UserConfigSettings();
@@ -93,6 +113,9 @@ namespace PEPCO
         private ControlPage _weaponsPage;
         private ControlPage _moddedToolsPage;
         private ToolWheelMenu _toolWheel;
+
+        // Dictionary to track all dynamically generated dropdowns across all pages
+        private readonly Dictionary<TerminalDropdown<int>, EquippedToolType> _allSlotDropdowns = new Dictionary<TerminalDropdown<int>, EquippedToolType>();
 
         // Tracks whether InitOnce has been called
         private bool isInit = false;
@@ -123,6 +146,26 @@ namespace PEPCO
 
         // Full pre-built selection list for both pages, rebuilt each time the wheel opens.
         private List<WeaponSelectionData> _allSelections = new List<WeaponSelectionData>();
+
+        /// <summary>
+        /// Per-type overrides for tool types that are not PhysicalGunObjects in the player's
+        /// inventory (e.g. fake CubeBlock tools like the Build Info Multitool).
+        /// Registered in <see cref="InitOnce"/> when the relevant mod is detected.
+        /// </summary>
+        private class ToolTypeOverride
+        {
+            /// <summary>Returns true when this tool should appear as available on the wheel.</summary>
+            public Func<bool> IsAvailable;
+
+            /// <summary>
+            /// Called instead of <c>SwitchToWeapon</c> when the player confirms this slot.
+            /// Leave null to use the normal inventory-based equip path.
+            /// </summary>
+            public Action Equip;
+        }
+
+        private readonly Dictionary<EquippedToolType, ToolTypeOverride> _toolOverrides
+            = new Dictionary<EquippedToolType, ToolTypeOverride>();
 
         private static readonly MyKeys[] ToolbarKeys = new MyKeys[]
         {
@@ -207,13 +250,15 @@ namespace PEPCO
                 {
                     string subtype = equippedTool.DefinitionId.SubtypeName;
 
-                    if (subtype.Contains("Grinder"))               currentlyDetectedTool = EquippedToolType.Grinder;
-                    else if (subtype.Contains("Welder"))           currentlyDetectedTool = EquippedToolType.Welder;
-                    else if (subtype.Contains("Drill"))            currentlyDetectedTool = EquippedToolType.Drill;
-                    else if (subtype.Contains("Pistol") || subtype.Contains("Flare"))  currentlyDetectedTool = EquippedToolType.Pistol;
-                    else if (subtype.Contains("Rifle"))            currentlyDetectedTool = EquippedToolType.Rifle;
+                    if (subtype.Contains("Grinder")) currentlyDetectedTool = EquippedToolType.Grinder;
+                    else if (subtype.Contains("Welder")) currentlyDetectedTool = EquippedToolType.Welder;
+                    else if (subtype.Contains("Drill")) currentlyDetectedTool = EquippedToolType.Drill;
+                    else if (subtype.Contains("Pistol") || subtype.Contains("Flare")) currentlyDetectedTool = EquippedToolType.Pistol;
+                    else if (subtype.Contains("Rifle")) currentlyDetectedTool = EquippedToolType.Rifle;
                     else if (subtype.Contains("HandHeldLauncher")) currentlyDetectedTool = EquippedToolType.Launcher;
-                    else if (subtype.Contains("PaintGun"))         currentlyDetectedTool = EquippedToolType.PaintGun;
+                    else if (subtype.Contains("PaintGun")) currentlyDetectedTool = EquippedToolType.PaintGun;
+                    else if (subtype.Contains("TerrainTool")) currentlyDetectedTool = EquippedToolType.TerrainTool;
+                    else if (subtype.Contains("Binoculars")) currentlyDetectedTool = EquippedToolType.Binoculars;
                 }
 
                 // If the tool in their hands actually changed, update our trackers and log it
@@ -278,7 +323,7 @@ namespace PEPCO
                 },
                 _weaponsPage = new ControlPage()
                 {
-                    Name = "Slots: Weapons & Optics",
+                    Name = "Slots: Weapons",
                     Enabled = true
                 },
                 _moddedToolsPage = new ControlPage()
@@ -296,12 +341,21 @@ namespace PEPCO
         private void ClientReset()
         {
             LogDebug($"RichHudClient is unloading / resetting for {DebugName}.");
+            if (_toolWheel != null)
+            {
+                _toolWheel.SelectionConfirmed -= OnToolWheelConfirmed;
+                _toolWheel.SelectionCancelled -= OnToolWheelCancelled;
+                _toolWheel.SelectionUnavailable -= OnToolWheelUnavailable;
+                _toolWheel.WheelClosed -= OnWheelClosed;
+                _toolWheel.PageFlipRequested -= OnWheelPageFlip;
+                _toolWheel = null;
+            }
+            _allSlotDropdowns.Clear();
+            isInit = false;
         }
 
         private void InitOnce()
         {
-            isInit = true;
-
             var defaultKeyBinds = new BindGroupInitializer
             {
                 { "Cycle Tool", MyKeys.Control, MyKeys.T } // Empty keybind - user must configure
@@ -314,12 +368,32 @@ namespace PEPCO
             IsPaintGunInstalled = IsModDetected(500818376, "Paint Gun");
             LogDebug($"[Init] Paint Gun mod installed: {IsPaintGunInstalled}");
 
+            IsConcreteToolInstalled = IsModDetected(396679430, "Concrete Tool");
+            LogDebug($"[Init] Concrete Tool mod installed: {IsConcreteToolInstalled}");
+
+            IsTerrainToolInstalled = IsModDetected(2820001381, "Terrain Tool");
+            LogDebug($"[Init] Terrain Tool mod installed: {IsTerrainToolInstalled}");
+
+            IsBinocularsInstalled = IsModDetected(2777644246, "Binoculars");
+            LogDebug($"[Init] Binoculars mod installed: {IsBinocularsInstalled}");
+
+            bool isBuildInfoInstalled = IsModDetected(514062285, "Build Info");
+            LogDebug($"[Init] Build Info mod installed: {isBuildInfoInstalled}");
+            if (isBuildInfoInstalled)
+            {
+                _toolOverrides[EquippedToolType.BuildInfoMultiTool] = new ToolTypeOverride
+                {
+                    IsAvailable = () => true,
+                    Equip = ActivateBuildInfoMultiTool,
+                };
+            }
+
             _toolWheel = new ToolWheelMenu(HudMain.HighDpiRoot);
-            _toolWheel.SelectionConfirmed   += (t, id) => OnToolWheelConfirmed(t, id);
-            _toolWheel.SelectionCancelled   += OnToolWheelCancelled;
+            _toolWheel.SelectionConfirmed += (t, id) => OnToolWheelConfirmed(t, id);
+            _toolWheel.SelectionCancelled += OnToolWheelCancelled;
             _toolWheel.SelectionUnavailable += OnToolWheelUnavailable;
-            _toolWheel.WheelClosed          += () => { _wheelOpenedViaBlock = false; };
-            _toolWheel.PageFlipRequested    += OnWheelPageFlip;
+            _toolWheel.WheelClosed += OnWheelClosed;
+            _toolWheel.PageFlipRequested += OnWheelPageFlip;
 
             CachePhysicalGunDisplayNames();
             ApplyCursorSensitivity();
@@ -327,6 +401,8 @@ namespace PEPCO
             SetupSettingsPage();
             SetupWheelSlotsSettingsPage();
 
+            // ONLY set this to true if we survived the entire setup process without throwing!
+            isInit = true;
             LogDebug($"EasyToolSwap_Session initialized for {DebugName}.");
         }
 
@@ -337,15 +413,15 @@ namespace PEPCO
             switch (Settings.WheelCursorSensitivity)
             {
                 case UserConfigSettings.CursorSensitivityLevel.Low:
-                    _toolWheel.CursorSensitivity       = 0.35f;
+                    _toolWheel.CursorSensitivity = 0.35f;
                     _toolWheel.AngleSelectionThreshold = 900;  // ~30 px
                     break;
                 case UserConfigSettings.CursorSensitivityLevel.High:
-                    _toolWheel.CursorSensitivity       = 0.55f;
+                    _toolWheel.CursorSensitivity = 0.55f;
                     _toolWheel.AngleSelectionThreshold = 400;  // ~20 px
                     break;
                 default:
-                    _toolWheel.CursorSensitivity       = 0.4f;
+                    _toolWheel.CursorSensitivity = 0.4f;
                     _toolWheel.AngleSelectionThreshold = 144f;  // ~12 px
                     break;
             }
@@ -412,9 +488,9 @@ namespace PEPCO
                     )
                 }
             };
-            sensitivityDropdown.List.Add("Low",    UserConfigSettings.CursorSensitivityLevel.Low);
+            sensitivityDropdown.List.Add("Low", UserConfigSettings.CursorSensitivityLevel.Low);
             sensitivityDropdown.List.Add("Medium", UserConfigSettings.CursorSensitivityLevel.Medium);
-            sensitivityDropdown.List.Add("High",   UserConfigSettings.CursorSensitivityLevel.High);
+            sensitivityDropdown.List.Add("High", UserConfigSettings.CursorSensitivityLevel.High);
             sensitivityDropdown.List.SetSelection(Settings.WheelCursorSensitivity);
 
             sensitivityDropdown.ControlChanged += (sender, args) =>
@@ -441,7 +517,7 @@ namespace PEPCO
                 }
             };
             selectionModeDropdown.List.Add("Directional Flick", UserConfigSettings.WheelSelectionMode.DirectionalFlick);
-            selectionModeDropdown.List.Add("Cursor Tracking",   UserConfigSettings.WheelSelectionMode.CursorTracking);
+            selectionModeDropdown.List.Add("Cursor Tracking", UserConfigSettings.WheelSelectionMode.CursorTracking);
             selectionModeDropdown.List.SetSelection((int)Settings.SelectionMode);
 
             selectionModeDropdown.ControlChanged += (sender, args) =>
@@ -546,13 +622,13 @@ namespace PEPCO
             {
                 var defaultSlots = new List<SlotConfig>
                 {
-                    new SlotConfig(0, "", EquippedToolType.Grinder),  // Visually: Slot 1
-                    new SlotConfig(1, "", EquippedToolType.Welder),   // Visually: Slot 2
-                    new SlotConfig(2, "", EquippedToolType.Drill),    // Visually: Slot 3
-                    new SlotConfig(3, "", EquippedToolType.PaintGun), // Visually: Slot 4
-                    new SlotConfig(4, "", EquippedToolType.Pistol),   // Visually: Slot 5
-                    new SlotConfig(5, "", EquippedToolType.Rifle),    // Visually: Slot 6
-                    new SlotConfig(6, "", EquippedToolType.Launcher), // Visually: Slot 7
+                    new SlotConfig(0, "", EquippedToolType.Grinder),  // Visually: Page 1 - Slot 1
+                    new SlotConfig(1, "", EquippedToolType.Welder),   // Visually: Page 1 - Slot 2
+                    new SlotConfig(2, "", EquippedToolType.Drill),    // Visually: Page 1 - Slot 3
+                    new SlotConfig(3, "", EquippedToolType.PaintGun), // Visually: Page 1 - Slot 4
+                    new SlotConfig(4, "", EquippedToolType.Pistol),   // Visually: Page 1 - Slot 5
+                    new SlotConfig(5, "", EquippedToolType.Rifle),    // Visually: Page 1 - Slot 6
+                    new SlotConfig(6, "", EquippedToolType.Launcher), // Visually: Page 1 - Slot 7
                 };
 
                 if (!MyAPIGateway.Utilities.FileExistsInGlobalStorage(USERCONFIGFILENAME))
@@ -591,8 +667,8 @@ namespace PEPCO
                         Settings.UserConfigKeyBinds = tempSettings;
                     }
 
-                    Settings.HoldToKeepOpen        = loaded.HoldToKeepOpen;
-                    Settings.SelectionMode         = loaded.SelectionMode;
+                    Settings.HoldToKeepOpen = loaded.HoldToKeepOpen;
+                    Settings.SelectionMode = loaded.SelectionMode;
                     Settings.WheelCursorSensitivity = loaded.WheelCursorSensitivity;
 
                     Settings.WheelSlots = (loaded.WheelSlots != null && loaded.WheelSlots.Count > 0)
@@ -610,6 +686,22 @@ namespace PEPCO
         {
             try
             {
+                // Clean up and structure the order before serializing to XML
+                if (Settings.WheelSlots != null)
+                {
+                    // 1. Sort the slots numerically (0, 1, 2, 3...)
+                    Settings.WheelSlots.Sort((a, b) => a.SlotIndex.CompareTo(b.SlotIndex));
+
+                    // 2. Sort the tools inside each slot alphabetically
+                    foreach (var slot in Settings.WheelSlots)
+                    {
+                        if (slot.AssignedTypes != null)
+                        {
+                            slot.AssignedTypes.Sort((a, b) => string.Compare(a.ToString(), b.ToString(), StringComparison.OrdinalIgnoreCase));
+                        }
+                    }
+                }
+
                 var xml = MyAPIGateway.Utilities.SerializeToXML(Settings);
 
                 using (var writer = MyAPIGateway.Utilities.WriteFileInGlobalStorage(USERCONFIGFILENAME))
@@ -743,24 +835,102 @@ namespace PEPCO
         {
             switch (targetType)
             {
-                case EquippedToolType.Welder:       return new string[] { "Welder" };
-                case EquippedToolType.Grinder:      return new string[] { "Grinder" };
-                case EquippedToolType.Drill:        return new string[] { "Drill" };
-                case EquippedToolType.Pistol:       return new string[] { "Pistol", "Flare" };
-                case EquippedToolType.Rifle:        return new string[] { "Rifle" };
-                case EquippedToolType.Launcher:     return new string[] { "HandHeldLauncher" };
-                case EquippedToolType.PaintGun:     return new string[] { "PaintGun" };
+                case EquippedToolType.Welder: return new string[] { "Welder" };
+                case EquippedToolType.Grinder: return new string[] { "Grinder" };
+                case EquippedToolType.Drill: return new string[] { "Drill" };
+                case EquippedToolType.Pistol: return new string[] { "Pistol", "Flare" };
+                case EquippedToolType.Rifle: return new string[] { "Rifle" };
+                case EquippedToolType.Launcher: return new string[] { "HandHeldLauncher" };
+                case EquippedToolType.PaintGun: return new string[] { "PaintGun" };
                 case EquippedToolType.ConcreteTool: return new string[] { "ConcreteTool" };
-                case EquippedToolType.Binoculars:   return new string[] { "Binoculars" };
-                case EquippedToolType.HandScanner:  return new string[] { "HandDrill", "Scanner" };
-                default:                            return null;
+                case EquippedToolType.Binoculars: return new string[] { "Binoculars" };
+                case EquippedToolType.HandScanner: return new string[] { "HandDrill", "Scanner" };
+                case EquippedToolType.TerrainTool: return new string[] { "TerrainTool" };
+                default: return null;
+            }
+        }
+
+        private bool IsToolInstalled(EquippedToolType type)
+        {
+            switch (type)
+            {
+                case EquippedToolType.PaintGun: return IsPaintGunInstalled;
+                case EquippedToolType.ConcreteTool: return IsConcreteToolInstalled;
+                case EquippedToolType.TerrainTool: return IsTerrainToolInstalled;
+                case EquippedToolType.Binoculars: return IsBinocularsInstalled;
+                case EquippedToolType.BuildInfoMultiTool: return _toolOverrides.ContainsKey(EquippedToolType.BuildInfoMultiTool);
+                default: return true; // Vanilla tools are always considered installed
+            }
+        }
+
+        private void RefreshAllDropdownVisuals()
+        {
+            foreach (var kvp in _allSlotDropdowns)
+            {
+                var dropdown = kvp.Key;
+                var type = kvp.Value;
+
+                int currentSlot = -1;
+                foreach (var cfg in Settings.WheelSlots)
+                {
+                    if (cfg.AssignedTypes != null && cfg.AssignedTypes.Contains(type))
+                    {
+                        currentSlot = cfg.SlotIndex;
+                        break;
+                    }
+                }
+
+                bool isInstalled = IsToolInstalled(type);
+                string baseName = GetToolDisplayName(type);
+
+                // --- Name Logic ---
+                if (!isInstalled)
+                    dropdown.Name = baseName + " (Not installed)";
+                else if (currentSlot == -1)
+                    dropdown.Name = baseName + " (Unassigned)";
+                else
+                    dropdown.Name = baseName;
+
+                // --- Tooltip Logic ---
+                if (!isInstalled)
+                {
+                    dropdown.ToolTip.text = new RichText("This mod is not loaded in the current world.");
+                }
+                else if (currentSlot == -1)
+                {
+                    dropdown.ToolTip.text = new RichText("Tool is currently unassigned.");
+                }
+                else
+                {
+                    var sharedTools = new List<string>();
+                    var slotCfg = Settings.WheelSlots.Find(s => s.SlotIndex == currentSlot);
+
+                    if (slotCfg != null && slotCfg.AssignedTypes != null)
+                    {
+                        foreach (var sharedType in slotCfg.AssignedTypes)
+                        {
+                            if (sharedType == type) continue;
+
+                            string sharedName = GetToolDisplayName(sharedType);
+                            if (!IsToolInstalled(sharedType))
+                                sharedName += " (Not installed)";
+
+                            sharedTools.Add(sharedName);
+                        }
+                    }
+
+                    if (sharedTools.Count > 0)
+                        dropdown.ToolTip.text = new RichText("Shared with:\n- " + string.Join("\n- ", sharedTools));
+                    else
+                        dropdown.ToolTip.text = new RichText("No other tools in this slot.");
+                }
             }
         }
 
         /// <summary>
         /// Adds a "Wheel Slots" category to the RHF settings page.
-        /// One dropdown per tool type — the player chooses which slot (0–6 on page 1,
-        /// 8–13 on page 2) to place it on, or "None" to leave it unassigned.
+        /// One dropdown per tool type — the player chooses which slot (0-6 on page 1,
+        /// 7-13 on page 2) to place it on, or "None" to leave it unassigned.
         /// Multiple types may share the same slot; they are cycled with the scroll wheel
         /// alongside the normal per-tool sub-variants.
         /// </summary>
@@ -773,7 +943,7 @@ namespace PEPCO
                 EquippedToolType.Drill
             };
             BuildDropdownsForCategory(_handToolsPage, "Vanilla Hand Tools",
-                "Assign slots (1-7: Page 1 | 8-14: Page 2). Stacked tools cycle via scroll wheel.", handTools);
+                "Stacked tools cycle via scroll wheel.", handTools);
 
             // --- PAGE 2: WEAPONS ---
             var weapons = new EquippedToolType[]
@@ -782,16 +952,20 @@ namespace PEPCO
                 EquippedToolType.Launcher
             };
             BuildDropdownsForCategory(_weaponsPage, "Weapons",
-                "Map your defensive items.", weapons);
+                "", weapons);
 
             // --- PAGE 3: MODDED TOOLS & OPTICS ---
             var moddedTools = new EquippedToolType[]
             {
-                EquippedToolType.PaintGun, EquippedToolType.ConcreteTool,
-                EquippedToolType.Binoculars, EquippedToolType.HandScanner
+                EquippedToolType.PaintGun,      EquippedToolType.ConcreteTool,
+                EquippedToolType.TerrainTool,   EquippedToolType.Binoculars,
+                EquippedToolType.BuildInfoMultiTool
             };
-            BuildDropdownsForCategory(_moddedToolsPage, "Modded Tools & Optics",
+            BuildDropdownsForCategory(_moddedToolsPage, "Modded Tools",
                 "Map tools added by other workshop mods.", moddedTools);
+
+            // Setup complete, calculate the initial labels and tooltips
+            RefreshAllDropdownVisuals();
         }
 
         private void BuildDropdownsForCategory(ControlPage page, string header, string subheader, EquippedToolType[] types)
@@ -808,7 +982,7 @@ namespace PEPCO
                 {
                     currentCategory = new ControlCategory()
                     {
-                        HeaderText    = (i == 0) ? header    : "",
+                        HeaderText = (i == 0) ? header : "",
                         SubheaderText = (i == 0) ? subheader : ""
                     };
                     page.Add(currentCategory);
@@ -825,25 +999,45 @@ namespace PEPCO
                     }
                 }
 
+                bool isInstalled = IsToolInstalled(capturedType);
+
                 var slotDropdown = new TerminalDropdown<int>()
                 {
-                    Name    = capturedType.ToString(),
-                    Enabled = true,
-                    ToolTip = new ToolTip() { text = new RichText("Select which wheel slot this tool should appear on.\nSlots 1-7 = Page 1 | Slots 8-14 = Page 2") }
+                    Name = GetToolDisplayName(capturedType),
+                    ToolTip = new ToolTip(),
+                    Enabled = isInstalled // Disable the dropdown directly to dim the text if uninstalled
                 };
 
-                slotDropdown.List.Add("None", -1);
-                for (int s = 0; s <= 6; s++) slotDropdown.List.Add("Slot " + (s + 1), s);
-                for (int s = 8; s <= 14; s++) slotDropdown.List.Add("Slot " + s, s);
+                _allSlotDropdowns[slotDropdown] = capturedType;
 
-                int listIndex = currentSlot >= 0 && currentSlot <= 6  ? currentSlot + 1
-                              : currentSlot >= 8 && currentSlot <= 14 ? currentSlot
-                              : 0;
+                if (isInstalled)
+                {
+                    // Mod is installed: Populate all options normally
+                    slotDropdown.List.Add("None", -1);
 
-                slotDropdown.List.SetSelection(listIndex);
+                    // Page 1 Slots (Indices 0 to 6)
+                    for (int s = 0; s <= 6; s++)
+                        slotDropdown.List.Add("Page 1 - Slot " + (s + 1), s);
+
+                    // Page 2 Slots (Indices 7 to 13)
+                    for (int s = 7; s <= 13; s++)
+                        slotDropdown.List.Add("Page 2 - Slot " + (s - 6), s);
+
+                    int listIndex = currentSlot >= 0 && currentSlot <= 13 ? currentSlot + 1 : 0;
+                    slotDropdown.List.SetSelection(listIndex);
+                }
+                else
+                {
+                    // Mod is missing: Hard-lock the dropdown with a single "N/A" option
+                    slotDropdown.List.Add("N/A", currentSlot);
+                    slotDropdown.List.SetSelection(0);
+                }
 
                 slotDropdown.ControlChanged += (sender, args) =>
                 {
+                    // Bulletproof guard clause: abort if ghost click gets through the disabled tile
+                    if (!IsToolInstalled(capturedType)) return;
+
                     if (slotDropdown.Value == null) return;
                     int chosenSlot = slotDropdown.Value.AssocObject;
 
@@ -870,14 +1064,15 @@ namespace PEPCO
 
                     SaveUserConfigSettings($"Reassigned {capturedType} to slot {chosenSlot}");
                     LogDebug($"[Settings] {capturedType} assigned to slot {chosenSlot}");
+                    RefreshAllDropdownVisuals();
                 };
 
-                // Create a dedicated tile for this single dropdown
                 var tile = new ControlTile();
                 tile.Add(slotDropdown);
                 currentCategory.Add(tile);
             }
         }
+
         private void CachePhysicalGunDisplayNames()
         {
             GunDisplayNames.Clear();
@@ -894,6 +1089,15 @@ namespace PEPCO
                     displayName = def.Id.SubtypeName;
 
                 GunDisplayNames[def.Id] = displayName;
+            }
+
+            // Register fake display names for override-based tools (e.g. BuildInfoMultiTool)
+            // that have no PhysicalGunObject in inventory. The subtype is prefixed with
+            // "Override_" so GetCentreText() can identify them and adjust label formatting.
+            foreach (var kvp in _toolOverrides)
+            {
+                var fakeId = new MyDefinitionId(physicalGunType, "Override_" + kvp.Key.ToString());
+                GunDisplayNames[fakeId] = GetToolDisplayName(kvp.Key);
             }
 
             LogDebug($"[Init] Cached display names for {GunDisplayNames.Count} PhysicalGunObject definitions.");
@@ -921,11 +1125,11 @@ namespace PEPCO
             if (_toolWheel == null || _toolWheel.Visible) return;
 
             _currentWheelPage = 0;
-            _allSelections    = BuildSelections(character.GetInventory() as IMyInventory);
+            _allSelections = BuildSelections(character.GetInventory() as IMyInventory);
 
-            _toolWheel.HoldToKeepOpen         = Settings.HoldToKeepOpen;
-            _toolWheel.SelectionMode           = Settings.SelectionMode;
-            _toolWheel.OpenedViaBlock          = _wheelOpenedViaBlock;
+            _toolWheel.HoldToKeepOpen = Settings.HoldToKeepOpen;
+            _toolWheel.SelectionMode = Settings.SelectionMode;
+            _toolWheel.OpenedViaBlock = _wheelOpenedViaBlock;
             _toolWheel.BlockTriggerKeyDetected = _blockTriggerKey != MyKeys.None;
             _toolWheel.Open(GetPageSelections(_currentWheelPage, _allSelections));
         }
@@ -943,45 +1147,80 @@ namespace PEPCO
         private List<WeaponSelectionData> BuildSelections(IMyInventory inventory)
         {
             var result = new List<WeaponSelectionData>();
+            var physicalGunType = typeof(MyObjectBuilder_PhysicalGunObject);
 
             foreach (var slotCfg in Settings.WheelSlots)
             {
-                // Index 7 is reserved for page-flip; skip any slot the user has set there.
-                if (slotCfg.SlotIndex == 7 || slotCfg.AssignedTypes == null || slotCfg.AssignedTypes.Count == 0)
+                // With the strict 7-slot per page design, physical index 7 is always the page-flip
+                // button when pagination is active. Valid user-configurable indices are 0 to 13.
+                if (slotCfg.SlotIndex < 0 || slotCfg.SlotIndex > 13 || slotCfg.AssignedTypes == null || slotCfg.AssignedTypes.Count == 0)
                     continue;
 
-                // Aggregate variants for all assigned types in this slot.
+                EquippedToolType primaryType = slotCfg.AssignedTypes[0];
                 var variants = new List<MyDefinitionId>();
                 bool anyWeapon = false;
 
                 foreach (var toolType in slotCfg.AssignedTypes)
                 {
-                    if (inventory != null)
-                        FindAllVariantsInInventory(inventory, toolType, variants);
-                    if (IsWeaponType(toolType))
-                        anyWeapon = true;
+                    ToolTypeOverride ovr;
+                    if (_toolOverrides.TryGetValue(toolType, out ovr) && ovr.Equip != null)
+                    {
+                        // Override tool (e.g. BuildInfoMultiTool): inject a fake ID so it
+                        // participates in scroll-wheel cycling alongside vanilla tools on the
+                        // same slot. The "Override_" prefix lets OnToolWheelConfirmed and
+                        // GetCentreText() identify and handle it correctly.
+                        if (ovr.IsAvailable != null && ovr.IsAvailable())
+                            variants.Add(new MyDefinitionId(physicalGunType, "Override_" + toolType.ToString()));
+                    }
+                    else
+                    {
+                        if (inventory != null)
+                            FindAllVariantsInInventory(inventory, toolType, variants);
+                        if (IsWeaponType(toolType))
+                            anyWeapon = true;
+                    }
                 }
 
-                // Sort tool variants highest-tier-first; leave weapon order for variant memory.
-                if (!anyWeapon)
-                    variants.Sort((a, b) => GetToolTier(b.SubtypeName).CompareTo(GetToolTier(a.SubtypeName)));
+                // Check if this slot contains any modded tools (anything that isn't a vanilla hand tool or weapon)
+                bool hasModdedTools = slotCfg.AssignedTypes.Exists(t =>
+                    t != EquippedToolType.Welder &&
+                    t != EquippedToolType.Grinder &&
+                    t != EquippedToolType.Drill &&
+                    !IsWeaponType(t));
 
-                // Use the first assigned type's icon when multiple types share a slot.
-                EquippedToolType primaryType = slotCfg.AssignedTypes[0];
+                if (!anyWeapon)
+                {
+                    if (hasModdedTools)
+                    {
+                        // Sort alphabetically for modded tools
+                        variants.Sort((a, b) =>
+                        {
+                            string nameA = GunDisplayNames.ContainsKey(a) ? GunDisplayNames[a] : a.SubtypeName;
+                            string nameB = GunDisplayNames.ContainsKey(b) ? GunDisplayNames[b] : b.SubtypeName;
+                            return string.Compare(nameA, nameB, StringComparison.OrdinalIgnoreCase);
+                        });
+                    }
+                    else
+                    {
+                        // Sort vanilla hand tools highest-tier-first
+                        variants.Sort((a, b) => GetToolTier(b.SubtypeName).CompareTo(GetToolTier(a.SubtypeName)));
+                    }
+                }
+
                 string label = string.IsNullOrEmpty(slotCfg.CustomLabel)
                     ? GetDefaultLabel(slotCfg.AssignedTypes)
                     : slotCfg.CustomLabel;
 
                 result.Add(new WeaponSelectionData
                 {
-                    Index       = slotCfg.SlotIndex,
-                    ToolType    = primaryType,
+                    Index = slotCfg.SlotIndex,
+                    ToolType = primaryType,
                     DisplayLabel = label,
-                    IsWeapon    = anyWeapon,
-                Icon        = ToolWheelMenu.GetIconForType(primaryType),
-                    Variants    = variants,
+                    IsWeapon = anyWeapon,
+                    Icon = ToolWheelMenu.GetIconForType(primaryType),
+                    Variants = variants,
                     IsAvailable = variants.Count > 0,
-                    IsPageFlip  = false,
+                    IsPageFlip = false,
                 });
             }
 
@@ -991,46 +1230,31 @@ namespace PEPCO
         /// <summary>
         /// Returns the visible slice of <paramref name="all"/> for the requested <paramref name="page"/>.
         /// <para>
-        /// Pagination is only activated when at least one entry occupies a slot with logical
-        /// index ≥ 9 (user-facing slots 9–14). When all configured tools fit within slots 1–8
-        /// (logical indices 0–6 plus the optional index 8), everything is shown on a single page
-        /// and the slot-8 entry is placed directly at physical position 7 — no More/Back button.
-        /// </para>
-        /// <para>
-        /// When pagination is active, page 0 shows logical 0–6 at physical 0–6 with a More…
-        /// button at physical 7; page 1 remaps logical 8–14 to physical 0–6 with a Back… button
-        /// at physical 7.
+        /// Pagination is only activated when at least one entry occupies a slot on page 2 (index >= 7). 
+        /// When active, physical slot 7 is reserved for the More... or Back... buttons.
         /// </para>
         /// </summary>
         private List<WeaponSelectionData> GetPageSelections(int page, List<WeaponSelectionData> all)
         {
-            // Pagination is needed only when at least one entry uses a slot beyond slot 8.
-            bool needsPagination = all.Exists(s => s.Index >= 9);
+            // Pagination is needed only when at least one entry uses a slot on page 2 (index >= 7).
+            bool needsPagination = all.Exists(s => s.Index >= 7);
 
             var visible = new List<WeaponSelectionData>();
 
             if (!needsPagination)
             {
-                // Single-page mode: logical 0–6 → physical 0–6, logical 8 → physical 7.
+                // Single-page mode: logical indices 0-6 map directly to physical 0-6.
                 foreach (var s in all)
                 {
                     if (s.Index <= 6)
                     {
                         visible.Add(s);
                     }
-                    else if (s.Index == 8)
-                    {
-                        var remapped = s;
-                        remapped.Index = 7;
-                        visible.Add(remapped);
-                    }
                 }
                 return visible;
             }
 
             // Paginated mode — physical slot 7 is always a navigation button.
-            bool hasPage1 = all.Exists(s => s.Index <= 6);
-
             if (page == 0)
             {
                 foreach (var s in all)
@@ -1039,33 +1263,34 @@ namespace PEPCO
 
                 visible.Add(new WeaponSelectionData
                 {
-                    Index        = 7,
-                    DisplayLabel = "More...",
-                    IsPageFlip   = true,
-                    Icon         = ToolWheelMenu.MatNextPage,
-                    IsAvailable  = true,
+                    Index = 7,
+                    DisplayLabel = "Next Page",
+                    IsPageFlip = true,
+                    Icon = ToolWheelMenu.MatNextPage,
+                    IsAvailable = true,
                 });
             }
             else
             {
                 foreach (var s in all)
                 {
-                    if (s.Index < 8) continue;
-                    // Remap logical slot indices 8–14 to physical wheel positions 0–6.
-                    var remapped = s;
-                    remapped.Index = s.Index - 8;
-                    visible.Add(remapped);
+                    if (s.Index >= 7 && s.Index <= 13)
+                    {
+                        // Remap logical slot indices 7–13 to physical wheel positions 0–6.
+                        var remapped = s;
+                        remapped.Index = s.Index - 7;
+                        visible.Add(remapped);
+                    }
                 }
 
-                if (hasPage1)
-                    visible.Add(new WeaponSelectionData
-                    {
-                        Index        = 7,
-                        DisplayLabel = "Back...",
-                        IsPageFlip   = true,
-                        Icon         = ToolWheelMenu.MatPrevPage,
-                        IsAvailable  = true,
-                    });
+                visible.Add(new WeaponSelectionData
+                {
+                    Index = 7,
+                    DisplayLabel = "Previous Page",
+                    IsPageFlip = true,
+                    Icon = ToolWheelMenu.MatPrevPage,
+                    IsAvailable = true,
+                });
             }
 
             return visible;
@@ -1078,16 +1303,29 @@ namespace PEPCO
                 || t == EquippedToolType.Launcher;
         }
 
+        private static string GetToolDisplayName(EquippedToolType type)
+        {
+            switch (type)
+            {
+                case EquippedToolType.PaintGun: return "Paint Gun";
+                case EquippedToolType.ConcreteTool: return "Concrete Tool";
+                case EquippedToolType.HandScanner: return "Hand Scanner";
+                case EquippedToolType.BuildInfoMultiTool: return "Build Info Multi Tool";
+                case EquippedToolType.TerrainTool: return "Terrain Tool";
+                default: return type.ToString();
+            }
+        }
+
         private static string GetDefaultLabel(List<EquippedToolType> types)
         {
             if (types == null || types.Count == 0) return "";
-            if (types.Count == 1) return types[0].ToString();
+            if (types.Count == 1) return GetToolDisplayName(types[0]);
             // For stacked slots join with '/'.
             var sb = new System.Text.StringBuilder();
             for (int i = 0; i < types.Count; i++)
             {
                 if (i > 0) sb.Append('/');
-                sb.Append(types[i].ToString());
+                sb.Append(GetToolDisplayName(types[i]));
             }
             return sb.ToString();
         }
@@ -1095,17 +1333,52 @@ namespace PEPCO
         private void OnToolWheelConfirmed(EasyToolSwap_Session.EquippedToolType chosenTool, MyDefinitionId? specificId)
         {
             _wheelOpenedViaBlock = false;
+
+            // 1. If the player scrolled to a fake Override_ variant on a mixed slot, resolve it
+            //    directly to the correct equip delegate before touching the inventory at all.
+            if (specificId.HasValue &&
+                specificId.Value.SubtypeName.StartsWith("Override_", StringComparison.OrdinalIgnoreCase))
+            {
+                string typeName = specificId.Value.SubtypeName.Substring("Override_".Length);
+                EquippedToolType overrideType;
+                if (Enum.TryParse(typeName, out overrideType))
+                {
+                    ToolTypeOverride resolvedOvr;
+                    if (_toolOverrides.TryGetValue(overrideType, out resolvedOvr) && resolvedOvr.Equip != null)
+                    {
+                        resolvedOvr.Equip();
+                        _cycleMemoryTool = overrideType;
+                        LogDebug($"[Wheel] Equipped via override delegate (scrolled variant): {overrideType}. Memory={_cycleMemoryTool}");
+                        return;
+                    }
+                }
+            }
+
             LogDebug($"[Wheel] Confirmed: {chosenTool}, SpecificId: {(specificId.HasValue ? specificId.Value.SubtypeName : "none")}");
 
             var character = MyAPIGateway.Session?.Player?.Character;
             if (character == null) return;
 
-            var inventory  = character.GetInventory() as IMyInventory;
+            // 2. If no specific variant was chosen (e.g. the slot has no variants or the player
+            //    confirmed without scrolling), fall back to the override delegate for chosenTool.
+            if (!specificId.HasValue)
+            {
+                ToolTypeOverride fallbackOvr;
+                if (_toolOverrides.TryGetValue(chosenTool, out fallbackOvr) && fallbackOvr.Equip != null)
+                {
+                    fallbackOvr.Equip();
+                    _cycleMemoryTool = chosenTool;
+                    LogDebug($"[Wheel] Equipped via override delegate (fallback): {chosenTool}. Memory={_cycleMemoryTool}");
+                    return;
+                }
+            }
+
+            // 3. Normal inventory path — equip the chosen or best-available PhysicalGunObject.
+            var inventory = character.GetInventory() as IMyInventory;
             var controller = character as Sandbox.Game.Entities.IMyControllableEntity;
             if (inventory == null || controller == null) return;
 
             MyDefinitionId? toolToEquip = specificId.HasValue ? specificId : FindBestToolInInventory(inventory, chosenTool);
-            // Note: specificId is set by SelectedVariant for both tools and weapons when Q/E was used.
 
             if (toolToEquip.HasValue)
             {
@@ -1119,6 +1392,28 @@ namespace PEPCO
                 MyAPIGateway.Utilities.ShowNotification($"{chosenTool} not found in inventory!", 2000, MyFontEnum.Red);
                 LogDebug($"[Wheel] {chosenTool} not in inventory.");
             }
+        }
+
+        private void ActivateBuildInfoMultiTool()
+        {
+            var blockDefId = new MyDefinitionId(typeof(MyObjectBuilder_CubeBlock), "BuildInfo_MultiTool_Large");
+
+            MyCubeBlockDefinition blockDef;
+            if (MyDefinitionManager.Static.TryGetCubeBlockDefinition(blockDefId, out blockDef))
+            {
+                MyCubeBuilder.Static.Activate(blockDefId);
+                LogDebug("[Wheel] Activated Build Info Multitool via CubeBuilder.");
+            }
+            else
+            {
+                MyAPIGateway.Utilities.ShowNotification("Build Info Multitool definition not found!", 2000, MyFontEnum.Red);
+                LogDebug("[Wheel] ERROR: BuildInfo_MultiTool_Large definition not found in DefinitionManager.");
+            }
+        }
+
+        private void OnWheelClosed()
+        {
+            _wheelOpenedViaBlock = false;
         }
 
         private void OnToolWheelCancelled()
@@ -1162,11 +1457,6 @@ namespace PEPCO
 
             // 2. Fetch the categories using the exact internal keys Digi uses
             var categories = MyDefinitionManager.Static.GetCategories();
-            ////Debug log all category keys to verify the correct ones are present
-            //foreach (var key in categories.Keys)
-            //{
-            //    _earlyLogBuffer.Add("[Session] Category Key: " + key);
-            //}
 
             var weaponCategory = categories.GetValueOrDefault("Section0_Position2_CharacterWeapons");
             var toolCategory = categories.GetValueOrDefault("Section0_Position2_CharacterTools");
@@ -1210,7 +1500,7 @@ namespace PEPCO
                     weaponCategory.ItemIds.Add(injectString);
                     _earlyLogBuffer.Add("[Session] Successfully injected " + injectString + " into CharacterWeapons");
                 }
-            }    
+            }
         }
     }
 }

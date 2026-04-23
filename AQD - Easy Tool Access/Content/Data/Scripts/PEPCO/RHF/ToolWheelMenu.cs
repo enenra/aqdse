@@ -92,8 +92,12 @@ namespace PEPCO
         internal static readonly Material MatPistol   = new Material("PistolIcon",           new Vector2(256f, 256f));
         internal static readonly Material MatRifle    = new Material("RifleIcon",            new Vector2(256f, 256f));
         internal static readonly Material MatLauncher = new Material("HandheldLauncherIcon", new Vector2(256f, 256f));
-        internal static readonly Material MatPaintGun = new Material("PaintGunIcon",         new Vector2(256f, 256f));
-        internal static readonly Material MatHideTool = new Material("HideWeaponIcon",       new Vector2(256f, 256f));
+        internal static readonly Material MatPaintGun      = new Material("PaintGunIcon",          new Vector2(256f, 256f));
+        internal static readonly Material MatConcreteTool   = new Material("ConcreteToolIcon",      new Vector2(256f, 256f));
+        internal static readonly Material MatTerrainTool    = new Material("ConcreteToolIcon",        new Vector2(256f, 256f)); // Reuse the ConcreteToolIcon for the TerrainTool since they look identical
+        internal static readonly Material MatBinoculars     = new Material("BinocularsIcon",           new Vector2(256f, 256f));
+        internal static readonly Material MatHideTool       = new Material("HideWeaponIcon",        new Vector2(256f, 256f));
+        internal static readonly Material MatMultiTool = new Material("BuildInfoMultitoolIcon", new Vector2(256f, 256f));
         internal static readonly Material MatNextPage  = new Material("NextPageIcon",         new Vector2(256f, 256f));
         internal static readonly Material MatPrevPage  = new Material("PrevPageIcon",         new Vector2(256f, 256f));
 
@@ -104,6 +108,10 @@ namespace PEPCO
         private const float IconLabelGap = 4f;   // (unused for slice text, kept for offset calc)
         private const float LineHeight   = 18f;  // approximate px height of one text line at fontScale=1
 
+        // --- Simplified Entry Type ---
+        // Label is the direct ScrollBoxEntry element (positioned by RadialSelectionBox).
+        // The icon is a child of the label, offset upward by an amount computed from the
+        // current line count so it always sits cleanly above the text block.
         // --- Simplified Entry Type ---
         // Label is the direct ScrollBoxEntry element (positioned by RadialSelectionBox).
         // The icon is a child of the label, offset upward by an amount computed from the
@@ -138,21 +146,20 @@ namespace PEPCO
             public string BaseName { get { return _baseName; } }
 
             private readonly TexturedBox _icon;
+            private Material _defaultIcon; // Keep track of the default to fall back if needed
 
-            private static readonly Color IconNormal   = new Color(255, 255, 255, 255); // fully opaque white — let the texture speak for itself
-            private static readonly Color IconDimmed   = new Color(255, 255, 255,  60);
+            private static readonly Color IconNormal = new Color(255, 255, 255, 255); // fully opaque white
+            private static readonly Color IconDimmed = new Color(255, 255, 255, 60);
 
             public ToolEntry() : base()
             {
                 SetElement(new Label()
                 {
-                    AutoResize     = true,
-                    BuilderMode    = TextBuilderModes.Lined,
+                    AutoResize = true,
+                    BuilderMode = TextBuilderModes.Lined,
                     VertCenterText = true,
                 });
 
-                // Icon is a child of the label so it shares the same parent-space origin.
-                // Material, size, and offset are set in Init() once the tool type is known.
                 _icon = new TexturedBox(Element)
                 {
                     Color = IconNormal,
@@ -163,36 +170,33 @@ namespace PEPCO
 
             public void Init(EasyToolSwap_Session.EquippedToolType toolType, string displayLabel, bool isWeapon, float fontScale, Material iconMaterial, GlyphFormat normal, GlyphFormat selected, GlyphFormat dimmed)
             {
-                ToolType     = toolType;
-                Available    = true;
-                IsDummy      = false;
-                IsPageFlip   = false;
-                IsWeapon     = isWeapon;
-                _baseName    = displayLabel;
-                _normalFmt   = normal;
+                ToolType = toolType;
+                Available = true;
+                IsDummy = false;
+                IsPageFlip = false;
+                IsWeapon = isWeapon;
+                _baseName = displayLabel;
+                _normalFmt = normal;
                 _selectedFmt = selected;
-                _dimmedFmt   = dimmed;
-                _fontScale   = fontScale;
-                Variants     = null;
+                _dimmedFmt = dimmed;
+                _fontScale = fontScale;
+                Variants = null;
 
+                _defaultIcon = iconMaterial;
                 _icon.Material = iconMaterial;
                 float scaledIcon = IconSize * fontScale;
-                _icon.Size   = new Vector2(scaledIcon, scaledIcon);
+                _icon.Size = new Vector2(scaledIcon, scaledIcon);
 
                 Element.TextBoard.SetText("", _normalFmt);
-                _icon.Offset   = Vector2.Zero;
+                _icon.Offset = Vector2.Zero;
             }
 
             public void SetAvailable(bool available)
             {
                 Available = available;
-                // Re-apply the full highlight state so visibility and colours stay consistent.
                 SetHighlighted(_isSelected);
             }
 
-            // Called on wheel open to refresh the variant list; preserves VariantIndex if the
-            // previously selected subtype is still present and this is a weapon entry.
-            // Tool entries always reset to index 0 (caller sorts variants highest-tier-first).
             public void SetVariants(List<MyDefinitionId> variants)
             {
                 MyDefinitionId? prev = IsWeapon ? SelectedVariant : (MyDefinitionId?)null;
@@ -207,30 +211,71 @@ namespace PEPCO
                 {
                     VariantIndex = 0;
                 }
+
+                // Update icon to match the initially selected variant
+                if (Variants != null && Variants.Count > 0)
+                {
+                    _icon.Material = GetIconForVariant(Variants[VariantIndex]);
+                }
             }
 
-            public bool IsDummy    { get; private set; }
+            public bool IsDummy { get; private set; }
             public bool IsPageFlip { get; private set; }
 
             public void MarkAsDummy()
             {
-                IsDummy    = true;
+                IsDummy = true;
                 IsPageFlip = false;
-                Available  = false;
-                // Leave _icon.Visible = true so the HideWeaponIcon is rendered at dimmed opacity.
+                Available = false;
             }
 
             public void MarkAsPageFlip()
             {
                 IsPageFlip = true;
-                IsDummy    = false;
-                Available  = true;
+                IsDummy = false;
+                Available = true;
             }
 
             public void CycleVariant(int step)
             {
                 if (Variants == null || Variants.Count <= 1) return;
                 VariantIndex = ((VariantIndex + step) % Variants.Count + Variants.Count) % Variants.Count;
+
+                // Dynamically update the icon when scrolling!
+                _icon.Material = GetIconForVariant(Variants[VariantIndex]);
+            }
+
+            /// <summary>
+            /// Dynamically determines the correct material icon based on the specific variant currently selected.
+            /// </summary>
+            private Material GetIconForVariant(MyDefinitionId variantId)
+            {
+                string subtype = variantId.SubtypeName;
+
+                // 1. Handle Fake Override Tools
+                if (subtype.StartsWith("Override_", StringComparison.OrdinalIgnoreCase))
+                {
+                    string typeName = subtype.Substring("Override_".Length);
+                    EasyToolSwap_Session.EquippedToolType overrideType;
+                    if (Enum.TryParse(typeName, out overrideType))
+                        return ToolWheelMenu.GetIconForType(overrideType);
+                }
+
+                // 2. Handle Vanilla & Modded Physical Items via string matching
+                if (subtype.IndexOf("Grinder", StringComparison.OrdinalIgnoreCase) >= 0) return MatGrinder;
+                if (subtype.IndexOf("Welder", StringComparison.OrdinalIgnoreCase) >= 0) return MatWelder;
+                if (subtype.IndexOf("Drill", StringComparison.OrdinalIgnoreCase) >= 0) return MatDrill;
+                if (subtype.IndexOf("Pistol", StringComparison.OrdinalIgnoreCase) >= 0 || subtype.IndexOf("Flare", StringComparison.OrdinalIgnoreCase) >= 0) return MatPistol;
+                if (subtype.IndexOf("Rifle", StringComparison.OrdinalIgnoreCase) >= 0) return MatRifle;
+                if (subtype.IndexOf("HandHeldLauncher", StringComparison.OrdinalIgnoreCase) >= 0) return MatLauncher;
+                if (subtype.IndexOf("PaintGun", StringComparison.OrdinalIgnoreCase) >= 0) return MatPaintGun;
+                if (subtype.IndexOf("ConcreteTool", StringComparison.OrdinalIgnoreCase) >= 0) return MatConcreteTool;
+                if (subtype.IndexOf("TerrainTool", StringComparison.OrdinalIgnoreCase) >= 0) return MatTerrainTool;
+                if (subtype.IndexOf("Binoculars", StringComparison.OrdinalIgnoreCase) >= 0) return MatBinoculars;
+                if (subtype.IndexOf("HandDrill", StringComparison.OrdinalIgnoreCase) >= 0 || subtype.IndexOf("Scanner", StringComparison.OrdinalIgnoreCase) >= 0) return ToolWheelMenu.GetIconForType(EasyToolSwap_Session.EquippedToolType.HandScanner);
+
+                // Fallback to the slot's default icon if no text match is found
+                return _defaultIcon;
             }
 
             public void SetHighlighted(bool highlighted)
@@ -259,19 +304,15 @@ namespace PEPCO
                 }
             }
 
-            // Slices always show icon only — text is displayed in the centre label.
             private void ApplySizeMode()
             {
                 float scaledIcon = IconSize * _fontScale;
-                _icon.Size   = new Vector2(scaledIcon, scaledIcon);
+                _icon.Size = new Vector2(scaledIcon, scaledIcon);
 
-                // Clear slice text and centre the icon.
                 Element.TextBoard.SetText("", _normalFmt);
-                _icon.Offset   = Vector2.Zero;
+                _icon.Offset = Vector2.Zero;
             }
 
-            // Returns the display text for the currently selected entry,
-            // to be written into the centre label by RefreshHighlight.
             public string GetCentreText()
             {
                 if (Variants != null && Variants.Count > 0)
@@ -280,6 +321,16 @@ namespace PEPCO
                     string displayName;
                     if (!EasyToolSwap_Session.GunDisplayNames.TryGetValue(variantId, out displayName))
                         displayName = variantId.SubtypeName;
+
+                    bool isOverride = variantId.SubtypeName.StartsWith("Override_", StringComparison.OrdinalIgnoreCase);
+                    bool isMixedSlot = _baseName.Contains("/");
+
+                    if (IsWeapon && (isOverride || isMixedSlot))
+                    {
+                        if (Variants.Count > 1)
+                            return displayName + "\n[" + (VariantIndex + 1) + "/" + Variants.Count + "]";
+                        return displayName;
+                    }
 
                     if (IsWeapon)
                         return _baseName + "\n" + displayName + "\n[" + (VariantIndex + 1) + "/" + Variants.Count + "]";
@@ -373,8 +424,12 @@ namespace PEPCO
                 case EasyToolSwap_Session.EquippedToolType.Pistol:   return MatPistol;
                 case EasyToolSwap_Session.EquippedToolType.Rifle:    return MatRifle;
                 case EasyToolSwap_Session.EquippedToolType.Launcher: return MatLauncher;
-                case EasyToolSwap_Session.EquippedToolType.PaintGun: return MatPaintGun;
-                default:                                              return MatHideTool;
+                case EasyToolSwap_Session.EquippedToolType.PaintGun:            return MatPaintGun;
+                case EasyToolSwap_Session.EquippedToolType.ConcreteTool:        return MatConcreteTool;
+                case EasyToolSwap_Session.EquippedToolType.TerrainTool:         return MatTerrainTool;
+                case EasyToolSwap_Session.EquippedToolType.Binoculars:          return MatBinoculars;
+                case EasyToolSwap_Session.EquippedToolType.BuildInfoMultiTool:  return MatMultiTool;
+                default:                                                       return MatHideTool;
             }
         }
 
