@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Definition xsi:type="MyObjectBuilder_GuiTextureAtlasDefinition">
-    <Id Type="MyObjectBuilder_GuiTextureAtlasDefinition" Subtype="AQD_Base"/>
+    <Id Type="MyObjectBuilder_GuiTextureAtlasDefinition" Subtype="Base"/>
 
     <Textures>
       <Texture>
