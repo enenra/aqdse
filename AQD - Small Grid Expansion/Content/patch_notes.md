@@ -1,4 +1,4 @@
-[h1]Patch 1.2[/h1]
-[list]
-[*]Added Compact Pilot Seat and Compact Passenger Seat.
-[/list]
+# Update 1.2a
+
+* Adjusted Basic Assembler recipes to reflect game updates.
+* Hid (but did not remove) the small grid freight boxes, as they are now available for small grid in the base game.

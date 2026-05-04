@@ -12,13 +12,6 @@
         [ResearchGroups xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
           xmlns:xsd="http://www.w3.org/2001/XMLSchema"]
           [ResearchGroup]
-            [Item Type="MyObjectBuilder_Component" SubtypeId="AQD_Tech_STOR_C2" /]
-            [BlockDefinitons]
-              [OverwriteOthers]false[/OverwriteOthers]
-              [Id Type="MyObjectBuilder_ShipConnector" SubtypeId="AQD_SG_ConnectorSmall" UseBlockVariantsGroup="false" /]
-            [/BlockDefinitons]
-          [/ResearchGroup]
-          [ResearchGroup]
             [Item Type="MyObjectBuilder_Component" SubtypeId="AQD_Tech_DEF_A2" /]
             [BlockDefinitons]
               [OverwriteOthers]false[/OverwriteOthers]
