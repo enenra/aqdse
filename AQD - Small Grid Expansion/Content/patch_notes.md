@@ -1,4 +1,3 @@
-[h1]Patch 1.2[/h1]
-[list]
-[*]Added Compact Pilot Seat and Compact Passenger Seat.
-[/list]
+# Update 1.2b
+
+* Fixed large grid freight containers no longer being available.

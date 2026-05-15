@@ -1,7 +1,5 @@
-# Update 1.1
+# Update 1.2
 
-* Added new selection mode "Directional Flick" (vs. "Cursor Tracking") and made it default.
-* Added support for pages on the wheel, allowing for more tools to be bound to slots.
-* Added ability to rebind slots to other tools.
-* Added ability to adjust sensitivity and angle selection threshold to F2 menu.
-* Improved display of F2 settings menu.
+* Added support for a second page of tools.
+* Added ability to bind tools / weapons to any of the slots.
+* Added support for the [BuildInfo measuring tool](https://steamcommunity.com/sharedfiles/filedetails/?id=514062285), the [Concrete Tool](https://steamcommunity.com/sharedfiles/filedetails/?id=396679430), the [Terrain Tool](https://steamcommunity.com/sharedfiles/filedetails/?id=2820001381) and [Binoculars](https://steamcommunity.com/sharedfiles/filedetails/?id=2777644246).
