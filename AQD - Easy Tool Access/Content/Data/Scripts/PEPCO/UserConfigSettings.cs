@@ -61,7 +61,8 @@ namespace PEPCO
         public enum WheelSelectionMode
         {
             DirectionalFlick = 0,
-            CursorTracking   = 1
+            CursorTracking   = 1,
+            MouseWheelScroll = 2
         }
 
         public List<BindDefinition> UserConfigKeyBinds = new List<BindDefinition>();

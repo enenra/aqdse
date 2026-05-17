@@ -1,4 +1,4 @@
-﻿using PEPCO.Utilities;
+﻿using EasyToolSwap_DEV.Utilities;
 using RichHudFramework.Client;
 using RichHudFramework.UI;
 using RichHudFramework.UI.Client;
@@ -15,7 +15,7 @@ using VRage.Game.Components;
 using VRage.Game.ModAPI;
 using VRage.Input;
 using VRage.Utils;
-using static PEPCO.ScriptHelpers;
+using static EasyToolSwap_DEV.Utilities.ScriptHelpers;
 
 namespace PEPCO
 {
@@ -448,6 +448,12 @@ namespace PEPCO
                 SubheaderText = "Behaviour settings for Easy Tool Access",
             };
 
+            var wheelCategory = new ControlCategory()
+            {
+                HeaderText = "Wheel Settings",
+                SubheaderText = "Advanced configuration for wheel behavior",
+            };
+
             var tile = new ControlTile();
 
             var holdToKeepOpenToggle = new TerminalOnOffButton()
@@ -510,7 +516,8 @@ namespace PEPCO
                 {
                     text = new RichText(
                         "Directional Flick: move the mouse in a direction to select a slice (custom angle math).\n" +
-                        "Cursor Tracking: move the cursor over a slice to select it (RHF native math).\n\n" +
+                        "Cursor Tracking: move the cursor over a slice to select it (RHF native math).\n" +
+                        "Mouse Wheel Scroll: use mouse wheel to rotate through slices; Shift+Scroll cycles variants.\n\n" +
                         "Default: Directional Flick",
                         ToolTip.DefaultText
                     )
@@ -518,7 +525,11 @@ namespace PEPCO
             };
             selectionModeDropdown.List.Add("Directional Flick", UserConfigSettings.WheelSelectionMode.DirectionalFlick);
             selectionModeDropdown.List.Add("Cursor Tracking", UserConfigSettings.WheelSelectionMode.CursorTracking);
+            selectionModeDropdown.List.Add("Mouse Wheel Scroll", UserConfigSettings.WheelSelectionMode.MouseWheelScroll);
             selectionModeDropdown.List.SetSelection((int)Settings.SelectionMode);
+
+            var tile2 = new ControlTile();
+            var tile3 = new ControlTile();
 
             selectionModeDropdown.ControlChanged += (sender, args) =>
             {
@@ -536,8 +547,10 @@ namespace PEPCO
                         "High = Registers with very small micro-movements.",
                         ToolTip.DefaultText
                     );
+                    sensitivityDropdown.Enabled = true;
+                    wheelCategory.Enabled = true;
                 }
-                else
+                else if (Settings.SelectionMode == UserConfigSettings.WheelSelectionMode.CursorTracking)
                 {
                     sensitivityDropdown.Name = "Cursor Tracking Speed";
                     sensitivityDropdown.ToolTip.text = new RichText(
@@ -546,20 +559,34 @@ namespace PEPCO
                         "High = Cursor moves quickly across the wheel slices.",
                         ToolTip.DefaultText
                     );
+                    sensitivityDropdown.Enabled = true;
+                    wheelCategory.Enabled = true;
+                }
+                else if (Settings.SelectionMode == UserConfigSettings.WheelSelectionMode.MouseWheelScroll)
+                {
+                    sensitivityDropdown.Name = "Scroll Sensitivity";
+                    sensitivityDropdown.ToolTip.text = new RichText(
+                        "Controls the mouse wheel scroll sensitivity for rotating the wheel.\n" +
+                        "Low = Requires more scrolls to change selection.\n" +
+                        "High = Changes selection with minimal scrolling.",
+                        ToolTip.DefaultText
+                    );
+                    sensitivityDropdown.Enabled = false;
+                    wheelCategory.Enabled = false;
                 }
             };
 
             // Force an initial trigger to set the correct text when the menu first loads
             selectionModeDropdown.List.SetSelection((int)Settings.SelectionMode);
 
-            var tile2 = new ControlTile();
-
             tile.Add(holdToKeepOpenToggle);
             tile2.Add(selectionModeDropdown);
-            tile2.Add(sensitivityDropdown);
+            tile3.Add(sensitivityDropdown);
             generalCategory.Add(tile);
             generalCategory.Add(tile2);
             _generalSettingsPage.Add(generalCategory);
+            wheelCategory.Add(tile3);
+            _generalSettingsPage.Add(wheelCategory);
         }
 
         private void HandleClientUpdates()
