@@ -5,9 +5,8 @@ using Sandbox.ModAPI;
 using VRage.Game;
 using VRage.Game.ModAPI;
 using VRageMath;
-using PEPCO.Utilities;
 
-namespace PEPCO
+namespace EasyToolSwap_DEV.Utilities
 {
     public static class ScriptHelpers
     {
@@ -128,7 +127,7 @@ namespace PEPCO
                 if (!colorMask.HasValue) return Color.Red;
 
                 var normalHSV = MyColorPickerConstants.HSVOffsetToHSV(colorMask.Value);
-                return ColorExtensions.HSVtoColor(normalHSV);
+                return normalHSV.HSVtoColor();
             }
             catch
             {
@@ -157,7 +156,7 @@ namespace PEPCO
 
             var colorMask = identity.ColorMask.Value;
             var normalHSV = MyColorPickerConstants.HSVOffsetToHSV(colorMask);
-            return ColorExtensions.HSVtoColor(normalHSV);
+            return normalHSV.HSVtoColor();
         }
 
         /// <summary>
@@ -221,9 +220,9 @@ namespace PEPCO
             for (int i = 0; i < value.Length; i++)
             {
                 char c = value[i];
-                bool isHex = (c >= '0' && c <= '9') ||
-                             (c >= 'A' && c <= 'F') ||
-                             (c >= 'a' && c <= 'f');
+                bool isHex = c >= '0' && c <= '9' ||
+                             c >= 'A' && c <= 'F' ||
+                             c >= 'a' && c <= 'f';
                 if (!isHex)
                     return false;
             }

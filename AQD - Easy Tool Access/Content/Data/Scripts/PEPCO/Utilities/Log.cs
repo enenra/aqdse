@@ -11,7 +11,7 @@ using VRage.Game.Components;
 using VRage.Game.ModAPI;
 using VRage.Utils;
 
-namespace PEPCO.Utilities
+namespace EasyToolSwap_DEV.Utilities
 {
     // FIXME: errors that occur in loading (or before chat is visible?) are not seen!
     // TODO: make use of MyDefinitionErrors ?
@@ -35,13 +35,13 @@ namespace PEPCO.Utilities
 
         /// <summary>
         /// Print the generic error info.
-        /// (For use in <see cref="Log.Error(string, string, int)"/>'s 2nd arg)
+        /// (For use in <see cref="Error(string, string, int)"/>'s 2nd arg)
         /// </summary>
         public const string PRINT_GENERIC_ERROR = "<err>";
 
         /// <summary>
         /// Prints the message instead of the generic generated error info.
-        /// (For use in <see cref="Log.Error(string, string, int)"/>'s 2nd arg)
+        /// (For use in <see cref="Error(string, string, int)"/>'s 2nd arg)
         /// </summary>
         public const string PRINT_MESSAGE = "<msg>";
 
@@ -473,7 +473,7 @@ namespace PEPCO.Utilities
                     sb.Append(DateTime.Now.ToString("[HH:mm:ss/")).Append(((MyAPIGateway.Session?.GameplayFrameCounter ?? 0) % 60).ToString("00"));
 
                     int threadId = Environment.CurrentManagedThreadId;
-                    if (sessionComp == null ? (threadId != 1) : (sessionComp.MainThreadId != threadId))
+                    if (sessionComp == null ? threadId != 1 : sessionComp.MainThreadId != threadId)
                         sb.Append("|Thr").Append(threadId);
 
                     if (writer == null)

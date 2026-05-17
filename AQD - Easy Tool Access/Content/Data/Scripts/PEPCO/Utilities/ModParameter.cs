@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 using VRage.Game;
 using VRage.Game.Components;
 using VRage.Utils;
-using static PEPCO.ScriptHelpers;
+using static EasyToolSwap_DEV.Utilities.ScriptHelpers;
 
-namespace PEPCO.Utilities
+namespace EasyToolSwap_DEV.Utilities
 {
     public class ModParameter
     {
@@ -19,7 +19,8 @@ namespace PEPCO.Utilities
         /// Human-readable mod version string.
         /// Often replaced/injected by a build script; keep stable formatting for tooling.
         /// </summary>
-        public static readonly string PEPCOVERSION = "1776193995";
+        public static readonly string PEPCOVERSION = "1779028891";
+        public static readonly string DEV_WORKSHOP_ID = "3703710604"; // DEV mod workshop ID (PROD-side killswitch)
 
         public static bool IsDebug()
         {
