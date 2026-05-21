@@ -1,6 +1,8 @@
-﻿﻿using RichHudFramework.UI;
+﻿using EasyToolSwap_DEV.Utilities;
+using RichHudFramework.UI;
 using RichHudFramework.UI.Client;
 using RichHudFramework.UI.Rendering;
+using Sandbox.Definitions;
 using Sandbox.ModAPI;
 using System;
 using System.Collections.Generic;
@@ -58,6 +60,10 @@ namespace PEPCO
     /// </summary>
     public class ToolWheelMenu : HudElementBase
     {
+        // =====================================================================
+        // ICON CACHE FOR DEFINITION-BASED ICONS
+        // =====================================================================
+        private static readonly Dictionary<string, Material> _iconCache = new Dictionary<string, Material>();
         // =====================================================================
         // MASTER SCALE
         // =====================================================================
@@ -216,6 +222,7 @@ namespace PEPCO
                 if (Variants != null && Variants.Count > 0)
                 {
                     _icon.Material = GetIconForVariant(Variants[VariantIndex]);
+                    Log.Info("SetVariants for " + _baseName + ": " + Variants.Count + " variants, selected index " + VariantIndex +"\nMaterial: " + _icon.Material.TextureID);
                 }
             }
 
@@ -243,10 +250,13 @@ namespace PEPCO
 
                 // Dynamically update the icon when scrolling!
                 _icon.Material = GetIconForVariant(Variants[VariantIndex]);
+                Log.Info("CycleVariant for " + _baseName + ": new index " + VariantIndex + "\nMaterial: " + _icon.Material.TextureID);
             }
 
             /// <summary>
             /// Dynamically determines the correct material icon based on the specific variant currently selected.
+            /// First tries to load the icon from the item definition for vanilla tools. Falls back to generic icons if not found.
+            /// Uses a static cache for quick lookups.
             /// </summary>
             private Material GetIconForVariant(MyDefinitionId variantId)
             {
@@ -261,7 +271,25 @@ namespace PEPCO
                         return ToolWheelMenu.GetIconForType(overrideType);
                 }
 
-                // 2. Handle Vanilla & Modded Physical Items via string matching
+                // 2. For vanilla hand tools and weapons, try to load the icon from the item's definition
+                // But skip this for modded tools (PaintGun, ConcreteTool, TerrainTool, Binoculars)
+                bool isModdedTool = subtype.IndexOf("PaintGun", StringComparison.OrdinalIgnoreCase) >= 0
+                                 || subtype.IndexOf("ConcreteTool", StringComparison.OrdinalIgnoreCase) >= 0
+                                 || subtype.IndexOf("TerrainTool", StringComparison.OrdinalIgnoreCase) >= 0
+                                 || subtype.IndexOf("Binoculars", StringComparison.OrdinalIgnoreCase) >= 0
+                                 || subtype.IndexOf("BuildInfo", StringComparison.OrdinalIgnoreCase) >= 0;
+
+                if (!isModdedTool)
+                {
+                    Material definitionIcon = GetDefinitionIcon(subtype);
+                    if (definitionIcon != null)
+                        return definitionIcon;
+
+                    // Definition lookup failed - use tool/weapon-specific fallback
+                    return GetFallbackIcon(subtype);
+                }
+
+                // 3. For modded tools, use hardcoded icons via string matching
                 if (subtype.IndexOf("Grinder", StringComparison.OrdinalIgnoreCase) >= 0) return MatGrinder;
                 if (subtype.IndexOf("Welder", StringComparison.OrdinalIgnoreCase) >= 0) return MatWelder;
                 if (subtype.IndexOf("Drill", StringComparison.OrdinalIgnoreCase) >= 0) return MatDrill;
@@ -275,6 +303,88 @@ namespace PEPCO
                 if (subtype.IndexOf("HandDrill", StringComparison.OrdinalIgnoreCase) >= 0 || subtype.IndexOf("Scanner", StringComparison.OrdinalIgnoreCase) >= 0) return ToolWheelMenu.GetIconForType(EasyToolSwap_Session.EquippedToolType.HandScanner);
 
                 // Fallback to the slot's default icon if no text match is found
+                return _defaultIcon;
+            }
+
+            /// <summary>
+            /// Attempts to load an icon from the item's definition using the definition manager.
+            /// Caches successful lookups only. Returns null if definition or icon doesn't exist.
+            /// </summary>
+            private static Material GetDefinitionIcon(string subtypeId)
+            {
+                // Check cache first
+                if (_iconCache.ContainsKey(subtypeId))
+                    return _iconCache[subtypeId];
+
+                try
+                {
+                    // Create the full Definition ID using the PhysicalGunObject type
+                    var definitionId = new MyDefinitionId(typeof(MyObjectBuilder_PhysicalGunObject), subtypeId);
+
+                    // Fetch the physical item definition from the Definition Manager
+                    MyPhysicalItemDefinition definition = MyDefinitionManager.Static.GetPhysicalItemDefinition(definitionId);
+
+                    // Safe null-checking: if definition or icons are null, return null
+                    if (definition?.Icons != null && definition.Icons.Length > 0)
+                    {
+                        // Use the first icon path from the definition
+                        string iconPath = definition.Icons[0];
+
+                        // Extract just the icon name without path and extension
+                        // e.g., "Textures/Items/Tools/WeaponGrinder.dds" -> "WeaponGrinder"
+                        string iconName = System.IO.Path.GetFileNameWithoutExtension(iconPath);
+
+                        // Try to create the Material - if it succeeds, cache it
+                        try
+                        {
+                            Material material = new Material(iconName, new Vector2(256f, 256f));
+                            // Cache successful result
+                            _iconCache[subtypeId] = material;
+                            return material;
+                        }
+                        catch
+                        {
+                            // Material couldn't be created - don't cache, let caller handle fallback
+                            return null;
+                        }
+                    }
+                }
+                catch
+                {
+                    // Silently catch any exceptions and fall through to return null
+                    // This handles cases where the definition doesn't exist or icon loading fails
+                }
+
+                // Don't cache failures - return null so caller can find appropriate fallback
+                return null;
+            }
+
+            /// <summary>
+            /// Determines the appropriate fallback material based on the subtype string.
+            /// Used when definition-based icon lookup fails.
+            /// </summary>
+            private Material GetFallbackIcon(string subtypeId)
+            {
+                bool isWeapon = subtypeId.IndexOf("Pistol", StringComparison.OrdinalIgnoreCase) >= 0
+                             || subtypeId.IndexOf("Flare", StringComparison.OrdinalIgnoreCase) >= 0
+                             || subtypeId.IndexOf("Rifle", StringComparison.OrdinalIgnoreCase) >= 0
+                             || subtypeId.IndexOf("HandHeldLauncher", StringComparison.OrdinalIgnoreCase) >= 0;
+
+                // For weapons, use a weapon-specific fallback icon
+                if (isWeapon)
+                {
+                    if (subtypeId.IndexOf("Pistol", StringComparison.OrdinalIgnoreCase) >= 0) return MatPistol;
+                    if (subtypeId.IndexOf("Rifle", StringComparison.OrdinalIgnoreCase) >= 0) return MatRifle;
+                    if (subtypeId.IndexOf("HandHeldLauncher", StringComparison.OrdinalIgnoreCase) >= 0) return MatLauncher;
+                    return MatPistol; // Default weapon fallback
+                }
+
+                // For tools, use tool-specific fallback icons
+                if (subtypeId.IndexOf("Grinder", StringComparison.OrdinalIgnoreCase) >= 0) return MatGrinder;
+                if (subtypeId.IndexOf("Welder", StringComparison.OrdinalIgnoreCase) >= 0) return MatWelder;
+                if (subtypeId.IndexOf("Drill", StringComparison.OrdinalIgnoreCase) >= 0) return MatDrill;
+
+                // Ultimate fallback
                 return _defaultIcon;
             }
 

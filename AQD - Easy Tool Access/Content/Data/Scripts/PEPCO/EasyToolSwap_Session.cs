@@ -805,8 +805,12 @@ namespace PEPCO
             // 3. Iterate over our cache to find the HIGHEST tier matching tool
             foreach (var item in _inventoryCache)
             {
+
+
+
                 // Explicitly cast the lightweight Type to a MyDefinitionId
                 MyDefinitionId itemDefId = (MyDefinitionId)item.Type;
+
 
                 if (!itemDefId.TypeId.ToString().Contains("PhysicalGunObject")) continue;
 
