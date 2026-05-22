@@ -112,6 +112,7 @@ namespace PEPCO
         private ControlPage _handToolsPage;
         private ControlPage _weaponsPage;
         private ControlPage _moddedToolsPage;
+        private TextPage _aboutPage;
         private ToolWheelMenu _toolWheel;
 
         // Dictionary to track all dynamically generated dropdowns across all pages
@@ -134,8 +135,16 @@ namespace PEPCO
         // where RHF / Log may not yet be fully ready. Flushed and cleared in BeforeStart().
         private readonly List<string> _earlyLogBuffer = new List<string>();
 
+        // When set, UpdateAfterSimulation will equip this tool on the next tick.
+        // Used by EquipBestTool to defer SwitchToWeapon until after CubeBuilder
+        // deactivation has been processed by the game engine.
+        private EquippedToolType _pendingEquipTool = EquippedToolType.None;
+
         // When true the wheel was opened by the fake block rather than the keybind.
         private bool _wheelOpenedViaBlock = false;
+
+        // When true the wheel was opened by the Quick Access Key (any mode).
+        private bool _wheelOpenedViaQuickAccessKey = false;
 
         // The toolbar number key that was held when the fake block fired, or None if not found.
         // Used to detect key-release for HoldToKeepOpen auto-confirm via the block path.
@@ -146,6 +155,14 @@ namespace PEPCO
 
         // Full pre-built selection list for both pages, rebuilt each time the wheel opens.
         private List<WeaponSelectionData> _allSelections = new List<WeaponSelectionData>();
+
+        // Per-bind tick of the last single press, used for double-tap detection.
+        // -1 means no pending first tap.
+        private int _lastWheelKeyFrame  = -1;
+        private int _lastWelderKeyFrame = -1;
+        private int _lastGrinderKeyFrame = -1;
+        private int _lastDrillKeyFrame  = -1;
+        private const int DOUBLE_TAP_WINDOW = 30; // ~0.5 s at 60 ticks/s
 
         /// <summary>
         /// Per-type overrides for tool types that are not PhysicalGunObjects in the player's
@@ -219,6 +236,40 @@ namespace PEPCO
             // Block selection is a purely client-side action; abort if we are on a Dedicated Server
             if (MyAPIGateway.Utilities.IsDedicated)
                 return;
+
+            // Don't run before RHF and the tool wheel are fully initialised.
+            // OnBlockSelected -> OnCycleToolKeybind -> _toolWheel.Open() would crash
+            // with "ApiModule cannot be instantiated before RichHudClient is initialized".
+            if (!isInit)
+                return;
+
+            // Flush any pending tool equip queued by EquipBestTool. The equip is deferred
+            // by one frame so that CubeBuilder deactivation is fully processed before
+            // SwitchToWeapon is called — both calls in the same frame are silently ignored.
+            if (_pendingEquipTool != EquippedToolType.None)
+            {
+                var pendingType = _pendingEquipTool;
+                _pendingEquipTool = EquippedToolType.None;
+
+                var pendingCharacter = MyAPIGateway.Session?.Player?.Character;
+                var pendingInventory = pendingCharacter?.GetInventory() as IMyInventory;
+                var pendingController = pendingCharacter as Sandbox.Game.Entities.IMyControllableEntity;
+
+                if (pendingInventory != null && pendingController != null)
+                {
+                    var toolId = FindBestToolInInventory(pendingInventory, pendingType);
+                    if (toolId.HasValue)
+                    {
+                        pendingController.SwitchToWeapon(toolId.Value);
+                        LogDebug($"[QuickAccess] (deferred) Equipped {toolId.Value.SubtypeName}.");
+                    }
+                    else
+                    {
+                        MyAPIGateway.Utilities.ShowNotification($"{pendingType} not found in inventory!", 2000, MyFontEnum.Red);
+                        LogDebug($"[QuickAccess] (deferred) {pendingType} not in inventory.");
+                    }
+                }
+            }
 
             var character = MyAPIGateway.Session?.Player?.Character;
             if (character == null)
@@ -330,6 +381,11 @@ namespace PEPCO
                 {
                     Name = "Slots: Modded Tools",
                     Enabled = true
+                },
+                _aboutPage = new TextPage()
+                {
+                    Name = "About",
+                    Enabled = true
                 }
             });
 
@@ -358,7 +414,10 @@ namespace PEPCO
         {
             var defaultKeyBinds = new BindGroupInitializer
             {
-                { "Cycle Tool", MyKeys.Control, MyKeys.T } // Empty keybind - user must configure
+                { "Quick Access Key", -1 },
+                { "Tool Key Welder",    MyKeys.D1 },
+                { "Tool Key Grinder",   MyKeys.D2 },
+                { "Tool Key Drill",     MyKeys.D3 },
             }.GetBindDefinitions();
 
             Settings.UserConfigKeyBinds.AddArray(defaultKeyBinds);
@@ -400,6 +459,7 @@ namespace PEPCO
             SetupKeyBinds();
             SetupSettingsPage();
             SetupWheelSlotsSettingsPage();
+            SetupAboutPage();
 
             // ONLY set this to true if we survived the entire setup process without throwing!
             isInit = true;
@@ -434,17 +494,177 @@ namespace PEPCO
             _keyBinds.RegisterBinds(Settings.UserConfigKeyBinds);
             _bindsPage.Add(_keyBinds);
 
-            _keyBinds.GetBind("Cycle Tool").NewPressed += (s, a) =>
+            _keyBinds.GetBind("Quick Access Key").NewPressed += (s, a) =>
             {
-                OnCycleToolKeybind();
+                if (Settings.QuickAccessKeyMode == UserConfigSettings.WheelOpenMode.SinglePress)
+                {
+                    LogDebug("[QuickAccess] Quick Access Key single-press detected.");
+                    _wheelOpenedViaQuickAccessKey = true;
+                    OnCycleToolKeybind();
+                }
+                else if (Settings.QuickAccessKeyMode == UserConfigSettings.WheelOpenMode.DoubleTap)
+                {
+                    int frame = MyAPIGateway.Session.GameplayFrameCounter;
+                    if (IsDoubleTap(frame, ref _lastWheelKeyFrame))
+                    {
+                        LogDebug("[QuickAccess] Quick Access Key double-tap detected.");
+                        _wheelOpenedViaQuickAccessKey = true;
+                        OnCycleToolKeybind();
+                    }
+                }
             };
+            _keyBinds.GetBind("Quick Access Key").Released += (s, a) => OnTriggerBindReleased("Quick Access Key");
+
+            _keyBinds.GetBind("Tool Key Welder").NewPressed += (s, a) =>
+            {
+                if (!Settings.ToolKeysQuickEquip) return;
+                int frame = MyAPIGateway.Session.GameplayFrameCounter;
+                if (IsDoubleTap(frame, ref _lastWelderKeyFrame))
+                {
+                    LogDebug("[QuickAccess] ToolKeys Welder double-tap detected.");
+                    EquipBestTool(EquippedToolType.Welder);
+                }
+            };
+
+            _keyBinds.GetBind("Tool Key Grinder").NewPressed += (s, a) =>
+            {
+                if (!Settings.ToolKeysQuickEquip) return;
+                int frame = MyAPIGateway.Session.GameplayFrameCounter;
+                if (IsDoubleTap(frame, ref _lastGrinderKeyFrame))
+                {
+                    LogDebug("[QuickAccess] ToolKeys Grinder double-tap detected.");
+                    EquipBestTool(EquippedToolType.Grinder);
+                }
+            };
+
+            _keyBinds.GetBind("Tool Key Drill").NewPressed += (s, a) =>
+            {
+                if (!Settings.ToolKeysQuickEquip) return;
+                int frame = MyAPIGateway.Session.GameplayFrameCounter;
+                if (IsDoubleTap(frame, ref _lastDrillKeyFrame))
+                {
+                    LogDebug("[QuickAccess] ToolKeys Drill double-tap detected.");
+                    EquipBestTool(EquippedToolType.Drill);
+                }
+            };
+
+            // Block-trigger keys: subscribe Released on every bind so that whichever key the
+            // player happened to be pressing when the fake block fired will auto-confirm the wheel.
+            foreach (var bindName in new[] { "Tool Key Welder", "Tool Key Grinder", "Tool Key Drill", "Quick Access Key" })
+                _keyBinds.GetBind(bindName).Released += (s, a) => OnTriggerBindReleased(bindName);
+        }
+
+        /// <summary>
+        /// Called when any trigger bind is released.
+        /// If <see cref="UserConfigSettings.HoldToKeepOpen"/> is active and the wheel is visible,
+        /// confirms the selection by notifying the wheel that the key was released.
+        /// </summary>
+        private void OnTriggerBindReleased(string bindName)
+        {
+            if (!Settings.HoldToKeepOpen) return;
+            if (_toolWheel == null || !_toolWheel.Visible) return;
+
+            // Each open-path only listens to its own trigger bind to avoid cross-firing.
+            bool isRelevant =
+                (_wheelOpenedViaBlock          && bindName == FindBlockTriggerBindName()) ||
+                (_wheelOpenedViaQuickAccessKey && bindName == "Quick Access Key");
+
+            if (!isRelevant) return;
+
+            LogDebug($"[HoldToKeepOpen] Released event from '{bindName}'. Calling NotifyKeyReleased().");
+            _toolWheel.NotifyKeyReleased();
+        }
+
+        /// <summary>
+        /// Returns the name of the RHF bind whose assigned key matches <see cref="_blockTriggerKey"/>,
+        /// so the block-opened path can gate its Released handler correctly.
+        /// Returns null if no match is found.
+        /// </summary>
+        private string FindBlockTriggerBindName()
+        {
+            if (_keyBinds == null || _blockTriggerKey == MyKeys.None) return null;
+            foreach (var def in _keyBinds.GetBindDefinitions())
+            {
+                if (def.controlNames == null) continue;
+                foreach (var cn in def.controlNames)
+                {
+                    MyKeys parsed;
+                    if (System.Enum.TryParse(cn, out parsed) && parsed == _blockTriggerKey)
+                        return def.name;
+                }
+            }
+            return null;
+        }
+
+        /// <summary>
+        /// Returns true when <paramref name="currentFrame"/> falls within
+        /// <see cref="DOUBLE_TAP_WINDOW"/> ticks of the previous press stored in
+        /// <paramref name="lastFrame"/>, then resets the tracker.
+        /// On a first (or expired) tap it records <paramref name="currentFrame"/> for the next call.
+        /// </summary>
+        private bool IsDoubleTap(int currentFrame, ref int lastFrame)
+        {
+            int delta = currentFrame - lastFrame;
+            if (lastFrame >= 0 && delta <= DOUBLE_TAP_WINDOW)
+            {
+                lastFrame = -1;
+                return true;
+            }
+            lastFrame = currentFrame;
+            return false;
+        }
+
+        /// <summary>
+        /// Queues <paramref name="type"/> for equip on the next <see cref="UpdateAfterSimulation"/> tick.
+        /// Deactivates the CubeBuilder immediately so the game engine has one full frame to process
+        /// the deactivation before <c>SwitchToWeapon</c> is called — calling both in the same frame
+        /// is silently ignored.
+        /// </summary>
+        private void EquipBestTool(EquippedToolType type)
+        {
+            var builder = MyCubeBuilder.Static;
+            if (builder != null && builder.IsActivated)
+            {
+                LogDebug($"[QuickAccess] CubeBuilder active — deactivating and queuing {type} for next frame.");
+                builder.Deactivate();
+                builder.DeactivateBlockCreation();
+                MyAPIGateway.CubeBuilder.Deactivate();
+                MyAPIGateway.CubeBuilder.DeactivateBlockCreation();
+            }
+            else
+            {
+                LogDebug($"[QuickAccess] CubeBuilder not active — queuing {type} for next frame.");
+            }
+
+            _pendingEquipTool = type;
+        }
+
+        /// <summary>
+        /// Returns the first RHF bind that has <paramref name="key"/> as a control,
+        /// or null if no match is found. Used to check held-state for block-trigger keys.
+        /// </summary>
+        private IBind FindBindForKey(MyKeys key)
+        {
+            if (_keyBinds == null || key == MyKeys.None) return null;
+            var defs = _keyBinds.GetBindDefinitions();
+            foreach (var def in defs)
+            {
+                if (def.controlNames == null) continue;
+                foreach (var cn in def.controlNames)
+                {
+                    MyKeys parsed;
+                    if (System.Enum.TryParse(cn, out parsed) && parsed == key)
+                        return _keyBinds.GetBind(def.name);
+                }
+            }
+            return null;
         }
 
         private void SetupSettingsPage()
         {
             var generalCategory = new ControlCategory()
             {
-                HeaderText = "General",
+                HeaderText = "General Settings",
                 SubheaderText = "Behaviour settings for Easy Tool Access",
             };
 
@@ -453,8 +673,6 @@ namespace PEPCO
                 HeaderText = "Wheel Settings",
                 SubheaderText = "Advanced configuration for wheel behavior",
             };
-
-            var tile = new ControlTile();
 
             var holdToKeepOpenToggle = new TerminalOnOffButton()
             {
@@ -477,6 +695,59 @@ namespace PEPCO
                 Settings.HoldToKeepOpen = holdToKeepOpenToggle.Value;
                 SaveUserConfigSettings("HoldToKeepOpen changed");
                 LogDebug($"[Settings] HoldToKeepOpen set to {Settings.HoldToKeepOpen}");
+            };
+
+            var wheelOpenModeDropdown = new TerminalDropdown<UserConfigSettings.WheelOpenMode>()
+            {
+                Name = "Quick Access Key — Wheel Open",
+                Enabled = true,
+                ToolTip = new ToolTip()
+                {
+                    text = new RichText(
+                        "Off: the Quick Access Key does not open the tool wheel.\n" +
+                        "Single Press: tap once to open the wheel.\n" +
+                        "Double Tap: tap twice quickly to open the wheel (prevents accidental opens).\n\n" +
+                        "Configure the key on the Key Bindings page.\n" +
+                        "Default: Off",
+                        ToolTip.DefaultText
+                    )
+                }
+            };
+            wheelOpenModeDropdown.List.Add("Off",          UserConfigSettings.WheelOpenMode.Off);
+            wheelOpenModeDropdown.List.Add("Single Press",  UserConfigSettings.WheelOpenMode.SinglePress);
+            wheelOpenModeDropdown.List.Add("Double Tap",    UserConfigSettings.WheelOpenMode.DoubleTap);
+            wheelOpenModeDropdown.List.SetSelection((int)Settings.QuickAccessKeyMode);
+
+            wheelOpenModeDropdown.ControlChanged += (sender, args) =>
+            {
+                if (wheelOpenModeDropdown.Value == null) return;
+                Settings.QuickAccessKeyMode = wheelOpenModeDropdown.Value.AssocObject;
+                SaveUserConfigSettings("QuickAccessKeyMode changed");
+                LogDebug($"[Settings] QuickAccessKeyMode set to {Settings.QuickAccessKeyMode}");
+            };
+
+            var toolKeysToggle = new TerminalOnOffButton()
+            {
+                Name = "Tool Keys — Quick Equip",
+                Value = Settings.ToolKeysQuickEquip,
+                Enabled = true,
+                ToolTip = new ToolTip()
+                {
+                    text = new RichText(
+                        "When ON: double-tap Tool Key Welder, Grinder, or Drill to instantly equip\n" +
+                        "the best matching tool in your inventory.\n" +
+                        "Works independently of the Quick Access Key setting.\n\n" +
+                        "Configure the keys on the Key Bindings page.\n" +
+                        "Default: Off",
+                        ToolTip.DefaultText
+                    )
+                }
+            };
+            toolKeysToggle.ControlChanged += (sender, args) =>
+            {
+                Settings.ToolKeysQuickEquip = toolKeysToggle.Value;
+                SaveUserConfigSettings("ToolKeysQuickEquip changed");
+                LogDebug($"[Settings] ToolKeysQuickEquip set to {Settings.ToolKeysQuickEquip}");
             };
 
             var sensitivityDropdown = new TerminalDropdown<UserConfigSettings.CursorSensitivityLevel>()
@@ -530,6 +801,7 @@ namespace PEPCO
 
             var tile2 = new ControlTile();
             var tile3 = new ControlTile();
+            var activationTile = new ControlTile();
 
             selectionModeDropdown.ControlChanged += (sender, args) =>
             {
@@ -548,7 +820,6 @@ namespace PEPCO
                         ToolTip.DefaultText
                     );
                     sensitivityDropdown.Enabled = true;
-                    wheelCategory.Enabled = true;
                 }
                 else if (Settings.SelectionMode == UserConfigSettings.WheelSelectionMode.CursorTracking)
                 {
@@ -560,7 +831,6 @@ namespace PEPCO
                         ToolTip.DefaultText
                     );
                     sensitivityDropdown.Enabled = true;
-                    wheelCategory.Enabled = true;
                 }
                 else if (Settings.SelectionMode == UserConfigSettings.WheelSelectionMode.MouseWheelScroll)
                 {
@@ -572,51 +842,66 @@ namespace PEPCO
                         ToolTip.DefaultText
                     );
                     sensitivityDropdown.Enabled = false;
-                    wheelCategory.Enabled = false;
                 }
             };
 
             // Force an initial trigger to set the correct text when the menu first loads
             selectionModeDropdown.List.SetSelection((int)Settings.SelectionMode);
 
-            tile.Add(holdToKeepOpenToggle);
-            tile2.Add(selectionModeDropdown);
-            tile3.Add(sensitivityDropdown);
-            generalCategory.Add(tile);
-            generalCategory.Add(tile2);
+            // Build the settings layout as requested:
+            // General Settings
+            // ├─ Tile 1: Hold to Keep Open
+            // └─ Tile 2: Wheel Quick Access
+            // 
+            // Wheel Settings
+            // ├─ Wheel Selection Mode
+            // └─ Wheel Cursor Sensitivity
+
+            var generalTile1 = new ControlTile();
+            var generalTile2 = new ControlTile();
+            var wheelTile1 = new ControlTile();
+            var wheelTile2 = new ControlTile();
+
+            generalTile1.Add(holdToKeepOpenToggle);
+            generalCategory.Add(generalTile1);
+            generalTile2.Add(wheelOpenModeDropdown);
+            generalCategory.Add(generalTile2);
+            var generalTile3 = new ControlTile();
+            generalTile3.Add(toolKeysToggle);
+            generalCategory.Add(generalTile3);
             _generalSettingsPage.Add(generalCategory);
-            wheelCategory.Add(tile3);
+
+            wheelTile1.Add(selectionModeDropdown);
+            wheelTile2.Add(sensitivityDropdown);
+            wheelCategory.Add(wheelTile1);
+            wheelCategory.Add(wheelTile2);
             _generalSettingsPage.Add(wheelCategory);
+        }
+
+        private void SetupAboutPage()
+        {
+            bool isDev = ModParameter.IsDebug();
+
+            _aboutPage.HeaderText = new RichText(
+                $"{ModParameter.MODNAME}",
+                GlyphFormat.White
+            );
+
+            _aboutPage.SubHeaderText = new RichText(
+                isDev ? "Developer Build" : "Release Build",
+                isDev ? new GlyphFormat(new VRageMath.Color(255, 220, 0)) : new GlyphFormat(new VRageMath.Color(144, 238, 144))
+            );
+
+            var sb = new System.Text.StringBuilder();
+            sb.AppendLine($"Version:     {ModParameter.PEPCOVERSION}");
+            sb.AppendLine($"Workshop ID: {ModContext.ModId}");
+            sb.AppendLine($"Build type:  {(isDev ? "DEV — debug logging active" : "PROD")}");
+
+            _aboutPage.Text = new RichText(sb.ToString(), GlyphFormat.White);
         }
 
         private void HandleClientUpdates()
         {
-            // Mouse-wheel scrolling while wheel is open
-            if (_toolWheel != null && _toolWheel.Visible)
-            {
-
-                // When HoldToKeepOpen is true, releasing the trigger key auto-confirms.
-                // Keybind path: watch the bound key. Block path: watch the toolbar number key.
-                if (Settings.HoldToKeepOpen)
-                {
-                    bool triggerReleased;
-                    if (_wheelOpenedViaBlock)
-                    {
-                        // No number key was detected (e.g. mouse click on toolbar) — require a click.
-                        triggerReleased = _blockTriggerKey != MyKeys.None
-                            && !MyAPIGateway.Input.IsKeyPress(_blockTriggerKey);
-                    }
-                    else
-                    {
-                        var bind = _keyBinds?.GetBind("Cycle Tool");
-                        triggerReleased = bind != null && !bind.IsPressed;
-                    }
-
-                    if (triggerReleased)
-                        _toolWheel.NotifyKeyReleased();
-                }
-            }
-
             if (RichHudTerminal.Open)
                 _terminalOpen = true;
 
@@ -687,14 +972,28 @@ namespace PEPCO
                             int idx = tempSettings.FindIndex(d => d.name == def.name);
                             if (idx != -1)
                             {
-                                LogDebug($"Updating keybind {def.name} from {string.Join(" + ", Settings.UserConfigKeyBinds[idx].controlNames)} to {string.Join(" + ", def.controlNames)}");
-                                tempSettings[idx] = def;
+                                // Fallback to empty arrays if XML deserialization returned null
+                                string[] oldControls = tempSettings[idx].controlNames ?? new string[0];
+                                string[] newControls = def.controlNames ?? new string[0];
+
+                                LogDebug($"Updating keybind {def.name} from {string.Join(" + ", oldControls)} to {string.Join(" + ", newControls)}");
+
+                                // 1. Copy the struct to a local variable to safely modify it
+                                var updatedDef = def;
+
+                                // 2. Assign the null-safe array to our local copy
+                                updatedDef.controlNames = newControls;
+
+                                // 3. Save the modified struct back into the settings list
+                                tempSettings[idx] = updatedDef;
                             }
                         }
                         Settings.UserConfigKeyBinds = tempSettings;
                     }
 
                     Settings.HoldToKeepOpen = loaded.HoldToKeepOpen;
+                    Settings.QuickAccessKeyMode = loaded.QuickAccessKeyMode;
+                    Settings.ToolKeysQuickEquip = loaded.ToolKeysQuickEquip;
                     Settings.SelectionMode = loaded.SelectionMode;
                     Settings.WheelCursorSensitivity = loaded.WheelCursorSensitivity;
 
@@ -1151,18 +1450,46 @@ namespace PEPCO
                 return;
 
             var character = MyAPIGateway.Session?.Player?.Character;
-            if (character == null) return;
+            if (character == null) 
+            {
+                LogDebug("[OnCycleToolKeybind] Character is null, returning.");
+                return;
+            }
 
-            if (_toolWheel == null || _toolWheel.Visible) return;
+            if (_toolWheel == null) 
+            {
+                LogDebug("[OnCycleToolKeybind] ToolWheel is null, returning.");
+                return;
+            }
+
+            if (_toolWheel.Visible) 
+            {
+                LogDebug("[OnCycleToolKeybind] ToolWheel is already visible, returning.");
+                return;
+            }
+
+            // Reset the quick-access-key flag if the wheel was opened via the block instead
+            if (!_wheelOpenedViaBlock)
+            {
+                _wheelOpenedViaQuickAccessKey = false;
+            }
 
             _currentWheelPage = 0;
             _allSelections = BuildSelections(character.GetInventory() as IMyInventory);
+            LogDebug($"[OnCycleToolKeybind] Built selections, count: {_allSelections.Count}");
 
             _toolWheel.HoldToKeepOpen = Settings.HoldToKeepOpen;
             _toolWheel.SelectionMode = Settings.SelectionMode;
             _toolWheel.OpenedViaBlock = _wheelOpenedViaBlock;
             _toolWheel.BlockTriggerKeyDetected = _blockTriggerKey != MyKeys.None;
-            _toolWheel.Open(GetPageSelections(_currentWheelPage, _allSelections));
+
+            LogDebug($"[OnCycleToolKeybind] HoldToKeepOpen={Settings.HoldToKeepOpen}, SelectionMode={Settings.SelectionMode}, OpenedViaBlock={_wheelOpenedViaBlock}, BlockTriggerKey={_blockTriggerKey}");
+
+            var pageSelections = GetPageSelections(_currentWheelPage, _allSelections);
+            LogDebug($"[OnCycleToolKeybind] Page selections count: {pageSelections.Count}");
+
+            _toolWheel.Open(pageSelections);
+            LogDebug($"[OnCycleToolKeybind] Called _toolWheel.Open(). Visible after call: {_toolWheel.Visible}");
         }
 
         private void OnWheelPageFlip()
@@ -1364,6 +1691,7 @@ namespace PEPCO
         private void OnToolWheelConfirmed(EasyToolSwap_Session.EquippedToolType chosenTool, MyDefinitionId? specificId)
         {
             _wheelOpenedViaBlock = false;
+            _wheelOpenedViaQuickAccessKey = false;
 
             // 1. If the player scrolled to a fake Override_ variant on a mixed slot, resolve it
             //    directly to the correct equip delegate before touching the inventory at all.
@@ -1445,6 +1773,7 @@ namespace PEPCO
         private void OnWheelClosed()
         {
             _wheelOpenedViaBlock = false;
+            _wheelOpenedViaQuickAccessKey = false;
         }
 
         private void OnToolWheelCancelled()

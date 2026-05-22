@@ -65,6 +65,16 @@ namespace PEPCO
             MouseWheelScroll = 2
         }
 
+        /// <summary>
+        /// Controls how the Quick Access Key opens the tool wheel.
+        /// </summary>
+        public enum WheelOpenMode
+        {
+            Off         = 0,
+            SinglePress = 1,
+            DoubleTap   = 2,
+        }
+
         public List<BindDefinition> UserConfigKeyBinds = new List<BindDefinition>();
 
         /// <summary>
@@ -87,6 +97,19 @@ namespace PEPCO
         /// Low = 0.35, Medium = 0.4, High = 0.55
         /// </summary>
         public CursorSensitivityLevel WheelCursorSensitivity { get; set; } = CursorSensitivityLevel.Medium;
+
+        /// <summary>
+        /// <summary>
+        /// Controls whether and how the Quick Access Key opens the tool wheel.
+        /// SinglePress opens on first press; DoubleTap requires two presses within the window.
+        /// </summary>
+        public WheelOpenMode QuickAccessKeyMode { get; set; } = WheelOpenMode.Off;
+
+        /// <summary>
+        /// When true, double-tapping Tool Key Welder/Grinder/Drill directly equips the
+        /// best matching tool in inventory, independent of the Quick Access Key setting.
+        /// </summary>
+        public bool ToolKeysQuickEquip { get; set; } = false;
 
         /// <summary>
         /// User-configured wheel slot layout. Serialised to XML.

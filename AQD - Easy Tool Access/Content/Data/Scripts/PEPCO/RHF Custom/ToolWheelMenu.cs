@@ -222,7 +222,6 @@ namespace PEPCO
                 if (Variants != null && Variants.Count > 0)
                 {
                     _icon.Material = GetIconForVariant(Variants[VariantIndex]);
-                    Log.Info("SetVariants for " + _baseName + ": " + Variants.Count + " variants, selected index " + VariantIndex +"\nMaterial: " + _icon.Material.TextureID);
                 }
             }
 
@@ -250,7 +249,6 @@ namespace PEPCO
 
                 // Dynamically update the icon when scrolling!
                 _icon.Material = GetIconForVariant(Variants[VariantIndex]);
-                Log.Info("CycleVariant for " + _baseName + ": new index " + VariantIndex + "\nMaterial: " + _icon.Material.TextureID);
             }
 
             /// <summary>
