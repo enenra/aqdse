@@ -1,6 +1,6 @@
 ![](https://i.imgur.com/fVVaDCS.gif)
 
-**Current version:** [1.3](https://steamcommunity.com/sharedfiles/filedetails/changelog/3707426899)
+**Current version:** [1.4](https://steamcommunity.com/sharedfiles/filedetails/changelog/3707426899)
 
 ![img](https://raw.githubusercontent.com/enenra/aqdse/master/assets/Description.jpg)
 
@@ -20,6 +20,7 @@ This mod adds the Tool/Weapon Access wheel. It allows for lightning-quick switch
 * Automatically recognizes all vanilla tools in your inventory.
 * Features a settings page (F2 to bring up the menu) where you can bind the wheel onto a dedicated hotkey (default: Ctrl + T), and change settings to adjust its behavior to your preferences.
 * Rebind the slots tools are assigned to in the F2 menu, or add / remove tools from it in the F2 menu.
+* Bind arbitrary hotkeys to Welder, Grinder and Drill tools, skipping the use of the wheel entirely.
 
 ![](https://raw.githubusercontent.com/enenra/aqdse/master/assets/Notes.jpg)
 
