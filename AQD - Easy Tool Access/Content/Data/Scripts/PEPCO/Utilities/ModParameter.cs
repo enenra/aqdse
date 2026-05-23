@@ -19,7 +19,7 @@ namespace EasyToolSwap_DEV.Utilities
         /// Human-readable mod version string.
         /// Often replaced/injected by a build script; keep stable formatting for tooling.
         /// </summary>
-        public static readonly string PEPCOVERSION = "1779390384";
+        public static readonly string PEPCOVERSION = "1779533190";
         public static readonly string DEV_WORKSHOP_ID = "3703710604"; // DEV mod workshop ID (PROD-side killswitch)
 
         public static bool IsDebug()

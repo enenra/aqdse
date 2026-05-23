@@ -66,7 +66,7 @@ namespace PEPCO
         }
 
         /// <summary>
-        /// Controls how the Quick Access Key opens the tool wheel.
+        /// Controls how the Easy Tool Access Key opens the tool wheel.
         /// </summary>
         public enum WheelOpenMode
         {
@@ -100,14 +100,14 @@ namespace PEPCO
 
         /// <summary>
         /// <summary>
-        /// Controls whether and how the Quick Access Key opens the tool wheel.
+        /// Controls whether and how the Easy Tool Access Key opens the tool wheel.
         /// SinglePress opens on first press; DoubleTap requires two presses within the window.
         /// </summary>
         public WheelOpenMode QuickAccessKeyMode { get; set; } = WheelOpenMode.Off;
 
         /// <summary>
         /// When true, double-tapping Tool Key Welder/Grinder/Drill directly equips the
-        /// best matching tool in inventory, independent of the Quick Access Key setting.
+        /// best matching tool in inventory, independent of the Easy Tool Access Key setting.
         /// </summary>
         public bool ToolKeysQuickEquip { get; set; } = false;
 

@@ -143,7 +143,7 @@ namespace PEPCO
         // When true the wheel was opened by the fake block rather than the keybind.
         private bool _wheelOpenedViaBlock = false;
 
-        // When true the wheel was opened by the Quick Access Key (any mode).
+        // When true the wheel was opened by the Easy Tool Access Key (any mode).
         private bool _wheelOpenedViaQuickAccessKey = false;
 
         // The toolbar number key that was held when the fake block fired, or None if not found.
@@ -414,7 +414,7 @@ namespace PEPCO
         {
             var defaultKeyBinds = new BindGroupInitializer
             {
-                { "Quick Access Key", -1 },
+                { "Easy Tool Access Key", -1 },
                 { "Tool Key Welder",    MyKeys.D1 },
                 { "Tool Key Grinder",   MyKeys.D2 },
                 { "Tool Key Drill",     MyKeys.D3 },
@@ -494,11 +494,11 @@ namespace PEPCO
             _keyBinds.RegisterBinds(Settings.UserConfigKeyBinds);
             _bindsPage.Add(_keyBinds);
 
-            _keyBinds.GetBind("Quick Access Key").NewPressed += (s, a) =>
+            _keyBinds.GetBind("Easy Tool Access Key").NewPressed += (s, a) =>
             {
                 if (Settings.QuickAccessKeyMode == UserConfigSettings.WheelOpenMode.SinglePress)
                 {
-                    LogDebug("[QuickAccess] Quick Access Key single-press detected.");
+                    LogDebug("[QuickAccess] Easy Tool Access Key single-press detected.");
                     _wheelOpenedViaQuickAccessKey = true;
                     OnCycleToolKeybind();
                 }
@@ -507,13 +507,13 @@ namespace PEPCO
                     int frame = MyAPIGateway.Session.GameplayFrameCounter;
                     if (IsDoubleTap(frame, ref _lastWheelKeyFrame))
                     {
-                        LogDebug("[QuickAccess] Quick Access Key double-tap detected.");
+                        LogDebug("[QuickAccess] Easy Tool Access Key double-tap detected.");
                         _wheelOpenedViaQuickAccessKey = true;
                         OnCycleToolKeybind();
                     }
                 }
             };
-            _keyBinds.GetBind("Quick Access Key").Released += (s, a) => OnTriggerBindReleased("Quick Access Key");
+            _keyBinds.GetBind("Easy Tool Access Key").Released += (s, a) => OnTriggerBindReleased("Easy Tool Access Key");
 
             _keyBinds.GetBind("Tool Key Welder").NewPressed += (s, a) =>
             {
@@ -550,7 +550,7 @@ namespace PEPCO
 
             // Block-trigger keys: subscribe Released on every bind so that whichever key the
             // player happened to be pressing when the fake block fired will auto-confirm the wheel.
-            foreach (var bindName in new[] { "Tool Key Welder", "Tool Key Grinder", "Tool Key Drill", "Quick Access Key" })
+            foreach (var bindName in new[] { "Tool Key Welder", "Tool Key Grinder", "Tool Key Drill", "Easy Tool Access Key" })
                 _keyBinds.GetBind(bindName).Released += (s, a) => OnTriggerBindReleased(bindName);
         }
 
@@ -567,7 +567,7 @@ namespace PEPCO
             // Each open-path only listens to its own trigger bind to avoid cross-firing.
             bool isRelevant =
                 (_wheelOpenedViaBlock          && bindName == FindBlockTriggerBindName()) ||
-                (_wheelOpenedViaQuickAccessKey && bindName == "Quick Access Key");
+                (_wheelOpenedViaQuickAccessKey && bindName == "Easy Tool Access Key");
 
             if (!isRelevant) return;
 
@@ -699,12 +699,12 @@ namespace PEPCO
 
             var wheelOpenModeDropdown = new TerminalDropdown<UserConfigSettings.WheelOpenMode>()
             {
-                Name = "Quick Access Key — Wheel Open",
+                Name = "Easy Tool Access Key — Wheel Open",
                 Enabled = true,
                 ToolTip = new ToolTip()
                 {
                     text = new RichText(
-                        "Off: the Quick Access Key does not open the tool wheel.\n" +
+                        "Off: the Easy Tool Access Key does not open the tool wheel.\n" +
                         "Single Press: tap once to open the wheel.\n" +
                         "Double Tap: tap twice quickly to open the wheel (prevents accidental opens).\n\n" +
                         "Configure the key on the Key Bindings page.\n" +
@@ -736,7 +736,7 @@ namespace PEPCO
                     text = new RichText(
                         "When ON: double-tap Tool Key Welder, Grinder, or Drill to instantly equip\n" +
                         "the best matching tool in your inventory.\n" +
-                        "Works independently of the Quick Access Key setting.\n\n" +
+                        "Works independently of the Easy Tool Access Key setting.\n\n" +
                         "Configure the keys on the Key Bindings page.\n" +
                         "Default: Off",
                         ToolTip.DefaultText
@@ -1466,12 +1466,6 @@ namespace PEPCO
             {
                 LogDebug("[OnCycleToolKeybind] ToolWheel is already visible, returning.");
                 return;
-            }
-
-            // Reset the quick-access-key flag if the wheel was opened via the block instead
-            if (!_wheelOpenedViaBlock)
-            {
-                _wheelOpenedViaQuickAccessKey = false;
             }
 
             _currentWheelPage = 0;
