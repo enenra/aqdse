@@ -223,7 +223,7 @@ namespace aqd.AppCustomAdvertisements
                             Image = imgText;
                             break;
                         }
-                        else if (texture.DisplayNameText == imgText)
+                        else if (MyTexts.GetString(texture.LocalizationId) == imgText)
                         {
                             _ini.Set("CustomAds", "image", texture.Id.SubtypeId.String);
                             Block.CustomData = _ini.ToString();
@@ -241,7 +241,7 @@ namespace aqd.AppCustomAdvertisements
                             BackgroundImage = bgImgText;
                             break;
                         }
-                        else if (texture.DisplayNameText == bgImgText)
+                        else if (MyTexts.GetString(texture.LocalizationId) == bgImgText)
                         {
                             _ini.Set("CustomAds", "bg_img", texture.Id.SubtypeId.String);
                             Block.CustomData = _ini.ToString();

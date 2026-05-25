@@ -1,6 +1,6 @@
 ![](https://i.imgur.com/fVVaDCS.gif)
 
-**Current version:** [1.0](https://steamcommunity.com/sharedfiles/filedetails/changelog/)
+**Current version:** [1.0a](https://steamcommunity.com/sharedfiles/filedetails/changelog/)
 
 ![img](https://raw.githubusercontent.com/enenra/aqdse/master/assets/Description.jpg)
 
@@ -19,12 +19,12 @@ This mod adds a new LCD App named "Custom Advertisements" which allows players t
 
 ![](https://raw.githubusercontent.com/enenra/aqdse/master/assets/Setup.jpg)
 
-1. On a billdboard LCD block, select the "Custom Advertisements" LCD App (under content type: Apps) for one or multiple screens.
+1. On a billboard LCD block, select the "Custom Advertisements" LCD App (under content type: Apps) for one or multiple screens.
 2. Open the block's Custom Data. If the Custom Data was previously empty, a template config should now be present in it. If not, refer to the syntax below to add it.
 3. If a billboard LCD block has multiple screens, the config will apply to all of them - this cannot be changed. However, you can use other content types on the other screens as well. But they will all create a GPS when interacted with.
-4. For image and bg_image you can either enter the SubtypeId of the LCD Image. For a list of all image options, see the [Sprite Listing](https://malforge.github.io/spaceengineers/pbapi/Sprite-Listing). Mods can, of course, add more to this list.
+4. For image and bg_image you can either enter the SubtypeId or the name of the LCD Image (though in the latter case it will automatically be converted into the SubtypeId). For a list of all image options, see the [Sprite Listing](https://malforge.github.io/spaceengineers/pbapi/Sprite-Listing). Mods can, of course, add more to this list.
 5. You can add up to ten (0-9) CustomAdsText entries into the Custom Data. Note the syntax below.
-6. If you want to use a monospace image via Whip's Image Converter, place "--" at the end of your Custom Data and then paste the code on the line below it. Only one is supported per block.
+6. If you want to use a monospace image via Whip's Image Converter, place "---" at the end of your Custom Data and then paste the code on the line below it. Only one is supported per block.
 
 ```
 [CustomAds]
