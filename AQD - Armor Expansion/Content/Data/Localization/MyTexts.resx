@@ -229,6 +229,10 @@
     <value>Heavy Armor Slope 3x1 Corner</value>
     <comment/>
   </data>
+  <data name="DisplayName_AQD_LG_HA_Slope3x1_CornerSplit" xml:space="preserve">
+    <value>Heavy Armor Slope 3x1 Corner Split</value>
+    <comment/>
+  </data>
   <data name="DisplayName_AQD_LG_HA_Slope3x1_InvCorner" xml:space="preserve">
     <value>Heavy Armor Slope 3x1 Inverted Corner</value>
     <comment/>
@@ -357,6 +361,10 @@
     <value>Light Armor Slope 3x1 Corner</value>
     <comment/>
   </data>
+  <data name="DisplayName_AQD_LG_LA_Slope3x1_CornerSplit" xml:space="preserve">
+    <value>Light Armor Slope 3x1 Corner Split</value>
+    <comment/>
+  </data>
   <data name="DisplayName_AQD_LG_LA_Slope3x1_InvCorner" xml:space="preserve">
     <value>Light Armor Slope 3x1 Inverted Corner</value>
     <comment/>
@@ -401,6 +409,10 @@
     <value>Heavy Armor Slope 3x1 Corner</value>
     <comment/>
   </data>
+  <data name="DisplayName_AQD_SG_HA_Slope3x1_CornerSplit" xml:space="preserve">
+    <value>Heavy Armor Slope 3x1 Corner Split</value>
+    <comment/>
+  </data>
   <data name="DisplayName_AQD_SG_HA_Slope3x1_InvCorner" xml:space="preserve">
     <value>Heavy Armor Slope 3x1 Inverted Corner</value>
     <comment/>
@@ -443,6 +455,10 @@
   </data>
   <data name="DisplayName_AQD_SG_LA_Slope3x1_Corner" xml:space="preserve">
     <value>Light Armor Slope 3x1 Corner</value>
+    <comment/>
+  </data>
+  <data name="DisplayName_AQD_SG_LA_Slope3x1_CornerSplit" xml:space="preserve">
+    <value>Light Armor Slope 3x1 Corner Split</value>
     <comment/>
   </data>
   <data name="DisplayName_AQD_SG_LA_Slope3x1_InvCorner" xml:space="preserve">
