@@ -31,6 +31,7 @@
 
         <string>CubeBlock/AQD_LG_HA_Slope5x1</string>
         <string>CubeBlock/AQD_LG_HA_Slope5x1_Corner</string>
+        <string>CubeBlock/AQD_LG_HA_Slope5x1_CornerSplit</string>
         <string>CubeBlock/AQD_LG_HA_Slope5x1_InvCorner</string>
         <string>CubeBlock/AQD_LG_HA_Slope5x1_Transition</string>
         <string>CubeBlock/AQD_LG_HA_Slope5x1_TransitionMirror</string>
@@ -56,6 +57,7 @@
 
         <string>CubeBlock/AQD_LG_LA_Slope5x1</string>
         <string>CubeBlock/AQD_LG_LA_Slope5x1_Corner</string>
+        <string>CubeBlock/AQD_LG_LA_Slope5x1_CornerSplit</string>
         <string>CubeBlock/AQD_LG_LA_Slope5x1_InvCorner</string>
         <string>CubeBlock/AQD_LG_LA_Slope5x1_Transition</string>
         <string>CubeBlock/AQD_LG_LA_Slope5x1_TransitionMirror</string>
@@ -96,6 +98,7 @@
 
         <string>CubeBlock/AQD_SG_HA_Slope5x1</string>
         <string>CubeBlock/AQD_SG_HA_Slope5x1_Corner</string>
+        <string>CubeBlock/AQD_SG_HA_Slope5x1_CornerSplit</string>
         <string>CubeBlock/AQD_SG_HA_Slope5x1_InvCorner</string>
         <string>CubeBlock/AQD_SG_HA_Slope5x1_Transition</string>
         <string>CubeBlock/AQD_SG_HA_Slope5x1_TransitionMirror</string>
@@ -121,6 +124,7 @@
 
         <string>CubeBlock/AQD_SG_LA_Slope5x1</string>
         <string>CubeBlock/AQD_SG_LA_Slope5x1_Corner</string>
+        <string>CubeBlock/AQD_SG_LA_Slope5x1_CornerSplit</string>
         <string>CubeBlock/AQD_SG_LA_Slope5x1_InvCorner</string>
         <string>CubeBlock/AQD_SG_LA_Slope5x1_Transition</string>
         <string>CubeBlock/AQD_SG_LA_Slope5x1_TransitionMirror</string>
@@ -160,6 +164,7 @@
 
         <string>CubeBlock/AQD_LG_HA_Slope5x1</string>
         <string>CubeBlock/AQD_LG_HA_Slope5x1_Corner</string>
+        <string>CubeBlock/AQD_LG_HA_Slope5x1_CornerSplit</string>
         <string>CubeBlock/AQD_LG_HA_Slope5x1_InvCorner</string>
         <string>CubeBlock/AQD_LG_HA_Slope5x1_Transition</string>
         <string>CubeBlock/AQD_LG_HA_Slope5x1_TransitionMirror</string>
@@ -185,6 +190,7 @@
 
         <string>CubeBlock/AQD_LG_LA_Slope5x1</string>
         <string>CubeBlock/AQD_LG_LA_Slope5x1_Corner</string>
+        <string>CubeBlock/AQD_LG_LA_Slope5x1_CornerSplit</string>
         <string>CubeBlock/AQD_LG_LA_Slope5x1_InvCorner</string>
         <string>CubeBlock/AQD_LG_LA_Slope5x1_Transition</string>
         <string>CubeBlock/AQD_LG_LA_Slope5x1_TransitionMirror</string>
