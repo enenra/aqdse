@@ -18,13 +18,18 @@ MOD_NAME_OVERRIDE = ""
 
 DRY_RUN = False
 
+
 def md_to_steam_bbcode(md: str) -> str:
     bbcode = []
 
     open_quote = False
+    open_code = False
 
     open_b = False
     open_i = False
+
+    open_list = False
+    open_olist = False
 
     previous_new_l = ""
 
@@ -62,15 +67,39 @@ def md_to_steam_bbcode(md: str) -> str:
             new_l = new_l.replace("# ", "[h1]") + "[/h1]"
 
         # Unordered Lists
-        if new_l.startswith("* "):
+        if new_l.startswith("* ") and not open_olist:
             new_l = new_l.replace("* ", "[*]", 1)
-            if not bbcode == [] and not previous_new_l.startswith("[*]"):
+            if not bbcode == [] and not previous_new_l.startswith("[*]") and not open_olist:
                 bbcode[-1] = bbcode[-1] + "[list]" + "\n"
-            if lines.index(l) + 1 >= len(lines):
+                open_list = True
+            if lines.index(l) + 1 >= len(lines) and open_list:
                 new_l += "\n[/list]"
+                open_list = False
         else:
-            if previous_new_l.startswith("[*]") and not new_l.startswith("* "):
+            if previous_new_l.startswith("[*]") and not new_l.startswith("* ") and open_list:
                 new_l = "[/list]\n" + new_l
+                open_list = False
+
+        # Ordered Lists
+        pattern = r'^\d+\.\s'
+        matches = re.findall(pattern, new_l)
+        found = False
+        match = ""
+        for match in matches:
+            if match in new_l:
+                found = True
+        if new_l.startswith(match) and not open_list and found:
+            new_l = new_l.replace(match, "[*]", 1)
+            if not bbcode == [] and not previous_new_l.startswith("[*]"):
+                bbcode[-1] = bbcode[-1] + "[olist]" + "\n"
+                open_olist = True
+            if lines.index(l) + 1 >= len(lines) and open_olist:
+                new_l += "\n[/olist]"
+                open_olist = False
+        else:
+            if previous_new_l.startswith("[*]") and open_olist:
+                new_l = "[/olist]\n" + new_l
+                open_olist = False
 
         # Quote
         if new_l.startswith("> "):
@@ -85,6 +114,15 @@ def md_to_steam_bbcode(md: str) -> str:
             if open_quote:
                 new_l = "[/quote]\n" + new_l
                 open_quote = False
+
+        if "```" in new_l:
+            while "```" in new_l:
+                if open_code:
+                    new_l = new_l.replace("```", "[/code]", 1)
+                    open_code = False
+                else:
+                    new_l = new_l.replace("```", "[code]", 1)
+                    open_code = True
 
         if "**" in new_l:
             while "**" in new_l:
@@ -103,6 +141,9 @@ def md_to_steam_bbcode(md: str) -> str:
                 else:
                     new_l = new_l.replace("*", "[i]", 1)
                     open_i = True
+
+        if "&#39;" in new_l:
+            new_l = new_l.replace("&#39;", "'")
 
         if previous_new_l.endswith("[/h1]\n") or previous_new_l.endswith("[/h2]\n") or previous_new_l.endswith("[/h3]\n") or new_l.endswith("[/img]"):
             pass
