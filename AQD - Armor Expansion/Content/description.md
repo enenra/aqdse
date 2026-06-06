@@ -1,6 +1,6 @@
 ![](https://i.imgur.com/fVVaDCS.gif)
 
-**Current version:** [2.2](https://steamcommunity.com/sharedfiles/filedetails/changelog/1939935505)
+**Current version:** [2.2a](https://steamcommunity.com/sharedfiles/filedetails/changelog/1939935505)
 
 ![img](https://raw.githubusercontent.com/enenra/aqdse/master/assets/Description.jpg)
 

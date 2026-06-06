@@ -1,3 +1,3 @@
-# Patch 2.2
+# Patch 2.2a
 
-* Added Corner Split blocks for 3x1, 4x1 and 5x1 slopes.
+* Fixed panel lines on 5x1 Corner Split with Weldless armor skin.
