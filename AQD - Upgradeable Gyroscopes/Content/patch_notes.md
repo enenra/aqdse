@@ -1,4 +1,3 @@
-[h1]Patch 1.1d[/h1]
-[list]
-[*]Fix for upgrade module mirroring.
-[/list]
+# Patch 1.1e
+
+* Compatibility with the SE 1.210 update. Thanks to BDCarrillo for the fix.

@@ -10,6 +10,7 @@ using VRage.ObjectBuilders;
 using VRageMath;
 using static GyroAnimations.EmissiveValues;
 
+
 namespace GyroAnimations
 {
     [MyEntityComponentDescriptor(typeof(MyObjectBuilder_Gyro), false, new string[] { "SmallBlockGyro" })]
@@ -72,7 +73,7 @@ namespace GyroAnimations
                 SetEmissiveColor(Gyro);
             }
 
-            if (!Vector3.IsZero(Gyro.CubeGrid.Physics.AngularVelocity))
+            if (!Vector3.IsZero(Gyro.CubeGrid.Physics.AngularVelocity) && SubpartOuter.PositionComp != null)
                 RotateSubparts();
         }
 

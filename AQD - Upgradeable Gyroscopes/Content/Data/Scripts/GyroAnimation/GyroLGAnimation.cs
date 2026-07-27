@@ -76,7 +76,7 @@ namespace GyroAnimations
                 SetEmissiveColor(Gyro);
             }
 
-            if (!Vector3.IsZero(Gyro.CubeGrid.Physics.AngularVelocity))
+            if (!Vector3.IsZero(Gyro.CubeGrid.Physics.AngularVelocity) && SubpartOuter.PositionComp != null && SubpartInner.PositionComp != null)
                 RotateSubparts();
         }
 
