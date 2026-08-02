@@ -34,4 +34,4 @@ The Gyro Booster increases the output of any vanilla Gyro mounted to it by 2x wh
 * **Ash Like Snow** - For creating the amazing script that makes the gyroscopes spin in accordance with grid movement!
 * **BDCarrillo** - For fixing the script up for the 1.210 SE update.
 
-[![img](https://raw.githubusercontent.com/enenra/aqdse/master/usage_guidelines.png)](https://steamcommunity.com/workshop/discussions/18446744073709551615/2793874853443195941/?appid=244850)
+[![](https://raw.githubusercontent.com/enenra/aqdse/master/usage_guidelines.png)](https://steamcommunity.com/workshop/discussions/18446744073709551615/2793874853443195941/?appid=244850)
