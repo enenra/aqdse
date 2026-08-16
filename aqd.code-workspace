@@ -60,6 +60,9 @@
         },
         {
             "path": "../Nebula-Mod"
+        },
+        {
+            "path": "../Modular-Encounters-Systems-Avatar"
         }
     ],
     "settings": {
