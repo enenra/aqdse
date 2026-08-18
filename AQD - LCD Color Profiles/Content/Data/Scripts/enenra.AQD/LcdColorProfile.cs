@@ -26,7 +26,7 @@ namespace AQD.LcdColorProfiles {
 
 		public LcdColorProfile(IMyTerminalBlock block) {
 
-            IMyTextSurfaceProvider SurfaceProvider = block as IMyTextSurfaceProvider;
+            var SurfaceProvider = block as IMyTextSurfaceProvider;
             if (SurfaceProvider == null)
                 return;
 

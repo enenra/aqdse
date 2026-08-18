@@ -197,7 +197,10 @@ namespace AQD.LcdColorProfiles
             if (!LcdColorProfiles.TryGetValue(SelectedProfile.ToString(), out profile))
                 return;
 
-            IMyTextSurfaceProvider SurfaceProvider = (IMyTextSurfaceProvider)block;
+            var SurfaceProvider = block as IMyTextSurfaceProvider;
+            if (SurfaceProvider == null)
+                return;
+
             if (SurfaceProvider.SurfaceCount == 0)
                 return;
 
@@ -286,7 +289,10 @@ namespace AQD.LcdColorProfiles
             if (block as IMyTerminalBlock == null)
                 return;
 
-            IMyTextSurfaceProvider SurfaceProvider = (IMyTextSurfaceProvider)block;
+            var SurfaceProvider = block as IMyTextSurfaceProvider;
+            if (SurfaceProvider == null)
+                return;
+
             if (SurfaceProvider.SurfaceCount == 0)
                 return;
 
