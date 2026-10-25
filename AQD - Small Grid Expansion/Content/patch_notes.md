@@ -1,3 +1,3 @@
-# Update 1.2b
+# Update 1.3
 
-* Fixed large grid freight containers no longer being available.
+* Colorful icons.
