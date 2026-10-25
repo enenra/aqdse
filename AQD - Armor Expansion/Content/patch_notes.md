@@ -1,3 +1,3 @@
-# Patch 2.2a
+# Patch 2.3
 
-* Fixed panel lines on 5x1 Corner Split with Weldless armor skin.
+* Colorful icons.
