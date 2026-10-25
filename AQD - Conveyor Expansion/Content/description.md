@@ -1,4 +1,4 @@
-[h1]Current version: [b]2.1d[/b][/h1]
+[h1]Current version: [b]2.2[/b][/h1]
 [i]Please refer to the [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/1864380341]changelog[/url] for patch notes.[/i]
 
 [img]https://i.imgur.com/cdhLXnQ.png[/img]
@@ -36,7 +36,6 @@ Furthermore, the mod contains armored versions of all conveyor tube shapes:
 [url=https://discord.gg/QtyCsBr][img]https://i.imgur.com/l8exfyn.png[/img][/url]
 [url=https://github.com/enenra/aqdse][img]https://i.imgur.com/T7AtPhP.png[/img][/url]
 
-
 [img]https://i.imgur.com/7Yen2BR.png[/img]
 
 [h1]General notes[/h1]
@@ -45,7 +44,6 @@ Furthermore, the mod contains armored versions of all conveyor tube shapes:
 [*]I will add additional blocks to the pack but I'm as of now not committing to adding additional conveyor shapes. I've got some ideas there but I think what I've got in now covers most use cases and at some point, adding too many shapes will make using all of them more annoying.
 [*]The conveyors are only for large grid. I don't currently have plans to make versions for small grid.
 [/list]
-
 
 [img]https://i.imgur.com/uUOBTpF.png[/img]
 
