@@ -10,7 +10,7 @@
       </Id>
       <DisplayName>{LOC:DisplayName_AQD_LG_ReinforcedWindow_1x1Corner}</DisplayName>
       <Description>{LOC:Description_AQD_ReinforcedWindows}</Description>
-      <Icon>Textures\GUI\Icons\Cubes\AQD_ReinforcedWindow_1x1Corner.png</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_ReinforcedWindow_1x1Corner.dds</Icon>
       <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>
@@ -50,7 +50,7 @@
 			</Id>
 			<DisplayName>{LOC:DisplayName_AQD_SG_ReinforcedWindow_1x1Corner}</DisplayName>
 			<Description>{LOC:Description_AQD_ReinforcedWindows}</Description>
-			<Icon>Textures\GUI\Icons\Cubes\AQD_ReinforcedWindow_1x1Corner.png</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_ReinforcedWindow_1x1Corner.dds</Icon>
       <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
 			<CubeSize>Small</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>

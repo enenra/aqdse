@@ -1,4 +1,4 @@
-[h1]Patch 1.1d[/h1]
+[h1]Patch 1.2[/h1]
 [list]
-[*]SE 1.205 Contact Patch compatibility. (BlockCategories)
+[*]Colorful icons.
 [/list]
