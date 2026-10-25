@@ -1,4 +1,4 @@
-[h1]Patch 1.1[/h1]
+[h1]Patch 1.2[/h1]
 [list]
-[*]Added damage reduction multiplier to all airlock connectors.
+[*]Colorful icons.
 [/list]
