@@ -1,3 +1,3 @@
-# Patch 1.1e
+# Patch 1.2
 
-* Compatibility with the SE 1.210 update. Thanks to BDCarrillo for the fix.
+* Colorful icons.
