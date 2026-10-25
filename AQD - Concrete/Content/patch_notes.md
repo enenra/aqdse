@@ -1,4 +1,4 @@
-[h1]Patch 2.0c[/h1]
+[h1]Patch 2.1[/h1]
 [list]
-[*]Reduced deformation further - unfortunately it's not possible to completely avoid.
+[*]Colorful icons.
 [/list]
