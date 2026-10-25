@@ -10,7 +10,7 @@
       </Id>
       <DisplayName>{LOC:DisplayName_AQD_LG_SleekCorridor_T}</DisplayName>
       <Description>{LOC:Description_AQD_SleekCorridors}</Description>
-      <Icon>Textures\GUI\Icons\Cubes\AQD_SleekCorridor_T.png</Icon>
+      <Icon>Textures\GUI\Icons\Cubes\AQD_SleekCorridor_T.dds</Icon>
       <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
       <CubeSize>Large</CubeSize>
       <BlockTopology>TriangleMesh</BlockTopology>

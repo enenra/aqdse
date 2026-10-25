@@ -9,7 +9,7 @@
 			</Id>
 			<DisplayName>{LOC:DisplayName_AQD_LG_SleekCorridor_Straight}</DisplayName>
 			<Description>{LOC:Description_AQD_SleekCorridors}</Description>
-			<Icon>Textures\GUI\Icons\Cubes\AQD_SleekCorridor_Straight.png</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_SleekCorridor_Straight.dds</Icon>
       <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
@@ -55,7 +55,7 @@
 			</Id>
 			<DisplayName>{LOC:DisplayName_AQD_LG_SleekCorridor_StraightLight}</DisplayName>
 			<Description>{LOC:Description_AQD_SleekCorridors}</Description>
-			<Icon>Textures\GUI\Icons\Cubes\AQD_SleekCorridor_StraightLight.png</Icon>
+			<Icon>Textures\GUI\Icons\Cubes\AQD_SleekCorridor_StraightLight.dds</Icon>
       <Icon>Textures\GUI\Icons\Cubes\AQD_Logo.dds</Icon>
 			<CubeSize>Large</CubeSize>
 			<BlockTopology>TriangleMesh</BlockTopology>
