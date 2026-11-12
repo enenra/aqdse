@@ -51,6 +51,7 @@ namespace PEPCO
             HandScanner = 10,
             BuildInfoMultiTool = 11,
             TerrainTool = 12,
+            RailLinker = 13,
         }
 
         // Tracks what is currently physically in the player's hands
@@ -100,6 +101,12 @@ namespace PEPCO
         /// Populated during <see cref="InitOnce"/>.
         /// </summary>
         public static bool IsBinocularsInstalled { get; private set; }
+
+        /// <summary>
+        /// True when the MagRail mod (Workshop ID 3824475128) is active in the current session.
+        /// Populated during <see cref="InitOnce"/>.
+        /// </summary>
+        public static bool IsRailLinkerInstalled { get; private set; }
 
         // Mod metadata
         private readonly string USERCONFIGFILENAME = ModParameter.MODNAME + "_Config.xml";
@@ -310,6 +317,7 @@ namespace PEPCO
                     else if (subtype.Contains("PaintGun")) currentlyDetectedTool = EquippedToolType.PaintGun;
                     else if (subtype.Contains("TerrainTool")) currentlyDetectedTool = EquippedToolType.TerrainTool;
                     else if (subtype.Contains("Binoculars")) currentlyDetectedTool = EquippedToolType.Binoculars;
+                    else if (subtype.Contains("RailLinker")) currentlyDetectedTool = EquippedToolType.RailLinker;
                 }
 
                 // If the tool in their hands actually changed, update our trackers and log it
@@ -435,6 +443,9 @@ namespace PEPCO
 
             IsBinocularsInstalled = IsModDetected(2777644246, "Binoculars");
             LogDebug($"[Init] Binoculars mod installed: {IsBinocularsInstalled}");
+
+            IsRailLinkerInstalled = IsModDetected(3824475128, "MagRail") || IsModDetected(3810130823, "Maglev");
+            LogDebug($"[Init] MagRail (Rail Linker) mod installed: {IsRailLinkerInstalled}");
 
             bool isBuildInfoInstalled = IsModDetected(514062285, "Build Info");
             LogDebug($"[Init] Build Info mod installed: {isBuildInfoInstalled}");
@@ -1176,6 +1187,7 @@ namespace PEPCO
                 case EquippedToolType.Binoculars: return new string[] { "Binoculars" };
                 case EquippedToolType.HandScanner: return new string[] { "HandDrill", "Scanner" };
                 case EquippedToolType.TerrainTool: return new string[] { "TerrainTool" };
+                case EquippedToolType.RailLinker: return new string[] { "RailLinker" };
                 default: return null;
             }
         }
@@ -1188,6 +1200,7 @@ namespace PEPCO
                 case EquippedToolType.ConcreteTool: return IsConcreteToolInstalled;
                 case EquippedToolType.TerrainTool: return IsTerrainToolInstalled;
                 case EquippedToolType.Binoculars: return IsBinocularsInstalled;
+                case EquippedToolType.RailLinker: return IsRailLinkerInstalled;
                 case EquippedToolType.BuildInfoMultiTool: return _toolOverrides.ContainsKey(EquippedToolType.BuildInfoMultiTool);
                 default: return true; // Vanilla tools are always considered installed
             }
@@ -1289,7 +1302,7 @@ namespace PEPCO
             {
                 EquippedToolType.PaintGun,      EquippedToolType.ConcreteTool,
                 EquippedToolType.TerrainTool,   EquippedToolType.Binoculars,
-                EquippedToolType.BuildInfoMultiTool
+                EquippedToolType.BuildInfoMultiTool, EquippedToolType.RailLinker
             };
             BuildDropdownsForCategory(_moddedToolsPage, "Modded Tools",
                 "Map tools added by other workshop mods.", moddedTools);
@@ -1664,6 +1677,7 @@ namespace PEPCO
                 case EquippedToolType.HandScanner: return "Hand Scanner";
                 case EquippedToolType.BuildInfoMultiTool: return "Build Info Multi Tool";
                 case EquippedToolType.TerrainTool: return "Terrain Tool";
+                case EquippedToolType.RailLinker: return "Rail Linker";
                 default: return type.ToString();
             }
         }

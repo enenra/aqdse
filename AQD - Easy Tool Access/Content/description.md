@@ -14,7 +14,7 @@
 This mod adds the Tool/Weapon Access wheel. It allows for lightning-quick switching between tools and weapons - all on a single hotbar slot.
 
 * Switch between tools and weapons by holding the hotbar key of the wheel down, selecting a tool with your mouse, then letting go of the key.
-* Supports Digi's [Paint Gun](https://steamcommunity.com/sharedfiles/filedetails/?id=500818376), the [BuildInfo measuring tool](https://steamcommunity.com/sharedfiles/filedetails/?id=514062285), the [Concrete Tool](https://steamcommunity.com/sharedfiles/filedetails/?id=396679430), the [Terrain Tool](https://steamcommunity.com/sharedfiles/filedetails/?id=2820001381) and [Binoculars](https://steamcommunity.com/sharedfiles/filedetails/?id=2777644246).
+* Supports Digi's [Paint Gun](https://steamcommunity.com/sharedfiles/filedetails/?id=500818376), the [BuildInfo measuring tool](https://steamcommunity.com/sharedfiles/filedetails/?id=514062285), the [Concrete Tool](https://steamcommunity.com/sharedfiles/filedetails/?id=396679430), the [Terrain Tool](https://steamcommunity.com/sharedfiles/filedetails/?id=2820001381), [Binoculars](https://steamcommunity.com/sharedfiles/filedetails/?id=2777644246) and MagRail's [Rail Linker](https://steamcommunity.com/sharedfiles/filedetails/?id=3824475128).
 * While having a tool slot on the wheel selected, use your mouse's scroll wheel to switch between different tiers of the same tool.
 * Multiple pages of tools are supported and can be accessed via the three dots icon.
 * Automatically recognizes all vanilla tools in your inventory.
