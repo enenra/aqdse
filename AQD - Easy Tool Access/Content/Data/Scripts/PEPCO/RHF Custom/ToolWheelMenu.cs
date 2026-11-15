@@ -102,6 +102,7 @@ namespace PEPCO
         internal static readonly Material MatConcreteTool = new Material("ConcreteToolIcon", new Vector2(256f, 256f));
         internal static readonly Material MatTerrainTool = new Material("ConcreteToolIcon", new Vector2(256f, 256f)); // Reuse the ConcreteToolIcon for the TerrainTool since they look identical
         internal static readonly Material MatBinoculars = new Material("BinocularsIcon", new Vector2(256f, 256f));
+        internal static readonly Material MatRailLinker = new Material("RailLinkerIcon", new Vector2(256f, 256f));
         internal static readonly Material MatHideTool = new Material("HideWeaponIcon", new Vector2(256f, 256f));
         internal static readonly Material MatMultiTool = new Material("BuildInfoMultitoolIcon", new Vector2(256f, 256f));
         internal static readonly Material MatNextPage = new Material("NextPageIcon", new Vector2(256f, 256f));
@@ -270,11 +271,12 @@ namespace PEPCO
                 }
 
                 // 2. For vanilla hand tools and weapons, try to load the icon from the item's definition
-                // But skip this for modded tools (PaintGun, ConcreteTool, TerrainTool, Binoculars)
+                // But skip this for modded tools (PaintGun, ConcreteTool, TerrainTool, Binoculars, RailLinker)
                 bool isModdedTool = subtype.IndexOf("PaintGun", StringComparison.OrdinalIgnoreCase) >= 0
                                  || subtype.IndexOf("ConcreteTool", StringComparison.OrdinalIgnoreCase) >= 0
                                  || subtype.IndexOf("TerrainTool", StringComparison.OrdinalIgnoreCase) >= 0
                                  || subtype.IndexOf("Binoculars", StringComparison.OrdinalIgnoreCase) >= 0
+                                 || subtype.IndexOf("RailLinker", StringComparison.OrdinalIgnoreCase) >= 0
                                  || subtype.IndexOf("BuildInfo", StringComparison.OrdinalIgnoreCase) >= 0;
 
                 if (!isModdedTool)
@@ -298,6 +300,7 @@ namespace PEPCO
                 if (subtype.IndexOf("ConcreteTool", StringComparison.OrdinalIgnoreCase) >= 0) return MatConcreteTool;
                 if (subtype.IndexOf("TerrainTool", StringComparison.OrdinalIgnoreCase) >= 0) return MatTerrainTool;
                 if (subtype.IndexOf("Binoculars", StringComparison.OrdinalIgnoreCase) >= 0) return MatBinoculars;
+                if (subtype.IndexOf("RailLinker", StringComparison.OrdinalIgnoreCase) >= 0) return MatRailLinker;
                 if (subtype.IndexOf("HandDrill", StringComparison.OrdinalIgnoreCase) >= 0 || subtype.IndexOf("Scanner", StringComparison.OrdinalIgnoreCase) >= 0) return ToolWheelMenu.GetIconForType(EasyToolSwap_Session.EquippedToolType.HandScanner);
 
                 // Fallback to the slot's default icon if no text match is found
@@ -536,6 +539,7 @@ namespace PEPCO
                 case EasyToolSwap_Session.EquippedToolType.ConcreteTool: return MatConcreteTool;
                 case EasyToolSwap_Session.EquippedToolType.TerrainTool: return MatTerrainTool;
                 case EasyToolSwap_Session.EquippedToolType.Binoculars: return MatBinoculars;
+                case EasyToolSwap_Session.EquippedToolType.RailLinker: return MatRailLinker;
                 case EasyToolSwap_Session.EquippedToolType.BuildInfoMultiTool: return MatMultiTool;
                 default: return MatHideTool;
             }
